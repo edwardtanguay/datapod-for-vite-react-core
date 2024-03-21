@@ -1,0 +1,50 @@
+** Flashcards
+Category
+Front
+Back
+Pronunciation
+
+==flashcard
+es
+I'm preparing the AWS section
+estaba preparando el apartado de AWS
+
+==flashcard
+es
+concepts listed that you might cover
+conceptos listados que tal vez tratarás
+
+==flashcard
+es
+I ask because I assume that you will deal with them
+te lo pregunto porque supongo que sí los tratarás tu
+
+==flashcard
+es
+it is called a framework, although it is not really a framework
+se le llama framework, aunque no es realmente un framework
+
+==flashcard
+es
+
+
+==flashcard
+es
+
+
+==flashcard
+es
+
+
+==flashcard
+es
+
+
+==flashcard
+es
+
+
+==flashcard
+es
+
+

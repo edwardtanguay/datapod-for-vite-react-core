@@ -1,0 +1,24 @@
+** Videos
+Title
+Url
+Tags
+
+==video
+La Neuvième Symphonie de Beethoven ou comment accéder à la joie ?
+https://youtu.be/U9eMieYcgRk?si=YLU9ZqVSbghpfsa4
+classicalMusic, french, nightListening
+
+==video
+Beethoven vu par Wagner
+https://www.youtube.com/watch?v=k2mFeQBz_Nw
+classicalMusic, french, nightListening
+
+** Video Sources
+Title
+Url
+Tags
+
+==videoSource
+Eric Chaillier
+https://www.youtube.com/@ericchaillier/videos
+classicalMusic, french, nightListening

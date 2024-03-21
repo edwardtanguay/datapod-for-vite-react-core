@@ -1,0 +1,20 @@
+- x planning
+- .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site
+	- x delete all configs
+	- x switch to concurrently
+	- x be able to switch locally
+	- x save wholeNumber and decimal as numbers, not strings
+	- x make a button on datapod welcome page: "Parse site data for edward-tanguay-eu site"
+	- .. read in from edward-tanguay-eu site: site.dpod.txt
+		- enable //
+		- copy manually to .json files
+- (2) display information on edward-tanguay-eu site
+	- Runs page: display all runs, with photos
+	- Fitness page: overview of runs, swims, weight	
+
+- future todos:
+	- read file from etsite, make configurable 
+	- decimal and wholeNumber extend number
+	- be able to put a paragraph field at the end (didn't work)
+
+- test

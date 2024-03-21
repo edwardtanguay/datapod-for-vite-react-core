@@ -1,0 +1,29 @@
+** Links
+Title
+Url
+Tags
+Rank
+
+==link
+convert wav-to-mp3, 20 per day, 5 at a time, bulk downloads
+https://www.freeconvert.com/wav-to-mp3/download
+audio, free
+4.6
+
+==link
+convert wav-to-mp3, 5 at a time
+https://cloudconvert.com/wav-to-mp3k
+audio, free
+4.3
+
+==link
+Nietzsche podcast
+https://www.youtube.com/watch?v=kaGiE_ccy8A
+philosophy
+4.5
+
+==link
+danish numbers
+https://www.youtube.com/watch?v=N4CMetHplf0&t=154s
+nn
+4.1

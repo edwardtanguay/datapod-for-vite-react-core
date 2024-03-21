@@ -1,0 +1,13 @@
+** Persons
+Full Name
+Description
+
+==person
+Kevlin Henny
+
+==person
+André Gide
+
+==person
+Richard P. Gabriel
+"worse is better"
