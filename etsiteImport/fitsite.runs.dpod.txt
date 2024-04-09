@@ -338,3 +338,93 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 
 ]]
 
+==run
+20240226
+7K Lankwitz Loop
+2024-02-26
+7
+00:37:53
+[[
+
+]]
+
+==run
+20240228
+7K Lankwitz Loop
+2024-02-28
+7
+00:35:44
+[[
+
+]]
+
+==run
+20240303
+18K Steglitz to Tierpark plus 5K in park
+2024-03-03
+7
+nn
+[[
+
+]]
+
+==run
+20240305
+7K Lankwitz Loop
+2024-03-05
+7
+00:36:59
+[[
+
+]]
+
+==run
+20240310
+16K Trümmerberg Lichterfelde Loop
+2024-03-10
+16
+nn
+[[
+
+]]
+
+==run
+20240312
+7K Lankwitz Loop
+2024-03-12
+7
+00:36:43
+[[
+
+]]
+
+==run
+20240317
+25K Kreuzberg to Steglitz 
+2024-03-17
+25
+nn
+[[
+first 5K with Karla on bike
+]]
+
+==run
+20240319
+7K Lankwitz Loop
+2024-03-19
+7
+00:35:54
+[[
+
+]]
+
+==run
+20240324
+28K Griebnitzsee-Dreilinden-Kleinmachnow-Steglitz
+2024-03-24
+28
+nn
+[[
+
+]]
+
