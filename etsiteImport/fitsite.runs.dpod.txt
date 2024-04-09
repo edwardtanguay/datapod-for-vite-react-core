@@ -428,3 +428,54 @@ nn
 
 ]]
 
+==run
+20240327
+7K Lankwitz Loop
+2024-03-27
+7
+00:35:47
+[[
+
+]]
+
+==run
+20240329
+7K Lankwitz Loop
+2024-03-29
+7
+00:35:56
+[[
+
+]]
+
+==run
+20240331
+10K Grunewald to Steglity with Gisi
+2024-03-31
+10
+nn
+[[
+
+]]
+
+==run
+20240404
+30K Adlershof-Britz-Steglitz
+2024-04-04
+30
+03:37:51
+[[
+
+]]
+
+==run
+20240408
+7K Lankwitz Loop
+2024-04-08
+7
+00:34:52
+[[
+
+]]
+
+
