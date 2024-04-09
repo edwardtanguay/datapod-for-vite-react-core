@@ -65,6 +65,7 @@ complete
 [[
 
 ]]
+doing
 
 ==run
 20231220run
@@ -75,6 +76,7 @@ complete
 [[
 
 ]]
+doing
 
 ==run
 20231223run
@@ -85,6 +87,7 @@ complete
 [[
 
 ]]
+doing
 
 ==run 
 20240103
@@ -128,6 +131,7 @@ complete
 [[
 
 ]]
+doing
 
 ==run 
 20240126
@@ -180,6 +184,7 @@ complete
 [[
 
 ]]
+doing
 
 ==run 
 20240203
@@ -255,6 +260,7 @@ complete
 [[
 
 ]]
+doing
 
 ==run 
 20240207run
@@ -265,7 +271,7 @@ complete
 [[
 
 ]]
-
+doing
 
 ==run
 20240210
@@ -276,6 +282,7 @@ nn
 [[
 Got out the door about 15:00, first time with short pants, cool and nice running, slow pace with Gisi, lots of mud puddles.
 ]]
+doing
 
 ==run
 20240211
@@ -286,6 +293,7 @@ Got out the door about 15:00, first time with short pants, cool and nice running
 [[
 Felt strong than most runs so far this year.
 ]]
+doing
 
 ==run
 20240213
@@ -296,6 +304,7 @@ Felt strong than most runs so far this year.
 [[
 Got out at 17:00, was dark before finished. Was pushing off strong but at times ran out of energy, but still best time this year for 7K: 39:07.
 ]]
+doing
 
 ==run
 20240215
@@ -306,6 +315,7 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 [[
 	
 ]]
+doing
 
 ==run
 20240219
@@ -316,7 +326,7 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 [[
 
 ]]
-
+doing
 
 ==run
 20240220
@@ -327,6 +337,7 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 [[
 
 ]]
+doing
 
 ==run
 20240223
@@ -337,6 +348,7 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 [[
 
 ]]
+doing
 
 ==run
 20240226
@@ -347,6 +359,7 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 [[
 
 ]]
+doing
 
 ==run
 20240228
@@ -357,6 +370,7 @@ Got out at 17:00, was dark before finished. Was pushing off strong but at times 
 [[
 
 ]]
+doing
 
 ==run
 20240303
@@ -367,6 +381,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240305
@@ -377,6 +392,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240310
@@ -387,6 +403,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240312
@@ -397,6 +414,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240317
@@ -407,6 +425,7 @@ nn
 [[
 first 5K with Karla on bike
 ]]
+doing
 
 ==run
 20240319
@@ -417,6 +436,7 @@ first 5K with Karla on bike
 [[
 
 ]]
+doing
 
 ==run
 20240324
@@ -427,6 +447,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240327
@@ -437,6 +458,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240329
@@ -447,6 +469,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240331
@@ -457,6 +480,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240404
@@ -467,6 +491,7 @@ nn
 [[
 
 ]]
+doing
 
 ==run
 20240408
@@ -477,5 +502,6 @@ nn
 [[
 
 ]]
+doing
 
 
