@@ -82,7 +82,7 @@ doing
 20231223run
 10K Lankwitz Loop
 2023-12-23
-7
+10
 01:05:12
 [[
 
@@ -253,7 +253,7 @@ complete
 
 ==run
 20240205
-7K Lankwitz Loop with Gisi
+7K Lankwitz Loop
 2024-02-05
 7
 00:40:47
@@ -376,7 +376,7 @@ doing
 20240303
 18K Steglitz to Tierpark plus 5K in park
 2024-03-03
-7
+18
 nn
 [[
 
