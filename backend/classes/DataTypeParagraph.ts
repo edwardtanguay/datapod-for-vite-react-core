@@ -9,7 +9,6 @@ export class DataTypeParagraph extends DataType {
 	}
 	
 	public getTextValue() {
-		console.log('THISVALUE', this.value);
 		return this.value ? qstr.convertFromHtml(this.value) : '';
 	}
 

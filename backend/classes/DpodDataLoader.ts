@@ -57,8 +57,6 @@ export class DpodDataLoader {
 			const dpodItems: DpodItem[] = this.dpodItemGroups[key];
 			const jsonDataTexts = [];
 			for (const dpodItem of dpodItems) {
-				console.log('DPODITEM', dpodItem);
-				console.log('JSONDATA', dpodItem.getJsonData());
 				jsonDataTexts.push(dpodItem.getJsonData());
 			}
 			this.jsonData[key] = jsonDataTexts.join(',\n');
