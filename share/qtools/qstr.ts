@@ -10,6 +10,9 @@ export const convertStringBlockToLines = (stringBlock: string, trimLines = true)
 	roughLines = stringBlock.split('\n');
 	if (trimLines) {
 		roughLines = qstr.trimAllLinesInLinesArray(roughLines);
+	} else {
+		// remove at least the ending \r (since not trimming is intended for leaving TABs at the end)
+		roughLines = qstr.trimAllLinesOfSlashRInLinesArray(roughLines);
 	}
 	roughLines = qstr.trimLinesOfEndBlanks(roughLines);
 	return roughLines;
@@ -28,6 +31,17 @@ export const isEmpty = (line: string) => {
 	}
 	line = line.toString();
 	return line.trim() === '';
+}
+
+
+
+export const trimAllLinesOfSlashRInLinesArray = (lines: string[]) => {
+	const newLines: string[] = [];
+	lines.forEach(function (line) {
+		const newLine = qstr.chopRight(line, '\r');
+		newLines.push(newLine);
+	});
+	return newLines;
 }
 
 export const trimAllLinesInLinesArray = (lines: string[]) => {

@@ -57,6 +57,8 @@ export class DpodDataLoader {
 			const dpodItems: DpodItem[] = this.dpodItemGroups[key];
 			const jsonDataTexts = [];
 			for (const dpodItem of dpodItems) {
+				console.log('DPODITEM', dpodItem);
+				console.log('JSONDATA', dpodItem.getJsonData());
 				jsonDataTexts.push(dpodItem.getJsonData());
 			}
 			this.jsonData[key] = jsonDataTexts.join(',\n');
@@ -124,7 +126,6 @@ export class DpodDataLoader {
 
 	private createLines() {
 		this.lines = qstr.convertStringBlockToLines(this.content, false);
-		console.log(this.lines);
 	}
 
 	private createLineBlocks() {

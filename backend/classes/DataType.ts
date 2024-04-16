@@ -34,7 +34,9 @@ export class DataType {
 	}
 
 	public getJsonDataLine() {
-		return `\t"${this.idCode}": "${this.getTextValue()}"`;
+		// return `\t"${this.idCode}": "${this.getTextValue()}"`;
+		const theValue = qstr.replaceAll(this.getTextValue(), '\t', '\\t');
+		return `\t"${this.idCode}": "${theValue}"`;
 	}
 
 	public getDatapodDataLine() {
