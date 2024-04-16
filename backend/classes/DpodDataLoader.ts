@@ -123,7 +123,8 @@ export class DpodDataLoader {
 	}
 
 	private createLines() {
-		this.lines = qstr.convertStringBlockToLines(this.content);
+		this.lines = qstr.convertStringBlockToLines(this.content, false);
+		console.log(this.lines);
 	}
 
 	private createLineBlocks() {

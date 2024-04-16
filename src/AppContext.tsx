@@ -23,6 +23,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	useEffect(() => {
 		(async () => {
 			const _appData = await AppModel.getAppData();
+			console.log(_appData);
 			setAppData(_appData);
 		})();
 	}, []);
