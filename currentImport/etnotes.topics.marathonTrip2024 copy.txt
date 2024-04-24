@@ -4,8 +4,10 @@ Marathon Trip 2024
 [[
 - before
 	- get Danish krone##dandcrook
+- pack
+	- laptop: fb, slack, payp, etnotes
 - **Fri 2024-05-03**
-	- 08:55 leave Berlin
+	- 06:28 leave Berlin
 	- 13:34 arrive Copenhagen
 	- 12:00-19:00 Sparta Hall - pick up race number
 - **Sat 2024-05-04**
