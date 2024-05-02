@@ -54,7 +54,7 @@ This was the first run of my winter running, the first time that I wore my bodyl
 
 ##lankkkback
 ]]
-complete
+finished
 
 ==run
 20231218run
@@ -120,7 +120,7 @@ Wanted to run off some fat from the Christmas holidays, so at 4:30 decided to ta
 
 ##33watch
 ]]
-complete
+finished
 
 ==run 
 20240122
@@ -172,7 +172,7 @@ Felt better last run on Monday, today was Friday a day after power gymnastics so
 
 ##fffwatch
 ]]
-complete
+finished
 
 
 ==run 
@@ -249,7 +249,7 @@ This was my first run of February and first 10K this year, finished under an hou
 
 ##undtimesadf
 ]]
-complete
+finished
 
 ==run
 20240205
@@ -555,7 +555,7 @@ doing
 38
 05:30:00
 [[
-This was my last long training run before the Copenhagen Marathon in two weeks. It was a unique run because while the temperature was between 2 and 5 degress celcius, the weather was extremely sunny. These pictures do not communicate the fresh, cold air which was more refreshing than any kind of hinderance. Wore my long running pants and running jacket (on April 21!). Our DCI run is Wednesday and should be 9°C at 18:00 partly cloudy so perfect running weather. I want to beat last year's time of 29:09 for 5.5K, my fastest time was 26:24, so hopefully I'll get somewhere between those two. 
+This was my last suoer-long training run before the Copenhagen Marathon in two weeks. It was a unique run because while the temperature was between 2 and 5 degress celcius, the weather was extremely sunny. These pictures do not communicate the fresh, cold air which was more refreshing than any kind of hinderance. Wore my long running pants and running jacket (on April 21!). Our DCI run is Wednesday and should be 9°C at 18:00 partly cloudy so perfect running weather. I want to beat last year's time of 29:09 for 5.5K, my fastest time was 26:24, so hopefully I'll get somewhere between those two. 
 
 ##thirsun
 
@@ -739,6 +739,66 @@ This was my last long training run before the Copenhagen Marathon in two weeks. 
 
 ##thirhome
 ]]
-doing
+finished
 
+==run
+20240424
+5.5K DCI Firmenlauf
+2024-04-24
+5
+00:25:40
+[[
+The number of runners was significantly higher this year than last. I was lucky enough to be able to run with Daniel who was kind enough to set as a goal to pace a 5:00 per kilometer with anyone who wanted to run that speed. Katja stayed with us for about a kilometer but after that it was Daniel and I weaving in and out of the runners, on and off trail, but staying pretty much parallel to each other. I definitely wouldn't have run so fast if I hadn't been paced so professionally, running my lungs out for the two final stretches to more or less keep in stride with Daniel. I got my time down under last year so was glad for that. After that, a fun group dinner and drinks at Amrit on Potsdamer Platz.
+
+##dcfinalscore
+
+##dchome
+
+##dcsky
+
+##dctrain
+
+##dcgroup
+
+##dclegs
+
+##dcadlon
+
+##dcmax
+
+##dcsun
+
+##dcallgroup
+
+##dcfeet
+
+##dcgoing
+
+##dcwall
+
+##dccrowd
+
+##dcboth
+
+##dcallgo
+
+##dcfollow
+
+##dcparis
+
+##dcleans
+
+##dcoff
+
+##dcfinal
+
+##dcpeek
+
+##dcalmo
+
+##dctimes
+
+##dcdinner
+]]
+doing
 
