@@ -1,0 +1,42 @@
+** Flashcards
+Language
+Front
+Back
+Rank
+
+==flashcard
+nl
+where you sometimes
+waarop je soms
+4.3
+
+==flashcard
+nl
+PR. meervoud
+MEER-fowd (sounds like "beer crowd", means "plural"), enkelvoudig en meervoud
+3.9
+
+==flashcard
+nl
+comfortable
+makkelijk
+
+==flashcard
+nl
+several combinations are possible
+er zijn meerdere combinaties [kom-bih-NAH-tsees] mogelijk
+4.1
+
+==flashcard
+nl
+it looks like it
+het liikt erop
+4.6
+
+==flashcard
+nl
+PR. sneeuw
+SNAY-oo
+
+
+
