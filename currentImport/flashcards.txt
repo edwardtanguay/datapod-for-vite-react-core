@@ -20,6 +20,7 @@ MEER-fowd (sounds like "beer crowd", means "plural"), enkelvoudig en meervoud
 nl
 comfortable
 makkelijk
+3.5
 
 ==flashcard
 nl
@@ -37,6 +38,7 @@ het liikt erop
 nl
 PR. sneeuw
 SNAY-oo
+3.5
 
 
 
