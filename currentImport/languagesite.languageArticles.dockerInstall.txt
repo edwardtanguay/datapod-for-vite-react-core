@@ -1,0 +1,232 @@
+==languageArticle
+nl
+Docker installeren op Ubuntu (4 eenvoudige manieren)
+https://kinsta.com/nl/blog/docker-ubuntu-installeren
+[[
+Docker is een populaire tool voor het ontwikkelen en deployen van software in pakketten, containers genaamd. Ubuntu is daarbij een van de populairste Linux distributies en is een besturingssysteem dat goed ondersteund wordt door Docker.
+
+Door Docker op Ubuntu te installeren creëer je een ideaal platform voor je ontwikkelingsprojecten, met behulp van lichtgewicht virtuele machines die de kernel van het besturingssysteem van Ubuntu delen. Deze tutorial helpt je op weg door 4 manieren uit te leggen om dat voor elkaar te krijgen.
+Meer over Docker
+
+Docker maakt applicaties draagbaar doordat je ze op elke Docker host kan bouwen en draaien. Een container image kan zonder aanpassingen overal gebruikt worden waar Docker beschikbaar is – van je laptop tot de cloud. Dit vereenvoudigt de ontwikkelaarservaring door verschillen tussen runtime omgevingen weg te nemen. Het containerformat is ook gemakkelijk te distribueren over meerdere fysieke machines, zodat je gemakkelijk applicaties kunt schalen in reactie op de veranderende vraag.
+
+Docker bevat alles wat je nodig hebt om container images te bouwen en te draaien, of ze nu afkomstig zijn van Docker Hub en andere openbare registers, of van je eigen Dockerfiles.
+Voorbereidingen treffen om Docker op Ubuntu te installeren
+
+Je kunt de nieuwste Docker release installeren op Ubuntu versies 18.04, 20.04, 21.10 en 22.04. De x64_64/AMD64, ARMhf, ARM64 en S390x architecturen worden ondersteund.
+
+Er zijn verschillende manieren waarop je Docker kunt installeren, en je keuze hangt af van de functionaliteit die je nodig hebt en je voorkeursbenadering van pakketbeheer. Je leert alle mogelijke opties in deze handleiding.
+Een Docker versie kiezen
+
+Docker op Linux was van oudsher alleen beschikbaar via de terminal. Een werkende installatie bestaat uit Docker Engine, een daemon die je containers draait, en de docker command-line interface (CLI) voor interactie met de daemon.
+
+Docker Desktop is een alternatieve manier om Docker te gebruiken. Historisch alleen beschikbaar op Windows en Mac, werd het in mei 2022 gelanceerd voor Linux. Docker Desktop op Ubuntu vereist een AMD64 processor en ofwel Ubuntu 21.10 of 22.04. Het biedt een grafische interface voor het beheer van je containers, een geïntegreerd Kubernetes cluster en ondersteuning voor externe extensies. Docker Desktop geeft je ook de docker en Docker Compose CLI’s.
+
+Docker Desktop is anders dan Docker Engine omdat het een virtuele machine gebruikt om je containers te draaien (daarom is Docker Desktop nodig voor Windows en MacOS gebruikers). Hoewel het mogelijk is om beide smaken naast elkaar te gebruiken op Ubuntu, kun je conflicten vinden tussen docker CLI versies. Het beste is om er een te kiezen en je daaraan te houden. Kies Docker Engine als je je comfortabel voelt in je terminal en de beste ondersteuning en prestaties wilt. De VM van Docker Desktop maakt het iets zwaarder, maar is de betere keuze als je een geïntegreerde UI wilt of van plan bent Kubernetes te gebruiken.
+Docker Engine installeren op Ubuntu
+
+Docker Engine is de standaard manier om Docker op Ubuntu te draaien. Het werkt met alle ondersteunde versies en omgevingen, van een lokale Ubuntu Desktop machine tot je Ubuntu Server cloud host. Zorg ervoor dat je een Ubuntu release draait die 18.04 of nieuwer is voordat je verder gaat.
+
+Docker Engine heeft 3 verschillende installatiemethoden:
+
+    Een officiële Ubuntu apt repository
+    Een standalone Debian pakket (.deb)
+    Een geautomatiseerd installatiescript
+
+Optie 1, de Ubuntu apt repository, wordt het meest gebruikt. Het voegt Docker toe aan je pakketlijst zodat je eenvoudig toekomstige updates kunt installeren door apt upgrade uit te voeren. Optie 2 ondersteunt geen geautomatiseerde updates, maar is ideaal om Docker te installeren op air-gapped offline systemen. Het automatische installatiescript is de eenvoudigste methode om aan de slag te gaan, maar is alleen geconfigureerd voor ontwikkelingsgebruik. Docker raadt af het te gebruiken in productieomgevingen.
+
+Gebruik de apt repository als je met een productiesysteem werkt, eenvoudige updates wilt, of in alle omgevingen hetzelfde mechanisme wilt gebruiken.
+
+Gebruik het geautomatiseerde installatiescript als je een snelle installatie wilt terwijl je experimenteert met Docker op je eigen machine.
+1. Docker installeren met behulp van de apt repository
+
+Docker publiceert pakketten in zijn eigen apt repository. Je moet deze repository toevoegen aan je apt resource lijst, anders kan je apt installatie de Docker pakketten niet vinden.
+
+Begin met het bijwerken van je bestaande pakketlijst en het installeren van enkele dependencies voor de volgende stappen. De ca-certificates, curl, gnupg, en lsb_release tools worden gebruikt om de juiste Docker apt repository details en de signing key voor jouw systeem te downloaden. Hoewel je deze pakketten waarschijnlijk al hebt, kan het geen kwaad om ervoor te zorgen dat ze beschikbaar zijn.
+
+$ sudo apt update
+$ sudo apt install ca-certificates curl gnupg lsb-release
+
+Registreer vervolgens de GPG keyring van Docker bij apt. Dit laat apt de Docker pakketten die je installeert valideren.
+
+$ sudo mkdir -p /etc/apt/keyrings
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+$ sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+Het curl commando downloadt Docker’s GPG key voor Ubuntu, converteert hem terug naar standaard OpenGPG codering, en slaat hem op in apt’s keyring directory. chmod wordt gebruikt om de rechten op het keyring bestand in te stellen zodat apt hem betrouwbaar detecteert.
+
+Nu kun je de Docker package source aan je systeem toevoegen. Voer het volgende commando uit:
+
+$ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+Dit gebruikt shellsubstitutie om automatisch de architectuur van je systeem te detecteren, zoals AMD64 of ARM64, en de juiste pakketlijst te downloaden. Deze wordt geverifieerd met behulp van de eerder toegevoegde GPG sleutel. De repository wordt toegevoegd als een nieuwe pakketlijst binnen de apt /etc/apt/sources.list.d directory.
+
+Werk je pakketlijsten opnieuw bij zodat apt weet dat de Docker pakketten bestaan:
+
+$ sudo apt update
+
+Nu kun je het commando apt install gebruiken om de componenten van Docker aan je systeem toe te voegen. Je installeert de nieuwste versie van Docker Community Edition (CE). Er zijn drie pakketten te installeren:
+
+    docker-ce: de Docker Engine daemon.
+    docker-ce-cli: de Docker CLI waarmee je zult communiceren.
+    containerd.io: de container runtime bekend als containerd die je containers start en draait.
+
+$ sudo apt install docker-ce docker-ce-cli containerd.io
+
+2. Docker installeren met het Debian pakket
+
+Het officiële .deb pakket is eenvoudig in te stellen, maar je zult elke nieuwe release handmatig moeten downloaden en installeren. Pakketten worden gehost op een eenvoudige bestandsserver. Navigeer eerst naar de release notes pagina van Docker om het laatste beschikbare versienummer te vinden, zoals 20.10.20. Ga vervolgens naar de GitHub pagina van containerd om ook zijn versienummer te controleren. Het zal er uitzien als 1.6.8.
+
+Nu kun je de volgende reeks commando’s uitvoeren om de juiste set pakketten voor jouw platform te downloaden. Vervang <DOCKER_VERSION> en <CONTAINERD_VERSION> door respectievelijk de huidige Docker en containerd versienummers.
+
+$ curl https://download.docker.com/linux/ubuntu/dists/$(lsb_release --codename | cut -f2)/pool/stable/$(dpkg --print-architecture)/docker-ce_<DOCKER_VERSION>~3-0~ubuntu-focal_amd64.deb -o docker-ce.deb
+$ curl https://download.docker.com/linux/ubuntu/dists/$(lsb_release --codename | cut -f2)/pool/stable/$(dpkg --print-architecture)/docker-ce-cli_<DOCKER_VERSION>~3-0~ubuntu-focal_amd64.deb -o docker-ce-cli.deb
+$ curl https://download.docker.com/linux/ubuntu/dists/$(lsb_release --codename | cut -f2)/pool/stable/$(dpkg --print-architecture)/containerd.io_<CONTAINERD_VERISON>-1_amd64.deb -o containerd.deb
+
+Je kunt de bestanden ook downloaden en alle beschikbare releases inspecteren door de directory listing voor jouw Ubuntu versie in je browser te bezoeken.
+
+Als je eenmaal de Docker CE, CLI en containerd pakketten hebt gedownload, gebruik dan het volgende commando om ze te installeren:
+
+$ sudo apt install ./docker-ce.deb ./docker-ce-cli.deb ./containerd.deb
+
+Pas de bestandsnamen aan als je de pakketten handmatig hebt gedownload zonder het bovenstaande script te gebruiken.
+3. Docker installeren met behulp van het installatiescript
+
+Het convenience script van Docker automatiseert de installatie van alle Docker componenten. Het is niet-interactief, dus je kunt achterover leunen en wachten terwijl je systeem voor je wordt voorbereid.
+
+Download eerst het script:
+
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+
+Voer nu het script uit met rootrechten:
+
+$ sudo sh get-docker.sh
+Executing docker install script
+...
+
+Wacht tot het script voltooid is. Je zou een bevestigingsbericht moeten zien waaruit blijkt dat Docker is geïnstalleerd.
+
+Het script is bedoeld als een one-size-fits-all oplossing. Je kunt niet aanpassen wat het doet zonder de broncode van het script direct aan te passen. Het is ook niet ontworpen om Docker updates uit te voeren, omdat het de dependencies niet naar hun laatste versie brengt.
+Ervoor zorgen dat Docker Engine werkt op Ubuntu
+
+Welke installatiemethode je ook gebruikt hebt, je moet ervoor zorgen dat alles werkt door een container te starten:
+
+$ sudo docker run hello-world
+
+Je zult zien dat de Docker client de hello-world:image naar je machine haalt, vanuit de Docker Hub repository:
+
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete
+Digest: sha256:7d246653d0511db2a6b2e0436cfd0e52ac8c066000264b3ce63331ac66dca625
+Status: Downloaded newer image for hello-world:latest
+
+Een nieuwe container wordt dan automatisch gestart. Het “hello-world” startimage is geconfigureerd om een eenvoudig commando uit te voeren dat wat basisinformatie over Docker geeft en dan onmiddellijk afsluit:
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+ (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+ executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+ to your terminal.
+
+Het zien van de hierboven getoonde uitvoer betekent dat Docker klaar is voor gebruik. De daemon heeft met succes de hello-world:latest image van Docker Hub gehaald, en een container ermee gestart. Alles vanaf de regel “Hello from Docker” werd uitgezonden door het proces in de container.
+Docker Engine rechten instellen op Ubuntu
+
+Een verse Docker Engine installatie vereist meestal rootrechten om docker CLI commando’s uit te voeren. Je moet elk commando vooraf laten gaan door sudo, wat onhandig is.
+
+Je kunt deze eis vermijden door jezelf toe te voegen aan de docker groep nadat je Docker Engine hebt geïnstalleerd met de bovenstaande stappen. Deze optionele wijziging geeft je de rechten om docker commando’s uit te voeren als een gewone gebruiker, zonder sudo, wat je CLI ervaring vereenvoudigt.
+
+Zorg ervoor dat de docker gebruikersgroep bestaat:
+
+$ sudo groupadd docker
+
+Voeg jezelf er dan aan toe:
+
+$ sudo usermod -aG docker $USER
+
+Als je eerder een commando docker hebt uitgevoerd met sudo, moet je de machtigingen op je ~/.docker map vastzetten:
+
+$ sudo chown $USER:$USER /home/$USER/.docker -R
+$ sudo chmod g+rwx $HOME/.docker -R
+
+Dit zorgt ervoor dat je eigen gebruikersaccount bestanden in de map mag lezen en schrijven.
+
+Log uit en weer in zodat je nieuwe groepslidmaatschap van kracht wordt. Probeer een docker commando uit te voeren zonder sudo:
+
+$ docker run hello-world
+
+Deze post-installatie stap voltooit het Docker op Ubuntu installatieproces. De daemon is al geconfigureerd om automatisch te starten, zodat je niet handmatig een service hoeft in te stellen. Als je een geavanceerde installatie plant, raadpleeg dan de Docker gebruikershandleiding voor instructies over het configureren van aangepaste netwerken, logging en volume opslagbeheer.
+Docker Compose toevoegen aan je Ubuntu installatie
+
+Docker Compose is een populaire Docker companion tool die het gemakkelijker maakt om te werken met applicaties die meerdere containers gebruiken. Waar de docker CLI zich met elk commando slechts op één container richt, kan docker compose met elke actie meerdere containers starten en stoppen. Dit vereenvoudigt het beheer van systemen met afzonderlijke frontend, backend en databasediensten.
+
+Docker Compose is nu beschikbaar als onderdeel van de docker CLI. De Compose V2 plugin wordt meegeleverd als je het officiële installatiescript gebruikt om Docker te installeren. Hij is ook beschikbaar in apt als je die methode hebt gebruikt:
+
+$ sudo apt install docker-compose-plugin
+
+Als alternatief kun je het nieuwste .deb archief downloaden en het handmatig installeren:
+
+$ curl https://download.docker.com/linux/ubuntu/dists/$(lsb_release --codename | cut -f2)/pool/stable/$(dpkg --print-architecture)/docker-compose-plugin_2.6.0~ubuntu-focal_amd64.deb -o docker-compose-plugin.deb
+$ sudo apt install -i ./docker-compose-plugin.deb
+
+Controleer of Compose werkt door het commando docker compose version te proberen:
+
+$ docker compose version
+Docker Compose version v2.6.0
+
+Docker Desktop installeren op Ubuntu
+
+Terwijl Docker Engine beperkt is tot een CLI-only ervaring, biedt Docker Desktop een grafische beheerinterface, ingebouwde Kubernetes ondersteuning en optionele externe extensies die je container workflows kunnen helpen vereenvoudigen. Het is een prima keuze als je gebruiksgemak zoekt op je eigen werkstation.
+
+Om Docker Desktop te installeren, installeer je eerst enkele dependencies met behulp van apt:
+
+$ sudo apt update
+$ sudo apt install ca-certificates curl gnupg lsb-release
+
+Voer vervolgens de volgende reeks commando’s uit om Docker’s apt repository toe te voegen. Hoewel Docker Desktop niet is opgenomen in de repository, wordt er in het Debian archief van Desktop als dependencies naar de pakketten in de repository verwezen.
+
+$ sudo mkdir -p /etc/apt/keyrings
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+$ sudo chmod a+r /etc/apt/keyrings/docker.gpg
+$ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+$ sudo apt update
+
+Het curl commando downloadt Docker’s GPG sleutel voor Ubuntu, converteert deze terug naar standaard OpenGPG codering en slaat deze op in de apt keyring directory. chmod wordt gebruikt om de rechten op het sleutelring bestand in te stellen zodat apt het betrouwbaar detecteert.
+
+Download het Docker Desktop Debian archief van de link in de documentatie. Dit levert de laatste stabiele release van Docker Desktop voor Linux. Gebruik apt om het pakket te installeren, waarbij je het versienummer dat je hebt gedownload vervangt:
+
+$ sudo apt install ./docker-desktop-4.11.0-amd64.deb
+
+Docker Desktop zal nu verschijnen in je app launcher. Gebruik je launcher om Docker Desktop te starten en de UI te openen. Je zult ook de commando’s docker, docker compose, en kubectl in je terminal kunnen uitvoeren. De applicatie voegt ook een menu toe aan je shell tray dat de huidige Docker Desktop status toont en je enkele snelle acties laat uitvoeren.
+
+De eerste keer dat je Docker Desktop start, wordt je gevraagd een serviceovereenkomst te accepteren. Druk op de knop Accept als je akkoord gaat, en wacht terwijl Docker Desktop zijn virtuele machine opstart.
+
+Na enkele ogenblikken wordt het dashboard geladen. Het biedt snelkoppelingen om nieuwe containers te maken van populaire images, zodat lange terminalcommando’s vermeden worden.
+Screenshot van Docker Desktop op Ubuntu.
+Docker Desktop geïnstalleerd op Ubuntu.
+DevKinsta: Docker Desktop voor WordPress
+
+Gespecialiseerde oplossingen gebouwd bovenop het fundament van Docker bieden een nog eenvoudigere ervaring voor specifieke technologieën. DevKinsta is een gratis lokaal ontwikkelprogramma voor het bouwen van WordPress thema’s en plugins dat Docker gebruikt om je WordPress sites volledig te isoleren en te beveiligen. Het maakt het snel en eenvoudig om een nieuw WordPress project te starten en aan te passen zonder zelf servers op te zetten. Zodra je klaar bent, kun je direct naar het Kinsta platform pushen om je live site te deployen.
+
+Je kunt DevKinsta installeren op MacOS, Windows en Ubuntu.
+Samenvatting
+
+Docker is de manier waarop de meeste developers beginnen met het gebruik van containers. Je kunt Docker eenvoudig installeren op je Ubuntu systeem, als Docker Engine of de nieuwe Docker Desktop. Als je Docker eenmaal geïnstalleerd hebt, ben je volledig uitgerust om containers te bouwen en te draaien, zodat je ontwikkeling kunt vereenvoudigen en verschillen tussen omgevingen kunt verminderen.
+
+Als je WordPress thema’s en plugins ontwikkelt, kan DevKinsta het creëren van een lokale ontwikkelomgeving en het deployen van je site vereenvoudigen.
+
+Zet al je applicaties, databases en WordPress site online en onder één dak. Ons uitgebreide, krachtige cloudplatform boordevol features omvat:
+
+    Eenvoudige installatie en beheer in het MyKinsta-dashboard
+    24/7 deskundige ondersteuning
+    De beste Google Cloud Platform-hardware met bijbehorend premium netwerk, mogelijk gemaakt door Kubernetes voor maximale schaalbaarheid
+    Enterprise-niveau Cloudflare-integratie voor snelheid en veiligheid
+    Wereldwijd bereik met tot wel 37 datacenters en wereldwijde 260 PoP’s
+
+Ga aan de slag met een gratis proefperiode van onze Applicatie Hosting of Database Hosting. Verken onze pakketten of neem contact op met sales om vast te stellen wat het beste bij je past.
+]]

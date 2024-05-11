@@ -1,0 +1,217 @@
+==languageArticle
+nl
+Top 3 Svelte statische sitegenerators voor maximale prestaties
+https://kinsta.com/nl/blog/svelte-statische-site-generator
+[[
+De laatste jaren zijn statische site generators (SSG’s) sterk in opkomst bij developers [vanwege hun eenvoud;because of their simplicity], snelheid en [veiligheidsvoordelen;safety benefits]. Ze worden [vaak gebruikt; often used] voor blogs, documentatie, portfolio’s en e-commercesites.
+
+In dit artikel bekijken we [verschillende;various] statische sitegenerators die gebruik maken van Svelte en bespreken we waarom ze een gamechanger kunnen zijn voor je volgende webontwikkelingsprojecten.
+
+vocab: videogids; video guides
+
+# Wat is een Svelte statische sitegenerator?
+
+Een statische sitegenerator is een tool dat een website genereert die bestaat uit statische HTML, CSS en [JavaScript bestanden; JavaScript files].
+
+Svelte is een modern JavaScript framework dat onder developers {veel;fail} [aandacht; attention] heeft gekregen vanwege zijn [unieke benadering;unique approach] van het {bouwen;BOW-eh} van webapplicaties.
+
+[Het verschilt van; it differs from] andere JavaScript frameworks [zoals React; such as React] en Vue omdat het code compileert [tijdens het bouwen; at build time] [in plaats van; rather than] [tijdens de runtime; at runtime].
+
+compare: [mogelijk;possible/MOH-*eh-lik], [moeilijk;difficult/MOO-ih-lik], [gemakkelijk;easy]
+vocab: [je moet een globale beheerder zijn om deze informatie bij te werke;you must be a global admin to update this information]
+
+[Zoals je je kunt voorstellen; As you can imagine], genereert een statische site generator die Svelte gebruikt alle benodigde HTML, CSS en JavaScript bestanden tijdens het bouwen – dit maakt het voor developers [mogelijk;possible/MOH-*eh-lik] om snelle en efficiënte websites te maken die [gemakkelijk;easy] te [onderhouden;maintain/OHN-der-HOW-deh] en [bij te werken zijn; can be updated].
+
+# Voordelen en use cases van statische sitegenerators die Svelte gebruiken
+
+pronounce: {belangriktste; bay-LANG-righk-steh]
+
+Er zijn [verschillende redenen; different reasons] waarom developers een Svelte {SSG;ess-ess-*ey] [gebruiken;*eh-BROW-keh] voor hun webontwikkelingsprojecten. Hier zijn [enkele van de belangrijkste voordelen; some of the most important benefits]:
+
+vocab: [waardoor; as a result of which]
+pronounce: {keuze; KÖH-zeh}
+pronounce: {gevoelige; *eh-VOO-lih-*eh}
+link: [hun vs. hen; use hen for "them" as direct objects in formal register, hun for everything else;https://understandingdutch.com/difference-between-hun-and-hen]
+
+- Snelheid: omdat er geen server nodig is om on the fly pagina’s te genereren, kunnen statische sites [vrijwel direct geladen worden; be loaded almost immediately] – [vooral voor;especially for] sites als e-commerce of nieuwswebsites.
+- [Beveiliging;Security]: er is geen database {of;OHF} serverside code die gehackt kan worden, [waardoor het een goede keuze is; which is why it's a good choice] voor sites die [gevoelige gegevens; sensitive data] of transacties verwerken.
+- [Schaalbaarheid;Scalability]: omdat er geen serverside code is, zijn er [geen knelpunten of beperkingen;no bottlenecks or limitations] om je zorgen over te maken.
+- [Ervaring;Experience/er-FAHR-ing] voor developers: met features als hot module reloading, serverside rendering en automatische code splitsing – is het voor developers {gemakkelijker;*eh-MAH-keh-lik-er] om [hun sites;their sites] te bouwen, te testen en te deployen.
+
+# Use cases voor Svelte statische sitegenerators
+
+Svelte SSG’s kunnen worden gebruikt voor [een breed scala;a wide range] aan webontwikkelingsprojecten. Hier zijn enkele use cases met {specifieke;spay-see-FEE-kah} [voorbeelden;examples]:
+
+- {Persoonlijke;pair-SOHN-lik-eh] blogs: SSG’s {zoals;zoh-ALS} SvelteKit en Elder.js zijn [geweldig; amazing] voor het bouwen van persoonlijke blogs. Ze bieden ingebouwde [ondersteuning;support/OHN-der-STÖ-ning] voor markdown en code syntax highlighting, [waardoor het gemakkelijk is om blogberichten te maken; making it easy to create blog posts] en te publiceren.
+- [Zakelijke websites; Commerical websites/ZAH-keh-lik-eh]: Astro is zeer geschikt voor het bouwen van zakelijke websites, [omdat het features biedt als serverside rendering; because it offeres features such as server side rendering], automatische pagina generatie en dynamische routes.
+- E-commercesites: Svelte SSG’s kunnen worden gebruikt om snelle en efficiënte e-commercesites te bouwen omdat het een [geweldige gebruikerservaring; great user experience] biedt.
+- Documentatiesites: Svelte SSG’s zijn ook ideaal voor het bouwen van documentatiesites.
+- Interactieve webapplicaties: met Astro kun je interactieve webapplicaties bouwen.
+
+# Top 3 Svelte statische sitegenerators
+
+[Voordat we; Before we] enkele van deze statische site generators bespreken, moet je begrijpen dat SSG’s altijd statische bestanden genereren, die je online moet hosten om je gebruikers toegang te geven [tot de website;to the website].
+
+Laten we nu enkele beste statische sitegenerators bespreken die Svelte {gebruiken;*eh-BROW-keh} en [wat hen onderscheidt; what set's them apart].
+
+# 1. SvelteKit
+
+SvelteKit is een populaire SSG [die is gebouwd bovenop het Svelte framework;that is built on top of the Svelte frameowrk] en gebruikmaakt van de unieke features van Svelte, zoals:
+
+- [Compiler gebaseerde aanpak; Compiler-based approach]
+- Reactieve updates
+- Op componenten gebaseerde architectuur
+- Kleinere bundelgroottes
+- Gemakkelijk te leren
+
+[Het is gebouwd door het Svelte team; It is built by the Svelte team] en wordt [algemeen beschouwd als; generally regarded as] een van de beste SSG’s die Svelte gebruiken om de volgende redenen:
+
+vocab: [inzendingen; submissions]
+
+- SvelteKit heeft ingebouwde serverloze {functies;FOON-seez}, waardoor je gemakkelijk backendfunctionaliteit aan je website kunt {toevoegen; TOO-foo-*ah}. [Je zou; You could] bijvoorbeeld een serverloze {functie;FOONK-see} kunnen gebruiken om [formulierinzendingen; form submissions] af te handelen, [betalingen te verwerken; to process payments], of {interactie;in-ter-AHK-see} met een database.
+- SvelteKit splitst je applicatie automatisch in code, wat betekent [dat het alleen de code laadt die nodig is voor elke pagina; that it only loads the code needed for each page]. Dit resulteert in snellere laadtijden en [betere prestaties; better performances].
+- SvelteKit [kan gegevens voor een pagina vooraf ophalen voordat hij wordt geladen; kan gegevens voor een pagina vooraf ophalen voordat hij wordt geladen], wat betekent dat de {pagina;PAH-*ee-nah} sneller kan worden gerenderd.
+- SvelteKit [bevat ingebouwde routing; includes built-in routing], wat het gemakkelijk maakt om complexe {applicaties;ah-plih-KAHT-seez} met meerdere pagina’s te maken.
+
+SvelteKit wordt {*eh-BROWKT, sounds like "gebraucht"} door veel populaire websites, waaronder Yarn en Brilliant. Als je op zoek bent naar een Svelte SSG, dan is SvelteKit [zeker het proberen waard; definitely worth a try]. Bekijk zeker hun officiële documentatie die [uitgebreide documentatie; extensive documentation] biedt over [hoe je aan de slag kunt gaan;how you can get started] en meer.
+
+# Zo deploy je een SvelteKit statische site op Kinsta
+
+Je kunt een SvelteKit statische site [opzetten;to set up] op Kinsta door de SvelteKit SSG adapter te gebruiken. Dit doe je door eerst de adapter te installeren met dit commando:
+
+[Voeg vervolgens de adapter toe aan je; Then add the adapter to your] svelte.config.js:
+
+Voeg tot slot de prerender {optie;OHP-see] toe aan je root layout:
+
+# 2. Astro
+
+pronounce: {uitstekende keuze; out-STAY-ken-deh KÖH-zeh}
+
+Astro is een moderne statische sitegenerator die een flexibele en efficiënte manier biedt om statische websites te bouwen. Het is [ontworpen om snel;designed to be fast / OHNT-vor-pen], licht en gemakkelijk te gebruiken, [waardoor het een uitstekende keuze is voor developers; making it an excellent choice for developers] die [krachtige;powerful] en gemakkelijk te [onderhouden;maintain] websites willen bouwen.
+
+Astro is ontworpen rond een component gedreven ontwikkelingsmodel, wat het gemakkelijk maakt om [herbruikbare;reusable / hair-BROWK-bar-eh] componenten te maken en hun state en [gegevensstroom te beheren;manage data flow]. Je hebt ook de mogelijkheid om je favoriete frontendframeworks zoals Svelte, React en Vue te gebruiken om componenten te maken die je gemakkelijk kunt integreren in Astro pagina’s en templates.
+
+Het maakt ook gebruik van de Islandarchitectuur, [een unieke aanpak;a unique approach] die pagina’s en componenten [scheidt;separates] in geïsoleerde “islands” van code (CSS, JavaScript en HTML).
+
+Astro [geeft je ook toegang;also gives you access] tot veel integraties, zoals:
+
+    MDX integratie
+    Integratie van [afbeeldingsoptimalisatie;image optimization]
+    Tailwind integratie
+    Sitemap integratie
+
+Astro wordt gebruikt door veel populaire websites zoals The Guardian Engineering. Je kunt andere populaire platforms die ze gebruiken bekijken op hun showcase {pagina;PAH-*ee-nah].
+
+De documentatie voor Astro [geeft gedetailleerde informatie;provides detailed information] over het gebruik van het framework, inclusief de integratie met het Svelte framework.
+
+# Zo deploy je een Astro statische site op Kinsta
+
+Je kunt {eenvoudig een; ayn-FOW-di* un, rhymes with "COW"} Astro website opzetten door Kinsta’s hello-world quickstart voorbeeld te forken op GitHub en het vervolgens te deployen naar Kinsta’s Statische Site Hosting.
+
+3. Elder.js
+
+pronounce: {op te lossen; OHP tah LOH-sen}
+pronounce: {toonaangevende; tohn-ahn-*AY-ven-deh]
+vocab: [toonaangevende sites; leading sites]
+
+Elder.js is een statische sitegenerator, gebouwd [met SEO in het achterhoofd; with SEO in mind]. Een klein team van SEO’ers en developers [heeft het van de grond af aan ontworpen;designed it from the ground up] om de unieke [uitdagingen;challenges / OW-dah-*ing-ah] en complexiteiten [op te lossen van het bouwen van toonaangevende SEO sites; to solve the problem of building leading SEO sites] met 100k+ pagina’s.
+
+Een van de [belangrijkste features; most important features] van Elder.js is de mogelijkheid [om naadloos samen te werken met Svelte; to work seemlessly with Svelte], waardoor developers de mogelijkheid hebben om herbruikbare UI componenten te maken en die voor meerdere pagina’s [of zelfs projecten;or even projects] te gebruiken.
+
+conjugate: hebben/present; heb, hebt, heeft, hebben, hebben, hebben
+conjugate: hebben/past; had, had, had, hadden, hadden, hadden
+
+[Naast de integratie; In addition to the integration] met Svelte heeft Elder.js nog andere interessante features:
+
+pronounce: {ongelooflijk; oon-*el-LOHF-lik}
+
+Elder.js gebruikt een sterk geoptimaliseerd bouwproces dat zoveel mogelijk CPU cores gebruikt, [waardoor het ongelooflijk snel en efficiënt is;making it incredibly fast and efficient]. Volgens hun documentatie kan het bijvoorbeeld gemakkelijk een data-intensieve site van {18.000; a/ch/-teen DOW-zend} pagina’s genereren [in slechts 8 minuten;in just 8 minutes] [met behulp van;using] slechts een VM met 4 cores.
+
+pronounce: {volledige; fohl-LAY-dih-*eh}
+
+Met Elder.js hebben developers [volledige controle over hoe ze gegevens ophalen;full control over how they retrieve data], voorbereiden en manipuleren [voordat ze die naar hun Svelte template sturen;before sending it to their Svelte template].
+
+Elder.js [ondersteunt;supports / OHN-der-stönt] [een reeks officiële en community plugins;a range of official and community plugins] die aan een site kunnen worden toegevoegd [om de functionaliteit ervan uit te breiden; to extend its functionality].
+    
+Elder.js ondersteunt shortcodes, dat zijn [slimme placeholders;smart placeholders;2.3] die kunnen worden gebruikt om content [toekomstbestendig; future-proof;1.9] te maken, of die nu in een CMS of [in statische bestanden staat;is contained in static files]. Deze shortcodes kunnen asynchroon zijn, waardoor het gemakkelijk is om dynamische content [op een site op te nemen;to include on a site].
+
+Met Elder.js kunnen developers {alleen;ahl-LAYN} de [delen;parts] van de client hydrateren [die interactief moeten zijn;that need to be interactive], waardoor de payload kleiner wordt en [de site beter presteert;the site performs better].
+
+Bekijk de officiële Elder.js documentatie voor meer informatie.
+
+Zo deploy je een Elder.js statische site op Kinsta
+
+Snelstartvoorbeeld van Elder.js
+
+Elder.js snelstart
+
+Je kunt een statische Elder.js-site opzetten op Kinsta door ons quickstart voorbeeld te forken en het te deployen naar onze Statische Site Hosting.
+
+[Hoe kies je de beste;How to choose the best] Svelte statische sitegenerator voor je website?
+  
+@@@
+[Als het gaat om het kiezen; When it comes to choosing] van de beste Svelte SSG, zijn er [een paar dingen waar je rekening mee moet houden;a few things to keep in mind]:
+
+# Projecteisen
+
+Dit is waar je eerst aan moet denken voordat je een Svelte SSG kiest of [een beslissing neemt; make a decision].
+
+Vraag jezelf af wat voor soort website je wilt bouwen, hoe complex hij zal zijn, en welke features en functionaliteit hij nodig heeft. Dit zal je helpen [je opties te beperken;limit your options].
+
+# Ervaring als developer
+
+pronounce: {duidelijke; DOW-deh-lik-eh, "cow"}
+
+Zoek altijd naar een SSG met features die een goede developerervaring bieden, zoals een ingebouwde ontwikkelserver, hot reloading en [duidelijke documentatie;clear documention]. Dit maakt het ontwikkelingsproces naadloos en efficiënt, zodat je je website sneller en met minder frustratie kunt bouwen.
+
+# {Ondersteuning; oon-der-STÖR-ning} door de community
+
+pronounce: {Tot slot; toht sloht}
+
+[Tot slot is het; Finally it is] belangrijk om te kijken naar [de mate van ondersteuning;the degree of support;4.8] door de community. Zoek een Svelte SSG met [een betrokken community; an involved community % beh-TROH-keh] die hulp en ondersteuning kan bieden wanneer dat nodig is. Zo kun je antwoord {krijgen;KRIGH-*eh} op je vragen en [problemen oplossen; resolving problems] [die zich voordoen tijdens het bouwen van je website; that occur while building your website].
+
+# Deploy je statische site gratis met Kinsta Statische Site Hosting
+
+Met Kinsta kun je je statische website hosten via Statische Site Hosting, [een oplossing die je hoge prestaties; a solution that gives you high performance], [betrouwbaarheid; reliability] en [veiligheid; safety % VIGH-le*-hight] biedt.
+
+Om te beginnen push je de [broncode;source code;4.6] van je statische website naar een Git repository (Bitbucket, GitHub, of GitLab). [Zodra je repo klaar is; Once your repo is ready % zoh-DRAH], volg je deze stappen om je statische site te deployen naar Kinsta:
+
+Log in of maak een account aan om je MyKinsta dashboard te bekijken.
+
+Autoriseer Kinsta met je Git provider.
+
+Klik op Statische sites [op de linker zijbalk; on the left sidebar; 4.5], klik dan op Site [toevoegen; add % TOO-voh-*eh].
+
+Selecteer de repository en de branch waarvan je wilt deployen.
+
+[Geef je site een unieke naam; Give your site a unique name].
+
+[Voeg de Build instellingen toe voor je SSG; Add the build settings for your SSG]. [Zie de instructies onder elke SSG; See instructions under each SSG] of bekijk onze documentatie voor meer informatie.
+
+Klik [ten slotte;finally] op Site maken.
+
+[En dat is het; And that's it]! Kinsta deployt je site [meteen;immediately] en [geeft de standaard URL weer;displays the default URL;4.6;weergeven = to display]. Je kunt later een aangepast {domein;doh-MAYN} en je eigen SSL certificaat toevoegen.
+
+Als alternatief voor Statische Site Hosting van Kinsta kun je [ervoor;before;2.4] kiezen om je statische site te deployen met Applicatie Hosting van Kinsta, die meer flexibiliteit biedt bij het hosten, [een breder scala aan voordelen; a wider range of benefits]@@@ en toegang tot robuustere features. Bijvoorbeeld schaalbaarheid, aangepaste implementatie met behulp van een Dockerfile en [uitgebreide;extensive] analyses met real-time en [historische gegevens; historical data].
+Samenvatting
+
+Static sitegenerators (SSG’s) worden steeds populairder [vanwege hun snelheid;because of their speed], [eenvoud;simplicity] en [verbeterde beveiliging;enhanced security]. [Ze zijn vooral nuttig;They are especially useful] voor het bouwen van websites die geen dynamische content of functionaliteit van een server nodig hebben.
+
+Het gebruik van op Svelte gebaseerde SSG’s kan je [nog meer voordelen opleveren;provide even more benefits], omdat het extra [mogelijkheden;possibilities % MOH-*eh-lik-HAY-deh] biedt van het Svelte framework, waaronder een kleinere bundelgrootte en snelle rendering. Daardoor zijn op Svelte gebaseerde SSG’s een [uitstekende keuze; excellent choice % out-STAY-ken-deh KÖH-zeh] voor het maken van statische sites die snel laden en efficiënt werken.
+
+[Overweeg je; Are you considering] een statische sitegenerator die Svelte gebruikt uit te proberen voor je volgende project? [Heb je er ooit een gebruikt;Have you ever used one % OH-eet;4.7]? [Laat het ons weten in de comments;Let us know in the comments]!
+
+[Zet al je applicaties;Put all your applications], databases en WordPress site online en onder één dak. [Ons uitgebreide, krachtige;Our comprehensive, powerful] cloudplatform [boordevol features omvat;packed with features include]:
+
+[Eenvoudige;Simple % ayn-FOW-dih-*eh] installatie en [beheer;management] in het MyKinsta-dashboard
+
+24/7 [deskundige ondersteuning;expoert support]
+
+De beste Google Cloud Platform-hardware met [bijbehorend;accessory] premium netwerk, mogelijk gemaakt door Kubernetes voor maximale [schaalbaarheid;scalability]
+
+Enterprise-niveau Cloudflare-integratie voor snelheid en [veiligheid;safety]
+
+[Wereldwijd bereik met;Global reach] tot wel 37 datacenters en wereldwijde 260 PoP’s
+
+[Ga aan de slag met;Get started with] een gratis [proefperiode;trial period] van onze Applicatie Hosting of Database Hosting. [Verken onze pakketten;Explore our packages] of neem contact op met sales [om vast te stellen;to determine] wat het beste bij je past.
+]]
