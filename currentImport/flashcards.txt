@@ -40,5 +40,36 @@ PR. sneeuw
 SNAY-oo
 3.5
 
+==flashcard
+nl
+a lot of work
+een heleboel werk
+4.1
+
+==flashcard
+nl
+I especially like jogging
+ik hou vooral van joggen
+3.9
+
+==flashcard
+nl
+often
+vaak
+4.8
+
+==flashcard
+nl
+shopping
+boodschappen doen
+4.5
+
+==flashcard
+nl
+open and close the window
+het raam openen en sluiten
+4.6
+$pronounce=SLAU-tah
+
 
 

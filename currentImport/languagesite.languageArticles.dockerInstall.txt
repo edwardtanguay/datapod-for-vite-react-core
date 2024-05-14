@@ -3,14 +3,16 @@ nl
 Docker installeren op Ubuntu (4 eenvoudige manieren)
 https://kinsta.com/nl/blog/docker-ubuntu-installeren
 [[
-Docker is een populaire tool voor het ontwikkelen en deployen van software in pakketten, containers genaamd. Ubuntu is daarbij een van de populairste Linux distributies en is een besturingssysteem dat goed ondersteund wordt door Docker.
+Docker is een populaire tool voor het ontwikkelen en deployen van software in pakketten, containers genaamd. Ubuntu is daarbij een van de populairste Linux {distributies;dih-stri-BOOT-sees} en is een {besturingssysteem;beh-STEW-ring-sees-taym} dat goed [ondersteund;supported} wordt door Docker.
 
-Door Docker op Ubuntu te installeren creëer je een ideaal platform voor je ontwikkelingsprojecten, met behulp van lichtgewicht virtuele machines die de kernel van het besturingssysteem van Ubuntu delen. Deze tutorial helpt je op weg door 4 manieren uit te leggen om dat voor elkaar te krijgen.
-Meer over Docker
+[Door Docker op Ubuntu te installeren;By installing Docker on Ubuntu] {creëer;cray-YAIR} je een ideaal platform voor je ontwikkelingsprojecten, met behulp van lichtgewicht virtuele machines die de kernel van het besturingssysteem van Ubuntu [delen;share]. Deze tutorial helpt je op weg [door 4 manieren uit te leggen om dat voor elkaar te krijgen;by explaining 4 ways to make that happen].
 
-Docker maakt applicaties draagbaar doordat je ze op elke Docker host kan bouwen en draaien. Een container image kan zonder aanpassingen overal gebruikt worden waar Docker beschikbaar is – van je laptop tot de cloud. Dit vereenvoudigt de ontwikkelaarservaring door verschillen tussen runtime omgevingen weg te nemen. Het containerformat is ook gemakkelijk te distribueren over meerdere fysieke machines, zodat je gemakkelijk applicaties kunt schalen in reactie op de veranderende vraag.
+# Meer over Docker
 
-Docker bevat alles wat je nodig hebt om container images te bouwen en te draaien, of ze nu afkomstig zijn van Docker Hub en andere openbare registers, of van je eigen Dockerfiles.
+Docker maakt applicaties [draagbaar;portable] doordat je ze op elke Docker host [kan bouwen en draaien;can build and run]. Een container image kan [zonder aanpassingen;without modifications] overal gebruikt worden waar Docker [beschikbaar;available] is – van je laptop tot de cloud. Dit [vereenvoudigt;simplifies % ver-een-FOW-du*t] de ontwikkelaarservaring [door verschillen tussen runtime omgevingen;due to runtime environment differences] weg te nemen. Het containerformat is ook gemakkelijk te {distribueren;dis-trih-boo-AIR-eh} over meerdere fysieke machines, zodat je gemakkelijk applicaties [kunt schalen;can scale] [in reactie op de veranderende vraag;in response to changing demand].
+
+[Docker bevat alles;Docker contains everything] wat je nodig hebt om container images [te bouwen en te draaien;to build and to run], [of ze nu afkomstig zijn;whether they come from] van Docker Hub en andere openbare registers, of van je eigen Dockerfiles.
+@@@
 Voorbereidingen treffen om Docker op Ubuntu te installeren
 
 Je kunt de nieuwste Docker release installeren op Ubuntu versies 18.04, 20.04, 21.10 en 22.04. De x64_64/AMD64, ARMhf, ARM64 en S390x architecturen worden ondersteund.
@@ -230,3 +232,4 @@ Zet al je applicaties, databases en WordPress site online en onder één dak. On
 
 Ga aan de slag met een gratis proefperiode van onze Applicatie Hosting of Database Hosting. Verken onze pakketten of neem contact op met sales om vast te stellen wat het beste bij je past.
 ]]
+nn

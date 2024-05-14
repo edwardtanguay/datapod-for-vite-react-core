@@ -149,7 +149,6 @@ Je kunt een statische Elder.js-site opzetten op Kinsta door ons quickstart voorb
 
 [Hoe kies je de beste;How to choose the best] Svelte statische sitegenerator voor je website?
   
-@@@
 [Als het gaat om het kiezen; When it comes to choosing] van de beste Svelte SSG, zijn er [een paar dingen waar je rekening mee moet houden;a few things to keep in mind]:
 
 # Projecteisen
@@ -192,7 +191,7 @@ Klik [ten slotte;finally] op Site maken.
 
 [En dat is het; And that's it]! Kinsta deployt je site [meteen;immediately] en [geeft de standaard URL weer;displays the default URL;4.6;weergeven = to display]. Je kunt later een aangepast {domein;doh-MAYN} en je eigen SSL certificaat toevoegen.
 
-Als alternatief voor Statische Site Hosting van Kinsta kun je [ervoor;before;2.4] kiezen om je statische site te deployen met Applicatie Hosting van Kinsta, die meer flexibiliteit biedt bij het hosten, [een breder scala aan voordelen; a wider range of benefits]@@@ en toegang tot robuustere features. Bijvoorbeeld schaalbaarheid, aangepaste implementatie met behulp van een Dockerfile en [uitgebreide;extensive] analyses met real-time en [historische gegevens; historical data].
+Als alternatief voor Statische Site Hosting van Kinsta kun je [ervoor;before;2.4] kiezen om je statische site te deployen met Applicatie Hosting van Kinsta, die meer flexibiliteit biedt bij het hosten, [een breder scala aan voordelen; a wider range of benefits] en toegang tot robuustere features. Bijvoorbeeld schaalbaarheid, aangepaste implementatie met behulp van een Dockerfile en [uitgebreide;extensive] analyses met real-time en [historische gegevens; historical data].
 Samenvatting
 
 Static sitegenerators (SSG’s) worden steeds populairder [vanwege hun snelheid;because of their speed], [eenvoud;simplicity] en [verbeterde beveiliging;enhanced security]. [Ze zijn vooral nuttig;They are especially useful] voor het bouwen van websites die geen dynamische content of functionaliteit van een server nodig hebben.
@@ -215,3 +214,4 @@ Enterprise-niveau Cloudflare-integratie voor snelheid en [veiligheid;safety]
 
 [Ga aan de slag met;Get started with] een gratis [proefperiode;trial period] van onze Applicatie Hosting of Database Hosting. [Verken onze pakketten;Explore our packages] of neem contact op met sales [om vast te stellen;to determine] wat het beste bij je past.
 ]]
+nn
