@@ -1,13 +1,13 @@
 /* eslint-disable no-prototype-builtins */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import * as qstr from '../../share/qtools/qstr';
-import { ILineBlockDataItem } from '../../src/interfaces';
-import { DpodItem } from './DpodItem';
-import { DpodSchema } from './DpodSchema';
-import { LineBlock } from './LineBlock';
+import * as qstr from "../../share/qtools/qstr";
+import { ILineBlockDataItem } from "../../src/interfaces";
+import { DpodItem } from "./DpodItem";
+import { DpodSchema } from "./DpodSchema";
+import { LineBlock } from "./LineBlock";
 
 export class DpodDataLoader {
-	private content = '';
+	private content = "";
 	private lines: string[] = [];
 	private lineBlocks: LineBlock[] = [];
 	private dpodSchemas: DpodSchema[] = [];
@@ -37,8 +37,8 @@ export class DpodDataLoader {
 			const dpodItems: DpodItem[] = this.dpodItemGroups[key];
 			const xmlDataTexts = [];
 			let index = 0;
-			let firstLine = '';
-			let lastLine = '';
+			let firstLine = "";
+			let lastLine = "";
 			for (const dpodItem of dpodItems) {
 				if (index === 0) {
 					firstLine = `<?xml version="1.0" encoding="UTF-8"?>\n<${dpodItem.getSchemaIdCode()}>`;
@@ -47,7 +47,8 @@ export class DpodDataLoader {
 				xmlDataTexts.push(dpodItem.getXmlData());
 				index++;
 			}
-			this.xmlData[key] = firstLine + '\n' + xmlDataTexts.join('\n') + '\n' + lastLine;
+			this.xmlData[key] =
+				firstLine + "\n" + xmlDataTexts.join("\n") + "\n" + lastLine;
 		}
 	}
 
@@ -59,7 +60,7 @@ export class DpodDataLoader {
 			for (const dpodItem of dpodItems) {
 				jsonDataTexts.push(dpodItem.getJsonData());
 			}
-			this.jsonData[key] = jsonDataTexts.join(',\n');
+			this.jsonData[key] = jsonDataTexts.join(",\n");
 		}
 	}
 
@@ -71,7 +72,7 @@ export class DpodDataLoader {
 			for (const dpodItem of dpodItems) {
 				datapodDataTexts.push(dpodItem.getDatapodData());
 			}
-			this.datapodData[key] = datapodDataTexts.join('\n\n');
+			this.datapodData[key] = datapodDataTexts.join("\n\n");
 		}
 	}
 
@@ -81,7 +82,7 @@ export class DpodDataLoader {
 			const dpodItems: DpodItem[] = this.dpodItemGroups[key];
 			const csvDataTexts = [];
 			let index = 0;
-			let labelLine = '';
+			let labelLine = "";
 			for (const dpodItem of dpodItems) {
 				if (index === 0) {
 					labelLine = dpodItem.getCsvLabelLine();
@@ -89,7 +90,7 @@ export class DpodDataLoader {
 				csvDataTexts.push(dpodItem.getCsvData());
 				index++;
 			}
-			this.csvData[key] = labelLine + '\n' + csvDataTexts.join('\n');
+			this.csvData[key] = labelLine + "\n" + csvDataTexts.join("\n");
 		}
 	}
 
@@ -111,7 +112,7 @@ export class DpodDataLoader {
 	private createItems() {
 		for (const lineBlock of this.lineBlocks) {
 			const lineBlockKind = lineBlock.getKind();
-			if (lineBlockKind === 'item') {
+			if (lineBlockKind === "item") {
 				const dpodItem = new DpodItem(lineBlock, this);
 				this.dpodItems.push(dpodItem);
 			}
@@ -119,7 +120,7 @@ export class DpodDataLoader {
 	}
 
 	public getLineBlockDataItems(): ILineBlockDataItem[] {
-		return this.lineBlocks.map(m => m.getLineBlockDataItem());
+		return this.lineBlocks.map((m) => m.getLineBlockDataItem());
 	}
 
 	private createLines() {
@@ -131,7 +132,6 @@ export class DpodDataLoader {
 		let isRecordingLineBlock = false;
 		let isInsideMultilineBlock = false;
 		for (const line of this.lines) {
-
 			// don't let a blank line inside a multiline block end the item
 			if (isInsideMultilineBlock && qstr.isEmpty(line)) {
 				lineBlock.addLine(line);
@@ -139,11 +139,11 @@ export class DpodDataLoader {
 			}
 
 			// ignore multiline begin and end markers
-			if (['[[',']]'].includes(line)) {
-				if (line === '[[') {
+			if (["[[", "]]"].includes(line)) {
+				if (line === "[[") {
 					isInsideMultilineBlock = true;
 				}
-				if (line === ']]') {
+				if (line === "]]") {
 					isInsideMultilineBlock = false;
 				}
 				lineBlock.addLine(line);
@@ -182,15 +182,15 @@ export class DpodDataLoader {
 	public createDpodSchemas(): void {
 		for (const lineBlock of this.lineBlocks) {
 			const lineBlockKind = lineBlock.getKind();
-			if (lineBlockKind === 'schema') {
-				const dpodSchema = new DpodSchema(lineBlock)
+			if (lineBlockKind === "schema") {
+				const dpodSchema = new DpodSchema(lineBlock);
 				this.dpodSchemas.push(dpodSchema);
 			}
 		}
 	}
 
 	public getDpodSchemas() {
-		return this.dpodSchemas
+		return this.dpodSchemas;
 	}
 
 	public getDpodSchemaDataItems() {
@@ -206,7 +206,7 @@ export class DpodDataLoader {
 		const keys = Object.keys(this.dpodItemGroups);
 		for (const key of keys) {
 			const dpodItems: DpodItem[] = this.dpodItemGroups[key];
-			const dpodDataItems = dpodItems.map(m => m.getDataItem())
+			const dpodDataItems = dpodItems.map((m) => m.getDataItem());
 			const titlePlural = qstr.forceTitleNotation(key);
 			const titleSingular = qstr.forceSingular(titlePlural);
 			ra.push({
@@ -217,10 +217,9 @@ export class DpodDataLoader {
 				csvData: this.csvData[key],
 				xmlData: this.xmlData[key],
 				datapodData: this.datapodData[key],
-				dpodItems: dpodDataItems
-			})
+				dpodItems: dpodDataItems,
+			});
 		}
 		return ra;
 	}
-
 }

@@ -1,16 +1,16 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import * as qstr from '../../share/qtools/qstr.js';
+import * as qstr from "../../share/qtools/qstr.js";
 
 export class DataType {
-	protected idCode = '';
-	protected label = '';
-	protected dataTypeIdCode = '';
-	public value = '';
+	protected idCode = "";
+	protected label = "";
+	protected dataTypeIdCode = "";
+	public value = "";
 
 	constructor(label: string) {
 		this.label = label;
 		this.idCode = qstr.forceCamelNotation(this.label);
-		this.dataTypeIdCode = 'BASETYPE';
+		this.dataTypeIdCode = "BASETYPE";
 	}
 
 	public getDataTypeIdCode() {
@@ -30,12 +30,14 @@ export class DataType {
 	}
 
 	public getTextValue() {
-		return this.value ? this.value : '';
+		return this.value ? this.value : "";
 	}
 
 	public getJsonDataLine() {
 		// return `\t"${this.idCode}": "${this.getTextValue()}"`;
-		const theValue = qstr.replaceAll(this.getTextValue(), '\t', '\\t');
+		let theValue = this.getTextValue();
+		theValue = qstr.replaceAll(theValue, "\t", "\\t");
+		theValue = qstr.replaceAll(theValue, '"', '\\"');
 		return `\t"${this.idCode}": "${theValue}"`;
 	}
 
@@ -48,12 +50,11 @@ export class DataType {
 			label: qstr.forceTitleNotation(this.idCode),
 			idCode: this.idCode,
 			dataTypeIdCode: this.dataTypeIdCode,
-			value: this.value
-		}
+			value: this.value,
+		};
 	}
 
 	public setValue(value: string) {
 		this.value = value;
 	}
-
 }
