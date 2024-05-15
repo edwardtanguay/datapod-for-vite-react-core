@@ -60,7 +60,7 @@ Kierkegaard
 		- Kierkegaard left Copenhagen in October 1841 to spend the winter in Berlin
 		- During his stay, Kierkegaard worked on the manuscript for Either/Or, took daily lessons to perfect his German, and attended operas and plays, particularly by Mozart and Goethe. He returned to Copenhagen in March 1842 with a draft of the manuscript, which he completed late that year and published in February 1843
 	- Part I
-		- nnn
+		- todo
 - Christianity
 	- Kierkegaard believed God comes to each individual mysteriously
 ]
