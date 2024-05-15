@@ -1,0 +1,95 @@
+** Tasks
+Project
+Title
+Description
+Rank
+Status
+
+==task
+datapodEngine
+update datasource after reading (and keep suuid constant)
+nn
+4.75
+todo
+
+==task
+datapodEngine
+escape double quotes (test with notes items)
+nn
+5.0
+todo
+
+==task
+datapodEngine
+enable each itemType to be copied to a target file
+nn
+4.8
+todo
+
+==task
+datapodEngine
+allow trailing properties to be empty
+nn
+4.9
+todo
+
+==task
+datapodCentral
+get central task management working
+nn
+4.0
+todo
+
+==task
+datapodCentral
+generate navbar from array
+nn
+4.7
+todo
+
+==task
+datapodCentral
+move starters over to Datapod Central, make supporting tools section
+nn
+4.6
+todo
+
+==task
+goCli
+scan all frontend masters notes howtos and create JSON when which videos were watched
+nn
+3.9
+todo
+
+==task
+phoenixDatapod
+make a hello world website, host at Render.com
+nn
+3.7
+todo
+
+==task
+t3Datapod
+make a hello world website, host at Vercel
+[[
+- see: https://create.t3.gg/en/deployment/vercel
+]]
+3.7
+todo
+
+==task
+techItemsGame
+techItemsGame; as you play, star items to look up later
+nn
+2.8
+todo
+
+==task
+techsite
+add tech flashcards with 30 of the most useful, with search
+nn
+4.5
+todo
+
+
+
