@@ -1,0 +1,27 @@
+** Coins
+Title
+Value;wn
+Description
+Personal Notes
+
+==coin
+BitCoin
+31000
+This is a good coin to buy.
+I would buy this.
+
+==coin
+DogeCoin
+28999
+Or buy this one, is also ok.
+
+==coin
+LiteCoin
+82928
+LiteCoin is ok.
+
+==coin
+Ripple
+92817
+Also a good coin.
+Might buy it.

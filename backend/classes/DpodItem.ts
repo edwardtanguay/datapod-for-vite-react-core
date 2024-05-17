@@ -1,5 +1,5 @@
 import { LineBlock } from "./LineBlock";
-import * as qstr from '../../share/qtools/qstr';
+import * as qstr from "../../share/qtools/qstr";
 import { DpodDataLoader } from "./DpodDataLoader";
 import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
@@ -7,8 +7,8 @@ import { Factory } from "./Factory";
 
 export class DpodItem {
 	private lineBlock: LineBlock;
-	private schemaIdCode: string = '';
-	private singularSchemaIdCode: string = '';
+	private schemaIdCode: string = "";
+	private singularSchemaIdCode: string = "";
 	private dpodSchema!: DpodSchema;
 	private dpodDataLoader;
 	public dataTypes: DataType[] = [];
@@ -18,9 +18,18 @@ export class DpodItem {
 		this.dpodDataLoader = dpodDataLoader;
 		this.createProperties();
 		this.defineDpodSchema();
+		this.forceCorrectNumberOfProperties();
 		this.createDataTypes();
 	}
 
+	private forceCorrectNumberOfProperties() {
+		const numberOfPropertiesToAdd =
+			this.dpodSchema.getNumberOfDataTypes() -
+			this.lineBlock.getNumberOfLines();
+		for (let x = 1; x <= numberOfPropertiesToAdd; x++) {
+			this.lineBlock.addLine("");
+		}
+	}
 	private createDataTypes() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
@@ -28,15 +37,16 @@ export class DpodItem {
 			let index = -1;
 			for (const _dataType of _dataTypes) {
 				// const __dataType = new DataType(_dataType.getLabel());
-				const creationLine = _dataType.getLabel() + ';' + _dataType.getDataTypeIdCode();
+				const creationLine =
+					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
 					let fieldLine = fieldLines[index];
-					if (fieldLine === '[[') {
-						let innerContent = '';
-						let innerFieldLine = '';
-						while (innerFieldLine !== ']]') {
-							innerContent += innerFieldLine + '\n';
+					if (fieldLine === "[[") {
+						let innerContent = "";
+						let innerFieldLine = "";
+						while (innerFieldLine !== "]]") {
+							innerContent += innerFieldLine + "\n";
 							index++;
 							innerFieldLine = fieldLines[index];
 						}
@@ -65,8 +75,12 @@ export class DpodItem {
 	}
 
 	private createProperties() {
-		this.singularSchemaIdCode = qstr.chopLeft(this.lineBlock.getFirstLine(), '==').trim();
-		this.schemaIdCode = qstr.forceCamelNotation(qstr.forcePlural(this.singularSchemaIdCode));
+		this.singularSchemaIdCode = qstr
+			.chopLeft(this.lineBlock.getFirstLine(), "==")
+			.trim();
+		this.schemaIdCode = qstr.forceCamelNotation(
+			qstr.forcePlural(this.singularSchemaIdCode)
+		);
 	}
 
 	public debug() {
@@ -82,8 +96,8 @@ export class DpodItem {
 	public getDataItem() {
 		return {
 			singularSchemaIdCode: this.singularSchemaIdCode,
-			dataTypes: this.dataTypes.map(m => m.getDataItem())
-		}
+			dataTypes: this.dataTypes.map((m) => m.getDataItem()),
+		};
 	}
 
 	private getJsonDataFieldText() {
@@ -91,7 +105,7 @@ export class DpodItem {
 		for (const dataType of this.dataTypes) {
 			jsonDataLines.push(`${dataType.getJsonDataLine()}`);
 		}
-		return jsonDataLines.join(',\n');
+		return jsonDataLines.join(",\n");
 	}
 
 	private getDatapodDataFieldText() {
@@ -99,7 +113,7 @@ export class DpodItem {
 		for (const dataType of this.dataTypes) {
 			datapodDataLines.push(`${dataType.getDatapodDataLine()}`);
 		}
-		return datapodDataLines.join('\n');
+		return datapodDataLines.join("\n");
 	}
 
 	public getJsonData() {
@@ -122,7 +136,7 @@ ${this.getDatapodDataFieldText()}
 		for (const dataType of this.dataTypes) {
 			csvDataFields.push(`"${dataType.getLabel()}"`);
 		}
-		return csvDataFields.join(',');
+		return csvDataFields.join(",");
 	}
 
 	public getCsvData() {
@@ -130,16 +144,18 @@ ${this.getDatapodDataFieldText()}
 		for (const dataType of this.dataTypes) {
 			csvDataFields.push(`"${dataType.getTextValue()}"`);
 		}
-		return csvDataFields.join(',');
+		return csvDataFields.join(",");
 	}
 
 	public getXmlData() {
 		const xmlDataFields = [];
 		for (const dataType of this.dataTypes) {
-			xmlDataFields.push(`\t\t<${dataType.getIdCode()}>${dataType.getTextValue()}</${dataType.getIdCode()}>`);
+			xmlDataFields.push(
+				`\t\t<${dataType.getIdCode()}>${dataType.getTextValue()}</${dataType.getIdCode()}>`
+			);
 		}
 		return `\t<${this.singularSchemaIdCode}>
-${xmlDataFields.join('\n')}
-\t</${this.singularSchemaIdCode}>`
+${xmlDataFields.join("\n")}
+\t</${this.singularSchemaIdCode}>`;
 	}
 }

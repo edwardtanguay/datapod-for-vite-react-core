@@ -31,6 +31,13 @@ datapodEngine
 allow trailing properties to be empty
 nn
 4.9
+finished
+
+==task
+datapodEngine
+allow trailing NUMBER properties to be empty (currently only works with LINES)
+nn
+4.4
 todo
 
 ==task
@@ -90,6 +97,8 @@ add tech flashcards with 30 of the most useful, with search
 nn
 4.5
 todo
+
+
 
 
 

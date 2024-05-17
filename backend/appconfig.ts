@@ -22,6 +22,7 @@ export const backendPort = (): number => {
 export const importDirectory = (): string => {
 	// return 'etsiteImport';
 	return 'currentImport';
+	// return 'testCurrentImport';
 }
 
 export const backendBaseUrl = (): string => {

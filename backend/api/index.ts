@@ -17,6 +17,8 @@ app.get('/', (_req, res) => {
 
 app.get('/appdata', (_req, res) => {
 
+	console.log('===================================BEGIN======================');
+
 	const pathAndFileNames = qfil.getFileNamesInDirectory(appconfig.importDirectory());
 	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
