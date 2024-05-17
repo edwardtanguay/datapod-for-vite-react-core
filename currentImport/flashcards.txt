@@ -6,12 +6,6 @@ Rank
 
 ==flashcard
 nl
-where you sometimes
-waarop je soms
-4.3
-
-==flashcard
-nl
 PR. meervoud
 MEER-fowd (sounds like "beer crowd", means "plural"), enkelvoudig en meervoud
 3.9
@@ -70,6 +64,12 @@ open and close the window
 het raam openen en sluiten
 4.6
 $pronounce=SLAU-tah
+
+==flashcard
+de
+the house
+das Haus
+2.7
 
 
 

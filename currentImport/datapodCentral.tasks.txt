@@ -17,7 +17,7 @@ datapodEngine
 escape double quotes (test with notes items)
 nn
 5.0
-todo
+finished
 
 ==task
 datapodEngine

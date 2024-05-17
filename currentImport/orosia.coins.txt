@@ -1,0 +1,16 @@
+** Coins
+Title
+Value;wn
+Description
+Extra
+
+==coin
+BitCoin
+31000
+This is a good coin to buy.
+nnn
+
+==coin
+DogeCoin
+28999
+Or buy this one, is also ok.
