@@ -1,13 +1,16 @@
-import * as qstr from './qstr';
+import * as qstr from "./qstr";
 
 // also does full trim, of array and each line
-export const convertStringBlockToLines = (stringBlock: string, trimLines = true) => {
+export const convertStringBlockToLines = (
+	stringBlock: string,
+	trimLines = true
+) => {
 	let roughLines: string[] = [];
 
 	if (qstr.isEmpty(stringBlock)) {
 		return [];
 	}
-	roughLines = stringBlock.split('\n');
+	roughLines = stringBlock.split("\n");
 	if (trimLines) {
 		roughLines = qstr.trimAllLinesInLinesArray(roughLines);
 	} else {
@@ -16,7 +19,7 @@ export const convertStringBlockToLines = (stringBlock: string, trimLines = true)
 	}
 	roughLines = qstr.trimLinesOfEndBlanks(roughLines);
 	return roughLines;
-}
+};
 
 /**
  * Check if a string is empty.
@@ -30,19 +33,17 @@ export const isEmpty = (line: string) => {
 		return true;
 	}
 	line = line.toString();
-	return line.trim() === '';
-}
-
-
+	return line.trim() === "";
+};
 
 export const trimAllLinesOfSlashRInLinesArray = (lines: string[]) => {
 	const newLines: string[] = [];
 	lines.forEach(function (line) {
-		const newLine = qstr.chopRight(line, '\r');
+		const newLine = qstr.chopRight(line, "\r");
 		newLines.push(newLine);
 	});
 	return newLines;
-}
+};
 
 export const trimAllLinesInLinesArray = (lines: string[]) => {
 	const newLines: string[] = [];
@@ -51,7 +52,7 @@ export const trimAllLinesInLinesArray = (lines: string[]) => {
 		newLines.push(newLine);
 	});
 	return newLines;
-}
+};
 
 // returns a lines array that has front and end blank strings, as one without these blanks
 export const trimLinesOfEndBlanks = (lines: string[]) => {
@@ -60,7 +61,7 @@ export const trimLinesOfEndBlanks = (lines: string[]) => {
 	lines = qstr.trimBeginningLinesOfBlanks(lines);
 	lines = lines.reverse();
 	return lines;
-}
+};
 
 // if first line of lines array is blank, it will remove it
 // but don't remove any blank lines from middle or end
@@ -69,7 +70,7 @@ export const trimBeginningLinesOfBlanks = (lines: string[]) => {
 	let trimmingBlanks = true;
 	lines.forEach(function (line) {
 		const newLine = line;
-		if (trimmingBlanks && line === '') {
+		if (trimmingBlanks && line === "") {
 			// skip it since it is a preceding blank item
 		} else {
 			newLines.push(newLine);
@@ -77,14 +78,14 @@ export const trimBeginningLinesOfBlanks = (lines: string[]) => {
 		}
 	});
 	return newLines;
-}
+};
 
 // Forces a string to be in title notation, e.g. First Name.
 export const forceTitleNotation = (term: string) => {
 	let r = term;
 
 	// it is a one-word acronym like "UPS", then just keep it that way
-	if (qstr.isAllUppercase(r) && !r.includes(' ')) {
+	if (qstr.isAllUppercase(r) && !r.includes(" ")) {
 		return r;
 	}
 	r = term;
@@ -97,9 +98,9 @@ export const forceTitleNotation = (term: string) => {
 	const textNotation = qstr.forceTextNotation(r);
 
 	// now uppercase the first letter of each word
-	const words = qstr.breakIntoParts(textNotation, ' ');
+	const words = qstr.breakIntoParts(textNotation, " ");
 
-	r = '';
+	r = "";
 	words.forEach(function (word) {
 		r += `${qstr.capitalizeFirstLetter(word).trim()} `;
 	});
@@ -110,8 +111,7 @@ export const forceTitleNotation = (term: string) => {
 	r = qstr.renderEnglishTitleCapitalization(r);
 
 	return r;
-}
-
+};
 
 /**
  * Capitalize the first letter of a string.
@@ -122,15 +122,14 @@ export const forceTitleNotation = (term: string) => {
  */
 export const capitalizeFirstLetter = (line: string) => {
 	return line.charAt(0).toUpperCase() + line.slice(1);
-}
-
+};
 
 export const isAllUppercase = (term: string) => {
 	if (term.toUpperCase() === term) {
 		return true;
 	}
 	return false;
-}
+};
 
 export const forceTextNotation = (term: string) => {
 	let r = term;
@@ -150,35 +149,39 @@ export const forceTextNotation = (term: string) => {
 	r = r.trim();
 
 	return r;
-}
+};
 
 export const insertSpaceBeforeEveryUppercaseCharacter = (term: string) => {
-	let r = '';
+	let r = "";
 	const forCheckingTerm = `${term} `;
 	for (let i = 0; i < term.length; i += 1) {
 		const character = forCheckingTerm.charAt(i);
 		// const characterAfter = forCheckingTerm.charAt(i + 1);
 		if (qstr.isUppercaseLetter(character)) {
-			r += ' ';
+			r += " ";
 		}
 		r += character;
 	}
 	r = qstr.forceAllMultipleSpacesToSingleSpace(r);
 	return r;
-}
+};
 
 export const isUppercaseLetter = (character: string) => {
-	const regex = new RegExp('[A-Z]');
+	const regex = new RegExp("[A-Z]");
 	return character.length === 1 && regex.test(character);
-}
+};
 
 export const forceAllMultipleSpacesToSingleSpace = (term: string) => {
-	return term.replace(/(\s)+/g, ' ');
-}
+	return term.replace(/(\s)+/g, " ");
+};
 
-export const breakIntoParts = (main: string, delimiter: string = ',', maximumNumberOfParts: number = 0) => {
+export const breakIntoParts = (
+	main: string,
+	delimiter: string = ",",
+	maximumNumberOfParts: number = 0
+) => {
 	const escapedDelimiter = `\\${delimiter}`;
-	const mask = '@@@MASK@@@';
+	const mask = "@@@MASK@@@";
 	if (qstr.isEmpty(main)) {
 		return [];
 	}
@@ -197,8 +200,9 @@ export const breakIntoParts = (main: string, delimiter: string = ',', maximumNum
 			if (index < maximumNumberOfParts - 1) {
 				consolidatedParts.push(part);
 			} else {
-				const current: string = consolidatedParts[maximumNumberOfParts - 1];
-				let prefix: string = '';
+				const current: string =
+					consolidatedParts[maximumNumberOfParts - 1];
+				let prefix: string = "";
 				if (current !== undefined) {
 					prefix = `${current};`;
 				}
@@ -217,7 +221,7 @@ export const breakIntoParts = (main: string, delimiter: string = ',', maximumNum
 	parts = unmaskedParts;
 
 	return parts;
-}
+};
 
 /**
  * REPLACE ALL OCCURANCES IN A STRING:
@@ -233,7 +237,18 @@ export const replaceAll = (text: string, search: string, replace: string) => {
 export const renderEnglishTitleCapitalization = (term: string) => {
 	let r = term;
 
-	const termsToLowercase = ['A', 'An', 'The', 'Or', 'And', 'Of', 'For', 'With', 'Into', 'From'];
+	const termsToLowercase = [
+		"A",
+		"An",
+		"The",
+		"Or",
+		"And",
+		"Of",
+		"For",
+		"With",
+		"Into",
+		"From",
+	];
 
 	// mask
 	termsToLowercase.forEach(function (termToLowerCase) {
@@ -255,22 +270,21 @@ export const renderEnglishTitleCapitalization = (term: string) => {
 		r = r.replace(searchText, replaceText);
 	});
 	return r;
-}
+};
 
 export const forceCamelNotation = (term: string) => {
 	let r = term;
 
 	// specials
-	r = r === 'ID-Code' ? 'id code' : r;
+	r = r === "ID-Code" ? "id code" : r;
 
 	// first change all e.g. "single-page" to "single page"
-	r = qstr.replaceAll(r, '-', ' ');
+	r = qstr.replaceAll(r, "-", " ");
 
 	// if it is all uppercase (e.g. FAQ) then we want all lower case (faq) and not (fAQ)
 	if (qstr.isAllUppercase(r)) {
 		r = r.toLowerCase();
 	} else {
-
 		// get the pascal notation first
 		const pascalNotation = qstr.forcePascalNotation(r);
 
@@ -279,17 +293,17 @@ export const forceCamelNotation = (term: string) => {
 	}
 
 	// make sure no spaces are in the string, e.g. "showcaseType Script" --> "showcaseTypeScript"
-	r = qstr.replaceAll(r, ' ', '');
+	r = qstr.replaceAll(r, " ", "");
 
 	return r;
-}
+};
 
 export const forcePascalNotation = (term: string) => {
 	let r = String(term);
 
 	// exceptions
-	if (r.toLowerCase() === 'id-code') {
-		return 'IdCode';
+	if (r.toLowerCase() === "id-code") {
+		return "IdCode";
 	}
 
 	r = qstr.cleanForCamelAndPascalNotation(r);
@@ -301,30 +315,30 @@ export const forcePascalNotation = (term: string) => {
 	r = qstr.forceCapitalizeFirstCharacterOfEveryWord(r);
 
 	// now simply take all spaces out
-	r = r.replace(' ', '');
+	r = r.replace(" ", "");
 
 	// make sure no spaces are in the string, e.g. "showcaseType Script" --> "showcaseTypeScript"
-	r = qstr.replaceAll(r, ' ', '');
+	r = qstr.replaceAll(r, " ", "");
 
 	return r;
-}
+};
 
 export const lowercaseFirstLetter = (term: string) => {
 	return term.charAt(0).toLowerCase() + term.slice(1);
-}
+};
 
 // "Project 1: The Book Sections" => "Project 1 The Book Sections"
 // "Die fröhliche Wissenschaft" => "Die froehliche Wissenschaft"
 export const cleanForCamelAndPascalNotation = (term: string) => {
 	let r = term;
 	r = qstr.convertForeignCharactersToStandardAscii(r);
-	r = r.replace(/[^A-Za-z0-9 ]/g, '');
+	r = r.replace(/[^A-Za-z0-9 ]/g, "");
 	return r;
-}
+};
 
 export const forceCapitalizeFirstCharacterOfEveryWord = (term: string) => {
-	let r = '';
-	const words = qstr.breakIntoParts(term, ' ');
+	let r = "";
+	const words = qstr.breakIntoParts(term, " ");
 	if (words.length > 0) {
 		words.forEach(function (word) {
 			r += `${qstr.capitalizeFirstLetter(word)} `;
@@ -332,27 +346,27 @@ export const forceCapitalizeFirstCharacterOfEveryWord = (term: string) => {
 		r = r.trim();
 	}
 	return r;
-}
+};
 
 // "Die fröhliche Wissenschaft" => "Die froehliche Wissenschaft"
 export const convertForeignCharactersToStandardAscii = (term: string) => {
 	let r = term;
 	// French
-	r = r.replace('è', 'e');
-	r = r.replace('à', 'e');
-	r = r.replace('ê', 'e');
+	r = r.replace("è", "e");
+	r = r.replace("à", "e");
+	r = r.replace("ê", "e");
 	// todo: add more that you need, with tests
 
 	// German
-	r = r.replace('ö', 'oe');
-	r = r.replace('ß', 'ss');
-	r = r.replace('ü', 'ue');
-	r = r.replace('ä', 'ae');
-	r = r.replace('Ö', 'Oe');
-	r = r.replace('Ü', 'Ue');
-	r = r.replace('Ä', 'Ae');
+	r = r.replace("ö", "oe");
+	r = r.replace("ß", "ss");
+	r = r.replace("ü", "ue");
+	r = r.replace("ä", "ae");
+	r = r.replace("Ö", "Oe");
+	r = r.replace("Ü", "Ue");
+	r = r.replace("Ä", "Ae");
 	return r;
-}
+};
 
 /**
  * Removes text from the end of a string.
@@ -366,7 +380,7 @@ export const chopRight = (main: string, textToChop: string) => {
 		const len = textToChop.length;
 		const mainLen = main.length;
 		if (len <= mainLen) {
-			return main.substring(0, mainLen - (len));
+			return main.substring(0, mainLen - len);
 		}
 	}
 	return main;
@@ -383,7 +397,10 @@ export const chopLeft = (main: string, textToChop: string) => {
 	return main;
 };
 
-export const getSingularPluralSyntaxVariations = (itemTypeIdCode: string, prefix: string = 'the') => {
+export const getSingularPluralSyntaxVariations = (
+	itemTypeIdCode: string,
+	prefix: string = "the"
+) => {
 	const camelPlural = itemTypeIdCode;
 	const camelSingular = qstr.forceSingular(camelPlural);
 	return {
@@ -397,30 +414,33 @@ export const getSingularPluralSyntaxVariations = (itemTypeIdCode: string, prefix
 		[`${prefix}TextSingular`]: qstr.forceTextNotation(camelSingular),
 		[`${prefix}AllcapsSingular`]: camelSingular.toUpperCase(),
 		[`${prefix}AllcapsPlural`]: camelPlural.toUpperCase(),
-	}
-}
-
+	};
+};
 
 // convert quarterReports to quarterReport
 export const forceSingular = (potentialPluralNotation: string) => {
-	return qstr.chopRight(potentialPluralNotation, 's');
-}
+	return qstr.chopRight(potentialPluralNotation, "s");
+};
 
 // convert quarterReport to quarterReports
 export const forcePlural = (potentialSingularNotation: string) => {
-	if (!potentialSingularNotation.endsWith('s')) {
+	if (!potentialSingularNotation.endsWith("s")) {
 		return `${potentialSingularNotation}s`;
 	}
 	return potentialSingularNotation;
-}
+};
 
-export const smartPlural = (number: number, singularNoun: string, pluralNoun: string = '') => {
-	let r = '';
-	if (pluralNoun === '') pluralNoun = singularNoun + 's';
-	r += number + ' ';
+export const smartPlural = (
+	number: number,
+	singularNoun: string,
+	pluralNoun: string = ""
+) => {
+	let r = "";
+	if (pluralNoun === "") pluralNoun = singularNoun + "s";
+	r += number + " ";
 	r += number === 1 ? singularNoun : pluralNoun;
 	return r;
-}
+};
 
 export const generateShortUUID = () => {
 	const characters =
@@ -437,12 +457,40 @@ export const generateShortUUID = () => {
 
 export const convertToHtml = (text: string) => {
 	let r = text;
-	r = qstr.replaceAll(r, '\n', '<br/>');
+	r = qstr.replaceAll(r, "\n", "<br/>");
 	return r;
-}
+};
 
 export const convertFromHtml = (text: string) => {
 	let r = text;
-	r = qstr.replaceAll(r, '\n', '\\n');
+	r = qstr.replaceAll(r, "\n", "\\n");
 	return r;
-}
+};
+
+export const convertLinesToStringBlock = (lines: string[]) => {
+	let r = "";
+	let index = 0;
+	for (const line of lines) {
+		r += line;
+		if (index != lines.length - 1) {
+			r += "\n";
+		}
+		index++;
+	}
+	return r;
+};
+
+export const wrapAsJsonContent = (innerJsonContent: string) => {
+	const lines = qstr.convertStringBlockToLines(innerJsonContent);
+	const newLines = [];
+	newLines.push("[");
+	for (const line of lines) {
+		if (line.startsWith("}") || line.startsWith("{")) {
+			newLines.push(`\t${line}`);
+		} else {
+			newLines.push(`\t\t${line}`);
+		}
+	}
+	newLines.push("]");
+	return qstr.convertLinesToStringBlock(newLines);
+};

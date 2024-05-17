@@ -1,6 +1,7 @@
 import * as qfil from '../share/qtools/qfil';
 import * as apptools from './apptools';
 import * as appconfig from './appconfig';
+import _itemTypeTargets from './data/itemTypeTargets.json';
 
 export const appIdCode = (): string => {
 	const packageJsonObj = qfil.readJsonFile('./package.json');
@@ -31,4 +32,8 @@ export const backendBaseUrl = (): string => {
 
 export const etsiteDataRelativePathAndFileName = (): string => {
 	return '../edward-tanguay-eu/src/data';
+}
+
+export const itemTypeTargets = () => {
+	return _itemTypeTargets;
 }

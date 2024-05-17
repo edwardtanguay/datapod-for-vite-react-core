@@ -23,3 +23,13 @@ export const getFileNamesInDirectory = (directory: string) => {
 	}
 	return fileNames;
 }
+
+export const writeToFile = (pathAndFileName: string, content: string): void => {
+    fs.writeFile(pathAndFileName, content, (err) => {
+        if (err) {
+            console.error('Error writing to file:', err);
+        } else {
+            console.log(`Content written to ${pathAndFileName}.`);
+        }
+    });
+};

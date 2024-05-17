@@ -5,6 +5,8 @@ import { ILineBlockDataItem } from "../../src/interfaces";
 import { DpodItem } from "./DpodItem";
 import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";
+import * as appConfig from "../appconfig";
+import * as qfil from "../../share/qtools/qfil";
 
 export class DpodDataLoader {
 	private content = "";
@@ -29,6 +31,23 @@ export class DpodDataLoader {
 		this.createCsvData();
 		this.createXmlData();
 		this.createDatapodData();
+		this.copyJsonFilesToTargets();
+	}
+
+	private copyJsonFilesToTargets() {
+		const itemTypeTargets = appConfig.itemTypeTargets();
+		for (const itemTypeTarget of itemTypeTargets) {
+			console.log(
+				`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
+			);
+			const jsonContent = qstr.wrapAsJsonContent(
+				this.jsonData[itemTypeTarget.itemType]
+			);
+			qfil.writeToFile(
+				itemTypeTarget.jsonFilePathAndFileName,
+				jsonContent
+			);
+		}
 	}
 
 	private createXmlData() {
