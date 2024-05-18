@@ -7,7 +7,7 @@ Status
 
 ==task
 datapodEngine
-update datasource after reading (and keep suuid constant)
+update datasource after reading (and keep suuid constant), also one file per itemType
 nn
 4.75
 todo
@@ -56,9 +56,9 @@ todo
 
 ==task
 datapodCentral
-display description in Outline mode with images and markdown
+display overview (siteAndGoalOverview) in Outline mode with images and markdown
 nn
-4.6
+4.78
 todo
 
 ==task
@@ -72,7 +72,7 @@ todo
 datapodCentral
 generate navbar from array
 nn
-4.7
+4.76
 todo
 
 ==task
@@ -119,7 +119,12 @@ nn
 4.5
 todo
 
-
+==task
+allSites
+make all sites responsive-first
+nn
+4.3
+todo
 
 
 
