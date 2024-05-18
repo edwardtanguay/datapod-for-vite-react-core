@@ -1,0 +1,83 @@
+** Central Datapod Site Blocks
+idCode
+Body;p
+
+==centralDatapodSiteBlock
+siteAndGoalOverview
+[[
+- Datapod frameworks
+	- Edward's Language Learning Site
+		- genericizes
+			- Datapod-for-Vite-React 0.0.0
+			- Datapod Engine 0.0.0
+	- Edward's Tech Site
+		- genericizes
+			- Datapod-for-Nextjs 0.0.0
+	- Edward's Personal site
+		- genericizes
+			- Datapod-for-Nuxt 0.0.0
+	- Datapod Central
+		- genericizes
+			- Datapod-for-Angular 0.0.0	
+	- Edward's Fitness Site
+		- genericizes
+			- Datapod-for-SvelteKit 0.0.0
+	- Edward's Learn Vim Site 
+		- genericizes
+			- Datapod-for-Python 0.0.0
+	- Edward's Tech Items Site
+		- genericizes
+			- Datapod-for-Phoenix 0.0.0
+	- Edward's Job Site
+		- genericizes
+			- Datapod-for-Go 0.0.0
+		- possible frameworks
+			- Echo: https://echo.labstack.com
+	- Edward's Personal Task Manager
+		- genericizes
+			- Datapod-for-Electron 0.0.0
+		- offline program that manages personal tasks and projects
+		- can publish static sites that show itemTypes
+	- Edward's Good Arguments Site
+		- genericizes
+			- Datapod-for-Ruby-on-Rails 0.0.0
+	- nnn
+		- genericizes
+			- Datapod-for-T3-Stack 0.0.0
+	- nnn
+		- genericizes
+			- Datapod-for-Haskell 0.0.0
+		- uses the Yesod framework
+	- nnn
+		- genericizes
+			- Datapod-for-Rust 0.0.0
+		- uses the Actix framework
+	- nnn
+		- genericizes
+			- Datapod-for-Clojure 0.0.0
+		- uses the re-frame framework
+	- nnn
+		- genericizes
+			- Datapod-for-Laravel 0.0.0
+		- uses Vue.js for the frontend
+	- nnn
+		- genericizes
+			- Datapod-for-ASP.NET-Core 0.0.0	
+- supporting tools
+	- hosting at https://www.koyeb.com/pricing (Go)
+	- hosting at https://www.qovery.com/pricing/ (Go)
+	- Docker 4.9
+	- TypeScript; 4.8
+	- Kinde;4.7
+	- Clerk;4.6
+	- Zod; 4.6
+	- https://uploadthing.com/
+	- socket.io; 4.3
+	- Go; 4.1; for CLIs
+	- GraphQL; 3.5
+	- Monorepos;2.9;https://frontendmasters.com/courses/monorepos/
+		- https://turbo.build/
+- CSS
+	- find and copy features and layouts
+	- mobile first
+]]
