@@ -138,7 +138,7 @@ export const CompGroupDpodItems = ({ group }: IProps) => {
 				{displayFormat === "json" && (
 					<textarea
 						readOnly
-						value={`[\n${group.jsonData}\n]`}
+						value={`${group.jsonData}`}
 						className="h-[20rem] w-full bg-[#fff] p-4 border border-gray-800 outline-none text-orange-700 font-mono"
 					/>
 				)}

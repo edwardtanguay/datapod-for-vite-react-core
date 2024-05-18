@@ -40,9 +40,7 @@ export class DpodDataLoader {
 			console.log(
 				`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
 			);
-			const jsonContent = qstr.wrapAsJsonContent(
-				this.jsonData[itemTypeTarget.itemType]
-			);
+			const jsonContent = this.jsonData[itemTypeTarget.itemType];
 			qfil.writeToFile(
 				itemTypeTarget.jsonFilePathAndFileName,
 				jsonContent
@@ -79,7 +77,9 @@ export class DpodDataLoader {
 			for (const dpodItem of dpodItems) {
 				jsonDataTexts.push(dpodItem.getJsonData());
 			}
-			this.jsonData[key] = jsonDataTexts.join(",\n");
+			this.jsonData[key] = qstr.wrapAsJsonContent(
+				jsonDataTexts.join(",\n")
+			);
 		}
 	}
 

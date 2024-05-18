@@ -38,7 +38,7 @@ datapodEngine
 display the JSON on site as indented, use wrap function in qstr
 nn
 4.81
-todo
+finished
 
 ==task
 datapodEngine
@@ -52,6 +52,13 @@ datapodEngine
 allow trailing NUMBER properties to be empty (currently only works with LINES)
 nn
 4.4
+todo
+
+==task
+datapodCentral
+display description in Outline mode with images and markdown
+nn
+4.6
 todo
 
 ==task
