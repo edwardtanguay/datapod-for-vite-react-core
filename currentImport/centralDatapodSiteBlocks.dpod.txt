@@ -33,6 +33,7 @@ siteAndGoalOverview
 			- **Datapod-for-Go 0.0.0**
 		- possible frameworks
 			- Echo: https://echo.labstack.com
+			- Gin: https://gin-gonic.com
 	- *Edward's Personal Task Manager*
 		- genericizes
 			- **Datapod-for-Electron 0.0.0**

@@ -59,7 +59,7 @@ datapodCentral
 display overview (siteAndGoalOverview) in Outline mode with images and markdown
 nn
 4.78
-todo
+finished
 
 ==task
 datapodCentral
