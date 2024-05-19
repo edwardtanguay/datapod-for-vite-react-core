@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as appConfig from '../../backend/appconfig';
 import axios from "axios";
-import { z } from 'zod';
+import { ZodError, z } from 'zod';
 import * as qstr from '../../share/qtools/qstr';
 
 const EmployeeSchema = z.object({
@@ -22,6 +22,16 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 	const [employees, setEmployees] = useState<Employee[]>([]);
 	const [rejectedEmployees, setRejectedEmployees] = useState<RejectedEmployee[]>([]);
 
+	const getErrorMessage = (error: ZodError) => {
+		const errorMessages: string[] = [];
+		let count = 1;
+		for (const issue of error.issues) {
+			errorMessages.push(`${count}. ${issue.message}`);
+			count++;
+		}
+		return ': ' + errorMessages.join(', ');
+	}
+
 	const loadEmployees = async () => {
 		const response = await axios.get(`${appConfig.backendBaseUrl()}/zod-showcase/employees`);
 		const rawEmployees: unknown[] = response.data;
@@ -33,7 +43,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 				_employees.push(rawEmployee as Employee);
 			} else {
 				_rejectedEmployees.push({
-					message: 'bad employee',
+					message: getErrorMessage(rawEmployeeValidityCheck.error),
 					badObject: rawEmployee
 				});
 			}
