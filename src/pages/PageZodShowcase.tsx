@@ -12,11 +12,16 @@ export const PageZodShowcase = () => {
 				<li>below are examples of how <a href="https://zod.dev" target="_blank" className="underline font-bold">Zod</a> can be used to protect each of these data sources</li>
 			</ul>
 			<h2 className="text-2xl mt-4">Exterior data sources in <strong>Frontend</strong></h2>
-			<ZodShowcaseDataInputWrapper title="Data from the backend">
+			<ZodShowcaseDataInputWrapper title="1. Data from the backend">
 				<ZodShowcaseDataInputFrontendBackend />
 			</ZodShowcaseDataInputWrapper>
-			<ZodShowcaseDataInputWrapper title="Third-Party APIs">
+			<ZodShowcaseDataInputWrapper title="2. Third-Party APIs">
 				<ZodShowcaseDataInputFrontendApis />
+			</ZodShowcaseDataInputWrapper>
+			<ZodShowcaseDataInputWrapper title="2. Forms">
+				<section>
+					<p className="intro">nnn</p>
+				</section>
 			</ZodShowcaseDataInputWrapper>
 			<h2 className="text-2xl mt-4">Exterior data sources in <strong>Backend</strong></h2>
 		</section>
