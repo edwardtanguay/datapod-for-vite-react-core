@@ -12,6 +12,7 @@ import { AppProvider } from "./AppContext.tsx";
 import { PageNotation } from "./pages/PageNotation.tsx";
 import { PageImport } from "./pages/PageImport.tsx";
 import { PageInfo } from "./pages/PageInfo.tsx";
+import { PageZodShowcase } from "./pages/PageZodShowcase.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
 			{
 				path: "import",
 				element: <PageImport/>,
+			},
+			{
+				path: "zodshowcase",
+				element: <PageZodShowcase/>,
 			},
 			{
 				path: "info",
