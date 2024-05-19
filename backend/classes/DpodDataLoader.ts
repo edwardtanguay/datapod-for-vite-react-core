@@ -1,7 +1,7 @@
 /* eslint-disable no-prototype-builtins */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import * as qstr from "../../share/qtools/qstr";
-import { ILineBlockDataItem } from "../../src/interfaces";
+import { ILineBlockDataItem } from "../../share/interfaces";
 import { DpodItem } from "./DpodItem";
 import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";

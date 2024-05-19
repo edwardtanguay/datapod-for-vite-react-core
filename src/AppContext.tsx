@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createContext, useEffect, useState } from "react";
-import { IAppData, blankAppData } from "./interfaces";
+import { IAppData, blankAppData } from "../share/interfaces";
 import * as AppModel from "./AppModel";
 import axios from "axios";
 import * as appconfig from "../backend/appconfig";
@@ -29,9 +29,9 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	}, []);
 
 	const handleParseButton = async () => {
-		try { 
+		try {
 			await axios.get(`${appconfig.backendBaseUrl()}/parse-etsite-data`);
-		} catch (e:any) {
+		} catch (e: any) {
 			console.log("there was an error");
 			console.log(e.message);
 		}

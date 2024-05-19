@@ -1,11 +1,11 @@
-import { IDpodSchemaDataItem } from "../interfaces"
+import { IDpodSchemaDataItem } from "../../share/interfaces"
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 interface IProps {
 	dpodSchemaDataItem: IDpodSchemaDataItem;
 }
 
-export const CompDpodSchemaItem = ({ dpodSchemaDataItem }:IProps) => {
+export const CompDpodSchemaItem = ({ dpodSchemaDataItem }: IProps) => {
 	return (
 		<table className="dpodSchema">
 			<tbody>

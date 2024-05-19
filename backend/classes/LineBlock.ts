@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import * as qstr from '../../share/qtools/qstr';
-import { ILineBlockDataItem, ILineBlockKind } from '../../src/interfaces';
+import * as qstr from "../../share/qtools/qstr";
+import { ILineBlockDataItem, ILineBlockKind } from "../../share/interfaces";
 
 export class LineBlock {
 	private lines: string[] = [];
 
-	constructor(line = '') {
+	constructor(line = "") {
 		if (!qstr.isEmpty(line)) {
 			this.lines.push(line);
 		}
@@ -32,24 +32,24 @@ export class LineBlock {
 	}
 
 	public blankOutLines() {
-		return this.lines = [];
+		return (this.lines = []);
 	}
 
 	public getLineBlockDataItem(): ILineBlockDataItem {
 		return {
-			lines: this.lines
-		}
+			lines: this.lines,
+		};
 	}
 
 	public getKind(): ILineBlockKind {
 		const marker = this.lines[0].slice(0, 2);
 		switch (marker) {
-			case '**':
-				return 'schema';
-			case '==':
-				return 'item'
+			case "**":
+				return "schema";
+			case "==":
+				return "item";
 			default:
-				return 'UNKNOWN';
+				return "UNKNOWN";
 		}
 	}
 
