@@ -27,7 +27,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 
 		const _errorMessages: string[] = [];
 		for (const issue of error.issues) {
-			_errorMessages.push(issue.message);
+			_errorMessages.push(`property "${issue.path[0]}" ${issue.message.toLowerCase()}`);
 		}
 
 		const errorMessages: string[] = [];
@@ -39,7 +39,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 			}
 			finalErrorMessage = 'REJECTION REASONS: ' + errorMessages.join(', ');
 		} else {
-			finalErrorMessage = 'REJECTION REASONS: ' + _errorMessages[0];
+			finalErrorMessage = 'REJECTION REASON: ' + _errorMessages[0];
 		}
 		return finalErrorMessage;
 	}

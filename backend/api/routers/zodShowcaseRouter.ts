@@ -6,8 +6,8 @@ zodShowcaseRouter.get('/employees', (_req, res) => {
 	const employees = [
 		{
 			name: "Hans Altright",
-			age: "32",
-			email: "hans@company.com"
+			age: 32,
+			email: "hanscompany.com"
 		},
 		{
 			name: "Nilan Buchthaler",
