@@ -1,25 +1,36 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import express from 'express';
-import cors from 'cors';
-import { IAppData } from '../../src/interfaces.js';
-import * as qfil from '../../share/qtools/qfil.js';
-import * as apptools from '../apptools.js';
-import * as appconfig from '../appconfig.js';
-import { DpodDataLoader } from '../classes/DpodDataLoader.js';
+import express from "express";
+import cors from "cors";
+import { IAppData } from "../../share/interfaces.js";
+import * as qfil from "../../share/qtools/qfil.js";
+import * as apptools from "../apptools.js";
+import * as appconfig from "../appconfig.js";
+import { DpodDataLoader } from "../classes/DpodDataLoader.js";
+import { zodShowcaseRouter } from "./routers/zodShowcaseRouter";
 
 const app = express();
 app.use(cors());
 
-app.get('/', (_req, res) => {
-	res.status(200).json({ 'message': 'api works' });
+app.use("/zod-showcase", zodShowcaseRouter);
+// app.get("/zod-showcase/employees", (_req, res) => {
+// 	res.status(200).json({ message: "zod test" });
+// });
+
+
+
+app.get("/", (_req, res) => {
+	res.status(200).json({ message: "api works" });
 });
 
-app.get('/appdata', (_req, res) => {
+app.get("/appdata", (_req, res) => {
+	console.log(
+		"===================================BEGIN======================"
+	);
 
-	console.log('===================================BEGIN======================');
-
-	const pathAndFileNames = qfil.getFileNamesInDirectory(appconfig.importDirectory());
+	const pathAndFileNames = qfil.getFileNamesInDirectory(
+		appconfig.importDirectory()
+	);
 	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
@@ -32,24 +43,35 @@ app.get('/appdata', (_req, res) => {
 		entireContent,
 		lineBlockDataItems: dpodDataLoader.getLineBlockDataItems(),
 		dpodSchemaDataItems: dpodDataLoader.getDpodSchemaDataItems(),
-		dpodItemGroupDataItems: dpodDataLoader.getDpodItemGroupDataItems()
-	}
+		dpodItemGroupDataItems: dpodDataLoader.getDpodItemGroupDataItems(),
+	};
 	res.status(200).json(appJsonData);
 });
 
-app.get('/parse-etsite-data', (req, res) => {
-	const etSiteBase = appconfig.etsiteDataRelativePathAndFileName();	
-	const pathAndFileNames = qfil.getFileNamesInDirectory(appconfig.importDirectory());
+app.get("/parse-etsite-data", (req, res) => {
+	const etSiteBase = appconfig.etsiteDataRelativePathAndFileName();
+	const pathAndFileNames = qfil.getFileNamesInDirectory(
+		appconfig.importDirectory()
+	);
 	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
-	const dataItems = dpodDataLoader.getDpodItemGroupDataItems()
-	apptools.createFile(`${etSiteBase}/itemType-runs.json`, (apptools.wrapAsArrayForJson((dataItems[0] as any).jsonData)));
-	apptools.createFile(`${etSiteBase}/itemType-swims.json`, (apptools.wrapAsArrayForJson((dataItems[1] as any).jsonData)));
-	apptools.createFile(`${etSiteBase}/itemType-weights.json`, (apptools.wrapAsArrayForJson((dataItems[2] as any).jsonData)));
+	const dataItems = dpodDataLoader.getDpodItemGroupDataItems();
+	apptools.createFile(
+		`${etSiteBase}/itemType-runs.json`,
+		apptools.wrapAsArrayForJson((dataItems[0] as any).jsonData)
+	);
+	apptools.createFile(
+		`${etSiteBase}/itemType-swims.json`,
+		apptools.wrapAsArrayForJson((dataItems[1] as any).jsonData)
+	);
+	apptools.createFile(
+		`${etSiteBase}/itemType-weights.json`,
+		apptools.wrapAsArrayForJson((dataItems[2] as any).jsonData)
+	);
 
 	res.status(200);
-})
+});
 
 app.listen(appconfig.backendPort(), () => {
 	console.log(`---

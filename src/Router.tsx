@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
 				element: <PageImport />,
 			},
 			{
-				path: "zodshowcase",
+				path: "zod-showcase",
 				element: <PageZodShowcase />,
 			},
 			{

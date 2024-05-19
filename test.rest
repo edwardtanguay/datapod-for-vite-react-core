@@ -1,0 +1,4 @@
+@url = http://localhost:3041
+
+### ZOD SHOWCASE EMPLOYEES
+GET {{url}}/zod-showcase/employees

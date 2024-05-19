@@ -49,6 +49,13 @@ finished
 
 ==task
 datapodEngine
+split API up into index.ts and server.ts and implement basic testing
+nn
+4.9
+todo
+
+==task
+datapodEngine
 allow trailing NUMBER properties to be empty (currently only works with LINES)
 nn
 4.4
