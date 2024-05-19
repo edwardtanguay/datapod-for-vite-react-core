@@ -23,13 +23,25 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 	const [rejectedEmployees, setRejectedEmployees] = useState<RejectedEmployee[]>([]);
 
 	const getErrorMessage = (error: ZodError) => {
-		const errorMessages: string[] = [];
-		let count = 1;
+		let finalErrorMessage = '';
+
+		const _errorMessages: string[] = [];
 		for (const issue of error.issues) {
-			errorMessages.push(`${count}. ${issue.message}`);
-			count++;
+			_errorMessages.push(issue.message);
 		}
-		return ': ' + errorMessages.join(', ');
+
+		const errorMessages: string[] = [];
+		if (_errorMessages.length > 1) {
+			let count = 1;
+			for (const _errorMessage of _errorMessages) {
+				errorMessages.push(`${count}. ${_errorMessage}`);
+				count++;
+			}
+			finalErrorMessage = 'REJECTION REASONS: ' + errorMessages.join(', ');
+		} else {
+			finalErrorMessage = 'REJECTION REASONS: ' + _errorMessages[0];
+		}
+		return finalErrorMessage;
 	}
 
 	const loadEmployees = async () => {

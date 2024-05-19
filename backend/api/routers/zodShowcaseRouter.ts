@@ -7,7 +7,7 @@ zodShowcaseRouter.get('/employees', (_req, res) => {
 		{
 			name: "Hans Altright",
 			age: "32",
-			email: "hanscompany.com"
+			email: "hans@company.com"
 		},
 		{
 			name: "Nilan Buchthaler",
