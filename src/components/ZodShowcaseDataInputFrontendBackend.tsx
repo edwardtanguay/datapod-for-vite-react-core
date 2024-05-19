@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import * as appConfig from '../../backend/appconfig';
 import axios from "axios";
 
@@ -20,7 +20,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 	return (
 		<>
 			<section>
-				<button className="generic">Load employees</button>
+				<button className="generic" onClick={loadEmployees}>Load employees</button>
 			</section>
 			{employees.length > 0 && (
 				<section>
