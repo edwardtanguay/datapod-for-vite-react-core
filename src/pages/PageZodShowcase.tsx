@@ -1,3 +1,5 @@
+import { ZodShowcaseDataInputFrontendApis } from "../components/ZodShowcaseDataInputFrontendApis";
+import { ZodShowcaseDataInputFrontendBackend } from "../components/ZodShowcaseDataInputFrontendBackend";
 import { ZodShowcaseDataInputWrapper } from "../components/ZodShowcaseDataInputWrapper";
 
 export const PageZodShowcase = () => {
@@ -11,10 +13,10 @@ export const PageZodShowcase = () => {
 			</ul>
 			<h2 className="text-2xl mt-4">Data sources in <strong>Frontend</strong></h2>
 			<ZodShowcaseDataInputWrapper title="Backend">
-				<div>okok</div>
+				<ZodShowcaseDataInputFrontendBackend />
 			</ZodShowcaseDataInputWrapper>
 			<ZodShowcaseDataInputWrapper title="Third-Party APIs">
-				<div>okok</div>
+				<ZodShowcaseDataInputFrontendApis />
 			</ZodShowcaseDataInputWrapper>
 			<h2 className="text-2xl mt-4">Data sources in <strong>Backend</strong></h2>
 		</>
