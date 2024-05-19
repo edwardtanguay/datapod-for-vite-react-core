@@ -6,7 +6,7 @@ import * as qstr from '../../share/qtools/qstr';
 
 const EmployeeSchema = z.object({
 	name: z.string(),
-	age: z.number(),
+	age: z.number().max(120).min(16),
 	email: z.string().email()
 });
 
@@ -68,6 +68,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 	return (
 		<>
 			<section>
+				<p className="intro">Even if you or your team controls the backend, you shouldn't trust data that it sends since someone may have made a mistake, or the backend may not be the latest version you expect, or any number of other reasons.</p>
 				<button className="generic" onClick={loadEmployees}>Load employees</button>
 			</section>
 			{employeesAreLoaded && (
@@ -84,7 +85,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 					<div className="flex gap-3 flex-col">
 						{rejectedEmployees.map((rejectedEmployee, index) => {
 							return (
-								<div key={index} className="bg-red-900 p-3 rounded mt-2"><h3 className="mb-3 text-yellow-300">{rejectedEmployee.message}</h3><pre className="text-xs bg-gray-800 text-gray-400 font-mono p-2">{JSON.stringify(rejectedEmployee.badObject, null, 2)}</pre></div>
+								<div key={index} className="bg-red-900 p-3 rounded mt-2"><h3 className="mb-3 text-yellow-300">{rejectedEmployee.message}</h3><pre className="text-xs bg-gray-800 text-gray-200 font-mono p-2">{JSON.stringify(rejectedEmployee.badObject, null, 2)}</pre></div>
 							)
 						})}
 					</div>

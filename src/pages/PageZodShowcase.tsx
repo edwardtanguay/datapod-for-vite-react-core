@@ -5,7 +5,7 @@ import { ZodShowcaseDataInputWrapper } from "../components/ZodShowcaseDataInputW
 export const PageZodShowcase = () => {
 
 	return (
-		<>
+		<section className="pageZodShowcase">
 			<h2 className="text-2xl mb-2">Zod is a tool to ensure that your fullstack application is using correctly shaped data</h2>
 			<ul className="list-disc ml-6">
 				<li>there are numerous exterior data sources from which a <strong>fullstack application</strong> gets its information and which require <strong>data validation</strong> and <strong>data cleansing</strong> in order to ensure that the app is using <strong>safely-formed data</strong></li>
@@ -19,6 +19,6 @@ export const PageZodShowcase = () => {
 				<ZodShowcaseDataInputFrontendApis />
 			</ZodShowcaseDataInputWrapper>
 			<h2 className="text-2xl mt-4">Exterior data sources in <strong>Backend</strong></h2>
-		</>
+		</section>
 	);
 };
