@@ -2,6 +2,7 @@ import { useState } from "react";
 import * as appConfig from '../../backend/appconfig';
 import axios from "axios";
 import { z } from 'zod';
+import * as qstr from '../../share/qtools/qstr';
 
 const EmployeeSchema = z.object({
 	name: z.string(),
@@ -49,22 +50,22 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 			</section>
 			{employeesAreLoaded && (
 				<section>
-					<p>{employees.length} employees were loaded:</p>
-					<ul className="list-disc ml-6 text-sm">
+					<p className="font-semibold">{qstr.smartPlural(employees.length, 'employee was', 'employees were')} loaded:</p>
+					<ul className="list-disc ml-6 text-green-950">
 						{employees.map((employee, index) => {
 							return (
 								<li key={index}>{employee.name}, age {employee.age}, {employee.email}</li>
 							)
 						})}
 					</ul>
-					<p>{rejectedEmployees.length} employees were rejected:</p>
-					<ul className="list-disc ml-6 text-sm">
+					<p className="font-semibold">{qstr.smartPlural(rejectedEmployees.length, 'employee was', 'employees were')} rejected:</p>
+					<div className="flex gap-3 flex-col">
 						{rejectedEmployees.map((rejectedEmployee, index) => {
 							return (
-								<div key={index}><h3>{rejectedEmployee.message}</h3><pre>{JSON.stringify(rejectedEmployee, null, 2)}</pre></div>
+								<div key={index} className="bg-red-900 p-3 rounded mt-2"><h3 className="mb-3 text-yellow-300">{rejectedEmployee.message}</h3><pre className="text-xs bg-gray-800 text-gray-400 font-mono p-2">{JSON.stringify(rejectedEmployee.badObject, null, 2)}</pre></div>
 							)
 						})}
-					</ul>
+					</div>
 				</section>
 			)}
 		</>
