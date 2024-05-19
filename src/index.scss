@@ -11,8 +11,12 @@
 		@apply text-orange-800 bg-gray-300 p-1 text-xs;
 	}
 
-	button {
+	button.main {
 		@apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
+	}
+
+	button.generic {
+		@apply bg-gradient-to-b from-gray-200 to-gray-400 py-1 px-2 rounded border border-gray-500 text-sm;
 	}
 }
 
@@ -28,7 +32,7 @@ a.active {
 
 div.pageImport {
 	h2:hover {
-		opacity: .95;
+		opacity: 0.95;
 	}
 }
 
@@ -55,9 +59,8 @@ section.groupDpodItems {
 			tr {
 				th {
 					background-color: #888;
-					padding: .5rem;
+					padding: 0.5rem;
 					border: 1px solid #111;
-
 				}
 			}
 		}
@@ -70,7 +73,7 @@ section.groupDpodItems {
 				}
 
 				td {
-					padding: .5rem;
+					padding: 0.5rem;
 					border: 1px solid #111;
 					background-color: #fff;
 					font-family: courier;
@@ -92,7 +95,7 @@ table.dpodSchema {
 			}
 
 			td {
-				padding: .5rem;
+				padding: 0.5rem;
 				border: 1px solid #111;
 				background-color: #fff;
 				font-family: courier;
@@ -113,14 +116,14 @@ table.notation {
 				padding-right: 1rem;
 
 				&:after {
-					content: ':';
+					content: ":";
 				}
 			}
 
 			td:nth-child(2) {
 				font-family: courier;
 				color: brown;
-				padding-top: .3rem;
+				padding-top: 0.3rem;
 			}
 		}
 	}

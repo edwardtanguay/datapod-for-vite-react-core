@@ -11,24 +11,29 @@ type Employee = {
 export const ZodShowcaseDataInputFrontendBackend = () => {
 	const [employees, setEmployees] = useState<Employee[]>([]);
 
-	useEffect(() => {
-		(async () => {
-			const response = await axios.get(`${appConfig.backendBaseUrl()}/zod-showcase/employees`);
-			const _employees = response.data;
-			setEmployees(_employees);
-		})();
-	}, []);
+	const loadEmployees = async () => {
+		const response = await axios.get(`${appConfig.backendBaseUrl()}/zod-showcase/employees`);
+		const _employees = response.data;
+		setEmployees(_employees);
+	};
 
 	return (
 		<>
-			<p>There are {employees.length} employees:</p>
-			<ul className="list-disc ml-4 text-sm">
-				{employees.map((employee, index) => {
-					return (
-						<li key={index}>{employee.name}, age {employee.age}, {employee.email}</li>
-					)
-				})}
-			</ul>
+			<section>
+				<button className="generic">Load employees</button>
+			</section>
+			{employees.length > 0 && (
+				<section>
+					<p>There are {employees.length} employees:</p>
+					<ul className="list-disc ml-4 text-sm">
+						{employees.map((employee, index) => {
+							return (
+								<li key={index}>{employee.name}, age {employee.age}, {employee.email}</li>
+							)
+						})}
+					</ul>
+				</section>
+			)}
 		</>
 	)
 }
