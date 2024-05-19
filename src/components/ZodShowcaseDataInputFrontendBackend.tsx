@@ -69,6 +69,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 		<>
 			<section>
 				<p className="intro">Even if you or your team controls the backend, you shouldn't trust data that it sends since someone may have made a mistake, or the backend may not be the latest version you expect, or any number of other reasons.</p>
+				<p className="instructions">Change the data in <a href="https://github.com/edwardtanguay/datapod-for-vite-react-core/blob/dev/backend/api/routers/zodShowcaseRouter.ts" target="_blank" className="underline">this employee array</a> in the backend and press the button to see how any employee object with an invalid property will be rejected.</p>
 				<button className="generic" onClick={loadEmployees}>Load employees</button>
 			</section>
 			{employeesAreLoaded && (
