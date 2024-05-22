@@ -1136,10 +1136,10 @@ finished
 
 ==run
 20240513
-7K First training run for 34th marathon in Eindhoven
+First 7K Südende loop
 2024-05-22
 7
-00:36:33
+00:37:24
 [[
 I wanted a new 7K route since I have been doing the same one since December, so got out Google Earth and found a nice one via Südende and doesn't go through the center of Lankwitz, lots of long stretches and a 1-kilometer green stretch. Felt a bit sluggish getting back into the swing of training here, it's been more than a week since I ran last.
 
@@ -1179,5 +1179,5 @@ I wanted a new 7K route since I have been doing the same one since December, so 
 
 ##fffwatdch
 ]]
-todo
+finished
 

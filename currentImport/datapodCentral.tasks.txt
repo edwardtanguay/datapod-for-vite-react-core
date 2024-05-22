@@ -17,14 +17,14 @@ datapodEngine
 escape double quotes (test with notes items)
 nn
 5.0
-finished
+completed
 
 ==task
 datapodEngine
 enable each itemType to be copied to the target file
 nn
 4.8
-finished
+completed
 
 ==task
 datapodEngine
@@ -38,14 +38,14 @@ datapodEngine
 display the JSON on site as indented, use wrap function in qstr
 nn
 4.81
-finished
+completed
 
 ==task
 datapodEngine
 allow trailing properties to be empty
 nn
 4.9
-finished
+completed
 
 ==task
 datapodEngine
@@ -73,14 +73,14 @@ datapodCentral
 display overview (siteAndGoalOverview) in Outline mode with images and markdown
 nn
 4.78
-finished
+completed
 
 ==task
 datapodCentral
-show "Open Tasks" and "Finished Tasks"
+show "Open Tasks" and "completed Tasks"
 nn
 5.0
-todo
+completed
 
 ==task
 datapodCentral
