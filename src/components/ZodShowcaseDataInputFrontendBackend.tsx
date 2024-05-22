@@ -7,7 +7,11 @@ import * as qstr from '../../share/qtools/qstr';
 const EmployeeSchema = z.object({
 	name: z.string(),
 	age: z.number().max(120).min(16),
-	email: z.string().email()
+	email: z.string().email(),
+	employeeCode: z.string()
+		.refine(value => /^[A-Z]{2}-\d{4}$/.test(value), {
+			message: "Format must be two letters plus hyphen plus four numbers, e.g. HW-0082"
+		})
 });
 
 type Employee = z.infer<typeof EmployeeSchema>;
@@ -34,7 +38,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 		if (_errorMessages.length > 1) {
 			let count = 1;
 			for (const _errorMessage of _errorMessages) {
-				errorMessages.push(`${count}. ${_errorMessage}`);
+				errorMessages.push(`(${count}) ${_errorMessage}`);
 				count++;
 			}
 			finalErrorMessage = 'REJECTION REASONS: ' + errorMessages.join(', ');
@@ -78,7 +82,7 @@ export const ZodShowcaseDataInputFrontendBackend = () => {
 					<ul className="list-disc ml-6 text-green-950">
 						{employees.map((employee, index) => {
 							return (
-								<li key={index}>{employee.name}, age {employee.age}, {employee.email}</li>
+								<li key={index}>{employee.name}, age {employee.age}, {employee.email}, (EMPLOYEE CODE: {employee.employeeCode})</li>
 							)
 						})}
 					</ul>
