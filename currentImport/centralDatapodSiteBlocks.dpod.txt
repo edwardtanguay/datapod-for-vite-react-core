@@ -71,9 +71,11 @@ siteAndGoalOverview
 			- see: https://github.com/JosefZIla/bash2048/blob/master/bash2048.sh
 - **supporting tools**
 	- 4.9; Docker; get full stack apps hosted at Hetzner with docker-compose
-	- 4.8; Zod; get site working with validation/cleansing frontend/backend for all data inputs
+	- 4.8; Shadcn UI
+	- 4.8; Zod; get site working with validation/cleansing frontend/backend for all data inputs;finished
 	- 4.7; Kinde; get example site working
 	- 4.7; Drizzle; make howto
+	- 4.7; testing with mocking
 	- 4.6; socket.io; howto that shows chat, dashboard and instant shows instant clicks on likes
 	- 4.6; Prisma; make howto
 	- 4.5; React Hook Form; make howto
@@ -82,6 +84,8 @@ siteAndGoalOverview
 	- 4.2; React Query; make howto
 	- 4.3; https://railway.app
 	- 4.1; Clerk; get example site working
+	- 3.9; Supabase
+	- 3.8; Firebase
 	- 3.8; [uploadthing](https://uploadthing.com); howto that allows Next.js site to upload images to Hetzner
 	- 3.7; shadcn; howto that shows how to use 20 components
 	- 3.6; CSS Layouts; make a library of various mobile-first 
@@ -93,6 +97,7 @@ siteAndGoalOverview
 	- 3.7; cron jobs
 	- 3.8; screen and tmux
 	- 2.9; sed and awk
+	- 1.2; symlinks
 - **keep up to date - watch regularly**
 	- ByteGrade; https://www.youtube.com/@ByteGrad/videos
 	- Kyle: https://www.youtube.com/@WebDevSimplified/videos

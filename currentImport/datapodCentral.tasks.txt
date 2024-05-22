@@ -77,6 +77,13 @@ finished
 
 ==task
 datapodCentral
+show "Open Tasks" and "Finished Tasks"
+nn
+5.0
+todo
+
+==task
+datapodCentral
 get central task management working
 nn
 4.0
@@ -93,7 +100,7 @@ todo
 datapodCentral
 move starters over to Datapod Central, make supporting tools section
 nn
-4.6
+4.8
 todo
 
 ==task
