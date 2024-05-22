@@ -42,11 +42,11 @@ siteAndGoalOverview
 	- *Edward's Good Arguments Site*
 		- genericizes
 			- **Datapod-for-Ruby-on-Rails 0.0.0**
-	- *(((project)))*
+	- *Edward's De-Echo Site*
 		- genericizes
 			- **Datapod-for-T3-Stack 0.0.0**
 		- uses tRPC
-	- *(((project)))*
+	- *Edward's Good Arguments Site*
 		- genericizes
 			- **Datapod-for-Haskell 0.0.0**
 		- uses the Yesod framework
@@ -65,6 +65,10 @@ siteAndGoalOverview
 	- *(((project)))* 
 		- genericizes
 			- **Datapod-for-ASP.NET-Core 0.0.0**	
+	- *(((project)))* 
+		- genericizes
+			- **Datapod-for-bash 0.0.0**
+			- see: https://github.com/JosefZIla/bash2048/blob/master/bash2048.sh
 - **supporting tools**
 	- 4.9; Docker; get full stack apps hosted at Hetzner with docker-compose
 	- 4.8; Zod; get site working with validation/cleansing frontend/backend for all data inputs
@@ -76,6 +80,7 @@ siteAndGoalOverview
 		- https://www.youtube.com/watch?v=u6PQ5xZAv7Q
 	- 4.4; Formik; make howto
 	- 4.2; React Query; make howto
+	- 4.3; https://railway.app
 	- 4.1; Clerk; get example site working
 	- 3.8; [uploadthing](https://uploadthing.com); howto that allows Next.js site to upload images to Hetzner
 	- 3.7; shadcn; howto that shows how to use 20 components
@@ -83,8 +88,15 @@ siteAndGoalOverview
 	- 3.4; hosting at [Koyeb](https://www.koyeb.com/pricing) - mentioned for Go
 	- 3.4; hosting at [Qovery](https://www.qovery.com/pricing) - mentioned for Go
 	- 3.2; Jotai; make howto
+	- 3.9; CSS design and layout, e.g. reproduce reponsive sites in tailwind from: https://html5up.net
 	- 2.6; GraphQL
+	- 3.7; cron jobs
+	- 3.8; screen and tmux
+	- 2.9; sed and awk
 - **keep up to date - watch regularly**
 	- ByteGrade; https://www.youtube.com/@ByteGrad/videos
 	- Kyle: https://www.youtube.com/@WebDevSimplified/videos
+- **learn regularly**
+	- Linux file writes, groups
+	- Linux command line tips
 ]]
