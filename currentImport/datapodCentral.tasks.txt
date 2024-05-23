@@ -94,7 +94,7 @@ datapodCentral
 generate navbar from array
 nn
 4.76
-todo
+completed
 
 ==task
 datapodCentral
@@ -145,6 +145,13 @@ allSites
 make all sites responsive-first
 nn
 4.3
+todo
+
+==task
+tanguayInfo
+make responsive landing page for Video2Brain videos, with explanation
+nn
+4.5
 todo
 
 
