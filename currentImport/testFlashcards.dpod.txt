@@ -41,3 +41,16 @@ the cows
 de koeien
 3.8
 this is just one line
+
+==testFlashcard
+nl
+we can relax
+wij kunnen ontspannen
+4.1
+[[
+- this is a good flashcard
+- it could be converted
+	- perhaps to German
+	- perhaps to Danish
+- it was put on the todo list
+]]
