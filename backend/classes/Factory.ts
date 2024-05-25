@@ -7,7 +7,7 @@ import { DataTypeUnknown } from './DataTypeUnknown';
 import { DataTypeDate } from './DataTypeDate';
 import { DataTypeUrl } from './DataTypeUrl';
 import { DataTypeDuration } from './DataTypeDuration';
-import { DataTypeSuuid } from './DataTypeSuuid';
+import { DataTypeDpodId } from './DataTypeDpodId';
 import { DataTypeParagraph } from './DataTypeParagraph';
 import { DataTypeDecimal } from './DataTypeDecimal';
 
@@ -52,7 +52,7 @@ export class Factory {
 			case 'date':
 				return new DataTypeDate(idCode);
 			case 'dpodId':
-				return new DataTypeSuuid(idCode);
+				return new DataTypeDpodId(idCode);
 			case 'wn':
 			case 'wholeNumber':
 				return new DataTypeWholeNumber(idCode);
