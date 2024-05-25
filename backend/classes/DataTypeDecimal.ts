@@ -2,10 +2,10 @@ import { DataType } from "./DataType";
 
 export class DataTypeDecimal extends DataType {
 
-	protected dataTypeIdCode = 'decimal';
-
 	constructor(idCode:string) {
 		super(idCode);
+		this.dataTypeIdCode = 'decimal';
+		this.abbreviatedDataTypeIdCode = 'dec';
 	}
 
 	public getJsonDataLine() {

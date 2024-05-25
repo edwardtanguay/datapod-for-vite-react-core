@@ -6,6 +6,10 @@ Rank;wn
 Description;p
 Kilometer;km
 When Published;date
+Rank;dec
+Home Page;url
+Duration;duration
+Vim Belt;judoBelt
 
 ==testFlashcard
 nl
