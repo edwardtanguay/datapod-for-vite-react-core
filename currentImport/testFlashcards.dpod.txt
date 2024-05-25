@@ -4,8 +4,7 @@ Front
 Back
 Rank;wn
 Description;p
-Testing
-Another
+Kilometer;km
 
 ==testFlashcard
 nl
@@ -17,8 +16,6 @@ dddd
 ddd
 ddd
 ]]
-nn
-okoko
 
 ==testFlashcard
 nl
@@ -26,9 +23,7 @@ maybe I can
 misschien kan ik
 4.7
 nn
-nn
-last
-
+42
 
 ==testFlashcard
 nl
@@ -39,5 +34,3 @@ ik ken dat woord niet
 ddd1
 ddd2
 ]]
-nn
-not blank
