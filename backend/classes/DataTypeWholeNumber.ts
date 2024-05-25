@@ -1,4 +1,5 @@
 import { DataType } from "./DataType";
+import * as qstr from "../../share/qtools/qstr.js";
 
 export class DataTypeWholeNumber extends DataType {
 
@@ -10,6 +11,10 @@ export class DataTypeWholeNumber extends DataType {
 	
 	public getJsonDataLine() {
 		return `\t"${this.idCode}": ${this.getTextValue()}`;
+	}
+
+	public getSchemaLine(): string {
+		return `${qstr.forceTitleNotation(this.idCode)};wn`;
 	}
 
 }

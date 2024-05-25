@@ -36,7 +36,7 @@ export class DpodSchema {
 					.systemDataTypeIdCodes()
 					.includes(dataType.getIdCode())
 			) {
-				lines.push(dataType.getIdCode());
+				lines.push(dataType.getSchemaLine());
 			}
 		}
 		return qstr.convertLinesToStringBlock(lines);

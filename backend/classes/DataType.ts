@@ -57,4 +57,8 @@ export class DataType {
 	public setValue(value: string) {
 		this.value = value;
 	}
+
+	public getSchemaLine() {
+		return qstr.forceTitleNotation(this.idCode);
+	}
 }
