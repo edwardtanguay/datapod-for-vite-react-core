@@ -12,6 +12,12 @@ export class DataType {
 		this.idCode = qstr.forceCamelNotation(this.label);
 		this.dataTypeIdCode = "BASETYPE";
 	}
+	
+	public debug() {
+		console.log(`
+idCode = ${this.idCode} with value = [${this.value}]
+		`.trim());
+	}
 
 	public getDataTypeIdCode() {
 		return this.dataTypeIdCode;
@@ -60,5 +66,15 @@ export class DataType {
 
 	public getSchemaLine() {
 		return qstr.forceTitleNotation(this.idCode);
+	}
+	
+	public forceDefaultValue() {
+		if (this.value === undefined) {
+			this.value = this.getDefaultValue();
+		}
+	}
+
+	private getDefaultValue() {
+		return '';
 	}
 }

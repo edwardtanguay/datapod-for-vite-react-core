@@ -4,7 +4,8 @@ Front
 Back
 Rank;wn
 Description;p
-Willcrash
+Testing
+Another
 
 ==testFlashcard
 nl
@@ -12,10 +13,11 @@ you are a bit dreamy
 je bent een beetje dromerig
 4.4
 [[
-kdjfkdjf
-sdfsd
-sdfsdf
+dddd
+ddd
+ddd
 ]]
+testing333
 
 ==testFlashcard
 nl
@@ -24,9 +26,14 @@ misschien kan ik
 4.7
 dddmore
 
+
 ==testFlashcard
 nl
 i don't know that word
 ik ken dat woord niet
 4.9
+[[
+ddd1
+ddd2
+]]
 

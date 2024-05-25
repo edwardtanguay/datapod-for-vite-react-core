@@ -16,20 +16,31 @@ export class DpodItem {
 	constructor(lineBlock: LineBlock, dpodDataLoader: DpodDataLoader) {
 		this.lineBlock = lineBlock;
 		this.dpodDataLoader = dpodDataLoader;
-		this.createProperties();
+		this.createSchemaCodes();
 		this.defineDpodSchema();
-		this.forceCorrectNumberOfProperties();
+		// this.forceCorrectNumberOfProperties();
 		this.createDataTypes();
+		this.forceDefaultTypesForAllMissingProperties();
 	}
 
-	private forceCorrectNumberOfProperties() {
-		const numberOfPropertiesToAdd =
-			this.dpodSchema.getNumberOfDataTypes() -
-			this.lineBlock.getNumberOfLines();
-		for (let x = 1; x <= numberOfPropertiesToAdd; x++) {
-			this.lineBlock.addLine("");
+	private forceDefaultTypesForAllMissingProperties() {
+		for (const dataType of this.dataTypes) {
+			dataType.forceDefaultValue();
 		}
 	}
+
+	// private forceCorrectNumberOfProperties() {
+	// 	const numberOfPropertiesToAdd =
+	// 		this.dpodSchema.getNumberOfDataTypes() -
+	// 		this.lineBlock.getNumberOfLines();
+	// 		console.log('numberOfDataTypes', this.dpodSchema.getNumberOfDataTypes());
+	// 		console.log('numberOfLines', this.lineBlock.getNumberOfLines());
+	// 		console.log('numberOfPropertiesToAdd', numberOfPropertiesToAdd);
+	// 		console.log('---');
+	// 	for (let x = 1; x <= numberOfPropertiesToAdd; x++) {
+	// 		this.lineBlock.addLine("");
+	// 	}
+	// }
 
 	public getSchemaBlock() {
 		return this.dpodSchema.getSchemaBlock();
@@ -79,7 +90,7 @@ export class DpodItem {
 		return this.schemaIdCode;
 	}
 
-	private createProperties() {
+	private createSchemaCodes() {
 		this.singularSchemaIdCode = qstr
 			.chopLeft(this.lineBlock.getFirstLine(), "==")
 			.trim();
