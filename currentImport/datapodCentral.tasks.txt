@@ -9,7 +9,14 @@ Status
 datapodEngine
 update datasource after reading (and keep suuid constant), also one file per itemType
 nn
-4.75
+4.95
+todo
+
+==task
+datapodEngine
+define next tasks to get Datapod Engine portable to other frameworks
+nn
+4.94
 todo
 
 ==task
