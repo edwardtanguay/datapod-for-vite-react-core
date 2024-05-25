@@ -465,6 +465,7 @@ export const convertToHtml = (text: string) => {
 export const convertFromHtml = (text: string) => {
 	let r = text;
 	r = qstr.replaceAll(r, "\n", "\\n");
+	r = qstr.replaceAll(r, "\t", "\\t");
 	return r;
 };
 
