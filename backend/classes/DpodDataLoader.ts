@@ -93,7 +93,10 @@ export class DpodDataLoader {
 			for (const dpodItem of dpodItems) {
 				datapodDataTexts.push(dpodItem.getDatapodData());
 			}
-			this.datapodData[key] = datapodDataTexts.join("\n\n");
+			const tempDpodItem = dpodItems[0];
+			const dpodSchemaBlock = tempDpodItem.getSchemaBlock();
+			console.log('schemaBlock', dpodSchemaBlock);
+			this.datapodData[key] =  datapodDataTexts.join("\n\n");
 		}
 	}
 

@@ -30,6 +30,10 @@ export class DpodItem {
 			this.lineBlock.addLine("");
 		}
 	}
+
+	public getSchemaBlock() {
+		return this.dpodSchema.getSchemaBlock();
+	}
 	private createDataTypes() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		const fieldLines = this.lineBlock.getAllLinesButFirst();

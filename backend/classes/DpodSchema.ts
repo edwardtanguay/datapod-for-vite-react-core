@@ -27,6 +27,15 @@ export class DpodSchema {
 		console.log(``);
 	}
 
+	public getSchemaBlock() {
+		return `
+** ${qstr.forceTitleNotation(this.idCode)}
+one
+two
+three
+		`.trim();
+	}
+
 	public getIdCode() {
 		return this.idCode;
 	}
