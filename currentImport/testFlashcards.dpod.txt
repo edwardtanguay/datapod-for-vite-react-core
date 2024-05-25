@@ -17,14 +17,17 @@ dddd
 ddd
 ddd
 ]]
-testing333
+nn
+okoko
 
 ==testFlashcard
 nl
 maybe I can
 misschien kan ik
 4.7
-dddmore
+nn
+nn
+last
 
 
 ==testFlashcard
@@ -36,4 +39,5 @@ ik ken dat woord niet
 ddd1
 ddd2
 ]]
-
+nn
+not blank

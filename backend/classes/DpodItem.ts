@@ -4,6 +4,7 @@ import { DpodDataLoader } from "./DpodDataLoader";
 import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
 import { Factory } from "./Factory";
+import * as appConfig from '../appconfig';
 
 export class DpodItem {
 	private lineBlock: LineBlock;
@@ -68,7 +69,11 @@ export class DpodItem {
 						}
 						fieldLine = innerContent.trim();
 					}
-					__dataType.setValue(fieldLine);
+					if (fieldLine === appConfig.blankLineMarker()) {
+						__dataType.setValue("");
+					} else {
+						__dataType.setValue(fieldLine);
+					}
 				} else {
 					__dataType.setValue(qstr.generateShortUUID());
 				}

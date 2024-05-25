@@ -41,3 +41,7 @@ export const itemTypeTargets = () => {
 export const systemDataTypeIdCodes = ():string[] => {
 	return ['dpodId', 'dpodWhenCreated'];
 }
+
+export const blankLineMarker = (): string => {
+	return 'nn';
+}
