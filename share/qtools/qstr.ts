@@ -496,3 +496,10 @@ export const wrapAsJsonContent = (innerJsonContent: string) => {
 	newLines.push("]");
 	return qstr.convertLinesToStringBlock(newLines);
 };
+
+
+export const unescapeText = (text: string): string => {
+	let r = text;
+	r = qstr.replaceAll(r, '\\n', '\n');
+	return r;
+}
