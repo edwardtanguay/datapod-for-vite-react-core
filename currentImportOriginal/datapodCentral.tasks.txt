@@ -35,6 +35,13 @@ todo
 
 ==task
 datapodEngine
+replace all validation with Zod
+nn
+4.3
+todo
+
+==task
+datapodEngine
 enable each itemType to be copied to the target file
 nn
 4.8

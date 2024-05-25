@@ -5,6 +5,7 @@ export class DataType {
 	protected idCode = "";
 	protected label = "";
 	protected dataTypeIdCode = "";
+	protected abbreviatedDataTypeIdCode = "";
 	public value = "";
 
 	constructor(label: string) {
@@ -64,8 +65,13 @@ idCode = ${this.idCode} with value = [${this.value}]
 		this.value = value;
 	}
 
+	private getAbbreviatedDataTypeIdCode() {
+		return this.abbreviatedDataTypeIdCode === '' ? this.dataTypeIdCode : this.abbreviatedDataTypeIdCode;
+	}
+
 	public getSchemaLine() {
-		return qstr.forceTitleNotation(this.idCode);
+		const suffix = this.dataTypeIdCode !== 'line' ? `;${this.getAbbreviatedDataTypeIdCode()}` : '';
+		return qstr.forceTitleNotation(this.idCode) + suffix;
 	}
 	
 	public forceDefaultValue() {

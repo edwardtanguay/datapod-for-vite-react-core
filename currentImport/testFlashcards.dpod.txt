@@ -5,6 +5,7 @@ Back
 Rank;wn
 Description;p
 Kilometer;km
+When Published;date
 
 ==testFlashcard
 nl
@@ -16,6 +17,8 @@ dddd
 ddd
 ddd
 ]]
+nn
+2024-05-25
 
 ==testFlashcard
 nl

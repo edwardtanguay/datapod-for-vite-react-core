@@ -6,14 +6,11 @@ export class DataTypeParagraph extends DataType {
 	constructor(idCode:string) {
 		super(idCode);
 		this.dataTypeIdCode = 'paragraph';
+		this.abbreviatedDataTypeIdCode = 'p';
 	}
 	
 	public getTextValue() {
 		return this.value ? qstr.convertFromHtml(this.value) : '';
-	}
-
-	public getSchemaLine(): string {
-		return `${qstr.forceTitleNotation(this.idCode)};p`;
 	}
 
 }
