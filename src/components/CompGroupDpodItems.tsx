@@ -10,6 +10,7 @@ interface IProps {
 }
 
 export const CompGroupDpodItems = ({ group }: IProps) => {
+	console.log('DPODITEMS', group.dpodItems);
 	const [displayFormat, setDisplayFormat] =
 		useState<DisplayFormatType>("table");
 
@@ -120,9 +121,9 @@ export const CompGroupDpodItems = ({ group }: IProps) => {
 														<td
 															key={index}
 															dangerouslySetInnerHTML={{
-																__html: qstr.convertToHtml(
+																__html: dataType.value !== undefined ? qstr.convertToHtml(
 																	dataType.value
-																),
+																) : 'ERROR-NOVALUE',
 															}}
 														></td>
 													);

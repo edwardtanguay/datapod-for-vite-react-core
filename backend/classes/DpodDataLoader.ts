@@ -95,7 +95,9 @@ export class DpodDataLoader {
 			}
 			const tempDpodItem = dpodItems[0];
 			const dpodSchemaBlock = tempDpodItem.getSchemaBlock();
-			this.datapodData[key] = `${dpodSchemaBlock}\n\n${datapodDataTexts.join("\n\n")}`;
+			this.datapodData[
+				key
+			] = `${dpodSchemaBlock}\n\n${datapodDataTexts.join("\n\n")}`;
 		}
 	}
 
@@ -130,6 +132,12 @@ export class DpodDataLoader {
 	public debug() {
 		console.log(`=== DpodDataLoader ===`);
 		console.log(`number of dpodItems: ${this.dpodItems.length}`);
+		for (const dpodItems of Object.values(this.dpodItemGroups)) {
+			for (const dpodItem of (dpodItems as any[])) {
+				// console.log((dpodItem as DpodItem).getSchemaIdCode());
+				dpodItem.debug();
+			}
+		}
 	}
 
 	private createItems() {

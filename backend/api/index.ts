@@ -17,8 +17,6 @@ app.use("/zod-showcase", zodShowcaseRouter);
 // 	res.status(200).json({ message: "zod test" });
 // });
 
-
-
 app.get("/", (_req, res) => {
 	res.status(200).json({ message: "api works" });
 });
@@ -34,6 +32,7 @@ app.get("/appdata", (_req, res) => {
 	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
+	dpodDataLoader.debug();
 
 	const appJsonData: IAppData = {
 		appIdCode: appconfig.appIdCode(),
