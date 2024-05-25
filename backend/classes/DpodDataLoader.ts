@@ -95,8 +95,7 @@ export class DpodDataLoader {
 			}
 			const tempDpodItem = dpodItems[0];
 			const dpodSchemaBlock = tempDpodItem.getSchemaBlock();
-			console.log('schemaBlock', '\n' + dpodSchemaBlock);
-			this.datapodData[key] =  datapodDataTexts.join("\n\n");
+			this.datapodData[key] = `${dpodSchemaBlock}\n\n${datapodDataTexts.join("\n\n")}`;
 		}
 	}
 
