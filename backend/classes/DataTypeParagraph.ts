@@ -22,7 +22,9 @@ export class DataTypeParagraph extends DataType {
 		} else if (lines.length === 1) {
 			r += `${this.idCode}::${this.getTextValue()}`;
 		} else {
-			r += `${this.idCode}::(multiline with ${lines.length} lines)`;
+			r += `${this.idCode}::[[
+${lines.map((line) => `${qstr.convertVisibleTabsToSpaces(line)}`).join("\n")}
+]]`;
 		}
 		return r;
 	}
