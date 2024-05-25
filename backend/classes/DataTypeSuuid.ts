@@ -3,7 +3,7 @@ import * as qstr from '../../share/qtools/qstr';
 
 export class DataTypeSuuid extends DataType {
 
-	protected dataTypeIdCode = 'suuid';
+	protected dataTypeIdCode = 'dpodId';
 
 	constructor(idCode:string) {
 		super(idCode);

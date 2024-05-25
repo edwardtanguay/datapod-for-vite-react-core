@@ -39,5 +39,5 @@ export const itemTypeTargets = () => {
 }
 
 export const systemDataTypeIdCodes = ():string[] => {
-	return ['suuid', 'systemWhenCreated'];
+	return ['dpodId', 'dpodWhenCreated'];
 }

@@ -64,7 +64,7 @@ ${this.getSchemaBlockDataTypeLines()}
 
 	private createDataTypes() {
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
-		const dataTypeSuuid = Factory.instantiateDataType("suuid");
+		const dataTypeSuuid = Factory.instantiateDataType("dpodId");
 		this.dataTypes.push(dataTypeSuuid);
 		for (const fieldLine of fieldLines) {
 			const dataType = Factory.instantiateDataType(fieldLine);

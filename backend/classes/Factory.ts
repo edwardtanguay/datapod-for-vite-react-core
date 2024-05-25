@@ -16,8 +16,8 @@ export class Factory {
 	public static instantiateDataType(dataTypeDefinitionLine: string) {
 		if (!dataTypeDefinitionLine.includes(';')) {
 			switch (dataTypeDefinitionLine) {
-				case 'suuid':
-					dataTypeDefinitionLine = 'Suuid;suuid';
+				case 'dpodId':
+					dataTypeDefinitionLine = 'DpodId;dpodId';
 					break;
 				case 'Date':
 					dataTypeDefinitionLine += ';date';
@@ -51,7 +51,7 @@ export class Factory {
 				return new DataTypeKilometers(idCode);
 			case 'date':
 				return new DataTypeDate(idCode);
-			case 'suuid':
+			case 'dpodId':
 				return new DataTypeSuuid(idCode);
 			case 'wn':
 			case 'wholeNumber':

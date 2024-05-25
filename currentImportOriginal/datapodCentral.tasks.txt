@@ -7,7 +7,7 @@ Status
 
 ==task
 datapodEngine
-update datasource after reading (and keep suuid constant), also one file per itemType
+update datasource after reading (and keep dpodId constant), also one file per itemType
 nn
 4.95
 todo
