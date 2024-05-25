@@ -37,3 +37,7 @@ export const etsiteDataRelativePathAndFileName = (): string => {
 export const itemTypeTargets = () => {
 	return _itemTypeTargets;
 }
+
+export const systemDataTypeIdCodes = ():string[] => {
+	return ['suuid', 'systemWhenCreated'];
+}

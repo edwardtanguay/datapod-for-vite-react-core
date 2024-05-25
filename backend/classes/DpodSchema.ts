@@ -1,12 +1,13 @@
 import { DataType } from "./DataType";
 import { LineBlock } from "./LineBlock";
-import * as qstr from '../../share/qtools/qstr';
+import * as qstr from "../../share/qtools/qstr";
 import { Factory } from "./Factory";
+import * as appConfig from "../appconfig";
 
 export class DpodSchema {
 	private lineBlock: LineBlock;
-	private idCode: string = '';
-	private label: string = '';
+	private idCode: string = "";
+	private label: string = "";
 	private dataTypes: DataType[] = [];
 
 	// ** Flashcards
@@ -27,12 +28,24 @@ export class DpodSchema {
 		console.log(``);
 	}
 
+	private getSchemaBlockDataTypeLines() {
+		const lines: string[] = [];
+		for (const dataType of this.dataTypes) {
+			if (
+				!appConfig
+					.systemDataTypeIdCodes()
+					.includes(dataType.getIdCode())
+			) {
+				lines.push(dataType.getIdCode());
+			}
+		}
+		return qstr.convertLinesToStringBlock(lines);
+	}
+
 	public getSchemaBlock() {
 		return `
 ** ${qstr.forceTitleNotation(this.idCode)}
-one
-two
-three
+${this.getSchemaBlockDataTypeLines()}
 		`.trim();
 	}
 
@@ -45,13 +58,13 @@ three
 	}
 
 	private createIdCode() {
-		this.label = qstr.chopLeft(this.lineBlock.getFirstLine(), '**').trim();
+		this.label = qstr.chopLeft(this.lineBlock.getFirstLine(), "**").trim();
 		this.idCode = qstr.forceCamelNotation(this.label);
 	}
 
 	private createDataTypes() {
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
-		const dataTypeSuuid = Factory.instantiateDataType('suuid');
+		const dataTypeSuuid = Factory.instantiateDataType("suuid");
 		this.dataTypes.push(dataTypeSuuid);
 		for (const fieldLine of fieldLines) {
 			const dataType = Factory.instantiateDataType(fieldLine);
@@ -65,8 +78,8 @@ three
 		return {
 			idCode: this.idCode,
 			label: this.label,
-			dataTypes: this.dataTypes.map(m => m.getDataItem())
-		}
+			dataTypes: this.dataTypes.map((m) => m.getDataItem()),
+		};
 	}
 
 	public getDataTypes() {
