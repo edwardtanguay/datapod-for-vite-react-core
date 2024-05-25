@@ -12,5 +12,8 @@ export class DataTypeParagraph extends DataType {
 		return this.value ? qstr.convertFromHtml(this.value) : '';
 	}
 
+	public getSchemaLine(): string {
+		return `${qstr.forceTitleNotation(this.idCode)};p`;
+	}
 
 }
