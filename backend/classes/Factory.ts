@@ -10,6 +10,7 @@ import { DataTypeDuration } from './DataTypeDuration';
 import { DataTypeDpodId } from './DataTypeDpodId';
 import { DataTypeParagraph } from './DataTypeParagraph';
 import { DataTypeDecimal } from './DataTypeDecimal';
+import { DataTypeYesNo } from './DataTypeYesNo';
 
 export class Factory {
 
@@ -65,6 +66,9 @@ export class Factory {
 				return new DataTypeDuration(idCode);
 			case 'judoBelt':
 				return new DataTypeJudoBelt(idCode);
+			case 'yn':
+			case 'yesNo':
+				return new DataTypeYesNo(idCode);
 			default:
 				return new DataTypeUnknown(idCode, dataTypeIdCode);
 		}
