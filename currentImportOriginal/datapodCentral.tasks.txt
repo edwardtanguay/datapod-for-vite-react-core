@@ -7,6 +7,13 @@ Status
 
 ==task
 datapodEngine
+make DataType Rank
+nn
+4.75
+todo
+
+==task
+datapodEngine
 update datasource after reading (and keep dpodId constant), also one file per itemType
 nn
 4.95

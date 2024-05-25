@@ -3,12 +3,18 @@ Category
 Front
 Back
 Rank;dec
+Description;p
 
 ==testFlashcard
 nl
 you are a bit dreamy
 je bent een beetje dromerig
 4.4
+[[
+- first line
+- second line
+- third line
+]]
 
 ==testFlashcard
 nl
@@ -21,3 +27,10 @@ nl
 I don't know that word
 ik ken dat woord niet
 4.9
+[[
+- first line
+- second line
+	- sub line 001
+	- sub line 002
+- third line
+]]

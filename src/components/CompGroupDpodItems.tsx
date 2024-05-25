@@ -10,7 +10,6 @@ interface IProps {
 }
 
 export const CompGroupDpodItems = ({ group }: IProps) => {
-	console.log('DPODITEMS', group.dpodItems);
 	const [displayFormat, setDisplayFormat] =
 		useState<DisplayFormatType>("table");
 

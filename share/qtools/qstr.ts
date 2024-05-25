@@ -458,6 +458,7 @@ export const generateShortUUID = () => {
 export const convertToHtml = (text: string) => {
 	let r = text;
 	r = qstr.replaceAll(r, "\n", "<br/>");
+	r = qstr.replaceAll(r, "\t", "&nbsp;&nbsp;");
 	return r;
 };
 
