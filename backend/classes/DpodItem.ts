@@ -5,7 +5,7 @@ import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
 import { Factory } from "./Factory";
 import * as appConfig from "../appconfig";
-// import * as qdev from "../../share/qtools/qdev";
+import * as qdev from "../../share/qtools/qdev";
 import { DpodSyntaxType } from "../../share/interfaces";
 
 export class DpodItem {
@@ -54,9 +54,21 @@ export class DpodItem {
 		}
 	}
 
+	private getDpodIdFromVerboseItem() {
+		const fieldLines = this.lineBlock.getAllLinesButFirst();
+		const firstLine = fieldLines[0]; // "dpodId::7SaDSw"
+		const parts = qstr.breakIntoParts(firstLine, '::');
+		const dpodId = parts[1];
+		return dpodId;
+
+	}
+
 	private createDataTypesBasedOnVerboseSyntax() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
+		const dpodId = this.getDpodIdFromVerboseItem();
+		// qdev.log('DpodItem.ts:60', 'fieldLines', fieldLines);
+		// qdev.log('DpodItem.ts:71', 'dpodId', dpodId);
 		if (this.dpodSchema) {
 			let index = -1;
 			for (const _dataType of _dataTypes) {
@@ -81,7 +93,7 @@ export class DpodItem {
 						__dataType.setValue(fieldLine);
 					}
 				} else {
-					__dataType.setValue(qstr.generateShortUUID());
+					__dataType.setValue(dpodId);
 				}
 				this.dataTypes.push(__dataType);
 				index++;
