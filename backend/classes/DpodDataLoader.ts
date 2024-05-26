@@ -37,7 +37,8 @@ export class DpodDataLoader {
 	}
 
 	private overwriteOriginalDpodFiles() {
-		
+		// qdev.log('DpodDataLoader.ts:40', 'dpodItemGroups', this.dpodItemGroups ); 
+		qdev.log('DpodDataLoader.ts:40', 'colors', ['red', 'blue', 'green', {name: 'James', age: 34}]);  
 	}
 
 	private copyJsonFilesToTargets() {

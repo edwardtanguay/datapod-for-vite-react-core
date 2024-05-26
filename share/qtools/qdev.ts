@@ -2,10 +2,8 @@ import chalk from "chalk";
 
 export const log = (where: string, variableName: string, value: unknown) => {
 	if (typeof value === "string" && variableName.trim() === "") {
-		console.log(
-			chalk.red(`${where}>>>`) + chalk.green(` ${value}`)
-		);
-	} else if (typeof value === "string" || typeof value === 'number') {
+		console.log(chalk.red(`${where}>>>`) + chalk.green(` ${value}`));
+	} else if (typeof value === "string" || typeof value === "number") {
 		const strValue = String(value);
 		if (strValue.includes("\n")) {
 			console.log(
@@ -24,10 +22,9 @@ export const log = (where: string, variableName: string, value: unknown) => {
 	}
 	if (typeof value === "object") {
 		console.log(
-			chalk.red(`${where}>>>`) +
-				chalk.yellow(` ${variableName}=[`) +
-				chalk.blue(value) +
-				chalk.yellow(`]`)
+			chalk.red(`${where}>>>`) + chalk.yellow(` ${variableName}=[`)
 		);
+		console.log(chalk.blue(JSON.stringify(value, null, 2)));
+		console.log(chalk.yellow(`]`));
 	}
 };
