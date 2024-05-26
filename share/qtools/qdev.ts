@@ -1,7 +1,11 @@
 import chalk from "chalk";
 
 export const log = (where: string, variableName: string, value: unknown) => {
-	if (typeof value === "string") {
+	if (typeof value === "string" && variableName.trim() === "") {
+		console.log(
+			chalk.red(`${where}>>>`) + chalk.green(` ${value}`)
+		);
+	} else if (typeof value === "string") {
 		if (value.includes("\n")) {
 			console.log(
 				chalk.red(`${where}>>>`) + chalk.yellow(` ${variableName}=[`)

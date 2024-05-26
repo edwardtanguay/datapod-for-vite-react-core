@@ -7,6 +7,7 @@ import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";
 import * as appConfig from "../appconfig";
 import * as qfil from "../../share/qtools/qfil";
+import * as qdev from "../../share/qtools/qdev";
 
 export class DpodDataLoader {
 	private content = "";
@@ -37,7 +38,9 @@ export class DpodDataLoader {
 	private copyJsonFilesToTargets() {
 		const itemTypeTargets = appConfig.itemTypeTargets();
 		for (const itemTypeTarget of itemTypeTargets) {
-			console.log(
+			qdev.log(
+				"DpodDataLoader.ts:42",
+				"",
 				`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
 			);
 			const jsonContent = this.jsonData[itemTypeTarget.itemType];
@@ -133,7 +136,7 @@ export class DpodDataLoader {
 		console.log(`=== DpodDataLoader ===`);
 		console.log(`number of dpodItems: ${this.dpodItems.length}`);
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
-			for (const dpodItem of (dpodItems as any[])) {
+			for (const dpodItem of dpodItems as any[]) {
 				// console.log((dpodItem as DpodItem).getSchemaIdCode());
 				dpodItem.debug();
 			}
