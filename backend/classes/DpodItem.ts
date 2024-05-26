@@ -35,7 +35,17 @@ export class DpodItem {
 		return this.dpodSchema.getSchemaBlock();
 	}
 
+	private getSyntaxType() {
+		return 'simple';
+	}
+
 	private createDataTypes() {
+		if (this.getSyntaxType() === 'simple') {
+		this.createDataTypesBasedOnSimpleSyntax();
+		}
+	}
+
+	private createDataTypesBasedOnSimpleSyntax() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		qdev.log('DpodItem.ts:40', '_dataTypes', _dataTypes);
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
