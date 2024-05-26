@@ -57,17 +57,27 @@ export class DpodItem {
 	private getDpodIdFromVerboseItem() {
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
 		const firstLine = fieldLines[0]; // "dpodId::7SaDSw"
-		const parts = qstr.breakIntoParts(firstLine, '::');
+		const parts = qstr.breakIntoParts(firstLine, "::");
 		const dpodId = parts[1];
 		return dpodId;
+	}
 
+	private removeDpodIdLineFromFieldLines(fieldLines: string[]): string[] {
+		const newFieldLines: string[] = [];
+		for (const fieldLine of fieldLines) {
+			if (!fieldLine.startsWith("dpodId::")) {
+				newFieldLines.push(fieldLine);
+			}
+		}
+		return newFieldLines;
 	}
 
 	private createDataTypesBasedOnVerboseSyntax() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
-		const fieldLines = this.lineBlock.getAllLinesButFirst();
+		let fieldLines = this.lineBlock.getAllLinesButFirst();
 		const dpodId = this.getDpodIdFromVerboseItem();
-		// qdev.log('DpodItem.ts:60', 'fieldLines', fieldLines);
+		fieldLines = this.removeDpodIdLineFromFieldLines(fieldLines);
+		qdev.log("DpodItem.ts:60", "fieldLines", fieldLines);
 		// qdev.log('DpodItem.ts:71', 'dpodId', dpodId);
 		if (this.dpodSchema) {
 			let index = -1;
