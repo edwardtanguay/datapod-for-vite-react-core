@@ -1,7 +1,7 @@
 /* eslint-disable no-prototype-builtins */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import * as qstr from "../../share/qtools/qstr";
-import { ILineBlockDataItem } from "../../share/interfaces";
+import { DpodItemGroupDataItem, ILineBlockDataItem } from "../../share/interfaces";
 import { DpodItem } from "./DpodItem";
 import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";
@@ -39,7 +39,8 @@ export class DpodDataLoader {
 	private overwriteOriginalDpodFiles() {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
-			qdev.log('DpodDataLoader.ts:41', 'data source file name', (dpodItem as DpodItem).getDatapodTextFileName());
+			qdev.log('DpodDataLoader.ts:41', 'data source file name', dpodItem.getDatapodTextPathAndFileName());
+			qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), 'nnn');
 		}
 	}
 
@@ -243,7 +244,7 @@ export class DpodDataLoader {
 		return dpodSchemaDataItems;
 	}
 
-	public getDpodItemGroupDataItems() {
+	public getDpodItemGroupDataItems(): DpodItemGroupDataItem[] {
 		const ra = [];
 		const keys = Object.keys(this.dpodItemGroups);
 		for (const key of keys) {

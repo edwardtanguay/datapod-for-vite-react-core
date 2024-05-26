@@ -9,6 +9,16 @@ export interface IFileObject {
 export interface ILineBlockDataItem {
 	lines: string[];
 }
+export interface DpodItemGroupDataItem {
+	idCode: string,
+	label: string,
+	singleLabel: string,
+	jsonData: string,
+	csvData: string,
+	xmlData: string,
+	datapodData: string,
+	dpodItems: any[]
+ }
 
 export interface IAppData {
 	appIdCode: string;
@@ -18,7 +28,7 @@ export interface IAppData {
 	entireContent: string;
 	lineBlockDataItems: ILineBlockDataItem[];
 	dpodSchemaDataItems: any[];
-	dpodItemGroupDataItems: any[];
+	dpodItemGroupDataItems: DpodItemGroupDataItem[];
 }
 
 export const blankAppData = {

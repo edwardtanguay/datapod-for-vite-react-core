@@ -108,6 +108,10 @@ export class DpodItem {
 		return `${this.schemaIdCode}.dpod.txt`;
 	}
 
+	public getDatapodTextPathAndFileName() {
+		return `${appConfig.importDirectory()}/${this.getDatapodTextFileName()}`;
+	}
+
 	public debug() {
 		const lines: string[] = [];
 		lines.push(`=== DpodItem ===`);

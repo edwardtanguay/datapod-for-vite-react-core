@@ -21,6 +21,13 @@ todo
 
 ==task
 datapodEngine
+define types for all appData properties and solve the recursive error when doing a json.stringify on it 
+nn
+4.85
+todo
+
+==task
+datapodEngine
 refactor qdev.log to handle multiple line outputs or one-liners, make all .debug() functions output strings, and use colors
 nn
 4.3
