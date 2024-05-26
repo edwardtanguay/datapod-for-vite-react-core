@@ -1,0 +1,72 @@
+** Test Flashcards
+Category
+Front
+Back
+Rank;dec
+Description;p
+
+==testFlashcard
+dpodId::4EdBEp
+category::de
+front::
+back::
+rank::
+description::
+
+==testFlashcard
+dpodId::z0o7D2
+category::nl
+front::you are a bit dreamy
+back::je bent een beetje dromerig
+rank::4.4
+description::[[
+- first line
+- second line
+- third line
+	- third sub line 1
+	- third sub line 2
+]]
+
+==testFlashcard
+dpodId::c5tK00
+category::nl
+front::maybe I can
+back::misschien kan ik
+rank::4.7
+description::
+
+==testFlashcard
+dpodId::giXh5Q
+category::nl
+front::I don't know that word
+back::ik ken dat woord niet
+rank::4.9
+description::[[
+- first line
+- second line
+	- sub line 001
+	- sub line 002
+- third line
+]]
+
+==testFlashcard
+dpodId::Nn7t1C
+category::nl
+front::the cows
+back::de koeien
+rank::3.8
+description::this is just one line
+
+==testFlashcard
+dpodId::PRV1yV
+category::nl
+front::we can relax
+back::wij kunnen ontspannen
+rank::4.1
+description::[[
+- this is a good flashcard
+- it could be converted
+	- perhaps to German
+	- perhaps to Danish
+- it was put on the todo list
+]]

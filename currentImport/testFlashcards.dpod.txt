@@ -6,6 +6,9 @@ Rank;dec
 Description;p
 
 ==testFlashcard
+de
+
+==testFlashcard
 nl
 you are a bit dreamy
 je bent een beetje dromerig
@@ -14,6 +17,8 @@ je bent een beetje dromerig
 - first line
 - second line
 - third line
+	- third sub line 1
+	- third sub line 2
 ]]
 
 ==testFlashcard

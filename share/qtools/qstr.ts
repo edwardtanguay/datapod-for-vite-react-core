@@ -464,7 +464,7 @@ export const convertToHtml = (text: string) => {
 
 export const convertVisibleTabsToSpaces = (text: string) => {
 	let r = text;
-	r = qstr.replaceAll(r, "\\t", "  ");
+	r = qstr.replaceAll(r, "\\t", "\t");
 	return r;
 };
 

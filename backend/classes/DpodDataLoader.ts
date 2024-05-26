@@ -33,14 +33,14 @@ export class DpodDataLoader {
 		this.createXmlData();
 		this.createDatapodData();
 		this.copyJsonFilesToTargets();
-		this.overwriteOriginalDpodFiles();
+		this.overwriteOriginalDpodFiles(); 
 	}
 
 	private overwriteOriginalDpodFiles() {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
-			qdev.log('DpodDataLoader.ts:41', 'data source file name', dpodItem.getDatapodTextPathAndFileName());
-			qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
+			// qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
+			qfil.writeToFile('currentImportTesting/test.txt', this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
 		}
 	}
 
