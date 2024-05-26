@@ -4,6 +4,7 @@ import express from "express";
 import cors from "cors";
 import { IAppData } from "../../share/interfaces.js";
 import * as qfil from "../../share/qtools/qfil.js";
+import * as qdev from "../../share/qtools/qdev.js";
 import * as apptools from "../apptools.js";
 import * as appconfig from "../appconfig.js";
 import { DpodDataLoader } from "../classes/DpodDataLoader.js";
@@ -22,17 +23,16 @@ app.get("/", (_req, res) => {
 });
 
 app.get("/appdata", (_req, res) => {
-	console.log(
-		"===================================BEGIN======================"
-	);
-
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
 	);
 	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
-	dpodDataLoader.debug();
+	qdev.log('index.ts', 'appIdCode', appconfig.appIdCode());
+	qdev.log('index.ts', 'backendurl', appconfig.backendBaseUrl());
+
+	
 
 	const appJsonData: IAppData = {
 		appIdCode: appconfig.appIdCode(),
