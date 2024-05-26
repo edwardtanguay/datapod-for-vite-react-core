@@ -17,7 +17,7 @@ app.use("/zod-showcase", zodShowcaseRouter);
 // app.get("/zod-showcase/employees", (_req, res) => {
 // 	res.status(200).json({ message: "zod test" });
 // });
-
+ 
 app.get("/", (_req, res) => {
 	res.status(200).json({ message: "api works" });
 });

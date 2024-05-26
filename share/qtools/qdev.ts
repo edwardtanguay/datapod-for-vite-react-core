@@ -5,12 +5,13 @@ export const log = (where: string, variableName: string, value: unknown) => {
 		console.log(
 			chalk.red(`${where}>>>`) + chalk.green(` ${value}`)
 		);
-	} else if (typeof value === "string") {
-		if (value.includes("\n")) {
+	} else if (typeof value === "string" || typeof value === 'number') {
+		const strValue = String(value);
+		if (strValue.includes("\n")) {
 			console.log(
 				chalk.red(`${where}>>>`) + chalk.yellow(` ${variableName}=[`)
 			);
-			console.log(chalk.blue(value));
+			console.log(chalk.blue(strValue));
 			console.log(chalk.yellow(`]`));
 		} else {
 			console.log(

@@ -33,13 +33,18 @@ export class DpodDataLoader {
 		this.createXmlData();
 		this.createDatapodData();
 		this.copyJsonFilesToTargets();
+		this.overwriteOriginalDpodFiles();
+	}
+
+	private overwriteOriginalDpodFiles() {
+		
 	}
 
 	private copyJsonFilesToTargets() {
 		const itemTypeTargets = appConfig.itemTypeTargets();
 		for (const itemTypeTarget of itemTypeTargets) {
 			qdev.log(
-				"DpodDataLoader.ts:42",
+				'DpodDataLoader.ts:47',
 				"",
 				`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
 			);
