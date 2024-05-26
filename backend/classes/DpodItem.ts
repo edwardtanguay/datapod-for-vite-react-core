@@ -6,6 +6,7 @@ import { DataType } from "./DataType";
 import { Factory } from "./Factory";
 import * as appConfig from "../appconfig";
 import * as qdev from '../../share/qtools/qdev';
+import { DpodSyntaxType } from "../../share/interfaces";
 
 export class DpodItem {
 	private lineBlock: LineBlock;
@@ -35,8 +36,8 @@ export class DpodItem {
 		return this.dpodSchema.getSchemaBlock();
 	}
 
-	private getSyntaxType() {
-		return 'simple';
+	private getSyntaxType(): DpodSyntaxType {
+		return 'simple'
 	}
 
 	private createDataTypes() {
