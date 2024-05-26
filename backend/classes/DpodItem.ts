@@ -6,6 +6,7 @@ import { DataType } from "./DataType";
 import { Factory } from "./Factory";
 import * as appConfig from "../appconfig";
 import { DpodSyntaxType } from "../../share/interfaces";
+import * as qdev from '../../share/qtools/qdev';
 
 export class DpodItem {
 	private lineBlock: LineBlock;
@@ -81,9 +82,11 @@ export class DpodItem {
 	private createDataTypesBasedOnVerboseSyntax() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		let fieldLines = this.lineBlock.getAllLinesButFirst();
+			qdev.log('DpodItem.ts:87', 'fieldLines1', fieldLines);
 		const dpodId = this.getDpodIdFromVerboseItem();
 		fieldLines =
 			this.removeDpodIdLineFromFieldLinesAndStripPrefixes(fieldLines);
+			qdev.log('DpodItem.ts:87', 'fieldLines2', fieldLines);
 		if (this.dpodSchema) {
 			let index = -1;
 			for (const _dataType of _dataTypes) {
