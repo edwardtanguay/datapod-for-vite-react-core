@@ -6,11 +6,24 @@ Rank;dec
 Description;p
 
 ==testFlashcard
+dpodId::kAy3Zw
+category::fr
+front::the house
+back::la maison
+rank::4.5
+description::[[
+- the house
+	- another name
+	- some other info
+- the other buildings
+]]
+
+==testFlashcard
 dpodId::7SaDSw
 category::de
 front::the front
 back::
-rank::
+rank::5.0
 description::
 
 ==testFlashcard
