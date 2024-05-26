@@ -95,7 +95,7 @@ export class DpodItem {
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
 					let fieldLine = fieldLines[index];
-					if (fieldLine === "[[") {
+					if (fieldLine.endsWith("[[")) {
 						let innerContent = "";
 						let innerFieldLine = "";
 						while (innerFieldLine !== "]]") {
@@ -130,7 +130,7 @@ export class DpodItem {
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
 					let fieldLine = fieldLines[index];
-					if (fieldLine === "[[") {
+					if (fieldLine.endsWith("[[")) {
 						let innerContent = "";
 						let innerFieldLine = "";
 						while (innerFieldLine !== "]]") {

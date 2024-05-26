@@ -42,7 +42,10 @@ export class DpodDataLoader {
 	private overwriteOriginalDpodFiles() {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
-			qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
+			qfil.writeToFile(
+				dpodItem.getDatapodTextPathAndFileName(),
+				this.getDatapodContentForItemType(dpodItem.getSchemaIdCode())
+			);
 			// qfil.writeToFile(
 			// 	`currentImportTesting/test-${dpodItem.getSchemaIdCode()}.txt`,
 			// 	this.getDatapodContentForItemType(dpodItem.getSchemaIdCode())
@@ -201,8 +204,8 @@ export class DpodDataLoader {
 			}
 
 			// ignore multiline begin and end markers
-			if (["[[", "]]"].includes(line)) {
-				if (line === "[[") {
+			if (line.endsWith("[[") || line.endsWith("]]")) {
+				if (line.endsWith("[[")) {
 					isInsideMultilineBlock = true;
 				}
 				if (line === "]]") {

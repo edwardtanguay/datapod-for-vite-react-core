@@ -6,6 +6,35 @@ Rank;dec
 Description;p
 
 ==testFlashcard
+dpodId::bVGJdY
+category::fr
+front::the fork
+back::la fourchette
+rank::3.4
+description::[[
+111
+
+222
+
+333
+444
+
+555
+]]
+
+==testFlashcard
+dpodId::QNCHqQ
+category::fr
+front::the spoon
+back::la cuillère
+rank::4.3
+description::[[
+one
+
+two
+]]
+
+==testFlashcard
 dpodId::bANrHX
 category::fr
 front::the book
