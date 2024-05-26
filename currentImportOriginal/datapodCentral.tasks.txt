@@ -105,6 +105,13 @@ todo
 
 ==task
 datapodEngine
+fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect
+nn
+4.1
+todo
+
+==task
+datapodEngine
 fix table and Datapod view to show tabs
 nn
 4.6
