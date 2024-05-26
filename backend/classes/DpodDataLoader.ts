@@ -40,8 +40,12 @@ export class DpodDataLoader {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
 			qdev.log('DpodDataLoader.ts:41', 'data source file name', dpodItem.getDatapodTextPathAndFileName());
-			qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), 'nnn');
+			qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
 		}
+	}
+
+	private getDatapodContentForItemType(dpodItemIdCode: string) {
+		return `content for: ${dpodItemIdCode}`
 	}
 
 	private copyJsonFilesToTargets() {
