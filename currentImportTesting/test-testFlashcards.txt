@@ -6,7 +6,15 @@ Rank;dec
 Description;p
 
 ==testFlashcard
-dpodId::wDiF8E
+dpodId::Z0Hcbe
+category::dpodId::7SaDSw
+front::category::de
+back::front::the front
+rank::back::
+description::rank::
+
+==testFlashcard
+dpodId::xKzYYQ
 category::nl
 front::you are a bit dreamy
 back::je bent een beetje dromerig
@@ -20,7 +28,7 @@ description::[[
 ]]
 
 ==testFlashcard
-dpodId::Gopu03
+dpodId::mSFnNa
 category::nl
 front::maybe I can
 back::misschien kan ik
@@ -28,7 +36,7 @@ rank::4.7
 description::
 
 ==testFlashcard
-dpodId::JrX1GJ
+dpodId::orF5JB
 category::nl
 front::I don't know that word
 back::ik ken dat woord niet
@@ -42,7 +50,7 @@ description::[[
 ]]
 
 ==testFlashcard
-dpodId::UCKmkW
+dpodId::EBZXqB
 category::nl
 front::the cows
 back::de koeien
@@ -50,7 +58,7 @@ rank::3.8
 description::this is just one line
 
 ==testFlashcard
-dpodId::8Bwb7r
+dpodId::1LaUfY
 category::nl
 front::we can relax
 back::wij kunnen ontspannen

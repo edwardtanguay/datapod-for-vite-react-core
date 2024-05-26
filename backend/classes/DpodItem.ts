@@ -5,7 +5,7 @@ import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
 import { Factory } from "./Factory";
 import * as appConfig from "../appconfig";
-import * as qdev from "../../share/qtools/qdev";
+// import * as qdev from "../../share/qtools/qdev";
 import { DpodSyntaxType } from "../../share/interfaces";
 
 export class DpodItem {
@@ -50,22 +50,53 @@ export class DpodItem {
 		if (this.getSyntaxType() === "simple") {
 			this.createDataTypesBasedOnSimpleSyntax();
 		} else {
-			// this.createDataTypesBasedOnSimpleSyntax();
-			qdev.log('DpodItem.ts:53', '', 'would do verbose here');
+			this.createDataTypesBasedOnVerboseSyntax();
 		}
 	}
 
-	private createDataTypesBasedOnSimpleSyntax() {
+	private createDataTypesBasedOnVerboseSyntax() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
-		// qdev.log('DpodItem.ts:40', '_dataTypes', _dataTypes);
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
-		qdev.log("DpodItem.ts:42", "fieldLines", fieldLines);
 		if (this.dpodSchema) {
 			let index = -1;
 			for (const _dataType of _dataTypes) {
 				const creationLine =
 					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
-				// qdev.log('DpodItem.ts:48', 'creationLine', creationLine);
+				const __dataType = Factory.instantiateDataType(creationLine);
+				if (index >= 0) {
+					let fieldLine = fieldLines[index];
+					if (fieldLine === "[[") {
+						let innerContent = "";
+						let innerFieldLine = "";
+						while (innerFieldLine !== "]]") {
+							innerContent += innerFieldLine + "\n";
+							index++;
+							innerFieldLine = fieldLines[index];
+						}
+						fieldLine = innerContent.trim();
+					}
+					if (fieldLine === appConfig.blankLineMarker()) {
+						__dataType.setValue("");
+					} else {
+						__dataType.setValue(fieldLine);
+					}
+				} else {
+					__dataType.setValue(qstr.generateShortUUID());
+				}
+				this.dataTypes.push(__dataType);
+				index++;
+			}
+		}
+	}
+
+	private createDataTypesBasedOnSimpleSyntax() {
+		const _dataTypes = this.dpodSchema.getDataTypes();
+		const fieldLines = this.lineBlock.getAllLinesButFirst();
+		if (this.dpodSchema) {
+			let index = -1;
+			for (const _dataType of _dataTypes) {
+				const creationLine =
+					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
 					let fieldLine = fieldLines[index];
