@@ -29,10 +29,6 @@ app.get("/appdata", (_req, res) => {
 	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
-	qdev.log('index.ts', 'appIdCode', appconfig.appIdCode());
-	qdev.log('index.ts', 'backendurl', appconfig.backendBaseUrl());
-
-	
 
 	const appJsonData: IAppData = {
 		appIdCode: appconfig.appIdCode(),
