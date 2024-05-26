@@ -6,6 +6,38 @@ Rank;dec
 Description;p
 
 ==testFlashcard
+dpodId::bANrHX
+category::fr
+front::the book
+back::le livre
+rank::
+description::
+
+==testFlashcard
+dpodId::kzMLf5
+category::fr
+front::the tree
+back::l'arbre
+rank::
+description::
+
+==testFlashcard
+dpodId::LxptYW
+category::fr
+front::
+back::
+rank::
+description::
+
+==testFlashcard
+dpodId::RJDpbn
+category::fr
+front::
+back::
+rank::
+description::
+
+==testFlashcard
 dpodId::kAy3Zw
 category::fr
 front::the house
@@ -27,11 +59,12 @@ rank::5.0
 description::
 
 ==testFlashcard
-nl
-you are a bit dreamy
-je bent een beetje dromerig
-4.4
-[[
+dpodId::8JwZOm
+category::nl
+front::you are a bit dreamy
+back::je bent een beetje dromerig
+rank::4.4
+description::[[
 - first line
 - second line
 - third line
@@ -40,17 +73,20 @@ je bent een beetje dromerig
 ]]
 
 ==testFlashcard
-nl
-maybe I can
-misschien kan ik
-4.7
+dpodId::VY18za
+category::nl
+front::maybe I can
+back::misschien kan ik
+rank::4.7
+description::
 
 ==testFlashcard
-nl
-I don't know that word
-ik ken dat woord niet
-4.9
-[[
+dpodId::YKMzvt
+category::nl
+front::I don't know that word
+back::ik ken dat woord niet
+rank::4.9
+description::[[
 - first line
 - second line
 	- sub line 001
@@ -59,18 +95,20 @@ ik ken dat woord niet
 ]]
 
 ==testFlashcard
-nl
-the cows
-de koeien
-3.8
-this is just one line
+dpodId::lCRioh
+category::nl
+front::the cows
+back::de koeien
+rank::3.8
+description::this is just one line
 
 ==testFlashcard
-nl
-we can relax
-wij kunnen ontspannen
-4.1
-[[
+dpodId::iP8IgH
+category::nl
+front::we can relax
+back::wij kunnen ontspannen
+rank::4.1
+description::[[
 - this is a good flashcard
 - it could be converted
 	- perhaps to German
