@@ -1,7 +1,10 @@
 /* eslint-disable no-prototype-builtins */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import * as qstr from "../../share/qtools/qstr";
-import { DpodItemGroupDataItem, ILineBlockDataItem } from "../../share/interfaces";
+import {
+	DpodItemGroupDataItem,
+	ILineBlockDataItem,
+} from "../../share/interfaces";
 import { DpodItem } from "./DpodItem";
 import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";
@@ -33,24 +36,29 @@ export class DpodDataLoader {
 		this.createXmlData();
 		this.createDatapodData();
 		this.copyJsonFilesToTargets();
-		this.overwriteOriginalDpodFiles(); 
+		this.overwriteOriginalDpodFiles();
 	}
 
 	private overwriteOriginalDpodFiles() {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
 			// qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
-			qfil.writeToFile('currentImportTesting/test.txt', this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
+			qfil.writeToFile(
+				`currentImportTesting/test-${dpodItem.getSchemaIdCode()}.txt`,
+				this.getDatapodContentForItemType(dpodItem.getSchemaIdCode())
+			);
 		}
 	}
 
 	private getDatapodContentForItemType(dpodItemIdCode: string) {
 		const dpodItemGroupDataItems = this.getDpodItemGroupDataItems();
-		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(m => m.idCode === dpodItemIdCode);
+		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(
+			(m) => m.idCode === dpodItemIdCode
+		);
 		if (dpodItemGroupDataItem) {
 			return dpodItemGroupDataItem.datapodData;
 		} else {
-			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`
+			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`;
 		}
 	}
 
@@ -58,7 +66,7 @@ export class DpodDataLoader {
 		const itemTypeTargets = appConfig.itemTypeTargets();
 		for (const itemTypeTarget of itemTypeTargets) {
 			qdev.log(
-				'DpodDataLoader.ts:47',
+				"DpodDataLoader.ts:47",
 				"",
 				`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
 			);
