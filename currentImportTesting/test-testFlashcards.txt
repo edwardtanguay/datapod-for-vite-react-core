@@ -27,7 +27,7 @@ rank::5.0
 description::
 
 ==testFlashcard
-dpodId::LzytOw
+dpodId::VUYQlQ
 category::nl
 front::you are a bit dreamy
 back::je bent een beetje dromerig
@@ -41,7 +41,7 @@ description::[[
 ]]
 
 ==testFlashcard
-dpodId::FEGSAt
+dpodId::K4K8SE
 category::nl
 front::maybe I can
 back::misschien kan ik
@@ -49,7 +49,7 @@ rank::4.7
 description::
 
 ==testFlashcard
-dpodId::lzy6GD
+dpodId::18DWJX
 category::nl
 front::I don't know that word
 back::ik ken dat woord niet
@@ -63,7 +63,7 @@ description::[[
 ]]
 
 ==testFlashcard
-dpodId::lSRXb1
+dpodId::rJ3Emr
 category::nl
 front::the cows
 back::de koeien
@@ -71,7 +71,7 @@ rank::3.8
 description::this is just one line
 
 ==testFlashcard
-dpodId::OrKqnq
+dpodId::YdmFg4
 category::nl
 front::we can relax
 back::wij kunnen ontspannen

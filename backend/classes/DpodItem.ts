@@ -5,7 +5,6 @@ import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
 import { Factory } from "./Factory";
 import * as appConfig from "../appconfig";
-import * as qdev from "../../share/qtools/qdev";
 import { DpodSyntaxType } from "../../share/interfaces";
 
 export class DpodItem {
@@ -19,7 +18,6 @@ export class DpodItem {
 	constructor(lineBlock: LineBlock, dpodDataLoader: DpodDataLoader) {
 		this.lineBlock = lineBlock;
 		this.dpodDataLoader = dpodDataLoader;
-		// qdev.log('DpodItem.ts:21', 'lineBlock', lineBlock);
 		this.createSchemaCodes();
 		this.defineDpodSchema();
 		this.createDataTypes();
@@ -73,7 +71,6 @@ export class DpodItem {
 					newFieldLines.push(fieldLine);
 				} else {
 					const value = parts[1];
-					qdev.log("DpodItem.ts:71", "value", value);
 					newFieldLines.push(value);
 				}
 			}
@@ -87,8 +84,6 @@ export class DpodItem {
 		const dpodId = this.getDpodIdFromVerboseItem();
 		fieldLines =
 			this.removeDpodIdLineFromFieldLinesAndStripPrefixes(fieldLines);
-		qdev.log("DpodItem.ts:60", "fieldLines", fieldLines);
-		// qdev.log('DpodItem.ts:71', 'dpodId', dpodId);
 		if (this.dpodSchema) {
 			let index = -1;
 			for (const _dataType of _dataTypes) {
