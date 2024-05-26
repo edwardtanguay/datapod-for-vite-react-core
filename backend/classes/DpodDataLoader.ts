@@ -175,7 +175,9 @@ export class DpodDataLoader {
 			const lineBlockKind = lineBlock.getKind();
 			if (lineBlockKind === "item") {
 				const dpodItem = new DpodItem(lineBlock, this);
-				this.dpodItems.push(dpodItem);
+				if (dpodItem.dataTypes.length > 0) {
+					this.dpodItems.push(dpodItem);
+				}
 			}
 		}
 	}

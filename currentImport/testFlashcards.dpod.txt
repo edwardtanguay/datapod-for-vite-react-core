@@ -8,7 +8,7 @@ Description;p
 ==testFlashcard
 dpodId::7SaDSw
 category::de
-front::
+front::the front
 back::
 rank::
 description::
