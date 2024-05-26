@@ -42,14 +42,11 @@ export class DpodDataLoader {
 	private overwriteOriginalDpodFiles() {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
+			// qfil.writeToFile(dpodItem.getDatapodTextPathAndFileName(), this.getDatapodContentForItemType(dpodItem.getSchemaIdCode()));
 			qfil.writeToFile(
-				dpodItem.getDatapodTextPathAndFileName(),
+				`currentImportTesting/test-${dpodItem.getSchemaIdCode()}.txt`,
 				this.getDatapodContentForItemType(dpodItem.getSchemaIdCode())
 			);
-			// qfil.writeToFile(
-			// 	`currentImportTesting/test-${dpodItem.getSchemaIdCode()}.txt`,
-			// 	this.getDatapodContentForItemType(dpodItem.getSchemaIdCode())
-			// );
 		}
 	}
 

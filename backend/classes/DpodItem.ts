@@ -5,6 +5,7 @@ import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
 import { Factory } from "./Factory";
 import * as appConfig from "../appconfig";
+import * as qdev from '../../share/qtools/qdev';
 
 export class DpodItem {
 	private lineBlock: LineBlock;
@@ -17,9 +18,9 @@ export class DpodItem {
 	constructor(lineBlock: LineBlock, dpodDataLoader: DpodDataLoader) {
 		this.lineBlock = lineBlock;
 		this.dpodDataLoader = dpodDataLoader;
+		qdev.log('DpodItem.ts:21', 'lineBlock', lineBlock);
 		this.createSchemaCodes();
 		this.defineDpodSchema();
-		// this.forceCorrectNumberOfProperties();
 		this.createDataTypes();
 		this.forceDefaultTypesForAllMissingProperties();
 	}
@@ -30,32 +31,21 @@ export class DpodItem {
 		}
 	}
 
-	// private forceCorrectNumberOfProperties() {
-	// 	const numberOfPropertiesToAdd =
-	// 		this.dpodSchema.getNumberOfDataTypes() -
-	// 		this.lineBlock.getNumberOfLines();
-	// 		console.log('numberOfDataTypes', this.dpodSchema.getNumberOfDataTypes());
-	// 		console.log('numberOfLines', this.lineBlock.getNumberOfLines());
-	// 		console.log('numberOfPropertiesToAdd', numberOfPropertiesToAdd);
-	// 		console.log('---');
-	// 	for (let x = 1; x <= numberOfPropertiesToAdd; x++) {
-	// 		this.lineBlock.addLine("");
-	// 	}
-	// }
-
 	public getSchemaBlock() {
 		return this.dpodSchema.getSchemaBlock();
 	}
 
 	private createDataTypes() {
 		const _dataTypes = this.dpodSchema.getDataTypes();
+		qdev.log('DpodItem.ts:40', '_dataTypes', _dataTypes);
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
+		qdev.log('DpodItem.ts:42', 'fieldLines', fieldLines);
 		if (this.dpodSchema) {
 			let index = -1;
 			for (const _dataType of _dataTypes) {
-				// const __dataType = new DataType(_dataType.getLabel());
 				const creationLine =
 					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
+					qdev.log('DpodItem.ts:48', 'creationLine', creationLine);
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
 					let fieldLine = fieldLines[index];

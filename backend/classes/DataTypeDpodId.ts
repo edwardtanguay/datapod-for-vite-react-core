@@ -1,5 +1,5 @@
 import { DataType } from "./DataType";
-import * as qstr from '../../share/qtools/qstr';
+// import * as qstr from '../../share/qtools/qstr';
 
 export class DataTypeDpodId extends DataType {
 
@@ -7,7 +7,7 @@ export class DataTypeDpodId extends DataType {
 
 	constructor(idCode:string) {
 		super(idCode);
-		this.value = qstr.generateShortUUID();
+		// this.value = qstr.generateShortUUID();
 	}
 
 }

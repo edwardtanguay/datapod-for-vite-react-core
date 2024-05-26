@@ -6,7 +6,12 @@ Rank;dec
 Description;p
 
 ==testFlashcard
-de
+dpodId::7SaDSw
+category::de
+front::
+back::
+rank::
+description::
 
 ==testFlashcard
 nl
