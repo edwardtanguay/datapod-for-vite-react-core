@@ -104,6 +104,10 @@ export class DpodItem {
 		);
 	}
 
+	public getDatapodTextFileName() {
+		return `${this.schemaIdCode}.dpod.txt`;
+	}
+
 	public debug() {
 		const lines: string[] = [];
 		lines.push(`=== DpodItem ===`);
@@ -112,6 +116,9 @@ export class DpodItem {
 		if (this.dpodSchema) {
 			lines.push(`dpodSchema idCode: ${this.dpodSchema.getIdCode()}`);
 		}
+		// for (const dataType of this.dataTypes) {
+		// 	console.log(dataType.debug());
+		// }
 		return qstr.convertLinesToStringBlock(lines);
 	}
 
