@@ -45,7 +45,13 @@ export class DpodDataLoader {
 	}
 
 	private getDatapodContentForItemType(dpodItemIdCode: string) {
-		return `content for: ${dpodItemIdCode}`
+		const dpodItemGroupDataItems = this.getDpodItemGroupDataItems();
+		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(m => m.idCode === dpodItemIdCode);
+		if (dpodItemGroupDataItem) {
+			return dpodItemGroupDataItem.datapodData;
+		} else {
+			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`
+		}
 	}
 
 	private copyJsonFilesToTargets() {
