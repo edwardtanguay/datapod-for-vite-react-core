@@ -4,7 +4,7 @@ import { DpodDataLoader } from "./DpodDataLoader";
 import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
 import { Factory } from "./Factory";
-import * as appConfig from '../appconfig';
+import * as appConfig from "../appconfig";
 
 export class DpodItem {
 	private lineBlock: LineBlock;
@@ -105,13 +105,14 @@ export class DpodItem {
 	}
 
 	public debug() {
-		console.log(`=== DpodItem ===`);
-		console.log(`schemaIdCode: ${this.schemaIdCode}`);
-		console.log(`singularSchemaIdCode: ${this.singularSchemaIdCode}`);
+		const lines: string[] = [];
+		lines.push(`=== DpodItem ===`);
+		lines.push(`schemaIdCode: ${this.schemaIdCode}`);
+		lines.push(`singularSchemaIdCode: ${this.singularSchemaIdCode}`);
 		if (this.dpodSchema) {
-			console.log(`dpodSchema idCode: ${this.dpodSchema.getIdCode()}`);
+			lines.push(`dpodSchema idCode: ${this.dpodSchema.getIdCode()}`);
 		}
-		console.log(``);
+		return qstr.convertLinesToStringBlock(lines);
 	}
 
 	public getDataItem() {

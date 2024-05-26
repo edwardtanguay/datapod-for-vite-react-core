@@ -37,8 +37,11 @@ export class DpodDataLoader {
 	}
 
 	private overwriteOriginalDpodFiles() {
-		// qdev.log('DpodDataLoader.ts:40', 'dpodItemGroups', this.dpodItemGroups ); 
-		qdev.log('DpodDataLoader.ts:40', 'colors', ['red', 'blue', 'green', {name: 'James', age: 34}]);  
+		for (const dpodItems of Object.values(this.dpodItemGroups)) {
+			const dpodItem = (dpodItems as DpodItem[])[0];
+			qdev.log('DpodDataLoader.ts:41', 'dpodItem', (dpodItem as DpodItem).debug());
+		}
+		// qdev.log('DpodDataLoader.ts:40', 'simple object', {name: 'James', age: 34});  
 	}
 
 	private copyJsonFilesToTargets() {
