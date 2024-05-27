@@ -16,6 +16,10 @@
 		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-swims.json"
 	},
 	{
+		"itemType": "weights",
+		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-weights.json"
+	},
+	{
 		"itemType": "topics",
 		"jsonFilePathAndFileName": "/edward/learn2024/etnotes/src/data/itemtype_topics.json"
 	}
