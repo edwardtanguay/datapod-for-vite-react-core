@@ -145,6 +145,14 @@ rank::4.4
 status::todo
 
 ==task
+dpodId::XXJ9yF
+project::datapodForViteReact
+title::create dpodWhenCreated and dpodWhatCreated fields
+description::
+rank::2.3
+status::todo
+
+==task
 dpodId::AUyTkU
 project::datapodForViteReact
 title::fix issue that not all files are being watched

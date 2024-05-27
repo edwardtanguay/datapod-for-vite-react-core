@@ -12,6 +12,10 @@
 		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-runs.json"
 	},
 	{
+		"itemType": "swims",
+		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-swims.json"
+	},
+	{
 		"itemType": "topics",
 		"jsonFilePathAndFileName": "/edward/learn2024/etnotes/src/data/itemtype_topics.json"
 	}
