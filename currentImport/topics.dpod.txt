@@ -5,23 +5,24 @@ Body;p
 Extras
 
 ==topic
-Copenhagen
-Danish
-[[
+dpodId::UGuuAh
+category::Copenhagen
+title::Danish
+body::[[
 - [social flashcards](https://soflash.vercel.app/learn)
 - [tanguay.info/danish](https://tanguay.info/danish/)
 - [book2 phrases](https://www.goethe-verlag.com/book2/FR/FRDA/FRDA003.HTM)
 ]]
-nn
-
+extras::
 
 ==topic
-Copenhagen
-Copenhagen City
-[[
+dpodId::uVKodw
+category::Copenhagen
+title::Copenhagen City
+body::[[
 - areas of the city##theardencopencity
 	- **Østerbro**
-		- charming district 
+		- charming district
 		- leafy streets
 		- elegant townhouses
 		- relaxed atmosphere
@@ -31,7 +32,7 @@ Copenhagen City
 		- trendy cafes, cozy eateries, and gourmet restaurants
 		- wealthy district
 	- **Nørrebro**
-		- vibrant and diverse neighborhood 
+		- vibrant and diverse neighborhood
 		- multicultural atmosphere
 		- lively street life
 		- eclectic mix of residents
@@ -42,7 +43,7 @@ Copenhagen City
 		- historic heart of capital
 		- charming cobblestone streets
 		- colorful facades
-		- iconic landmarks 
+		- iconic landmarks
 			- Round Tower
 			- Christiansborg Palace
 		- architectural marvels spanning centuries
@@ -51,7 +52,7 @@ Copenhagen City
 		- bustling with activity
 		- shopping paradise
 	- **Christianshavn**
-		- picturesque neighborhood 
+		- picturesque neighborhood
 		- charming canals
 		- historic buildings
 		- vibrant cultural scene
@@ -60,11 +61,11 @@ Copenhagen City
 		- artists, intellectuals, young professionals
 		- cozy cafes, trendy restaurants, and scenic waterfront views
 	- **Island Brygge**
-		- waterfront district 
-		- stunning views of the harbor 
+		- waterfront district
+		- stunning views of the harbor
 		- recreational spaces along the waterfront
-		- former industrial area 
-		- modern and lively neighborhood 
+		- former industrial area
+		- modern and lively neighborhood
 		- trendy cafes, restaurants, and cultural venues
 		- waterfront promenade, green parks, outdoor swimming facilities
 		- relaxation and leisure
@@ -79,12 +80,13 @@ Copenhagen City
 		- cozy cafes, gourmet restaurants, cultural attractions
 		- blends residential charm with urban sophistication
 ]]
-nn
+extras::
 
 ==topic
-Copenhagen
-Kierkegaard
-[[
+dpodId::DBgysZ
+category::Copenhagen
+title::Kierkegaard
+body::[[
 - links
 	- [wiki](https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)
 - basic infos
@@ -92,7 +94,7 @@ Kierkegaard
 	- the first existentialist philosopher
 	- fondness for metaphor, irony, and parables
 	- how one lives as a single individual
-	- giving priority to concrete human reality over abstract thinking 
+	- giving priority to concrete human reality over abstract thinking
 	- importance of personal choice and commitment
 	- much of his work deals with Christian love
 	- explored the emotions and feelings of individuals when faced with life choices
@@ -123,13 +125,13 @@ Kierkegaard
 - Either/Or
 	- 1843 published Either/Or
 	- second edition of Either/Or was published early in 1849
-	- first published work 
+	- first published work
 	- it was mostly written during Kierkegaard's stay in Berlin, where he took notes on Schelling's Philosophy of Revelation
 	- both A and B are trying to become religious individuals
 	- basically an argument about faith and marriage with a short discourse at the end telling them they should stop arguing
 	- outlines a theory of human existence, marked by the distinction between an essentially hedonistic, aesthetic mode of life and the ethical life, which is predicated upon commitment
 	- the book's central concern is Aristotle's primal question, "How should we live?"
-	- aesthetic 
+	- aesthetic
 		- personal, subjective realm of existence, where an individual lives and extracts pleasure from life for its own sake
 		- offers the possibility of the highest and lowest experiences
 	- ethical
@@ -147,12 +149,13 @@ Kierkegaard
 - Christianity
 	- Kierkegaard believed God comes to each individual mysteriously
 ]]
-nn
+extras::
 
 ==topic
-Copenhagen
-Marathon Trip 2024
-[[
+dpodId::LN0S2w
+category::Copenhagen
+title::Marathon Trip 2024
+body::[[
 - **Fri 2024-05-03**
 	- 05:00 leave
 	- 06:00 Südkreuz
@@ -179,4 +182,4 @@ Marathon Trip 2024
 	- 13:26 leave Copenhagen
 	- 21:04 return Berlin
 ]]
-nn
+extras::
