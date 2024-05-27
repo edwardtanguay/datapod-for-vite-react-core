@@ -4,7 +4,6 @@ import express from "express";
 import cors from "cors";
 import { IAppData } from "../../share/interfaces.js";
 import * as qfil from "../../share/qtools/qfil.js";
-import * as qdev from "../../share/qtools/qdev.js";
 import * as apptools from "../apptools.js";
 import * as appconfig from "../appconfig.js";
 import { DpodDataLoader } from "../classes/DpodDataLoader.js";

@@ -6,7 +6,15 @@ export const PageJobApplications = () => {
 
 	return (
 		<>
-			<p>There are {fullJobApplications.length} applications.</p>
+			<h2 className="text-2xl mb-3">There are {fullJobApplications.length} applications:</h2>
+			{fullJobApplications.map((fullJobApplication) => {
+				return (
+					<>
+						<p>{fullJobApplication.baseJobId}</p>
+						<p>{fullJobApplication.language}</p>
+					</>
+				);
+			})}
 		</>
 	);
 };
