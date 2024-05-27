@@ -1,18 +1,16 @@
 ** Central Datapod Site Blocks
-idCode
+Id Code
 Body;p
 
 ==centralDatapodSiteBlock
-siteAndGoalOverview
-[[
-- **Datapod frameworks**
-	- *Edward's Language Learning Site*
-		- genericizes
-			- **Datapod-for-Vite-React 0.0.0**
-			- **Datapod Engine 0.0.0**
-	- *Edward's Tech Site*
-		- genericizes
-			- **Datapod-for-Nextjs 0.0.0**
+dpodId::bcUw0g
+idCode::siteAndGoalOverview
+body::[[
+- Datapod frameworks
+	- **Datapod-for-Vite-React 0.1.0**
+		- Edward's Language Learning Site
+	- **Datapod-for-Nextjs 0.0.0**
+		- Edward's Tech Site
 	- *Edward's Personal site*
 		- genericizes
 			- **Datapod-for-Nuxt 0.0.0**
@@ -22,7 +20,7 @@ siteAndGoalOverview
 	- *Edward's Fitness Site*
 		- genericizes
 			- **Datapod-for-SvelteKit 0.0.0**
-	- *Edward's Learn Vim Site* 
+	- *Edward's Learn Vim Site*
 		- genericizes
 			- **Datapod-for-Python 0.0.0**
 	- *Edward's Tech Items Site*
@@ -62,10 +60,10 @@ siteAndGoalOverview
 		- genericizes
 			- **Datapod-for-Laravel 0.0.0**
 		- uses Vue.js for the frontend
-	- *(((project)))* 
+	- *(((project)))*
 		- genericizes
 			- **Datapod-for-ASP.NET-Core 0.0.0**	
-	- *(((project)))* 
+	- *(((project)))*
 		- genericizes
 			- **Datapod-for-bash 0.0.0**
 			- see: https://github.com/JosefZIla/bash2048/blob/master/bash2048.sh
@@ -88,7 +86,7 @@ siteAndGoalOverview
 	- 3.8; Firebase
 	- 3.8; [uploadthing](https://uploadthing.com); howto that allows Next.js site to upload images to Hetzner
 	- 3.7; shadcn; howto that shows how to use 20 components
-	- 3.6; CSS Layouts; make a library of various mobile-first 
+	- 3.6; CSS Layouts; make a library of various mobile-first
 	- 3.4; hosting at [Koyeb](https://www.koyeb.com/pricing) - mentioned for Go
 	- 3.4; hosting at [Qovery](https://www.qovery.com/pricing) - mentioned for Go
 	- 3.2; Jotai; make howto

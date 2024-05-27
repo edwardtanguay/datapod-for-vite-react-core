@@ -1,9 +1,0 @@
-==topic
-Copenhagen
-Danish
-[[
-- [social flashcards](https://soflash.vercel.app/learn)
-- [tanguay.info/danish](https://tanguay.info/danish/)
-- [book2 phrases](https://www.goethe-verlag.com/book2/FR/FRDA/FRDA003.HTM)
-]]
-nn

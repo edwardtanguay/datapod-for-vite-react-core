@@ -78,6 +78,12 @@ rank::4.8
 status::completed
 
 ==task
+datapodForViteReact
+enable namespaces for dpod text files
+nn
+3.8
+
+==task
 dpodId::YtNwbT
 project::datapodEngine
 title::create tests for all qtools functions

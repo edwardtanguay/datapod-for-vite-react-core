@@ -1,3 +1,86 @@
+** Topics
+Category
+Title
+Body;p
+Extras
+
+==topic
+Copenhagen
+Danish
+[[
+- [social flashcards](https://soflash.vercel.app/learn)
+- [tanguay.info/danish](https://tanguay.info/danish/)
+- [book2 phrases](https://www.goethe-verlag.com/book2/FR/FRDA/FRDA003.HTM)
+]]
+nn
+
+
+==topic
+Copenhagen
+Copenhagen City
+[[
+- areas of the city##theardencopencity
+	- **Østerbro**
+		- charming district 
+		- leafy streets
+		- elegant townhouses
+		- relaxed atmosphere
+		- picturesque parks, such as Fælledparken
+		- green spaces for recreation and leisure
+		- diverse culinary scene
+		- trendy cafes, cozy eateries, and gourmet restaurants
+		- wealthy district
+	- **Nørrebro**
+		- vibrant and diverse neighborhood 
+		- multicultural atmosphere
+		- lively street life
+		- eclectic mix of residents
+		- students, artists, families, professionals
+		- trendy bars, hip cafes, and eclectic shops
+		- hub of creativity and innovation
+	- **city centre**
+		- historic heart of capital
+		- charming cobblestone streets
+		- colorful facades
+		- iconic landmarks 
+			- Round Tower
+			- Christiansborg Palace
+		- architectural marvels spanning centuries
+		- medieval churches
+		- Renaissance palaces
+		- bustling with activity
+		- shopping paradise
+	- **Christianshavn**
+		- picturesque neighborhood 
+		- charming canals
+		- historic buildings
+		- vibrant cultural scene
+		- originally founded as a fortified city by Christian IV in the early 17th century
+		- trendy and eclectic area
+		- artists, intellectuals, young professionals
+		- cozy cafes, trendy restaurants, and scenic waterfront views
+	- **Island Brygge**
+		- waterfront district 
+		- stunning views of the harbor 
+		- recreational spaces along the waterfront
+		- former industrial area 
+		- modern and lively neighborhood 
+		- trendy cafes, restaurants, and cultural venues
+		- waterfront promenade, green parks, outdoor swimming facilities
+		- relaxation and leisure
+	- **Vesterbro**
+		- vibrant street life, trendy bars, eclectic mix of cultures
+		- gritty industrial area
+		- arts and entertainment scene
+		- historic landmarks and bustling squares
+	- **Fredericksberg**
+		- leafy streets, green parks, elegant architecture
+		- Frederiksberg Gardens
+		- cozy cafes, gourmet restaurants, cultural attractions
+		- blends residential charm with urban sophistication
+]]
+nn
+
 ==topic
 Copenhagen
 Kierkegaard
@@ -63,5 +146,37 @@ Kierkegaard
 		- todo
 - Christianity
 	- Kierkegaard believed God comes to each individual mysteriously
+]]
+nn
+
+==topic
+Copenhagen
+Marathon Trip 2024
+[[
+- **Fri 2024-05-03**
+	- 05:00 leave
+	- 06:00 Südkreuz
+		- buy cable
+	- 06:28 leave Berlin
+	- 13:34 arrive Copenhagen
+	- 15:00 apartment
+	- 12:00-19:00 Sparta Hall - pick up race number
+- **Sat 2024-05-04**
+	- (10:00-19:00 Sparta Hall - pick up race number)
+	- get hair cut
+	- musuems
+	- 12:00-14:00 Führung durch Christiania & Christianshavn mit lokalem Guide
+- **Sun 2024-05-05**
+	- 07:30 start area opens
+	- 09:30-15:00 *Marathon*
+- **Mon 2024-05-06**
+	- 14:00-16:30 Tour: Entdecke den Stadtteil Nørrebro
+- **Tue 2024-05-07**
+	- 07:00-08:00 Jogging mit Frederik
+	- 12:30-14:30 Tour: Besuche über 15 Kopenhagener Sehenswürdigkeiten mit Einheimischen (mit Annemarie)
+	- 16:00-18:30 Tour: Die Kierkegaard-Entdeckung
+- **Wed 2024-05-08**
+	- 13:26 leave Copenhagen
+	- 21:04 return Berlin
 ]]
 nn

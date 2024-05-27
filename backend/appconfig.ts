@@ -16,6 +16,10 @@ export const frontendPort = (): number => {
 	return port;
 }
 
+export const version = (): string => {
+	return '0.1.0';
+}
+
 export const backendPort = (): number => {
 	return 3041;
 }
