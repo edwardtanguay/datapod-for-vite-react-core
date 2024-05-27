@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createContext, useEffect, useState } from "react";
 import {
-	FullJobApplications,
+	FullJobApplication,
 	IAppData,
 	blankAppData,
 } from "../share/interfaces";
@@ -13,7 +13,7 @@ interface IAppContext {
 	appData: IAppData;
 	setAppData: (appData: IAppData) => void;
 	handleParseButton: () => void;
-	fullJobApplications: FullJobApplications[];
+	fullJobApplications: FullJobApplication[];
 }
 
 interface IAppProvider {
@@ -25,7 +25,7 @@ export const AppContext = createContext<IAppContext>({} as IAppContext);
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	const [appData, setAppData] = useState<IAppData>(blankAppData);
 	const [fullJobApplications, setFullJobApplications] = useState<
-		FullJobApplications[]
+		FullJobApplication[]
 	>([]);
 
 	useEffect(() => {

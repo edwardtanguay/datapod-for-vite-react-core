@@ -12,6 +12,8 @@ export const PageJobApplications = () => {
 					<>
 						<p>{fullJobApplication.baseJobId}</p>
 						<p>{fullJobApplication.language}</p>
+						<p>{fullJobApplication.jobTitle}</p>
+						<p>{fullJobApplication.company}</p>
 					</>
 				);
 			})}

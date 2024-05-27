@@ -63,7 +63,9 @@ export type ILineBlockKind = 'schema' | 'item' | 'UNKNOWN';
 
 export type DpodSyntaxType = 'simple' | 'verbose';
 
-export type FullJobApplications = {
+export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
+	jobTitle: string;
+	company: string;
 }
