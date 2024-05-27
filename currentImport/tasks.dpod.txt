@@ -6,6 +6,14 @@ Rank
 Status
 
 ==task
+dpodId::7sslHI
+project::datapodForViteReact
+title::enable namespaces for dpod text files
+description::
+rank::3.8
+status::todo
+
+==task
 dpodId::gRiGZ5
 project::datapodEngine
 title::make DataType Rank
@@ -76,12 +84,6 @@ title::enable each itemType to be copied to the target file
 description::
 rank::4.8
 status::completed
-
-==task
-datapodForViteReact
-enable namespaces for dpod text files
-nn
-3.8
 
 ==task
 dpodId::YtNwbT
