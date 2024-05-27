@@ -6,15 +6,16 @@ export const PageJobApplications = () => {
 
 	return (
 		<>
-			<h2 className="text-2xl mb-3">There are {fullJobApplications.length} applications:</h2>
+			<p className="mb-3">There are {fullJobApplications.length} applications:</p>
 			{fullJobApplications.map((fullJobApplication) => {
 				return (
-					<>
-						<p>{fullJobApplication.baseJobId}</p>
-						<p>{fullJobApplication.language}</p>
-						<p>{fullJobApplication.jobTitle}</p>
-						<p>{fullJobApplication.company}</p>
-					</>
+					<header className="bg-slate-500 p-4 rounded w-1/2">
+						<p className="text-xl">{fullJobApplication.jobTitle}</p>
+						<p className="italic mb-2">{fullJobApplication.company}</p>
+						<textarea className="rounded w-full h-[30rem] bg-gray-300">
+
+						</textarea>
+					</header>
 				);
 			})}
 		</>
