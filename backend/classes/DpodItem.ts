@@ -38,8 +38,12 @@ export class DpodItem {
 	private getSyntaxType(): DpodSyntaxType {
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
 		const firstLine = fieldLines[0];
-		if (firstLine.startsWith("dpodId::")) {
-			return "verbose";
+		if (firstLine) {
+			if (firstLine.startsWith("dpodId::")) {
+				return "verbose";
+			} else {
+				return "simple";
+			}
 		} else {
 			return "simple";
 		}
@@ -128,20 +132,22 @@ export class DpodItem {
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
 					let fieldLine = fieldLines[index];
-					if (fieldLine.endsWith("[[")) {
-						let innerContent = "";
-						let innerFieldLine = "";
-						while (innerFieldLine !== "]]") {
-							innerContent += innerFieldLine + "\n";
-							index++;
-							innerFieldLine = fieldLines[index];
+					if (fieldLine) {
+						if (fieldLine.endsWith("[[")) {
+							let innerContent = "";
+							let innerFieldLine = "";
+							while (innerFieldLine !== "]]") {
+								innerContent += innerFieldLine + "\n";
+								index++;
+								innerFieldLine = fieldLines[index];
+							}
+							fieldLine = innerContent.trim();
 						}
-						fieldLine = innerContent.trim();
-					}
-					if (fieldLine === appConfig.blankLineMarker()) {
-						__dataType.setValue("");
-					} else {
-						__dataType.setValue(fieldLine);
+						if (fieldLine === appConfig.blankLineMarker()) {
+							__dataType.setValue("");
+						} else {
+							__dataType.setValue(fieldLine);
+						}
 					}
 				} else {
 					__dataType.setValue(qstr.generateShortUUID());

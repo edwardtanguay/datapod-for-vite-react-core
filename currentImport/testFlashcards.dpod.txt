@@ -6,6 +6,14 @@ Rank;dec
 Description;p
 
 ==testFlashcard
+dpodId::VHR6ck
+category::fr
+front::to run
+back::courir
+rank::3.8
+description::
+
+==testFlashcard
 dpodId::bANrHX
 category::fr
 front::the book
@@ -18,22 +26,6 @@ dpodId::kzMLf5
 category::fr
 front::the tree
 back::l'arbre
-rank::
-description::
-
-==testFlashcard
-dpodId::LxptYW
-category::fr
-front::
-back::
-rank::
-description::
-
-==testFlashcard
-dpodId::RJDpbn
-category::fr
-front::
-back::
 rank::
 description::
 
