@@ -51,14 +51,14 @@ project::datapodForViteReact
 title::update datasource after reading (and keep dpodId constant), also one file per itemType
 description::
 rank::4.95
-status::todo
+status::completed
 
 ==task
 dpodId::mD0Duj
 project::datapodForViteReact
 title::define types for all appData properties and solve the recursive error when doing a json.stringify on it
 description::
-rank::4.85
+rank::4.45
 status::todo
 
 ==task
@@ -70,14 +70,6 @@ description::[[
 - use colors
 ]]
 rank::4.3
-status::todo
-
-==task
-dpodId::r7Zrbi
-project::datapodForViteReact
-title::define next tasks to get Datapod Engine portable to other frameworks
-description::
-rank::4.94
 status::todo
 
 ==task
@@ -117,7 +109,7 @@ dpodId::YtNwbT
 project::datapodForViteReact
 title::create tests for all qtools functions
 description::
-rank::4.68
+rank::3.8
 status::todo
 
 ==task
@@ -141,7 +133,7 @@ dpodId::KZsdRR
 project::datapodForViteReact
 title::split API up into index.ts and server.ts and implement basic testing
 description::
-rank::4.9
+rank::4.3
 status::todo
 
 ==task
@@ -155,8 +147,8 @@ status::todo
 ==task
 dpodId::AUyTkU
 project::datapodForViteReact
-title::fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect
-description::
+title::fix issue that not all files are being watched
+description::you have to change DpodDataLoader for changes in e.g. qstr to take effect
 rank::4.1
 status::todo
 
@@ -166,7 +158,7 @@ project::datapodForViteReact
 title::fix table and Datapod view to show tabs
 description::
 rank::4.6
-status::todo
+status::complete
 
 ==task
 dpodId::5SgBRt
@@ -211,7 +203,7 @@ status::completed
 ==task
 dpodId::IInb6Q
 project::datapodCentral
-title::move starters over to Datapod Central, make supporting tools section
+title::replan and restructure starter page to reflect new strategy: open-source datapod projects
 description::
 rank::4.8
 status::todo
