@@ -153,11 +153,27 @@ rank::2.3
 status::todo
 
 ==task
+dpodId::hRVB0g
+project::datapodForViteReact
+title::in appConfig allow developer to define paths to dpodBatch files to import any item
+description::
+rank::4.4
+status::todo
+
+==task
 dpodId::AUyTkU
 project::datapodForViteReact
 title::fix issue that not all files are being watched
 description::you have to change DpodDataLoader for changes in e.g. qstr to take effect
 rank::4.1
+status::todo
+
+==task
+dpodId::hMfFZV
+project::datapodForViteReact
+title::enable one-liner imports which can be in dpod data files or dpodBatch files
+description::
+rank::4.0
 status::todo
 
 ==task
