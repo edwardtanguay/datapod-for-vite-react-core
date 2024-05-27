@@ -2,3 +2,6 @@
 
 ### ZOD SHOWCASE EMPLOYEES
 GET {{url}}/zod-showcase/employees
+
+### JOB APPLICATIONS
+GET {{url}}/job-applications/full

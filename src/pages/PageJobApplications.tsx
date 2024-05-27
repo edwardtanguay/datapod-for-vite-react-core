@@ -1,7 +1,12 @@
+import { useContext } from "react";
+import { AppContext } from "../AppContext";
+
 export const PageJobApplications = () => {
+	const { fullJobApplications } = useContext(AppContext);
+
 	return (
 		<>
-		<h2>Fullstack Engineer</h2>
+			<p>There are {fullJobApplications.length} applications.</p>
 		</>
 	);
 };

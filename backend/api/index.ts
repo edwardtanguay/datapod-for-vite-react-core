@@ -9,14 +9,13 @@ import * as apptools from "../apptools.js";
 import * as appconfig from "../appconfig.js";
 import { DpodDataLoader } from "../classes/DpodDataLoader.js";
 import { zodShowcaseRouter } from "./routers/zodShowcaseRouter";
+import { jobApplicationsRouter } from "./routers/jobApplicationsRouter.js";
 
 const app = express();
 app.use(cors());
 
 app.use("/zod-showcase", zodShowcaseRouter);
-// app.get("/zod-showcase/employees", (_req, res) => {
-// 	res.status(200).json({ message: "zod test" });
-// });
+app.use("/job-applications", jobApplicationsRouter);
  
 app.get("/", (_req, res) => {
 	res.status(200).json({ message: "api works" });

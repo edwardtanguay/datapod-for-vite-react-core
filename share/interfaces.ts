@@ -62,3 +62,7 @@ export interface IDpodSchemaDataItem {
 export type ILineBlockKind = 'schema' | 'item' | 'UNKNOWN';
 
 export type DpodSyntaxType = 'simple' | 'verbose';
+
+export type FullJobApplications = {
+	title: string;
+}
