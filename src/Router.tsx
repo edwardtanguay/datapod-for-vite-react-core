@@ -9,6 +9,7 @@ import { PageNotation } from "./pages/PageNotation.tsx";
 import { PageImport } from "./pages/PageImport.tsx";
 import { PageInfo } from "./pages/PageInfo.tsx";
 import { PageZodShowcase } from "./pages/PageZodShowcase.tsx";
+import { PageApplications, PageJobApplications } from "./pages/PageJobApplications.tsx";
 
 export const router = createBrowserRouter([
 	{
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
 			{
 				path: "info",
 				element: <PageInfo />,
+			},
+			{
+				path: "job-applications",
+				element: <PageJobApplications/>
 			},
 			{
 				path: "/",

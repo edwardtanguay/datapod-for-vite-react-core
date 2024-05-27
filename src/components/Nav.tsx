@@ -7,6 +7,7 @@ export const Nav = () => {
 			<li><NavLink to="/notation">Notation</NavLink></li>
 			<li><NavLink to="/import">Import</NavLink></li>
 			<li><NavLink to="/zod-showcase">Zod Showcase</NavLink></li>
+			<li><NavLink to="/job-applications">Job Applications</NavLink></li>
 			<li><NavLink to="/info">Info</NavLink></li>
 		</ul>
 	</nav>;
