@@ -131,13 +131,24 @@ table.notation {
 
 section.pageZodShowcase {
 	p.intro {
-		padding-bottom: .5rem;
+		padding-bottom: 0.5rem;
 		font-size: 1rem;
 		font-style: italic;
 	}
 	p.instructions {
-		padding-bottom: .8rem;
+		padding-bottom: 0.8rem;
 		font-size: 1rem;
 		color: rgb(7, 16, 68);
 	}
+}
+
+.scrollable-container {
+	width: 100%;
+	overflow: auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #f9f9f9;
+}
+.scrollable-content {
+	white-space: pre-wrap;
 }
