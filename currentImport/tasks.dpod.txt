@@ -6,209 +6,233 @@ Rank
 Status
 
 ==task
-datapodEngine
-make DataType Rank
-nn
-4.75
-todo
+dpodId::gRiGZ5
+project::datapodEngine
+title::make DataType Rank
+description::
+rank::4.75
+status::todo
 
 ==task
-datapodEngine
-update datasource after reading (and keep dpodId constant), also one file per itemType
-nn
-4.95
-todo
+dpodId::5VwOUM
+project::datapodEngine
+title::update datasource after reading (and keep dpodId constant), also one file per itemType
+description::
+rank::4.95
+status::todo
 
 ==task
-datapodEngine
-define types for all appData properties and solve the recursive error when doing a json.stringify on it 
-nn
-4.85
-todo
+dpodId::mD0Duj
+project::datapodEngine
+title::define types for all appData properties and solve the recursive error when doing a json.stringify on it
+description::
+rank::4.85
+status::todo
 
 ==task
-datapodEngine
-refactor qdev.log to handle multiple line outputs or one-liners, make all .debug() functions output strings, and use colors
-nn
-4.3
-todo
+dpodId::x6VLry
+project::datapodEngine
+title::refactor qdev.log to handle multiple line outputs or one-liners, make all .debug() functions output strings, and use colors
+description::
+rank::4.3
+status::todo
 
 ==task
-datapodEngine
-define next tasks to get Datapod Engine portable to other frameworks
-nn
-4.94
-todo
+dpodId::r7Zrbi
+project::datapodEngine
+title::define next tasks to get Datapod Engine portable to other frameworks
+description::
+rank::4.94
+status::todo
 
 ==task
-datapodEngine
-escape double quotes (test with notes items)
-nn
-5.0
-completed
+dpodId::z4bHpV
+project::datapodEngine
+title::escape double quotes (test with notes items)
+description::
+rank::5.0
+status::completed
 
 ==task
-datapodEngine
-in DpodDataLoader, define types for all any types, e.g. dpodItemGroups
-nn
-4.0
-todo
+dpodId::lHvCkQ
+project::datapodEngine
+title::in DpodDataLoader, define types for all any types, e.g. dpodItemGroups
+description::
+rank::4.0
+status::todo
 
 ==task
-datapodEngine
-replace all validation with Zod
-nn
-4.3
-todo
+dpodId::7wnFXU
+project::datapodEngine
+title::replace all validation with Zod
+description::
+rank::4.3
+status::todo
 
 ==task
-datapodEngine
-enable each itemType to be copied to the target file
-nn
-4.8
-completed
+dpodId::GLVQ0t
+project::datapodEngine
+title::enable each itemType to be copied to the target file
+description::
+rank::4.8
+status::completed
 
 ==task
-datapodEngine
-create tests for all qstr functions
-nn
-4.68
-todo
+dpodId::YtNwbT
+project::datapodEngine
+title::create tests for all qtools functions
+description::
+rank::4.68
+status::todo
 
 ==task
-datapodEngine
-display the JSON on site as indented, use wrap function in qstr
-nn
-4.81
-completed
+dpodId::QwRQF4
+project::datapodEngine
+title::display the JSON on site as indented, use wrap function in qstr
+description::
+rank::4.81
+status::completed
 
 ==task
-datapodEngine
-allow trailing properties to be empty
-nn
-4.9
-completed
+dpodId::UnqBUQ
+project::datapodEngine
+title::allow trailing properties to be empty
+description::
+rank::4.9
+status::completed
 
 ==task
-datapodEngine
-split API up into index.ts and server.ts and implement basic testing
-nn
-4.9
-todo
+dpodId::KZsdRR
+project::datapodEngine
+title::split API up into index.ts and server.ts and implement basic testing
+description::
+rank::4.9
+status::todo
 
 ==task
-datapodEngine
-allow trailing NUMBER properties to be empty (currently only works with LINES)
-nn
-4.4
-todo
+dpodId::fiwb7i
+project::datapodEngine
+title::allow trailing NUMBER properties to be empty (currently only works with LINES)
+description::
+rank::4.4
+status::todo
 
 ==task
-datapodEngine
-fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect
-nn
-4.1
-todo
+dpodId::AUyTkU
+project::datapodEngine
+title::fix issue that not all files are being watched, you have to change DpodDataLoader for changes in e.g. qstr to take effect
+description::
+rank::4.1
+status::todo
 
 ==task
-datapodEngine
-fix table and Datapod view to show tabs
-nn
-4.6
-todo
+dpodId::5BnKYY
+project::datapodEngine
+title::fix table and Datapod view to show tabs
+description::
+rank::4.6
+status::todo
 
 ==task
-datapodEngine
-copy over the documentation from the old Node/Express datapod
-nn
-3.5
-todo
+dpodId::5SgBRt
+project::datapodEngine
+title::copy over the documentation from the old Node/Express datapod
+description::
+rank::3.5
+status::todo
 
 ==task
-datapodCentral
-display overview (siteAndGoalOverview) in Outline mode with images and markdown
-nn
-4.78
-completed
+dpodId::HZL1Dp
+project::datapodCentral
+title::display overview (siteAndGoalOverview) in Outline mode with images and markdown
+description::
+rank::4.78
+status::completed
 
 ==task
-datapodCentral
-show "Open Tasks" and "completed Tasks"
-nn
-5.0
-completed
+dpodId::H69xIT
+project::datapodCentral
+title::show "Open Tasks" and "completed Tasks"
+description::
+rank::5.0
+status::completed
 
 ==task
-datapodCentral
-get central task management working
-nn
-4.0
-todo
+dpodId::bKqsD7
+project::datapodCentral
+title::get central task management working
+description::
+rank::4.0
+status::todo
 
 ==task
-datapodCentral
-generate navbar from array
-nn
-4.76
-completed
+dpodId::kwvM3j
+project::datapodCentral
+title::generate navbar from array
+description::
+rank::4.76
+status::completed
 
 ==task
-datapodCentral
-move starters over to Datapod Central, make supporting tools section
-nn
-4.8
-todo
+dpodId::IInb6Q
+project::datapodCentral
+title::move starters over to Datapod Central, make supporting tools section
+description::
+rank::4.8
+status::todo
 
 ==task
-goCli
-scan all frontend masters notes howtos and create JSON when which videos were watched
-nn
-3.9
-todo
+dpodId::T0sJoV
+project::goCli
+title::scan all frontend masters notes howtos and create JSON when which videos were watched
+description::
+rank::3.9
+status::todo
 
 ==task
-phoenixDatapod
-make a hello world website, host at Render.com
-nn
-3.7
-todo
+dpodId::t9W54m
+project::phoenixDatapod
+title::make a hello world website, host at Render.com
+description::
+rank::3.7
+status::todo
 
 ==task
-t3Datapod
-make a hello world website, host at Vercel
-[[
-- see: https://create.t3.gg/en/deployment/vercel
-]]
-3.7
-todo
+dpodId::CyysO3
+project::t3Datapod
+title::make a hello world website, host at Vercel
+description::- see: https://create.t3.gg/en/deployment/vercel
+rank::3.7
+status::todo
 
 ==task
-techItemsGame
-techItemsGame; as you play, star items to look up later
-nn
-2.8
-todo
+dpodId::Y2XmUY
+project::techItemsGame
+title::techItemsGame; as you play, star items to look up later
+description::
+rank::2.8
+status::todo
 
 ==task
-techsite
-add tech flashcards with 30 of the most useful, with search
-nn
-4.5
-todo
+dpodId::jq7iPC
+project::techsite
+title::add tech flashcards with 30 of the most useful, with search
+description::
+rank::4.5
+status::todo
 
 ==task
-allSites
-make all sites responsive-first
-nn
-4.3
-todo
+dpodId::6nOqGz
+project::allSites
+title::make all sites responsive-first
+description::
+rank::4.3
+status::todo
 
 ==task
-tanguayInfo
-make responsive landing page for Video2Brain videos, with explanation
-nn
-4.5
-todo
-
-
-
+dpodId::V55AYX
+project::tanguayInfo
+title::make responsive landing page for Video2Brain videos, with explanation
+description::
+rank::4.5
+status::todo
