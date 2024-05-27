@@ -5,6 +5,7 @@ import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 import { FullJobApplication } from "../../../share/interfaces.js";
+import jobs from "../../data/jobs.json";
 
 export const jobApplicationsRouter = Router();
 
@@ -24,16 +25,19 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 		const jobApplications = JSON.parse(jsonData);
 		const fullJobApplications: FullJobApplication[] = [];
 		for (const jobApplication of jobApplications) {
-			const fullJobApplication: FullJobApplication = {
-				language: jobApplication.language,
-				baseJobId: jobApplication.baseJobId,
-				jobTitle: 'nnnjobtitle',
-				company: 'nnncompany'
+			const job = jobs.find((m) => m.id === jobApplication.baseJobId);
+			if (job) {
+				const fullJobApplication: FullJobApplication = {
+					language: jobApplication.language,
+					baseJobId: jobApplication.baseJobId,
+					jobTitle: job.title,
+					company: job.company
+				};
+				fullJobApplications.push(fullJobApplication);
 			}
-			fullJobApplications.push(fullJobApplication);
 		}
 		res.json(fullJobApplications);
 	} else {
-		throw new Error('error: no job applications');
+		throw new Error("error: no job applications");
 	}
 });
