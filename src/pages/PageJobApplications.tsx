@@ -18,47 +18,110 @@ export const PageJobApplications = () => {
 						</p>
 						<div className="scrollable-container rounded w-full h-[40rem] bg-gray-300">
 							<div className="scrollable-content">
-<div>Berlin, 10. Februar 2018</div>
-<div>&nbsp;</div> 
-<div>&nbsp;</div> 
-<div>Edward Tanguay</div>
-<div>Lacknerstr. 8</div>
-<div>12167 Berlin</div>
-<div>Tel: 030 / 795 55 99, Mobil: 0179 / 66 486 04</div>
-<div>E-Mail: edward@tanguay.info</div>
-<div>&nbsp;</div> 
-<div>sense electra GmbH</div>
-<div>z.H. Herrn Elias</div>
-<div>Friedrichstraße 95</div>
-<div>10117 Berlin</div>
-<div>&nbsp;</div> 
-<div><b>Bewerbung um die Stelle als Programmierer</b></div>
-<div><b>Ihre Stellenanzeige auf der www.stepstone.de Website vom 10.02.2018</b></div>
-<div>&nbsp;</div> 
-<div>Sehr geehrter Herr Elias,</div>
-<div>&nbsp;</div> 
-<div>Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.</div>
-<div>&nbsp;</div> 
-<div>Meine Fähigkeiten entsprechen Ihrem Anforderungsprofil perfekt:</div>
-<div>&nbsp;</div> 
-<div><b>Abgeschlossenes Fach-/Hochschulstudium in der Fachrichtung Informatik oder eine entsprechende Ausbildung im IT-Bereich:</b> Durch meine über 15 Jahre lange Tätigkeit in der Software-Entwicklung bei mehreren Firmen und in mehreren Projekten kann ich entsprechende Fähigkeiten beweisen.</div>
-<div>&nbsp;</div> 
-<div><b>Abgeschlossenes Fach-/Hochschulstudium in der Fachrichtung Informatik oder eine entsprechende Ausbildung im IT-Bereich:</b> Durch meine über 15 Jahre lange Tätigkeit in der Software-Entwicklung bei mehreren Firmen und in mehreren Projekten kann ich entsprechende Fähigkeiten beweisen.</div>
-<div>&nbsp;</div> 
-<div><b>Abgeschlossenes Fach-/Hochschulstudium in der Fachrichtung Informatik oder eine entsprechende Ausbildung im IT-Bereich:</b> Durch meine über 15 Jahre lange Tätigkeit in der Software-Entwicklung bei mehreren Firmen und in mehreren Projekten kann ich entsprechende Fähigkeiten beweisen.</div>
-<div>&nbsp;</div> 
-<div>Meine ausführlichen Bewerbungsunterlagen finden Sie unter:</div>
-<ul className="list-disc ml-6">
-	<li>http://www.tanguay.info/cv (auch anbei als PDF)</li>
-	<li>http://www.tanguay.info/cv/attachments (6 MB Arbeitszeugnisse als zip-Datei)</li>
-</ul>
-<div>Meine Gehaltsvorstellung liegt zwischen 3.800,- und 4.200,- Euro brutto.</div>
-<div>Mein frühester Eintrittstermin ist der 01. März 2018.</div>
-<div>&nbsp;</div> 
-<div>Mit freundlichen Grüßen</div>
-<div>&nbsp;</div> 
-<div>Edward Tanguay</div>
-
+								<div>Berlin, 10. Februar 2018</div>
+								<div>&nbsp;</div>
+								<div>&nbsp;</div>
+								<div>Edward Tanguay</div>
+								<div>Lacknerstr. 8</div>
+								<div>12167 Berlin</div>
+								<div>
+									Tel: 030 / 795 55 99, Mobil: 0179 / 66 486
+									04
+								</div>
+								<div>E-Mail: edward@tanguay.info</div>
+								<div>&nbsp;</div>
+								<div>{fullJobApplication.company}</div>
+								<div>z.H. Herrn Elias</div>
+								<div>Friedrichstraße 95</div>
+								<div>10117 Berlin</div>
+								<div>&nbsp;</div>
+								<div>
+									<b>
+										Bewerbung um die Stelle als {fullJobApplication.jobTitle}
+									</b>
+								</div>
+								<div>
+									<b>
+										Ihre Stellenanzeige auf der
+										www.stepstone.de Website vom 10.02.2018
+									</b>
+								</div>
+								<div>&nbsp;</div>
+								<div>Sehr geehrter Herr Elias,</div>
+								<div>&nbsp;</div>
+								<div>
+									Sie suchen für Ihr Unternehmen einen
+									Programmierer. Um diese Stelle bewerbe ich
+									mich.
+								</div>
+								<div>&nbsp;</div>
+								<div>
+									Meine Fähigkeiten entsprechen Ihrem
+									Anforderungsprofil perfekt:
+								</div>
+								<div>&nbsp;</div>
+								<div>
+									<b>
+										Abgeschlossenes Fach-/Hochschulstudium
+										in der Fachrichtung Informatik oder eine
+										entsprechende Ausbildung im IT-Bereich:
+									</b>{" "}
+									Durch meine über 15 Jahre lange Tätigkeit in
+									der Software-Entwicklung bei mehreren Firmen
+									und in mehreren Projekten kann ich
+									entsprechende Fähigkeiten beweisen.
+								</div>
+								<div>&nbsp;</div>
+								<div>
+									<b>
+										Abgeschlossenes Fach-/Hochschulstudium
+										in der Fachrichtung Informatik oder eine
+										entsprechende Ausbildung im IT-Bereich:
+									</b>{" "}
+									Durch meine über 15 Jahre lange Tätigkeit in
+									der Software-Entwicklung bei mehreren Firmen
+									und in mehreren Projekten kann ich
+									entsprechende Fähigkeiten beweisen.
+								</div>
+								<div>&nbsp;</div>
+								<div>
+									<b>
+										Abgeschlossenes Fach-/Hochschulstudium
+										in der Fachrichtung Informatik oder eine
+										entsprechende Ausbildung im IT-Bereich:
+									</b>{" "}
+									Durch meine über 15 Jahre lange Tätigkeit in
+									der Software-Entwicklung bei mehreren Firmen
+									und in mehreren Projekten kann ich
+									entsprechende Fähigkeiten beweisen.
+								</div>
+								<div>&nbsp;</div>
+								<div>
+									Meine ausführlichen Bewerbungsunterlagen
+									finden Sie unter:
+								</div>
+								<ul className="list-disc ml-6 mb-6">
+									<li>
+										http://www.tanguay.info/cv (auch anbei
+										als PDF)
+									</li>
+									<li>
+										http://www.tanguay.info/cv/attachments
+										(6 MB Arbeitszeugnisse als zip-Datei)
+									</li>
+								</ul>
+								<div>
+									Meine Gehaltsvorstellung liegt zwischen
+									3.800,- und 4.200,- Euro brutto.
+								</div>
+								<div>
+									Mein frühester Eintrittstermin ist der 01.
+									März 2018.
+								</div>
+								<div>&nbsp;</div>
+								<div>Mit freundlichen Grüßen</div>
+								<div>&nbsp;</div>
+								<div>Edward Tanguay</div>
 							</div>
 						</div>
 					</header>
