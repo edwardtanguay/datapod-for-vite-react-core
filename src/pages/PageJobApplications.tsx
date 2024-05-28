@@ -54,7 +54,7 @@ export const PageJobApplications = () => {
 									<b>{fullJobApplication.headerLine2}</b>
 								</div>
 								<div>&nbsp;</div>
-								<div>Sehr geehrter Herr Elias,</div>
+								<div>{fullJobApplication.greetingLine}</div>
 								<div>&nbsp;</div>
 								<div>
 									Sie suchen für Ihr Unternehmen einen

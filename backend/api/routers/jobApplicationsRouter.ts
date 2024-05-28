@@ -33,11 +33,19 @@ const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
 	return [firstName, lastName];
 };
 
-const buildContactSaluation = (jobApplication: JobApplication): string => {
-	let r = "UNKNOWN-CONTACT-SALUTATION";
+const buildFormalName = (jobApplication: JobApplication): string => {
+	let r = "UNKNOWN-FORMAL-NAME";
 	const [, lastName] = getNamesFromFullName(jobApplication);
 	if (jobApplication.language === "english") {
-		r = `c/o ${buildContactTitle(jobApplication)} ${lastName}`;
+		r = `${buildContactTitle(jobApplication)} ${lastName}`;
+	}
+	return r;
+};
+
+const buildContactSaluation = (jobApplication: JobApplication): string => {
+	let r = "UNKNOWN-CONTACT-SALUTATION";
+	if (jobApplication.language === "english") {
+		r = `c/o ${buildFormalName(jobApplication)}`;
 	}
 	return r;
 };
@@ -72,6 +80,14 @@ const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 	}
 };
 
+const getGreetingLine = (jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return `Dear ${buildFormalName(jobApplication)},`;
+	} else {
+		return "UNKNOWN-GREETING-LINE";
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -103,6 +119,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					companyAddressLines: getAddressLines(jobApplication),
 					headerLine1: getHeaderLine1(job, jobApplication),
 					headerLine2: getHeaderLine2(job, jobApplication),
+					greetingLine: getGreetingLine(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
