@@ -10,15 +10,15 @@ export interface ILineBlockDataItem {
 	lines: string[];
 }
 export interface DpodItemGroupDataItem {
-	idCode: string,
-	label: string,
-	singleLabel: string,
-	jsonData: string,
-	csvData: string,
-	xmlData: string,
-	datapodData: string,
-	dpodItems: any[]
- }
+	idCode: string;
+	label: string;
+	singleLabel: string;
+	jsonData: string;
+	csvData: string;
+	xmlData: string;
+	datapodData: string;
+	dpodItems: any[];
+}
 
 export interface IAppData {
 	appIdCode: string;
@@ -32,15 +32,15 @@ export interface IAppData {
 }
 
 export const blankAppData = {
-	appIdCode: 'nnn',
+	appIdCode: "nnn",
 	frontendPort: 0,
 	backendPort: 0,
 	fileObjects: [],
-	entireContent: '',
+	entireContent: "",
 	lineBlockDataItems: [],
 	dpodSchemaDataItems: [],
-	dpodItemGroupDataItems: []
-}
+	dpodItemGroupDataItems: [],
+};
 
 export interface ISchemaField {
 	idCode: string;
@@ -59,22 +59,22 @@ export interface IDpodSchemaDataItem {
 	dataTypes: IDataTypeDataItem[];
 }
 
-export type ILineBlockKind = 'schema' | 'item' | 'UNKNOWN';
+export type ILineBlockKind = "schema" | "item" | "UNKNOWN";
 
-export type DpodSyntaxType = 'simple' | 'verbose';
+export type DpodSyntaxType = "simple" | "verbose";
 
 export type JobApplication = {
-	dpodId: string,
-	language: string,
-	baseJobId: number,
-	letterDate: string,
-	skillTexts: string,
-	customOutlineText: string,
-	contactPerson: string,
-	contactGender: string,
-	contactEmail: string,
-	contactAddress: string
-}
+	dpodId: string;
+	language: "english" | "german";
+	baseJobId: number;
+	letterDate: string;
+	skillTexts: string;
+	customOutlineText: string;
+	contactFullName: string;
+	contactGender: string;
+	contactEmail: string;
+	contactAddress: string;
+};
 
 export type FullJobApplication = {
 	language: string;
@@ -83,4 +83,4 @@ export type FullJobApplication = {
 	contactSalutation: string;
 	jobTitle: string;
 	company: string;
-}
+};

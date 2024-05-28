@@ -5,13 +5,20 @@ import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
-import { FullJobApplication, JobApplication } from "../../../share/interfaces.js";
+import {
+	FullJobApplication,
+	JobApplication,
+} from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
 
 export const jobApplicationsRouter = Router();
 
 const buildContactSaluation = (jobApplication: JobApplication) => {
-	return 'nnnFromfunction';
+	let r = "";
+	if (jobApplication.language === "english") {
+		r = `c/o ${jobApplication.contactFullName}`;
+	}
+	return r;
 };
 
 jobApplicationsRouter.get("/full", (_req, res) => {
