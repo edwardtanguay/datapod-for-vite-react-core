@@ -1,9 +1,11 @@
 {
 	"cloudCicd": {
-		"english": "cloudcicdresponse-english",
-		"german": "cloudcicdresponse-german"
+		"english": "I have been developing applications professionally since 2001 in numerous technical environments including the .NET, LAMP and MERN stacks. As a web devloper at GEFEG mbh, I was responsible for moving our Strato infrastructure to AWS."
 	},
 	"javascriptTypeScriptFrontendBackend": {
-		"german": "javascriptTypeScriptFrontendBackend-GERMAN"
+		"english": "I have over 20 years of experience in web development. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend."
+	},
+	"gitDocker": {
+		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years. I began using Docker at my web developer position at GEFEG mbh from 2018 to 2021, and currently use it extensively to host fullstack applications on Hetzner machines."
 	}
 }

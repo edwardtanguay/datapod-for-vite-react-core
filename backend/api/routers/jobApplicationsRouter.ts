@@ -12,7 +12,6 @@ import {
 	Job,
 	JobApplication,
 	SkillAndResponseBlock,
-	SkillResponseLookupObject,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
 import skillResponseLookup from "../../data/skillResponseLookup.json";
@@ -121,28 +120,35 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-const getResponseHtml = (responseHtmlIdCode: string, language = 'english'): string => {
-	let responseHtml = '';
-	const skillResponseLookupObject:any = skillResponseLookup[responseHtmlIdCode];
+const getResponseHtml = (
+	responseHtmlIdCode: string,
+	jobApplication: JobApplication
+): string => {
+	let responseHtml = "";
+	const skillResponseLookupObject: any =
+		skillResponseLookup[responseHtmlIdCode];
 	if (skillResponseLookupObject) {
-		responseHtml = skillResponseLookupObject[language];
+		responseHtml = skillResponseLookupObject[jobApplication.language];
 		if (responseHtml) {
 			return responseHtml;
 		} else {
-			return `ADD ${language} RESPONSE FOR ${responseHtmlIdCode}`
+			return `TRANSLATE ${jobApplication.language} RESPONSE FOR ${responseHtmlIdCode}`;
 		}
 	} else {
 		return `ADD: ${responseHtmlIdCode}`;
 	}
 };
 
-const getSkillAndResponseBlock = (skillText: string): SkillAndResponseBlock => {
+const getSkillAndResponseBlock = (
+	skillText: string,
+	jobApplication: JobApplication
+): SkillAndResponseBlock => {
 	const parts = qstr.breakIntoParts(skillText, ";");
 	let skillLine = parts[0];
 	skillLine = qstr.chopRight(skillLine, ".");
 	skillLine = qstr.chopRight(skillLine, "!");
 	const responseHtmlIdCode = parts[1];
-	const responseHtml = getResponseHtml(responseHtmlIdCode);
+	const responseHtml = getResponseHtml(responseHtmlIdCode, jobApplication);
 	return {
 		skillLine: `${skillLine}:`,
 		responseHtml: responseHtml,
@@ -157,7 +163,9 @@ const getSkillAndResponseBlocks = (
 	);
 	const skillAndResponseBlocks: SkillAndResponseBlock[] = [];
 	for (const skillText of skillTexts) {
-		skillAndResponseBlocks.push(getSkillAndResponseBlock(skillText));
+		skillAndResponseBlocks.push(
+			getSkillAndResponseBlock(skillText, jobApplication)
+		);
 	}
 	return skillAndResponseBlocks;
 };
