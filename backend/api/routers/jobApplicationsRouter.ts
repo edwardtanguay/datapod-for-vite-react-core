@@ -5,7 +5,7 @@ import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
-import * as qdev from "../../../share/qtools/qdev.js";
+// import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
 	JobApplication,
