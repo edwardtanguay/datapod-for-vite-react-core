@@ -5,7 +5,7 @@ import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
-import * as qdev from "../../../share/qtools/qdev.js";
+// import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
 	Job,
@@ -13,6 +13,7 @@ import {
 	SkillAndResponseBlock,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
+import skillResponseLookup from "../../data/skillResponseLookup.json";
 
 export const jobApplicationsRouter = Router();
 
@@ -118,12 +119,17 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getResponseHtml = (resposneHtmlIdCode: string): string => {
+	return 'THE CODE';
+} 
+
 const getSkillAndResponseBlock = (skillText: string): SkillAndResponseBlock => {
 	const parts = qstr.breakIntoParts(skillText, ";");
 	let skillLine = parts[0];
 	skillLine = qstr.chopRight(skillLine, ".");
 	skillLine = qstr.chopRight(skillLine, "!");
-	const responseHtml = parts[1];
+	const responseHtmlIdCode = parts[1];
+	const responseHtml = getResponseHtml(responseHtmlIdCode);
 	return {
 		skillLine: `${skillLine}:`,
 		responseHtml: responseHtml,

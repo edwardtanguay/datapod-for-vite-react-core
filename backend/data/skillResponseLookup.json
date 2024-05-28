@@ -1,0 +1,12 @@
+{
+	"cloudCicd": [
+		{
+			"language": "english",
+			"html": "cloudcicdresponse-english"
+		},
+		{
+			"language": "german",
+			"html": "cloudcicdresponse-german"
+		}
+	]
+}
