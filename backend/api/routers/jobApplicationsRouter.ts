@@ -1,6 +1,7 @@
 import { Router } from "express";
 import * as apptools from "../../apptools.js";
 import * as qfil from "../../../share/qtools/qfil.js";
+import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
@@ -13,10 +14,26 @@ import jobs from "../../data/jobs.json";
 
 export const jobApplicationsRouter = Router();
 
-const buildContactSaluation = (jobApplication: JobApplication) => {
-	let r = "";
+const buildContactTitle = (jobApplication: JobApplication):string => {
+	let r = 'UNKNOWN-CONTACT-TITLE';
+	if (jobApplication.language === 'english' && jobApplication.contactGender === 'female') {
+		r = 'Ms.';
+	}
+	return r;
+}
+
+const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
+	const parts = qstr.breakIntoParts(jobApplication.contactFullName, ' ');
+	const firstName = parts[0];
+	const lastName = parts[1];
+	return [firstName, lastName];
+}
+
+const buildContactSaluation = (jobApplication: JobApplication): string => {
+	let r = "UNKNOWN-CONTACT-SALUTATION";
+	const [, lastName] = getNamesFromFullName(jobApplication);
 	if (jobApplication.language === "english") {
-		r = `c/o ${jobApplication.contactFullName}`;
+		r = `c/o ${buildContactTitle(jobApplication)} ${lastName}`;
 	}
 	return r;
 };

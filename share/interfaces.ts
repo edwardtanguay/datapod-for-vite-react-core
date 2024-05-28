@@ -71,7 +71,7 @@ export type JobApplication = {
 	skillTexts: string;
 	customOutlineText: string;
 	contactFullName: string;
-	contactGender: string;
+	contactGender: 'male' | 'female';
 	contactEmail: string;
 	contactAddress: string;
 };
