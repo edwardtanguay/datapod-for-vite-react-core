@@ -120,23 +120,35 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	}
 };
 
+// responseHtmlIdCodeList can be "reactNative" or "reactNative, serverless, awsLambda"
 const getResponseHtml = (
-	responseHtmlIdCode: string,
+	responseHtmlIdCodeList: string,
 	jobApplication: JobApplication
 ): string => {
-	let responseHtml = "";
-	const skillResponseLookupObject: any =
-		skillResponseLookup[responseHtmlIdCode];
-	if (skillResponseLookupObject) {
-		responseHtml = skillResponseLookupObject[jobApplication.language];
-		if (responseHtml) {
-			return responseHtml;
+	const responseHtmls: string[] = [];
+	const responseHtmlIdCodes = qstr.breakIntoParts(
+		responseHtmlIdCodeList,
+		","
+	);
+
+	for (const responseHtmlIdCode of responseHtmlIdCodes) {
+		const skillResponseLookupObject: any =
+			skillResponseLookup[responseHtmlIdCode];
+		if (skillResponseLookupObject) {
+			const responseHtml =
+				skillResponseLookupObject[jobApplication.language];
+			if (responseHtml) {
+				responseHtmls.push(responseHtml);
+			} else {
+				responseHtmls.push(
+					`TRANSLATE ${jobApplication.language} RESPONSE FOR ${responseHtmlIdCode}`
+				);
+			}
 		} else {
-			return `TRANSLATE ${jobApplication.language} RESPONSE FOR ${responseHtmlIdCode}`;
+			responseHtmls.push(`ADD: ${responseHtmlIdCode}`);
 		}
-	} else {
-		return `ADD: ${responseHtmlIdCode}`;
 	}
+	return responseHtmls.join(', ');
 };
 
 const getSkillAndResponseBlock = (
@@ -147,8 +159,11 @@ const getSkillAndResponseBlock = (
 	let skillLine = parts[0];
 	skillLine = qstr.chopRight(skillLine, ".");
 	skillLine = qstr.chopRight(skillLine, "!");
-	const responseHtmlIdCode = parts[1];
-	const responseHtml = getResponseHtml(responseHtmlIdCode, jobApplication);
+	const responseHtmlIdCodeList = parts[1];
+	const responseHtml = getResponseHtml(
+		responseHtmlIdCodeList,
+		jobApplication
+	);
 	return {
 		skillLine: `${skillLine}:`,
 		responseHtml: responseHtml,
