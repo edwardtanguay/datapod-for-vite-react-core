@@ -5,7 +5,7 @@ import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
-// import * as qdev from "../../../share/qtools/qdev.js";
+import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
 	JobApplication,
@@ -49,6 +49,10 @@ const getNameForCellPhone = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getAddressLines = (jobApplication: JobApplication): string[] => {
+	return qstr.convertStringBlockToLines(jobApplication.contactAddress);
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -77,7 +81,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					jobTitle: job.title,
 					company: job.company,
 					nameForCellPhone: getNameForCellPhone(jobApplication),
-					companyAddressLines: ['1111', '2222']
+					companyAddressLines: getAddressLines(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
