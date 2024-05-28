@@ -2,7 +2,7 @@
 Language
 Base Job Id;wn
 Letter Date;date
-Skill Texts;p
+Skill Texts Block;p
 Custom Outline Text;p
 Contact Full Name
 Contact Gender
@@ -14,7 +14,7 @@ dpodId::qqSyZj
 language::english
 baseJobId::240
 letterDate::2024-05-28
-skillTexts::[[
+skillTextsBlock::[[
 You have a strong technical background in application development, preferably in a large-scale cloud-based setting with modern software development practices such as CI/CD.;cloudCicd
 You have 4+ years of experience of web development, primarily utilizing Javascript/ Typescript in the frontend and backend.;javascriptTypeScriptFrontendBackend
 You have good knowledge of Git and Docker.;gitDocker

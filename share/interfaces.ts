@@ -68,7 +68,7 @@ export type JobApplication = {
 	language: "english" | "german";
 	baseJobId: number;
 	letterDate: string;
-	skillTexts: string;
+	skillTextsBlock: string;
 	customOutlineText: string;
 	contactFullName: string;
 	contactGender: "male" | "female";

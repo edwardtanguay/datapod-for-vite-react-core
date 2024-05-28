@@ -5,7 +5,7 @@ import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
-// import * as qdev from "../../../share/qtools/qdev.js";
+import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
 	Job,
@@ -119,16 +119,16 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 };
 
 const getSkillAndResponseBlocks = (jobApplication: JobApplication): SkillAndResponseBlock[] => {
-	return [
-		{
-			skillLine: 'sss1',
-			responseHtml: 'rrr1'
-		},
-		{
-			skillLine: 'sss2',
-			responseHtml: 'rrr2'
+	const skillTexts = qstr.convertStringBlockToLines(jobApplication.skillTextsBlock);
+	const skillAndResponseBlocks: SkillAndResponseBlock[] = [];
+	for (const skillText of skillTexts) {
+		const skillAndResponseBlock: SkillAndResponseBlock = {
+			skillLine: 'sss',
+			responseHtml: 'hhh'
 		}
-	]
+		skillAndResponseBlocks.push(skillAndResponseBlock);
+	}
+	return skillAndResponseBlocks;
 };
 
 jobApplicationsRouter.get("/full", (_req, res) => {
