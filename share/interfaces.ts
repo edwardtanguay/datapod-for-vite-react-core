@@ -88,6 +88,7 @@ export type FullJobApplication = {
 	headerLine1: string;
 	headerLine2: string;
 	greetingLine: string;
+	introLine: string;
 };
 
 export type Job = {

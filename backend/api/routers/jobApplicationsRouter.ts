@@ -45,7 +45,9 @@ const buildFormalName = (jobApplication: JobApplication): string => {
 const buildFormalFullName = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-FORMAL-FULL-NAME";
 	if (jobApplication.language === "english") {
-		r = `${buildContactTitle(jobApplication)} ${jobApplication.contactFullName}`;
+		r = `${buildContactTitle(jobApplication)} ${
+			jobApplication.contactFullName
+		}`;
 	}
 	return r;
 };
@@ -96,6 +98,14 @@ const getGreetingLine = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getIntroLine = (job: Job, jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return `Your company has advertised the position of ${job.title}, for which with this letter I am formally submitting my application.`;
+	} else {
+		return "UNKNOWN-GREETING-LINE: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -128,6 +138,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					headerLine1: getHeaderLine1(job, jobApplication),
 					headerLine2: getHeaderLine2(job, jobApplication),
 					greetingLine: getGreetingLine(jobApplication),
+					introLine: getIntroLine(job, jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

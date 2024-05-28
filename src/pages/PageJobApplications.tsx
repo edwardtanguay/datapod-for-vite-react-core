@@ -56,11 +56,7 @@ export const PageJobApplications = () => {
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.greetingLine}</div>
 								<div>&nbsp;</div>
-								<div>
-									Sie suchen für Ihr Unternehmen einen
-									Programmierer. Um diese Stelle bewerbe ich
-									mich.
-								</div>
+								<div>{fullJobApplication.introLine}</div>
 								<div>&nbsp;</div>
 								<div>
 									Meine Fähigkeiten entsprechen Ihrem
