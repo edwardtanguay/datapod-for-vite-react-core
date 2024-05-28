@@ -56,7 +56,7 @@ export const PageJobApplications = () => {
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.greetingLine}</div>
 								<div>&nbsp;</div>
-								<div>{fullJobApplication.introLine}</div>
+								<div>{fullJobApplication.applicationLine}</div>
 								<div>&nbsp;</div>
 								<div>
 									Meine Fähigkeiten entsprechen Ihrem

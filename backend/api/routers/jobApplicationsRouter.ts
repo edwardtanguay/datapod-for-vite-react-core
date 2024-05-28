@@ -98,7 +98,7 @@ const getGreetingLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-const getIntroLine = (job: Job, jobApplication: JobApplication): string => {
+const getApplicationLine = (job: Job, jobApplication: JobApplication): string => {
 	if (jobApplication.language === "english") {
 		return `Your company has advertised the position of ${job.title}, for which with this letter I am formally submitting my application.`;
 	} else {
@@ -138,7 +138,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					headerLine1: getHeaderLine1(job, jobApplication),
 					headerLine2: getHeaderLine2(job, jobApplication),
 					greetingLine: getGreetingLine(jobApplication),
-					introLine: getIntroLine(job, jobApplication),
+					applicationLine: getApplicationLine(job, jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
