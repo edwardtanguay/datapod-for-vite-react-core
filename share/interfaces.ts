@@ -76,6 +76,11 @@ export type JobApplication = {
 	contactAddress: string;
 };
 
+export type SkillAndResponseBlock = {
+	skillLine: string;
+	responseHtml: string;
+}
+
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
@@ -90,6 +95,7 @@ export type FullJobApplication = {
 	greetingLine: string;
 	applicationLine: string;
 	skillIntroLine: string;
+	skillAndResponseBlocks: SkillAndResponseBlock[];
 };
 
 export type Job = {

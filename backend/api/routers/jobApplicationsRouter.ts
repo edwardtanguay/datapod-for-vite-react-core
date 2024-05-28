@@ -10,6 +10,7 @@ import {
 	FullJobApplication,
 	Job,
 	JobApplication,
+	SkillAndResponseBlock,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
 
@@ -103,7 +104,7 @@ const getApplicationLine = (
 	jobApplication: JobApplication
 ): string => {
 	if (jobApplication.language === "english") {
-		return `Your company has advertised the position of ${job.title}, for which I am formally submitting my application.`;
+		return `Your company has advertised the position of ${job.title} for which I am formally submitting my application.`;
 	} else {
 		return "UNKNOWN-GREETING-LINE: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
 	}
@@ -115,6 +116,19 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	} else {
 		return "Meine Fähigkeiten entsprechen Ihrem Anforderungsprofil perfekt:";
 	}
+};
+
+const getSkillAndResponseBlocks = (jobApplication: JobApplication): SkillAndResponseBlock[] => {
+	return [
+		{
+			skillLine: 'sss1',
+			responseHtml: 'rrr1'
+		},
+		{
+			skillLine: 'sss2',
+			responseHtml: 'rrr2'
+		}
+	]
 };
 
 jobApplicationsRouter.get("/full", (_req, res) => {
@@ -151,6 +165,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					greetingLine: getGreetingLine(jobApplication),
 					applicationLine: getApplicationLine(job, jobApplication),
 					skillIntroLine: getSkillIntroLine(jobApplication),
+					skillAndResponseBlocks: getSkillAndResponseBlocks(jobApplication)
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

@@ -60,42 +60,19 @@ export const PageJobApplications = () => {
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.skillIntroLine}</div>
 								<div>&nbsp;</div>
-								<div>
-									<b>
-										Abgeschlossenes Fach-/Hochschulstudium
-										in der Fachrichtung Informatik oder eine
-										entsprechende Ausbildung im IT-Bereich:
-									</b>{" "}
-									Durch meine über 15 Jahre lange Tätigkeit in
-									der Software-Entwicklung bei mehreren Firmen
-									und in mehreren Projekten kann ich
-									entsprechende Fähigkeiten beweisen.
-								</div>
-								<div>&nbsp;</div>
-								<div>
-									<b>
-										Abgeschlossenes Fach-/Hochschulstudium
-										in der Fachrichtung Informatik oder eine
-										entsprechende Ausbildung im IT-Bereich:
-									</b>{" "}
-									Durch meine über 15 Jahre lange Tätigkeit in
-									der Software-Entwicklung bei mehreren Firmen
-									und in mehreren Projekten kann ich
-									entsprechende Fähigkeiten beweisen.
-								</div>
-								<div>&nbsp;</div>
-								<div>
-									<b>
-										Abgeschlossenes Fach-/Hochschulstudium
-										in der Fachrichtung Informatik oder eine
-										entsprechende Ausbildung im IT-Bereich:
-									</b>{" "}
-									Durch meine über 15 Jahre lange Tätigkeit in
-									der Software-Entwicklung bei mehreren Firmen
-									und in mehreren Projekten kann ich
-									entsprechende Fähigkeiten beweisen.
-								</div>
-								<div>&nbsp;</div>
+								{fullJobApplication.skillAndResponseBlocks.map(
+									(srb, index) => {
+										return (
+											<>
+												<div key={index}>
+													<b>{srb.skillLine}</b>{" "}
+													{srb.responseHtml}
+												</div>
+												<div>&nbsp;</div>
+											</>
+										);
+									}
+								)}
 								<div>
 									Meine ausführlichen Bewerbungsunterlagen
 									finden Sie unter:
