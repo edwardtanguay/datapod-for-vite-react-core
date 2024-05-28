@@ -98,11 +98,22 @@ const getGreetingLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-const getApplicationLine = (job: Job, jobApplication: JobApplication): string => {
+const getApplicationLine = (
+	job: Job,
+	jobApplication: JobApplication
+): string => {
 	if (jobApplication.language === "english") {
-		return `Your company has advertised the position of ${job.title}, for which with this letter I am formally submitting my application.`;
+		return `Your company has advertised the position of ${job.title}, for which I am formally submitting my application.`;
 	} else {
 		return "UNKNOWN-GREETING-LINE: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
+	}
+};
+
+const getSkillIntroLine = (jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return "My skills match your requirements perfectly:";
+	} else {
+		return "Meine Fähigkeiten entsprechen Ihrem Anforderungsprofil perfekt:";
 	}
 };
 
@@ -139,6 +150,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					headerLine2: getHeaderLine2(job, jobApplication),
 					greetingLine: getGreetingLine(jobApplication),
 					applicationLine: getApplicationLine(job, jobApplication),
+					skillIntroLine: getSkillIntroLine(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

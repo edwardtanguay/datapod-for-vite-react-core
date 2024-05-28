@@ -58,10 +58,7 @@ export const PageJobApplications = () => {
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.applicationLine}</div>
 								<div>&nbsp;</div>
-								<div>
-									Meine Fähigkeiten entsprechen Ihrem
-									Anforderungsprofil perfekt:
-								</div>
+								<div>{fullJobApplication.skillIntroLine}</div>
 								<div>&nbsp;</div>
 								<div>
 									<b>
