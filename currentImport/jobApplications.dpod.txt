@@ -3,7 +3,7 @@ Language
 Base Job Id;wn
 Letter Date;date
 Skill Texts;p
-Custom Outline Text
+Custom Outline Text;p
 Contact Full Name
 Contact Gender
 Contact Email
