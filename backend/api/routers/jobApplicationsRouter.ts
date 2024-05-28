@@ -106,7 +106,7 @@ const getApplicationLine = (
 	jobApplication: JobApplication
 ): string => {
 	if (jobApplication.language === "english") {
-		return `Your company has advertised the position of ${job.title} for which I am formally submitting my application.`;
+		return `With this letter I am formally applying for your advertised position of ${job.title}.`;
 	} else {
 		return "UNKNOWN-GREETING-LINE: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
 	}
@@ -148,7 +148,7 @@ const getResponseHtml = (
 			responseHtmls.push(`ADD: ${responseHtmlIdCode}`);
 		}
 	}
-	return responseHtmls.join(', ');
+	return responseHtmls.join(' ');
 };
 
 const getSkillAndResponseBlock = (
