@@ -35,3 +35,10 @@ customOutlineText::[[
 - Möchtest du uns darüber hinaus noch etwas mitteilen?
 	- Die Stellenbeschreibung auf Ihrer Website war in Deutsch und Englisch, weshalb ich in meinem Anschreiben in beiden Sprachen schreibe. Ich bin vollkommen fließend in beiden Sprachen.
 ]]
+contactFullName::Nelly Schulz-Algie
+contactGender::female
+contactEmail::kontakt@lofino.de
+contactAddress::[[
+Kapuzinerweg 37
+14532 Kleinmachnow
+]]
