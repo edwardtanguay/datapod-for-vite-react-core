@@ -42,12 +42,12 @@ const buildContactSaluation = (jobApplication: JobApplication): string => {
 };
 
 const getNameForCellPhone = (jobApplication: JobApplication): string => {
-	if (jobApplication.language === 'english') {
-		return 'Cell';
+	if (jobApplication.language === "english") {
+		return "Cell";
 	} else {
-		return 'Handy';
+		return "Handy";
 	}
-}
+};
 
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
@@ -76,7 +76,8 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					contactSalutation: buildContactSaluation(jobApplication),
 					jobTitle: job.title,
 					company: job.company,
-					nameForCellPhone: getNameForCellPhone(jobApplication)
+					nameForCellPhone: getNameForCellPhone(jobApplication),
+					companyAddressLines: ['1111', '2222']
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

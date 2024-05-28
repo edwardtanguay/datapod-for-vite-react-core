@@ -32,8 +32,11 @@ export const PageJobApplications = () => {
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.company}</div>
 								<div>{fullJobApplication.contactSalutation}</div>
-								<div>Friedrichstraße 95</div>
-								<div>10117 Berlin</div>
+								{fullJobApplication.companyAddressLines.map((companyAddressLine, index) => {
+									return (
+										<div key={index}>{companyAddressLine}</div>
+									)
+								})}
 								<div>&nbsp;</div>
 								<div>
 									<b>
