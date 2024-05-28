@@ -1,6 +1,7 @@
 import { Router } from "express";
 import * as apptools from "../../apptools.js";
 import * as qfil from "../../../share/qtools/qfil.js";
+import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
@@ -10,6 +11,8 @@ import jobs from "../../data/jobs.json";
 export const jobApplicationsRouter = Router();
 
 jobApplicationsRouter.get("/full", (_req, res) => {
+
+
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
 	);
@@ -30,6 +33,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 				const fullJobApplication: FullJobApplication = {
 					language: jobApplication.language,
 					baseJobId: jobApplication.baseJobId,
+					letterDateText: qdat.getCurrentAmericanDate(jobApplication.letterDate),
 					jobTitle: job.title,
 					company: job.company
 				};

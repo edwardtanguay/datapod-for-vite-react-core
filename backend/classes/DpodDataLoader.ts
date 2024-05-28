@@ -10,7 +10,7 @@ import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";
 import * as appConfig from "../appconfig";
 import * as qfil from "../../share/qtools/qfil";
-import * as qdev from "../../share/qtools/qdev";
+// import * as qdev from "../../share/qtools/qdev";
 
 export class DpodDataLoader {
 	private content = "";
@@ -70,11 +70,11 @@ export class DpodDataLoader {
 		for (const itemTypeTarget of itemTypeTargets) {
 			const jsonContent = this.jsonData[itemTypeTarget.itemType];
 			if (jsonContent) {
-				qdev.log(
-					"DpodDataLoader.ts:68",
-					"",
-					`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
-				);
+				// qdev.log(
+				// 	"DpodDataLoader.ts:68",
+				// 	"",
+				// 	`Copying ${itemTypeTarget.itemType} to ${itemTypeTarget.jsonFilePathAndFileName}`
+				// );
 				qfil.writeToFile(
 					itemTypeTarget.jsonFilePathAndFileName,
 					jsonContent

@@ -66,6 +66,7 @@ export type DpodSyntaxType = 'simple' | 'verbose';
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
+	letterDateText: string;
 	jobTitle: string;
 	company: string;
 }

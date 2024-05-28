@@ -18,7 +18,7 @@ export const PageJobApplications = () => {
 						</p>
 						<div className="scrollable-container rounded w-full h-[40rem] bg-gray-300">
 							<div className="scrollable-content">
-								<div>Berlin, 10. Februar 2018</div>
+								<div>Berlin, {fullJobApplication.letterDateText}</div>
 								<div>&nbsp;</div>
 								<div>&nbsp;</div>
 								<div>Edward Tanguay</div>
