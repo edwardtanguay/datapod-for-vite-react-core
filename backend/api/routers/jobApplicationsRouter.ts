@@ -14,20 +14,23 @@ import jobs from "../../data/jobs.json";
 
 export const jobApplicationsRouter = Router();
 
-const buildContactTitle = (jobApplication: JobApplication):string => {
-	let r = 'UNKNOWN-CONTACT-TITLE';
-	if (jobApplication.language === 'english' && jobApplication.contactGender === 'female') {
-		r = 'Ms.';
+const buildContactTitle = (jobApplication: JobApplication): string => {
+	let r = "UNKNOWN-CONTACT-TITLE";
+	if (
+		jobApplication.language === "english" &&
+		jobApplication.contactGender === "female"
+	) {
+		r = "Ms.";
 	}
 	return r;
-}
+};
 
 const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
-	const parts = qstr.breakIntoParts(jobApplication.contactFullName, ' ');
+	const parts = qstr.breakIntoParts(jobApplication.contactFullName, " ");
 	const firstName = parts[0];
 	const lastName = parts[1];
 	return [firstName, lastName];
-}
+};
 
 const buildContactSaluation = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-CONTACT-SALUTATION";
@@ -37,6 +40,14 @@ const buildContactSaluation = (jobApplication: JobApplication): string => {
 	}
 	return r;
 };
+
+const getNameForCellPhone = (jobApplication: JobApplication): string => {
+	if (jobApplication.language === 'english') {
+		return 'Cell';
+	} else {
+		return 'Handy';
+	}
+}
 
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
@@ -65,6 +76,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					contactSalutation: buildContactSaluation(jobApplication),
 					jobTitle: job.title,
 					company: job.company,
+					nameForCellPhone: getNameForCellPhone(jobApplication)
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

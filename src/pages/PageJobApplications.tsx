@@ -25,7 +25,7 @@ export const PageJobApplications = () => {
 								<div>Lacknerstr. 8</div>
 								<div>12167 Berlin</div>
 								<div>
-									Tel: 030 / 795 55 99, Mobil: 0179 / 66 486
+									Tel: 030 / 795 55 99, {fullJobApplication.nameForCellPhone}: 0179 / 66 486
 									04
 								</div>
 								<div>E-Mail: edward@tanguay.info</div>

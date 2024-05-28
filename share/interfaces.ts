@@ -83,4 +83,5 @@ export type FullJobApplication = {
 	contactSalutation: string;
 	jobTitle: string;
 	company: string;
+	nameForCellPhone: string;
 };
