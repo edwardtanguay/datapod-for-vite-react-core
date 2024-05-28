@@ -63,11 +63,10 @@ const getHeaderLine1 = (job: Job, jobApplication: JobApplication): string => {
 };
 
 const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
+	const urlHostName = qstr.getHostnameFromUrl(job.url);
+	const publicationDate = qdat.getCurrentAmericanDate(job.publicationDate);
 	if (jobApplication.language === "english") {
-		// return `Your job advertisement on the ${qstr.getHostnameFromUrl(
-		// 	job.url
-		// )} website from ${qdat.getCurrentAmericanDate(job.publicationDate)}`;
-		return 'nnn';
+		return `Your job advertisement on the ${urlHostName} website from ${publicationDate}`;
 	} else {
 		return `TODO: Ihre Stellenanzeige auf der nnnwww.stepstone.de Website vom nnn10.02.2018`;
 	}
