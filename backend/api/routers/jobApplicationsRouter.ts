@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Router } from "express";
 import * as apptools from "../../apptools.js";
 import * as qfil from "../../../share/qtools/qfil.js";
@@ -11,6 +12,7 @@ import {
 	Job,
 	JobApplication,
 	SkillAndResponseBlock,
+	SkillResponseLookupObject,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
 import skillResponseLookup from "../../data/skillResponseLookup.json";
@@ -119,9 +121,20 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-const getResponseHtml = (resposneHtmlIdCode: string): string => {
-	return 'THE CODE';
-} 
+const getResponseHtml = (responseHtmlIdCode: string, language = 'english'): string => {
+	let responseHtml = '';
+	const skillResponseLookupObject:any = skillResponseLookup[responseHtmlIdCode];
+	if (skillResponseLookupObject) {
+		responseHtml = skillResponseLookupObject[language];
+		if (responseHtml) {
+			return responseHtml;
+		} else {
+			return `ADD ${language} RESPONSE FOR ${responseHtmlIdCode}`
+		}
+	} else {
+		return `ADD: ${responseHtmlIdCode}`;
+	}
+};
 
 const getSkillAndResponseBlock = (skillText: string): SkillAndResponseBlock => {
 	const parts = qstr.breakIntoParts(skillText, ";");

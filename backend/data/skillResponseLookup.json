@@ -1,12 +1,9 @@
 {
-	"cloudCicd": [
-		{
-			"language": "english",
-			"html": "cloudcicdresponse-english"
-		},
-		{
-			"language": "german",
-			"html": "cloudcicdresponse-german"
-		}
-	]
+	"cloudCicd": {
+		"english": "cloudcicdresponse-english",
+		"german": "cloudcicdresponse-german"
+	},
+	"javascriptTypeScriptFrontendBackend": {
+		"german": "javascriptTypeScriptFrontendBackend-GERMAN"
+	}
 }

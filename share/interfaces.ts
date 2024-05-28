@@ -79,7 +79,7 @@ export type JobApplication = {
 export type SkillAndResponseBlock = {
 	skillLine: string;
 	responseHtml: string;
-}
+};
 
 export type FullJobApplication = {
 	language: string;
@@ -106,4 +106,9 @@ export type Job = {
 	description: string;
 	skillList: string;
 	publicationDate: string;
+};
+
+export type SkillResponseLookupObject = {
+	language: string;
+	html: string;
 };
