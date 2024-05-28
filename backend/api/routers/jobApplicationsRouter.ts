@@ -118,6 +118,18 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getSkillAndResponseBlock = (skillText: string): SkillAndResponseBlock => {
+	const parts = qstr.breakIntoParts(skillText, ";");
+	let skillLine = parts[0];
+	skillLine = qstr.chopRight(skillLine, ".");
+	skillLine = qstr.chopRight(skillLine, "!");
+	const responseHtml = parts[1];
+	return {
+		skillLine: `${skillLine}:`,
+		responseHtml: responseHtml,
+	};
+};
+
 const getSkillAndResponseBlocks = (
 	jobApplication: JobApplication
 ): SkillAndResponseBlock[] => {
@@ -126,14 +138,7 @@ const getSkillAndResponseBlocks = (
 	);
 	const skillAndResponseBlocks: SkillAndResponseBlock[] = [];
 	for (const skillText of skillTexts) {
-		const parts = qstr.breakIntoParts(skillText, ";");
-		const skillLine = parts[0];
-		const responseHtml = parts[1];
-		const skillAndResponseBlock: SkillAndResponseBlock = {
-			skillLine: skillLine,
-			responseHtml: responseHtml,
-		};
-		skillAndResponseBlocks.push(skillAndResponseBlock);
+		skillAndResponseBlocks.push(getSkillAndResponseBlock(skillText));
 	}
 	return skillAndResponseBlocks;
 };
