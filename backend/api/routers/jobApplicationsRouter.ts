@@ -118,14 +118,21 @@ const getSkillIntroLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-const getSkillAndResponseBlocks = (jobApplication: JobApplication): SkillAndResponseBlock[] => {
-	const skillTexts = qstr.convertStringBlockToLines(jobApplication.skillTextsBlock);
+const getSkillAndResponseBlocks = (
+	jobApplication: JobApplication
+): SkillAndResponseBlock[] => {
+	const skillTexts = qstr.convertStringBlockToLines(
+		jobApplication.skillTextsBlock
+	);
 	const skillAndResponseBlocks: SkillAndResponseBlock[] = [];
 	for (const skillText of skillTexts) {
+		const parts = qstr.breakIntoParts(skillText, ";");
+		const skillLine = parts[0];
+		const responseHtml = parts[1];
 		const skillAndResponseBlock: SkillAndResponseBlock = {
-			skillLine: 'sss',
-			responseHtml: 'hhh'
-		}
+			skillLine: skillLine,
+			responseHtml: responseHtml,
+		};
 		skillAndResponseBlocks.push(skillAndResponseBlock);
 	}
 	return skillAndResponseBlocks;
@@ -165,7 +172,8 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					greetingLine: getGreetingLine(jobApplication),
 					applicationLine: getApplicationLine(job, jobApplication),
 					skillIntroLine: getSkillIntroLine(jobApplication),
-					skillAndResponseBlocks: getSkillAndResponseBlocks(jobApplication)
+					skillAndResponseBlocks:
+						getSkillAndResponseBlocks(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
