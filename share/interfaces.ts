@@ -86,6 +86,7 @@ export type FullJobApplication = {
 	nameForCellPhone: string;
 	companyAddressLines: string[];
 	headerLine1: string;
+	headerLine2: string;
 };
 
 export type Job = {

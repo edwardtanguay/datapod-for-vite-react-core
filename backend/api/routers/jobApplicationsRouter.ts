@@ -62,6 +62,17 @@ const getHeaderLine1 = (job: Job, jobApplication: JobApplication): string => {
 	}
 };
 
+const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		// return `Your job advertisement on the ${qstr.getHostnameFromUrl(
+		// 	job.url
+		// )} website from ${qdat.getCurrentAmericanDate(job.publicationDate)}`;
+		return 'nnn';
+	} else {
+		return `TODO: Ihre Stellenanzeige auf der nnnwww.stepstone.de Website vom nnn10.02.2018`;
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -92,6 +103,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					nameForCellPhone: getNameForCellPhone(jobApplication),
 					companyAddressLines: getAddressLines(jobApplication),
 					headerLine1: getHeaderLine1(job, jobApplication),
+					headerLine2: getHeaderLine2(job, jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

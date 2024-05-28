@@ -51,10 +51,7 @@ export const PageJobApplications = () => {
 									<b>{fullJobApplication.headerLine1}</b>
 								</div>
 								<div>
-									<b>
-										Ihre Stellenanzeige auf der
-										www.stepstone.de Website vom 10.02.2018
-									</b>
+									<b>{fullJobApplication.headerLine2}</b>
 								</div>
 								<div>&nbsp;</div>
 								<div>Sehr geehrter Herr Elias,</div>
