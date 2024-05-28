@@ -145,10 +145,12 @@ const getResponseHtml = (
 				);
 			}
 		} else {
-			responseHtmls.push(`ADD: ${responseHtmlIdCode}`);
+			responseHtmls.push(
+				`<span style="color: red">ADD: ${responseHtmlIdCode}</span>`
+			);
 		}
 	}
-	return responseHtmls.join(' ');
+	return responseHtmls.join(" ");
 };
 
 const getSkillAndResponseBlock = (

@@ -66,7 +66,11 @@ export const PageJobApplications = () => {
 											<>
 												<div key={index}>
 													<b>{srb.skillLine}</b>{" "}
-													{srb.responseHtml}
+													<span
+														dangerouslySetInnerHTML={{
+															__html: srb.responseHtml,
+														}}
+													></span>
 												</div>
 												<div>&nbsp;</div>
 											</>
