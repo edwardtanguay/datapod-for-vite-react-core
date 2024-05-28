@@ -51,15 +51,15 @@ export const PageJobApplications = () => {
 <p>&nbsp;</p> 
 <ul>
 	<li>http://www.tanguay.info/cv (auch anbei als PDF)</li>
+	<li>http://www.tanguay.info/cv/attachments (6 MB Arbeitszeugnisse als zip-Datei)</li>
 </ul>
-    http://www.tanguay.info/cv/attachments (6 MB Arbeitszeugnisse als zip-Datei)
 
-Meine Gehaltsvorstellung liegt zwischen 3.800,- und 4.200,- Euro brutto.
-Mein frühester Eintrittstermin ist der 01. März 2018.
+<p>Meine Gehaltsvorstellung liegt zwischen 3.800,- und 4.200,- Euro brutto.</p>
+<p>Mein frühester Eintrittstermin ist der 01. März 2018.</p>
  
-Mit freundlichen Grüßen
+<p>Mit freundlichen Grüßen</p>
  
-Edward Tanguay
+<p>Edward Tanguay</p>
 
 							</div>
 						</div>
