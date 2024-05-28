@@ -8,6 +8,7 @@ import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
+	Job,
 	JobApplication,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
@@ -53,6 +54,14 @@ const getAddressLines = (jobApplication: JobApplication): string[] => {
 	return qstr.convertStringBlockToLines(jobApplication.contactAddress);
 };
 
+const getHeaderLine1 = (job: Job, jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return `Application for the position of ${job.title}`;
+	} else {
+		return `Bewerbung um die Stelle als ${job.title}`;
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -82,6 +91,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					company: job.company,
 					nameForCellPhone: getNameForCellPhone(jobApplication),
 					companyAddressLines: getAddressLines(jobApplication),
+					headerLine1: getHeaderLine1(job, jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

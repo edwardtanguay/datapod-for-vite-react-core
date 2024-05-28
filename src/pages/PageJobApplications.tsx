@@ -18,30 +18,37 @@ export const PageJobApplications = () => {
 						</p>
 						<div className="scrollable-container rounded w-full h-[40rem] bg-gray-300">
 							<div className="scrollable-content">
-								<div>Berlin, {fullJobApplication.letterDateText}</div>
+								<div>
+									Berlin, {fullJobApplication.letterDateText}
+								</div>
 								<div>&nbsp;</div>
 								<div>&nbsp;</div>
 								<div>Edward Tanguay</div>
 								<div>Lacknerstr. 8</div>
 								<div>12167 Berlin</div>
 								<div>
-									Tel: 030 / 795 55 99, {fullJobApplication.nameForCellPhone}: 0179 / 66 486
-									04
+									Tel: 030 / 795 55 99,{" "}
+									{fullJobApplication.nameForCellPhone}: 0179
+									/ 66 486 04
 								</div>
 								<div>E-Mail: edward@tanguay.info</div>
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.company}</div>
-								<div>{fullJobApplication.contactSalutation}</div>
-								{fullJobApplication.companyAddressLines.map((companyAddressLine, index) => {
-									return (
-										<div key={index}>{companyAddressLine}</div>
-									)
-								})}
+								<div>
+									{fullJobApplication.contactSalutation}
+								</div>
+								{fullJobApplication.companyAddressLines.map(
+									(companyAddressLine, index) => {
+										return (
+											<div key={index}>
+												{companyAddressLine}
+											</div>
+										);
+									}
+								)}
 								<div>&nbsp;</div>
 								<div>
-									<b>
-										Bewerbung um die Stelle als {fullJobApplication.jobTitle}
-									</b>
+									<b>{fullJobApplication.headerLine1}</b>
 								</div>
 								<div>
 									<b>
