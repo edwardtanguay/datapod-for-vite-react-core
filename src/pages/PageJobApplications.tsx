@@ -31,7 +31,7 @@ export const PageJobApplications = () => {
 								<div>E-Mail: edward@tanguay.info</div>
 								<div>&nbsp;</div>
 								<div>{fullJobApplication.company}</div>
-								<div>z.H. Herrn Elias</div>
+								<div>{fullJobApplication.contactSalutation}</div>
 								<div>Friedrichstraße 95</div>
 								<div>10117 Berlin</div>
 								<div>&nbsp;</div>

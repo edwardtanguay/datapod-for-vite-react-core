@@ -63,10 +63,24 @@ export type ILineBlockKind = 'schema' | 'item' | 'UNKNOWN';
 
 export type DpodSyntaxType = 'simple' | 'verbose';
 
+export type JobApplication = {
+	dpodId: string,
+	language: string,
+	baseJobId: number,
+	letterDate: string,
+	skillTexts: string,
+	customOutlineText: string,
+	contactPerson: string,
+	contactGender: string,
+	contactEmail: string,
+	contactAddress: string
+}
+
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
 	letterDateText: string;
+	contactSalutation: string;
 	jobTitle: string;
 	company: string;
 }

@@ -5,14 +5,16 @@ import * as qdat from "../../../share/qtools/qdat.js";
 import * as appconfig from "../../appconfig.js";
 import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
-import { FullJobApplication } from "../../../share/interfaces.js";
+import { FullJobApplication, JobApplication } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
 
 export const jobApplicationsRouter = Router();
 
+const buildContactSaluation = (jobApplication: JobApplication) => {
+	return 'nnnFromfunction';
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
-
-
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
 	);
@@ -25,7 +27,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 	);
 	if (jobApplicationsGroup) {
 		const jsonData = jobApplicationsGroup.jsonData;
-		const jobApplications = JSON.parse(jsonData);
+		const jobApplications: JobApplication[] = JSON.parse(jsonData);
 		const fullJobApplications: FullJobApplication[] = [];
 		for (const jobApplication of jobApplications) {
 			const job = jobs.find((m) => m.id === jobApplication.baseJobId);
@@ -33,9 +35,12 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 				const fullJobApplication: FullJobApplication = {
 					language: jobApplication.language,
 					baseJobId: jobApplication.baseJobId,
-					letterDateText: qdat.getCurrentAmericanDate(jobApplication.letterDate),
+					letterDateText: qdat.getCurrentAmericanDate(
+						jobApplication.letterDate
+					),
+					contactSalutation: buildContactSaluation(jobApplication),
 					jobTitle: job.title,
-					company: job.company
+					company: job.company,
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
