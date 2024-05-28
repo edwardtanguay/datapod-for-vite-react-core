@@ -42,10 +42,18 @@ const buildFormalName = (jobApplication: JobApplication): string => {
 	return r;
 };
 
+const buildFormalFullName = (jobApplication: JobApplication): string => {
+	let r = "UNKNOWN-FORMAL-FULL-NAME";
+	if (jobApplication.language === "english") {
+		r = `${buildContactTitle(jobApplication)} ${jobApplication.contactFullName}`;
+	}
+	return r;
+};
+
 const buildContactSaluation = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-CONTACT-SALUTATION";
 	if (jobApplication.language === "english") {
-		r = `c/o ${buildFormalName(jobApplication)}`;
+		r = `c/o ${buildFormalFullName(jobApplication)}`;
 	}
 	return r;
 };
