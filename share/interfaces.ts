@@ -99,6 +99,9 @@ export type FullJobApplication = {
 	skillAndResponseBlocks: SkillAndResponseBlock[];
 	customText: string;
 	customOutlineHtml: string;
+	attachmentText1: string;
+	attachmentText2: string;
+	attachmentText3: string;
 };
 
 export type Job = {

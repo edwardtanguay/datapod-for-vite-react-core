@@ -85,18 +85,27 @@ export const PageJobApplications = () => {
 										}}
 									></span>
 								</div>
-								<div>
-									Meine ausführlichen Bewerbungsunterlagen
-									finden Sie unter:
-								</div>
+								<div>{fullJobApplication.attachmentText1}:</div>
 								<ul className="list-disc ml-6 mb-6">
 									<li>
-										http://www.tanguay.info/cv (auch anbei
-										als PDF)
+										<a
+											className="underline"
+											target="_blank"
+											href="http://www.tanguay.info/cv"
+										>
+											http://www.tanguay.info/cv
+										</a>{" "}
+										({fullJobApplication.attachmentText2})
 									</li>
 									<li>
-										http://www.tanguay.info/cv/attachments
-										(6 MB Arbeitszeugnisse als zip-Datei)
+										<a
+											className="underline"
+											target="_blank"
+											href="http://www.tanguay.info/cv/attachments"
+										>
+											http://www.tanguay.info/cv/attachments
+										</a>{" "}
+										({fullJobApplication.attachmentText3})
 									</li>
 								</ul>
 								<div>

@@ -187,6 +187,24 @@ const getSkillAndResponseBlocks = (
 	return skillAndResponseBlocks;
 };
 
+const getAttachmentTexts = (jobApplication: JobApplication): string[] => {
+	let attachmentText1 = "";
+	let attachmentText2 = "";
+	let attachmentText3 = "";
+	const size = "7 MB";
+	if (jobApplication.language === "english") {
+		attachmentText1 = "My application documents can be found at";
+		attachmentText2 = "also attached as PDF";
+		attachmentText3 = `all reference letters as ${size} zip file`;
+	} else {
+		attachmentText1 =
+			"Meine ausführlichen Bewerbungsunterlagen finden Sie unter";
+		attachmentText2 = "auch anbei als PDF";
+		attachmentText3 = `Arbeitszeugnisse als ${size} zip-Datei`;
+	}
+	return [attachmentText1, attachmentText2, attachmentText3];
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -203,6 +221,8 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 		const jobApplications: JobApplication[] = JSON.parse(jsonData);
 		const fullJobApplications: FullJobApplication[] = [];
 		for (const jobApplication of jobApplications) {
+			const [attachmentText1, attachmentText2, attachmentText3] =
+				getAttachmentTexts(jobApplication);
 			const job = jobs.find((m) => m.id === jobApplication.baseJobId);
 			if (job) {
 				const fullJobApplication: FullJobApplication = {
@@ -223,8 +243,13 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					skillIntroLine: getSkillIntroLine(jobApplication),
 					skillAndResponseBlocks:
 						getSkillAndResponseBlocks(jobApplication),
-						customText: jobApplication.customText,
-					customOutlineHtml: qstr.buildOutlineHtml(jobApplication.customOutlineText),
+					customText: jobApplication.customText,
+					customOutlineHtml: qstr.buildOutlineHtml(
+						jobApplication.customOutlineText
+					),
+					attachmentText1,
+					attachmentText2,
+					attachmentText3,
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

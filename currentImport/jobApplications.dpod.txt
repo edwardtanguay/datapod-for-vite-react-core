@@ -24,19 +24,8 @@ You can demonstrate having worked in an environment which has strong engineering
 You have solid experience working in a modern agile environment, ideally the Scrum-Framework.;agileScrum
 You are someone with a sizeable appetite for learning and self-development, who prides themselves on being a valued member of the team!; selfLearning
 ]]
-customText::You asked five specific questions on your online job application page which I would like to answer here:
-customOutlineText::[[
-- **Warum möchtest du in dieser Position / in diesem Bereich arbeiten?**
-	- Die Stellenbeschreibung umfasste Backend, Frontend, DevOps, CI/CD, was die Herausforderung ist, die ich suche.
-- **Was brauchst du, damit du bei der Arbeit zufrieden bist?**
-	- Ich bin bei der Arbeit zufrieden, wenn ich herausfordernde Aufgaben habe, die ich gemeinsam mit einem effizienten Team bewältigen kann.
-- **Warum möchtest du gerne bei LOFINO arbeiten?**
-	- Das Unternehmen bietet den Kunden nützliche Produkte und Services an und die technischen Herausforderungen sind genau die, die ich suche.
-- **Wie beschreibst du dich als Person und dein Arbeitsverhalten?**
-	- Ich bin ein Pragmatiker, der weiß, dass ein Produkt in kurzen Zeitzyklen zum Kunden gelangen muss, aber auch ein Perfektionist, der reibungslose Abläufe wünscht, soweit das möglich ist.
-- **Möchtest du uns darüber hinaus noch etwas mitteilen?**
-	- Da die Stellenbeschreibung auf der Lofino Website in Deutsch und Englisch war, habe ich auch in diesem Brief in beiden Sprachen geschrieben. Ich bin vollkommen fließend in beiden Sprachen.
-]]
+customText::
+customOutlineText::
 contactFullName::Nelly Schulz-Algie
 contactGender::female
 contactEmail::kontakt@lofino.de
