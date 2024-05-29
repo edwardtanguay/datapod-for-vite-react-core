@@ -21,7 +21,7 @@
 			"import2",
 			"package.json"
 		],
-		"ext": "ts, txt",
+		"ext": "ts, txt, json",
 		"exec": "tsx backend/api/index.ts"
 	},
 	"dependencies": {

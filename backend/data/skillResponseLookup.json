@@ -28,5 +28,8 @@
 	},
 	"selfLearning": {
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
+	},
+	"vanillaJavaScript": {
+		"english": "I have been programming with JavaScript for over 20 years. In my job as a web development instructor during the last three years, I have teach students how use vanilla JavaScript to build complex websites without a JavaScript framework, before they learn how to use frameworks. Here is an example: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">https://github.com/edwardtanguay/html-css-js-learn-template</a>"
 	}
 }

@@ -59,15 +59,32 @@ history::[[
 ==jobApplication
 dpodId::LIqi3C
 baseJobId::246
-language::german
+language::english
 letterDate::2024-05-29
-skillTextsBlock::
+skillTextsBlock::[[
+Expert in vanilla JavaScript and strong on writing performant code and clean architectures;vanillaJavaScript
+Extensive experience in frameworks like React.js, semantic HTML5, CSS3 (and a CSS preprocessor of your choice) and tooling (Rollup.js, Webpack, npm scripts, etc.);react, otherJavaScriptFrameworks, html5css3, cssPreprocessor, toolingRollupWebpackNpmscripts
+In-Depth, thorough, and up-to-date knowledge of the Web- and Browser-Ecosystem; webBrowserEcosystem
+Knowledge in or eager to learn new frameworks such as Astro;eagerLearnNewFrameworks, astro
+Focused on ensuring the highest level of quality in all deliverables;highLevelDeliverables
+Ability to work in a fast-paced environment, agile team with a very high attention to detail;fastPacedAgileTeam
+Excellent written, verbal, and interpersonal communication skills;communicationSkills
+Very good language skills in English;englishSkills
+Bonus: Experience with video infrastructure and delivery (adaptive streaming, encoding, etc.);videoExperience
+Bonus: Knowledge of advertisement stacks and standards such as VAST;advertisementStacks
+Bonus: Experience in development of backend systems written in Node.js;node
+Bonus: Experience with Firebase or other real-time databases;firebase, realtimeDatabases
+Bonus: Experience developing real-time systems; realtimeSystems
+]]
 customText::
 customOutlineText::
 contactFullName::
 contactGender::
-contactEmail::
-contactAddress::
+contactEmail::jobs@xymatic.com
+contactAddress::[[
+Reichenberger Str. 124
+D-10999 Berlin
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::

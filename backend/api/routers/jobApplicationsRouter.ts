@@ -14,7 +14,8 @@ import {
 	SkillAndResponseBlock,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
-import skillResponseLookup from "../../data/skillResponseLookup.json";
+const skillResponseLookup = qfil.readJsonFile('./backend/data/skillResponseLookup.json');
+
 
 export const jobApplicationsRouter = Router();
 
@@ -56,6 +57,9 @@ const buildFormalFullName = (jobApplication: JobApplication): string => {
 };
 
 const buildContactSaluation = (jobApplication: JobApplication): string => {
+	if (jobApplication.contactFullName.trim() === "") {
+		return "";
+	}
 	let r = "UNKNOWN-CONTACT-SALUTATION";
 	if (jobApplication.language === "english") {
 		r = `c/o ${buildFormalFullName(jobApplication)}`;
@@ -94,10 +98,18 @@ const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 };
 
 const getGreetingLine = (jobApplication: JobApplication): string => {
-	if (jobApplication.language === "english") {
-		return `Dear ${buildFormalName(jobApplication)},`;
+	if (jobApplication.contactFullName.trim() === "") {
+		if (jobApplication.language === "english") {
+			return "Dear Hiring Manager:";
+		} else {
+			return "Sehr geehrte Damen und Herren,";
+		}
 	} else {
-		return "UNKNOWN-GREETING-LINE";
+		if (jobApplication.language === "english") {
+			return `Dear ${buildFormalName(jobApplication)},`;
+		} else {
+			return "UNKNOWN-GREETING-LINE";
+		}
 	}
 };
 
@@ -106,7 +118,7 @@ const getApplicationLine = (
 	jobApplication: JobApplication
 ): string => {
 	if (jobApplication.language === "english") {
-		return `With this letter I am formally applying for your advertised position of ${job.title}.`;
+		return `With this letter I am formally applying for the advertised position of ${job.title}.`;
 	} else {
 		return "UNKNOWN-GREETING-LINE: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
 	}
@@ -146,11 +158,11 @@ const getResponseHtml = (
 			}
 		} else {
 			responseHtmls.push(
-				`<span style="color: red">ADD: ${responseHtmlIdCode}</span>`
+				`<span style="color: red">[<span style="background-color:yellow">${responseHtmlIdCode}</span>]</span>`
 			);
 		}
 	}
-	return responseHtmls.join(" ");
+	return responseHtmls.join(", ");
 };
 
 const getSkillAndResponseBlock = (

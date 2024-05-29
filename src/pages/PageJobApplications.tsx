@@ -18,7 +18,10 @@ export const PageJobApplications = () => {
 									{fullJobApplication.jobTitle}
 								</p>
 								<p className="italic">
-									<span>{fullJobApplication.company}</span> <span className="text-gray-700 font-mono text-xs not-italic">({fullJobApplication.baseJobId})</span>
+									<span>{fullJobApplication.company}</span>{" "}
+									<span className="text-gray-700 font-mono text-xs not-italic">
+										({fullJobApplication.baseJobId})
+									</span>
 								</p>
 							</section>
 							<section>
@@ -141,11 +144,15 @@ export const PageJobApplications = () => {
 										</div>
 									)}
 									{fullJobApplication.startDateLine && (
-										<div>
-											{fullJobApplication.startDateLine}
-										</div>
+										<>
+											<div>
+												{
+													fullJobApplication.startDateLine
+												}
+											</div>
+											<div>&nbsp;</div>
+										</>
 									)}
-									<div>&nbsp;</div>
 									<div>{fullJobApplication.closingLine}</div>
 									<div>&nbsp;</div>
 									<div>Edward Tanguay</div>
