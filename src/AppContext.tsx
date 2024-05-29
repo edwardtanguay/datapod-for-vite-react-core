@@ -40,8 +40,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			const response = await axios.get(
 				`${appconfig.backendBaseUrl()}/job-applications/full`
 			);
-			const _fullJobApplications = response.data;
-			console.log(_fullJobApplications);
+			const _fullJobApplications:FullJobApplication[] = response.data;
+			_fullJobApplications.sort((a, b) => a.baseJobId < b.baseJobId ? 1 : -1);
 			setFullJobApplications(_fullJobApplications);
 		})();
 	}, []);

@@ -12,4 +12,9 @@ export class DataTypeWholeNumber extends DataType {
 		return `\t"${this.idCode}": ${this.getTextValue()}`;
 	}
 
+	
+	protected getDefaultValue() {
+		return 0;
+	}
+
 }

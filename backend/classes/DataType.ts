@@ -80,7 +80,7 @@ idCode = ${this.idCode} with value = [${this.value}]
 		}
 	}
 
-	private getDefaultValue() {
+	protected getDefaultValue():any {
 		return '';
 	}
 }

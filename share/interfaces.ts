@@ -90,6 +90,7 @@ export type FullJobApplication = {
 	baseJobId: number;
 	jobAnnouncementUrl: string;
 	letterDateText: string;
+	letterDate: string;
 	contactSalutation: string;
 	jobTitle: string;
 	company: string;

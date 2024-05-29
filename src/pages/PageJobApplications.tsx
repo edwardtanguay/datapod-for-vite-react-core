@@ -18,7 +18,7 @@ export const PageJobApplications = () => {
 									{fullJobApplication.jobTitle}
 								</p>
 								<p className="italic">
-									{fullJobApplication.company}
+									<span>{fullJobApplication.company}</span> <span className="text-gray-700 font-mono text-xs not-italic">({fullJobApplication.baseJobId})</span>
 								</p>
 							</section>
 							<section>
@@ -31,7 +31,7 @@ export const PageJobApplications = () => {
 								</a>
 							</section>
 						</header>
-						<section className="bg-slate-500 w-1/2 rounded-b-lg p-4">
+						<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-6">
 							<div className="scrollable-container h-[40rem] bg-gray-300 w-full">
 								<div className="scrollable-content">
 									<div>

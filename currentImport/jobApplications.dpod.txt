@@ -1,6 +1,6 @@
 ** Job Applications
-Language
 Base Job Id;wn
+Language
 Letter Date;date
 Skill Texts Block;p
 Custom Text;p
@@ -16,8 +16,8 @@ History;p
 
 ==jobApplication
 dpodId::qqSyZj
-language::english
 baseJobId::240
+language::english
 letterDate::2024-05-29
 skillTextsBlock::[[
 You have a strong technical background in application development, preferably in a large-scale cloud-based setting with modern software development practices such as CI/CD.;cloudCicd
@@ -55,3 +55,20 @@ history::[[
 - 2024-05-29 12:00:22; sent; posted application on their [website](https://www.lofino.de/jobs/)
 - 2024-05-29 12:00:54; confirmation; received e-mail from **Jakob Roeingh-van Doorn**, "We will contact you as soon as possible."
 ]]
+
+==jobApplication
+dpodId::LIqi3C
+baseJobId::246
+language::german
+letterDate::2024-05-29
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+history::

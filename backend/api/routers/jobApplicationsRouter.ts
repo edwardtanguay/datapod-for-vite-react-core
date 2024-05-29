@@ -67,7 +67,7 @@ const getNameForCellPhone = (jobApplication: JobApplication): string => {
 	if (jobApplication.language === "english") {
 		return "Cell";
 	} else {
-		return "Handy";
+		return "Mobil";
 	}
 };
 
@@ -273,6 +273,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					letterDateText: qdat.getCurrentAmericanDate(
 						jobApplication.letterDate
 					),
+					letterDate: jobApplication.letterDate,
 					contactSalutation: buildContactSaluation(jobApplication),
 					jobTitle: job.title,
 					company: job.company,
@@ -295,7 +296,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					salaryText: getSalaryText(jobApplication),
 					startDateLine: getStartDateLine(jobApplication),
 					closingLine: getClosingLine(jobApplication),
-					jobAnnouncementUrl: job.url
+					jobAnnouncementUrl: job.url,
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
