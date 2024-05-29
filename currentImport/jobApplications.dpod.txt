@@ -91,6 +91,34 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::Responding to the above points has piqued my interest in this position even more. I also have a number of questions, for instance, what kind of testing you have in place for the frontend team since this wasn't mentioned in the numerous points that you specified. And in general, I look forward to learning more about your team, your development processes, and xymatic in general. I hope we have an opportunity to talk soon.
+history::- 2024-05-29 22:07:00: sent; sent application via e-mail, didn't receive any confirmation
+
+==jobApplication
+dpodId::kkri1A
+baseJobId::245
+language::english
+letterDate::2024-05-30
+skillTextsBlock::[[
+You have built full-stack web applications before – that people are actually using;fullstackApplicationsInUse
+You have worked in an early stage VC-backed startup (pre-seed/seed), preferably with a B2B business model;vcBackedStartup
+You feel comfortable with broad product requirements and enjoy participating in the product conceptualisation phase;broadProductRequirements
+You feel comfortable guiding teams through technical troubleshooting and delivering feedback on topics beyond technical performance;guidingTeams
+]]
+customText::
+customOutlineText::
+contactFullName::Eric Oancea
+contactGender::male
+contactEmail::eric@rootglobal.io
+contactAddress::[[
+Alexandrinenstr. 2-3
+Hinterhaus, Aufgang B
+10969 Berlin
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
 history::[[
-- 2024-05-29 22:07:00: sent; sent application via e-mail, didn't receive any confirmation
+- 2024-05-29 23:42:37; here is the [jobs page](https://rootglobal.notion.site/Join-Us-Root-Global-666a6bca1f814c998e964137548abacc) where I got the contact information
+- 2024-05-29 23:44:45; I wrote to [Eric](https://rootglobal.notion.site/Eric-Co-founder-Product-e1b310b64d65445dacd1f94ab9d1e3ff)
 ]]

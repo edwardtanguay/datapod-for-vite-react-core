@@ -28,6 +28,12 @@ const buildContactTitle = (jobApplication: JobApplication): string => {
 	) {
 		r = "Ms.";
 	}
+	if (
+		jobApplication.language === "english" &&
+		jobApplication.contactGender === "male"
+	) {
+		r = "Mr.";
+	}
 	return r;
 };
 
