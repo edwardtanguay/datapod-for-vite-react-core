@@ -1,3 +1,5 @@
+import OutlineTextParser from "../../src/classes/outlineTextParser";
+import { marked } from "marked";
 import * as qstr from "./qstr";
 
 // also does full trim, of array and each line
@@ -512,4 +514,195 @@ export const unescapeText = (text: string): string => {
 export const getHostnameFromUrl = (url: string): string => {
 	const parsedUrl = new URL(url);
 	return parsedUrl.hostname;
+};
+
+export const getNumberOfPrecedingTabs = (
+	text: string,
+	forceRealTabs = false
+) => {
+	let tempText = text;
+	let numberOfPrecedingTabs = 0;
+	let tab = qstr.TAB();
+	if (forceRealTabs) {
+		tab = "\t";
+	}
+	while (tempText.startsWith(tab)) {
+		tempText = qstr.chopLeft(tempText, tab);
+		numberOfPrecedingTabs += 1;
+	}
+	return numberOfPrecedingTabs;
+};
+
+export const linesContainCode = (lines: string[]) => {
+	let rb = false;
+	const codeIdentifyingTexts = [
+		"Private Sub",
+		"{",
+		"}",
+		"/&gt;",
+		"&lt;/",
+		"End Sub",
+		"()",
+		"CREATE TABLE",
+		"Dim ",
+		"console.log(",
+		"guifont=",
+		'print("',
+		"window.title",
+		"CreateObject",
+		"def main()",
+	];
+	if (qstr.linesContainAnyOfThese(lines, codeIdentifyingTexts)) {
+		rb = true;
+	}
+	if (lines.length === 1 && qstr.endsWith(lines[0], ";")) {
+		rb = true;
+	}
+	return rb;
+};
+
+export const addPrecedingTabs = (
+	text: string,
+	numberOfPrecedingTabs: number
+) => {
+	const tab = qstr.TAB();
+	return tab.repeat(numberOfPrecedingTabs) + text;
+};
+
+export const getUrlOutOfString = (line: string) => {
+	const regex = /(>https?:\/\/\S+)/;
+	const match = line.match(regex);
+	let r = match ? match[1] : null;
+	r = r ? r : "";
+	r = qstr.chopLeft(r, ">");
+	const parts = qstr.breakIntoParts(r, "</a>");
+	r = parts[0];
+	return r;
+};
+
+export const shortenUrlText = (url: string) => {
+	// https://github.com/edwardtanguay/et002-nextjs-todo-app
+	const parts = qstr.breakIntoParts(url, "/");
+	const index = parts.length - 1;
+	return parts[index];
+};
+
+// e.g. - im [intranet](http://intranet/index.php)
+export const containsUrlMarkdown = (text: string) => {
+	if (
+		qstr.contains(text, "(") &&
+		qstr.contains(text, ")") &&
+		qstr.contains(text, "[") &&
+		qstr.contains(text, "]")
+	) {
+		return true;
+	}
+	return false;
+};
+
+export const parseMarkDown = (
+	markdownText: string,
+	options = {
+		suppressParagraphMarks: false,
+		suppressOrderedListElements: false,
+	}
+) => {
+	let r = markdownText;
+
+	// TODO: fix this in order to mask elements, not sure what that was actually
+	// if (options.suppressOrderedListElements) {
+	// 	r = qstr.maskText(r, '.');
+	// }
+
+	r = marked.parse(r);
+	if (options.suppressParagraphMarks) {
+		r = qstr.chopLeft(r, "<p>");
+		r = qstr.chopRight(r, "</p>");
+	}
+
+	// make links open up new browser window
+	r = qstr.replaceAll(r, "href", 'target="_blank" href');
+
+	// don't hyperlink github links
+	r = qstr.replaceAll(
+		r,
+		'<a href="mailto:git@github.com">git@github.com</a>',
+		"git@github.com"
+	);
+
+	// if (options.suppressOrderedListElements) {
+	// 	r = qstr.unmaskText(r);
+	// }
+
+	// was getting </p> a the end of all output that didn't have a \n
+	if (!r.startsWith("<p>") && r.endsWith("</p>\n")) {
+		r = qstr.chopRight(r, "</p>\n");
+	}
+
+	return r;
+};
+
+export const TAB = (numberOfTabs: number = 1) => {
+	const tab = "    "; // 4 spaces
+	return tab.repeat(numberOfTabs);
+};
+
+export const linesContainAnyOfThese = function (
+	lines: string[],
+	codeIdentifyingTexts: string[]
+) {
+	for (const line of lines) {
+		for (const text of codeIdentifyingTexts) {
+			if (line.includes(text)) {
+				return true;
+			}
+		}
+	}
+	return false;
+};
+
+/**
+ * Check if a string has another string at the end.
+ *
+ * qstr.contains("This is a test.", ".");
+ *
+ * true
+ */
+export const endsWith = (main: string, part: string) => {
+	return main.endsWith(part);
+};
+
+/**
+ * Check if a string is inside another string.
+ *
+ * qstr.contains("This is a test.", "test");
+ *
+ * true
+ */
+export const contains = (line: string, searchText: string) =>
+	String(line).includes(searchText);
+
+export const buildOutlineHtml = (body: string) => {
+	const lines = qstr.convertStringBlockToLines(body);
+	if (qstr.isEmpty(body)) {
+		return "";
+	} else if (lines.length === 1) {
+		const cleanedBody = qstr.chopLeft(body, "- ");
+		return (
+			'<div class="outline">' + qstr.parseMarkDown(cleanedBody) + "</div>"
+		);
+	} else {
+		const outlineTextParser = new OutlineTextParser(body);
+		outlineTextParser.parse();
+		let html = outlineTextParser.displayParsed();
+		return html;
+	}
+};
+
+export const encodeHtmlForDisplay = (html: string) => {
+	return String(html)
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;");
 };
