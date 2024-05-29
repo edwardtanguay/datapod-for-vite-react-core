@@ -42,6 +42,36 @@
 		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in. For projects that may need a Tailwind-only solution, you could use PostCSS to achieve Sass features such as Mixins since Tailwind already uses PostCSS."
 	},
 	"toolingRollupWebpackNpmscripts": {
-		"english": "My bundler of choice has been Parcel since it is the simplest to use if you have generic bundling needs, I know Rollup from Vite, and have used Website in the past. For most sites that I host on Hetzner machines, I use npm scripts for intial setup and redeployment scripts."
+		"english": "My bundler of choice has been Parcel since it is the simplest to use if you have generic bundling needs. I am familiar with Rollup from my use of Vite, and have used Webpack in the past. For most sites that I host on Hetzner machines, I use npm scripts for the setup and deployment scripts."
+	},
+	"webBrowserEcosystem": {
+		"english": "I've been keeping up on the browser ecosystem ever since the browser wars of the 1990s and throughout my many battles with Netscape 4 and Internet Explorer 6."
+	},
+	"astro": {
+		"english": "This March I took Jason Lengstorf's Frontend Masters course on Astro. Here are <a href=\"https://tanguay-eu.vercel.app/howtos/850\" style=\"text-decoration: underline\">my notes</a> on the course during which I produced <a href=\"https://astro-learn-showcase-001.vercel.app\" style=\"text-decoration: underline\">this website</a>. I found the concept of partial hydration particularly interesting, as well as the fact that you can use React components in Astro sites. If you need to reduce the amount of JavaScript sent to browsers, Astro can be a useful framework."
+	},
+	"highLevelDeliverables": {
+		"english": "I am a pragmatist who knows the value of quick-and-dirty coding in order to push features and bug fixes to the customer as quickly as possible, but I am also a purist who strives to perfect processes as much as possible."
+	},
+	"communicationSkills": {
+		"english": "I have a Masters Degree in English and Linguistics, and good communication skills in both English and German."
+	},
+	"englishSkills": {
+		"english": "I am a native speaker of English."
+	},
+	"videoExperience": {
+		"english": "Video streaming would be a new and exciting area for me."
+	},
+	"advertisementStacks": {
+		"english": "Advertising stacks would also be a new area for me."
+	},
+	"node": {
+		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component."
+	},
+	"firebaseEtc": {
+		"english": "In my teaching, I have used supabase as an example of using a realtime database with Node/Express APIs."
+	},
+	"realtimeSystems": {
+		"english": "I can't say that I am an expert in real-time systems at the moment, but I would be very interested in hearing what kinds of real-time systems you plan to develop."
 	}
 }
