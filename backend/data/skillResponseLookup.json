@@ -9,7 +9,7 @@
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years. I began using Docker at my web developer position at GEFEG mbh from 2018 to 2021, and currently use it extensively to host fullstack applications on Hetzner machines."
 	},
 	"reactNative": {
-		"english": "While React is a central topic that I have been teaching to web developer students in the last three years, I also teach workshops on React Native to introduce the students to mobile development."
+		"english": "While React is the central topic that I have been teaching to web developer students in the last three years, I also teach workshops on React Native to introduce the students to mobile development."
 	},
 	"serverless": {
 		"english": "Serverless cloud functions is a concept that I teach in my classes, demonstrating this with serverless functions at Netlify and Vercel."
@@ -24,7 +24,7 @@
 		"english": "The standard engineering practices such as Clean Code, DRY, pair programming, extreme programming, infrastructure-as-code, as well as functional and OOP design patterns are familiar to me."
 	},
 	"agileScrum": {
-		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and planning sprints."
+		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and for planning sprints."
 	},
 	"selfLearning": {
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."

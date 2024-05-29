@@ -22,7 +22,13 @@ export const PageJobApplications = () => {
 								</p>
 							</section>
 							<section>
-								<a href={fullJobApplication.jobAnnouncementUrl} className="underline" target="_blank">online job announcement</a>
+								<a
+									href={fullJobApplication.jobAnnouncementUrl}
+									className="underline"
+									target="_blank"
+								>
+									online job announcement
+								</a>
 							</section>
 						</header>
 						<section className="bg-slate-500 w-1/2 rounded-b-lg p-4">
