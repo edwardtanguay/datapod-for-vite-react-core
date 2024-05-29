@@ -206,10 +206,7 @@ const getAttachmentTexts = (jobApplication: JobApplication): string[] => {
 };
 
 const getSalaryText = (jobApplication: JobApplication): string => {
-	if (
-		jobApplication.salaryFrom === 0 ||
-		jobApplication.salaryTo === 0
-	) {
+	if (jobApplication.salaryFrom === 0 || jobApplication.salaryTo === 0) {
 		return "";
 	}
 	let fromText = "";
@@ -228,6 +225,9 @@ const getSalaryText = (jobApplication: JobApplication): string => {
 };
 
 const getStartDateLine = (jobApplication: JobApplication): string => {
+	if (jobApplication.earliestStartDate.trim() === "") {
+		return "";
+	}
 	if (jobApplication.language === "english") {
 		return `My earliest possible start date would be ${qstr.formatAsAmericanDateWithFullYear(
 			jobApplication.earliestStartDate

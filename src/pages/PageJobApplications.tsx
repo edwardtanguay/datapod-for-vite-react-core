@@ -111,7 +111,11 @@ export const PageJobApplications = () => {
 								{fullJobApplication.salaryText && (
 									<div>{fullJobApplication.salaryText}</div>
 								)}
-								<div>{fullJobApplication.startDateLine}</div>
+								{fullJobApplication.startDateLine && (
+									<div>
+										{fullJobApplication.startDateLine}
+									</div>
+								)}
 								<div>&nbsp;</div>
 								<div>Mit freundlichen Grüßen</div>
 								<div>&nbsp;</div>
