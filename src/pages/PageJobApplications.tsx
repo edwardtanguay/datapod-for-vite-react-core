@@ -12,13 +12,18 @@ export const PageJobApplications = () => {
 			{fullJobApplications.map((fullJobApplication) => {
 				return (
 					<>
-						<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2">
-							<p className="text-xl">
-								{fullJobApplication.jobTitle}
-							</p>
-							<p className="italic">
-								{fullJobApplication.company}
-							</p>
+						<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2 flex justify-between">
+							<section>
+								<p className="text-xl">
+									{fullJobApplication.jobTitle}
+								</p>
+								<p className="italic">
+									{fullJobApplication.company}
+								</p>
+							</section>
+							<section>
+								<a href={fullJobApplication.jobAnnouncementUrl} className="underline" target="_blank">online job announcement</a>
+							</section>
 						</header>
 						<section className="bg-slate-500 w-1/2 rounded-b-lg p-4">
 							<div className="scrollable-container h-[40rem] bg-gray-300 w-full">

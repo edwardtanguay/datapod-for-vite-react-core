@@ -295,6 +295,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					salaryText: getSalaryText(jobApplication),
 					startDateLine: getStartDateLine(jobApplication),
 					closingLine: getClosingLine(jobApplication),
+					jobAnnouncementUrl: job.url
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

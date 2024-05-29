@@ -34,7 +34,7 @@ customOutlineText::[[
 - **Was brauchst du, damit du bei der Arbeit zufrieden bist?**
 	- Ich bin bei der Arbeit zufrieden, wenn ich herausfordernde Aufgaben habe, die ich gemeinsam mit einem effizienten Team bewältigen kann.
 - **Warum möchtest du gerne bei LOFINO arbeiten?**
-	- Das Unternehmen bietet den Kunden nützliche Produkte und Services an und die technischen Herausforderungen sind genau die, die ich suche.
+	- Als Unternehmen bietet LOFINO nützliche Services für Firmen an, und die technischen Herausforderungen der Fullstack Engineer Stelle sind genau die, die ich suche.
 - **Wie beschreibst du dich als Person und dein Arbeitsverhalten?**
 	- Ich bin ein Pragmatiker, der weiß, dass ein Produkt in kurzen Zeitzyklen zum Kunden gelangen muss, aber auch ein Perfektionist, der reibungslose Abläufe wünscht soweit das möglich ist.
 - **Möchtest du uns darüber hinaus noch etwas mitteilen?**

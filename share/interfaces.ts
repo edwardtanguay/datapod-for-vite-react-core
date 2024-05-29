@@ -88,6 +88,7 @@ export type SkillAndResponseBlock = {
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
+	jobAnnouncementUrl: string;
 	letterDateText: string;
 	contactSalutation: string;
 	jobTitle: string;
