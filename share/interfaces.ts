@@ -75,6 +75,8 @@ export type JobApplication = {
 	contactGender: "male" | "female";
 	contactEmail: string;
 	contactAddress: string;
+	salaryFrom: string;
+	salaryTo: string;
 };
 
 export type SkillAndResponseBlock = {
@@ -102,6 +104,7 @@ export type FullJobApplication = {
 	attachmentText1: string;
 	attachmentText2: string;
 	attachmentText3: string;
+	salaryText: string;
 };
 
 export type Job = {

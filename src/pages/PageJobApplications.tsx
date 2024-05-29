@@ -108,10 +108,7 @@ export const PageJobApplications = () => {
 										({fullJobApplication.attachmentText3})
 									</li>
 								</ul>
-								<div>
-									Meine Gehaltsvorstellung liegt zwischen
-									3.800,- und 4.200,- Euro brutto.
-								</div>
+								<div>{fullJobApplication.salaryText}</div>
 								<div>
 									Mein frühester Eintrittstermin ist der 01.
 									März 2018.

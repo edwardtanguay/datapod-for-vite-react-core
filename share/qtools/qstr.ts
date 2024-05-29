@@ -706,3 +706,7 @@ export const encodeHtmlForDisplay = (html: string) => {
 		.replace(/>/g, "&gt;")
 		.replace(/"/g, "&quot;");
 };
+
+export const formatNumberAsAmericanThousandsCurrency = (currencyValue: number): string => {
+	return 'okok';
+}

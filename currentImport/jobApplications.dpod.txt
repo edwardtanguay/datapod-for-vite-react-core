@@ -9,6 +9,8 @@ Contact Full Name
 Contact Gender
 Contact Email
 Contact Address;p
+Salary From;wn
+Salary To;wn
 
 ==jobApplication
 dpodId::qqSyZj
@@ -44,3 +46,5 @@ contactAddress::[[
 Kapuzinerweg 37
 14532 Kleinmachnow
 ]]
+salaryFrom::3800
+salaryTo::4400

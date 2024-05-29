@@ -205,6 +205,20 @@ const getAttachmentTexts = (jobApplication: JobApplication): string[] => {
 	return [attachmentText1, attachmentText2, attachmentText3];
 };
 
+const getSalaryText = (jobApplication: JobApplication): string => {
+	let fromText = '';
+	let toText = '';
+	const salaryFrom: number = Number(jobApplication.salaryFrom);
+	const salaryTo: number = Number(jobApplication.salaryTo);
+	if (jobApplication.language === "english") {
+		fromText = qstr.formatNumberAsAmericanThousandsCurrency(salaryFrom);
+		toText = qstr.formatNumberAsAmericanThousandsCurrency(salaryTo);
+		return `My salary expectations are between ${fromText} and ${toText} euro per month gross.`;
+	} else {
+		return "Meine Gehaltsvorstellung liegt zwischen 3.800,- und 4.200,- Euro brutto monatlich.";
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -250,6 +264,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					attachmentText1,
 					attachmentText2,
 					attachmentText3,
+					salaryText: getSalaryText(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
