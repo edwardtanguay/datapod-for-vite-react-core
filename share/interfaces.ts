@@ -75,8 +75,8 @@ export type JobApplication = {
 	contactGender: "male" | "female";
 	contactEmail: string;
 	contactAddress: string;
-	salaryFrom: string;
-	salaryTo: string;
+	salaryFrom: number;
+	salaryTo: number;
 	earliestStartDate: string;
 };
 

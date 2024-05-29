@@ -108,7 +108,9 @@ export const PageJobApplications = () => {
 										({fullJobApplication.attachmentText3})
 									</li>
 								</ul>
-								<div>{fullJobApplication.salaryText}</div>
+								{fullJobApplication.salaryText && (
+									<div>{fullJobApplication.salaryText}</div>
+								)}
 								<div>{fullJobApplication.startDateLine}</div>
 								<div>&nbsp;</div>
 								<div>Mit freundlichen Grüßen</div>
