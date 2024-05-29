@@ -89,7 +89,11 @@ export const PageJobApplications = () => {
 											return (
 												<>
 													<div key={index}>
-														<b><i>{srb.skillLine}</i></b>{" "}
+														<b>
+															<i>
+																{srb.skillLine}
+															</i>
+														</b>{" "}
 														<span
 															dangerouslySetInnerHTML={{
 																__html: srb.responseHtml,
@@ -102,6 +106,16 @@ export const PageJobApplications = () => {
 										}
 									)}
 									<div>{fullJobApplication.customText}</div>
+									{fullJobApplication.closingParagraph && (
+										<>
+											<div>
+												{
+													fullJobApplication.closingParagraph
+												}
+											</div>
+											<div>&nbsp;</div>
+										</>
+									)}
 									<div>
 										<span
 											dangerouslySetInnerHTML={{
@@ -153,7 +167,9 @@ export const PageJobApplications = () => {
 											<div>&nbsp;</div>
 										</>
 									)}
-									<div>{fullJobApplication.closingPhrase}</div>
+									<div>
+										{fullJobApplication.closingPhrase}
+									</div>
 									<div>&nbsp;</div>
 									<div>Edward Tanguay</div>
 								</div>

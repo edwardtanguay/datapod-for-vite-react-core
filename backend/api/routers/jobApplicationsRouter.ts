@@ -252,6 +252,10 @@ const getStartDateLine = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getClosingParagraph = (jobApplication: JobApplication): string => {
+	return jobApplication.closingParagraph;
+};
+
 const getClosingPhrase = (jobApplication: JobApplication): string => {
 	if (jobApplication.language === "english") {
 		return "Sincerely,";
@@ -308,6 +312,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					attachmentText3,
 					salaryText: getSalaryText(jobApplication),
 					startDateLine: getStartDateLine(jobApplication),
+					closingParagraph: getClosingParagraph(jobApplication),
 					closingPhrase: getClosingPhrase(jobApplication),
 					jobAnnouncementUrl: job.url,
 				};

@@ -12,6 +12,7 @@ Contact Address;p
 Salary From;wn
 Salary To;wn
 Earliest Start Date;date
+Closing Paragraph;p
 History;p
 
 ==jobApplication
@@ -51,6 +52,7 @@ Kapuzinerweg 37
 salaryFrom::3800
 salaryTo::4400
 earliestStartDate::2024-08-01
+closingParagraph::
 history::[[
 - 2024-05-29 12:00:22; sent; posted application on their [website](https://www.lofino.de/jobs/)
 - 2024-05-29 12:00:54; confirmation; received e-mail from **Jakob Roeingh-van Doorn**, "We will contact you as soon as possible."
@@ -88,4 +90,5 @@ D-10999 Berlin
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
+closingParagraph::Responding to the above points has piqued my interest in this position even more. I also have a number of questions, for instance, what kind of testing you have in place for the frontend team since this wasn't mentioned in the numerous points that you specified. And in general, I look forward to learning more about your team, your development processes, and xymatic in general. I hope we have an opportunity to talk soon.
 history::
