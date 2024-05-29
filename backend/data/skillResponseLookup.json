@@ -76,5 +76,17 @@
 	},
 	"fullstackApplicationsInUse": {
 		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB)."
+	},
+	"vcBackedStartup": {
+		"english": "Particularly during my time with ASDIS Software AG, I was part of a company that was backed by VC money and was expanding rapidly."
+	},
+	"broadProductRequirements": {
+		"english": "I've always been interested in a broad spectrum of technologies to solve real-world business problems, which my Howto site indicates with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">over 800 howtos</a> on how to solve problems with a wide spectrum of technologies. Even if you never use a particular technology, understanding it can lead to you adapting concepts that you otherwise wouldn't have come into contact with, and you often find yourself applying these concepts in situatations that move your real-world projects forward. For this reason, I find it exciting to brainstorm, explore new ideas, and help shape the direction of a product in its early stages."
+	},
+	"guidingTeams": {
+		"english": "In my current role as a web development instructor for the past three years, I have been guiding teams of students for the past three years in building fullstack MERN applications by providing comprehensive instruction on MongoDB, Express.js, React, and Node.js, facilitating hands-on projects, mentoring them through the development process, and fostering a collaborative learning environment to ensure they gain practical experience and confidence in their skills."
+	},
+	"basicMernStackWithTypeScriptAws": {
+		"english": "For the past three years, I have been developing MERN stack applications and teaching these skills to developers, which include the core technologies of React, Next.js, Node, Express and MongoDB. In our curriculum, we require and use TypeScript in the frontend and backend. Beyond using MongoDB database in the cloud at MongoDB Atlas, we also use online MySQL and PostgreSQL databases in our projects. While employed at GEFEG mbh from 2018 to 2021, we used AWS EC2 machines daily to manage our public-facing machines."
 	}
 }
