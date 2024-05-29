@@ -63,7 +63,7 @@ language::english
 letterDate::2024-05-29
 skillTextsBlock::[[
 Expert in vanilla JavaScript and strong on writing performant code and clean architectures;vanillaJavaScript
-Extensive experience in frameworks like React.js, semantic HTML5, CSS3 (and a CSS preprocessor of your choice) and tooling (Rollup.js, Webpack, npm scripts, etc.);react, otherJavaScriptFrameworks, html5css3, cssPreprocessor, toolingRollupWebpackNpmscripts
+Extensive experience in frameworks like React.js, semantic HTML5, CSS3 (and a CSS preprocessor of your choice) and tooling (Rollup.js, Webpack, npm scripts, etc.);html5css3, frameworksLikeReact, cssPreprocessorOfChoice, toolingRollupWebpackNpmscripts
 In-Depth, thorough, and up-to-date knowledge of the Web- and Browser-Ecosystem; webBrowserEcosystem
 Knowledge in or eager to learn new frameworks such as Astro;eagerLearnNewFrameworks, astro
 Focused on ensuring the highest level of quality in all deliverables;highLevelDeliverables

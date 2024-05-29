@@ -30,6 +30,12 @@
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
 	},
 	"vanillaJavaScript": {
-		"english": "I have been programming with JavaScript for over 20 years. In my job as a web development instructor during the last three years, I have teach students how use vanilla JavaScript to build complex websites without a JavaScript framework, before they learn how to use frameworks. Here is an example: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">https://github.com/edwardtanguay/html-css-js-learn-template</a>"
+		"english": "I have been programming with JavaScript for over 20 years. In my current job as web development instructor, I train students how use vanilla JavaScript to build complex websites without a JavaScript framework. Here's an example of a Vanilla JavaScript site I created to teach these skills: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">https://github.com/edwardtanguay/html-css-js-learn-template</a>"
+	},
+	"html5css3": {
+		"english": "I've been creating websites with HTML and CSS since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5 and particularly Flexbox and Grid in CSS3."
+	},
+	"frameworksLikeReact": {
+		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
 	}
 }

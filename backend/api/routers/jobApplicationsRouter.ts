@@ -162,7 +162,7 @@ const getResponseHtml = (
 			);
 		}
 	}
-	return responseHtmls.join(", ");
+	return responseHtmls.join(" ");
 };
 
 const getSkillAndResponseBlock = (
