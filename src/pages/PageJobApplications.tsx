@@ -153,7 +153,7 @@ export const PageJobApplications = () => {
 											<div>&nbsp;</div>
 										</>
 									)}
-									<div>{fullJobApplication.closingLine}</div>
+									<div>{fullJobApplication.closingPhrase}</div>
 									<div>&nbsp;</div>
 									<div>Edward Tanguay</div>
 								</div>

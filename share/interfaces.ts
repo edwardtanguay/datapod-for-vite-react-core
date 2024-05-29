@@ -109,7 +109,7 @@ export type FullJobApplication = {
 	attachmentText3: string;
 	salaryText: string;
 	startDateLine: string;
-	closingLine: string;
+	closingPhrase: string;
 };
 
 export type Job = {
