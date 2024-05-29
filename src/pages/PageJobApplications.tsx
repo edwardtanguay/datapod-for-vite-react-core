@@ -78,6 +78,14 @@ export const PageJobApplications = () => {
 									}
 								)}
 								<div>
+									<span
+										dangerouslySetInnerHTML={{
+											__html: fullJobApplication.customOutlineHtml,
+										}}
+									></span>
+								</div>
+								<div>&nbsp;</div>
+								<div>
 									Meine ausführlichen Bewerbungsunterlagen
 									finden Sie unter:
 								</div>

@@ -223,6 +223,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					skillIntroLine: getSkillIntroLine(jobApplication),
 					skillAndResponseBlocks:
 						getSkillAndResponseBlocks(jobApplication),
+					customOutlineHtml: "this is a <b>test</b> of html",
 				};
 				fullJobApplications.push(fullJobApplication);
 			}

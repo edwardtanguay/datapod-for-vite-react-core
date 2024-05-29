@@ -96,6 +96,7 @@ export type FullJobApplication = {
 	applicationLine: string;
 	skillIntroLine: string;
 	skillAndResponseBlocks: SkillAndResponseBlock[];
+	customOutlineHtml: string;
 };
 
 export type Job = {

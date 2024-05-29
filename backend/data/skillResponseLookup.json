@@ -21,12 +21,12 @@
 		"english": "As cloud technology became an increased focus in projects in the past ten years, I have been increasingly involved in devop tasks such as creating GitHub Actions and setting up deployment workflows for fullstack applications hosted on Hetzner machines."
 	},
 	"engineeringPractices": {
-		"english": "The standard engineering practices such as Clean Code, DRY, pair programming, extreme programming, and OOP design patterns are familiar to me."
+		"english": "The standard engineering practices such as Clean Code, DRY, pair programming, extreme programming, infrastructure-as-code, as well as functional and OOP design patterns are familiar to me."
 	},
 	"agileScrum": {
 		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and planning sprints."
 	},
 	"selfLearning": {
-		"english": "For an example of my sizeable appetite for learning and self-development, please peruse my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in the last three years."
+		"english": "For an example of my sizeable appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
 	}
 }
