@@ -719,3 +719,57 @@ export const formatNumberAsGermanThousandsEuroCurrency = (
 ): string => {
 	return currencyValue.toLocaleString("de-de") + ",- €";
 };
+
+// 2024-08-01 to "01. August 2024""
+export const formatAsGermanDateWithFullYear = (isoDate: string): string => {
+	const date = new Date(isoDate);
+
+	// Define an array of German month names
+	const germanMonths = [
+		"Januar",
+		"Februar",
+		"März",
+		"April",
+		"Mai",
+		"Juni",
+		"Juli",
+		"August",
+		"September",
+		"Oktober",
+		"November",
+		"Dezember",
+	];
+
+	const day = date.getDate().toString().padStart(2, "0");
+	const month = germanMonths[date.getMonth()];
+	const year = date.getFullYear();
+
+	return `${day}. ${month} ${year}`;
+};
+
+// 2024-08-01 to "August 1, 2024""
+export const formatAsAmericanDateWithFullYear = (isoDate: string): string => {
+	const date = new Date(isoDate);
+
+	// Define an array of month names
+	const months = [
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December",
+	];
+
+	const month = months[date.getMonth()];
+	const day = date.getDate();
+	const year = date.getFullYear();
+
+	return `${month} ${day}, ${year}`;
+};

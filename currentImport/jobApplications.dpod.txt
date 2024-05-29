@@ -11,10 +11,11 @@ Contact Email
 Contact Address;p
 Salary From;wn
 Salary To;wn
+Earliest Start Date;date
 
 ==jobApplication
 dpodId::qqSyZj
-language::german
+language::english
 baseJobId::240
 letterDate::2024-05-28
 skillTextsBlock::[[
@@ -48,3 +49,4 @@ Kapuzinerweg 37
 ]]
 salaryFrom::3800
 salaryTo::4400
+earliestStartDate::2024-08-01

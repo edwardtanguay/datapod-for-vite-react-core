@@ -77,6 +77,7 @@ export type JobApplication = {
 	contactAddress: string;
 	salaryFrom: string;
 	salaryTo: string;
+	earliestStartDate: string;
 };
 
 export type SkillAndResponseBlock = {

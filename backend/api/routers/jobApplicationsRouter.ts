@@ -223,9 +223,13 @@ const getSalaryText = (jobApplication: JobApplication): string => {
 
 const getStartDateLine = (jobApplication: JobApplication): string => {
 	if (jobApplication.language === "english") {
-		return "nnnenglish";
+		return `My earliest possible start date would be ${qstr.formatAsAmericanDateWithFullYear(
+			jobApplication.earliestStartDate
+		)}.`;
 	} else {
-		return "Mein frühester Eintrittstermin ist der 01. März 2018.nnn";
+		return `Mein frühester Eintrittstermin ist der ${qstr.formatAsGermanDateWithFullYear(
+			jobApplication.earliestStartDate
+		)}.`;
 	}
 };
 
@@ -275,7 +279,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					attachmentText2,
 					attachmentText3,
 					salaryText: getSalaryText(jobApplication),
-					startDateLine: getStartDateLine(jobApplication)
+					startDateLine: getStartDateLine(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
