@@ -91,4 +91,6 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::Responding to the above points has piqued my interest in this position even more. I also have a number of questions, for instance, what kind of testing you have in place for the frontend team since this wasn't mentioned in the numerous points that you specified. And in general, I look forward to learning more about your team, your development processes, and xymatic in general. I hope we have an opportunity to talk soon.
-history::
+history::[[
+- 2024-05-29 22:07:00: sent; sent application via e-mail, didn't receive any confirmation
+]]
