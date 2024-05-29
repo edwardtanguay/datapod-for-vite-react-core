@@ -117,7 +117,7 @@ export const PageJobApplications = () => {
 									</div>
 								)}
 								<div>&nbsp;</div>
-								<div>Mit freundlichen Grüßen</div>
+								<div>{fullJobApplication.closingLine}</div>
 								<div>&nbsp;</div>
 								<div>Edward Tanguay</div>
 							</div>

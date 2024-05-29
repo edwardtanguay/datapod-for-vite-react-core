@@ -239,6 +239,14 @@ const getStartDateLine = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getClosingLine = (jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return "Sincerely,";
+	} else {
+		return "Mit freundlichen Grüßen";
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -286,6 +294,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					attachmentText3,
 					salaryText: getSalaryText(jobApplication),
 					startDateLine: getStartDateLine(jobApplication),
+					closingLine: getClosingLine(jobApplication),
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
