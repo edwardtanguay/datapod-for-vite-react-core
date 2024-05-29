@@ -37,5 +37,8 @@
 	},
 	"frameworksLikeReact": {
 		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
+	},
+	"cssPreprocessorOfChoice": {
+		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in. For projects that may need a Tailwind-only solution, you could use PostCSS to achieve Sass features such as Mixins since Tailwind already uses PostCSS."
 	}
 }
