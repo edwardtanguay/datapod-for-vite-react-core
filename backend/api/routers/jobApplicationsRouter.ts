@@ -14,8 +14,9 @@ import {
 	SkillAndResponseBlock,
 } from "../../../share/interfaces.js";
 import jobs from "../../data/jobs.json";
-const skillResponseLookup = qfil.readJsonFile('./backend/data/skillResponseLookup.json');
-
+const skillResponseLookup = qfil.readJsonFile(
+	"./backend/data/skillResponseLookup.json"
+);
 
 export const jobApplicationsRouter = Router();
 
@@ -100,7 +101,7 @@ const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 const getGreetingLine = (jobApplication: JobApplication): string => {
 	if (jobApplication.contactFullName.trim() === "") {
 		if (jobApplication.language === "english") {
-			return "Dear Hiring Manager:";
+			return "To Whom It May Concern:";
 		} else {
 			return "Sehr geehrte Damen und Herren,";
 		}

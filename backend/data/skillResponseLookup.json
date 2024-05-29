@@ -30,7 +30,7 @@
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
 	},
 	"vanillaJavaScript": {
-		"english": "I have been programming with JavaScript for over 20 years. In my current job as web development instructor, I train students how use vanilla JavaScript to build complex websites without a JavaScript framework. Here's an example of a Vanilla JavaScript site I created to teach these skills: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">https://github.com/edwardtanguay/html-css-js-learn-template</a>"
+		"english": "I have been programming with JavaScript for over 20 years. In my current job as web development instructor, I train students how to use vanilla JavaScript to build complex websites without a JavaScript framework. Here's an example of a Vanilla JavaScript site I created to teach these skills: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">html-css-js-learn-template</a>"
 	},
 	"html5css3": {
 		"english": "I've been creating websites with HTML and CSS since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5 and particularly Flexbox and Grid in CSS3."
@@ -40,5 +40,8 @@
 	},
 	"cssPreprocessorOfChoice": {
 		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in. For projects that may need a Tailwind-only solution, you could use PostCSS to achieve Sass features such as Mixins since Tailwind already uses PostCSS."
+	},
+	"toolingRollupWebpackNpmscripts": {
+		"english": "My bundler of choice has been Parcel since it is the simplest to use if you have generic bundling needs, I know Rollup from Vite, and have used Website in the past. For most sites that I host on Hetzner machines, I use npm scripts for intial setup and redeployment scripts."
 	}
 }

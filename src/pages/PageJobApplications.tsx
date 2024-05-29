@@ -89,7 +89,7 @@ export const PageJobApplications = () => {
 											return (
 												<>
 													<div key={index}>
-														<b>{srb.skillLine}</b>{" "}
+														<b><i>{srb.skillLine}</i></b>{" "}
 														<span
 															dangerouslySetInnerHTML={{
 																__html: srb.responseHtml,
