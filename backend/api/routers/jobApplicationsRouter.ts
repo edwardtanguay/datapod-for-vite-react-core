@@ -206,16 +206,18 @@ const getAttachmentTexts = (jobApplication: JobApplication): string[] => {
 };
 
 const getSalaryText = (jobApplication: JobApplication): string => {
-	let fromText = '';
-	let toText = '';
+	let fromText = "";
+	let toText = "";
 	const salaryFrom: number = Number(jobApplication.salaryFrom);
 	const salaryTo: number = Number(jobApplication.salaryTo);
 	if (jobApplication.language === "english") {
-		fromText = qstr.formatNumberAsAmericanThousandsCurrency(salaryFrom);
-		toText = qstr.formatNumberAsAmericanThousandsCurrency(salaryTo);
-		return `My salary expectations are between ${fromText} and ${toText} euro per month gross.`;
+		fromText = qstr.formatNumberAsAmericanThousandsEuroCurrency(salaryFrom);
+		toText = qstr.formatNumberAsAmericanThousandsEuroCurrency(salaryTo);
+		return `My salary expectations are between ${fromText} and ${toText} per month gross.`;
 	} else {
-		return "Meine Gehaltsvorstellung liegt zwischen 3.800,- und 4.200,- Euro brutto monatlich.";
+		fromText = qstr.formatNumberAsGermanThousandsEuroCurrency(salaryFrom);
+		toText = qstr.formatNumberAsGermanThousandsEuroCurrency(salaryTo);
+		return `Meine Gehaltsvorstellung liegt zwischen ${fromText} und ${toText} brutto monatlich.`;
 	}
 };
 

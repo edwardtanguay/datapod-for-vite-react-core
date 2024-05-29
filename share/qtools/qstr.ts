@@ -694,8 +694,7 @@ export const buildOutlineHtml = (body: string) => {
 	} else {
 		const outlineTextParser = new OutlineTextParser(body);
 		outlineTextParser.parse();
-		let html = outlineTextParser.displayParsed();
-		return html;
+		return outlineTextParser.displayParsed();
 	}
 };
 
@@ -707,6 +706,16 @@ export const encodeHtmlForDisplay = (html: string) => {
 		.replace(/"/g, "&quot;");
 };
 
-export const formatNumberAsAmericanThousandsCurrency = (currencyValue: number): string => {
-	return 'okok';
-}
+// convert 3500 to "3,500"
+export const formatNumberAsAmericanThousandsEuroCurrency = (
+	currencyValue: number
+): string => {
+	return currencyValue.toLocaleString("en-US") + " €";
+};
+
+// convert 3500 to "3.500,-"
+export const formatNumberAsGermanThousandsEuroCurrency = (
+	currencyValue: number
+): string => {
+	return currencyValue.toLocaleString("de-de") + ",- €";
+};

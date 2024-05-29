@@ -14,7 +14,7 @@ Salary To;wn
 
 ==jobApplication
 dpodId::qqSyZj
-language::english
+language::german
 baseJobId::240
 letterDate::2024-05-28
 skillTextsBlock::[[
