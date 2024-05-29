@@ -77,6 +77,7 @@ export const PageJobApplications = () => {
 										);
 									}
 								)}
+								<div>{fullJobApplication.customText}</div>
 								<div>
 									<span
 										dangerouslySetInnerHTML={{

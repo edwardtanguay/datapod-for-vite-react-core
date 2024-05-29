@@ -223,6 +223,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					skillIntroLine: getSkillIntroLine(jobApplication),
 					skillAndResponseBlocks:
 						getSkillAndResponseBlocks(jobApplication),
+						customText: jobApplication.customText,
 					customOutlineHtml: qstr.buildOutlineHtml(jobApplication.customOutlineText),
 				};
 				fullJobApplications.push(fullJobApplication);

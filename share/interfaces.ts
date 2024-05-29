@@ -69,6 +69,7 @@ export type JobApplication = {
 	baseJobId: number;
 	letterDate: string;
 	skillTextsBlock: string;
+	customText: string;
 	customOutlineText: string;
 	contactFullName: string;
 	contactGender: "male" | "female";
@@ -96,6 +97,7 @@ export type FullJobApplication = {
 	applicationLine: string;
 	skillIntroLine: string;
 	skillAndResponseBlocks: SkillAndResponseBlock[];
+	customText: string;
 	customOutlineHtml: string;
 };
 
