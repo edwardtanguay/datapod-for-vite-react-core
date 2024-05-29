@@ -109,10 +109,7 @@ export const PageJobApplications = () => {
 									</li>
 								</ul>
 								<div>{fullJobApplication.salaryText}</div>
-								<div>
-									Mein frühester Eintrittstermin ist der 01.
-									März 2018.
-								</div>
+								<div>{fullJobApplication.startDateLine}</div>
 								<div>&nbsp;</div>
 								<div>Mit freundlichen Grüßen</div>
 								<div>&nbsp;</div>

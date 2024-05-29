@@ -221,6 +221,14 @@ const getSalaryText = (jobApplication: JobApplication): string => {
 	}
 };
 
+const getStartDateLine = (jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return "nnnenglish";
+	} else {
+		return "Mein frühester Eintrittstermin ist der 01. März 2018.nnn";
+	}
+};
+
 jobApplicationsRouter.get("/full", (_req, res) => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
@@ -267,6 +275,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 					attachmentText2,
 					attachmentText3,
 					salaryText: getSalaryText(jobApplication),
+					startDateLine: getStartDateLine(jobApplication)
 				};
 				fullJobApplications.push(fullJobApplication);
 			}
