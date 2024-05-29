@@ -84,7 +84,6 @@ export const PageJobApplications = () => {
 										}}
 									></span>
 								</div>
-								<div>&nbsp;</div>
 								<div>
 									Meine ausführlichen Bewerbungsunterlagen
 									finden Sie unter:
