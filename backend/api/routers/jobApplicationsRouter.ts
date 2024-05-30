@@ -270,11 +270,11 @@ const getStartDateLine = (jobApplication: JobApplication): string => {
 		return "";
 	}
 	if (jobApplication.language === "english") {
-		return `My earliest possible start date would be ${qstr.formatAsAmericanDateWithFullYear(
+		return `My earliest possible start date would be ${qdat.formatAsAmericanDateWithFullYear(
 			jobApplication.earliestStartDate
 		)}.`;
 	} else {
-		return `Mein frühester Eintrittstermin ist der ${qstr.formatAsGermanDateWithFullYear(
+		return `Mein frühester Eintrittstermin ist der ${qdat.formatAsGermanDateWithFullYear(
 			jobApplication.earliestStartDate
 		)}.`;
 	}
@@ -289,6 +289,15 @@ const getClosingPhrase = (jobApplication: JobApplication): string => {
 		return "Sincerely,";
 	} else {
 		return "Mit freundlichen Grüßen";
+	}
+};
+
+const getLetterDateText = (jobApplication: JobApplication): string => {
+	if (jobApplication.language === "english") {
+		return qdat.getAmericanDate(jobApplication.letterDate);
+	} else {
+		// 08. Februar 2018
+		return qdat.formatAsGermanDateWithFullYear(jobApplication.letterDate);
 	}
 };
 
@@ -315,9 +324,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 				const fullJobApplication: FullJobApplication = {
 					language: jobApplication.language,
 					baseJobId: jobApplication.baseJobId,
-					letterDateText: qdat.getAmericanDate(
-						jobApplication.letterDate
-					),
+					letterDateText: getLetterDateText(jobApplication),
 					letterDate: jobApplication.letterDate,
 					contactSalutation: buildContactSaluation(jobApplication),
 					jobTitle: job.title,
