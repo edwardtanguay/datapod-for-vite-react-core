@@ -124,3 +124,20 @@ history::[[
 - 2024-05-29 23:44:45; I wrote to [Eric](https://rootglobal.notion.site/Eric-Co-founder-Product-e1b310b64d65445dacd1f94ab9d1e3ff)
 ]]
 
+==jobApplication
+dpodId::QfuwmD
+baseJobId::249
+language::german
+letterDate::2024-05-30
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::

@@ -41,7 +41,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				`${appconfig.backendBaseUrl()}/job-applications/full`
 			);
 			const _fullJobApplications:FullJobApplication[] = response.data;
-			_fullJobApplications.sort((a, b) => a.baseJobId > b.baseJobId ? 1 : -1);
+			_fullJobApplications.sort((a, b) => a.letterDate + String(a.baseJobId) < b.letterDate + String(b.baseJobId) ? 1 : -1);
 			setFullJobApplications(_fullJobApplications);
 		})();
 	}, []);
