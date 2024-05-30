@@ -156,7 +156,7 @@ const getApplicationLine = (
 	if (jobApplication.language === "english") {
 		return `With this letter I am formally applying for the advertised position of ${job.title}.`;
 	} else {
-		return "TODO: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
+		return `Sie suchen für Ihr Unternehmen einen ${job.title}. Um diese Stelle bewerbe ich mich.`;
 	}
 };
 
