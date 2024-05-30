@@ -34,6 +34,18 @@ const buildContactTitle = (jobApplication: JobApplication): string => {
 	) {
 		r = "Mr.";
 	}
+	if (
+		jobApplication.language === "german" &&
+		jobApplication.contactGender === "female"
+	) {
+		r = "Frau";
+	}
+	if (
+		jobApplication.language === "german" &&
+		jobApplication.contactGender === "male"
+	) {
+		r = "Herrn";
+	}
 	return r;
 };
 
@@ -60,6 +72,11 @@ const buildFormalFullName = (jobApplication: JobApplication): string => {
 			jobApplication.contactFullName
 		}`;
 	}
+	if (jobApplication.language === "german") {
+		r = `${buildContactTitle(jobApplication)} ${
+			jobApplication.contactFullName
+		}`;
+	}
 	return r;
 };
 
@@ -70,6 +87,9 @@ const buildContactSaluation = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-CONTACT-SALUTATION";
 	if (jobApplication.language === "english") {
 		r = `c/o ${buildFormalFullName(jobApplication)}`;
+	}
+	if (jobApplication.language === "german") {
+		r = `z.H. ${buildFormalFullName(jobApplication)}`;
 	}
 	return r;
 };
@@ -96,11 +116,13 @@ const getHeaderLine1 = (job: Job, jobApplication: JobApplication): string => {
 
 const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 	const urlHostName = qstr.getHostnameFromUrl(job.url);
-	const publicationDate = qdat.getCurrentAmericanDate(job.publicationDate);
 	if (jobApplication.language === "english") {
+		const publicationDate = qdat.getAmericanDate(job.publicationDate);
 		return `Your job advertisement on the ${urlHostName} website from ${publicationDate}`;
 	} else {
-		return `TODO: Ihre Stellenanzeige auf der nnnwww.stepstone.de Website vom nnn10.02.2018`;
+		const publicationDate = qdat.getGermanDate(job.publicationDate);
+		// Ihre Stellenanzeige auf der www.stepstone.de Website vom 10.02.2018
+		return `Ihre Stellenanzeige auf der ${urlHostName} Website vom ${publicationDate}`;
 	}
 };
 
@@ -293,7 +315,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 				const fullJobApplication: FullJobApplication = {
 					language: jobApplication.language,
 					baseJobId: jobApplication.baseJobId,
-					letterDateText: qdat.getCurrentAmericanDate(
+					letterDateText: qdat.getAmericanDate(
 						jobApplication.letterDate
 					),
 					letterDate: jobApplication.letterDate,
