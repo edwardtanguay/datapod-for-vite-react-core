@@ -91,14 +91,38 @@
 	},
 	"computerScienceDegreeOrSimilar": {
 		"english": "I started programming computers in the 80s and was creating websites for university projects in the 90s. Since 2001 when I joined Microsoft, I have worked as a full-time, professional web developer at numerous companies in various technology platforms including .NET/C# and the LAMP and MERN stacks.",
-		"german": "Ich habe in den 80er Jahren mit dem Programmieren von Computern begonnen und in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001, habe ich als Fullstack Entwickler für verschiedene Unternehmen auf verschiedenen Technologieplattformen gearbeitet, darunter .NET/C# und die LAMP- und MERN-Stacks."
+		"german": "Ich habe in den 80er Jahren mit dem Programmieren von Computern begonnen und in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001, habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, unter anderem .NET/C# und die LAMP- und MERN-Stacks."
 	},
 	"javascriptJava": {
-		"english": "",
-		"german": ""
+		"english": "I have been using JavaScript for application development since the early 2000s with the advent of AJAX which enabled websites to communicate directly with the server. I have taken university courses in Java in which we completed projects with Java using Eclipse. The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
+		"german": "Ich verwende JavaScript für die Anwendungsentwicklung seit Anfang der 2000er Jahre, seit der Einführung von AJAX, das ermöglichte Websites direkt mit dem Server kommunizieren zu können. Ich habe an der Universität Java-Kurse belegt, in denen wir Projekte mit Java und Eclipse abgeschlossen haben. Die Syntax und OOP-Patterns von Java sind mir durch meine Kenntnisse und Erfahrungen mit C# vertraut."
+	},
+	"angularReact": {
+		"english": "While React is the central framework that I have been using and teaching for the last five years, I also create Angular sites such as the this task management site for my open-source project which I created with <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>.",
+		"german": "Während React das zentrale Framework ist, das ich seit fünf Jahren verwende und lehre, erstelle ich auch Angular-Sites wie diese Task-Management-Site für mein Open-Source-Projekt, die ich mit <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a> erstellt habe."
+	},
+	"cicd": {
+		"english": "As cloud technology became an increased focus in projects in the past ten years, I have been increasingly involved in CI/CD tasks such as creating GitHub Actions and setting up deployment workflows for fullstack application projects hosted on Hetzner machines.",
+		"german": "Da die Cloud-Technologie in den letzten zehn Jahren bei Projekten immer mehr in den Mittelpunkt rückte, war ich zunehmend an CI/CD-Aufgaben beteiligt, beispielsweise an der Erstellung von GitHub-Aktionen und der Einrichtung von Bereitstellungs-Workflows für Full-Stack-Anwendungsprojekte, die auf Hetzner-Maschinen gehostet werden."
+	},
+	"teamWorkSolutionOriented": {
+		"english": "nnn",
+		"german": "In meinen 20 Jahren der Softwareentwicklung habe ich immer im Team gearbeitet. Ich bin überzeugt davon, dass eine gute Kommunikation und Zusammenarbeit im Team die Basis für den Erfolg jedes Projekts bildet."
+	},
+	"goodUnderstandingTechnology": {
+		"english": "nnn",
+		"german": "Insbesondere meine Projekterfahrung in einer breiten Palette von Technologien und Plattformen hat mir ein gutes Verständnis von den relevanten technologischen und operativen Prozessen technischen Projekten verschaffen."
+	},
+	"germanEnglish": {
+		"english": "nnn",
+		"german": "Deutsch beherrsche ich in Wort und Schrift (Zentrale Oberstufenprüfung des Goethe Instituts in 2003: sehr gut / gut). Als amerikanischer Muttersprachler und ausgebildeter Englischlehrer sind meine Englischkenntnisse in Wort und Schrift perfekt."
+	},
+	"consultingFlexibility": {
+		"english": "nnn",
+		"german": "Insbesondere bei meinen Einsätzen bei Microsoft und Modula 4 erforderten die Projekte eine Kombination aus Programmierung sowie Beratung und Installation beim Kunden. Die Abwechslung und Herausforderungen dieser Arbeit empfand ich persönlich und beruflich als erfüllend."
 	},
 	"nnn": {
-		"english": "",
-		"german": ""
+		"english": "nnn",
+		"german": "nnn"
 	}
 }

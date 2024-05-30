@@ -122,6 +122,7 @@ closingParagraph::Responding to the above points has piqued my interest in this 
 history::[[
 - 2024-05-29 23:42:37; here is the [jobs page](https://rootglobal.notion.site/Join-Us-Root-Global-666a6bca1f814c998e964137548abacc) where I got the contact information
 - 2024-05-29 23:44:45; I wrote to [Eric](https://rootglobal.notion.site/Eric-Co-founder-Product-e1b310b64d65445dacd1f94ab9d1e3ff)
+- 2024-05-30 09:45:37; sent; sent application via e-mail, didn't receive any confirmation
 ]]
 
 ==jobApplication
@@ -132,7 +133,7 @@ letterDate::2024-05-30
 skillTextsBlock::[[
 Du verfügst über ein abgeschlossenes Studium der (Wirtschafts-) Informatik, -Mathematik, Wirtschaftswissenschaften oder eine vergleichbare Ausbildung;computerScienceDegreeOrSimilar
 Du bringst erste Berufserfahrungen im (Web-) Development mit JavaScript und Java mit;javascriptJava
-Idealerweise hast du bereits Erfahrungen in Angular und/oder React gemacht;AngularReact
+Idealerweise hast du bereits Erfahrungen in Angular und/oder React gemacht;angularReact
 Du hast bestenfalls Kenntnisse im Bereich CI/CD;cicd
 Du hast Erfahrung in der Teamarbeit und denkst lösungsorientiert;teamWorkSolutionOriented
 Du verfügst über ein gutes Verständnis von den relevanten technologischen und operativen Prozessen;goodUnderstandingTechnology
@@ -151,5 +152,5 @@ Hans-Henny-Jahnn-Weg 29
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::
+closingParagraph::Die Beantwortung der obigen Punkte hat mein Interesse an dieser Stelle noch mehr geweckt. Ich habe auch einige Fragen, zum Beispiel, welche Art von Tests Sie durchführen, da dies in den von Ihnen genannten Punkten nicht erwähnt wurde. Im Allgemeinen freue ich mich darauf, mehr über Ihr Team, Ihre Entwicklungsprozesse und Sopra Steria im Allgemeinen zu erfahren. Ich hoffe, wir haben bald die Gelegenheit, miteinander zu sprechen.
 history::
