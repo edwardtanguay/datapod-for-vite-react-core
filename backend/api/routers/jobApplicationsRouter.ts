@@ -59,9 +59,7 @@ const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
 const buildFormalName = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-FORMAL-NAME";
 	const [, lastName] = getNamesFromFullName(jobApplication);
-	if (jobApplication.language === "english") {
-		r = `${buildContactTitle(jobApplication)} ${lastName}`;
-	}
+	r = `${buildContactTitle(jobApplication)} ${lastName}`;
 	return r;
 };
 
@@ -126,6 +124,11 @@ const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 	}
 };
 
+const getLastName = (jobApplication: JobApplication): string => {
+	const [, lastName] = getNamesFromFullName(jobApplication);
+	return lastName;
+}
+
 const getGreetingLine = (jobApplication: JobApplication): string => {
 	if (jobApplication.contactFullName.trim() === "") {
 		if (jobApplication.language === "english") {
@@ -137,7 +140,11 @@ const getGreetingLine = (jobApplication: JobApplication): string => {
 		if (jobApplication.language === "english") {
 			return `Dear ${buildFormalName(jobApplication)},`;
 		} else {
-			return "UNKNOWN-GREETING-LINE";
+			if (jobApplication.contactGender === "female") {
+				return `Sehr geehrte ${buildFormalName(jobApplication)},`;
+			} else {
+				return `Sehr geehrter Herr ${getLastName(jobApplication)},`;
+			}
 		}
 	}
 };
@@ -149,7 +156,7 @@ const getApplicationLine = (
 	if (jobApplication.language === "english") {
 		return `With this letter I am formally applying for the advertised position of ${job.title}.`;
 	} else {
-		return "UNKNOWN-GREETING-LINE: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
+		return "TODO: Sie suchen für Ihr Unternehmen einen Programmierer. Um diese Stelle bewerbe ich mich.";
 	}
 };
 
