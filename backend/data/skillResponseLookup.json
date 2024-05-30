@@ -88,5 +88,17 @@
 	},
 	"basicMernStackWithTypeScriptAws": {
 		"english": "For the past three years, I have been developing MERN stack applications and teaching these skills to developers, which include the core technologies of React, Next.js, Node, Express and MongoDB. In our curriculum, we require and use TypeScript in the frontend and backend. Beyond using MongoDB database in the cloud at MongoDB Atlas, we also use online MySQL and PostgreSQL databases in our projects. While employed at GEFEG mbh from 2018 to 2021, we used AWS EC2 machines daily to manage our public-facing machines."
+	},
+	"computerScienceDegreeOrSimilar": {
+		"english": "I started programming computers in the 80s and was creating websites for university projects in the 90s. Since 2001 when I joined Microsoft, I have worked as a full-time, professional web developer at numerous companies in various technology platforms including .NET/C# and the LAMP and MERN stacks.",
+		"german": "Ich habe in den 80er Jahren mit dem Programmieren von Computern begonnen und in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001, habe ich als Fullstack Entwickler für verschiedene Unternehmen auf verschiedenen Technologieplattformen gearbeitet, darunter .NET/C# und die LAMP- und MERN-Stacks."
+	},
+	"javascriptJava": {
+		"english": "",
+		"german": ""
+	},
+	"nnn": {
+		"english": "",
+		"german": ""
 	}
 }
