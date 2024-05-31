@@ -23,7 +23,7 @@ export const getJobApplications = (): JobApplication[] => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
 	);
-	const fileObjects = apptools.getFileObjects(pathAndFileNames);  
+	const fileObjects = apptools.getFileObjects(pathAndFileNames);
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
 	const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
@@ -39,7 +39,7 @@ export const getJobApplications = (): JobApplication[] => {
 	}
 };
 
-export const getFullJobApplications = (): FullJobApplication[] => { 
+export const getFullJobApplications = (): FullJobApplication[] => {
 	const fullJobApplications: FullJobApplication[] = [];
 	const jobApplications = getJobApplications();
 	for (const jobApplication of jobApplications) {
@@ -77,9 +77,8 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 				closingPhrase: tools.getClosingPhrase(jobApplication),
 				jobAnnouncementUrl: job.url,
 				history: jobApplication.history,
-				historyHtml: qstr.buildOutlineHtml(
-					jobApplication.history
-				),
+				historyHtml: qstr.buildOutlineHtml(jobApplication.history),
+				applicationCreateText: "nnn",
 			};
 			fullJobApplications.push(fullJobApplication);
 		}
