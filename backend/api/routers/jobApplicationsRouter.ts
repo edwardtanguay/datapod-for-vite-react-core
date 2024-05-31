@@ -13,10 +13,11 @@ import {
 	JobApplication,
 	SkillAndResponseBlock,
 } from "../../../share/interfaces.js";
-import jobs from "../../data/jobs.json";
 const skillResponseLookup = qfil.readJsonFile(
 	"./backend/data/skillResponseLookup.json"
 );
+import * as model from '../models/jobApplicationsModel.js';
+
 
 export const jobApplicationsRouter = Router();
 
@@ -326,7 +327,7 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 		for (const jobApplication of jobApplications) {
 			const [attachmentText1, attachmentText2, attachmentText3] =
 				getAttachmentTexts(jobApplication);
-			const job = jobs.find((m) => m.id === jobApplication.baseJobId);
+			const job = model.jobs.find((m) => m.id === jobApplication.baseJobId);
 			if (job) {
 				const fullJobApplication: FullJobApplication = {
 					language: jobApplication.language,
@@ -374,6 +375,9 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 		},
 		{
 			"test": '222'
+		},
+		{
+			"test": '333'
 		}
 	]
 	res.json(overviewJobApplications)
