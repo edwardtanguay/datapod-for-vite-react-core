@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../AppContext";
 import { OverviewJobApplication } from "../../share/interfaces";
 import { ProcessingJobApplication } from "../components/ProcessingJobApplication";
+import { TodoJobApplication } from "../components/TodoJobApplication";
 
 type ShowGroup = "todo" | "processing" | "closed";
 
@@ -100,7 +101,26 @@ export const PageJobApplications = () => {
 						{currentJobApplications.map(
 							(currentJobApplication, index) => {
 								return (
-									<ProcessingJobApplication currentJobApplication={currentJobApplication} key={index} />
+									<>
+										{currentJobApplication.kind ===
+											"todo" && (
+											<TodoJobApplication
+												currentJobApplication={
+													currentJobApplication
+												}
+												key={index}
+											/>
+										)}
+										{currentJobApplication.kind ===
+											"processing" && (
+											<ProcessingJobApplication
+												currentJobApplication={
+													currentJobApplication
+												}
+												key={index}
+											/>
+										)}
+									</>
 								);
 							}
 						)}
