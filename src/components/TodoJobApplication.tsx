@@ -7,9 +7,14 @@ interface IProps {
 
 export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 	const [showingContent, setShowingContent] = useState(false);
+	const [showingHistory, setShowingHistory] = useState(false);
 
 	const handleToggleShowingContent = () => {
 		setShowingContent(!showingContent);
+	};
+
+	const handleToggleShowingHistory = () => {
+		setShowingHistory(!showingHistory);
 	};
 
 	return (
@@ -41,6 +46,12 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						)}
 					</div>
 					<div className="flex justify-end pt-1">
+						<button
+							className="generic2 mr-1"
+							onClick={handleToggleShowingHistory}
+						>
+						History	
+						</button>
 						<button
 							className="generic2"
 							onClick={handleToggleShowingContent}
