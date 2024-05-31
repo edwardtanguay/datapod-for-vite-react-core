@@ -7,7 +7,7 @@ import React from "react";
 type ShowGroup = "todo" | "processing" | "closed";
 
 export const PageJobApplications = () => {
-	console.log("loading");
+	console.log("loading 111");
 	const {
 		todoJobApplications,
 		processingJobApplications,
@@ -37,12 +37,18 @@ export const PageJobApplications = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			console.log("useeffect");
+			console.log('number', todoJobApplications.length);
 			handleShowTodoApplications();
-		}, 3000);
+			setCurrentShowGroup("closed");
+			setOverviewJobApplications(structuredClone(closedJobApplications));
+		}, 2000);
 	}, []);
 
 	return (
 		<>
+			<p className="mb-3">
+				currentShowGroup = {currentShowGroup}
+			</p>
 			<p className="mb-3">
 				There are {overviewJobApplications.length} todo applications:
 			</p>
@@ -224,7 +230,7 @@ export const PageJobApplications = () => {
 										{overviewJobApplication.fullJobApplication.skillAndResponseBlocks.map(
 											(srb, index) => {
 												return (
-													<>
+													<React.Fragment key={index}>
 														<div key={index}>
 															<b>
 																<i>
@@ -240,7 +246,7 @@ export const PageJobApplications = () => {
 															></span>
 														</div>
 														<div>&nbsp;</div>
-													</>
+													</React.Fragment>
 												);
 											}
 										)}
