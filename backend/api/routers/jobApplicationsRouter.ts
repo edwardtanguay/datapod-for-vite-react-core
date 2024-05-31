@@ -1,11 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Router } from "express";
-import * as apptools from "../../apptools.js";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
-import * as appconfig from "../../appconfig.js";
-import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
@@ -16,8 +13,7 @@ import {
 const skillResponseLookup = qfil.readJsonFile(
 	"./backend/data/skillResponseLookup.json"
 );
-import * as model from '../models/jobApplicationsModel.js';
-
+import * as model from "../models/jobApplicationsModel.js";
 
 export const jobApplicationsRouter = Router();
 
@@ -128,7 +124,7 @@ const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 const getLastName = (jobApplication: JobApplication): string => {
 	const [, lastName] = getNamesFromFullName(jobApplication);
 	return lastName;
-}
+};
 
 const getGreetingLine = (jobApplication: JobApplication): string => {
 	if (jobApplication.contactFullName.trim() === "") {
@@ -309,76 +305,66 @@ const getLetterDateText = (jobApplication: JobApplication): string => {
 	}
 };
 
+jobApplicationsRouter.get("/jobs", (_req, res) => {
+	res.json(model.getJobs());
+});
+
 jobApplicationsRouter.get("/full", (_req, res) => {
-	const pathAndFileNames = qfil.getFileNamesInDirectory(
-		appconfig.importDirectory()
-	);
-	const fileObjects = apptools.getFileObjects(pathAndFileNames);
-	const entireContent = apptools.getEntireContent(fileObjects);
-	const dpodDataLoader = new DpodDataLoader(entireContent);
-	const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
-	const jobApplicationsGroup = dpodItemGroupDataItems.find(
-		(m) => m.idCode === "jobApplications"
-	);
-	if (jobApplicationsGroup) {
-		const jsonData = jobApplicationsGroup.jsonData;
-		const jobApplications: JobApplication[] = JSON.parse(jsonData);
-		const fullJobApplications: FullJobApplication[] = [];
-		for (const jobApplication of jobApplications) {
-			const [attachmentText1, attachmentText2, attachmentText3] =
-				getAttachmentTexts(jobApplication);
-			const job = model.jobs.find((m) => m.id === jobApplication.baseJobId);
-			if (job) {
-				const fullJobApplication: FullJobApplication = {
-					language: jobApplication.language,
-					baseJobId: jobApplication.baseJobId,
-					letterDateText: getLetterDateText(jobApplication),
-					letterDate: jobApplication.letterDate,
-					contactSalutation: buildContactSaluation(jobApplication),
-					jobTitle: job.title,
-					company: job.company,
-					nameForCellPhone: getNameForCellPhone(jobApplication),
-					companyAddressLines: getAddressLines(jobApplication),
-					headerLine1: getHeaderLine1(job, jobApplication),
-					headerLine2: getHeaderLine2(job, jobApplication),
-					greetingLine: getGreetingLine(jobApplication),
-					applicationLine: getApplicationLine(job, jobApplication),
-					skillIntroLine: getSkillIntroLine(jobApplication),
-					skillAndResponseBlocks:
-						getSkillAndResponseBlocks(jobApplication),
-					customText: jobApplication.customText,
-					customOutlineHtml: qstr.buildOutlineHtml(
-						jobApplication.customOutlineText
-					),
-					attachmentText1,
-					attachmentText2,
-					attachmentText3,
-					salaryText: getSalaryText(jobApplication),
-					startDateLine: getStartDateLine(jobApplication),
-					closingParagraph: getClosingParagraph(jobApplication),
-					closingPhrase: getClosingPhrase(jobApplication),
-					jobAnnouncementUrl: job.url,
-				};
-				fullJobApplications.push(fullJobApplication);
-			}
+	const fullJobApplications: FullJobApplication[] = [];
+	for (const jobApplication of model.getJobApplications()) {
+		const [attachmentText1, attachmentText2, attachmentText3] =
+			getAttachmentTexts(jobApplication);
+		const job = model
+			.getJobs()
+			.find((m) => m.id === jobApplication.baseJobId);
+		if (job) {
+			const fullJobApplication: FullJobApplication = {
+				language: jobApplication.language,
+				baseJobId: jobApplication.baseJobId,
+				letterDateText: getLetterDateText(jobApplication),
+				letterDate: jobApplication.letterDate,
+				contactSalutation: buildContactSaluation(jobApplication),
+				jobTitle: job.title,
+				company: job.company,
+				nameForCellPhone: getNameForCellPhone(jobApplication),
+				companyAddressLines: getAddressLines(jobApplication),
+				headerLine1: getHeaderLine1(job, jobApplication),
+				headerLine2: getHeaderLine2(job, jobApplication),
+				greetingLine: getGreetingLine(jobApplication),
+				applicationLine: getApplicationLine(job, jobApplication),
+				skillIntroLine: getSkillIntroLine(jobApplication),
+				skillAndResponseBlocks:
+					getSkillAndResponseBlocks(jobApplication),
+				customText: jobApplication.customText,
+				customOutlineHtml: qstr.buildOutlineHtml(
+					jobApplication.customOutlineText
+				),
+				attachmentText1,
+				attachmentText2,
+				attachmentText3,
+				salaryText: getSalaryText(jobApplication),
+				startDateLine: getStartDateLine(jobApplication),
+				closingParagraph: getClosingParagraph(jobApplication),
+				closingPhrase: getClosingPhrase(jobApplication),
+				jobAnnouncementUrl: job.url,
+			};
+			fullJobApplications.push(fullJobApplication);
 		}
-		res.json(fullJobApplications);
-	} else {
-		throw new Error("error: no job applications");
 	}
+	res.json(fullJobApplications);
 });
 
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	const overviewJobApplications = [
 		{
-			"test": '111'
+			test: "111",
 		},
 		{
-			"test": '222'
+			test: "222",
 		},
 		{
-			"test": '333'
-		}
-	]
-	res.json(overviewJobApplications)
+			test: "333",
+		},
+	];
+	res.json(overviewJobApplications);
 });
