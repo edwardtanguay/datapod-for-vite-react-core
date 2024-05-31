@@ -40,6 +40,10 @@ const getLastStatus = (fullJobApplication: FullJobApplication): string => {
 	}
 };
 
+const getApplicationCreateText = (): string => {
+	return 'fromfunction';
+}
+
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	const overviewJobApplications: OverviewJobApplication[] = [];
 	for (const job of jobs) {
@@ -61,7 +65,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				fullJobApplication,
 				kind: "todo",
 				lastStatus: "",
-				applicationCreateText: "bbb",
+				applicationCreateText: getApplicationCreateText()
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		}
