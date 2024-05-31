@@ -6,7 +6,7 @@ import {
 	OverviewJobApplication,
 	OverviewJobApplicationKind,
 } from "../../../share/interfaces.js";
-// import * as qdev from "../../../share/qtools/qdev.js";
+import * as qdev from "../../../share/qtools/qdev.js";
 
 const jobs = model.getJobs();
 const fullJobApplications = model.getFullJobApplications();
@@ -21,14 +21,13 @@ jobApplicationsRouter.get("/fullJobApplications", (_req, res) => {
 	res.json(fullJobApplications);
 });
 
-const getKind = (
-	fullJobApplication: FullJobApplication | undefined
-): OverviewJobApplicationKind => {
-	if (fullJobApplication) {
-		return "processing";
-	} else {
-		return "todo";
-	}
+// const getKind = ( fullJobApplication: FullJobApplication): OverviewJobApplicationKind => {
+const getKind = (): OverviewJobApplicationKind => {
+	return "processing";
+};
+
+const getLastStatus = (fullJobApplication: FullJobApplication): string => {
+	return "test last status: " + fullJobApplication.baseJobId;
 };
 
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
@@ -37,13 +36,23 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 		const fullJobApplication = fullJobApplications.find((m) => {
 			return m.baseJobId === job.id;
 		});
-		const overviewJobApplication: OverviewJobApplication = {
-			job,
-			fullJobApplication,
-			kind: getKind(fullJobApplication),
-			lastStatus: 'LAST STATUS'
-		};
-		overviewJobApplications.push(overviewJobApplication);
+		if (fullJobApplication) {
+			const overviewJobApplication: OverviewJobApplication = {
+				job,
+				fullJobApplication,
+				kind: getKind(),
+				lastStatus: getLastStatus(fullJobApplication),
+			};
+			overviewJobApplications.push(overviewJobApplication);
+		} else {
+			const overviewJobApplication: OverviewJobApplication = {
+				job,
+				fullJobApplication,
+				kind: "todo",
+				lastStatus: "",
+			};
+			overviewJobApplications.push(overviewJobApplication);
+		}
 	}
 	res.json(overviewJobApplications);
 });
