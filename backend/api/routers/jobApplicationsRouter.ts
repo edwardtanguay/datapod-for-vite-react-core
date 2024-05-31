@@ -366,3 +366,15 @@ jobApplicationsRouter.get("/full", (_req, res) => {
 		throw new Error("error: no job applications");
 	}
 });
+
+jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
+	const overviewJobApplications = [
+		{
+			"test": '111'
+		},
+		{
+			"test": '222'
+		}
+	]
+	res.json(overviewJobApplications)
+});
