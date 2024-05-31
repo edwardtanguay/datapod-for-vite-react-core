@@ -55,7 +55,7 @@ earliestStartDate::2024-08-01
 closingParagraph::
 history::[[
 - 2024-05-29 12:00:22; sent; posted application on their [website](https://www.lofino.de/jobs/)
-- 2024-05-29 12:00:54; confirmation; received e-mail from **Jakob Roeingh-van Doorn**, "We will contact you as soon as possible."
+- 2024-05-29 12:00:54; emailConfirmation; received e-mail from **Jakob Roeingh-van Doorn**, "We will contact you as soon as possible."
 ]]
 
 ==jobApplication
@@ -91,7 +91,11 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::Responding to the above points has piqued my interest in this position even more. I also have a number of questions, for instance, what kind of testing you have in place for the frontend team since this wasn't mentioned in the numerous points that you specified. And in general, I look forward to learning more about your team, your development processes, and xymatic in general. I hope we have an opportunity to talk soon.
-history::- 2024-05-29 22:07:00: sent; sent application via e-mail, didn't receive any confirmation
+history::[[
+- 2024-05-29 22:07:00: sent; sent application via e-mail, didn't receive any confirmation
+- 2024-05-30 14:31:16; called; checked to see if mail was received, found this number on [imprint page](https://xymatic.com/imprint): +49 30 69814206, talked with "Lukas", a shy developer type of person, he said he wrote down my number and would call back regarding the mail.
+- 2024-05-30 14:37:52; waiting; waiting for Lukas to call back regarding e-mail confirmation
+]]
 
 ==jobApplication
 dpodId::kkri1A
@@ -122,7 +126,9 @@ closingParagraph::Responding to the above points has piqued my interest in this 
 history::[[
 - 2024-05-29 23:42:37; here is the [jobs page](https://rootglobal.notion.site/Join-Us-Root-Global-666a6bca1f814c998e964137548abacc) where I got the contact information
 - 2024-05-29 23:44:45; I wrote to [Eric](https://rootglobal.notion.site/Eric-Co-founder-Product-e1b310b64d65445dacd1f94ab9d1e3ff)
-- 2024-05-30 09:45:37; sent; sent application via e-mail, didn't receive any confirmation
+- 2024-05-30 09:45:37; sentApplication; sent application via e-mail, didn't receive any confirmation
+- 2024-05-30 14:39:42; called; found this number for Eric Oancea [oh-AHN-chah] +491717815710 on the [join us](https://rootglobal.notion.site/Join-Us-Root-Global-666a6bca1f814c998e964137548abacc) page, I talked to Eric, he said he "I'll review and get back to you"
+- 2024-05-30 14:54:50; waiting; waiting for Eric to call back after reviewing my application
 ]]
 
 ==jobApplication
@@ -153,4 +159,24 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::Die Beantwortung der obigen Punkte hat mein Interesse an dieser Stelle noch mehr geweckt. Ich habe auch einige Fragen, zum Beispiel, welche Art von Tests Sie durchführen, da dies in den von Ihnen genannten Punkten nicht erwähnt wurde. Im Allgemeinen freue ich mich darauf, mehr über Ihr Team, Ihre Entwicklungsprozesse und Sopra Steria im Allgemeinen zu erfahren. Ich hoffe, wir haben bald die Gelegenheit, miteinander zu sprechen.
-history::
+history::[[
+- 2024-05-30 14:20:12; sent; sent application via e-mail to steffi.smolka@soprasteria.com
+- 2024-05-30 15:04:39; receivedConfirmation; very formal, not from Steffi but from team, man kann sie duzen, they will get back within two weeks
+- 2024-05-30 16:12:57; I called them at the general number + 49 40 22703-0 to ask about what Java technology they are referring to in the Jobanzeige: just music for four minutes and then hung up, called again, but same music..., then answered, she asked for a name, I told her Kjeld Drolshagen, Recruiter for IT Architecture, she said to write an e-mail kjeld.drolshagen@soprasteria.com
+- 2024-05-30 16:23:17; wrote e-mail to kjeld.drolshagen@soprasteria.com
+	-----------------------------------------------
+	kjeld.drolshagen@soprasteria.com
+
+	Sehr geehrter Herrr Drolshagen,
+
+	heute morgen habe ich mich für die Stelle Fullstack Developer beworben und habe schon eine Bestätigungsmail dazu bekommen. Vielen Dank dafür.
+
+	Ich hatte eine Frage zu der Stelle. Zu dem Punkt, "Du bringst erste Berufserfahrungen im (Web-) Development mit JavaScript und Java mit", ist allgemeine Java-Skills gefragt oder Skills für ein bestimmtes Framework wie z.B. Spring Boot?
+	Ich bedanke mich im Voraus.
+
+	Mit freundlichen Grüßen
+
+	Edward Tanguay
+	-----------------------------------------------
+- 2024-05-30 16:46:47; waiting for Herr Drolshagen to write back
+]]

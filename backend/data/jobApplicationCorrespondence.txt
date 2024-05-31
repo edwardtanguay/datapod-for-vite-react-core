@@ -1,0 +1,9 @@
+Sehr geehrter Herr Drolshagen,
+heute morgen habe ich mich für die Stelle Fullstack Developer beworben und habe schon eine Bestätigungsmail dazu bekommen. Vielen Dank dafür.
+Ich habe eine Frage zu der ausgeschriebenen Stelle Fullstack Developer. Zu dem Punkt, "Du bringst erste Berufserfahrungen im (Web-) Development mit JavaScript und Java mit", sind allgemeine Java-Skills gefragt oder Skills für ein bestimmtes Framework wie z.B. Spring Boot?
+
+Ich bedanke mich im Voraus.
+Mit freundlichen Grüßen
+Edward Tanguay
+---
+
