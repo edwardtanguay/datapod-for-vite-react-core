@@ -16,6 +16,7 @@ interface IAppContext {
 	handleParseButton: () => void;
 	fullJobApplications: FullJobApplication[];
 	overviewJobApplications: OverviewJobApplication[];
+	todoJobApplications: OverviewJobApplication[];
 }
 
 interface IAppProvider {
@@ -30,6 +31,9 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 		FullJobApplication[]
 	>([]);
 	const [overviewJobApplications, setOverviewJobApplications] = useState<
+		OverviewJobApplication[]
+	>([]);
+	const [todoJobApplications, setTodoJobApplications] = useState<
 		OverviewJobApplication[]
 	>([]);
 
@@ -59,6 +63,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			const _overviewJobApplications:OverviewJobApplication[] = response.data;
 			_overviewJobApplications.sort((a, b) => a.fullJobApplication?.letterDate + String(a.fullJobApplication?.baseJobId) < b.fullJobApplication?.letterDate + String(b.fullJobApplication?.baseJobId) ? 1 : -1);
 			setOverviewJobApplications(_overviewJobApplications);
+			setTodoJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication === undefined));
 		})();
 	}, []);
 
@@ -78,7 +83,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				setAppData,
 				handleParseButton,
 				fullJobApplications,
-				overviewJobApplications
+				overviewJobApplications,
+				todoJobApplications
 			}}
 		>
 			{children}
