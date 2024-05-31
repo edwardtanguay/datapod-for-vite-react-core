@@ -36,8 +36,8 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					</section>
 				)}
 			</header>
-			{currentJobApplication.fullJobApplication && (
-				<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-6">
+			<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-3">
+				{currentJobApplication.fullJobApplication && (
 					<div className="scrollable-container h-[40rem] bg-gray-300 w-full">
 						<div className="scrollable-content">
 							<div>
@@ -241,8 +241,8 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 							<div>Edward Tanguay</div>
 						</div>
 					</div>
-				</section>
-			)}
+				)}
+			</section>
 		</React.Fragment>
 	);
 };

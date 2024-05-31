@@ -46,7 +46,7 @@ export const PageJobApplications = () => {
 			{pageIsReady && (
 				<>
 					<main>
-						<section className="bg-gray-600 mb-2 py-1 px-2 rounded w-1/2 text-gray-200">
+						<section className="bg-gray-600 mb-3 py-1 px-2 rounded w-1/2 text-gray-200">
 							<div className="flex space-x-4">
 								<label className="inline-flex cursor-pointer align-middle">
 									<input
