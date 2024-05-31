@@ -3,6 +3,8 @@ import { Router } from "express";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
+import * as model from "../models/jobApplicationsModel.js";
+import * as tools from '../tools/jobApplicationsTools.js';
 // import * as qdev from "../../../share/qtools/qdev.js";
 import {
 	FullJobApplication,
@@ -13,24 +15,8 @@ import {
 const skillResponseLookup = qfil.readJsonFile(
 	"./backend/data/skillResponseLookup.json"
 );
-import * as model from "../models/jobApplicationsModel.js";
-import * as tools from '../tools/jobApplicationsTools.js';
 
 export const jobApplicationsRouter = Router();
-
-const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
-	const parts = qstr.breakIntoParts(jobApplication.contactFullName, " ");
-	const firstName = parts[0];
-	const lastName = parts[1];
-	return [firstName, lastName];
-};
-
-const buildFormalName = (jobApplication: JobApplication): string => {
-	let r = "UNKNOWN-FORMAL-NAME";
-	const [, lastName] = getNamesFromFullName(jobApplication);
-	r = `${tools.buildContactTitle(jobApplication)} ${lastName}`;
-	return r;
-};
 
 const buildFormalFullName = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-FORMAL-FULL-NAME";
@@ -94,7 +80,7 @@ const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
 };
 
 const getLastName = (jobApplication: JobApplication): string => {
-	const [, lastName] = getNamesFromFullName(jobApplication);
+	const [, lastName] = tools.getNamesFromFullName(jobApplication);
 	return lastName;
 };
 
@@ -107,10 +93,10 @@ const getGreetingLine = (jobApplication: JobApplication): string => {
 		}
 	} else {
 		if (jobApplication.language === "english") {
-			return `Dear ${buildFormalName(jobApplication)},`;
+			return `Dear ${tools.buildFormalName(jobApplication)},`;
 		} else {
 			if (jobApplication.contactGender === "female") {
-				return `Sehr geehrte ${buildFormalName(jobApplication)},`;
+				return `Sehr geehrte ${tools.buildFormalName(jobApplication)},`;
 			} else {
 				return `Sehr geehrter Herr ${getLastName(jobApplication)},`;
 			}
