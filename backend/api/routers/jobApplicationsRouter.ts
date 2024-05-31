@@ -3,6 +3,7 @@ import { Router } from "express";
 import * as model from "../models/jobApplicationsModel.js";
 import {
 	FullJobApplication,
+	Job,
 	OverviewJobApplication,
 	OverviewJobApplicationKind,
 } from "../../../share/interfaces.js";
@@ -40,22 +41,23 @@ const getLastStatus = (fullJobApplication: FullJobApplication): string => {
 	}
 };
 
-const getApplicationCreateText = (): string => {
+const getApplicationCreateText = (job:Job): string => {
 	return `
 ==jobApplication
-dpodId::Y8jOaY
-baseJobId::
+dpodId::${qstr.generateShortUUID()}
+baseJobId::${job.id}
 language::
 letterDate::
-skillTextsBlock::
+skillTextsBlock::[[
+]]
 customText::
 customOutlineText::
 contactFullName::
 contactGender::
 contactEmail::
 contactAddress::
-salaryFrom::
-salaryTo::
+salaryFrom::0
+salaryTo::0
 earliestStartDate::
 closingParagraph::
 history::
@@ -83,7 +85,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				fullJobApplication,
 				kind: "todo",
 				lastStatus: "",
-				applicationCreateText: getApplicationCreateText()
+				applicationCreateText: getApplicationCreateText(job)
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		}
