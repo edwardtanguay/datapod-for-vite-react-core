@@ -60,7 +60,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					{showingCreateText && (
 						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3 font-mono">
 							<div className="scrollable-container h-[20rem] bg-gray-300 w-full">
-								<div className="scrollable-content">
+								<div className="scrollable-content text-xs">
 									<div>
 										{
 											currentJobApplication.applicationCreateText

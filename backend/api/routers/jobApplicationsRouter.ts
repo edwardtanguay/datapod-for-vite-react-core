@@ -41,7 +41,25 @@ const getLastStatus = (fullJobApplication: FullJobApplication): string => {
 };
 
 const getApplicationCreateText = (): string => {
-	return 'fromfunction';
+	return `
+==jobApplication
+dpodId::Y8jOaY
+baseJobId::
+language::
+letterDate::
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::
+salaryTo::
+earliestStartDate::
+closingParagraph::
+history::
+	`.trim();
 }
 
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
