@@ -78,7 +78,11 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 				<>
 					{showingHistory && (
 						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
-							history
+							<span
+								dangerouslySetInnerHTML={{
+									__html: currentJobApplication.fullJobApplication ? currentJobApplication.fullJobApplication.historyHtml : '',
+								}}
+							></span>
 						</section>
 					)}
 					{showingContent && (

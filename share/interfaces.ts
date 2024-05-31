@@ -114,6 +114,7 @@ export type FullJobApplication = {
 	closingParagraph: string;
 	closingPhrase: string;
 	history: string;
+	historyHtml: string;
 };
 
 export type Job = {
