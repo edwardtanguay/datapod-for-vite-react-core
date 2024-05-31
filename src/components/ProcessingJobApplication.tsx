@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { OverviewJobApplication } from "../../share/interfaces";
+import { AppContext } from "../AppContext";
 
 interface IProps {
 	currentJobApplication: OverviewJobApplication;
 }
 
 export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
+	const {
+		currentlyCreatingApplication,
+	} = useContext(AppContext);
 	const [showingContent, setShowingContent] = useState(false);
 	const [showingHistory, setShowingHistory] = useState(false);
 
@@ -27,6 +31,12 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 	const somethingIsOpen = () => {
 		return showingContent || showingHistory;
 	};
+
+	useEffect(() => {
+		if (currentlyCreatingApplication && currentJobApplication.lastStatus === 'creating application...') {
+			setShowingContent(true);
+		}
+	}, []);
 
 	return (
 		<React.Fragment>

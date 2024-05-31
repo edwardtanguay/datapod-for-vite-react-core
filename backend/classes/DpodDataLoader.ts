@@ -55,7 +55,7 @@ export class DpodDataLoader {
 
 	private getDatapodContentForItemType(dpodItemIdCode: string) {
 		const dpodItemGroupDataItems = this.getDpodItemGroupDataItems();
-		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(  
+		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(   
 			(m) => m.idCode === dpodItemIdCode
 		);
 		if (dpodItemGroupDataItem) {
