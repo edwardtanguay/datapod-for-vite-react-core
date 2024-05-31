@@ -1,26 +1,35 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../AppContext";
 import { OverviewJobApplication } from "../../share/interfaces";
 
 export const PageJobApplications = () => {
-	const { todoJobApplications, processingJobApplications,closedJobApplications } =
-		useContext(AppContext);
-	const [overviewJobApplications, setOverviewJobApplications] = useState<OverviewJobApplication[]>([]);
+	const {
+		todoJobApplications,
+		processingJobApplications,
+		closedJobApplications,
+	} = useContext(AppContext);
+	const [overviewJobApplications, setOverviewJobApplications] = useState<
+		OverviewJobApplication[]
+	>([]);
 
+	const handleShowTodoApplications = () => {
+		setOverviewJobApplications(structuredClone(todoJobApplications));
+	};
 
+	useEffect(() => {
+		handleShowTodoApplications();
+	}, []);
 	return (
 		<>
 			<p className="mb-3">
-				There are {todoJobApplications.length} todo
-				applications:
+				There are {todoJobApplications.length} todo applications:
 			</p>
 			<p className="mb-3">
 				There are {processingJobApplications.length} processing
 				applications:
 			</p>
 			<p className="mb-3">
-				There are {closedJobApplications.length} closed
-				applications:
+				There are {closedJobApplications.length} closed applications:
 			</p>
 			{overviewJobApplications.map((overviewJobApplication) => {
 				return (
@@ -62,7 +71,9 @@ export const PageJobApplications = () => {
 										<div>
 											Berlin,{" "}
 											{
-												overviewJobApplication.fullJobApplication.letterDateText
+												overviewJobApplication
+													.fullJobApplication
+													.letterDateText
 											}
 										</div>
 										<div>&nbsp;</div>
@@ -73,18 +84,25 @@ export const PageJobApplications = () => {
 										<div>
 											Tel: 030 / 795 55 99,{" "}
 											{
-												overviewJobApplication.fullJobApplication.nameForCellPhone
+												overviewJobApplication
+													.fullJobApplication
+													.nameForCellPhone
 											}
 											: 0179 / 66 486 04
 										</div>
 										<div>E-Mail: edward@tanguay.info</div>
 										<div>&nbsp;</div>
 										<div>
-											{overviewJobApplication.fullJobApplication.company}
+											{
+												overviewJobApplication
+													.fullJobApplication.company
+											}
 										</div>
 										<div>
 											{
-												overviewJobApplication.fullJobApplication.contactSalutation
+												overviewJobApplication
+													.fullJobApplication
+													.contactSalutation
 											}
 										</div>
 										{overviewJobApplication.fullJobApplication.companyAddressLines.map(
@@ -100,33 +118,44 @@ export const PageJobApplications = () => {
 										<div>
 											<b>
 												{
-													overviewJobApplication.fullJobApplication.headerLine1
+													overviewJobApplication
+														.fullJobApplication
+														.headerLine1
 												}
 											</b>
 										</div>
 										<div>
 											<b>
 												{
-													overviewJobApplication.fullJobApplication.headerLine2
+													overviewJobApplication
+														.fullJobApplication
+														.headerLine2
 												}
 											</b>
 										</div>
 										<div>&nbsp;</div>
 										<div>
 											{
-												overviewJobApplication.fullJobApplication.greetingLine
+												overviewJobApplication
+													.fullJobApplication
+													.greetingLine
 											}
 										</div>
 										<div>&nbsp;</div>
 										<div>
 											{
-												overviewJobApplication.fullJobApplication.applicationLine
-											}fullJobApplication.
+												overviewJobApplication
+													.fullJobApplication
+													.applicationLine
+											}
+											fullJobApplication.
 										</div>
 										<div>&nbsp;</div>
 										<div>
 											{
-												overviewJobApplication.fullJobApplication.skillIntroLine
+												overviewJobApplication
+													.fullJobApplication
+													.skillIntroLine
 											}
 										</div>
 										<div>&nbsp;</div>
@@ -154,13 +183,21 @@ export const PageJobApplications = () => {
 											}
 										)}
 										<div>
-											{overviewJobApplication.fullJobApplication.customText}
+											{
+												overviewJobApplication
+													.fullJobApplication
+													.customText
+											}
 										</div>
-										{overviewJobApplication.fullJobApplication.closingParagraph && (
+										{overviewJobApplication
+											.fullJobApplication
+											.closingParagraph && (
 											<>
 												<div>
 													{
-														overviewJobApplication.fullJobApplication.closingParagraph
+														overviewJobApplication
+															.fullJobApplication
+															.closingParagraph
 													}
 												</div>
 												<div>&nbsp;</div>
@@ -169,13 +206,17 @@ export const PageJobApplications = () => {
 										<div>
 											<span
 												dangerouslySetInnerHTML={{
-													__html: overviewJobApplication.fullJobApplication.customOutlineHtml,
+													__html: overviewJobApplication
+														.fullJobApplication
+														.customOutlineHtml,
 												}}
 											></span>
 										</div>
 										<div>
 											{
-												overviewJobApplication.fullJobApplication.attachmentText1
+												overviewJobApplication
+													.fullJobApplication
+													.attachmentText1
 											}
 											:
 										</div>
@@ -190,7 +231,9 @@ export const PageJobApplications = () => {
 												</a>{" "}
 												(
 												{
-													overviewJobApplication.fullJobApplication.attachmentText2
+													overviewJobApplication
+														.fullJobApplication
+														.attachmentText2
 												}
 												)
 											</li>
@@ -204,23 +247,32 @@ export const PageJobApplications = () => {
 												</a>{" "}
 												(
 												{
-													overviewJobApplication.fullJobApplication.attachmentText3
+													overviewJobApplication
+														.fullJobApplication
+														.attachmentText3
 												}
 												)
 											</li>
 										</ul>
-										{overviewJobApplication.fullJobApplication.salaryText && (
+										{overviewJobApplication
+											.fullJobApplication.salaryText && (
 											<div>
 												{
-													overviewJobApplication.fullJobApplication.salaryText
+													overviewJobApplication
+														.fullJobApplication
+														.salaryText
 												}
 											</div>
 										)}
-										{overviewJobApplication.fullJobApplication.startDateLine && (
+										{overviewJobApplication
+											.fullJobApplication
+											.startDateLine && (
 											<>
 												<div>
 													{
-														overviewJobApplication.fullJobApplication.startDateLine
+														overviewJobApplication
+															.fullJobApplication
+															.startDateLine
 													}
 												</div>
 												<div>&nbsp;</div>
@@ -228,7 +280,9 @@ export const PageJobApplications = () => {
 										)}
 										<div>
 											{
-												overviewJobApplication.fullJobApplication.closingPhrase
+												overviewJobApplication
+													.fullJobApplication
+													.closingPhrase
 											}
 										</div>
 										<div>&nbsp;</div>
