@@ -4,6 +4,7 @@ import { AppContext } from "../AppContext";
 import { OverviewJobApplication } from "../../share/interfaces";
 import { ProcessingJobApplication } from "../components/ProcessingJobApplication";
 import { TodoJobApplication } from "../components/TodoJobApplication";
+import { ClosedJobApplication } from "../components/ClosedJobApplication";
 
 type ShowGroup = "todo" | "processing" | "closed";
 
@@ -114,6 +115,15 @@ export const PageJobApplications = () => {
 										{currentJobApplication.kind ===
 											"processing" && (
 											<ProcessingJobApplication
+												currentJobApplication={
+													currentJobApplication
+												}
+												key={index}
+											/>
+										)}
+										{currentJobApplication.kind ===
+											"closed" && (
+											<ClosedJobApplication
 												currentJobApplication={
 													currentJobApplication
 												}

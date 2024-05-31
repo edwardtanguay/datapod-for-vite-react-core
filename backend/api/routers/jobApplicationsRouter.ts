@@ -7,7 +7,7 @@ import {
 	OverviewJobApplication,
 	OverviewJobApplicationKind,
 } from "../../../share/interfaces.js";
-import * as qdev from "../../../share/qtools/qdev.js";
+// import * as qdev from "../../../share/qtools/qdev.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as qdat from "../../../share/qtools/qdat.js";
 
@@ -95,9 +95,12 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	}
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.lastStatus.includes("~duplicate")) {
-			qdev.log('jobApplicationsRouter.ts', 'lastStatus', overviewJobApplication.lastStatus);
 			overviewJobApplication.kind = "closed";
-			overviewJobApplication.lastStatus = qstr.replaceAll(overviewJobApplication.lastStatus, '~', '');
+			overviewJobApplication.lastStatus = qstr.replaceAll(
+				overviewJobApplication.lastStatus,
+				"~",
+				""
+			);
 		}
 	}
 	res.json(overviewJobApplications);
