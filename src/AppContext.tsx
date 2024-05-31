@@ -3,6 +3,7 @@ import { createContext, useEffect, useState } from "react";
 import {
 	FullJobApplication,
 	IAppData,
+	OverviewJobApplication,
 	blankAppData,
 } from "../share/interfaces";
 import * as AppModel from "./AppModel";
@@ -14,6 +15,7 @@ interface IAppContext {
 	setAppData: (appData: IAppData) => void;
 	handleParseButton: () => void;
 	fullJobApplications: FullJobApplication[];
+	overviewJobApplications: OverviewJobApplication[];
 }
 
 interface IAppProvider {
@@ -27,6 +29,9 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	const [fullJobApplications, setFullJobApplications] = useState<
 		FullJobApplication[]
 	>([]);
+	const [overviewJobApplications, setOverviewJobApplications] = useState<
+		OverviewJobApplication[]
+	>([]);
 
 	useEffect(() => {
 		(async () => {
@@ -38,11 +43,22 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	useEffect(() => {
 		(async () => {
 			const response = await axios.get(
-				`${appconfig.backendBaseUrl()}/job-applications/full`
+				`${appconfig.backendBaseUrl()}/job-applications/fullJobApplications`
 			);
 			const _fullJobApplications:FullJobApplication[] = response.data;
 			_fullJobApplications.sort((a, b) => a.letterDate + String(a.baseJobId) < b.letterDate + String(b.baseJobId) ? 1 : -1);
 			setFullJobApplications(_fullJobApplications);
+		})();
+	}, []);
+
+	useEffect(() => {
+		(async () => {
+			const response = await axios.get(
+				`${appconfig.backendBaseUrl()}/job-applications/overviewJobApplications`
+			);
+			const _overviewJobApplications:OverviewJobApplication[] = response.data;
+			_overviewJobApplications.sort((a, b) => a.fullJobApplication?.letterDate + String(a.fullJobApplication?.baseJobId) < b.fullJobApplication?.letterDate + String(b.fullJobApplication?.baseJobId) ? 1 : -1);
+			setOverviewJobApplications(_overviewJobApplications);
 		})();
 	}, []);
 
@@ -62,6 +78,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				setAppData,
 				handleParseButton,
 				fullJobApplications,
+				overviewJobApplications
 			}}
 		>
 			{children}

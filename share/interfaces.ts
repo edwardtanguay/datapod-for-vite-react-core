@@ -129,8 +129,8 @@ export type SkillResponseLookupObject = {
 	html: string;
 };
 
-export type OverviewJobApplications = {
+export type OverviewJobApplication = {
 	job: Job;
 	fullJobApplication: FullJobApplication | undefined;
 	status: string;
-}
+};
