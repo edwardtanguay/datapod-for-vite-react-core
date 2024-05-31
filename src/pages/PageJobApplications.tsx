@@ -19,7 +19,6 @@ export const PageJobApplications = () => {
 	const [pageIsReady, setPageIsReady] = useState(false);
 
 	const handleShowTodoApplications = () => {
-		console.log("todo");
 		setCurrentJobApplications(structuredClone(todoJobApplications));
 		setCurrentShowGroup("todo");
 	};
@@ -35,7 +34,7 @@ export const PageJobApplications = () => {
 	};
 
 	useEffect(() => {
-		handleShowTodoApplications();
+		handleShowProcessingApplications();
 		if (todoJobApplications.length > 0) {
 			setPageIsReady(true);
 		}

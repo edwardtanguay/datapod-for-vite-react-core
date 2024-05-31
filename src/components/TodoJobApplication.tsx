@@ -40,7 +40,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						)}
 					</div>
 					<div className="flex justify-end pt-1">
-						<button className="generic2" onClick={handleToggleShowingContent}>Toggle</button>
+						<button className="generic2" onClick={handleToggleShowingContent}>Cover Letter</button>
 					</div>
 				</section>
 			</header>

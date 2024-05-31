@@ -41,7 +41,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 			job,
 			fullJobApplication,
 			kind: getKind(fullJobApplication),
-			status: "todo",
+			lastStatus: 'LAST STATUS'
 		};
 		overviewJobApplications.push(overviewJobApplication);
 	}

@@ -135,5 +135,5 @@ export type OverviewJobApplication = {
 	job: Job;
 	fullJobApplication: FullJobApplication | undefined;
 	kind: OverviewJobApplicationKind,
-	status: string;
+	lastStatus: string;
 };
