@@ -18,6 +18,10 @@
 	button.generic {
 		@apply bg-gradient-to-b from-gray-200 to-gray-400 py-1 px-2 rounded border border-gray-500 text-sm hover:from-gray-300;
 	}
+
+	button.generic2 {
+		@apply bg-gradient-to-b from-gray-200 to-gray-400 py-1 px-2 rounded border border-gray-500 text-xs hover:opacity-80;
+	}
 }
 
 @layer components {
