@@ -20,14 +20,12 @@ jobApplicationsRouter.get("/fullJobApplications", (_req, res) => {
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	const overviewJobApplications: OverviewJobApplication[] = [];
 	for (const job of jobs) {
-		const rand = Math.random();
-		const isClosed = rand > 0.5;
 		const overviewJobApplication: OverviewJobApplication = {
 			job,
 			fullJobApplication: fullJobApplications.find(
 				(m) => m.baseJobId === job.id
 			),
-			status: isClosed ? "todo" : "closed",
+			status: "todo",
 		};
 		overviewJobApplications.push(overviewJobApplication);
 	}
