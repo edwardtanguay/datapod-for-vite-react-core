@@ -41,6 +41,9 @@ export const PageJobApplications = () => {
 	return (
 		<>
 			<p className="mb-3">
+				There are {overviewJobApplications.length} todo applications:
+			</p>
+			<p className="mb-3">
 				There are {todoJobApplications.length} todo applications:
 			</p>
 			<p className="mb-3">
