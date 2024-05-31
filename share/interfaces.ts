@@ -129,8 +129,11 @@ export type SkillResponseLookupObject = {
 	html: string;
 };
 
+export type OverviewJobApplicationKind = "todo" | "processing" | "closed";
+
 export type OverviewJobApplication = {
 	job: Job;
 	fullJobApplication: FullJobApplication | undefined;
+	kind: OverviewJobApplicationKind,
 	status: string;
 };

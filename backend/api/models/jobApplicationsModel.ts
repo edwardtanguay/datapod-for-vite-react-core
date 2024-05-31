@@ -10,6 +10,7 @@ import _jobs from "../../data/jobs.json";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as tools from "../tools/jobApplicationsTools.js";
+// import * as qdev from "../../../share/qtools/qdev.js";
 
 // jobs (from online JSON file)
 export const getJobs = (): Job[] => {
@@ -22,7 +23,7 @@ export const getJobApplications = (): JobApplication[] => {
 	const pathAndFileNames = qfil.getFileNamesInDirectory(
 		appconfig.importDirectory()
 	);
-	const fileObjects = apptools.getFileObjects(pathAndFileNames);
+	const fileObjects = apptools.getFileObjects(pathAndFileNames);  
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
 	const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
@@ -38,9 +39,10 @@ export const getJobApplications = (): JobApplication[] => {
 	}
 };
 
-export const getFullJobApplications = (): FullJobApplication[] => {
+export const getFullJobApplications = (): FullJobApplication[] => { 
 	const fullJobApplications: FullJobApplication[] = [];
-	for (const jobApplication of getJobApplications()) {
+	const jobApplications = getJobApplications();
+	for (const jobApplication of jobApplications) {
 		const [attachmentText1, attachmentText2, attachmentText3] =
 			tools.getAttachmentTexts(jobApplication);
 		const job = getJobs().find((m) => m.id === jobApplication.baseJobId);

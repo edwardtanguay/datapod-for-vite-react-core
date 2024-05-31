@@ -57,8 +57,13 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			const response = await axios.get(
 				`${appconfig.backendBaseUrl()}/job-applications/fullJobApplications`
 			);
-			const _fullJobApplications:FullJobApplication[] = response.data;
-			_fullJobApplications.sort((a, b) => a.letterDate + String(a.baseJobId) < b.letterDate + String(b.baseJobId) ? 1 : -1);
+			const _fullJobApplications: FullJobApplication[] = response.data;
+			_fullJobApplications.sort((a, b) =>
+				a.letterDate + String(a.baseJobId) <
+				b.letterDate + String(b.baseJobId)
+					? 1
+					: -1
+			);
 			setFullJobApplications(_fullJobApplications);
 		})();
 	}, []);
@@ -68,12 +73,26 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			const response = await axios.get(
 				`${appconfig.backendBaseUrl()}/job-applications/overviewJobApplications`
 			);
-			const _overviewJobApplications:OverviewJobApplication[] = response.data;
-			_overviewJobApplications.sort((a, b) => a.fullJobApplication?.letterDate + String(a.fullJobApplication?.baseJobId) < b.fullJobApplication?.letterDate + String(b.fullJobApplication?.baseJobId) ? 1 : -1);
+			const _overviewJobApplications: OverviewJobApplication[] =
+				response.data;
+			_overviewJobApplications.sort((a, b) =>
+				a.fullJobApplication?.letterDate +
+					String(a.fullJobApplication?.baseJobId) <
+				b.fullJobApplication?.letterDate +
+					String(b.fullJobApplication?.baseJobId)
+					? 1
+					: -1
+			);
 			setOverviewJobApplications(_overviewJobApplications);
-			setTodoJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication === undefined));
-			setProcessingJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication !== undefined && m.status !== 'closed'));
-			setClosedJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication !== undefined && m.status === 'closed'));
+			setTodoJobApplications(
+				_overviewJobApplications.filter((m) => m.kind === "todo")
+			);
+			setProcessingJobApplications(
+				_overviewJobApplications.filter((m) => m.kind === "processing")
+			);
+			setClosedJobApplications(
+				_overviewJobApplications.filter((m) => m.kind === "closed")
+			);
 		})();
 	}, []);
 
@@ -96,7 +115,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				overviewJobApplications,
 				todoJobApplications,
 				processingJobApplications,
-				closedJobApplications
+				closedJobApplications,
 			}}
 		>
 			{children}

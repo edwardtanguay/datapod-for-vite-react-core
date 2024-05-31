@@ -5,12 +5,15 @@ interface IProps {
 	currentJobApplication: OverviewJobApplication;
 }
 
-export const SingleOverviewJobApplication = ({ currentJobApplication }: IProps) => {
+export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 	return (
 		<React.Fragment>
 			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2 flex justify-between">
 				<section>
-					<p className="text-xl">{currentJobApplication.job.title}</p>
+					<p className="text-xl">
+						{currentJobApplication.job.title} (
+						{currentJobApplication.kind})
+					</p>
 					<p className="italic">
 						<span>{currentJobApplication.job.company}</span>{" "}
 						<span className="text-gray-700 font-mono text-xs not-italic">

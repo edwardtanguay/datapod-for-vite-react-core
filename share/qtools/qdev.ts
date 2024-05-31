@@ -26,12 +26,18 @@ export const log = (where: string, variableName: string, value: unknown) => {
 				chalk.blue(value) +
 				chalk.yellow(`]`)
 		);
-	}
-	if (typeof value === "object") {
+	} else if (typeof value === "object") {
 		console.log(
 			chalk.red(`${where}>>>`) + chalk.yellow(` ${variableName}=[`)
 		);
 		console.log(chalk.blue(JSON.stringify(value, null, 2)));
 		console.log(chalk.yellow(`]`));
+	} else {
+			console.log(
+				chalk.red(`${where}>>>`) +
+					chalk.yellow(` ${variableName}=[`) +
+					chalk.blue(value) +
+					chalk.yellow(`]`)
+			);
 	}
 };
