@@ -18,9 +18,9 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						</span>
 					</p>
 				</section>
-				{currentJobApplication.fullJobApplication && (
-					<section className="flex flex-col justify-end">
-						<div>
+				<section className="flex flex-col justify-end">
+					<div>
+						{currentJobApplication.fullJobApplication && (
 							<a
 								href={
 									currentJobApplication.fullJobApplication
@@ -31,14 +31,12 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 							>
 								online job announcement
 							</a>
-						</div>
-						<div className="flex justify-end pt-1">
-							<button className="generic2">
-								Toggle
-							</button>
-						</div>
-					</section>
-				)}
+						)}
+					</div>
+					<div className="flex justify-end pt-1">
+						<button className="generic2">Toggle</button>
+					</div>
+				</section>
 			</header>
 			<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-3">
 				{currentJobApplication.fullJobApplication && (
