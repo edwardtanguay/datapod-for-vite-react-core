@@ -1,6 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../AppContext";
 import { OverviewJobApplication } from "../../share/interfaces";
+import React from "react";
+
+type ShowGroup = "todo" | "processing" | "closed";
 
 export const PageJobApplications = () => {
 	const {
@@ -11,23 +15,29 @@ export const PageJobApplications = () => {
 	const [overviewJobApplications, setOverviewJobApplications] = useState<
 		OverviewJobApplication[]
 	>([]);
+	const [currentShowGroup, setCurrentShowGroup] = useState<ShowGroup>("todo");
 
 	const handleShowTodoApplications = () => {
+		console.log("todo");
 		setOverviewJobApplications(structuredClone(todoJobApplications));
+		setCurrentShowGroup("todo");
 	};
 
 	const handleShowProcessingApplications = () => {
 		setOverviewJobApplications(structuredClone(processingJobApplications));
+		setCurrentShowGroup("processing");
 	};
 
 	const handleShowClosedApplications = () => {
 		setOverviewJobApplications(structuredClone(closedJobApplications));
+		setCurrentShowGroup("closed");
 	};
 
 	useEffect(() => {
-		// handleShowTodoApplications();
-		handleShowProcessingApplications();
+		console.log("useeffect");
+		handleShowTodoApplications();
 	}, []);
+
 	return (
 		<>
 			<p className="mb-3">
@@ -48,7 +58,7 @@ export const PageJobApplications = () => {
 							className="form-radio"
 							name="status"
 							value="todo"
-							checked={status === "todo"}
+							checked={currentShowGroup === "todo"}
 							onChange={() => handleShowTodoApplications()}
 						/>
 						<span className="ml-2">Todo</span>
@@ -59,7 +69,7 @@ export const PageJobApplications = () => {
 							className="form-radio"
 							name="status"
 							value="processing"
-							checked={status === "processing"}
+							checked={currentShowGroup === "processing"}
 							onChange={() => handleShowProcessingApplications()}
 						/>
 						<span className="ml-2">Processing</span>
@@ -70,16 +80,16 @@ export const PageJobApplications = () => {
 							className="form-radio"
 							name="status"
 							value="closed"
-							checked={status === "closed"}
+							checked={currentShowGroup === "closed"}
 							onChange={() => handleShowClosedApplications()}
 						/>
 						<span className="ml-2">Closed</span>
 					</label>
 				</div>
 			</section>
-			{overviewJobApplications.map((overviewJobApplication) => {
+			{overviewJobApplications.map((overviewJobApplication, index) => {
 				return (
-					<>
+					<React.Fragment key={index}>
 						<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2 flex justify-between">
 							<section>
 								<p className="text-xl">
@@ -337,7 +347,7 @@ export const PageJobApplications = () => {
 								</div>
 							</section>
 						)}
-					</>
+					</React.Fragment>
 				);
 			})}
 		</>
