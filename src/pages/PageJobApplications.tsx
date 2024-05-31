@@ -18,8 +18,6 @@ export const PageJobApplications = () => {
 	const [currentShowGroup, setCurrentShowGroup] = useState<ShowGroup>("todo");
 	const [pageIsReady, setPageIsReady] = useState(false);
 
-	const defaultSelection = useRef<HTMLInputElement>(null);
-
 	const handleShowTodoApplications = () => {
 		console.log("todo");
 		setCurrentJobApplications(structuredClone(todoJobApplications));
@@ -57,7 +55,6 @@ export const PageJobApplications = () => {
 										name="status"
 										value="todo"
 										checked={currentShowGroup === "todo"}
-										ref={defaultSelection}
 										onChange={() =>
 											handleShowTodoApplications()
 										}
