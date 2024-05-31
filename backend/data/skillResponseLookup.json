@@ -126,11 +126,23 @@
 		"german": "nnn"
 	},
 	"nestjs": {
-		"english": "NestJS is one of the backend frameworks I introduce to my students along with its frontend counterpart Angular.",
+		"english": "NestJS is one of the backend frameworks I teach to my students along with its frontend counterpart Angular.",
 		"german": "nnn"
 	},
 	"kafkaRabbitmq": {
 		"english": "Working with the streaming plaform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions.",
+		"german": "nnn"
+	},
+	"awsDockerKubernetes": {
+		"english": "I began using AWS and Docker at my web developer position at GEFEG mbh from 2018 to 2021 where I was responsible for moving our Strato infrastructure to AWS. I currently use Docker in devops scenarios such as hosting applications on Hetzner machines. I know Kubernetes from trainings and look forward to the challenge of implementing and working with it in a real-world scenario.",
+		"german": "nnn"
+	},
+	"webTechnologies": {
+		"english": "I've been working with and keeping up on the browser ecosystem ever since the browser wars of the 1990s and throughout my many battles with Netscape 4 and Internet Explorer 6. I have decade-long, solid skills in frontend development.",
+		"german": "nnn"
+	},
+	"vueSvelteSolidjsReact": {
+		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases.",
 		"german": "nnn"
 	},
 	"nnn": {
