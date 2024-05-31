@@ -75,7 +75,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 				</section>
 			</header>
 			{somethingIsOpen() ? (
-				<>
+				<div className="outlineInJobApplication">
 					{showingHistory && (
 						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
 							<span
@@ -314,7 +314,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 							)}
 						</section>
 					)}
-				</>
+				</div>
 			) : (
 				<section className="bg-slate-500 w-[60rem] rounded-b-lg p-2 mb-3"></section>
 			)}

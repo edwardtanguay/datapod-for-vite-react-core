@@ -281,3 +281,13 @@ div.outlineWrapper {
 		}
 	}
 }
+
+.outlineInJobApplication {
+	a {
+		color: rgb(20, 42, 104) !important;
+		text-decoration: underline;
+		&:hover {
+			border-bottom: none !important;
+		}
+	}
+}
