@@ -14,37 +14,9 @@ const skillResponseLookup = qfil.readJsonFile(
 	"./backend/data/skillResponseLookup.json"
 );
 import * as model from "../models/jobApplicationsModel.js";
+import * as tools from '../tools/jobApplicationsTools.js';
 
 export const jobApplicationsRouter = Router();
-
-const buildContactTitle = (jobApplication: JobApplication): string => {
-	let r = "UNKNOWN-CONTACT-TITLE";
-	if (
-		jobApplication.language === "english" &&
-		jobApplication.contactGender === "female"
-	) {
-		r = "Ms.";
-	}
-	if (
-		jobApplication.language === "english" &&
-		jobApplication.contactGender === "male"
-	) {
-		r = "Mr.";
-	}
-	if (
-		jobApplication.language === "german" &&
-		jobApplication.contactGender === "female"
-	) {
-		r = "Frau";
-	}
-	if (
-		jobApplication.language === "german" &&
-		jobApplication.contactGender === "male"
-	) {
-		r = "Herrn";
-	}
-	return r;
-};
 
 const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
 	const parts = qstr.breakIntoParts(jobApplication.contactFullName, " ");
@@ -56,19 +28,19 @@ const getNamesFromFullName = (jobApplication: JobApplication): string[] => {
 const buildFormalName = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-FORMAL-NAME";
 	const [, lastName] = getNamesFromFullName(jobApplication);
-	r = `${buildContactTitle(jobApplication)} ${lastName}`;
+	r = `${tools.buildContactTitle(jobApplication)} ${lastName}`;
 	return r;
 };
 
 const buildFormalFullName = (jobApplication: JobApplication): string => {
 	let r = "UNKNOWN-FORMAL-FULL-NAME";
 	if (jobApplication.language === "english") {
-		r = `${buildContactTitle(jobApplication)} ${
+		r = `${tools.buildContactTitle(jobApplication)} ${
 			jobApplication.contactFullName
 		}`;
 	}
 	if (jobApplication.language === "german") {
-		r = `${buildContactTitle(jobApplication)} ${
+		r = `${tools.buildContactTitle(jobApplication)} ${
 			jobApplication.contactFullName
 		}`;
 	}
