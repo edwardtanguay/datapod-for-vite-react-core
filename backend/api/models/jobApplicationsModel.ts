@@ -78,7 +78,6 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 				jobAnnouncementUrl: job.url,
 				history: jobApplication.history,
 				historyHtml: qstr.buildOutlineHtml(jobApplication.history),
-				applicationCreateText: "nnn",
 			};
 			fullJobApplications.push(fullJobApplication);
 		}

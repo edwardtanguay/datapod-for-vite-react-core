@@ -63,9 +63,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 								<div className="scrollable-content">
 									<div>
 										{
-											currentJobApplication
-												.fullJobApplication
-												?.applicationCreateText
+											currentJobApplication.applicationCreateText
 										}
 									</div>
 								</div>

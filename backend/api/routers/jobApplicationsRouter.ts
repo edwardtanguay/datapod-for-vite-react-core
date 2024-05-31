@@ -52,6 +52,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				fullJobApplication,
 				kind: getKind(),
 				lastStatus: getLastStatus(fullJobApplication),
+				applicationCreateText: "",
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		} else {
@@ -60,6 +61,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				fullJobApplication,
 				kind: "todo",
 				lastStatus: "",
+				applicationCreateText: "bbb",
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		}

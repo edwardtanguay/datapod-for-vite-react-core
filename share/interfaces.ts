@@ -115,7 +115,6 @@ export type FullJobApplication = {
 	closingPhrase: string;
 	history: string;
 	historyHtml: string;
-	applicationCreateText: string;
 };
 
 export type Job = {
@@ -140,4 +139,5 @@ export type OverviewJobApplication = {
 	fullJobApplication: FullJobApplication | undefined;
 	kind: OverviewJobApplicationKind,
 	lastStatus: string;
+	applicationCreateText: string;
 };

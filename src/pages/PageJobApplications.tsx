@@ -35,7 +35,7 @@ export const PageJobApplications = () => {
 	};
 
 	useEffect(() => {
-		handleShowProcessingApplications();
+		handleShowTodoApplications();
 		if (todoJobApplications.length > 0) {
 			setPageIsReady(true);
 		}
