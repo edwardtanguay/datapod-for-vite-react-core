@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { OverviewJobApplication } from "../../share/interfaces";
 
 interface IProps {
@@ -6,6 +6,8 @@ interface IProps {
 }
 
 export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
+	const [showingContent, setShowingContent] = useState(false);
+
 	return (
 		<React.Fragment>
 			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2 flex justify-between">
@@ -38,6 +40,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					</div>
 				</section>
 			</header>
+			{showingContent && (
 			<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-3">
 				{currentJobApplication.fullJobApplication && (
 					<div className="scrollable-container h-[40rem] bg-gray-300 w-full">
@@ -245,6 +248,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					</div>
 				)}
 			</section>
+			)}
 		</React.Fragment>
 	);
 };
