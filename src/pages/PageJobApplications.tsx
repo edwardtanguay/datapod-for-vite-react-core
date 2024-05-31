@@ -12,12 +12,16 @@ export const PageJobApplications = () => {
 		OverviewJobApplication[]
 	>([]);
 
-	// const handleShowTodoApplications = () => {
-	// 	setOverviewJobApplications(structuredClone(todoJobApplications));
-	// };
+	const handleShowTodoApplications = () => {
+		setOverviewJobApplications(structuredClone(todoJobApplications));
+	};
 
 	const handleShowProcessingApplications = () => {
 		setOverviewJobApplications(structuredClone(processingJobApplications));
+	};
+
+	const handleShowClosedApplications = () => {
+		setOverviewJobApplications(structuredClone(closedJobApplications));
 	};
 
 	useEffect(() => {
@@ -36,6 +40,43 @@ export const PageJobApplications = () => {
 			<p className="mb-3">
 				There are {closedJobApplications.length} closed applications:
 			</p>
+			<section>
+				<div className="flex space-x-4">
+					<label className="inline-flex items-center cursor-pointer">
+						<input
+							type="radio"
+							className="form-radio"
+							name="status"
+							value="todo"
+							checked={status === "todo"}
+							onChange={() => handleShowTodoApplications()}
+						/>
+						<span className="ml-2">Todo</span>
+					</label>
+					<label className="inline-flex items-center cursor-pointer">
+						<input
+							type="radio"
+							className="form-radio"
+							name="status"
+							value="processing"
+							checked={status === "processing"}
+							onChange={() => handleShowProcessingApplications()}
+						/>
+						<span className="ml-2">Processing</span>
+					</label>
+					<label className="inline-flex items-center cursor-pointer">
+						<input
+							type="radio"
+							className="form-radio"
+							name="status"
+							value="closed"
+							checked={status === "closed"}
+							onChange={() => handleShowClosedApplications()}
+						/>
+						<span className="ml-2">Closed</span>
+					</label>
+				</div>
+			</section>
 			{overviewJobApplications.map((overviewJobApplication) => {
 				return (
 					<>

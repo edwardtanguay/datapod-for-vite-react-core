@@ -2,7 +2,7 @@
 import { Router } from "express";
 import * as model from "../models/jobApplicationsModel.js";
 import { OverviewJobApplication } from "../../../share/interfaces.js";
-import * as qdev from "../../../share/qtools/qdev.js";
+// import * as qdev from "../../../share/qtools/qdev.js";
 
 const jobs = model.getJobs();
 const fullJobApplications = model.getFullJobApplications();
