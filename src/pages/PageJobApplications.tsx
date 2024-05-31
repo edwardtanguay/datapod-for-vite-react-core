@@ -12,12 +12,17 @@ export const PageJobApplications = () => {
 		OverviewJobApplication[]
 	>([]);
 
-	const handleShowTodoApplications = () => {
-		setOverviewJobApplications(structuredClone(todoJobApplications));
+	// const handleShowTodoApplications = () => {
+	// 	setOverviewJobApplications(structuredClone(todoJobApplications));
+	// };
+
+	const handleShowProcessingApplications = () => {
+		setOverviewJobApplications(structuredClone(processingJobApplications));
 	};
 
 	useEffect(() => {
-		handleShowTodoApplications();
+		// handleShowTodoApplications();
+		handleShowProcessingApplications();
 	}, []);
 	return (
 		<>

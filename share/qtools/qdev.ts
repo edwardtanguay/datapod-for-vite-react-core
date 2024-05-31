@@ -19,6 +19,13 @@ export const log = (where: string, variableName: string, value: unknown) => {
 					chalk.yellow(`]`)
 			);
 		}
+	} else if (typeof value === "boolean") {
+		console.log(
+			chalk.red(`${where}>>>`) +
+				chalk.yellow(` ${variableName}=[`) +
+				chalk.blue(value) +
+				chalk.yellow(`]`)
+		);
 	}
 	if (typeof value === "object") {
 		console.log(
