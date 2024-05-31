@@ -182,3 +182,32 @@ history::[[
 ]]
 
 ==jobApplication
+dpodId::hR5mcN
+baseJobId::252
+language::english
+letterDate::2024-05-31
+skillTextsBlock::[[
+You have expert knowledge in Typescript and Node.js (preferably NestJS).;typescript, nestjs
+You are familiar with event driven architecture and already gained experience with event streaming platforms like Kafka or message brokers like RabbitMQ.;kafkaRabbitmq
+You have working experience with cloud platforms (preferably AWS) and you are familiar with container technologies such as Docker or Kubernetes.;awsDockerKubernetes
+You have a solid knowledge about web technologies and have a profound understanding of website performance, accessibility, semantics and code quality.;webTechnologies
+You have sound experience in component development using modern web frameworks such as Vue, Svelte, SolidJS or React.;vueSvelteSolidjsReact
+You are enthusiastic about technical concepts and software architecture.;enthusiasticTechnicalConcepts
+You are a team player with good communication skills.;teamCommunication
+You are characterized by an independent, goal-oriented and structured way of working.;independentGoalOriented
+Embrace ownership of your projects while understanding their impact on the bigger picture;projectOwnership
+]]
+customText::
+customOutlineText::
+contactFullName::Ronja Kaiser
+contactGender::female
+contactEmail::ronja.kaiser@iu.org
+contactAddress::[[
+Juri-Gagarin-Ring 152
+D-99084 Erfurt
+]]
+salaryFrom::4000
+salaryTo::4500
+earliestStartDate::2024-08-01
+closingParagraph::
+history::

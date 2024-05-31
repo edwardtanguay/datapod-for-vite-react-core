@@ -121,6 +121,18 @@
 		"english": "nnn",
 		"german": "Insbesondere bei meinen Einsätzen bei Microsoft und Modula 4 erforderten die Projekte eine Kombination aus Programmierung sowie Beratung und Installation beim Kunden. Die Abwechslung und Herausforderungen dieser Arbeit empfand ich persönlich und beruflich als erfüllend."
 	},
+	"typescript": {
+		"english": "My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
+		"german": "nnn"
+	},
+	"nestjs": {
+		"english": "NestJS is one of the backend frameworks I introduce to my students along with its frontend counterpart Angular.",
+		"german": "nnn"
+	},
+	"kafkaRabbitmq": {
+		"english": "Working with the streaming plaform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions.",
+		"german": "nnn"
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"
