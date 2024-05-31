@@ -290,4 +290,15 @@ div.outlineWrapper {
 			border-bottom: none !important;
 		}
 	}
+
+	.outlineWrapper {
+		margin: 0 !important;
+		font-family: monospace;
+	}
+	
+	li {
+		margin-left: -.3rem !important;
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
 }
