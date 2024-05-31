@@ -130,7 +130,7 @@
 		"german": "nnn"
 	},
 	"kafkaRabbitmq": {
-		"english": "Working with the streaming plaform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions.",
+		"english": "Working with the streaming platform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions.",
 		"german": "nnn"
 	},
 	"awsDockerKubernetes": {
@@ -143,6 +143,18 @@
 	},
 	"vueSvelteSolidjsReact": {
 		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases.",
+		"german": "nnn"
+	},
+	"enthusiasticTechnicalConcepts": {
+		"english": "For an example of my enthusiasm for technical and web development topics, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
+		"german": "nnn"
+	},
+	"teamCommunication": {
+		"english": "Honest and clear communication is essential for team work. I possess strong proficiency in both English and German, enabling me to effectively communicate within the company and represent the organization to customers. I am a native speaker of English.",
+		"german": "nnn"
+	},
+	"independentGoalOriented": {
+		"english": "Yes, I enjoy taking personal responsibility for tasks from beginning to end, and work best in an environment with clearly-stated goals.",
 		"german": "nnn"
 	},
 	"nnn": {

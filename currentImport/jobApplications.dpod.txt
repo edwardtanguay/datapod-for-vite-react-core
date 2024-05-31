@@ -195,7 +195,6 @@ You have sound experience in component development using modern web frameworks s
 You are enthusiastic about technical concepts and software architecture.;enthusiasticTechnicalConcepts
 You are a team player with good communication skills.;teamCommunication
 You are characterized by an independent, goal-oriented and structured way of working.;independentGoalOriented
-Embrace ownership of your projects while understanding their impact on the bigger picture;projectOwnership
 ]]
 customText::
 customOutlineText::
@@ -209,5 +208,8 @@ D-99084 Erfurt
 salaryFrom::4000
 salaryTo::4500
 earliestStartDate::2024-08-01
-closingParagraph::
-history::
+closingParagraph::Responding to the above points has piqued my interest in this position even more. I also have a number of questions, for instance, what kind of testing you have in place, since this wasn't mentioned in the numerous points that you specified. And in general, I look forward to learning more about your team, your development processes in general. I hope we have an opportunity to talk soon.
+history::[[
+- 2024-05-31 12:36:34; sent application via form [this page](https://www.iu-careers.com/jobs/engineering/senior-fullstack-engineer-m-f-d-typescript-r021533/#apply)
+- 2024-05-31 12:37:05; received e-mail confirmation "Please note that it may take some time to check and process your application."
+]]
