@@ -23,10 +23,10 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 							({currentJobApplication.job.id})
 						</span>
 					</p>
-					<p>{currentJobApplication.lastStatus}</p>
+					<p className="italic text-sm text-orange-950">{currentJobApplication.lastStatus}</p>
 				</section>
-				<section className="flex flex-col justify-between">
-					<div>
+				<section className="flex flex-col justify-between w-[20rem]">
+					<div className="flex justify-end">
 						{currentJobApplication.fullJobApplication && (
 							<a
 								href={

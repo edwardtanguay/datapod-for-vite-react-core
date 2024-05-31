@@ -55,7 +55,7 @@ earliestStartDate::2024-08-01
 closingParagraph::
 history::[[
 - 2024-05-29 12:00:22; sent; posted application on their [website](https://www.lofino.de/jobs/)
-- 2024-05-29 12:00:54; emailConfirmation; received e-mail from **Jakob Roeingh-van Doorn**, "We will contact you as soon as possible."
+- 2024-05-29 12:00:54; received e-mail from Jakob Roeingh-van Doorn, "We will contact you as soon as possible."
 ]]
 
 ==jobApplication
@@ -94,7 +94,7 @@ closingParagraph::Responding to the above points has piqued my interest in this 
 history::[[
 - 2024-05-29 22:07:00: sent; sent application via e-mail, didn't receive any confirmation
 - 2024-05-30 14:31:16; called; checked to see if mail was received, found this number on [imprint page](https://xymatic.com/imprint): +49 30 69814206, talked with "Lukas", a shy developer type of person, he said he wrote down my number and would call back regarding the mail.
-- 2024-05-30 14:37:52; waiting; waiting for Lukas to call back regarding e-mail confirmation
+- 2024-05-30 14:37:52; waiting for Lukas to call back regarding e-mail confirmation
 ]]
 
 ==jobApplication
@@ -128,7 +128,7 @@ history::[[
 - 2024-05-29 23:44:45; I wrote to [Eric](https://rootglobal.notion.site/Eric-Co-founder-Product-e1b310b64d65445dacd1f94ab9d1e3ff)
 - 2024-05-30 09:45:37; sentApplication; sent application via e-mail, didn't receive any confirmation
 - 2024-05-30 14:39:42; called; found this number for Eric Oancea [oh-AHN-chah] +491717815710 on the [join us](https://rootglobal.notion.site/Join-Us-Root-Global-666a6bca1f814c998e964137548abacc) page, I talked to Eric, he said he "I'll review and get back to you"
-- 2024-05-30 14:54:50; waiting; waiting for Eric to call back after reviewing my application
+- 2024-05-30 14:54:50; waiting for Eric to call back after reviewing my application
 ]]
 
 ==jobApplication
@@ -211,5 +211,5 @@ earliestStartDate::2024-08-01
 closingParagraph::Responding to the above points has piqued my interest in this position even more. I also have a number of questions, for instance, what kind of testing you have in place, since this wasn't mentioned in the numerous points that you specified. And in general, I look forward to learning more about your team, your development processes in general. I hope we have an opportunity to talk soon.
 history::[[
 - 2024-05-31 12:36:34; sent application via form [this page](https://www.iu-careers.com/jobs/engineering/senior-fullstack-engineer-m-f-d-typescript-r021533/#apply)
-- 2024-05-31 12:37:05; received e-mail confirmation "Please note that it may take some time to check and process your application."
+- 2024-05-31 12:37:05; received e-mail confirmation "it may take some time to check and process your application"
 ]]

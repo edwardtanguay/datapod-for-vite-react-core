@@ -79,6 +79,7 @@ export type JobApplication = {
 	salaryTo: number;
 	earliestStartDate: string;
 	closingParagraph: string;
+	history: string;
 };
 
 export type SkillAndResponseBlock = {
@@ -112,6 +113,7 @@ export type FullJobApplication = {
 	startDateLine: string;
 	closingParagraph: string;
 	closingPhrase: string;
+	history: string;
 };
 
 export type Job = {

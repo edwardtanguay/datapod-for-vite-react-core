@@ -7,6 +7,7 @@ import {
 	OverviewJobApplicationKind,
 } from "../../../share/interfaces.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
+import * as qstr from "../../../share/qtools/qstr.js";
 
 const jobs = model.getJobs();
 const fullJobApplications = model.getFullJobApplications();
@@ -27,7 +28,16 @@ const getKind = (): OverviewJobApplicationKind => {
 };
 
 const getLastStatus = (fullJobApplication: FullJobApplication): string => {
-	return "test last status: " + fullJobApplication.baseJobId;
+	const lines = qstr.convertStringBlockToLines(fullJobApplication.history);
+	// qdev.log('jobApplicationsRouter.ts:32', 'lines', lines);
+	if (lines.length > 0) {
+		const lastLine = lines[lines.length - 1];
+		const parts = qstr.breakIntoParts(lastLine, ";");
+		const lastStatus = parts[1];
+		return lastStatus;
+	} else {
+		return "PLEASE ENTER STATUS IN HISTORY";
+	}
 };
 
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {

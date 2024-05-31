@@ -76,6 +76,7 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 				closingParagraph: tools.getClosingParagraph(jobApplication),
 				closingPhrase: tools.getClosingPhrase(jobApplication),
 				jobAnnouncementUrl: job.url,
+				history: jobApplication.history
 			};
 			fullJobApplications.push(fullJobApplication);
 		}
