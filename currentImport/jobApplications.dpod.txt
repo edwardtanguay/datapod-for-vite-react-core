@@ -185,7 +185,7 @@ history::[[
 dpodId::hR5mcN
 baseJobId::252
 language::english
-letterDate::2024-05-31 23:57:21
+letterDate::2024-05-31 12:57:11
 skillTextsBlock::[[
 You have expert knowledge in Typescript and Node.js (preferably NestJS).;typescript, nestjs
 You are familiar with event driven architecture and already gained experience with event streaming platforms like Kafka or message brokers like RabbitMQ.;kafkaRabbitmq

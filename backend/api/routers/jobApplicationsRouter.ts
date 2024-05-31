@@ -78,6 +78,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				kind: getKind(),
 				lastStatus: getLastStatus(fullJobApplication),
 				applicationCreateText: "",
+				letterDate: fullJobApplication.letterDate
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		} else {
@@ -87,6 +88,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				kind: "todo",
 				lastStatus: "",
 				applicationCreateText: getApplicationCreateText(job),
+				letterDate: ''
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		}

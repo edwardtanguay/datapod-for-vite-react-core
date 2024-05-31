@@ -140,4 +140,5 @@ export type OverviewJobApplication = {
 	kind: OverviewJobApplicationKind,
 	lastStatus: string;
 	applicationCreateText: string;
+	letterDate: string;
 };

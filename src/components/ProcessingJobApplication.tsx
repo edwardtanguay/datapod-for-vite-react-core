@@ -39,7 +39,7 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 							({currentJobApplication.job.id})
 						</span>
 					</p>
-					<p className="italic text-sm text-orange-950">
+					<p className="italic text-sm text-orange-950" style={{color: currentJobApplication.lastStatus === 'creating application...' ? '#a51111' : 'black'}}>
 						{currentJobApplication.lastStatus}
 					</p>
 				</section>
