@@ -85,7 +85,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			);
 			setOverviewJobApplications(_overviewJobApplications);
 			setTodoJobApplications(
-				_overviewJobApplications.filter((m) => m.kind === "todo")
+				_overviewJobApplications.filter((m) => m.kind === "todo").sort((a, b) => a.job.id < b.job.id ? 1 : -1)
 			);
 			setProcessingJobApplications(
 				_overviewJobApplications.filter((m) => m.kind === "processing")
