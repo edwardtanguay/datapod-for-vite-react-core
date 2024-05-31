@@ -1,16 +1,15 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AppContext } from "../AppContext";
+import { OverviewJobApplication } from "../../share/interfaces";
 
 export const PageJobApplications = () => {
-	const { overviewJobApplications, todoJobApplications, processingJobApplications,closedJobApplications } =
+	const { todoJobApplications, processingJobApplications,closedJobApplications } =
 		useContext(AppContext);
+	const [overviewJobApplications, setOverviewJobApplications] = useState<OverviewJobApplication[]>([]);
+
 
 	return (
 		<>
-			<p className="mb-3">
-				There are {overviewJobApplications.length} overview
-				applications:
-			</p>
 			<p className="mb-3">
 				There are {todoJobApplications.length} todo
 				applications:
