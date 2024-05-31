@@ -24,7 +24,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 			fullJobApplication: fullJobApplications.find(
 				(m) => m.baseJobId === job.id
 			),
-			status: "closed",
+			status: "todo",
 		};
 		overviewJobApplications.push(overviewJobApplication);
 	}

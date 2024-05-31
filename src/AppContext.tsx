@@ -18,6 +18,7 @@ interface IAppContext {
 	overviewJobApplications: OverviewJobApplication[];
 	todoJobApplications: OverviewJobApplication[];
 	processingJobApplications: OverviewJobApplication[];
+	closedJobApplications: OverviewJobApplication[];
 }
 
 interface IAppProvider {
@@ -38,6 +39,9 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 		OverviewJobApplication[]
 	>([]);
 	const [processingJobApplications, setProcessingJobApplications] = useState<
+		OverviewJobApplication[]
+	>([]);
+	const [closedJobApplications, setClosedJobApplications] = useState<
 		OverviewJobApplication[]
 	>([]);
 
@@ -69,6 +73,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			setOverviewJobApplications(_overviewJobApplications);
 			setTodoJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication === undefined));
 			setProcessingJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication !== undefined && m.status !== 'closed'));
+			setClosedJobApplications(_overviewJobApplications.filter(m => m.fullJobApplication !== undefined && m.status === 'closed'));
 		})();
 	}, []);
 
@@ -90,7 +95,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				fullJobApplications,
 				overviewJobApplications,
 				todoJobApplications,
-				processingJobApplications
+				processingJobApplications,
+				closedJobApplications
 			}}
 		>
 			{children}

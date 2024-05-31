@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { AppContext } from "../AppContext";
 
 export const PageJobApplications = () => {
-	const { overviewJobApplications, todoJobApplications, processingJobApplications } =
+	const { overviewJobApplications, todoJobApplications, processingJobApplications,closedJobApplications } =
 		useContext(AppContext);
 
 	return (
@@ -17,6 +17,10 @@ export const PageJobApplications = () => {
 			</p>
 			<p className="mb-3">
 				There are {processingJobApplications.length} processing
+				applications:
+			</p>
+			<p className="mb-3">
+				There are {closedJobApplications.length} closed
 				applications:
 			</p>
 			{overviewJobApplications.map((overviewJobApplication) => {
