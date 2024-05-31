@@ -230,4 +230,4 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::
-history::- 2024-05-31 23:05:36; creating application...
+history::- 2024-06-01 00:10:45; marked application as a ~duplicate
