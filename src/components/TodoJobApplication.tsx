@@ -14,7 +14,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 
 	return (
 		<React.Fragment>
-			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2 flex justify-between">
+			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-[60rem] flex justify-between">
 				<section>
 					<p className="text-xl">{currentJobApplication.job.title}</p>
 					<p className="italic">
@@ -45,7 +45,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 				</section>
 			</header>
 			{showingContent ? (
-				<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-3">
+				<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
 					{currentJobApplication.fullJobApplication && (
 						<div className="scrollable-container h-[40rem] bg-gray-300 w-full">
 							<div className="scrollable-content">
@@ -255,7 +255,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					)}
 				</section>
 			) : (
-				<section className="bg-slate-500 w-1/2 rounded-b-lg p-2 mb-3"></section>
+				<section className="bg-slate-500 w-[60rem] rounded-b-lg p-2 mb-3"></section>
 			)}
 		</React.Fragment>
 	);
