@@ -37,7 +37,7 @@ export const PageJobApplications = () => {
 	};
 
 	useEffect(() => {
-		if (currentJobApplications) {
+		if (currentlyCreatingApplication) { 
 			handleShowProcessingApplications();
 		} else {
 			handleShowTodoApplications();
