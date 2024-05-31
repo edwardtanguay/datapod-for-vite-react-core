@@ -10,7 +10,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 
 	const handleToggleShowingContent = () => {
 		setShowingContent(!showingContent);
-	}
+	};
 
 	return (
 		<React.Fragment>
@@ -23,6 +23,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 							({currentJobApplication.job.id})
 						</span>
 					</p>
+					<p>{currentJobApplication.lastStatus}</p>
 				</section>
 				<section className="flex flex-col justify-end">
 					<div>
@@ -40,7 +41,12 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						)}
 					</div>
 					<div className="flex justify-end pt-1">
-						<button className="generic2" onClick={handleToggleShowingContent}>Cover Letter</button>
+						<button
+							className="generic2"
+							onClick={handleToggleShowingContent}
+						>
+							Cover Letter
+						</button>
 					</div>
 				</section>
 			</header>
