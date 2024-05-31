@@ -6,7 +6,7 @@ import {
 	OverviewJobApplication,
 	OverviewJobApplicationKind,
 } from "../../../share/interfaces.js";
-import * as qdev from "../../../share/qtools/qdev.js";
+// import * as qdev from "../../../share/qtools/qdev.js";
 
 const jobs = model.getJobs();
 const fullJobApplications = model.getFullJobApplications();

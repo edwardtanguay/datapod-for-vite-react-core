@@ -25,7 +25,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					</p>
 					<p>{currentJobApplication.lastStatus}</p>
 				</section>
-				<section className="flex flex-col justify-end">
+				<section className="flex flex-col justify-start">
 					<div>
 						{currentJobApplication.fullJobApplication && (
 							<a
