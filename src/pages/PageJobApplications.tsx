@@ -2,14 +2,11 @@ import { useContext } from "react";
 import { AppContext } from "../AppContext";
 
 export const PageJobApplications = () => {
-	const { fullJobApplications, overviewJobApplications, todoJobApplications, processingJobApplications } =
+	const { overviewJobApplications, todoJobApplications, processingJobApplications } =
 		useContext(AppContext);
 
 	return (
 		<>
-			<p className="mb-3">
-				There are {fullJobApplications.length} applications:
-			</p>
 			<p className="mb-3">
 				There are {overviewJobApplications.length} overview
 				applications:
