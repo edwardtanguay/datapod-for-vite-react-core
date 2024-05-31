@@ -57,7 +57,7 @@ export const PageJobApplications = () => {
 			<main>
 				<section>
 					<div className="flex space-x-4">
-						<label className="inline-flex items-center cursor-pointer">
+						<label className="inline-flex cursor-pointer align-middle">
 							<input
 								type="radio"
 								className="form-radio"
@@ -67,7 +67,7 @@ export const PageJobApplications = () => {
 								ref={defaultSelection}
 								onChange={() => handleShowTodoApplications()}
 							/>
-							<span className="ml-2">Todo</span>
+							<span className="ml-1 mb-1">Todo</span>
 						</label>
 						<label className="inline-flex items-center cursor-pointer">
 							<input
@@ -80,7 +80,7 @@ export const PageJobApplications = () => {
 									handleShowProcessingApplications()
 								}
 							/>
-							<span className="ml-2">Processing</span>
+							<span className="ml-1 mb-1">Processing</span>
 						</label>
 						<label className="inline-flex items-center cursor-pointer">
 							<input
@@ -91,7 +91,7 @@ export const PageJobApplications = () => {
 								checked={currentShowGroup === "closed"}
 								onChange={() => handleShowClosedApplications()}
 							/>
-							<span className="ml-2">Closed</span>
+							<span className="ml-1 mb-1">Closed</span>
 						</label>
 					</div>
 				</section>
