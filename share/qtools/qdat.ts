@@ -8,6 +8,9 @@ export const getGermanDate = (isoDate: string = ""): string => {
 	return dayjs(isoDate).format("DD.MM.YYYY");
 };
 
+export const getCurrentIsoDateTime = (): string => {
+	return dayjs().format("YYYY-MM-DD HH:mm:ss");
+};
 
 // 2024-08-01 to "01. August 2024""
 export const formatAsGermanDateWithFullYear = (isoDate: string): string => {

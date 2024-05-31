@@ -9,6 +9,7 @@ import {
 } from "../../../share/interfaces.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 import * as qstr from "../../../share/qtools/qstr.js";
+import * as qdat from "../../../share/qtools/qdat.js";
 
 const jobs = model.getJobs();
 const fullJobApplications = model.getFullJobApplications();
@@ -41,13 +42,13 @@ const getLastStatus = (fullJobApplication: FullJobApplication): string => {
 	}
 };
 
-const getApplicationCreateText = (job:Job): string => {
+const getApplicationCreateText = (job: Job): string => {
 	return `
 ==jobApplication
 dpodId::${qstr.generateShortUUID()}
 baseJobId::${job.id}
-language::
-letterDate::
+language::english
+letterDate::${qdat.getCurrentIsoDateTime()}
 skillTextsBlock::[[
 ]]
 customText::
@@ -60,9 +61,9 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::
-history::
+history::- creating application...
 	`.trim();
-}
+};
 
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	const overviewJobApplications: OverviewJobApplication[] = [];
@@ -85,7 +86,7 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 				fullJobApplication,
 				kind: "todo",
 				lastStatus: "",
-				applicationCreateText: getApplicationCreateText(job)
+				applicationCreateText: getApplicationCreateText(job),
 			};
 			overviewJobApplications.push(overviewJobApplication);
 		}
