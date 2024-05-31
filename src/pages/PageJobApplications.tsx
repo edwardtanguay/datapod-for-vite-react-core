@@ -7,6 +7,7 @@ import React from "react";
 type ShowGroup = "todo" | "processing" | "closed";
 
 export const PageJobApplications = () => {
+	console.log("loading");
 	const {
 		todoJobApplications,
 		processingJobApplications,
@@ -34,8 +35,10 @@ export const PageJobApplications = () => {
 	};
 
 	useEffect(() => {
-		console.log("useeffect");
-		handleShowTodoApplications();
+		setTimeout(() => {
+			console.log("useeffect");
+			handleShowTodoApplications();
+		}, 3000);
 	}, []);
 
 	return (
