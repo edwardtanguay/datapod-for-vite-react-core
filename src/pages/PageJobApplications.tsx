@@ -12,7 +12,7 @@ export const PageJobApplications = () => {
 		processingJobApplications,
 		closedJobApplications,
 	} = useContext(AppContext);
-	const [overviewJobApplications, setOverviewJobApplications] = useState<
+	const [currentJobApplications, setCurrentJobApplications] = useState<
 		OverviewJobApplication[]
 	>([]);
 	const [currentShowGroup, setCurrentShowGroup] = useState<ShowGroup>("todo");
@@ -22,17 +22,17 @@ export const PageJobApplications = () => {
 
 	const handleShowTodoApplications = () => {
 		console.log("todo");
-		setOverviewJobApplications(structuredClone(todoJobApplications));
+		setCurrentJobApplications(structuredClone(todoJobApplications));
 		setCurrentShowGroup("todo");
 	};
 
 	const handleShowProcessingApplications = () => {
-		setOverviewJobApplications(structuredClone(processingJobApplications));
+		setCurrentJobApplications(structuredClone(processingJobApplications));
 		setCurrentShowGroup("processing");
 	};
 
 	const handleShowClosedApplications = () => {
-		setOverviewJobApplications(structuredClone(closedJobApplications));
+		setCurrentJobApplications(structuredClone(closedJobApplications));
 		setCurrentShowGroup("closed");
 	};
 
@@ -101,40 +101,40 @@ export const PageJobApplications = () => {
 								</label>
 							</div>
 						</section>
-						{overviewJobApplications.map(
-							(overviewJobApplication, index) => {
+						{currentJobApplications.map(
+							(currentJobApplication, index) => {
 								return (
 									<React.Fragment key={index}>
 										<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-1/2 flex justify-between">
 											<section>
 												<p className="text-xl">
 													{
-														overviewJobApplication
+														currentJobApplication
 															.job.title
 													}
 												</p>
 												<p className="italic">
 													<span>
 														{
-															overviewJobApplication
+															currentJobApplication
 																.job.company
 														}
 													</span>{" "}
 													<span className="text-gray-700 font-mono text-xs not-italic">
 														(
 														{
-															overviewJobApplication
+															currentJobApplication
 																.job.id
 														}
 														)
 													</span>
 												</p>
 											</section>
-											{overviewJobApplication.fullJobApplication && (
+											{currentJobApplication.fullJobApplication && (
 												<section>
 													<a
 														href={
-															overviewJobApplication
+															currentJobApplication
 																.fullJobApplication
 																.jobAnnouncementUrl
 														}
@@ -146,14 +146,14 @@ export const PageJobApplications = () => {
 												</section>
 											)}
 										</header>
-										{overviewJobApplication.fullJobApplication && (
+										{currentJobApplication.fullJobApplication && (
 											<section className="bg-slate-500 w-1/2 rounded-b-lg p-4 mb-6">
 												<div className="scrollable-container h-[40rem] bg-gray-300 w-full">
 													<div className="scrollable-content">
 														<div>
 															Berlin,{" "}
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.letterDateText
 															}
@@ -169,7 +169,7 @@ export const PageJobApplications = () => {
 															Tel: 030 / 795 55
 															99,{" "}
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.nameForCellPhone
 															}
@@ -182,19 +182,19 @@ export const PageJobApplications = () => {
 														<div>&nbsp;</div>
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.company
 															}
 														</div>
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.contactSalutation
 															}
 														</div>
-														{overviewJobApplication.fullJobApplication.companyAddressLines.map(
+														{currentJobApplication.fullJobApplication.companyAddressLines.map(
 															(
 																companyAddressLine,
 																index
@@ -216,7 +216,7 @@ export const PageJobApplications = () => {
 														<div>
 															<b>
 																{
-																	overviewJobApplication
+																	currentJobApplication
 																		.fullJobApplication
 																		.headerLine1
 																}
@@ -225,7 +225,7 @@ export const PageJobApplications = () => {
 														<div>
 															<b>
 																{
-																	overviewJobApplication
+																	currentJobApplication
 																		.fullJobApplication
 																		.headerLine2
 																}
@@ -234,7 +234,7 @@ export const PageJobApplications = () => {
 														<div>&nbsp;</div>
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.greetingLine
 															}
@@ -242,7 +242,7 @@ export const PageJobApplications = () => {
 														<div>&nbsp;</div>
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.applicationLine
 															}
@@ -251,13 +251,13 @@ export const PageJobApplications = () => {
 														<div>&nbsp;</div>
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.skillIntroLine
 															}
 														</div>
 														<div>&nbsp;</div>
-														{overviewJobApplication.fullJobApplication.skillAndResponseBlocks.map(
+														{currentJobApplication.fullJobApplication.skillAndResponseBlocks.map(
 															(srb, index) => {
 																return (
 																	<React.Fragment
@@ -292,18 +292,18 @@ export const PageJobApplications = () => {
 														)}
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.customText
 															}
 														</div>
-														{overviewJobApplication
+														{currentJobApplication
 															.fullJobApplication
 															.closingParagraph && (
 															<>
 																<div>
 																	{
-																		overviewJobApplication
+																		currentJobApplication
 																			.fullJobApplication
 																			.closingParagraph
 																	}
@@ -316,7 +316,7 @@ export const PageJobApplications = () => {
 														<div>
 															<span
 																dangerouslySetInnerHTML={{
-																	__html: overviewJobApplication
+																	__html: currentJobApplication
 																		.fullJobApplication
 																		.customOutlineHtml,
 																}}
@@ -324,7 +324,7 @@ export const PageJobApplications = () => {
 														</div>
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.attachmentText1
 															}
@@ -341,7 +341,7 @@ export const PageJobApplications = () => {
 																</a>{" "}
 																(
 																{
-																	overviewJobApplication
+																	currentJobApplication
 																		.fullJobApplication
 																		.attachmentText2
 																}
@@ -357,31 +357,31 @@ export const PageJobApplications = () => {
 																</a>{" "}
 																(
 																{
-																	overviewJobApplication
+																	currentJobApplication
 																		.fullJobApplication
 																		.attachmentText3
 																}
 																)
 															</li>
 														</ul>
-														{overviewJobApplication
+														{currentJobApplication
 															.fullJobApplication
 															.salaryText && (
 															<div>
 																{
-																	overviewJobApplication
+																	currentJobApplication
 																		.fullJobApplication
 																		.salaryText
 																}
 															</div>
 														)}
-														{overviewJobApplication
+														{currentJobApplication
 															.fullJobApplication
 															.startDateLine && (
 															<>
 																<div>
 																	{
-																		overviewJobApplication
+																		currentJobApplication
 																			.fullJobApplication
 																			.startDateLine
 																	}
@@ -393,7 +393,7 @@ export const PageJobApplications = () => {
 														)}
 														<div>
 															{
-																overviewJobApplication
+																currentJobApplication
 																	.fullJobApplication
 																	.closingPhrase
 															}
