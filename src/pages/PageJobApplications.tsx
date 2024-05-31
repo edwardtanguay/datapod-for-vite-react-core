@@ -13,6 +13,7 @@ export const PageJobApplications = () => {
 		todoJobApplications,
 		processingJobApplications,
 		closedJobApplications,
+		currentlyCreatingApplication,
 	} = useContext(AppContext);
 	const [currentJobApplications, setCurrentJobApplications] = useState<
 		OverviewJobApplication[]
@@ -36,7 +37,11 @@ export const PageJobApplications = () => {
 	};
 
 	useEffect(() => {
-		handleShowTodoApplications();
+		if (currentJobApplications) {
+			handleShowProcessingApplications();
+		} else {
+			handleShowTodoApplications();
+		}
 		if (todoJobApplications.length > 0) {
 			setPageIsReady(true);
 		}

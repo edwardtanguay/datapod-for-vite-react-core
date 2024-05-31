@@ -19,6 +19,7 @@ interface IAppContext {
 	todoJobApplications: OverviewJobApplication[];
 	processingJobApplications: OverviewJobApplication[];
 	closedJobApplications: OverviewJobApplication[];
+	currentlyCreatingApplication: boolean;
 }
 
 interface IAppProvider {
@@ -44,6 +45,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	const [closedJobApplications, setClosedJobApplications] = useState<
 		OverviewJobApplication[]
 	>([]);
+	const [currentlyCreatingApplication, setCurrentlyCreatingApplication] =
+		useState(false);
 
 	useEffect(() => {
 		(async () => {
@@ -85,14 +88,27 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			);
 			setOverviewJobApplications(_overviewJobApplications);
 			setTodoJobApplications(
-				_overviewJobApplications.filter((m) => m.kind === "todo").sort((a, b) => a.job.id < b.job.id ? 1 : -1)
+				_overviewJobApplications
+					.filter((m) => m.kind === "todo")
+					.sort((a, b) => (a.job.id < b.job.id ? 1 : -1))
 			);
-			setProcessingJobApplications(
-				_overviewJobApplications.filter((m) => m.kind === "processing").sort((a, b) => a.letterDate < b.letterDate ? 1 : -1)
-			);
+			const _processingJobApplciations = _overviewJobApplications
+				.filter((m) => m.kind === "processing")
+				.sort((a, b) => (a.letterDate < b.letterDate ? 1 : -1));
+			setProcessingJobApplications(_processingJobApplciations);
 			setClosedJobApplications(
 				_overviewJobApplications.filter((m) => m.kind === "closed")
 			);
+
+			for (const _processingJobApplciation of _processingJobApplciations) {
+				if (
+					_processingJobApplciation.lastStatus ===
+					"creating application..."
+				) {
+					setCurrentlyCreatingApplication(true);
+					break;
+				}
+			}
 		})();
 	}, []);
 
@@ -116,6 +132,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				todoJobApplications,
 				processingJobApplications,
 				closedJobApplications,
+				currentlyCreatingApplication
 			}}
 		>
 			{children}

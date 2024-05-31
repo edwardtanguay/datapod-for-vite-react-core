@@ -231,3 +231,21 @@ salaryTo::0
 earliestStartDate::
 closingParagraph::
 history::- 2024-06-01 00:10:45; marked application as a ~duplicate
+
+==jobApplication
+dpodId::nTt3xB
+baseJobId::250
+language::english
+letterDate::2024-06-01 00:20:07
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-01 00:20:07; creating application...

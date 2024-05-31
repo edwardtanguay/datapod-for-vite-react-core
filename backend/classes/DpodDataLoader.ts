@@ -61,7 +61,7 @@ export class DpodDataLoader {
 		if (dpodItemGroupDataItem) {
 			return dpodItemGroupDataItem.datapodData;
 		} else {
-			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`;    
+			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`; 
 		}
 	}
 
