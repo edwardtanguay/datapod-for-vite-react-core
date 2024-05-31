@@ -34,26 +34,16 @@ export const PageJobApplications = () => {
 		setCurrentShowGroup("closed");
 	};
 
+	// const getTotal = () => {
+	// 	return todoJobApplications.length + processingJobApplications.length + closedJobApplications.length;
+	// }
+
 	useEffect(() => {
 		handleShowTodoApplications();
 	}, [todoJobApplications]);
 
 	return (
 		<>
-			<p className="mb-3">currentShowGroup = {currentShowGroup}</p>
-			<p className="mb-3">
-				There are {overviewJobApplications.length} todo applications:
-			</p>
-			<p className="mb-3">
-				There are {todoJobApplications.length} todo applications:
-			</p>
-			<p className="mb-3">
-				There are {processingJobApplications.length} processing
-				applications:
-			</p>
-			<p className="mb-3">
-				There are {closedJobApplications.length} closed applications:
-			</p>
 			<main>
 				<section>
 					<div className="flex space-x-4">
@@ -67,7 +57,7 @@ export const PageJobApplications = () => {
 								ref={defaultSelection}
 								onChange={() => handleShowTodoApplications()}
 							/>
-							<span className="ml-1 mb-1">Todo</span>
+							<span className="ml-1 mb-1 select-none">{todoJobApplications.length} Todo</span>
 						</label>
 						<label className="inline-flex items-center cursor-pointer">
 							<input
@@ -80,7 +70,7 @@ export const PageJobApplications = () => {
 									handleShowProcessingApplications()
 								}
 							/>
-							<span className="ml-1 mb-1">Processing</span>
+							<span className="ml-1 mb-1 select-none">{processingJobApplications.length} Processing</span>
 						</label>
 						<label className="inline-flex items-center cursor-pointer">
 							<input
@@ -91,7 +81,7 @@ export const PageJobApplications = () => {
 								checked={currentShowGroup === "closed"}
 								onChange={() => handleShowClosedApplications()}
 							/>
-							<span className="ml-1 mb-1">Closed</span>
+							<span className="ml-1 mb-1 select-none">{closedJobApplications.length} Closed</span>
 						</label>
 					</div>
 				</section>
