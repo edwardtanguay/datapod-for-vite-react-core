@@ -6,7 +6,11 @@ interface IProps {
 }
 
 export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
-	const [showingContent, setShowingContent] = useState(true);
+	const [showingContent, setShowingContent] = useState(false);
+
+	const handleToggleShowingContent = () => {
+		setShowingContent(!showingContent);
+	}
 
 	return (
 		<React.Fragment>
@@ -36,7 +40,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						)}
 					</div>
 					<div className="flex justify-end pt-1">
-						<button className="generic2">Toggle</button>
+						<button className="generic2" onClick={handleToggleShowingContent}>Toggle</button>
 					</div>
 				</section>
 			</header>
