@@ -128,3 +128,9 @@ export type SkillResponseLookupObject = {
 	language: string;
 	html: string;
 };
+
+export type OverviewJobApplications = {
+	job: Job;
+	fullJobApplication: FullJobApplication | undefined;
+	status: string;
+}
