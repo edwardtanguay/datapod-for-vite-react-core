@@ -9,11 +9,18 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 	const [showingContent, setShowingContent] = useState(false);
 	const [showingHistory, setShowingHistory] = useState(false);
 
+	const closeAllSections = () => {
+		setShowingContent(false);
+		setShowingHistory(false);
+	};
+
 	const handleToggleShowingContent = () => {
+		closeAllSections();
 		setShowingContent(!showingContent);
 	};
 
 	const handleToggleShowingHistory = () => {
+		closeAllSections();
 		setShowingHistory(!showingHistory);
 	};
 
@@ -69,6 +76,11 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 			</header>
 			{somethingIsOpen() ? (
 				<>
+					{showingHistory && (
+						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
+							history
+						</section>
+					)}
 					{showingContent && (
 						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
 							{currentJobApplication.fullJobApplication && (
