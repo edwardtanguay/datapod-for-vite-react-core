@@ -17,6 +17,10 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 		setShowingHistory(!showingHistory);
 	};
 
+	const somethingIsOpen = () => {
+		return showingContent || showingHistory;
+	}
+
 	return (
 		<React.Fragment>
 			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-[60rem] flex justify-between">
@@ -61,7 +65,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 					</div>
 				</section>
 			</header>
-			{showingContent ? (
+			{somethingIsOpen() ? (
 				<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
 					{currentJobApplication.fullJobApplication && (
 						<div className="scrollable-container h-[40rem] bg-gray-300 w-full">
