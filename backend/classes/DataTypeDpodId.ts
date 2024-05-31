@@ -7,7 +7,7 @@ export class DataTypeDpodId extends DataType {
 
 	constructor(idCode:string) {
 		super(idCode);
-		// this.value = qstr.generateShortUUID();
+		// this.value = qstr.generateShortUUID(); 
 	}
 
 }

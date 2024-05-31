@@ -213,3 +213,21 @@ history::[[
 - 2024-05-31 12:36:34; sent application via form [this page](https://www.iu-careers.com/jobs/engineering/senior-fullstack-engineer-m-f-d-typescript-r021533/#apply)
 - 2024-05-31 12:37:05; received e-mail confirmation "it may take some time to check and process your application"
 ]]
+
+==jobApplication
+dpodId::iquleG
+baseJobId::251
+language::english
+letterDate::2024-05-31 23:05:36
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-05-31 23:05:36; creating application...
