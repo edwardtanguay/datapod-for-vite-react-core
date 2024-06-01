@@ -69,7 +69,7 @@
 	},
 	"node": {
 		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component. I have used Node extensively to build backend APIs with Express and backend data-driveen web servers with EJS and Mustache templateing engines which connect to MongoDB and MySQL databases.",
-		"german": "Bei meiner jetztigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, dessen Kernkomponente Node ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webserver mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
+		"german": "Bei meiner jetzigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, dessen Kernkomponente Node ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webserver mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"firebaseEtc": {
 		"english": "In my teaching, I have used supabase as an example of using a realtime database with Node/Express APIs."
@@ -109,7 +109,7 @@
 		"german": "Da die Cloud-Technologie in den letzten zehn Jahren bei Projekten immer mehr in den Mittelpunkt rückte, war ich zunehmend an CI/CD-Aufgaben beteiligt, beispielsweise an der Erstellung von GitHub-Aktionen und der Einrichtung von Bereitstellungs-Workflows für Full-Stack-Anwendungsprojekte, die auf Hetzner-Maschinen gehostet werden."
 	},
 	"teamWorkSolutionOriented": {
-		"german": "In meinen 20 Jahren der Softwareentwicklung habe ich immer im Team gearbeitet. Ich bin überzeugt davon, dass eine gute Kommunikation und Zusammenarbeit im Team die Basis für den Erfolg jedes Projekts bildet."
+		"german": "In meinen 20 Jahren der Softwareentwicklung habe ich immer im Team gearbeitet. Ich bin überzeugt davon, dass eine gute Kommunikation und Zusammenarbeit im Team die Basis für den Erfolg jedes Projekts bilden."
 	},
 	"goodUnderstandingTechnology": {
 		"german": "Insbesondere meine Projekterfahrung in einer breiten Palette von Technologien und Plattformen hat mir ein gutes Verständnis von den relevanten technologischen und operativen Prozessen technischen Projekten verschaffen."
@@ -216,7 +216,7 @@
 	},
 	"projectManagement": {
 		"english": "In my web developer career, I have always worked as a developer and not a project manager, but I have good project management skills using project boards such as GitHub Project and Trello. I am also of course familiar with the agile practices such as sprint planning and daily scrum standup meetings. ",
-		"german": "In meiner Karriere als Webentwickler habe ich immer als Entwickler und nicht als Projektmanager gearbeitet, aber ich verfüge über gute Projektmanagementfähigkeiten mit Projektboards wie GitHub Project und Trello. Natürlich bin ich auch mit agilen Praktiken wie Sprintplanung und täglichen Scrum-Standup-Meetings vertraut."
+		"german": "In meiner Karriere als Webentwickler habe ich immer als Entwickler und nicht als Projektmanager gearbeitet, aber ich verfüge über gute Projektmanagementfähigkeiten mit Tools wie Projektboards z.B. GitHub Project und Trello. Natürlich bin ich auch mit agilen Praktiken wie Sprintplanung und täglichen Scrum-Standup-Meetings vertraut."
 	},
 	"nnn": {
 		"english": "nnn",

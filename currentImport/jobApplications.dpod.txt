@@ -300,7 +300,7 @@ Rudower Chaussee 29
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::Die Beantwortung Ihrer Anforderungen hat mein Interesse noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert ist. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und das Unternehmen ASTRIAL erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
+closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse in der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert sind. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und das Unternehmen ASTRIAL erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
 history::[[
 - 2024-06-01 18:47:08; created
 - 2024-06-01 21:10:58; proofreading...
