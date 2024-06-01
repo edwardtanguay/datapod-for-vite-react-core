@@ -69,7 +69,7 @@
 	},
 	"node": {
 		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component. I have used Node extensively to build backend APIs with Express and backend data-driveen web servers with EJS and Mustache templateing engines which connect to MongoDB and MySQL databases.",
-		"german": "Bei meiner jetzigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, dessen Kernkomponente Node ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webserver mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
+		"german": "Bei meiner jetzigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, wo Node eine Kernkomponente ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webservers mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"firebaseEtc": {
 		"english": "In my teaching, I have used supabase as an example of using a realtime database with Node/Express APIs."
@@ -160,7 +160,7 @@
 	},
 	"react": {
 		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students in which we build fullstck websites based on the MERN stack (Node/Express/MongoDB on the backend, React or Next.js on the frontend).",
-		"german": "Seit 2021 unterrichte ich Teilnehmer in einem einjährigen Webentwicklerkurs das React- und Next.js-Framework. Wir erstellent Fullstack-Websites basierend auf dem MERN-Stack,Node/Express/MongoDB auf dem Backend mit React oder Next.js auf dem Frontend."
+		"german": "Seit 2021 unterrichte ich React und Next.js in einem einjährigen Webentwicklerkurs. Wir erstellen Fullstack-Websites basierend auf dem MERN-Stack,also Node/Express/MongoDB im Backend mit React oder Next.js für das Frontend."
 	},
 	"basicsGitTypeScriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend. Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years, and REST is a standard topic that I have been teaching for the past three years as a web developer instructor.",
@@ -184,11 +184,11 @@
 	},
 	"npmWebpackBabel": {
 		"english": "My bundler of choice has been Parcel since it is the simplest to use generic bundling needs. I am familiar with Webpack from my use of Webpack 4 in a project for image optimization from 2019 with the image-webpack-loader plugin, and Babel was used for pollyfilling. For most sites that I host on Hetzner machines, I use npm scripts for the setup and deployment scripts.",
-		"german": "In der Regal verwende ich Parcel, da er sich am einfachsten für allgemeine Bundling-Aufgaben verwenden lässt. Mit Webpack bin ich vertraut, da ich Webpack 4 in einem Projekt zur Bildoptimierung aus dem Jahr 2019 mit dem Plugin image-webpack-loader verwendet habe und Babel für Pollyfilling verwendet wurde. Für die meisten Websites, die ich zur Zeit auf Hetzner-Maschinen hoste, verwende ich npm-Skripte für die Setup- und Bereitstellungsskripte."
+		"german": "Was einen Bundler betrifft, verwende ich in der Regel Parcel, da er sich am einfachsten für allgemeine Bundling-Aufgaben geeignet ist. Mit Webpack bin ich vertraut, da ich Webpack 4 in einem Projekt zur Bildoptimierung aus dem Jahr 2019 mit dem Plugin image-webpack-loader verwendet habe und Babel für Pollyfilling verwendet wurde. Für die meisten Websites, die ich zur Zeit auf Hetzner-Maschinen hoste, verwende ich npm-Skripte für die Setup- und Bereitstellungsskripte."
 	},
 	"windowsServers": {
 		"english": "During my time with Gefeg mbh from 2018 to 2021, I was responsible for maintaining our customer ASP.NET websites running on Windows Server 2016 running on AWS EC2 instances.",
-		"german": "Während meiner Zeit bei Gefeg mbh von 2018 bis 2021 war ich für die Wartung der ASP.NET-Websites unserer Kunden verantwortlich, die auf Windows Server 2016 auf AWS EC2-Instanzen liefen."
+		"german": "Während meiner Zeit bei Gefeg mbh von 2018 bis 2021 war ich für die Wartung der ASP.NET-Websites unserer Kunden verantwortlich, die auf Windows Server 2016 in AWS EC2-Instanzen liefen."
 	},
 	"linuxServers": {
 		"english": "I host React and Next.js websites on Debian machines on Hetzner using Nginx and PM2. My Linux administration skills are good.",
@@ -200,7 +200,7 @@
 	},
 	"productSupport": {
 		"english": "If you mean here to create features and fix bugs for customer products, I have been doing this in most of my jobs in the past 20 years.",
-		"german": "Wenn Sie hier meinen das Erstellen von Features und Beheben von Bugs für Kundenprodukte, gehörte dies zu meinen Aufgabenbereichen."
+		"german": "Wenn Sie hier meinen das Erstellen von Features und Beheben von Bugs für Softwareprodukte für Kunden, gehörte dies zu meinen Aufgabenbereichen."
 	},
 	"designPatterns": {
 		"english": "Through my work on C#/.NET projects and the creation of websites with Angular, I am familiar with OOP patterns such as Dependency Injection as well as the standard patterns such as Factory, Singleton and Observer. In functional programming, I am familiar with common patterns such as pure functions and reducers in Redux, as well as Higher-Order Functions and Custom Hooks in React.",
