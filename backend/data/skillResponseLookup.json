@@ -172,15 +172,15 @@
 	},
 	"redux": {
 		"english": "In the React state solutions section of my web developer course, I teach useContext, Zustand and Redux ToolKit.",
-		"german": "Im Abschnitt „React-State-Lösungen“ meines Webentwicklerkurses unterrichte ich useContext, Zustand und Redux ToolKit."
+		"german": "In meinem Webentwicklerkurs unterrichte ich zum Thema React-State-Lösungen die drei State Management Tools useContext, Zustand und Redux ToolKit."
 	},
 	"mobx": {
 		"english": "I have limited experience with MobX but look forward to using it in projects as it apparently has less boilerplate than Redux and uses more reactive concepts.",
 		"german": "Ich habe nur begrenzte Erfahrung mit MobX, freue mich aber darauf, es in Projekten zu verwenden, da es anscheinend weniger Boilerplate als Redux hat und mehr reaktive Konzepte verwendet."
 	},
 	"htmlCssJavascript": {
-		"english": "I've been creating websites with HTML, CSS and JavaScript since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5, Flexbox and Grid in CSS3 and the many changes in JavaScript including the many new features in ES6, object-oriented JavaScript and the gradual replace of JavaScript with TypeScript in larger projects.",
-		"german": "Ich erstelle seit den 1990er Jahren Websites mit HTML, CSS und JavaScript und habe im Laufe der Jahre meine Kenntnisse in diesen Technologien mit der Veröffentlichung neuerer Versionen verbessert, wie etwa der semantischen Funktionen in HTML5, Flexbox und Grid in CSS3 und den vielen Änderungen in JavaScript, einschließlich der vielen neuen Funktionen in ES6, objektorientiertem JavaScript und dem schrittweisen Ersetzen von JavaScript durch TypeScript in größeren Projekten."
+		"english": "I've been creating websites with HTML, CSS and JavaScript since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5, Flexbox and Grid in CSS3 and the many changes in JavaScript including the many new features in ES6, object-oriented JavaScript and the gradual use of TypeScript over JavaScript in complex projects.",
+		"german": "Ich erstelle seit den 90er Jahren Websites mit HTML, CSS und JavaScript und habe im Laufe der Jahre meine Kenntnisse in diesen Technologien mit jeder neuen Version verbessert, z.B. mit den semantischen Funktionen in HTML5, mit Flexbox und Grid in CSS3, und mit den vielen Änderungen in JavaScript ab ES6."
 	},
 	"npmWebpackBabel": {
 		"english": "My bundler of choice has been Parcel since it is the simplest to use generic bundling needs. I am familiar with Webpack from my use of Webpack 4 in a project for image optimization from 2019 with the image-webpack-loader plugin, and Babel was used for pollyfilling. For most sites that I host on Hetzner machines, I use npm scripts for the setup and deployment scripts.",
