@@ -53,7 +53,7 @@
 	},
 	"highLevelDeliverables": {
 		"english": "I am a pragmatist who knows the value of quick-and-dirty coding in order to push features and bug fixes to the customer as quickly as possible, but I am also a purist who strives to perfect processes as much as possible.",
-		"german": "Ich bin ein Pragmatiker, der den Wert schnellen und unkomplizierten Codings kennt, um dem Kunden Funktionen und Fehlerbehebungen so schnell wie möglich zur Verfügung zu stellen. Gleichzeitig bin ich aber auch ein Purist, der versucht, Prozesse so weit wie möglich zu perfektionieren."
+		"german": "Ich bin ein Pragmatiker, der den Wert von quick-and-dirty code kennt, um dem Kunden Features zur Verfügung zu stellen sowohl Bugs so schnell wie möglich zu lösen. Gleichzeitig bin ich aber auch ein Purist, der versucht, Prozesse so weit wie möglich zu perfektionieren."
 	},
 	"communicationSkills": {
 		"english": "I have a Masters Degree in English and Linguistics, and good communication skills in both English and German."
@@ -188,7 +188,7 @@
 	},
 	"windowsServers": {
 		"english": "During my time with Gefeg mbh from 2018 to 2021, I was responsible for maintaining our customer ASP.NET websites running on Windows Server 2016 running on AWS EC2 instances.",
-		"german": "Während meiner Zeit bei Gefeg mbh von 2018 bis 2021 war ich für die Wartung der ASP.NET-Websites unserer Kunden verantwortlich, die auf Windows Server 2016 auf AWS EC2-Instanzen laufen."
+		"german": "Während meiner Zeit bei Gefeg mbh von 2018 bis 2021 war ich für die Wartung der ASP.NET-Websites unserer Kunden verantwortlich, die auf Windows Server 2016 auf AWS EC2-Instanzen liefen."
 	},
 	"linuxServers": {
 		"english": "I host React and Next.js websites on Debian machines on Hetzner using Nginx and PM2. My Linux administration skills are good.",
@@ -200,7 +200,7 @@
 	},
 	"productSupport": {
 		"english": "If you mean here to create features and fix bugs for customer products, I have been doing this in most of my jobs in the past 20 years.",
-		"german": "Wenn Sie hier meinen das Erstellen von Features und Beheben von Bugs für Kundenprodukte, habe ich dies in den letzten 20 Jahren in den meisten meiner Jobs getan."
+		"german": "Wenn Sie hier meinen das Erstellen von Features und Beheben von Bugs für Kundenprodukte, gehörte dies zu meinen Aufgabenbereichen."
 	},
 	"designPatterns": {
 		"english": "Through my work on C#/.NET projects and the creation of websites with Angular, I am familiar with OOP patterns such as Dependency Injection as well as the standard patterns such as Factory, Singleton and Observer. In functional programming, I am familiar with common patterns such as pure functions and reducers in Redux, as well as Higher-Order Functions and Custom Hooks in React.",
