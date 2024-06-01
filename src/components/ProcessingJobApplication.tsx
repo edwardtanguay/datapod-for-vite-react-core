@@ -59,7 +59,7 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 									"creating..." ||
 								currentJobApplication.lastStatus ===
 									"proofreading..."
-									? "#a51111"
+									? "lightgreen"
 									: "black",
 						}}
 					>
