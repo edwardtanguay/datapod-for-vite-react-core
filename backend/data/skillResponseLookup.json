@@ -53,7 +53,7 @@
 	},
 	"highLevelDeliverables": {
 		"english": "I am a pragmatist who knows the value of quick-and-dirty coding in order to push features and bug fixes to the customer as quickly as possible, but I am also a purist who strives to perfect processes as much as possible.",
-		"german": "Ich bin ein Pragmatiker, der den Wert von quick-and-dirty code kennt, um dem Kunden Features zur Verfügung zu stellen sowohl Bugs so schnell wie möglich zu lösen. Gleichzeitig bin ich aber auch ein Purist, der versucht, Prozesse so weit wie möglich zu perfektionieren."
+		"german": "Ich bin ein Pragmatiker, der den Wert von quick-and-dirty code kennt, um so schnell wie möglich dem Kunden Features zu stellen und Bugs zu lösen. Gleichzeitig bin ich aber auch ein Purist, der versucht, Prozesse so weit wie möglich zu perfektionieren."
 	},
 	"communicationSkills": {
 		"english": "I have a Masters Degree in English and Linguistics, and good communication skills in both English and German."
@@ -152,7 +152,7 @@
 	},
 	"programmingProjects": {
 		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
-		"german": "Während meiner über 20-jährigen Erfahrung als Webentwickler habe ich zahlreiche Anwendungen erstellt, die von Unternehmen und Kunden genutzt werden. Den Großteil meiner Berufserfahrung seit 2001 habe ich in den Stacks .NET/C# und LAMP (PHP/MySQL) gesammelt. Seit 2018 arbeite ich in Entwicklungsteams und schule andere darin, wie man Webanwendungen im MERN-Stack (Node/Express, React und MongoDB) erstellt."
+		"german": "Während meiner über 20-jährigen Erfahrung als Webprogrammierer habe ich zahlreiche Anwendungen erstellt, die von Unternehmen und Kunden genutzt werden. Den Großteil meiner Berufserfahrung seit 2001 habe ich in den Stacks .NET/C# und LAMP (PHP/MySQL) gesammelt. Seit 2018 arbeite ich in Entwicklungsteams und schule andere darin, wie man Webanwendungen im MERN-Stack (Node/Express, React und MongoDB) erstellt."
 	},
 	"programmingPassion": {
 		"english": "For an example of my passion for programming and my the willingness to explore new topics and technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
@@ -204,7 +204,7 @@
 	},
 	"designPatterns": {
 		"english": "Through my work on C#/.NET projects and the creation of websites with Angular, I am familiar with OOP patterns such as Dependency Injection as well as the standard patterns such as Factory, Singleton and Observer. In functional programming, I am familiar with common patterns such as pure functions and reducers in Redux, as well as Higher-Order Functions and Custom Hooks in React.",
-		"german": "Durch meine Arbeit an C#/.NET Projekten und der Erstellung von Webseiten mit Angular bin ich mit Patterns wie Dependency Injection und mit den Standard-OOP-Patterns wie Factory, Singleton und Observer vertraut. In der funktionalen Programmierung benutze ich gängige Patterns wie Pure Functions und Reducers in Redux sowie Higher-Order-Functions und Custom Hooks in React."
+		"german": "Durch meine Arbeit an C#/.NET Projekten und der Erstellung von Websites mit Angular bin ich mit Patterns wie Dependency Injection und mit den Standard-OOP-Patterns wie Factory, Singleton und Observer vertraut. In der funktionalen Programmierung benutze ich gängige Patterns wie Pure Functions und Reducers in Redux sowie Higher-Order-Functions und Custom Hooks in React."
 	},
 	"learnNewTechFast": {
 		"english": "For an example of my ability to learn quickly and efficiently in new technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
