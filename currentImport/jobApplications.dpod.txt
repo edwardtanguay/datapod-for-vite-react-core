@@ -268,3 +268,34 @@ history::[[
 - 2024-06-01 11:16:40; posted application on [this site](https://career55.sapsf.eu/portalcareer), received "Ihre Bewerbung wurde abgeschickt. Vielen Dank!"
 - 2024-06-01 11:17:30; received mail "schnellstmöglich wieder bei Ihnen melden", waiting for response
 ]]
+
+==jobApplication
+dpodId::OpU852
+baseJobId::255
+language::german
+letterDate::2024-06-01 18:47:08
+skillTextsBlock::[[
+Erfahrung im Web-Design mit React Javascript und HTML/CSS;htmlCssJavascript,react
+Erfahrung mit den React State Management Frameworks Redux / MobX;redux, mobx
+Erfahrung in der Konfiguration und Wartung von NodeJS-Projekten mit npm / Webpack / Typescript / Babel;node, typescript, npmScript, webpack, babel
+Erfahrung mit der Bereitstellung und Wartung von Webanwendungen mit Windows- und Linux-Servern;windows, linux
+Erfahrung mit Versionsverwaltungssystemen GIT / SVN; git, svn
+Fähigkeit, bestehende Produkte zu pflegen und zu unterstützen;productSupport
+Fähigkeit zur Lieferung qualitativ hochwertiger Softwareprodukte bei anspruchsvollen Zeitplänen;highLevelDeliverables
+Fähigkeit, in einem Team zu arbeiten, zugewiesene Aufgaben und Zeitpläne zu verwalten und Projektfristen einzuhalten;teamWorkSolutionOriented
+Vertrautheit mit Entwurfsmustern und deren Verwendung und Anwendbarkeit auf verschiedene Softwareszenarien;designPatterns
+Fähigkeit, sich schnell und effizient in neue Technologien einzuarbeiten;learnNewTechFast
+Ausgezeichnete verbale und schriftliche Kommunikationsfähigkeiten;teamCommunication
+Ausgezeichnete organisatorische und Projektmanagementfähigkeiten;projectManagement
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-01 18:47:08; creating...

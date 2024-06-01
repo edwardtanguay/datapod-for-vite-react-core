@@ -67,7 +67,8 @@
 		"english": "Advertising stacks would also be a new area for me."
 	},
 	"node": {
-		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component."
+		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component. I have used Node extensively to build backend APIs with Express and backend data-driveen web servers with EJS and Mustache templateing engines which connect to MongoDB and MySQL databases.",
+		"german": "Ich unterrichte seit drei Jahren den MERN-Stack, dessen Kernkomponente Node ist. Ich habe Node ausgiebig verwendet, um Backend-APIs mit Express und datengesteuerte Backend-Webserver mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"firebaseEtc": {
 		"english": "In my teaching, I have used supabase as an example of using a realtime database with Node/Express APIs."
@@ -107,52 +108,40 @@
 		"german": "Da die Cloud-Technologie in den letzten zehn Jahren bei Projekten immer mehr in den Mittelpunkt rückte, war ich zunehmend an CI/CD-Aufgaben beteiligt, beispielsweise an der Erstellung von GitHub-Aktionen und der Einrichtung von Bereitstellungs-Workflows für Full-Stack-Anwendungsprojekte, die auf Hetzner-Maschinen gehostet werden."
 	},
 	"teamWorkSolutionOriented": {
-		"english": "nnn",
 		"german": "In meinen 20 Jahren der Softwareentwicklung habe ich immer im Team gearbeitet. Ich bin überzeugt davon, dass eine gute Kommunikation und Zusammenarbeit im Team die Basis für den Erfolg jedes Projekts bildet."
 	},
 	"goodUnderstandingTechnology": {
-		"english": "nnn",
 		"german": "Insbesondere meine Projekterfahrung in einer breiten Palette von Technologien und Plattformen hat mir ein gutes Verständnis von den relevanten technologischen und operativen Prozessen technischen Projekten verschaffen."
 	},
 	"germanEnglish": {
-		"english": "nnn",
 		"german": "Deutsch beherrsche ich in Wort und Schrift (Zentrale Oberstufenprüfung des Goethe Instituts in 2003: sehr gut / gut). Als amerikanischer Muttersprachler und ausgebildeter Englischlehrer sind meine Englischkenntnisse in Wort und Schrift perfekt."
 	},
 	"consultingFlexibility": {
-		"english": "nnn",
 		"german": "Insbesondere bei meinen Einsätzen bei Microsoft und Modula 4 erforderten die Projekte eine Kombination aus Programmierung sowie Beratung und Installation beim Kunden. Die Abwechslung und Herausforderungen dieser Arbeit empfand ich persönlich und beruflich als erfüllend."
 	},
 	"typescript": {
-		"english": "My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
-		"german": "nnn"
+		"english": "My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend."
 	},
 	"nestjs": {
-		"english": "NestJS is one of the backend frameworks I teach to my students along with its frontend counterpart Angular.",
-		"german": "nnn"
+		"english": "NestJS is one of the backend frameworks I teach to my students along with its frontend counterpart Angular."
 	},
 	"kafkaRabbitmq": {
-		"english": "Working with the streaming platform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions.",
-		"german": "nnn"
+		"english": "Working with the streaming platform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions."
 	},
 	"awsDockerKubernetes": {
-		"english": "I began using AWS and Docker at my web developer position at GEFEG mbh from 2018 to 2021 where I was responsible for moving our Strato infrastructure to AWS. I currently use Docker in devops scenarios such as hosting applications on Hetzner machines. I know Kubernetes from trainings and look forward to the challenge of implementing and working with it in a real-world scenario.",
-		"german": "nnn"
+		"english": "I began using AWS and Docker at my web developer position at GEFEG mbh from 2018 to 2021 where I was responsible for moving our Strato infrastructure to AWS. I currently use Docker in devops scenarios such as hosting applications on Hetzner machines. I know Kubernetes from trainings and look forward to the challenge of implementing and working with it in a real-world scenario."
 	},
 	"webTechnologies": {
-		"english": "I've been working with and keeping up on the browser ecosystem ever since the browser wars of the 1990s and throughout my many battles with Netscape 4 and Internet Explorer 6. I have decade-long, solid skills in frontend development.",
-		"german": "nnn"
+		"english": "I've been working with and keeping up on the browser ecosystem ever since the browser wars of the 1990s and throughout my many battles with Netscape 4 and Internet Explorer 6. I have decade-long, solid skills in frontend development."
 	},
 	"vueSvelteSolidjsReact": {
-		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases.",
-		"german": "nnn"
+		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases."
 	},
 	"enthusiasticTechnicalConcepts": {
-		"english": "For an example of my enthusiasm for technical and web development topics, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
-		"german": "nnn"
+		"english": "For an example of my enthusiasm for technical and web development topics, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
 	},
 	"teamCommunication": {
-		"english": "Honest and clear communication is essential for team work. I possess strong proficiency in both English and German, enabling me to effectively communicate within the company and represent the organization to customers. I am a native speaker of English.",
-		"german": "nnn"
+		"english": "Honest and clear communication is essential for team work. I possess strong proficiency in both English and German, enabling me to effectively communicate within the company and represent the organization to customers. I am a native speaker of English."
 	},
 	"independentGoalOriented": {
 		"english": "I enjoy taking personal responsibility for tasks from beginning to end, and work best in an environment with clearly-stated goals.",
@@ -167,8 +156,8 @@
 		"german": "Ein Beispiel meiner Programmier-Leidenschaft und meine Bereitschaft, neue Themen und Technologien zu erkunden, finden Sie in meinen <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">über 800 Howtos</a>, die ich in den letzten Jahren erstellt habe."
 	},
 	"react": {
-		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students and have created numerous sites with the MERN stack.",
-		"german": "Seit 2021 unterrichte ich Webentwicklungsstudenten im React- und Next.js-Framework und habe zahlreiche Websites mit dem MERN-Stack erstellt."
+		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students in which we build fullstck websites based on the MERN stack (Node/Express/MongoDB on the backend, React or Next.js on the frontend).",
+		"german": "Seit 2021 unterrichte ich Teilnehmer in einem einjährigen Webentwicklerkurs das React- und Next.js-Framework. Wir erstellent Fullstack-Websites basierend auf dem MERN-Stack,Node/Express/MongoDB auf dem Backend mit React oder Next.js auf dem Frontend."
 	},
 	"basicsGitTypeScriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend. Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years, and REST is a standard topic that I have been teaching for the past three years as a web developer instructor.",
@@ -178,9 +167,17 @@
 		"english": "Particulary in the PHP projects that I have been responsible for, refactoring of legacy code has been a challenge that I have faced throughout the years.",
 		"german": "Insbesondere in den PHP-Projekten, für die ich verantwortlich war, war das Refactoring von Legacy-Code eine Herausforderung, der ich mich im Laufe der Jahre stellen musste."
 	},
-	"nnn": {
-		"english": "nnn",
-		"german": "nnn"
+	"redux": {
+		"english": "In the React state solutions section of my web developer course, I teach useContext, Zustand and Redux ToolKit.",
+		"german": "Im Abschnitt „React-State-Lösungen“ meines Webentwicklerkurses unterrichte ich useContext, Zustand und Redux ToolKit."
+	},
+	"mobx": {
+		"english": "I have limited experience with MobX but look forward to using it in projects as it apparently has less boilerplate than Redux and uses more reactive concepts.",
+		"german": "Ich habe nur begrenzte Erfahrung mit MobX, freue mich aber darauf, es in Projekten zu verwenden, da es anscheinend weniger Boilerplate als Redux hat und mehr reaktive Konzepte verwendet."
+	},
+	"htmlCssJavascript": {
+		"english": "I've been creating websites with HTML, CSS and JavaScript since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5, Flexbox and Grid in CSS3 and the many changes in JavaScript including the many new features in ES6, object-oriented JavaScript and the gradual replace of JavaScript with TypeScript in larger projects.",
+		"german": "Ich erstelle seit den 1990er Jahren Websites mit HTML, CSS und JavaScript und habe im Laufe der Jahre meine Kenntnisse in diesen Technologien mit der Veröffentlichung neuerer Versionen verbessert, wie etwa der semantischen Funktionen in HTML5, Flexbox und Grid in CSS3 und den vielen Änderungen in JavaScript, einschließlich der vielen neuen Funktionen in ES6, objektorientiertem JavaScript und dem schrittweisen Ersetzen von JavaScript durch TypeScript in größeren Projekten."
 	},
 	"nnn": {
 		"english": "nnn",

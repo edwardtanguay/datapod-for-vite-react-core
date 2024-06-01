@@ -183,7 +183,7 @@ export const getResponseHtml = (
 				responseHtmls.push(responseHtml);
 			} else {
 				responseHtmls.push(
-					`TRANSLATE ${jobApplication.language} RESPONSE FOR ${responseHtmlIdCode}`
+					`<span style="color: green; background-color: yellow">TRANSLATE [${responseHtmlIdCode}]</span>`
 				);
 			}
 		} else {
