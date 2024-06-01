@@ -69,7 +69,7 @@
 	},
 	"node": {
 		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component. I have used Node extensively to build backend APIs with Express and backend data-driveen web servers with EJS and Mustache templateing engines which connect to MongoDB and MySQL databases.",
-		"german": "Ich unterrichte seit drei Jahren den MERN-Stack, dessen Kernkomponente Node ist. Ich habe Node ausgiebig verwendet, um Backend-APIs mit Express und datengesteuerte Backend-Webserver mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
+		"german": "Bei meiner jetztigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, dessen Kernkomponente Node ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webserver mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"firebaseEtc": {
 		"english": "In my teaching, I have used supabase as an example of using a realtime database with Node/Express APIs."
@@ -122,7 +122,7 @@
 	},
 	"typescript": {
 		"english": "My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
-		"german": "Durch meinen Hintergrund in C# und insbesondere durch das Unterrichten von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
+		"german": "Durch meinen Hintergrund in C# und insbesondere durch die Verwendung von TypeScript in meinen Kursen, habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
 	},
 	"nestjs": {
 		"english": "NestJS is one of the backend frameworks I teach to my students along with its frontend counterpart Angular."
@@ -184,7 +184,7 @@
 	},
 	"npmWebpackBabel": {
 		"english": "My bundler of choice has been Parcel since it is the simplest to use generic bundling needs. I am familiar with Webpack from my use of Webpack 4 in a project for image optimization from 2019 with the image-webpack-loader plugin, and Babel was used for pollyfilling. For most sites that I host on Hetzner machines, I use npm scripts for the setup and deployment scripts.",
-		"german": "Mein Bundler der Wahl ist Parcel, da er sich am einfachsten für allgemeine Bündelungsanforderungen verwenden lässt. Mit Webpack bin ich vertraut, da ich Webpack 4 in einem Projekt zur Bildoptimierung aus dem Jahr 2019 mit dem Plugin image-webpack-loader verwendet habe und Babel für Pollyfilling verwendet wurde. Für die meisten Websites, die ich auf Hetzner-Maschinen hoste, verwende ich npm-Skripte für die Setup- und Bereitstellungsskripte."
+		"german": "In der Regal verwende ich Parcel, da er sich am einfachsten für allgemeine Bundling-Aufgaben verwenden lässt. Mit Webpack bin ich vertraut, da ich Webpack 4 in einem Projekt zur Bildoptimierung aus dem Jahr 2019 mit dem Plugin image-webpack-loader verwendet habe und Babel für Pollyfilling verwendet wurde. Für die meisten Websites, die ich zur Zeit auf Hetzner-Maschinen hoste, verwende ich npm-Skripte für die Setup- und Bereitstellungsskripte."
 	},
 	"windowsServers": {
 		"english": "During my time with Gefeg mbh from 2018 to 2021, I was responsible for maintaining our customer ASP.NET websites running on Windows Server 2016 running on AWS EC2 instances.",
