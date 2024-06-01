@@ -7,9 +7,7 @@ interface IProps {
 }
 
 export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
-	const {
-		currentlyCreatingApplication,
-	} = useContext(AppContext);
+	const { currentlyCreatingApplication } = useContext(AppContext);
 	const [showingContent, setShowingContent] = useState(false);
 	const [showingHistory, setShowingHistory] = useState(false);
 
@@ -33,7 +31,11 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 	};
 
 	useEffect(() => {
-		if (currentlyCreatingApplication && currentJobApplication.lastStatus === 'creating application...') {
+		if (
+			currentlyCreatingApplication &&
+			(currentJobApplication.lastStatus === "creating..." ||
+				currentJobApplication.lastStatus === "proofreading...")
+		) {
 			setShowingContent(true);
 		}
 	}, []);
@@ -49,7 +51,18 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 							({currentJobApplication.job.id})
 						</span>
 					</p>
-					<p className="italic text-sm text-orange-950" style={{color: currentJobApplication.lastStatus === 'creating application...' ? '#a51111' : 'black'}}>
+					<p
+						className="italic text-sm text-orange-950"
+						style={{
+							color:
+								currentJobApplication.lastStatus ===
+									"creating..." ||
+								currentJobApplication.lastStatus ===
+									"proofreading..."
+									? "#a51111"
+									: "black",
+						}}
+					>
 						{currentJobApplication.lastStatus}
 					</p>
 				</section>
@@ -90,7 +103,10 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
 							<span
 								dangerouslySetInnerHTML={{
-									__html: currentJobApplication.fullJobApplication ? currentJobApplication.fullJobApplication.historyHtml : '',
+									__html: currentJobApplication.fullJobApplication
+										? currentJobApplication
+												.fullJobApplication.historyHtml
+										: "",
 								}}
 							></span>
 						</section>
@@ -180,7 +196,6 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 													.fullJobApplication
 													.applicationLine
 											}
-											fullJobApplication.
 										</div>
 										<div>&nbsp;</div>
 										<div>

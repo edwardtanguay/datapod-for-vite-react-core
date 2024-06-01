@@ -143,7 +143,7 @@ export const getGreetingLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-export const getApplicationLine = (
+export const getApplicationLine = ( 
 	job: Job,
 	jobApplication: JobApplication
 ): string => {

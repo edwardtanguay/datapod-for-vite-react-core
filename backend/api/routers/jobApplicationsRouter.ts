@@ -61,7 +61,7 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::
-history::- ${qdat.getCurrentIsoDateTime()}; creating application...
+history::- ${qdat.getCurrentIsoDateTime()}; creating...
 	`.trim();
 };
 

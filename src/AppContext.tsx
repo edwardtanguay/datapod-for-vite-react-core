@@ -103,7 +103,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			for (const _processingJobApplciation of _processingJobApplciations) {
 				if (
 					_processingJobApplciation.lastStatus ===
-					"creating application..."
+					"creating..." || _processingJobApplciation.lastStatus === 'proofreading...'
 				) {
 					setCurrentlyCreatingApplication(true);
 					break;

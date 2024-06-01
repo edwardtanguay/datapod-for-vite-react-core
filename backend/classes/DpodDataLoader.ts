@@ -55,20 +55,20 @@ export class DpodDataLoader {
 
 	private getDatapodContentForItemType(dpodItemIdCode: string) {
 		const dpodItemGroupDataItems = this.getDpodItemGroupDataItems();
-		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(   
+		const dpodItemGroupDataItem = dpodItemGroupDataItems.find(
 			(m) => m.idCode === dpodItemIdCode
 		);
 		if (dpodItemGroupDataItem) {
-			return dpodItemGroupDataItem.datapodData;
+			return dpodItemGroupDataItem.datapodData;    
 		} else {
-			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`; 
+			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`;
 		}
 	}
 
 	private copyJsonFilesToTargets() {
 		const itemTypeTargets = appConfig.itemTypeTargets();
 		for (const itemTypeTarget of itemTypeTargets) {
-			const jsonContent = this.jsonData[itemTypeTarget.itemType];
+			const jsonContent = this.jsonData[itemTypeTarget.itemType]; 
 			if (jsonContent) {
 				qfil.writeToFile(
 					itemTypeTarget.jsonFilePathAndFileName,

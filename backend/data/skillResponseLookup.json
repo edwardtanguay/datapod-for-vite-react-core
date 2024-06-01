@@ -24,7 +24,8 @@
 		"english": "The standard engineering practices such as Clean Code, DRY, pair programming, extreme programming, infrastructure-as-code, as well as functional and OOP design patterns are familiar to me."
 	},
 	"agileScrum": {
-		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and for planning sprints."
+		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and for planning sprints.",
+		"german": "Alle Projekte, an denen ich in den letzten zehn Jahren gearbeitet habe, verfügten über eine der Firma angepassten Konstellation agiler Entwicklungspraktiken, insbesondere das tägliche Stand-up-Scrum-Meeting sowie Entwicklermeetings zur Organisation von Aufgaben auf Taskboards und zur Planung von Sprints."
 	},
 	"selfLearning": {
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
@@ -91,7 +92,7 @@
 	},
 	"computerScienceDegreeOrSimilar": {
 		"english": "I started programming computers in the 80s and was creating websites for university projects in the 90s. Since 2001 when I joined Microsoft, I have worked as a full-time, professional web developer at numerous companies in various technology platforms including .NET/C# and the LAMP and MERN stacks.",
-		"german": "Ich habe in den 80er Jahren mit dem Programmieren von Computern begonnen und in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001, habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, unter anderem .NET/C# und die LAMP- und MERN-Stacks."
+		"german": "Ich habe in den 80er Jahren mit dem Programmieren von Computern begonnen und in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001 habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, u.a. .NET/C# und die LAMP- und MERN-Stacks."
 	},
 	"javascriptJava": {
 		"english": "I have been using JavaScript for application development since the early 2000s with the advent of AJAX which enabled websites to communicate directly with the server. I have taken university courses in Java in which we completed projects with Java using Eclipse. The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
@@ -154,7 +155,31 @@
 		"german": "nnn"
 	},
 	"independentGoalOriented": {
-		"english": "Yes, I enjoy taking personal responsibility for tasks from beginning to end, and work best in an environment with clearly-stated goals.",
+		"english": "I enjoy taking personal responsibility for tasks from beginning to end, and work best in an environment with clearly-stated goals.",
+		"german": "Ich übernehme gerne von Anfang bis Ende die persönliche Verantwortung für Aufgaben und arbeite am besten in einer Umgebung mit klar formulierten Zielen."
+	},
+	"programmingProjects": {
+		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
+		"german": "Während meiner über 20-jährigen Erfahrung als Webentwickler habe ich zahlreiche Anwendungen erstellt, die von Unternehmen und Kunden genutzt werden. Den Großteil meiner Berufserfahrung seit 2001 habe ich in den Stacks .NET/C# und LAMP (PHP/MySQL) gesammelt. Seit 2018 arbeite ich in Entwicklungsteams und schule andere darin, wie man Webanwendungen im MERN-Stack (Node/Express, React und MongoDB) erstellt."
+	},
+	"programmingPassion": {
+		"english": "For an example of my passion for programming and my the willingness to explore new topics and technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
+		"german": "Ein Beispiel meiner Programmier-Leidenschaft und meine Bereitschaft, neue Themen und Technologien zu erkunden, finden Sie in meinen <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">über 800 Howtos</a>, die ich in den letzten Jahren erstellt habe."
+	},
+	"react": {
+		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students and have created numerous sites with the MERN stack.",
+		"german": "Seit 2021 unterrichte ich Webentwicklungsstudenten im React- und Next.js-Framework und habe zahlreiche Websites mit dem MERN-Stack erstellt."
+	},
+	"basicsGitTypeScriptRest": {
+		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend. Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years, and REST is a standard topic that I have been teaching for the past three years as a web developer instructor.",
+		"german": "Ich entwickle seit den 90er Jahren Websites mit HTML, CSS und JavaScript. Durch meinen C# Hintergrund und insbesondere durch das Unterrichten von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend. Git war das Standard-Versionskontrollsystem in allen Projekten und Jobs, an denen ich in den letzten 10 Jahren beteiligt war und REST ist ein Standardthema, das ich in den letzten drei Jahren als Dozent für Webentwicklung unterrichtet habe."
+	},
+	"refactoringLegacyCode": {
+		"english": "Particulary in the PHP projects that I have been responsible for, refactoring of legacy code has been a challenge that I have faced throughout the years.",
+		"german": "Insbesondere in den PHP-Projekten, für die ich verantwortlich war, war das Refactoring von Legacy-Code eine Herausforderung, der ich mich im Laufe der Jahre stellen musste."
+	},
+	"nnn": {
+		"english": "nnn",
 		"german": "nnn"
 	},
 	"nnn": {
