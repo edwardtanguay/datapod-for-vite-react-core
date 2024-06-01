@@ -285,7 +285,7 @@ Fähigkeit zur Lieferung qualitativ hochwertiger Softwareprodukte bei anspruchsv
 Fähigkeit, in einem Team zu arbeiten, zugewiesene Aufgaben und Zeitpläne zu verwalten und Projektfristen einzuhalten;teamWorkSolutionOriented
 Vertrautheit mit Entwurfsmustern und deren Verwendung und Anwendbarkeit auf verschiedene Softwareszenarien;designPatterns
 Fähigkeit, sich schnell und effizient in neue Technologien einzuarbeiten;learnNewTechFast
-Ausgezeichnete verbale und schriftliche Kommunikationsfähigkeiten;teamCommunication
+Ausgezeichnete verbale und schriftliche Kommunikationsfähigkeiten;excellentCommunication
 Ausgezeichnete organisatorische und Projektmanagementfähigkeiten;projectManagement
 ]]
 customText::

@@ -198,6 +198,26 @@
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years.",
 		"german": "Obwohl ich alt genug bin, um früher CVS und SVN verwendet zu haben, war Git in allen Projekten und Jobs, an denen ich in den letzten 10 Jahren beteiligt war, das Standard-Versionskontrollsystem."
 	},
+	"productSupport": {
+		"english": "If you mean here to create features and fix bugs for customer products, I have been doing this in most of my jobs in the past 20 years.",
+		"german": "Wenn Sie hier meinen das Erstellen von Features und Beheben von Bugs für Kundenprodukte, habe ich dies in den letzten 20 Jahren in den meisten meiner Jobs getan."
+	},
+	"designPatterns": {
+		"english": "Through my work on C#/.NET projects and the creation of websites with Angular, I am familiar with OOP patterns such as Dependency Injection as well as the standard patterns such as Factory, Singleton and Observer. In functional programming, I am familiar with common patterns such as pure functions and reducers in Redux, as well as Higher-Order Functions and Custom Hooks in React.",
+		"german": "Durch meine Arbeit an C#/.NET Projekten und der Erstellung von Webseiten mit Angular bin ich sowohl mit OOP-Patterns wie Dependency Injection als auch mit den Standardmustern wie Factory, Singleton und Observer vertraut. In der funktionalen Programmierung bin ich mit gängigen Patterns wie Pure Functions  und Reducers in Redux sowie Higher-Order-Functions und Custom Hooks in React vertraut."
+	},
+	"learnNewTechFast": {
+		"english": "For an example of my ability to learn quickly and efficiently in new technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
+		"german": "Ein Beispiel für meine Fähigkeit, schnell und effizient neue Technologien zu lernen, finden Sie in meinen <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">über 800 Howtos</a>, die ich in den letzten Jahren erstellt habe."
+	},
+	"excellentCommunication": {
+		"english": "I possess strong proficiency in both English and German, enabling me to effectively communicate both written and verbally both internally as well as being able to represent the company to customers. I am a native speaker of English and speak and write with C1-level German.",
+		"german": "Ich verfüge über gute Englisch- und Deutschkenntnisse, die es mir ermöglichen, sowohl intern schriftlich als auch mündlich effektiv zu kommunizieren und das Unternehmen gegenüber Kunden zu vertreten. Meine Muttersprache ist Englisch, und meine Deutschkenntnisse sind auf C1-Niveau."
+	},
+	"projectManagement": {
+		"english": "In my web developer career, I have always worked as a developer and not a project manager, but I have good project management skills using project boards such as GitHub Project and Trello. I am also of course familiar with the agile practices such as sprint planning and daily scrum standup meetings. ",
+		"german": "In meiner Karriere als Webentwickler habe ich immer als Entwickler und nicht als Projektmanager gearbeitet, aber ich verfüge über gute Projektmanagementfähigkeiten mit Projektboards wie GitHub Project und Trello. Natürlich bin ich auch mit agilen Praktiken wie Sprintplanung und täglichen Scrum-Standup-Meetings vertraut."
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"
