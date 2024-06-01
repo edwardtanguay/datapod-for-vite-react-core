@@ -179,7 +179,7 @@ export const getResponseHtml = (
 		if (skillResponseLookupObject) {
 			const responseHtml =
 				skillResponseLookupObject[jobApplication.language];
-			if (responseHtml) {
+			if (responseHtml && responseHtml !== 'nnn') {
 				responseHtmls.push(responseHtml);
 			} else {
 				responseHtmls.push(

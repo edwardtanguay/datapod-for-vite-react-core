@@ -277,7 +277,7 @@ letterDate::2024-06-01 18:47:08
 skillTextsBlock::[[
 Erfahrung im Web-Design mit React Javascript und HTML/CSS;htmlCssJavascript,react
 Erfahrung mit den React State Management Frameworks Redux / MobX;redux, mobx
-Erfahrung in der Konfiguration und Wartung von NodeJS-Projekten mit npm / Webpack / Typescript / Babel;node, typescript, npmScript, webpack, babel
+Erfahrung in der Konfiguration und Wartung von NodeJS-Projekten mit npm / Webpack / Typescript / Babel;node, typescript, npmWebpackBabel
 Erfahrung mit der Bereitstellung und Wartung von Webanwendungen mit Windows- und Linux-Servern;windows, linux
 Erfahrung mit Versionsverwaltungssystemen GIT / SVN; git, svn
 Fähigkeit, bestehende Produkte zu pflegen und zu unterstützen;productSupport
