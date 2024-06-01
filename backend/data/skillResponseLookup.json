@@ -204,7 +204,7 @@
 	},
 	"designPatterns": {
 		"english": "Through my work on C#/.NET projects and the creation of websites with Angular, I am familiar with OOP patterns such as Dependency Injection as well as the standard patterns such as Factory, Singleton and Observer. In functional programming, I am familiar with common patterns such as pure functions and reducers in Redux, as well as Higher-Order Functions and Custom Hooks in React.",
-		"german": "Durch meine Arbeit an C#/.NET Projekten und der Erstellung von Webseiten mit Angular bin ich sowohl mit OOP-Patterns wie Dependency Injection als auch mit den Standardmustern wie Factory, Singleton und Observer vertraut. In der funktionalen Programmierung bin ich mit gängigen Patterns wie Pure Functions  und Reducers in Redux sowie Higher-Order-Functions und Custom Hooks in React vertraut."
+		"german": "Durch meine Arbeit an C#/.NET Projekten und der Erstellung von Webseiten mit Angular bin ich mit Patterns wie Dependency Injection und mit den Standard-OOP-Patterns wie Factory, Singleton und Observer vertraut. In der funktionalen Programmierung benutze ich gängige Patterns wie Pure Functions und Reducers in Redux sowie Higher-Order-Functions und Custom Hooks in React."
 	},
 	"learnNewTechFast": {
 		"english": "For an example of my ability to learn quickly and efficiently in new technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
