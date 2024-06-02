@@ -22,6 +22,7 @@ interface IAppContext {
 	closedJobApplications: OverviewJobApplication[];
 	currentlyCreatingApplication: boolean;
 	groupedApplicationDayReport: GroupedApplicationDayReport;
+	handleFetchApplications: () => void;
 }
 
 interface IAppProvider {
@@ -132,6 +133,10 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 		}
 	};
 
+	const handleFetchApplications = () => {
+		alert('fetch from appcontext')
+	}
+
 	return (
 		<AppContext.Provider
 			value={{
@@ -144,7 +149,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				processingJobApplications,
 				closedJobApplications,
 				currentlyCreatingApplication,
-				groupedApplicationDayReport
+				groupedApplicationDayReport,
+				handleFetchApplications
 			}}
 		>
 			{children}

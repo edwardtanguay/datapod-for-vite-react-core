@@ -15,6 +15,7 @@ export const PageJobApplications = () => {
 		closedJobApplications,
 		currentlyCreatingApplication,
 		groupedApplicationDayReport,
+		handleFetchApplications
 	} = useContext(AppContext);
 	const [currentJobApplications, setCurrentJobApplications] = useState<
 		OverviewJobApplication[]
@@ -48,9 +49,6 @@ export const PageJobApplications = () => {
 		}
 	}, [todoJobApplications]);
 
-	const handleFetchApplications = () => {
-		alert('fetch')
-	}
 
 	return (
 		<>
