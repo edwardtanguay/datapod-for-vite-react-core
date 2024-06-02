@@ -8,7 +8,7 @@ export const DailyApplicationReport = () => {
 	return (
 		<section>
 			<>
-			<h2 className="mb-3 text-xl">{} Applications</h2>
+			<h2 className="mb-3 text-xl">{fullReport.totalApplications} Applications</h2>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];

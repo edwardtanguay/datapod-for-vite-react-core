@@ -1,7 +1,6 @@
 import {
 	ApplicationDay,
 	FullJobApplication,
-	FullReport,
 	GroupedApplicationDayReport,
 	Job,
 	JobApplication,
@@ -99,12 +98,12 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 	return fullJobApplications;
 };
 
-export const getGroupedApplicationDayReport = () => {
+export const getFullReport = () => {
 	const overviewJobApplications = model.getOverviewApplications();
 	overviewJobApplications.sort((a, b) =>
 		a.letterDate < b.letterDate ? 1 : -1
 	);
-	const days: ApplicationDay[] = [];
+	const applicationDays: ApplicationDay[] = [];
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.letterDate.trim() !== "") {
 			const day: ApplicationDay = {
@@ -112,12 +111,12 @@ export const getGroupedApplicationDayReport = () => {
 				company: overviewJobApplication.job.company,
 				letterDate: overviewJobApplication.letterDate,
 			};
-			days.push(day);
+			applicationDays.push(day);
 		}
 	}
 
 	const groupedApplicationDayReport: GroupedApplicationDayReport =
-		days.reduce((acc, day) => {
+		applicationDays.reduce((acc, day) => {
 			const date = day.letterDate.split(" ")[0];
 			if (!acc[date]) {
 				acc[date] = [];
@@ -126,16 +125,11 @@ export const getGroupedApplicationDayReport = () => {
 			return acc;
 		}, {});
 
-	return groupedApplicationDayReport;
-};
-
-export const getFullReport = (): FullReport => {
-	const groupedApplicationDayReport = model.getGroupedApplicationDayReport();
 	return {
-		totalApplications: 999,
+		totalApplications: applicationDays.length,
 		groupedApplicationDayReport
 	}
-}
+};
 
 export const getOverviewApplications = (): OverviewJobApplication[] => {
 	const overviewJobApplications: OverviewJobApplication[] = [];

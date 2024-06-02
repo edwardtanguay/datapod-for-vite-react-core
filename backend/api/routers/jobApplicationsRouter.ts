@@ -26,11 +26,6 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	res.json(overviewJobApplications);
 });
 
-jobApplicationsRouter.get("/grouped-application-day-report", (_req, res) => {
-	const groupedApplicationDayReport = model.getGroupedApplicationDayReport();
-	res.json(groupedApplicationDayReport);
-});
-
 jobApplicationsRouter.get("/full-report", (_req, res) => {
 	const fullReport = model.getFullReport();
 	res.json(fullReport);
