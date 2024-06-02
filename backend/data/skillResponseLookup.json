@@ -78,7 +78,8 @@
 		"english": "I can't say that I am an expert in real-time systems at the moment, but I would be very interested in hearing what kinds of real-time systems you plan to develop."
 	},
 	"fullstackApplicationsInUse": {
-		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB)."
+		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
+		"german": "Während meiner über 20-jährigen Erfahrung als Webentwickler habe ich zahlreiche Anwendungen erstellt und bei deren Erstellung geholfen, die von Unternehmen und Kunden genutzt werden. Den Großteil meiner Berufserfahrung seit 2001 habe ich in den Stacks .NET/C# und LAMP (PHP/MySQL) gesammelt. Seit 2018 arbeite ich in Entwicklungsteams und schule andere darin, wie man Webanwendungen im MERN-Stack (Node/Express, React und MongoDB) erstellt."
 	},
 	"vcBackedStartup": {
 		"english": "Particularly during my time with ASDIS Software AG, I was part of a company that was backed by VC money and was expanding rapidly."
@@ -94,7 +95,7 @@
 	},
 	"computerScienceDegreeOrSimilar": {
 		"english": "I started programming computers in the 80s and was creating websites for university projects in the 90s. Since 2001 when I joined Microsoft, I have worked as a full-time, professional web developer at numerous companies in various technology platforms including .NET/C# and the LAMP and MERN stacks.",
-		"german": "Ich habe in den 80er Jahren mit dem Programmieren von Computern begonnen und in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001 habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, u.a. .NET/C# und die LAMP- und MERN-Stacks."
+		"german": "Ich habe schon in den 90er Jahren Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001 habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, u.a. .NET/C# und die LAMP- und MERN-Stacks."
 	},
 	"javascriptJava": {
 		"english": "I have been using JavaScript for application development since the early 2000s with the advent of AJAX which enabled websites to communicate directly with the server. I have taken university courses in Java in which we completed projects with Java using Eclipse. The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
