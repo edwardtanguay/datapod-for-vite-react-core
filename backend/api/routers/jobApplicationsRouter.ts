@@ -16,8 +16,12 @@ jobApplicationsRouter.get("/fullJobApplications", (_req, res) => {
 	res.json(fullJobApplications);
 });
 
-// const getKind = ( fullJobApplication: FullJobApplication): OverviewJobApplicationKind => {
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	const overviewJobApplications = model.getOverviewApplications();
 	res.json(overviewJobApplications);
+});
+
+jobApplicationsRouter.get("/applications-sent-by-day", (_req, res) => {
+	const overviewJobApplications = model.getOverviewApplications();
+	res.json(`there are ${overviewJobApplications.length}`);
 });

@@ -8,3 +8,6 @@ GET {{url}}/job-applications/fullJobApplications
 
 ### OVERVIEW JOB APPLICATIONS
 GET {{url}}/job-applications/overviewJobApplications
+
+### APPLICATIONS SENT BY DAY
+GET {{url}}/job-applications/applications-sent-by-day
