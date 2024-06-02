@@ -11,7 +11,6 @@ import _jobs from "../../data/jobs.json";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as tools from "../tools/jobApplicationsTools.js";
-import * as model from "./jobApplicationsModel.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 
 
@@ -33,6 +32,7 @@ export const getJobApplications = (): JobApplication[] => {
 	const jobApplicationsGroup = dpodItemGroupDataItems.find(
 		(m) => m.idCode === "jobApplications"
 	);
+	console.log('jobApplicationsGroup',jobApplicationsGroup);
 	if (jobApplicationsGroup) {
 		const jsonData = jobApplicationsGroup.jsonData;
 		const jobApplications: JobApplication[] = JSON.parse(jsonData);
@@ -52,6 +52,7 @@ const getJobCompany = (job: Job) => {
 export const getFullJobApplications = (): FullJobApplication[] => {
 	const fullJobApplications: FullJobApplication[] = [];
 	const jobApplications = getJobApplications();
+	console.log('jobApplciations', jobApplications.length);
 	for (const jobApplication of jobApplications) {
 		const [attachmentText1, attachmentText2, attachmentText3] =
 			tools.getAttachmentTexts(jobApplication);
@@ -93,13 +94,14 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 			fullJobApplications.push(fullJobApplication);
 		}
 	}
+	console.log('full', fullJobApplications.length);
 	return fullJobApplications;
 };
 
 export const getOverviewApplications = ():OverviewJobApplication[] => {
 	const overviewJobApplications: OverviewJobApplication[] = [];
-	const fullJobApplications = model.getFullJobApplications();
-	for (const job of model.getJobs()) {
+	const fullJobApplications = getFullJobApplications();
+	for (const job of getJobs()) {
 		const fullJobApplication = fullJobApplications.find((m) => {
 			return m.baseJobId === job.id;
 		});

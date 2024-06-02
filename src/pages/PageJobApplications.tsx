@@ -48,6 +48,10 @@ export const PageJobApplications = () => {
 		}
 	}, [todoJobApplications]);
 
+	const handleFetchApplications = () => {
+		alert('fetch')
+	}
+
 	return (
 		<>
 			{pageIsReady && (
@@ -108,7 +112,7 @@ export const PageJobApplications = () => {
 						{currentJobApplications.map(
 							(currentJobApplication, index) => {
 								return (
-									<>
+									<div key={index}>
 										{currentJobApplication.kind ===
 											"todo" && (
 											<TodoJobApplication
@@ -136,18 +140,20 @@ export const PageJobApplications = () => {
 												key={index}
 											/>
 										)}
-									</>
+									</div>
 								);
 							}
 						)}
 					</main>
 					<section>
+						<>
+						<button className="generic" onClick={handleFetchApplications}>fetch applications</button>
 						{Object.entries(groupedApplicationDayReport).map(
 							(kv, index) => {
 								const day = kv[0];
 								const applications = kv[1];
 								return (
-									<>
+									<div key={day}>
 										<div key={index} className="font-semibold bg-slate-300 px-1 rounded">{day}</div>
 										<ul className="list-disc ml-6 mb-2 pt-1">
 											{applications.map((application, index) => {
@@ -156,10 +162,11 @@ export const PageJobApplications = () => {
 												)
 											})}
 										</ul>
-									</>
+									</div>
 								);
 							}
 						)}
+						</>
 					</section>
 				</section>
 			)}

@@ -8,7 +8,6 @@ import {
 // import * as qdev from "../../../share/qtools/qdev.js";
 
 const jobs = model.getJobs();
-const fullJobApplications = model.getFullJobApplications();
 
 export const jobApplicationsRouter = Router();
 
@@ -16,7 +15,13 @@ jobApplicationsRouter.get("/jobs", (_req, res) => {
 	res.json(jobs);
 });
 
+jobApplicationsRouter.get("/jobApplications", (_req, res) => {
+	const jobApplications = model.getJobApplications();
+	res.json(jobApplications);
+});
+
 jobApplicationsRouter.get("/fullJobApplications", (_req, res) => {
+	const fullJobApplications = model.getFullJobApplications();
 	res.json(fullJobApplications);
 });
 
@@ -42,14 +47,15 @@ jobApplicationsRouter.get("/grouped-application-day-report", (_req, res) => {
 		}
 	}
 
-	const groupedApplicationDayReport: GroupedApplicationDayReport = days.reduce((acc, day) => {
-		const date = day.letterDate.split(" ")[0];
-		if (!acc[date]) {
-			acc[date] = [];
-		}
-		acc[date].push(day);
-		return acc;
-	}, {});
+	const groupedApplicationDayReport: GroupedApplicationDayReport =
+		days.reduce((acc, day) => {
+			const date = day.letterDate.split(" ")[0];
+			if (!acc[date]) {
+				acc[date] = [];
+			}
+			acc[date].push(day);
+			return acc;
+		}, {});
 
 	res.json(groupedApplicationDayReport);
 });
