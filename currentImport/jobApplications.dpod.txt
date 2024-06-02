@@ -461,5 +461,10 @@ earliestStartDate::
 closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der ausgeschriebenen Stelle noch mehr geweckt. Gerne würde ich mehr über diese Stelle und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
 history::[[
 - 2024-06-02 18:01:29; created
-- 2024-06-02 18:41:48; proofreading...
+- 2024-06-02 18:41:48; proofread
+- 2024-06-02 20:21:14; you could only upload one document so I uploaded the cover letter instead of my cv
+- 2024-06-02 20:21:45; made an account
+- 2024-06-02 20:22:13; was confirmed on site: "bitten wir Sie um etwas Geduld"
+- 2024-06-02 20:28:36; got e-mail confirmation: "vielen Dank für Ihre Bewerbung auf die Position als Full Stack Software Engineer (m/w/d) - React/ Node.js mit der Referenznummer JN-052024-6439572 "
+- 2024-06-02 20:29:13; todo: call about not being able to upload CV
 ]]
