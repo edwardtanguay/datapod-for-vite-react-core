@@ -68,7 +68,7 @@
 		"english": "Advertising stacks would also be a new area for me."
 	},
 	"node": {
-		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component. I have used Node extensively to build backend APIs with Express and backend data-driveen web servers with EJS and Mustache templateing engines which connect to MongoDB and MySQL databases.",
+		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component. I have used Node extensively to build backend APIs with Express and backend data-driven web servers with EJS and Mustache templateing engines which connect to MongoDB and MySQL databases.",
 		"german": "Bei meiner jetzigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, wo Node eine Kernkomponente ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webservers mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"firebaseEtc": {
@@ -135,7 +135,7 @@
 	},
 	"webTechnologies": {
 		"english": "I've been working with and keeping up on the browser ecosystem ever since the browser wars of the 1990s and throughout my many battles with Netscape 4 and Internet Explorer 6. I have decade-long, solid skills in frontend development.",
-		"german": "Mit Frontend-Architekturen arbeite ich seit den Browserkriegen der 1990er Jahre. Ich habe im Laufe der Zeit jedes Update dieser Technologien miterlebt und gelernt, beispielsweise semantische Änderungen in HTML5, Flexbox und Grid in CSS3 und die neuen Funktionen, und die ES6 für JavaScript mit sich brachte. Ich verfüge über jahrzehntelange, solide Kenntnisse in der Frontend-Entwicklung."
+		"german": "Mit Frontend-Architekturen arbeite ich seit den Browserkriegen der 1990er Jahre. Ich habe im Laufe der Zeit jedes Update dieser Technologien miterlebt und gelernt, beispielsweise semantische Änderungen in HTML5, Flexbox und Grid in CSS3, und die neuen ES6 Features in JavaScript. Ich verfüge über jahrzehntelange, solide Kenntnisse in der Frontend-Entwicklung."
 	},
 	"vueSvelteSolidjsReact": {
 		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases."
@@ -221,11 +221,15 @@
 	},
 	"angularVueReact": {
 		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>.",
-		"german": "Seit drei Jahren unterrichte ich React als Zentralthema in einem MERN-Stack Kurs an der Digital Career Institute in Berlin. Meine Fähigkeiten in React und seinem Ecosystem sind sehr gut. Um meine Kenntnisse in JavaScript-Frameworks über React hinaus zu erweitern und zu vertiefen, habe ich die folgenden öffentlich zugänglichen Websites erstellt: <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js 13</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue 3</a> und <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a> die ich regelmäßig benutze."
+		"german": "Seit drei Jahren unterrichte ich React als Zentralthema in einem MERN-Stack Kurs an der Digital Career Institute in Berlin. Meine Fähigkeiten in React und seinem Ecosystem sind sehr gut. Um meine Kenntnisse in JavaScript-Frameworks über React hinaus zu erweitern und zu vertiefen, habe ich folgende öffentlich zugänglichen Websites erstellt, die ich regelmäßig benutze und weiterentwickle: <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js 13</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue 3</a> und <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
 	},
 	"cloud": {
 		"english": "As a web developer at GEFEG mbh, I was responsible for moving our Strato infrastructure to AWS in which my main task was to set up Windows and Linux operating systems EC2 virtual machines.",
 		"german": "Als Webentwickler bei der GEFEG mbH war ich für die Migration unserer Strato-Infrastruktur zu AWS verantwortlich, wobei meine Hauptaufgabe darin bestand, virtuelle EC2-Maschinen mit Windows- und Linux-Betriebssystemen zu erstellen und Kunden-Websites auf diese Maschinen zu migrieren und neu einzurichten."
+	},
+	"htmlCssJavascriptRest": {
+		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. REST is a standard topic that I have been teaching for the past three years as a web developer instructor as part of the MERN-stack, e.g. for building backend APIs with Node and Express which connect to MongoDB and MySQL databases.",
+		"german": "Ich entwickle seit den 1990er Jahren Websites mit HTML, CSS und JavaScript. REST ist ein Standardthema, das ich seit drei Jahren als Dozent für Webentwicklung im Rahmen des MERN-Stacks unterrichte, z. B. das Erstellen von Backend-APIs mit Node und Express, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"nnn": {
 		"english": "nnn",

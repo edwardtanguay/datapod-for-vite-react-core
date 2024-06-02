@@ -302,6 +302,7 @@ salaryTo::0
 earliestStartDate::
 closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert sind. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und das Unternehmen ASTRIAL erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
 history::[[
+- 2024-06-02 09:18:37; info: this company is located at the beginning of my 30K Adlershof run
 - 2024-06-01 18:47:08; created
 - 2024-06-01 21:10:58; proofread
 - 2024-06-02 07:34:45; sent application via e-mail to info@astrial.de
@@ -316,19 +317,25 @@ letterDate::2024-06-02 07:36:44
 skillTextsBlock::[[
 Ein abgeschlossenes Studium im Bereich Informatik oder vergleichbare Qualifikationen;computerScienceDegreeOrSimilar
 Mehrjährige Berufserfahrung im Fachgebiet (z.B. im Web-Umfeld);fullstackApplicationsInUse
-Gute Kenntnisse von JavaScript, HTML, CSS und REST API;basicsGitTypeScriptRest
+Gute Kenntnisse von JavaScript, HTML, CSS und REST API;htmlCssJavascriptRest
 Gute Kenntnisse von angular, react und/oder vue.js;angularVueReact
 Kenntnisse von Frontend-Architekturen;webTechnologies
 Erfahrungen mit Cloud und TypeScript sind “nice to have”;cloud, typescript
 ]]
 customText::
 customOutlineText::
-contactFullName::
-contactGender::
-contactEmail::
-contactAddress::
+contactFullName::Leonard Eisenberg
+contactGender::male
+contactEmail::eisenberg@techpunk.com
+contactAddress::[[
+Chausseestraße 103
+10115 Berlin
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::
-history::- 2024-06-02 07:36:44; creating...
+closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert sind. Gerne würde ich mehr über das Team, ihre Entwicklungsprozesse und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
+history::[[
+- info; this recruiter is located next to the Museum für Naturkunde
+- 2024-06-02 07:36:44; creating...
+]]
