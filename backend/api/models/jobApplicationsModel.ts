@@ -1,6 +1,7 @@
 import {
 	ApplicationDay,
 	FullJobApplication,
+	FullReport,
 	GroupedApplicationDayReport,
 	Job,
 	JobApplication,
@@ -127,6 +128,14 @@ export const getGroupedApplicationDayReport = () => {
 
 	return groupedApplicationDayReport;
 };
+
+export const getFullReport = (): FullReport => {
+	const groupedApplicationDayReport = model.getGroupedApplicationDayReport();
+	return {
+		totalApplications: 999,
+		groupedApplicationDayReport
+	}
+}
 
 export const getOverviewApplications = (): OverviewJobApplication[] => {
 	const overviewJobApplications: OverviewJobApplication[] = [];

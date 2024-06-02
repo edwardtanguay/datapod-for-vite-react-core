@@ -14,3 +14,6 @@ GET {{url}}/job-applications/overviewJobApplications
 
 ### APPLICATIONS SENT BY DAY
 GET {{url}}/job-applications/grouped-application-day-report
+
+### FULL REPORT
+GET {{url}}/job-applications/full-report
