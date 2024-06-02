@@ -3,13 +3,13 @@ import { AppContext } from "../AppContext";
 
 export const DailyApplicationReport = () => {
 	const {
-		groupedApplicationDayReport,
+	fullReport
 	} = useContext(AppContext);
 	return (
 		<section>
 			<>
 			<h2 className="mb-3 text-xl">{} Applications</h2>
-				{Object.entries(groupedApplicationDayReport).map(
+				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];
 						const applications = kv[1];

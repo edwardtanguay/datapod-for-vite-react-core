@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { createContext, useEffect, useState } from "react";
 import {
-	GroupedApplicationDayReport,
+	FullReport,
 	IAppData,
 	OverviewJobApplication,
 	blankAppData,
@@ -19,7 +19,7 @@ interface IAppContext {
 	processingJobApplications: OverviewJobApplication[];
 	closedJobApplications: OverviewJobApplication[];
 	currentlyCreatingApplication: boolean;
-	groupedApplicationDayReport: GroupedApplicationDayReport;
+	fullReport: FullReport;
 }
 
 interface IAppProvider {
@@ -44,8 +44,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	>([]);
 	const [currentlyCreatingApplication, setCurrentlyCreatingApplication] =
 		useState(false);
-	const [groupedApplicationDayReport, setGroupedApplicationDayReport] =
-		useState<GroupedApplicationDayReport>({});
+	const [fullReport, setFullReport] =
+		useState<FullReport>({} as FullReport);
 
 	useEffect(() => {
 		(async () => {
@@ -54,14 +54,14 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 		})();
 	}, []);
 
-	const loadGroupedApplicationDayReport = async () => {
+	const loadFullReport = async () => {
 		(async () => {
 			const response = await axios.get(
-				`${appconfig.backendBaseUrl()}/job-applications/grouped-application-day-report`
+				`${appconfig.backendBaseUrl()}/job-applications/full-report`
 			);
-			const _groupedApplicationDayReport: GroupedApplicationDayReport =
+			const _fullReport: FullReport =
 				response.data;
-			setGroupedApplicationDayReport(_groupedApplicationDayReport);
+			setFullReport(_fullReport);
 		})();
 	};
 
@@ -105,7 +105,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 
 	useEffect(() => {
 		setTimeout(() => {
-			loadGroupedApplicationDayReport();
+			loadFullReport();
 		}, 100);
 	}, []);
 
@@ -135,7 +135,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				processingJobApplications,
 				closedJobApplications,
 				currentlyCreatingApplication,
-				groupedApplicationDayReport,
+				fullReport
 			}}
 		>
 			{children}
