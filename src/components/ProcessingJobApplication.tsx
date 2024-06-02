@@ -97,7 +97,7 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 			{somethingIsOpen() ? (
 				<div className="outlineInJobApplication">
 					{showingHistory && (
-						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3">
+						<section className="bg-slate-500 w-[60rem] rounded-b-lg p-4 mb-3 text-yellow-300">
 							<span
 								dangerouslySetInnerHTML={{
 									__html: currentJobApplication.fullJobApplication
