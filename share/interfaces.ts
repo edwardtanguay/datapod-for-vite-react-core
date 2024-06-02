@@ -67,6 +67,7 @@ export type JobApplication = {
 	dpodId: string;
 	language: "english" | "german";
 	baseJobId: number;
+	referenceId: string;
 	contactKind: "company" | "recruiter";
 	letterDate: string;
 	skillTextsBlock: string;

@@ -104,10 +104,12 @@ export const getHeaderLine1 = (
 	job: Job,
 	jobApplication: JobApplication
 ): string => {
+	const referenceText = jobApplication.referenceId.trim() !== '' ? '(nnn)' : '';
+	console.log('111', referenceText);
 	if (jobApplication.language === "english") {
-		return `Application for the position of ${job.title}`;
+		return `Application for the position of ${job.title}${referenceText}`;
 	} else {
-		return `Bewerbung um die Stelle als ${job.title}`;
+		return `Bewerbung um die Stelle als ${job.title}${referenceText}`;
 	}
 };
 
