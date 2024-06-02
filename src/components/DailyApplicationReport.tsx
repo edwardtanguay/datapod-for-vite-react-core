@@ -8,6 +8,7 @@ export const DailyApplicationReport = () => {
 	return (
 		<section>
 			<>
+			<h2 className="mb-3 text-xl">{} Applications</h2>
 				{Object.entries(groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];
@@ -24,7 +25,7 @@ export const DailyApplicationReport = () => {
 									{applications.map((application, index) => {
 										return (
 											<li key={index}>
-												{application.company}
+												<span className="font-semibold">{application.title}</span> - <span className="italic text-slate-700">{application.company}</span>
 											</li>
 										);
 									})}
