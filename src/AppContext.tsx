@@ -101,10 +101,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			);
 
 			for (const _processingJobApplciation of _processingJobApplciations) {
-				if (
-					_processingJobApplciation.lastStatus ===
-					"creating..." || _processingJobApplciation.lastStatus === 'proofreading...'
-				) {
+				if (_processingJobApplciation.lastStatus.includes("...")) {
 					setCurrentlyCreatingApplication(true);
 					break;
 				}
@@ -132,7 +129,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				todoJobApplications,
 				processingJobApplications,
 				closedJobApplications,
-				currentlyCreatingApplication
+				currentlyCreatingApplication,
 			}}
 		>
 			{children}

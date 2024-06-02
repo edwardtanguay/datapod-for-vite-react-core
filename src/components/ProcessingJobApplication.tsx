@@ -33,8 +33,7 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 	useEffect(() => {
 		if (
 			currentlyCreatingApplication &&
-			(currentJobApplication.lastStatus === "creating..." ||
-				currentJobApplication.lastStatus === "proofreading...")
+			currentJobApplication.lastStatus.includes("...")
 		) {
 			setShowingContent(true);
 		}
@@ -54,13 +53,11 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 					<p
 						className="italic text-sm text-orange-950"
 						style={{
-							color:
-								currentJobApplication.lastStatus ===
-									"creating..." ||
-								currentJobApplication.lastStatus ===
-									"proofreading..."
-									? "yellow"
-									: "black",
+							color: currentJobApplication.lastStatus.includes(
+								"..."
+							)
+								? "yellow"
+								: "black",
 						}}
 					>
 						{currentJobApplication.lastStatus}
