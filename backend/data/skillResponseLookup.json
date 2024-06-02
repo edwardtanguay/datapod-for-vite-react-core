@@ -99,7 +99,7 @@
 	},
 	"javascriptJava": {
 		"english": "I have been using JavaScript for application development since the early 2000s with the advent of AJAX which enabled websites to communicate directly with the server. I have taken university courses in Java in which we completed projects with Java using Eclipse. The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
-		"german": "Ich verwende JavaScript für die Anwendungsentwicklung seit Anfang der 2000er Jahre, seit der Einführung von AJAX, das ermöglichte Websites direkt mit dem Server kommunizieren zu können. Ich habe an der Universität Java-Kurse belegt, in denen wir Projekte mit Java und Eclipse abgeschlossen haben. Die Syntax und OOP-Patterns von Java sind mir durch meine Kenntnisse und Erfahrungen mit C# vertraut."
+		"german": "Seit Anfang der 2000er Jahre verwende ich JavaScript für die Anwendungsentwicklung. Ich habe an der Universität Java-Kurse belegt, in denen wir Projekte mit Java und Eclipse abgeschlossen haben. Die Syntax und OOP-Patterns von Java sind mir durch meine Kenntnisse und Erfahrungen mit C# vertraut."
 	},
 	"angularReact": {
 		"english": "While React is the central framework that I have been using and teaching for the last five years, I also create Angular sites such as the this task management site for my open-source project which I created with <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
@@ -149,7 +149,7 @@
 	},
 	"independentGoalOriented": {
 		"english": "I enjoy taking personal responsibility for tasks from beginning to end, and work best in an environment with clearly-stated goals.",
-		"german": "Ich übernehme gerne von Anfang bis Ende die persönliche Verantwortung für Aufgaben und arbeite am besten in einer Umgebung mit klar formulierten Zielen."
+		"german": "Gerne übernehme ich von Anfang bis Ende die persönliche Verantwortung für Aufgaben und arbeite am besten in einer Umgebung mit klar formulierten Zielen."
 	},
 	"programmingProjects": {
 		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
@@ -165,7 +165,7 @@
 	},
 	"basicsGitTypeScriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend. Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years, and REST is a standard topic that I have been teaching for the past three years as a web developer instructor.",
-		"german": "Ich entwickle seit den 90er Jahren Websites mit HTML, CSS und JavaScript. Durch meinen C# Hintergrund und insbesondere durch das Unterrichten von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend. Git war das Standard-Versionskontrollsystem in allen Projekten und Jobs, an denen ich in den letzten 10 Jahren beteiligt war und REST ist ein Standardthema, das ich in den letzten drei Jahren als Dozent für Webentwicklung unterrichtet habe."
+		"german": "Seit den 90er Jahren entwickle ich Websites mit HTML, CSS und JavaScript. Durch meinen C# Hintergrund und insbesondere durch das Unterrichten von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend. Git war das Standard-Versionskontrollsystem in allen Projekten und Jobs, an denen ich in den letzten 10 Jahren beteiligt war und REST ist ein Standardthema, das ich in den letzten drei Jahren als Dozent für Webentwicklung unterrichtet habe."
 	},
 	"refactoringLegacyCode": {
 		"english": "Particulary in the PHP projects that I have been responsible for, refactoring of legacy code has been a challenge that I have faced throughout the years.",
@@ -177,11 +177,11 @@
 	},
 	"mobx": {
 		"english": "I have limited experience with MobX but look forward to using it in projects as it apparently has less boilerplate than Redux and uses more reactive concepts.",
-		"german": "Ich habe nur begrenzte Erfahrung mit MobX, freue mich aber darauf, es in Projekten zu verwenden, da es anscheinend weniger Boilerplate als Redux hat und mehr reaktive Konzepte verwendet."
+		"german": "Während ich bis jetzt nur begrenzte Erfahrung mit MobX habe, freue mich aber darauf, es in Projekten zu verwenden, da es anscheinend weniger Boilerplate als Redux hat und mehr reaktive Konzepte verwendet."
 	},
 	"htmlCssJavascript": {
 		"english": "I've been creating websites with HTML, CSS and JavaScript since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5, Flexbox and Grid in CSS3 and the many changes in JavaScript including the many new features in ES6, object-oriented JavaScript and the gradual use of TypeScript over JavaScript in complex projects.",
-		"german": "Ich erstelle seit den 90er Jahren Websites mit HTML, CSS und JavaScript und habe im Laufe der Jahre meine Kenntnisse in diesen Technologien mit jeder neuen Version verbessert, z.B. mit den semantischen Funktionen in HTML5, mit Flexbox und Grid in CSS3, und mit den vielen Änderungen in JavaScript ab ES6."
+		"german": "Seit den 90er Jahren erstelle ich Websites mit HTML, CSS und JavaScript und habe im Laufe der Jahre meine Kenntnisse in diesen Technologien mit jeder neuen Version verbessert, z.B. mit den semantischen Funktionen in HTML5, mit Flexbox und Grid in CSS3, und mit den vielen Änderungen in JavaScript ab ES6."
 	},
 	"npmWebpackBabel": {
 		"english": "My bundler of choice has been Parcel since it is the simplest to use generic bundling needs. I am familiar with Webpack from my use of Webpack 4 in a project for image optimization from 2019 with the image-webpack-loader plugin, and Babel was used for pollyfilling. For most sites that I host on Hetzner machines, I use npm scripts for the setup and deployment scripts.",
@@ -193,7 +193,7 @@
 	},
 	"linuxServers": {
 		"english": "I host React and Next.js websites on Debian machines on Hetzner using Nginx and PM2. My Linux administration skills are good.",
-		"german": "Ich hoste React- und Next.js-Websites auf Debian-Rechnern bei Hetzner mit Nginx und PM2. Meine Linux-Administrationskenntnisse sind gut. "
+		"german": "Seit drei Jahren hoste ich React- und Next.js-Websites auf Debian-Rechnern bei Hetzner mit Nginx und PM2. Ich habe Linux seit den 90er Jahren verwendet. Meine Linux-Administrationskenntnisse sind gut. "
 	},
 	"gitSvn": {
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years.",
