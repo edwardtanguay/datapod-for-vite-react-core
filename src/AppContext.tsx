@@ -134,7 +134,13 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	};
 
 	const handleFetchApplications = () => {
-		alert('fetch from appcontext')
+		(async () => {
+			const response = await axios.get(
+				`${appconfig.backendBaseUrl()}/job-applications/overviewJobApplications`
+			);
+			const _jobApplications = response.data;
+			console.log(_jobApplications.length);
+		})();
 	}
 
 	return (

@@ -13,7 +13,6 @@ import * as qstr from "../../../share/qtools/qstr.js";
 import * as tools from "../tools/jobApplicationsTools.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 
-
 // jobs (from online JSON file)
 export const getJobs = (): Job[] => {
 	const jobs: Job[] = _jobs;
@@ -29,10 +28,16 @@ export const getJobApplications = (): JobApplication[] => {
 	const entireContent = apptools.getEntireContent(fileObjects);
 	const dpodDataLoader = new DpodDataLoader(entireContent);
 	const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
+
+	if (dpodItemGroupDataItems) {
+		console.log("dpodItemGroupDataItems", dpodItemGroupDataItems);
+		console.log("dpodItemGroupDataItems", "exists");
+	} else {
+		console.log("dpodItemGroupDataItems", dpodItemGroupDataItems);
+	}
 	const jobApplicationsGroup = dpodItemGroupDataItems.find(
 		(m) => m.idCode === "jobApplications"
 	);
-	console.log('jobApplicationsGroup',jobApplicationsGroup);
 	if (jobApplicationsGroup) {
 		const jsonData = jobApplicationsGroup.jsonData;
 		const jobApplications: JobApplication[] = JSON.parse(jsonData);
@@ -44,15 +49,15 @@ export const getJobApplications = (): JobApplication[] => {
 
 // remove parentheses at then end, e.g. "Tech Punk GmbH (Recruiter)"
 const getJobCompany = (job: Job) => {
-	const parts = qstr.breakIntoParts(job.company, '(');
+	const parts = qstr.breakIntoParts(job.company, "(");
 	const company = parts[0];
 	return company;
-}
+};
 
 export const getFullJobApplications = (): FullJobApplication[] => {
 	const fullJobApplications: FullJobApplication[] = [];
 	const jobApplications = getJobApplications();
-	console.log('jobApplciations', jobApplications.length);
+	console.log("jobApplciations", jobApplications.length);
 	for (const jobApplication of jobApplications) {
 		const [attachmentText1, attachmentText2, attachmentText3] =
 			tools.getAttachmentTexts(jobApplication);
@@ -94,11 +99,11 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 			fullJobApplications.push(fullJobApplication);
 		}
 	}
-	console.log('full', fullJobApplications.length);
+	console.log("full", fullJobApplications.length);
 	return fullJobApplications;
 };
 
-export const getOverviewApplications = ():OverviewJobApplication[] => {
+export const getOverviewApplications = (): OverviewJobApplication[] => {
 	const overviewJobApplications: OverviewJobApplication[] = [];
 	const fullJobApplications = getFullJobApplications();
 	for (const job of getJobs()) {
@@ -138,4 +143,4 @@ export const getOverviewApplications = ():OverviewJobApplication[] => {
 		}
 	}
 	return overviewJobApplications;
-}
+};
