@@ -155,3 +155,8 @@ export type ApplicationDay = {
 export type GroupedApplicationDayReport = {
 	[date: string]: ApplicationDay[];
 };
+
+export type FullReport = {
+	totalApplications: number;
+	groupApplicationDayReport: GroupedApplicationDayReport;
+}

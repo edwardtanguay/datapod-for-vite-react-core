@@ -1,5 +1,7 @@
 import {
+	ApplicationDay,
 	FullJobApplication,
+	GroupedApplicationDayReport,
 	Job,
 	JobApplication,
 	OverviewJobApplication,
@@ -11,6 +13,7 @@ import _jobs from "../../data/jobs.json";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as tools from "../tools/jobApplicationsTools.js";
+import * as model from "./jobApplicationsModel.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 
 // jobs (from online JSON file)
@@ -93,6 +96,36 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 		}
 	}
 	return fullJobApplications;
+};
+
+export const getGroupedApplicationDayReport = () => {
+	const overviewJobApplications = model.getOverviewApplications();
+	overviewJobApplications.sort((a, b) =>
+		a.letterDate < b.letterDate ? 1 : -1
+	);
+	const days: ApplicationDay[] = [];
+	for (const overviewJobApplication of overviewJobApplications) {
+		if (overviewJobApplication.letterDate.trim() !== "") {
+			const day: ApplicationDay = {
+				title: overviewJobApplication.job.title,
+				company: overviewJobApplication.job.company,
+				letterDate: overviewJobApplication.letterDate,
+			};
+			days.push(day);
+		}
+	}
+
+	const groupedApplicationDayReport: GroupedApplicationDayReport =
+		days.reduce((acc, day) => {
+			const date = day.letterDate.split(" ")[0];
+			if (!acc[date]) {
+				acc[date] = [];
+			}
+			acc[date].push(day);
+			return acc;
+		}, {});
+
+	return groupedApplicationDayReport;
 };
 
 export const getOverviewApplications = (): OverviewJobApplication[] => {
