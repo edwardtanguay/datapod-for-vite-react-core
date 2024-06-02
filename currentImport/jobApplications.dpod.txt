@@ -431,7 +431,7 @@ history::[[
 ==jobApplication
 dpodId::tAIAgZ
 baseJobId::257
-referenceId::
+referenceId::JN-052024-6439572
 contactKind::recruiter
 language::german
 letterDate::2024-06-02 18:01:29
@@ -444,12 +444,18 @@ Teamfähigkeit und Kommunikation: Gute Kommunikationsfähigkeiten und die Fähig
 ]]
 customText::
 customOutlineText::
-contactFullName::
-contactGender::
+contactFullName::Emily Sorokin
+contactGender::female
 contactEmail::
-contactAddress::
+contactAddress::[[
+Hans-Böckler-Straße 33
+40476 Düsseldorf
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::
-history::- 2024-06-02 18:01:29; creating...
+closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der ausgeschriebenen Stelle noch mehr geweckt. Gerne würde ich mehr über diese Stelle und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
+history::[[
+- 2024-06-02 18:01:29; created
+- 2024-06-02 18:41:48; proofreading...
+]]

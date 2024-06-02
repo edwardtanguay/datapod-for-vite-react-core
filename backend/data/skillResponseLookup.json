@@ -276,6 +276,14 @@
 		"english": "At my web developer position at GEFEG mbh from 2018 to 2021, we used Docker extensively as part of our project to move customer web applications from Strato to AWS, and currently I use Docker to host fullstack React and Next.js applications on Hetzner machines.",
 		"german": "In meiner Position als Webentwickler bei GEFEG mbH von 2018 bis 2021 haben wir Docker im Rahmen unseres Projekts zur Migration von Kunden-Webanwendungen von Strato zu AWS umfassend verwendet, und derzeit verwende ich Docker, um Fullstack-React- und Next.js-Anwendungen auf Hetzner-Maschinen zu hosten."
 	},
+	"kubernetes": {
+		"english": "I have limited experience with Kubernetes but look forward to using it in a project which warrants its use.",
+		"german": "Ich habe nur begrenzte Erfahrung mit Kubernetes, freue mich aber darauf, es in einem Projekt einzusetzen, bei dem sein Einsatz gerechtfertigt ist."
+	},
+	"testing": {
+		"english": "Through my decade-long developer experience, I have learned that even for mid-sized projects of moderate complexity, good testing practices will save time, make code easier to read, enable new team members to get up to speed faster, and give the project stability and developers the confidence to make non-trivial changes even in the largest of projects.",
+		"german": "Durch meine zehnjährige Erfahrung als Entwickler habe ich gelernt, dass gute Testverfahren selbst bei mittelgroßen Projekten mit mäßiger Komplexität Zeit sparen, den Code leichter lesbar machen, neuen Teammitgliedern eine schnellere Einarbeitung ermöglichen und dem Projekt Stabilität verleihen sowie den Entwicklern das Vertrauen geben, selbst in den größten Projekten nicht unerhebliche Änderungen vorzunehmen."
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"
