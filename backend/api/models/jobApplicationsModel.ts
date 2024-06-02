@@ -39,6 +39,10 @@ export const getJobApplications = (): JobApplication[] => {
 	}
 };
 
+const getJobCompany = (job: Job) => {
+	return job.company + '222';
+}
+
 export const getFullJobApplications = (): FullJobApplication[] => {
 	const fullJobApplications: FullJobApplication[] = [];
 	const jobApplications = getJobApplications();
@@ -54,7 +58,7 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 				letterDate: jobApplication.letterDate,
 				contactSalutation: tools.buildContactSaluation(jobApplication),
 				jobTitle: job.title,
-				company: job.company,
+				company: getJobCompany(job),
 				nameForCellPhone: tools.getNameForCellPhone(jobApplication),
 				companyAddressLines: tools.getAddressLines(jobApplication),
 				headerLine1: tools.getHeaderLine1(job, jobApplication),
