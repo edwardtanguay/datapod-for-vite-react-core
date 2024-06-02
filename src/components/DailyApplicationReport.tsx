@@ -8,6 +8,7 @@ export const DailyApplicationReport = () => {
 	return (
 		<section>
 			<>
+				<p>days: {fullReport.totalDays}</p>
 			<h2 className="mb-3 text-xl">{fullReport.totalApplications} Applications</h2>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {

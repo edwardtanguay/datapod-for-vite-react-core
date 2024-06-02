@@ -1,6 +1,7 @@
 import {
 	ApplicationDay,
 	FullJobApplication,
+	FullReport,
 	GroupedApplicationDayReport,
 	Job,
 	JobApplication,
@@ -98,7 +99,7 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 	return fullJobApplications;
 };
 
-export const getFullReport = () => {
+export const getFullReport = (): FullReport => {
 	const overviewJobApplications = model.getOverviewApplications();
 	overviewJobApplications.sort((a, b) =>
 		a.letterDate < b.letterDate ? 1 : -1
@@ -127,6 +128,7 @@ export const getFullReport = () => {
 
 	return {
 		totalApplications: applicationDays.length,
+		totalDays: Object.keys(groupedApplicationDayReport).length,
 		groupedApplicationDayReport
 	}
 };
