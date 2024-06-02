@@ -393,5 +393,26 @@ closingParagraph::
 history::[[
 - 2024-06-02 12:15:54; created
 - 2024-06-02 13:33:34; proofread
-- 2024-06-02 13:56:36; posting...
+- 2024-06-02 13:56:36; posted
+- 2024-06-02 14:11:11; received e-mail confirmation, "Bitte haben Sie etwas Geduld. Wir prüfen Ihre Bewerbung"
 ]]
+
+==jobApplication
+dpodId::Z2BL9R
+baseJobId::248
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-02 14:20:33
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-02 14:20:33; creating...

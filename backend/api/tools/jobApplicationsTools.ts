@@ -105,7 +105,6 @@ export const getHeaderLine1 = (
 	jobApplication: JobApplication
 ): string => {
 	const referenceText = jobApplication.referenceId.trim() !== '' ? ` (${jobApplication.referenceId})` : '';
-	console.log('111', referenceText);
 	if (jobApplication.language === "english") {
 		return `Application for the position of ${job.title}${referenceText}`;
 	} else {
