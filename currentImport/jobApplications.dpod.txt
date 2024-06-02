@@ -273,7 +273,7 @@ history::[[
 dpodId::OpU852
 baseJobId::255
 language::german
-letterDate::2024-06-01 18:47:08
+letterDate::2024-06-02 07:23:03
 skillTextsBlock::[[
 Erfahrung im Web-Design mit React Javascript und HTML/CSS;htmlCssJavascript,react
 Erfahrung mit den React State Management Frameworks Redux / MobX;redux, mobx
@@ -303,5 +303,7 @@ earliestStartDate::
 closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert sind. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und das Unternehmen ASTRIAL erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
 history::[[
 - 2024-06-01 18:47:08; created
-- 2024-06-01 21:10:58; proofreading...
+- 2024-06-01 21:10:58; proofread
+- 2024-06-02 07:34:45; sent application via e-mail to info@astrial.de
+- 2024-06-02 07:35:56; waiting for confirmation mail
 ]]
