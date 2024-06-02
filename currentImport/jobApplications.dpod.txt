@@ -401,7 +401,7 @@ history::[[
 dpodId::slLLf6
 baseJobId::258
 referenceId::
-contactKind::company
+contactKind::recruiter
 language::german
 letterDate::2024-06-02 15:35:25
 skillTextsBlock::[[
@@ -412,12 +412,18 @@ Für die Kommunikation in Deinem Team sprichst Du fließend Deutsch;germanEnglis
 ]]
 customText::
 customOutlineText::
-contactFullName::
-contactGender::
-contactEmail::
-contactAddress::
+contactFullName::Tabea Ade
+contactGender::female
+contactEmail::t.ade@ratbacher.de
+contactAddress::[[
+Kronprinzstraße 28
+D-70173 Stuttgart
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::
-history::- 2024-06-02 15:35:25; creating...
+history::[[
+- 2024-06-02 15:35:25; created
+- 2024-06-02 18:00:56; proofreading...
+]]
