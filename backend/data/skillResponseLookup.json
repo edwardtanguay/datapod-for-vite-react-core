@@ -229,15 +229,15 @@
 	},
 	"htmlCssJavascriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. REST is a standard topic that I have been teaching for the past three years as a web developer instructor as part of the MERN-stack, e.g. for building backend APIs with Node and Express which connect to MongoDB and MySQL databases.",
-		"german": "Seit den 90er Jahren entwickle ich Websites mit HTML, CSS und JavaScript. REST ist ein Standardthema, das ich seit drei Jahren als Dozent für Webentwicklung im Rahmen des MERN-Stacks unterrichte, z. B. das Erstellen von Backend-APIs mit Node und Express, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
+		"german": "Seit den 90er Jahren entwickle ich Websites mit HTML, CSS und JavaScript. REST ist ein Standardthema, das ich seit drei Jahren als Dozent für Webentwicklung im Rahmen des MERN-Stacks unterrichte, z.B. das Erstellen von Backend-APIs mit Node und Express, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"php": {
 		"english": "I have decade-long experience programming and teaching PHP. Since 2005 I have been using object-oriented PHP at numerous companies and in many projects to create website applications and backend APIs. In 2008, I produced an 8-hour training video \"Professional Programming in PHP\" for the Austrian company Video2Brain (now owned by LinkedIn). Here is an example video from that series: <a href=\"https://www.youtube.com/watch?v=yj3ZzZVnzm8\">Lambdas and Closures</a>.",
-		"german": "Seit 2005 verwende ich objektorientiertes PHP in vielen verschiedenen Projekten und Unternehmen, um Website-Anwendungen und Backend-APIs zu erstellen. 2008 produzierte ich für das österreichische Unternehmen Video2Brain (jetzt im Besitz von LinkedIn) ein 8-stündiges Schulungsvideo \"Professionelles Programmieren in PHP\". Hier ist eines meiner Videos aus dieser Serie: <a href=\"https://www.youtube.com/watch?v=yj3ZzZVnzm8\">Lambdas und Closures</a>. "
+		"german": "Seit 2005 verwende ich objektorientiertes PHP in vielen verschiedenen Projekten und Unternehmen, um Website-Anwendungen und Backend-APIs zu erstellen. 2008 produzierte ich für das österreichische Unternehmen Video2Brain (jetzt im Besitz von LinkedIn) ein 8-stündiges Schulungsvideo \"Professionelles Programmieren in PHP\". Siehe eines meiner Videos aus dieser Serie: <a href=\"https://www.youtube.com/watch?v=yj3ZzZVnzm8\">Lambdas und Closures</a>. "
 	},
 	"sass": {
 		"english": "I use Sass in projects both as the main CSS strategy (e.g. using the 7-1 Sass folder structure pattern), but also as a supporting technology to Tailwind in projects where I explicitly need the more advanced features of Sass such as mixins and color functions.",
-		"german": "Ich verwende Sass in Projekten sowohl als Haupt-CSS-Strategie (z. B. mithilfe des 7-1 Sass Folder Structure Pattern), aber auch als unterstützende Technologie für Tailwind in Projekten, in denen ich ausdrücklich die erweiterten Funktionen von Sass wie Mixins und Farbfunktionen benötige."
+		"german": "Ich verwende Sass in Projekten sowohl als Haupt-CSS-Strategie (z.B. mithilfe des 7-1 Sass Folder Structure Pattern), aber auch als unterstützende Technologie für Tailwind in Projekten, in denen ich ausdrücklich die erweiterten Funktionen von Sass wie Mixins und Farbfunktionen benötige."
 	},
 	"mysql": {
 		"english": "I have been using MySQL in LAMP stack projects since the early 2000s. I have a solid knowledge of both classic SQL and using cloud or Docker hosted MySQL instances with ORMs like Prisma.",
@@ -249,7 +249,11 @@
 	},
 	"vue": {
 		"english": "While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well.",
-		"german": "Während meiner Tätigkeit bei der zappmedia GmbH von 2014 bis 2018 haben wir Smarty (eine PHP-Template-Engine) durch Vue ersetzt, um das Frontend unserer statischen PHP-Website vollständig interaktiv zu gestalten. Ich unterrichte in meinem Unterricht auch Vue und Nuxt als alternative Frameworks."
+		"german": "Während meiner Tätigkeit bei der zappmedia GmbH von 2014 bis 2018 haben wir Smarty (eine PHP-Template-Engine) durch Vue ersetzt, um das Frontend unserer statischen PHP-Website vollständig interaktiv zu gestalten. Ich unterrichte in meinem MERN-Stack Webentwicklungskurs auch Vue und Nuxt als alternative Frameworks."
+	},
+	"excitementLearn": {
+		"english": "For an example of my ability to learn quickly and efficiently in new technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
+		"german": "Ein Beispiel für meine Begeisterung, neue Technologien zu lernen, finden Sie in meinen <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">über 800 Howtos</a>, die ich in den letzten Jahren erstellt habe."
 	},
 	"nnn": {
 		"english": "nnn",
