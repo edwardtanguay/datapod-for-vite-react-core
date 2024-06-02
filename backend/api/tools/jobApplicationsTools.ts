@@ -296,7 +296,15 @@ export const getStartDateLine = (jobApplication: JobApplication): string => {
 };
 
 export const getClosingParagraph = (jobApplication: JobApplication): string => {
-	return jobApplication.closingParagraph;
+	if (jobApplication.closingParagraph.trim() !== "") {
+		return jobApplication.closingParagraph;
+	} else {
+		if (jobApplication.contactKind === "recruiter") {
+			return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing in Projekten dieser Firma organisiert sind. Gerne würde ich mehr über diese Stelle und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
+		} else {
+			return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert sind. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und ihr Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`
+		}
+	}
 };
 
 export const getClosingPhrase = (jobApplication: JobApplication): string => {

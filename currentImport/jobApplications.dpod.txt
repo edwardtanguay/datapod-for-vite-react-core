@@ -344,7 +344,7 @@ Chausseestraße 103
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing in Projekten dieser Firma organisiert sind. Gerne würde ich mehr über diese Stelle und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
+closingParagraph::
 history::[[
 - info; this recruiter is located next to the Museum für Naturkunde
 - 2024-06-02 07:36:44; created
