@@ -266,7 +266,7 @@
 	},
 	"sql": {
 		"english": "MySQL in LAMP stack projects is a technology I have been using since the early 2000s. I have a solid knowledge of both classic SQL and using cloud or Docker hosted MySQL and Postgres instances with ORMs like Prisma.",
-		"german": "MySQL in LAMP-Stack-Projekten ist eine Technologie, die ich seit Anfang der 2000er Jahre verwende. Ich verfüge über fundierte Kenntnisse sowohl in klassischem SQL als auch in der Verwendung von in der Cloud oder Docker gehosteten MySQL- und Postgres-Instanzen mit ORMs wie Prisma."
+		"german": "MySQL in LAMP-Stack-Projekten ist eine Technologie, die ich seit Anfang der 2000er Jahre verwende. Ich verfüge über fundierte Kenntnisse sowohl in klassischem SQL als auch in der Verwendung von Docker gehosteten MySQL- und Postgres-Instanzen mit ORMs wie Prisma."
 	},
 	"apiDesign": {
 		"english": "REST and API design is a standard topic that I have been teaching for the past three years in my MERN-stack classes in which we build backend APIs with Node and Express. We look at various structures such as the standard router/handler approach, classic MVC and backend frameworks such as NestJS.",
@@ -274,15 +274,15 @@
 	},
 	"docker": {
 		"english": "At my web developer position at GEFEG mbh from 2018 to 2021, we used Docker extensively as part of our project to move customer web applications from Strato to AWS, and currently I use Docker to host fullstack React and Next.js applications on Hetzner machines.",
-		"german": "In meiner Position als Webentwickler bei GEFEG mbH von 2018 bis 2021 haben wir Docker im Rahmen unseres Projekts zur Migration von Kunden-Webanwendungen von Strato zu AWS umfassend verwendet, und derzeit verwende ich Docker, um Fullstack-React- und Next.js-Anwendungen auf Hetzner-Maschinen zu hosten."
+		"german": "In meiner Position als Webentwickler bei GEFEG mbH von 2018 bis 2021 haben wir Docker im Rahmen unseres Projektes zur Migration von Kunden-Webanwendungen von Strato zu AWS umfassend verwendet, und derzeit verwende ich Docker, um Fullstack-React- und Next.js-Anwendungen auf Hetzner-Maschinen zu hosten."
 	},
 	"kubernetes": {
 		"english": "I have limited experience with Kubernetes but look forward to using it in a project which warrants its use.",
-		"german": "Ich habe nur begrenzte Erfahrung mit Kubernetes, freue mich aber darauf, es in einem Projekt einzusetzen, bei dem sein Einsatz gerechtfertigt ist."
+		"german": "Ich habe nur begrenzte Erfahrung mit Kubernetes, freue mich aber darauf, es in einem Projekt einzusetzen, bei dem seine Verwendung gerechtfertigt ist."
 	},
 	"testing": {
-		"english": "Through my decade-long developer experience, I have learned that even for mid-sized projects of moderate complexity, good testing practices will save time, make code easier to read, enable new team members to get up to speed faster, and give the project stability and developers the confidence to make non-trivial changes even in the largest of projects.",
-		"german": "Durch meine zehnjährige Erfahrung als Entwickler habe ich gelernt, dass gute Testverfahren selbst bei mittelgroßen Projekten mit mäßiger Komplexität Zeit sparen, den Code leichter lesbar machen, neuen Teammitgliedern eine schnellere Einarbeitung ermöglichen und dem Projekt Stabilität verleihen sowie den Entwicklern das Vertrauen geben, selbst in den größten Projekten nicht unerhebliche Änderungen vorzunehmen."
+		"english": "Through my 20-year developer experience, I have learned that even for mid-sized projects of moderate complexity, good testing practices will save time, make code easier to read, enable new team members to get up to speed faster, and give the project stability and developers the confidence to make non-trivial changes even in the largest of projects.",
+		"german": "Durch meine 20-jährige Erfahrung als Entwickler habe ich gelernt, dass gute Testverfahren von Vorteil sind, selbst bei mittelgroßen Projekten mit mäßiger Komplexität. Sie sparen Zeit, machen den Code leichter lesbar, neue Teammitglieder können sich schneller einarbeiten, und das Projekt wird stabiler, so dass auch wesentliche Änderungen sicher durchgeführt werden können."
 	},
 	"nnn": {
 		"english": "nnn",

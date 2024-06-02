@@ -425,7 +425,11 @@ earliestStartDate::
 closingParagraph::
 history::[[
 - 2024-06-02 15:35:25; created
-- 2024-06-02 18:00:56; proofreading...
+- 2024-06-02 18:00:56; proofread
+- 2024-06-02 19:54:18; sent via form on their site, received screen message "Sie erhalten innerhalb von 10 Werktage eine Rückmeldung von uns"
+- 2024-06-02 19:55:26; I received e-mail and verified my account: "Ihr Benutzeraccount wurde erfolgreich freigeschaltet"
+- 2024-06-02 19:56:30; logged in, worked well, they have my documents as well
+- 2024-06-02 19:58:09; got confirmation mail, they will report back by June 12th
 ]]
 
 ==jobApplication
