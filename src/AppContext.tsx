@@ -60,33 +60,39 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 		})();
 	}, []);
 
-	useEffect(() => {
-		(async () => {
-			const response = await axios.get(
-				`${appconfig.backendBaseUrl()}/job-applications/fullJobApplications`
-			);
-			const _fullJobApplications: FullJobApplication[] = response.data;
-			_fullJobApplications.sort((a, b) =>
-				a.letterDate + String(a.baseJobId) <
-				b.letterDate + String(b.baseJobId)
-					? 1
-					: -1
-			);
-			setFullJobApplications(_fullJobApplications);
-		})();
-	}, []);
+	// const getfullJobApplications = async () => {
+	// 	(async () => {
+	// 		const response = await axios.get(
+	// 			`${appconfig.backendBaseUrl()}/job-applications/fullJobApplications`
+	// 		);
+	// 		const _fullJobApplications: FullJobApplication[] = response.data;
+	// 		_fullJobApplications.sort((a, b) =>
+	// 			a.letterDate + String(a.baseJobId) <
+	// 			b.letterDate + String(b.baseJobId)
+	// 				? 1
+	// 				: -1
+	// 		);
+	// 		setFullJobApplications(_fullJobApplications);
+	// 	})();
+	// }
 
-	useEffect(() => {
+	// useEffect(() => {
+	// }, []);
+
+	const loadGroupedApplicationDayReport = async () => {
 		(async () => {
 			const response = await axios.get(
 				`${appconfig.backendBaseUrl()}/job-applications/grouped-application-day-report`
 			);
-			const _groupedApplicationDayReport: GroupedApplicationDayReport = response.data;
+			const _groupedApplicationDayReport: GroupedApplicationDayReport =
+				response.data;
 			setGroupedApplicationDayReport(_groupedApplicationDayReport);
 		})();
-	}, []);
+	};
 
-	useEffect(() => {
+	useEffect(() => {}, []);
+
+	const loadOverviewJobApplications = () => {
 		(async () => {
 			const response = await axios.get(
 				`${appconfig.backendBaseUrl()}/job-applications/overviewJobApplications`
@@ -122,6 +128,18 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				}
 			}
 		})();
+	};
+
+	useEffect(() => {
+		setTimeout(() => {
+			loadGroupedApplicationDayReport();
+		}, 100);
+	}, []);
+
+	useEffect(() => {
+		setTimeout(() => {
+			loadOverviewJobApplications();
+		}, 200);
 	}, []);
 
 	const handleParseButton = async () => {
@@ -134,14 +152,19 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	};
 
 	const handleFetchApplications = () => {
-		(async () => {
-			const response = await axios.get(
-				`${appconfig.backendBaseUrl()}/job-applications/overviewJobApplications`
-			);
-			const _jobApplications = response.data;
-			console.log(_jobApplications.length);
-		})();
-	}
+		// (async () => {
+		// 	const response = await axios.get(
+		// 		`${appconfig.backendBaseUrl()}/job-applications/overviewJobApplications`
+		// 	);
+		// 	const _jobApplications = response.data;
+		// 	console.log('fetch', _jobApplications.length);
+		// })();
+		loadOverviewJobApplications();
+	};
+
+	// useEffect(() => {
+	// 	handleFetchApplications();
+	// },[])
 
 	return (
 		<AppContext.Provider
@@ -156,7 +179,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				closedJobApplications,
 				currentlyCreatingApplication,
 				groupedApplicationDayReport,
-				handleFetchApplications
+				handleFetchApplications,
 			}}
 		>
 			{children}

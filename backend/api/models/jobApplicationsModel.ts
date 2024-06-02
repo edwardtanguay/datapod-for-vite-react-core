@@ -29,12 +29,6 @@ export const getJobApplications = (): JobApplication[] => {
 	const dpodDataLoader = new DpodDataLoader(entireContent);
 	const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
 
-	if (dpodItemGroupDataItems) {
-		console.log("dpodItemGroupDataItems", dpodItemGroupDataItems);
-		console.log("dpodItemGroupDataItems", "exists");
-	} else {
-		console.log("dpodItemGroupDataItems", dpodItemGroupDataItems);
-	}
 	const jobApplicationsGroup = dpodItemGroupDataItems.find(
 		(m) => m.idCode === "jobApplications"
 	);
