@@ -427,3 +427,29 @@ history::[[
 - 2024-06-02 15:35:25; created
 - 2024-06-02 18:00:56; proofreading...
 ]]
+
+==jobApplication
+dpodId::tAIAgZ
+baseJobId::257
+referenceId::
+contactKind::recruiter
+language::german
+letterDate::2024-06-02 18:01:29
+skillTextsBlock::[[
+Mehrjährige Erfahrung: Fundierte Kenntnisse in der Entwicklung mit TypeScript, React und idealerweise Node.js;typescript, react, node
+Technische Expertise: Erfahrung mit relationalen Datenbanken, API-Design und Container-Technologien wie Docker und Kubernetes; sql, apiDesign, docker, kubernetes
+Hohe Selbstorganisation: Fähigkeit, selbstständig zu arbeiten, Verantwortung zu übernehmen und proaktiv zu handeln;independentGoalOriented
+Qualitätsbewusstsein: Verständnis für Testing und gute Design-Praktiken sowie ein hohes Qualitätsbewusstsein bei der Code-Erstellung;testing
+Teamfähigkeit und Kommunikation: Gute Kommunikationsfähigkeiten und die Fähigkeit, effektiv mit internen und externen Teams zusammenzuarbeiten;teamCommunication
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-02 18:01:29; creating...

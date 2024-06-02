@@ -162,7 +162,7 @@
 	},
 	"react": {
 		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students in which we build fullstck websites based on the MERN stack (Node/Express/MongoDB on the backend, React or Next.js on the frontend).",
-		"german": "Seit 2021 unterrichte ich React und Next.js in einem einjährigen Webentwicklerkurs. Wir erstellen Fullstack-Websites basierend auf dem MERN-Stack,also Node/Express/MongoDB im Backend mit React oder Next.js für das Frontend."
+		"german": "Seit 2021 unterrichte ich React und Next.js in einem einjährigen Webentwicklerkurs. Wir erstellen Fullstack-Websites basierend auf dem MERN-Stack, also Node/Express/MongoDB im Backend mit React oder Next.js für das Frontend."
 	},
 	"basicsGitTypeScriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend. Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years, and REST is a standard topic that I have been teaching for the past three years as a web developer instructor.",
@@ -263,6 +263,14 @@
 	"cleancode": {
 		"english": "I know Robert Martin's Clean Code guidelines well and have internalized many of the coding practices in my day-to-day work, especially \"keep it simple\", \"always find the root cause\" and \"make functions them do one thing only\"",
 		"german": "Ich kenne die Clean Code-Richtlinien von Robert Martin gut und habe viele der Codierungspraktiken in meiner täglichen Arbeit verinnerlicht, insbesondere \"keep it simple\", \"always find the root cause\" and \"make functions do one thing only\"."
+	},
+	"sql": {
+		"english": "I have been using MySQL in LAMP stack projects since the early 2000s. I have a solid knowledge of both classic SQL and using cloud or Docker hosted MySQL and Postgres instances with ORMs like Prisma.",
+		"german": "Ich verwende MySQL seit Anfang der 2000er Jahre in LAMP-Stack-Projekten. Ich verfüge über fundierte Kenntnisse sowohl in klassischem SQL als auch in der Verwendung von in der Cloud oder Docker gehosteten MySQL- und Postgres-Instanzen mit ORMs wie Prisma."
+	},
+	"apiDesign": {
+		"english": "REST and API design is a standard topic that I have been teaching for the past three years my MERN-stack classes in which we build backend APIs with Node and Express.",
+		"german": "REST- und API-Design ist ein Standardthema, das ich seit drei Jahren in meinen MERN-Stack-Kursen unterrichte, in denen wir Backend-APIs mit Node und Express erstellen."
 	},
 	"nnn": {
 		"english": "nnn",
