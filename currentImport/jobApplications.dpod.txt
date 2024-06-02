@@ -19,7 +19,7 @@ History;p
 ==jobApplication
 dpodId::qqSyZj
 baseJobId::240
-contactKind::contactKind: company
+contactKind::company
 language::english
 letterDate::2024-05-29 23:06:53
 skillTextsBlock::[[
@@ -63,7 +63,7 @@ history::[[
 ==jobApplication
 dpodId::LIqi3C
 baseJobId::246
-contactKind::contactKind: company
+contactKind::company
 language::english
 letterDate::2024-05-29 23:08:21
 skillTextsBlock::[[
@@ -103,7 +103,7 @@ history::[[
 ==jobApplication
 dpodId::kkri1A
 baseJobId::245
-contactKind::contactKind: company
+contactKind::company
 language::english
 letterDate::2024-05-30 23:27:21
 skillTextsBlock::[[
@@ -138,7 +138,7 @@ history::[[
 ==jobApplication
 dpodId::QfuwmD
 baseJobId::249
-contactKind::contactKind: company
+contactKind::company
 language::german
 letterDate::2024-05-30 23:37:21
 skillTextsBlock::[[
@@ -189,7 +189,7 @@ history::[[
 ==jobApplication
 dpodId::hR5mcN
 baseJobId::252
-contactKind::contactKind: company
+contactKind::company
 language::english
 letterDate::2024-05-31 12:57:11
 skillTextsBlock::[[
@@ -223,7 +223,7 @@ history::[[
 ==jobApplication
 dpodId::iquleG
 baseJobId::251
-contactKind::contactKind: company
+contactKind::company
 language::english
 letterDate::2024-05-31 23:05:36
 skillTextsBlock::
@@ -242,7 +242,7 @@ history::- 2024-06-01 00:10:45; marked application as a ~duplicate
 ==jobApplication
 dpodId::nTt3xB
 baseJobId::250
-contactKind::contactKind: company
+contactKind::company
 language::german
 letterDate::2024-06-01 00:20:07
 skillTextsBlock::[[
@@ -280,7 +280,7 @@ history::[[
 ==jobApplication
 dpodId::OpU852
 baseJobId::255
-contactKind::contactKind: company
+contactKind::company
 language::german
 letterDate::2024-06-02 07:23:03
 skillTextsBlock::[[
