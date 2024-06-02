@@ -1,6 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Router } from "express";
 import * as model from "../models/jobApplicationsModel.js";
+import {
+	ApplicationDay,
+	GroupedApplicationDayReport,
+} from "../../../share/interfaces.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
 
 const jobs = model.getJobs();
@@ -21,15 +25,15 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 	res.json(overviewJobApplications);
 });
 
-jobApplicationsRouter.get("/applications-sent-by-day", (_req, res) => {
+jobApplicationsRouter.get("/grouped-application-day-report", (_req, res) => {
 	const overviewJobApplications = model.getOverviewApplications();
 	overviewJobApplications.sort((a, b) =>
 		a.letterDate < b.letterDate ? 1 : -1
 	);
-	const days: any[] = [];
+	const days: ApplicationDay[] = [];
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.letterDate.trim() !== "") {
-			const day: any = {
+			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,
 				letterDate: overviewJobApplication.letterDate,
@@ -38,13 +42,14 @@ jobApplicationsRouter.get("/applications-sent-by-day", (_req, res) => {
 		}
 	}
 
-	const groupedJobs = days.reduce((acc, job) => {
-		const date = job.letterDate.split(" ")[0];
+	const groupedApplicationDayReport: GroupedApplicationDayReport = days.reduce((acc, day) => {
+		const date = day.letterDate.split(" ")[0];
 		if (!acc[date]) {
 			acc[date] = [];
 		}
-		acc[date].push(job);
+		acc[date].push(day);
 		return acc;
 	}, {});
-	res.json(groupedJobs);
+
+	res.json(groupedApplicationDayReport);
 });

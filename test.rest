@@ -10,4 +10,4 @@ GET {{url}}/job-applications/fullJobApplications
 GET {{url}}/job-applications/overviewJobApplications
 
 ### APPLICATIONS SENT BY DAY
-GET {{url}}/job-applications/applications-sent-by-day
+GET {{url}}/job-applications/grouped-application-day-report

@@ -2,6 +2,7 @@
 import { createContext, useEffect, useState } from "react";
 import {
 	FullJobApplication,
+	GroupedApplicationDayReport,
 	IAppData,
 	OverviewJobApplication,
 	blankAppData,
@@ -20,6 +21,7 @@ interface IAppContext {
 	processingJobApplications: OverviewJobApplication[];
 	closedJobApplications: OverviewJobApplication[];
 	currentlyCreatingApplication: boolean;
+	groupedApplicationDayReport: GroupedApplicationDayReport;
 }
 
 interface IAppProvider {
@@ -47,6 +49,8 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	>([]);
 	const [currentlyCreatingApplication, setCurrentlyCreatingApplication] =
 		useState(false);
+	const [groupedApplicationDayReport, setGroupedApplicationDayReport] =
+		useState<GroupedApplicationDayReport>({});
 
 	useEffect(() => {
 		(async () => {
@@ -68,6 +72,16 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 					: -1
 			);
 			setFullJobApplications(_fullJobApplications);
+		})();
+	}, []);
+
+	useEffect(() => {
+		(async () => {
+			const response = await axios.get(
+				`${appconfig.backendBaseUrl()}/job-applications/grouped-application-day-report`
+			);
+			const _groupedApplicationDayReport: GroupedApplicationDayReport = response.data;
+			setGroupedApplicationDayReport(_groupedApplicationDayReport);
 		})();
 	}, []);
 
@@ -130,6 +144,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				processingJobApplications,
 				closedJobApplications,
 				currentlyCreatingApplication,
+				groupedApplicationDayReport
 			}}
 		>
 			{children}

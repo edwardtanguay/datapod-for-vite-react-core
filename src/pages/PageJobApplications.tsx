@@ -14,6 +14,7 @@ export const PageJobApplications = () => {
 		processingJobApplications,
 		closedJobApplications,
 		currentlyCreatingApplication,
+		groupedApplicationDayReport,
 	} = useContext(AppContext);
 	const [currentJobApplications, setCurrentJobApplications] = useState<
 		OverviewJobApplication[]
@@ -37,7 +38,7 @@ export const PageJobApplications = () => {
 	};
 
 	useEffect(() => {
-		if (currentlyCreatingApplication) { 
+		if (currentlyCreatingApplication) {
 			handleShowProcessingApplications();
 		} else {
 			handleShowTodoApplications();
@@ -50,7 +51,7 @@ export const PageJobApplications = () => {
 	return (
 		<>
 			{pageIsReady && (
-				<>
+				<section className="flex gap-6">
 					<main>
 						<section className="bg-gray-600 mb-3 py-1 px-2 rounded w-[60rem] text-gray-200">
 							<div className="flex space-x-4">
@@ -140,7 +141,27 @@ export const PageJobApplications = () => {
 							}
 						)}
 					</main>
-				</>
+					<section>
+						{Object.entries(groupedApplicationDayReport).map(
+							(kv, index) => {
+								const day = kv[0];
+								const applications = kv[1];
+								return (
+									<>
+										<div key={index} className="font-semibold bg-slate-300 px-1 rounded">{day}</div>
+										<ul className="list-disc ml-6 mb-2 pt-1">
+											{applications.map((application, index) => {
+												return (
+													<li key={index}>{application.company}</li>
+												)
+											})}
+										</ul>
+									</>
+								);
+							}
+						)}
+					</section>
+				</section>
 			)}
 		</>
 	);

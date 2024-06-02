@@ -140,8 +140,18 @@ export type OverviewJobApplicationKind = "todo" | "processing" | "closed";
 export type OverviewJobApplication = {
 	job: Job;
 	fullJobApplication: FullJobApplication | undefined;
-	kind: OverviewJobApplicationKind,
+	kind: OverviewJobApplicationKind;
 	lastStatus: string;
 	applicationCreateText: string;
 	letterDate: string;
+};
+
+export type ApplicationDay = {
+	title: string;
+	company: string;
+	letterDate: string;
+};
+
+export type GroupedApplicationDayReport = {
+	[date: string]: ApplicationDay[];
 };
