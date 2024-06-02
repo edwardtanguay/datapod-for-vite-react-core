@@ -84,7 +84,7 @@ export const PageJobApplications = () => {
 									/>
 									<span className="ml-1 mb-1 select-none">
 										{processingJobApplications.length}{" "}
-										Processing
+										Active
 									</span>
 								</label>
 								<label className="inline-flex items-center cursor-pointer">

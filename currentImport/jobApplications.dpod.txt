@@ -227,6 +227,26 @@ history::[[
 ]]
 
 ==jobApplication
+dpodId::iquleG
+baseJobId::251
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-05-31 23:05:36
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-01 00:10:45; marked application as a ~duplicate
+
+==jobApplication
 dpodId::nTt3xB
 baseJobId::250
 referenceId::
@@ -376,3 +396,23 @@ history::[[
 - 2024-06-02 13:56:36; posted
 - 2024-06-02 14:11:11; received e-mail confirmation, "Bitte haben Sie etwas Geduld. Wir prüfen Ihre Bewerbung"
 ]]
+
+==jobApplication
+dpodId::slLLf6
+baseJobId::258
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-02 15:35:25
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-02 15:35:25; creating...

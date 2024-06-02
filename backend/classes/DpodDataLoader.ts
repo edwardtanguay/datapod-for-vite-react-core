@@ -10,7 +10,7 @@ import { DpodSchema } from "./DpodSchema";
 import { LineBlock } from "./LineBlock";
 import * as appConfig from "../appconfig";
 import * as qfil from "../../share/qtools/qfil";
-// import * as qdev from "../../share/qtools/qdev";                                           
+// import * as qdev from "../../share/qtools/qdev";                                                     
 
 export class DpodDataLoader {
 	private content = "";
@@ -25,7 +25,7 @@ export class DpodDataLoader {
 	private datapodData: any = {};
 
 	constructor(content: string) {
-		this.content = content;
+		this.content = content;  
 		this.createLines();
 		this.createLineBlocks();
 		this.createDpodSchemas();
