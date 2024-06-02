@@ -404,7 +404,12 @@ referenceId::
 contactKind::company
 language::german
 letterDate::2024-06-02 15:35:25
-skillTextsBlock::
+skillTextsBlock::[[
+Mehrjährige Berufserfahrung in der Softwareentwicklung mit JavaScript/TypeScript und React;typescript, react
+Im Best Case hast Du bereits mit Node.JS, Next.JS und/oder Nest.JS gearbeitet;node, nextjs, nestjs
+Eine agile Entwicklungsumgebung entspricht Deiner Arbeitsweise – Du entwickelst bereits nach modernen Codestandards und hast eine Clean Code Mentalität;agileScrum, cleanCode
+Für die Kommunikation in Deinem Team sprichst Du fließend Deutsch;german
+]]
 customText::
 customOutlineText::
 contactFullName::

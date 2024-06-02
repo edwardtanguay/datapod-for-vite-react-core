@@ -25,7 +25,7 @@
 	},
 	"agileScrum": {
 		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and for planning sprints.",
-		"german": "Alle Projekte, an denen ich in den letzten zehn Jahren gearbeitet habe, verfügten über eine der Firma angepassten Konstellation agiler Entwicklungspraktiken, insbesondere das tägliche Stand-up-Scrum-Meeting sowie Entwicklermeetings zur Organisation von Aufgaben auf Taskboards und zur Planung von Sprints."
+		"german": "Alle Projekte, an denen ich in den letzten zehn Jahren gearbeitet habe, verfügten über eine angepassten Konstellation agiler Entwicklungspraktiken, insbesondere das tägliche Stand-up-Scrum-Meeting sowie Entwicklermeetings zur Organisation von Aufgaben auf Taskboards und zur Planung von Sprints."
 	},
 	"selfLearning": {
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
@@ -125,7 +125,8 @@
 		"german": "Durch meinen Hintergrund in C# und insbesondere durch die Verwendung von TypeScript in meinen Kursen in den letzten drei Jahren, habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
 	},
 	"nestjs": {
-		"english": "NestJS is one of the backend frameworks I teach to my students along with its frontend counterpart Angular."
+		"english": "NestJS is one of the backend frameworks I teach to my students along with its frontend counterpart Angular in the MVC/OOP section of my web development course.",
+		"german": "NestJS und Angular sind alternative Backend/Frontend Frameworks, die ich im MVC/OOP-Abschnitt meines Webentwicklungskurses unterrichte."
 	},
 	"kafkaRabbitmq": {
 		"english": "Working with the streaming platform Kafka and message broker RabbitMQ would indeed be an exciting and new challenge that would complement my growing experience in devops and microservice technologies. I would be delighted to discuss how you integrate this technology into customer solutions."
@@ -254,6 +255,10 @@
 	"excitementLearn": {
 		"english": "For an example of my ability to learn quickly and efficiently in new technologies, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years.",
 		"german": "Ein Beispiel für meine Begeisterung, neue Technologien zu lernen, finden Sie in meinen <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">über 800 Howtos</a>, die ich in den letzten Jahren erstellt habe."
+	},
+	"nextjs": {
+		"english": "For the past three years, I have been teaching the MERN stack at the Digital Career Institute in Berlin with both React and Next.js as the frontend framework. My skills ins both frameworks are very good.",
+		"german": "In den letzten drei Jahren habe ich am Digital Career Institute in Berlin den MERN-Stack unterrichtet, mit React und Next.js als Frontend-Framework. Meine Kenntnisse in beiden Frameworks sind sehr gut."
 	},
 	"nnn": {
 		"english": "nnn",
