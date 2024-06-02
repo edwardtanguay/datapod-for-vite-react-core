@@ -7,8 +7,10 @@ const skillResponseLookup = qfil.readJsonFile(
 	"./backend/data/skillResponseLookup.json"
 );
 import {
+	FullJobApplication,
 	Job,
 	JobApplication,
+	OverviewJobApplicationKind,
 	SkillAndResponseBlock,
 } from "../../../share/interfaces.js";
 
@@ -323,4 +325,45 @@ export const getLetterDateText = (jobApplication: JobApplication): string => {
 		// 08. Februar 2018
 		return qdat.formatAsGermanDateWithFullYear(jobApplication.letterDate);
 	}
+};
+
+export const getKind = (): OverviewJobApplicationKind => {
+	return "processing";
+};
+
+export const getLastStatus = (fullJobApplication: FullJobApplication): string => {
+	const lines = qstr.convertStringBlockToLines(fullJobApplication.history);
+	if (lines.length > 0) {
+		const lastLine = lines[lines.length - 1];
+		const parts = qstr.breakIntoParts(lastLine, ";");
+		const lastStatus = parts[1];
+		return lastStatus;
+	} else {
+		return "PLEASE ENTER STATUS IN HISTORY";
+	}
+};
+
+export const getApplicationCreateText = (job: Job): string => {
+	return `
+==jobApplication
+dpodId::${qstr.generateShortUUID()}
+baseJobId::${job.id}
+referenceId::
+contactKind::company
+language::german
+letterDate::${qdat.getCurrentIsoDateTime()}
+skillTextsBlock::[[
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- ${qdat.getCurrentIsoDateTime()}; creating...
+	`.trim();
 };

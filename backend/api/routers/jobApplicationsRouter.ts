@@ -1,15 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Router } from "express";
 import * as model from "../models/jobApplicationsModel.js";
-import {
-	FullJobApplication,
-	Job,
-	OverviewJobApplication,
-	OverviewJobApplicationKind,
-} from "../../../share/interfaces.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
-import * as qstr from "../../../share/qtools/qstr.js";
-import * as qdat from "../../../share/qtools/qdat.js";
 
 const jobs = model.getJobs();
 const fullJobApplications = model.getFullJobApplications();
@@ -25,85 +17,7 @@ jobApplicationsRouter.get("/fullJobApplications", (_req, res) => {
 });
 
 // const getKind = ( fullJobApplication: FullJobApplication): OverviewJobApplicationKind => {
-const getKind = (): OverviewJobApplicationKind => {
-	return "processing";
-};
-
-const getLastStatus = (fullJobApplication: FullJobApplication): string => {
-	const lines = qstr.convertStringBlockToLines(fullJobApplication.history);
-	// qdev.log('jobApplicationsRouter.ts:32', 'lines', lines);
-	if (lines.length > 0) {
-		const lastLine = lines[lines.length - 1];
-		const parts = qstr.breakIntoParts(lastLine, ";");
-		const lastStatus = parts[1];
-		return lastStatus;
-	} else {
-		return "PLEASE ENTER STATUS IN HISTORY";
-	}
-};
-
-const getApplicationCreateText = (job: Job): string => {
-	return `
-==jobApplication
-dpodId::${qstr.generateShortUUID()}
-baseJobId::${job.id}
-referenceId::
-contactKind::company
-language::german
-letterDate::${qdat.getCurrentIsoDateTime()}
-skillTextsBlock::[[
-]]
-customText::
-customOutlineText::
-contactFullName::
-contactGender::
-contactEmail::
-contactAddress::
-salaryFrom::0
-salaryTo::0
-earliestStartDate::
-closingParagraph::
-history::- ${qdat.getCurrentIsoDateTime()}; creating...
-	`.trim();
-};
-
 jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
-	const overviewJobApplications: OverviewJobApplication[] = [];
-	for (const job of jobs) {
-		const fullJobApplication = fullJobApplications.find((m) => {
-			return m.baseJobId === job.id;
-		});
-		if (fullJobApplication) {
-			const overviewJobApplication: OverviewJobApplication = {
-				job,
-				fullJobApplication,
-				kind: getKind(),
-				lastStatus: getLastStatus(fullJobApplication),
-				applicationCreateText: "",
-				letterDate: fullJobApplication.letterDate,
-			};
-			overviewJobApplications.push(overviewJobApplication);
-		} else {
-			const overviewJobApplication: OverviewJobApplication = {
-				job,
-				fullJobApplication,
-				kind: "todo",
-				lastStatus: "",
-				applicationCreateText: getApplicationCreateText(job),
-				letterDate: "",
-			};
-			overviewJobApplications.push(overviewJobApplication);
-		}
-	}
-	for (const overviewJobApplication of overviewJobApplications) {
-		if (overviewJobApplication.lastStatus.includes("~duplicate")) {
-			overviewJobApplication.kind = "closed";
-			overviewJobApplication.lastStatus = qstr.replaceAll(
-				overviewJobApplication.lastStatus,
-				"~",
-				""
-			);
-		}
-	}
+	const overviewJobApplications = model.getOverviewApplications();
 	res.json(overviewJobApplications);
 });

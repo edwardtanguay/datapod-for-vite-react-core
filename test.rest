@@ -4,7 +4,7 @@
 GET {{url}}/zod-showcase/employees
 
 ### JOB APPLICATIONS
-GET {{url}}/job-applications/full
+GET {{url}}/job-applications/fullJobApplications
 
 ### OVERVIEW JOB APPLICATIONS
 GET {{url}}/job-applications/overviewJobApplications

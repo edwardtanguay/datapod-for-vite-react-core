@@ -2,6 +2,7 @@ import {
 	FullJobApplication,
 	Job,
 	JobApplication,
+	OverviewJobApplication,
 } from "../../../share/interfaces";
 import * as apptools from "../../apptools.js";
 import * as appconfig from "../../appconfig.js";
@@ -10,7 +11,9 @@ import _jobs from "../../data/jobs.json";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
 import * as tools from "../tools/jobApplicationsTools.js";
+import * as model from "./jobApplicationsModel.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
+
 
 // jobs (from online JSON file)
 export const getJobs = (): Job[] => {
@@ -92,3 +95,45 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 	}
 	return fullJobApplications;
 };
+
+export const getOverviewApplications = ():OverviewJobApplication[] => {
+	const overviewJobApplications: OverviewJobApplication[] = [];
+	const fullJobApplications = model.getFullJobApplications();
+	for (const job of model.getJobs()) {
+		const fullJobApplication = fullJobApplications.find((m) => {
+			return m.baseJobId === job.id;
+		});
+		if (fullJobApplication) {
+			const overviewJobApplication: OverviewJobApplication = {
+				job,
+				fullJobApplication,
+				kind: tools.getKind(),
+				lastStatus: tools.getLastStatus(fullJobApplication),
+				applicationCreateText: "",
+				letterDate: fullJobApplication.letterDate,
+			};
+			overviewJobApplications.push(overviewJobApplication);
+		} else {
+			const overviewJobApplication: OverviewJobApplication = {
+				job,
+				fullJobApplication,
+				kind: "todo",
+				lastStatus: "",
+				applicationCreateText: tools.getApplicationCreateText(job),
+				letterDate: "",
+			};
+			overviewJobApplications.push(overviewJobApplication);
+		}
+	}
+	for (const overviewJobApplication of overviewJobApplications) {
+		if (overviewJobApplication.lastStatus.includes("~duplicate")) {
+			overviewJobApplication.kind = "closed";
+			overviewJobApplication.lastStatus = qstr.replaceAll(
+				overviewJobApplication.lastStatus,
+				"~",
+				""
+			);
+		}
+	}
+	return overviewJobApplications;
+}
