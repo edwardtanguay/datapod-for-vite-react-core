@@ -17,7 +17,6 @@ jobApplicationsRouter.get("/jobs", (_req, res) => {
 
 jobApplicationsRouter.get("/jobApplications", (_req, res) => {
 	const jobApplications = model.getJobApplications();
-	console.log(`fetched ${jobApplications.length} applications`);
 	res.json(jobApplications);
 });
 

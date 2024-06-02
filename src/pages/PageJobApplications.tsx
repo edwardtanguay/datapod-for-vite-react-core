@@ -15,7 +15,6 @@ export const PageJobApplications = () => {
 		closedJobApplications,
 		currentlyCreatingApplication,
 		groupedApplicationDayReport,
-		handleFetchApplications
 	} = useContext(AppContext);
 	const [currentJobApplications, setCurrentJobApplications] = useState<
 		OverviewJobApplication[]
@@ -145,7 +144,6 @@ export const PageJobApplications = () => {
 					</main>
 					<section>
 						<>
-						<button className="generic" onClick={handleFetchApplications}>fetch applications</button>
 						{Object.entries(groupedApplicationDayReport).map(
 							(kv, index) => {
 								const day = kv[0];

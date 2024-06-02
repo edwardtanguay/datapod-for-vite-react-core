@@ -51,7 +51,6 @@ const getJobCompany = (job: Job) => {
 export const getFullJobApplications = (): FullJobApplication[] => {
 	const fullJobApplications: FullJobApplication[] = [];
 	const jobApplications = getJobApplications();
-	console.log("jobApplciations", jobApplications.length);
 	for (const jobApplication of jobApplications) {
 		const [attachmentText1, attachmentText2, attachmentText3] =
 			tools.getAttachmentTexts(jobApplication);
@@ -93,7 +92,6 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 			fullJobApplications.push(fullJobApplication);
 		}
 	}
-	console.log("full", fullJobApplications.length);
 	return fullJobApplications;
 };
 
