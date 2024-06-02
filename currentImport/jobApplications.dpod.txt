@@ -23,7 +23,7 @@ baseJobId::240
 referenceId::
 contactKind::company
 language::english
-letterDate::2024-05-29 23:06:53
+letterDate::2024-05-28 23:06:53
 skillTextsBlock::[[
 You have a strong technical background in application development, preferably in a large-scale cloud-based setting with modern software development practices such as CI/CD.;cloudCicd
 You have 4+ years of experience of web development, primarily utilizing Javascript/Typescript in the frontend and backend.;javascriptTypeScriptFrontendBackend
@@ -232,7 +232,7 @@ baseJobId::251
 referenceId::
 contactKind::company
 language::english
-letterDate::2024-05-31 23:05:36
+letterDate::
 skillTextsBlock::
 customText::
 customOutlineText::

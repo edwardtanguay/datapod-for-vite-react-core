@@ -23,5 +23,28 @@ jobApplicationsRouter.get("/overviewJobApplications", (_req, res) => {
 
 jobApplicationsRouter.get("/applications-sent-by-day", (_req, res) => {
 	const overviewJobApplications = model.getOverviewApplications();
-	res.json(`there are ${overviewJobApplications.length}`);
+	overviewJobApplications.sort((a, b) =>
+		a.letterDate < b.letterDate ? 1 : -1
+	);
+	const days: any[] = [];
+	for (const overviewJobApplication of overviewJobApplications) {
+		if (overviewJobApplication.letterDate.trim() !== "") {
+			const day: any = {
+				title: overviewJobApplication.job.title,
+				company: overviewJobApplication.job.company,
+				letterDate: overviewJobApplication.letterDate,
+			};
+			days.push(day);
+		}
+	}
+
+	const groupedJobs = days.reduce((acc, job) => {
+		const date = job.letterDate.split(" ")[0];
+		if (!acc[date]) {
+			acc[date] = [];
+		}
+		acc[date].push(job);
+		return acc;
+	}, {});
+	res.json(groupedJobs);
 });
