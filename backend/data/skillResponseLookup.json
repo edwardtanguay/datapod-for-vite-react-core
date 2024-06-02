@@ -243,6 +243,14 @@
 		"english": "I have been using MySQL in LAMP stack projects since the early 2000s. I have a solid knowledge of both classic SQL and using cloud or Docker hosted MySQL instances with ORMs like Prisma.",
 		"german": "Seit Anfang der 2000er Jahre verwende ich MySQL in LAMP-Stack Projekten. Ich verfüge über solide Kenntnisse sowohl in klassischem SQL als auch in der Verwendung von in der Cloud oder Docker gehosteten MySQL-Instanzen mit ORMs wie Prisma."
 	},
+	"laravel": {
+		"english": "As part of the fullstack webdevelopment course I teach at Digital Career Institute in Berlin, I demonstrate how to build a Laravel website and host it at Render.com with Docker.",
+		"german": "Im Rahmen des Full-Stack-Webentwicklungskurses, den ich am Digital Career Institute in Berlin unterrichte, zeige ich, wie man eine Laravel-Website erstellt und sie mit Docker bei Render.com hostet."
+	},
+	"vue": {
+		"english": "While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well.",
+		"german": "Während meiner Tätigkeit bei der zappmedia GmbH von 2014 bis 2018 haben wir Smarty (eine PHP-Template-Engine) durch Vue ersetzt, um das Frontend unserer statischen PHP-Website vollständig interaktiv zu gestalten. Ich unterrichte in meinem Unterricht auch Vue und Nuxt als alternative Frameworks."
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"

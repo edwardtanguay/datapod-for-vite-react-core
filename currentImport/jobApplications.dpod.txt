@@ -362,7 +362,7 @@ letterDate::2024-06-02 12:15:54
 skillTextsBlock::[[
 Du hast eine abgeschlossene Informatikausbildung oder vergleichbare Qualifikationen;computerScienceDegreeOrSimilar
 Du bringst ein solides know- how in PHP, HTML, CSS, SASS, JavaScript und MySQL mit;php, htmlCssJavascript, sass, mysql
-Du hast bereits mit Laravel und Vue.js gearbeitet; laravel, vuejs
+Du hast bereits mit Laravel und Vue.js gearbeitet; laravel, vue
 Du kennst Dich mit der Architektur von Web- Applikationen aus und bist begeistert von neuen Technologien;learnNewTechFast
 Du bist ein Teamplayer und zeigst Eigeninitiative; teamWorkSolutionOriented
 ]]
