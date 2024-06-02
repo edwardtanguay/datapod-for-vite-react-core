@@ -59,7 +59,7 @@ export class DpodDataLoader {
 			(m) => m.idCode === dpodItemIdCode
 		);
 		if (dpodItemGroupDataItem) {
-			return dpodItemGroupDataItem.datapodData;                                             
+			return dpodItemGroupDataItem.datapodData;                                              
 		} else {
 			return `ERROR: bad dpodItemidCode "${dpodItemIdCode}"`;
 		}

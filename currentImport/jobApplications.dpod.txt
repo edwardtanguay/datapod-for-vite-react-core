@@ -307,3 +307,28 @@ history::[[
 - 2024-06-02 07:34:45; sent application via e-mail to info@astrial.de
 - 2024-06-02 07:35:56; waiting for confirmation mail
 ]]
+
+==jobApplication
+dpodId::8MAkzh
+baseJobId::254
+language::german
+letterDate::2024-06-02 07:36:44
+skillTextsBlock::[[
+Ein abgeschlossenes Studium im Bereich Informatik oder vergleichbare Qualifikationen;computerScienceDegreeOrSimilar
+Mehrjährige Berufserfahrung im Fachgebiet (z.B. im Web-Umfeld);fullstackApplicationsInUse
+Gute Kenntnisse von JavaScript, HTML, CSS und REST API;basicsGitTypeScriptRest
+Gute Kenntnisse von angular, react und/oder vue.js;angularVueReact
+Kenntnisse von Frontend-Architekturen;webTechnologies
+Erfahrungen mit Cloud und TypeScript sind “nice to have”;cloud, typescript
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-02 07:36:44; creating...
