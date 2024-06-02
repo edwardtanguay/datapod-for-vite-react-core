@@ -260,6 +260,10 @@
 		"english": "For the past three years, I have been teaching the MERN stack at the Digital Career Institute in Berlin with both React and Next.js as the frontend framework. My skills ins both frameworks are very good.",
 		"german": "In den letzten drei Jahren habe ich am Digital Career Institute in Berlin den MERN-Stack unterrichtet, mit React und Next.js als Frontend-Framework. Meine Kenntnisse in beiden Frameworks sind sehr gut."
 	},
+	"cleancode": {
+		"english": "I have internalized many of Robert Martin's Clean Code guidelines as coding practices especially \"keep it simple\", \"always find the root cause\" and \"keep functions small and make them do one thing only\"",
+		"german": "Ich habe einige der Clean Code-Richtlinien von Robert Martin verinnerlicht, insbesondere \"keep it simple\", \"always find the root cause\" and \"keep functions small and make them do one thing only\"."
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"
