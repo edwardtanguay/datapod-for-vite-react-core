@@ -352,3 +352,28 @@ history::[[
 - 2024-06-02 10:41:24; posted in online form on the Techpunk website, received on screen "deine bewerbung ist bei uns eingegangen!"
 - 2024-06-02 10:42:05; didn't receive a confirmation e-mail, call Herr Eisenberg to see if it arrived
 ]]
+
+==jobApplication
+dpodId::V5gwgI
+baseJobId::253
+contactKind::recruiter
+language::german
+letterDate::2024-06-02 12:15:54
+skillTextsBlock::[[
+Du hast eine abgeschlossene Informatikausbildung oder vergleichbare Qualifikationen;computerScienceDegreeOrSimilar
+Du bringst ein solides know- how in PHP, HTML, CSS, SASS, JavaScript und MySQL mit;php, htmlCssJavascript, sass, mysql
+Du hast bereits mit Laravel und Vue.js gearbeitet; laravel, vuejs
+Du kennst Dich mit der Architektur von Web- Applikationen aus und bist begeistert von neuen Technologien;learnNewTechFast
+Du bist ein Teamplayer und zeigst Eigeninitiative; teamWorkSolutionOriented
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-02 12:15:54; creating...

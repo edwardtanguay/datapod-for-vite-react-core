@@ -47,7 +47,8 @@ const getApplicationCreateText = (job: Job): string => {
 ==jobApplication
 dpodId::${qstr.generateShortUUID()}
 baseJobId::${job.id}
-language::english
+contactKind::company
+language::german
 letterDate::${qdat.getCurrentIsoDateTime()}
 skillTextsBlock::[[
 ]]
