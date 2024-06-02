@@ -67,6 +67,7 @@ export type JobApplication = {
 	dpodId: string;
 	language: "english" | "german";
 	baseJobId: number;
+	contactKind: "company" | "recruiter";
 	letterDate: string;
 	skillTextsBlock: string;
 	customText: string;
@@ -90,6 +91,7 @@ export type SkillAndResponseBlock = {
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
+	contactKind: string;
 	jobAnnouncementUrl: string;
 	letterDateText: string;
 	letterDate: string;

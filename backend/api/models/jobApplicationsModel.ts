@@ -57,6 +57,7 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 			const fullJobApplication: FullJobApplication = {
 				language: jobApplication.language,
 				baseJobId: jobApplication.baseJobId,
+				contactKind: jobApplication.contactKind,
 				letterDateText: tools.getLetterDateText(jobApplication),
 				letterDate: jobApplication.letterDate,
 				contactSalutation: tools.buildContactSaluation(jobApplication),

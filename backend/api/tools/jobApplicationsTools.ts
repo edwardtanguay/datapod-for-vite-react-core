@@ -72,7 +72,9 @@ export const buildFormalFullName = (jobApplication: JobApplication): string => {
 	return r;
 };
 
-export const buildContactSaluation = (jobApplication: JobApplication): string => {
+export const buildContactSaluation = (
+	jobApplication: JobApplication
+): string => {
 	if (jobApplication.contactFullName.trim() === "") {
 		return "";
 	}
@@ -98,7 +100,10 @@ export const getAddressLines = (jobApplication: JobApplication): string[] => {
 	return qstr.convertStringBlockToLines(jobApplication.contactAddress);
 };
 
-export const getHeaderLine1 = (job: Job, jobApplication: JobApplication): string => {
+export const getHeaderLine1 = (
+	job: Job,
+	jobApplication: JobApplication
+): string => {
 	if (jobApplication.language === "english") {
 		return `Application for the position of ${job.title}`;
 	} else {
@@ -106,7 +111,10 @@ export const getHeaderLine1 = (job: Job, jobApplication: JobApplication): string
 	}
 };
 
-export const getHeaderLine2 = (job: Job, jobApplication: JobApplication): string => {
+export const getHeaderLine2 = (
+	job: Job,
+	jobApplication: JobApplication
+): string => {
 	const urlHostName = qstr.getHostnameFromUrl(job.url);
 	if (jobApplication.language === "english") {
 		const publicationDate = qdat.getAmericanDate(job.publicationDate);
@@ -143,14 +151,18 @@ export const getGreetingLine = (jobApplication: JobApplication): string => {
 	}
 };
 
-export const getApplicationLine = ( 
+export const getApplicationLine = (
 	job: Job,
 	jobApplication: JobApplication
 ): string => {
 	if (jobApplication.language === "english") {
 		return `With this letter I am formally applying for the advertised position of ${job.title}.`;
 	} else {
-		return `Sie suchen für Ihr Unternehmen einen ${job.title}. Um diese Stelle bewerbe ich mich.`;
+		if (jobApplication.contactKind === "recruiter") {
+			return `Sie suchen für ein Unternehmen einen ${job.title}. Um diese Stelle bewerbe ich mich.`;
+		} else {
+			return `Sie suchen für Ihr Unternehmen einen ${job.title}. Um diese Stelle bewerbe ich mich.`;
+		}
 	}
 };
 
@@ -179,7 +191,7 @@ export const getResponseHtml = (
 		if (skillResponseLookupObject) {
 			const responseHtml =
 				skillResponseLookupObject[jobApplication.language];
-			if (responseHtml && responseHtml !== 'nnn') {
+			if (responseHtml && responseHtml !== "nnn") {
 				responseHtmls.push(responseHtml);
 			} else {
 				responseHtmls.push(
@@ -229,7 +241,9 @@ export const getSkillAndResponseBlocks = (
 	return skillAndResponseBlocks;
 };
 
-export const getAttachmentTexts = (jobApplication: JobApplication): string[] => {
+export const getAttachmentTexts = (
+	jobApplication: JobApplication
+): string[] => {
 	let attachmentText1 = "";
 	let attachmentText2 = "";
 	let attachmentText3 = "";
