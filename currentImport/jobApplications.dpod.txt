@@ -318,7 +318,7 @@ Rudower Chaussee 29
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert sind. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und das Unternehmen ASTRIAL erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
+closingParagraph::Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert werden. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und das Unternehmen ASTRIAL erfahren. Ich freue mich auf ein Gespräch mit Ihnen.
 history::[[
 - 2024-06-02 09:18:37; info: this company is located at the beginning of my 30K Adlershof run
 - 2024-06-01 18:47:08; created
