@@ -135,7 +135,7 @@
 	},
 	"webTechnologies": {
 		"english": "I've been working with and keeping up on the browser ecosystem ever since the browser wars of the 1990s and throughout my many battles with Netscape 4 and Internet Explorer 6. I have decade-long, solid skills in frontend development.",
-		"german": "Mit Frontend-Architekturen arbeite ich seit den Browserkriegen der 90er Jahre. Ich habe im Laufe der Zeit jedes Update dieser Technologien miterlebt und gelernt, beispielsweise semantische Änderungen in HTML5, Flexbox und Grid in CSS3, und die neuen ES6 Features in JavaScript. Ich verfüge über jahrzehntelange, solide Kenntnisse in der Frontend-Entwicklung."
+		"german": "Mit Frontend-Architekturen arbeite ich seit der 90er Jahren. Ich habe im Laufe der Zeit jedes Update dieser Technologien miterlebt und gelernt, beispielsweise semantische Änderungen in HTML5, Flexbox und Grid in CSS3, und die neuen ES6 Features in JavaScript. Ich verfüge über jahrzehntelange, solide Kenntnisse in der Frontend-Entwicklung."
 	},
 	"vueSvelteSolidjsReact": {
 		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases."
@@ -225,7 +225,7 @@
 	},
 	"cloud": {
 		"english": "As a web developer at GEFEG mbh, I was responsible for moving our Strato infrastructure to AWS in which my main task was to set up Windows and Linux operating systems EC2 virtual machines.",
-		"german": "Als Webentwickler bei der GEFEG mbH war ich für die Migration unserer Strato-Infrastruktur zu AWS verantwortlich, wobei meine Hauptaufgabe darin bestand, virtuelle EC2-Maschinen mit Windows- und Linux-Betriebssystemen zu erstellen und Kunden-Websites auf diese Maschinen zu migrieren und neu einzurichten."
+		"german": "Als Webentwickler bei der GEFEG mbH war ich für die Migration unserer Strato-Infrastruktur zu AWS verantwortlich, u.a. lag meine Hauptaufgabe darin, virtuelle EC2-Maschinen mit Windows- und Linux-Betriebssystemen zu erstellen und Kunden-Websites auf diese Maschinen zu migrieren bzw. neu einzurichten."
 	},
 	"htmlCssJavascriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. REST is a standard topic that I have been teaching for the past three years as a web developer instructor as part of the MERN-stack, e.g. for building backend APIs with Node and Express which connect to MongoDB and MySQL databases.",
