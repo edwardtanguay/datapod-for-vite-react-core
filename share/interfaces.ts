@@ -159,5 +159,6 @@ export type GroupedApplicationDayReport = {
 export type FullReport = {
 	totalApplications: number;
 	totalDays: number;
+	averageApplicationsPerDay: number;
 	groupedApplicationDayReport: GroupedApplicationDayReport;
 };

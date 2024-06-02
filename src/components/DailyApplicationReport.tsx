@@ -2,14 +2,16 @@ import { useContext } from "react";
 import { AppContext } from "../AppContext";
 
 export const DailyApplicationReport = () => {
-	const {
-	fullReport
-	} = useContext(AppContext);
+	const { fullReport } = useContext(AppContext);
 	return (
 		<section>
 			<>
-				<p>days: {fullReport.totalDays}</p>
-			<h2 className="mb-3 text-xl">{fullReport.totalApplications} Applications</h2>
+				<h2 className="mb-3 text-xl">
+					{fullReport.totalApplications} Total Applications{" "}
+					<span className="text-sm">
+						(average per day = {fullReport.averageApplicationsPerDay})
+					</span>
+				</h2>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];
@@ -26,7 +28,13 @@ export const DailyApplicationReport = () => {
 									{applications.map((application, index) => {
 										return (
 											<li key={index}>
-												<span className="font-semibold">{application.title}</span> - <span className="italic text-slate-700">{application.company}</span>
+												<span className="font-semibold">
+													{application.title}
+												</span>{" "}
+												-{" "}
+												<span className="italic text-slate-700">
+													{application.company}
+												</span>
 											</li>
 										);
 									})}

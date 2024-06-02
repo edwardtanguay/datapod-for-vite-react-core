@@ -126,11 +126,16 @@ export const getFullReport = (): FullReport => {
 			return acc;
 		}, {});
 
+	const totalApplications = applicationDays.length;
+	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	return {
-		totalApplications: applicationDays.length,
-		totalDays: Object.keys(groupedApplicationDayReport).length,
-		groupedApplicationDayReport
-	}
+		totalApplications,
+		totalDays,
+		averageApplicationsPerDay: Number(
+			(totalApplications / totalDays).toFixed(2)
+		),
+		groupedApplicationDayReport,
+	};
 };
 
 export const getOverviewApplications = (): OverviewJobApplication[] => {
