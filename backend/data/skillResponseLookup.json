@@ -239,6 +239,10 @@
 		"english": "I use Sass in projects both as the main CSS strategy (e.g. using the 7-1 Sass folder structure pattern), but also as a supporting technology to Tailwind in projects where I explicitly need the more advanced features of Sass such as mixins and color functions.",
 		"german": "Ich verwende Sass in Projekten sowohl als Haupt-CSS-Strategie (z. B. mithilfe des 7-1 Sass Folder Structure Pattern), aber auch als unterstützende Technologie für Tailwind in Projekten, in denen ich ausdrücklich die erweiterten Funktionen von Sass wie Mixins und Farbfunktionen benötige."
 	},
+	"mysql": {
+		"english": "I have been using MySQL in LAMP stack projects since the early 2000s. I have a solid knowledge of both classic SQL and using cloud or Docker hosted MySQL instances with ORMs like Prisma.",
+		"german": "Seit Anfang der 2000er Jahre verwende ich MySQL in LAMP-Stack Projekten. Ich verfüge über solide Kenntnisse sowohl in klassischem SQL als auch in der Verwendung von in der Cloud oder Docker gehosteten MySQL-Instanzen mit ORMs wie Prisma."
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"
