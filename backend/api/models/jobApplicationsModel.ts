@@ -39,8 +39,11 @@ export const getJobApplications = (): JobApplication[] => {
 	}
 };
 
+// remove parentheses at then end, e.g. "Tech Punk GmbH (Recruiter)"
 const getJobCompany = (job: Job) => {
-	return job.company + '222';
+	const parts = qstr.breakIntoParts(job.company, '(');
+	const company = parts[0];
+	return company;
 }
 
 export const getFullJobApplications = (): FullJobApplication[] => {
