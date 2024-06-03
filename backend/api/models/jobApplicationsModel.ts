@@ -168,13 +168,17 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 		}
 	}
 	for (const overviewJobApplication of overviewJobApplications) {
-		if (overviewJobApplication.lastStatus.includes("~duplicate")) {
-			overviewJobApplication.kind = "closed";
-			overviewJobApplication.lastStatus = qstr.replaceAll(
-				overviewJobApplication.lastStatus,
-				"~",
-				""
-			);
+		if (overviewJobApplication.lastStatus) {
+			if (overviewJobApplication.lastStatus.includes("~duplicate")) {
+				overviewJobApplication.kind = "closed";
+				overviewJobApplication.lastStatus = qstr.replaceAll(
+					overviewJobApplication.lastStatus,
+					"~",
+					""
+				);
+			}
+		} else {
+			overviewJobApplication.lastStatus = '';
 		}
 	}
 	return overviewJobApplications;
