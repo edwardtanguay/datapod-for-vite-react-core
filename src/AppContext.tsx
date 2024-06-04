@@ -44,8 +44,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	>([]);
 	const [currentlyCreatingApplication, setCurrentlyCreatingApplication] =
 		useState(false);
-	const [fullReport, setFullReport] =
-		useState<FullReport>({} as FullReport);
+	const [fullReport, setFullReport] = useState<FullReport>({} as FullReport);
 
 	useEffect(() => {
 		(async () => {
@@ -59,8 +58,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			const response = await axios.get(
 				`${appconfig.backendBaseUrl()}/job-applications/full-report`
 			);
-			const _fullReport: FullReport =
-				response.data;
+			const _fullReport: FullReport = response.data;
 			setFullReport(_fullReport);
 		})();
 	};
@@ -72,19 +70,14 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			);
 			const _overviewJobApplications: OverviewJobApplication[] =
 				response.data;
-			_overviewJobApplications.sort((a, b) =>
-				a.fullJobApplication?.letterDate +
-					String(a.fullJobApplication?.baseJobId) <
-				b.fullJobApplication?.letterDate +
-					String(b.fullJobApplication?.baseJobId)
-					? 1
-					: -1
-			);
+			// _overviewJobApplications = structuredClone(_overviewJobApplications.sort((a, b) =>
+			// 	a.letterDate < b.letterDate ? 1 : -1
+			// ));
 			setOverviewJobApplications(_overviewJobApplications);
 			setTodoJobApplications(
 				_overviewJobApplications
 					.filter((m) => m.kind === "todo")
-					.sort((a, b) => (a.job.id < b.job.id ? 1 : -1))
+					.sort((a, b) => (a.job.rank < b.job.rank ? 1 : -1))
 			);
 			const _processingJobApplciations = _overviewJobApplications
 				.filter((m) => m.kind === "processing")
@@ -135,7 +128,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 				processingJobApplications,
 				closedJobApplications,
 				currentlyCreatingApplication,
-				fullReport
+				fullReport,
 			}}
 		>
 			{children}
