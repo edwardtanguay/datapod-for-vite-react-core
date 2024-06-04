@@ -548,3 +548,32 @@ salaryTo::0
 earliestStartDate::
 closingParagraph::
 history::- 2024-06-04 11:21:09; job was ~filled before I applied
+
+==jobApplication
+dpodId::qEpEbq
+baseJobId::261
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-04 11:26:55
+skillTextsBlock::[[
+Strong product thinking mindset, interest in solving user problems, not just implementing another task;highLevelDeliverables
+Proficiency in Node, React/JS/TS, and willingness to learn; node, react,willingnessToLearn
+Comfort working within an existing codebase and developing new code;workingWithExistingCodebase
+Excellent problem-solving, design, and debugging skills;problemSolvingDesignDebugging
+Eagerness to learn and grow as a developer, and help colleagues;growHelpColleagues
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::[[
+- info: they use [the Shape Up approach](https://basecamp.com/shapeup)
+- 2024-06-04 11:26:55; creating...
+]]

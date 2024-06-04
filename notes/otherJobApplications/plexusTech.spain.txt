@@ -1,18 +1,14 @@
-- 2024-06-04 08:56:56; quick-applied via LinkedIn
-	-----------------------------------------------------
-	Preguntas adicionales
-	¿Cuántos años de experiencia tienes con JavaScript?¿Cuántos años de experiencia tienes con JavaScript?
-				25
-			
-	¿Cuántos años de experiencia tienes con Jest?¿Cuántos años de experiencia tienes con Jest?
+2024-06-04 08:19:42; quick-applied via LinkedIn
+	-------------------------------------------------
+	¿Cuántos años de experiencia tienes con React.js?¿Cuántos años de experiencia tienes con React.js?
 				5
 			
-	¿Qué salario esperas percibir?¿Qué salario esperas percibir?
-				50000
+	¿Cuántos años de experiencia tienes con Node.js?¿Cuántos años de experiencia tienes con Node.js?
+				5
 			
-	¿Tienes experiencia con Buenas Prácticas?¿Tienes experiencia con Buenas Prácticas?
-				Yes
+	¿Cuál es tu nivel de Inglés?¿Cuál es tu nivel de Inglés?
+				Nativo o bilingüe
 			
 	¿Cuál es tu nivel de Español?¿Cuál es tu nivel de Español?
 				Conversación
-	-----------------------------------------------------
+	-------------------------------------------------
