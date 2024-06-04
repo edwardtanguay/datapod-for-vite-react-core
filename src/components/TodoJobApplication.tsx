@@ -21,13 +21,12 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-[60rem] flex justify-between">
 				<section>
 					<p className="text-xl">
-						{currentJobApplication.job.title}{" "}
+						{currentJobApplication.job.title}
 						<span className="text-gray-600 font-mono text-sm not-italic">
-							(
+							{" "}
 							<span className="text-orange-300 font-mono text-sm not-italic">
 								rank {currentJobApplication.job.rank.toFixed(1)}
 							</span>
-							)
 						</span>
 					</p>
 					<p className="italic">
