@@ -147,11 +147,13 @@ export type OverviewJobApplication = {
 	letterDate: string;
 };
 
+export type ProcessStatus = "active" | "rejected" | "doing";
+
 export type ApplicationDay = {
 	title: string;
 	company: string;
 	letterDate: string;
-	processStatus: "active" | "rejected"
+	processStatus: ProcessStatus; 
 };
 
 export type GroupedApplicationDayReport = {

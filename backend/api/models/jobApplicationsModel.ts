@@ -6,6 +6,7 @@ import {
 	Job,
 	JobApplication,
 	OverviewJobApplication,
+	ProcessStatus,
 } from "../../../share/interfaces";
 import * as apptools from "../../apptools.js";
 import * as appconfig from "../../appconfig.js";
@@ -121,7 +122,10 @@ export const getFullReport = (): FullReport => {
 	let numberOfRejections = 0;
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.letterDate.trim() !== "" && (overviewJobApplication.kind !== 'closed') || overviewJobApplication.lastStatus.includes('rejection:')) {
-			const processStatus = overviewJobApplication.lastStatus.includes('rejection:') ? "rejected" : "active";
+			let processStatus:ProcessStatus = overviewJobApplication.lastStatus.includes('rejection:') ? "rejected" : "active";
+			if (overviewJobApplication.lastStatus.includes('...')) {
+				processStatus = 'doing';
+			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,

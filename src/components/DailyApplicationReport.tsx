@@ -7,13 +7,18 @@ export const DailyApplicationReport = () => {
 		<section>
 			<>
 				<h2 className="text-xl">
-					{fullReport.totalApplications} Total Applications{" "}
+					{fullReport.totalApplications} Total Applications Sent{" "}
 					<span className="text-sm">
 						(average per day ={" "}
 						{fullReport.averageApplicationsPerDay})
 					</span>
 				</h2>
-				<h3 className="mb-3 italic">{fullReport.numberActive} still active, <span className="text-red-800">{fullReport.numberOfRejections} rejected</span></h3>
+				<h3 className="mb-3 italic">
+					{fullReport.numberActive} still active,{" "}
+					<span className="text-red-800">
+						{fullReport.numberOfRejections} rejected
+					</span>
+				</h3>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];
@@ -30,13 +35,20 @@ export const DailyApplicationReport = () => {
 									{applications.map((application, index) => {
 										return (
 											<li key={index}>
-												<span className={application.processStatus === "rejected" ? 'text-red-700 line-through' : ''}>
+												{application.processStatus}
+												<span
+													className={
+														application.processStatus ===
+														"rejected"
+															? "text-red-700 line-through"
+															: ""
+													}
+												>
 													<span className="font-semibold text-black">
 														{application.title}
 													</span>{" "}
-													-{" "}
 													<span className="italic text-slate-700">
-														{application.company}
+														- {application.company}
 													</span>
 												</span>
 											</li>

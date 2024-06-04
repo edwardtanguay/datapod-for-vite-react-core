@@ -679,3 +679,31 @@ history::[[
 - 2024-06-04 13:46:44; created
 - 2024-06-04 15:29:39; sent via e-mail to info@thdata.de, still no confirmation received
 ]]
+
+==jobApplication
+dpodId::t2L2rf
+baseJobId::233
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 15:30:43
+skillTextsBlock::[[
+Have 5+ years of experience building large-scale complex systems. Having both scale-up and start-up experiences is a big plus.
+Proficiency in Typescript and Node.js and at least one modern frontend framework (Vue, React, Angular, Svelte)
+Proficiency in event-driven architecture
+Strong command in relational databases like Postgres
+Extensive mentorship experience. Strong communication and leadership skills
+You use code review as a tool to mentor and uphold the standard of the systems you own
+A bachelor's or master's degree in computer science or another relevant technical field—or equivalent experience
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 15:30:43; creating...
