@@ -106,7 +106,10 @@ export const getHeaderLine1 = (
 	job: Job,
 	jobApplication: JobApplication
 ): string => {
-	const referenceText = jobApplication.referenceId.trim() !== '' ? ` (${jobApplication.referenceId})` : '';
+	const referenceText =
+		jobApplication.referenceId.trim() !== ""
+			? ` (${jobApplication.referenceId})`
+			: "";
 	if (jobApplication.language === "english") {
 		return `Application for the position of ${job.title}${referenceText}`;
 	} else {
@@ -303,9 +306,17 @@ export const getClosingParagraph = (jobApplication: JobApplication): string => {
 		return jobApplication.closingParagraph;
 	} else {
 		if (jobApplication.contactKind === "recruiter") {
-			return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing in Projekten dieser Firma organisiert werden. Gerne würde ich mehr über diese Stelle und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
+			if (jobApplication.language === "english") {
+				return `Answering the above requirements has sparked my interest in this position even more. I also have a few questions, e.g. how unit and end-to-end testing are organized in projects at this company, and I would like to find out more about this position and the company in general. I look forward to speaking with you soon.`;
+			} else {
+				return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing in Projekten dieser Firma organisiert werden. Gerne würde ich mehr über diese Stelle und das Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
+			}
 		} else {
-			return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert werden. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und ihr Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`
+			if (jobApplication.language === "english") {
+				return `Answering the above requirements has sparked my interest in this position even more. I also have a few questions, e.g. how unit and end-to-end testing are organized in projects at your company, and I would like to find out more about this position and your company in general. I look forward to speaking with you soon.`;
+			} else {
+				return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert werden. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und ihr Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
+			}
 		}
 	}
 };
@@ -331,7 +342,9 @@ export const getKind = (): OverviewJobApplicationKind => {
 	return "processing";
 };
 
-export const getLastStatus = (fullJobApplication: FullJobApplication): string => {
+export const getLastStatus = (
+	fullJobApplication: FullJobApplication
+): string => {
 	const lines = qstr.convertStringBlockToLines(fullJobApplication.history);
 	if (lines.length > 0) {
 		const lastLine = lines[lines.length - 1];

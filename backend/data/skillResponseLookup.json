@@ -293,11 +293,11 @@
 		"german": "nnn"
 	},
 	"problemSolvingDesignDebugging": {
-		"english": "Most of the jobs and projects I have had over the last two decades of developing software have been in the capacity of a fullstack developer. This means that everything from frontend design to backend databases were my responsibility. Problem solving and debugging have become much easier today with modern the modern tools and technologies we have at our disposal.",
+		"english": "Jobs and projects I have had over the last two decades of developing software have mostly been in the capacity of a fullstack developer. This means that everything from frontend design to backend databases were my responsibility. Problem solving and debugging have become much easier today with the modern tools and technologies we currently have at our disposal.",
 		"german": "nnn"
 	},
 	"growHelpColleagues": {
-		"english": "My experience I have as a fullstack developer, and particularly my experience during the last three years of teaching and giving daily live-coding sessions to 25 students in online web development courses makes me the perfect candidate to learn with and help my colleagues in any time. The subjects I teach throughout the year are Frontend (React, Typescript, Sass, Tailwind), Backend (Node, Express, TypeScript), Databases (MongoDB, MySQL, Postgres, Prisma), Security (bcrypt, JWT, sessions/cookies, Zod, Kinde), Deployment (Vercel, Render, Cyclic, Hetzner, Nginx, PM2, Docker), and Testing (Jest, Vitest, Supertest, Cypress).",
+		"english": "My long experience I have as a fullstack developer, and particularly my experience during the last three years of teaching and giving daily live-coding sessions to over 20 students in online web development courses makes me the perfect candidate to learn with and help my colleagues in teams I work in. The subjects I teach throughout the year are Frontend (React, Typescript, Sass, Tailwind), Backend (Node, Express, TypeScript), Databases (MongoDB, MySQL, Postgres, Prisma), Security (bcrypt, JWT, sessions/cookies, Zod, Kinde), Deployment (Vercel, Render, Cyclic, Hetzner, Nginx, PM2, Docker), and Testing (Jest, Vitest, Supertest, Cypress).",
 		"german": "nnn"
 	},
 	"nnn": {

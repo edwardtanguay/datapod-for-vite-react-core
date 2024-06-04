@@ -568,12 +568,17 @@ customOutlineText::
 contactFullName::
 contactGender::
 contactEmail::
-contactAddress::
+contactAddress::[[
+101 Broadway 2nd Floor
+Oakland, CA 94607
+USA
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::
 history::[[
 - info: they use [the Shape Up approach](https://basecamp.com/shapeup)
-- 2024-06-04 11:26:55; creating...
+- 2024-06-04 11:26:55; created
+- 2024-06-04 12:43:05; posted on web form, received message "Deine Bewerbung wurde erfolgreich eingereicht" and the e-mail confirmation said "We aim to get back to applicants within 2 weeks time frame."
 ]]
