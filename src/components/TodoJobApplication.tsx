@@ -22,8 +22,12 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 				<section>
 					<p className="text-xl">
 						{currentJobApplication.job.title}{" "}
-						<span className="text-gray-800 font-mono text-sm not-italic">
-							(rank {currentJobApplication.job.rank.toFixed(1)})
+						<span className="text-gray-600 font-mono text-sm not-italic">
+							(
+							<span className="text-yellow-300 font-mono text-sm not-italic">
+								rank {currentJobApplication.job.rank.toFixed(1)}
+							</span>
+							)
 						</span>
 					</p>
 					<p className="italic">
@@ -32,7 +36,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 							({currentJobApplication.job.id})
 						</span>
 					</p>
-					<p>{currentJobApplication.job.publicationDate}</p>
+					<p className="italic">recorded {currentJobApplication.job.publicationDate}</p>
 					<p className="text-yellow-300">
 						{currentJobApplication.job.skillList}
 					</p>
