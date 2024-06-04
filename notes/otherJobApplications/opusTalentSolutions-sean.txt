@@ -85,3 +85,8 @@ Edward
     -------------------------------------------
     Great, thanks for the info. I always ask about and prefer to apply and work at companies that have a multi-level hiring process which involves a coding challenge with follow-up discussion of the applicant's code and their approach to the solution with the team they will be working with. This is a good sign that companies have developers who actually have the skills the company needs, and who are a good fit in the team both in terms of communication skills and work ethic.
     -------------------------------------------
+
+- 2024-06-04 11:23:11; Sean wrote:
+    ------------------------------------
+    Apologies, the meeting had to be rescheduled to Thursday am!
+    ------------------------------------

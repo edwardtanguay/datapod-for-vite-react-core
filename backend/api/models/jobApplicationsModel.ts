@@ -119,7 +119,7 @@ export const getFullReport = (): FullReport => {
 	);
 	const applicationDays: ApplicationDay[] = [];
 	for (const overviewJobApplication of overviewJobApplications) {
-		if (overviewJobApplication.letterDate.trim() !== "") {
+		if (overviewJobApplication.letterDate.trim() !== "" && overviewJobApplication.kind !== 'closed') {
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,

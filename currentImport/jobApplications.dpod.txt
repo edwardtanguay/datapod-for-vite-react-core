@@ -508,3 +508,43 @@ salaryTo::0
 earliestStartDate::
 closingParagraph::
 history::- 2024-06-04 10:08:39; job was ~filled before I applied
+
+==jobApplication
+dpodId::lc5eXR
+baseJobId::199
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 11:15:26
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 11:19:29; job was ~filled before I applied
+
+==jobApplication
+dpodId::It2OKc
+baseJobId::227
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 11:20:12
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 11:21:09; job was ~filled before I applied
