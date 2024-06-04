@@ -243,6 +243,7 @@ closingParagraph::Responding to the above points has piqued my interest in this 
 history::[[
 - 2024-05-31 12:36:34; sent application via form [this page](https://www.iu-careers.com/jobs/engineering/senior-fullstack-engineer-m-f-d-typescript-r021533/#apply)
 - 2024-05-31 12:37:05; received e-mail confirmation "it may take some time to check and process your application"
+- 2024-06-04 14:16:25; ~rejection: "There are other applicants for whom our currently open position is better suited."
 ]]
 
 ==jobApplication
@@ -582,3 +583,93 @@ history::[[
 - 2024-06-04 11:26:55; created
 - 2024-06-04 12:43:05; posted on web form, received message "Deine Bewerbung wurde erfolgreich eingereicht" and the e-mail confirmation said "We aim to get back to applicants within 2 weeks time frame."
 ]]
+
+==jobApplication
+dpodId::XVPYcK
+baseJobId::209
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 12:48:45
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 13:41:32; job was ~filled before I applied
+
+==jobApplication
+dpodId::WmIMfY
+baseJobId::213
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 13:41:51
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 13:44:51; job was ~filled before I applied
+
+==jobApplication
+dpodId::Z5NPQO
+baseJobId::215
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 13:44:59
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 13:44:59; job was ~filled before I applied
+
+==jobApplication
+dpodId::Sxm9pk
+baseJobId::217
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-04 13:46:44
+skillTextsBlock::[[
+Mindestens 2 Jahre berufliche Erfahrungen in der Software-Entwicklung.;softwareDevelopment
+Sehr gute Kenntnisse in React, HTML, CSS und JavaScript.;htmlCssJavascript,react
+Von Vorteil: Kenntnisse in Redux, Typescript.;redux, typescript
+Gutes Verständnis für informationstechnische Architekturen, Lösungen und Prozesse.;architectureSolutionsProcesses
+Erfahrungen mit Versionskontrollsystemen und Frontend-Testing ist von Vorteil.;versionControl, testing, frontendTesting
+Selbständige, strukturierte, sorgfältige und kooperative Arbeitsweise.
+Deutsche Sprachkenntnisse fließend in Wort und Schrift (Sprachniveau mindestens B2).
+Analytisches Denkvermögen.
+Spaß an der Arbeit in einem netten Team.
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 13:46:44; creating...

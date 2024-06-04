@@ -118,13 +118,19 @@ export const getFullReport = (): FullReport => {
 		a.letterDate < b.letterDate ? 1 : -1
 	);
 	const applicationDays: ApplicationDay[] = [];
+	let numberOfRejections = 0;
 	for (const overviewJobApplication of overviewJobApplications) {
-		if (overviewJobApplication.letterDate.trim() !== "" && overviewJobApplication.kind !== 'closed') {
+		if (overviewJobApplication.letterDate.trim() !== "" && (overviewJobApplication.kind !== 'closed') || overviewJobApplication.lastStatus.includes('rejection:')) {
+			const processStatus = overviewJobApplication.lastStatus.includes('rejection:') ? "rejected" : "active";
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,
 				letterDate: overviewJobApplication.letterDate,
+				processStatus 
 			};
+			if (processStatus === "rejected") {
+				numberOfRejections++;
+			}
 			applicationDays.push(day);
 		}
 	}
@@ -141,6 +147,7 @@ export const getFullReport = (): FullReport => {
 
 	const totalApplications = applicationDays.length;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
+	const numberActive = totalApplications - numberOfRejections;
 	return {
 		totalApplications,
 		totalDays,
@@ -148,6 +155,8 @@ export const getFullReport = (): FullReport => {
 			(totalApplications / totalDays).toFixed(2)
 		),
 		groupedApplicationDayReport,
+		numberOfRejections,
+		numberActive
 	};
 };
 

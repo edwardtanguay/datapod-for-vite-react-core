@@ -6,12 +6,14 @@ export const DailyApplicationReport = () => {
 	return (
 		<section>
 			<>
-				<h2 className="mb-3 text-xl">
+				<h2 className="text-xl">
 					{fullReport.totalApplications} Total Applications{" "}
 					<span className="text-sm">
-						(average per day = {fullReport.averageApplicationsPerDay})
+						(average per day ={" "}
+						{fullReport.averageApplicationsPerDay})
 					</span>
 				</h2>
+				<h3 className="mb-3 italic">{fullReport.numberActive} still active, <span className="text-red-800">{fullReport.numberOfRejections} rejected</span></h3>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];
@@ -28,12 +30,14 @@ export const DailyApplicationReport = () => {
 									{applications.map((application, index) => {
 										return (
 											<li key={index}>
-												<span className="font-semibold">
-													{application.title}
-												</span>{" "}
-												-{" "}
-												<span className="italic text-slate-700">
-													{application.company}
+												<span className={application.processStatus === "rejected" ? 'text-red-700 line-through' : ''}>
+													<span className="font-semibold text-black">
+														{application.title}
+													</span>{" "}
+													-{" "}
+													<span className="italic text-slate-700">
+														{application.company}
+													</span>
 												</span>
 											</li>
 										);

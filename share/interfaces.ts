@@ -151,6 +151,7 @@ export type ApplicationDay = {
 	title: string;
 	company: string;
 	letterDate: string;
+	processStatus: "active" | "rejected"
 };
 
 export type GroupedApplicationDayReport = {
@@ -162,4 +163,6 @@ export type FullReport = {
 	totalDays: number;
 	averageApplicationsPerDay: number;
 	groupedApplicationDayReport: GroupedApplicationDayReport;
+	numberOfRejections: number;
+	numberActive: number;
 };
