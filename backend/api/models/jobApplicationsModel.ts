@@ -120,11 +120,13 @@ export const getFullReport = (): FullReport => {
 	);
 	const applicationDays: ApplicationDay[] = [];
 	let numberOfRejections = 0;
+	let numberDoing = 0;
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.letterDate.trim() !== "" && (overviewJobApplication.kind !== 'closed') || overviewJobApplication.lastStatus.includes('rejection:')) {
 			let processStatus:ProcessStatus = overviewJobApplication.lastStatus.includes('rejection:') ? "rejected" : "active";
 			if (overviewJobApplication.lastStatus.includes('...')) {
 				processStatus = 'doing';
+				numberDoing++;
 			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
@@ -149,7 +151,7 @@ export const getFullReport = (): FullReport => {
 			return acc;
 		}, {});
 
-	const totalApplications = applicationDays.length;
+	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
 	return {

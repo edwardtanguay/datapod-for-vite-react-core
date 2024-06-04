@@ -35,7 +35,9 @@ export const DailyApplicationReport = () => {
 									{applications.map((application, index) => {
 										return (
 											<li key={index}>
-												{application.processStatus}
+												{application.processStatus === "doing" && (
+													<span className="text-green-900 italic font-semibold">...in process... </span>
+												)}
 												<span
 													className={
 														application.processStatus ===
