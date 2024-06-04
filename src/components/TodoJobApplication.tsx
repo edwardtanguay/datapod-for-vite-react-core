@@ -20,7 +20,12 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 		<React.Fragment>
 			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-[60rem] flex justify-between">
 				<section>
-					<p className="text-xl">{currentJobApplication.job.title}</p>
+					<p className="text-xl">
+						{currentJobApplication.job.title}{" "}
+						<span className="text-gray-800 font-mono text-sm not-italic">
+							(rank {currentJobApplication.job.rank.toFixed(1)})
+						</span>
+					</p>
 					<p className="italic">
 						<span>{currentJobApplication.job.company}</span>{" "}
 						<span className="text-gray-700 font-mono text-xs not-italic">
@@ -28,14 +33,15 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						</span>
 					</p>
 					<p>{currentJobApplication.job.publicationDate}</p>
+					<p className="text-yellow-300">
+						{currentJobApplication.job.skillList}
+					</p>
 				</section>
 				<section className="flex flex-col justify-between w-[20rem]">
 					<div className="flex justify-end">
 						{currentJobApplication.job.url && (
 							<a
-								href={
-									currentJobApplication.job.url
-								}
+								href={currentJobApplication.job.url}
 								className="underline"
 								target="_blank"
 							>

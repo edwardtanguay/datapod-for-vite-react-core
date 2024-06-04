@@ -128,6 +128,7 @@ export type Job = {
 	description: string;
 	skillList: string;
 	publicationDate: string;
+	rank: number;
 };
 
 export type SkillResponseLookupObject = {

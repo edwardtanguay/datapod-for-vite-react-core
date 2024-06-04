@@ -19,7 +19,20 @@ import * as model from "./jobApplicationsModel.js";
 
 // jobs (from online JSON file)
 export const getJobs = (): Job[] => {
-	const jobs: Job[] = _jobs;
+	const jobs: Job[] = [];
+	for (const _job of _jobs) {
+		const job: Job = {
+			id: _job.id,
+			title: _job.title,
+			company: _job.company,
+			url: _job.url,
+			description: _job.description,
+			skillList: _job.skillList,
+			publicationDate: _job.publicationDate,
+			rank: _job.rank ? _job.rank : 2.5,
+		};
+		jobs.push(job);
+	}
 	return jobs;
 };
 
@@ -194,7 +207,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 				);
 			}
 		} else {
-			overviewJobApplication.lastStatus = '';
+			overviewJobApplication.lastStatus = "";
 		}
 	}
 	return overviewJobApplications;
