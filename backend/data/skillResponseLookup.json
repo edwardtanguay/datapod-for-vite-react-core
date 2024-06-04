@@ -316,6 +316,10 @@
 		"english": "Frontend testing tools that I have used are Jest, Vitest, Mocha/Chai as well as React Testing Library.",
 		"german": "Zu den Frontend-Testtools, die ich verwendet habe, gehören Jest, Vitest, Mocha/Chai sowie die React Testing Library."
 	},
+	"niceTeam": {
+		"english": "I look forward to it!",
+		"german": "Ich freue mich darauf!"
+	},
 	"nnn": {
 		"english": "nnn",
 		"german": "nnn"

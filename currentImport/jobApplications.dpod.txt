@@ -657,10 +657,10 @@ Sehr gute Kenntnisse in React, HTML, CSS und JavaScript.;htmlCssJavascript,react
 Von Vorteil: Kenntnisse in Redux, Typescript.;redux, typescript
 Gutes Verständnis für informationstechnische Architekturen, Lösungen und Prozesse.;architectureSolutionsProcesses
 Erfahrungen mit Versionskontrollsystemen und Frontend-Testing ist von Vorteil.;versionControl, testing, frontendTesting
-Selbständige, strukturierte, sorgfältige und kooperative Arbeitsweise.
-Deutsche Sprachkenntnisse fließend in Wort und Schrift (Sprachniveau mindestens B2).
-Analytisches Denkvermögen.
-Spaß an der Arbeit in einem netten Team.
+Selbständige, strukturierte, sorgfältige und kooperative Arbeitsweise.;teamWorkSolutionOriented
+Deutsche Sprachkenntnisse fließend in Wort und Schrift (Sprachniveau mindestens B2).;germanEnglish
+Analytisches Denkvermögen.;highLevelDeliverables
+Spaß an der Arbeit in einem netten Team.;niceTeam
 ]]
 customText::
 customOutlineText::
