@@ -24,7 +24,7 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 						{currentJobApplication.job.title}{" "}
 						<span className="text-gray-600 font-mono text-sm not-italic">
 							(
-							<span className="text-yellow-300 font-mono text-sm not-italic">
+							<span className="text-orange-300 font-mono text-sm not-italic">
 								rank {currentJobApplication.job.rank.toFixed(1)}
 							</span>
 							)
