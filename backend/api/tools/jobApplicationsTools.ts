@@ -85,7 +85,8 @@ export const buildContactSaluation = (
 		r = `c/o ${buildFormalFullName(jobApplication)}`;
 	}
 	if (jobApplication.language === "german") {
-		r = `z.H. ${buildFormalFullName(jobApplication)}`;
+		r = `z.H. ${(buildFormalFullName(jobApplication).trim())}`;
+		r = qstr.replaceAll(r, 'Frau Frau', 'Frau');
 	}
 	return r;
 };
@@ -315,7 +316,7 @@ export const getClosingParagraph = (jobApplication: JobApplication): string => {
 			if (jobApplication.language === "english") {
 				return `Answering the above requirements has sparked my interest in this position even more. I also have a few questions, e.g. how unit and end-to-end testing are organized in projects at your company, and I would like to find out more about this position and your company in general. I look forward to speaking with you soon.`;
 			} else {
-				return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert werden. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und ihr Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
+				return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert werden. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und Ihr Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
 			}
 		}
 	}

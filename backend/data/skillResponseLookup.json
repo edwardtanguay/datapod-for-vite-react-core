@@ -53,7 +53,7 @@
 	},
 	"highLevelDeliverables": {
 		"english": "I am a pragmatist who knows the value of quick-and-dirty coding in order to push features and bug fixes to the customer as quickly as possible, but I am also a purist who strives to perfect processes as much as possible.",
-		"german": "Ich bin ein Pragmatiker, der den Wert von quick-and-dirty code kennt, um so schnell wie möglich dem Kunden Features zu stellen und Bugs zu lösen. Gleichzeitig bin ich aber auch ein Purist, der versucht, Prozesse so weit wie möglich zu perfektionieren."
+		"german": "Ich bin ein Pragmatiker, der den Wert von quick-and-dirty code kennt, um so schnell wie möglich dem Kunden Features zu erstellen und Bugs zu lösen. Gleichzeitig bin ich aber auch ein Purist, der versucht, Prozesse so weit wie möglich zu perfektionieren."
 	},
 	"communicationSkills": {
 		"english": "I have a Masters Degree in English and Linguistics, and good communication skills in both English and German."
@@ -198,7 +198,7 @@
 	},
 	"gitSvn": {
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years.",
-		"german": "Obwohl ich alt genug bin, um früher CVS und SVN verwendet zu haben, war Git in allen Projekten und Jobs, an denen ich in den letzten 10 Jahren beteiligt war, das Standard-Versionskontrollsystem."
+		"german": "Obwohl ich erfahren genug bin, um früher CVS und SVN verwendet zu haben, war Git in allen Projekten und Jobs, an denen ich in den letzten 10 Jahren beteiligt war, das Standard-Versionskontrollsystem."
 	},
 	"productSupport": {
 		"english": "If you mean here to create features and fix bugs for customer products, I have been doing this in most of my jobs in the past 20 years.",
@@ -310,7 +310,7 @@
 	},
 	"versionControl": {
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years.",
-		"german": "Obwohl ich alt genug bin, früher CVS und SVN verwendet zu haben, seit den letzten 10 Jahren verwende ich Git, GitLab und GitHub in allen Projekten und Jobs. Meine Git Kenntnisse sind gut."
+		"german": "Obwohl ich erfahren genug bin, früher CVS und SVN verwendet zu haben, seit den letzten 10 Jahren verwende ich Git, GitLab und GitHub in allen Projekten und Jobs."
 	},
 	"frontendTesting": {
 		"english": "Frontend testing tools that I have used are Jest, Vitest, Mocha/Chai as well as React Testing Library.",
