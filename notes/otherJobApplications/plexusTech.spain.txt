@@ -1,0 +1,18 @@
+- 2024-06-04 08:56:56; quick-applied via LinkedIn
+	-----------------------------------------------------
+	Preguntas adicionales
+	¿Cuántos años de experiencia tienes con JavaScript?¿Cuántos años de experiencia tienes con JavaScript?
+				25
+			
+	¿Cuántos años de experiencia tienes con Jest?¿Cuántos años de experiencia tienes con Jest?
+				5
+			
+	¿Qué salario esperas percibir?¿Qué salario esperas percibir?
+				50000
+			
+	¿Tienes experiencia con Buenas Prácticas?¿Tienes experiencia con Buenas Prácticas?
+				Yes
+			
+	¿Cuál es tu nivel de Español?¿Cuál es tu nivel de Español?
+				Conversación
+	-----------------------------------------------------

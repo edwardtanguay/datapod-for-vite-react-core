@@ -1,0 +1,15 @@
+- 2024-06-04 08:32:04; quick-applied via LinkedIn
+	---------------------------------------
+	Additional Questions
+	How many years of work experience do you have with Python (Programming Language)?How many years of work experience do you have with Python (Programming Language)?
+				1
+			
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+			
+	Are you legally authorized to work in Germany?Are you legally authorized to work in Germany?
+				Yes
+			
+	How many years of work experience do you have with Rust?How many years of work experience do you have with Rust?
+				.5
+	---------------------------------------
