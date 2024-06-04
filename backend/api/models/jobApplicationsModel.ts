@@ -177,6 +177,14 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 					""
 				);
 			}
+			if (overviewJobApplication.lastStatus.includes("~rejection")) {
+				overviewJobApplication.kind = "closed";
+				overviewJobApplication.lastStatus = qstr.replaceAll(
+					overviewJobApplication.lastStatus,
+					"~",
+					""
+				);
+			}
 		} else {
 			overviewJobApplication.lastStatus = '';
 		}

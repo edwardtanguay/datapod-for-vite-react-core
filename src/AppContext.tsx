@@ -112,7 +112,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	useEffect(() => {
 		setTimeout(() => {
 			loadOverviewJobApplications();
-		}, 200);
+		}, 400);
 	}, []);
 
 	const handleParseButton = async () => {

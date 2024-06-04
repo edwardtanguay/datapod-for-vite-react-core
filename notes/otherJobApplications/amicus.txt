@@ -1,0 +1,5 @@
+2024-06-04 07:38:46; speed-applied at LinkedIn, answered 
+	---------------------------------------
+	How many years of work experience do you have with React.js? 5
+	How many years of work experience do you have with TypeScript? 4
+	---------------------------------------

@@ -1,0 +1,87 @@
+
+- Opus Talent Solutions
+- contact: Sean [shawn] +31 20 797 9055
+- 2024-06-01 10:27:11; applied via LinkedIn for Node/React position
+- 2024-06-03 10:11:42; Sean [shawn] called from Amsterdam
+	- they have a position at bnp - commercial real-estate, hamburg, react/node
+	- https://bergmannpartners.de
+- 2024-06-03 10:25:48; I sent Confirmation of non-contact with B&P Bergmannpartners to Sean 
+- 2024-06-03 10:36:16; I sent him a list of companies I have applied for
+- 2024-06-03 10:37:29; I sent Sean my "experience in React and Node in the last few years"
+- During my over 20 years experience as a web developer, I have worked in large teams that have built numerous enterprise-level applications, for instance during my employment as a Microsoft Consultant, I was responsible for Frontend development in a two-year-long research software project for the Polizei Rheinland-Pfalz, and worked on the backend of a bus ticketing system for Siemens VDO in Berlin. Up to 2018 the technology stacks that I used were mainly .NET/C# and LAMP (PHP/MySQL).
+- In 2018 in a PHP project for the translation company zappmedia GmbH, we implemented a Node/Express backend and Vue frontend as a way to attain more flexibility than we could achieve with our standard PHP tools.
+- I was so impressed with the relative ease that JavaScript frameworks such as React and Vue had in solving difficult frontend challenges, that I began using React and Vue together with Node/Express for internal projects.
+- In 2019 I decided to transfer my skills from .NET/PHP to the MERN Stack as my technology of choice for my professional work.
+- In 2021 I began teaching the MERN Stack (Node/Express/MongoDB with React) at Digital Career Institute in Berlin as a web development lecturer. In this capacity for the past three years, I have taught full-year classes of 20+ students how to create professional full-stack websites with React/Next.js on the frontend with Node/Express on the backend connected to both NoSQL and SQL databases (MongoDB, MySQL, Postgres).
+- In building and deploying full-stack MERN apps that are deployed to public-facing servers, we spend the year perfecting our skills not only in React but in tools throughout the entire ecosystem in which React is used, e.g.
+- state management tools such as Zustand and Redux
+- React form tools such as Formik and React Hook Form
+- React and functional design patterns such as Higher-Order Functions and Custom Hooks
+- testing tools such as Jest, Vitest, Supertest and Cypress
+- APIs based on both REST and GraphQL, and we look at more complex backend architectures that use the MVC pattern such as NestJS
+- modern styling tools such as Tailwind and shadcn/ui
+- TypeScript exclusively on both backend and frontend
+- authentication tools such as OAuth, Kinde and Clerk
+- connection to both installed and hosted databases such as MongoDB, MySQL and Postgres  with the ORMs such as Mongoose and Prisma
+- deployment for Frontend at Vercel and backend on Hetzner machines using Nginx, PM2, GitHub Actions, npm scripts and Docker
+- This experience of teaching and working together with my students to develop and deploy useful, public-facing, full-stack applications to cloud servers, has given me deep skills not only in React but in the tools and technologies with which React is widely used, and years of experience of encountering and solving real-world issues that come about from getting non-complex applications run online and respond quickly and predictably on all devices.
+- I look forward to using these skills in professional teams to build even larger and more complex applications that solve business and customer needs.- During my over 20 years experience as a web developer, I have worked in large teams that have built numerous enterprise-level applications, for instance during my employment as a Microsoft Consultant, I was responsible for Frontend development in a two-year-long research software project for the Polizei Rheinland-Pfalz, and worked on the backend of a bus ticketing system for Siemens VDO in Berlin. Up to 2018 the technology stacks that I used were mainly .NET/C# and LAMP (PHP/MySQL).
+- In 2018 in a PHP project for the translation company zappmedia GmbH, we implemented a Node/Express backend and Vue frontend as a way to attain more flexibility than we could achieve with our standard PHP tools.
+- I was so impressed with the relative ease that JavaScript frameworks such as React and Vue had to solving difficult frontend challenges, that I begin using React and Vue together with Node/Express for internal projects.
+- In 2019 I decided to transfer my skills from .NET/PHP to the MERN Stack as my technology of choice for my professional work.
+- In 2021 I began teaching the MERN Stack (Node/Express/MongoDB with React) at Digital Career Institute in Berlin as a web development lecturer. In this capacity for the past three years, I have taught full-year classes of 20+ students how to create professional full-stack websites with React/Next.js on the frontend with Node/Express on the backend connected to both NoSQL and SQL databases (MongoDB, MySQL, Postgres). 
+- In building and deploying full-stack MERN apps that are deployed to public-facing servers, we spend the year perfecting our skills not only in React but in tools throughout the entire ecosystem in which React is used, e.g.
+	- state management tools such as Zustand and Redux
+	- React form tools such as Formik and React Hook Form 
+	- React and functional design patterns such as Higher-Order Functions and Custom Hooks
+	- testing tools such as Jest, Vitest, Supertest and Cypress
+	- APIs based on both REST and GraphQL, and we look at more complex backend architectures that use the MVC pattern such as NestJS
+	- modern styling tools such as Tailwind and shadcn/ui
+	- TypeScript exclusively on both backend and frontend 
+	- authentication tools such as OAuth, Kinde and Clerk
+	- connection to both installed and hosted databases such as MongoDB, MySQL and Postgres  with the ORMs such as Mongoose and Prisma 
+	- deployment for Frontend at Vercel and backend on Hetzner machines using Nginx, PM2, GitHub Actions, npm scripts and Docker
+- This experience of teaching and working together with my students to develop and deploy useful, public-facing, full-stack applications to cloud servers, has given me deep skills not only in React but in the tools and technologies with which React is widely used, and years of experience of encountering and solving real-world issues that come about from getting non-complex applications run online and respond quickly and predictably on all devices.
+- I look forward to using these skills in professional teams to build even larger and more complex applications that solve business and customer needs.
+
+
+Here is the text you asked for, or to be precise, two texts, one a TLDR non-technical version, and the other at a deeper technical level.
+
+Since you know the needs of your clients more intimately than I do, please suggest any change you feel might be more accommodating to their expectations and business needs.
+
+1. Basically what I want to express this:
+
+    I have deep skills and over two decades of solid experience as a professional developer
+    I realized five years ago the value JavaScript framework ecosystem for business web development needs and decided to expand my skills in this area
+    through teaching the MERN stack professionally for the past three years I have developed solid skills and gained project experience in not only React and Node, but in the entire ecosystem in which these technologies are used to create complex, public-facing applications
+    I'm excited to use these skills in professional development teams to solve real business needs
+
+2. Here is the more technical version:
+
+    During my over 20 years experience as a web developer, I have worked in large teams that have built numerous enterprise-level applications, for instance during my employment as a Microsoft Consultant, I was responsible for Frontend development in a two-year-long research software project for the Polizei Rheinland-Pfalz, and worked on the backend of a bus ticketing system for Siemens VDO in Berlin. Up to 2018 the technology stacks that I used were mainly .NET/C# and LAMP (PHP/MySQL).
+    In 2018 in a PHP project for the translation company zappmedia GmbH, we implemented a Node/Express backend and Vue frontend as a way to attain more flexibility than we could achieve with our standard PHP tools.
+    I was so impressed with the relative ease that JavaScript frameworks such as React and Vue had in solving difficult frontend challenges, that I began using React and Vue together with Node/Express for internal projects.
+    In 2019 I decided to transfer my skills from .NET/PHP to the MERN Stack as my technology of choice for professional work.
+    In 2021 I began teaching the MERN Stack (Node/Express/MongoDB with React) at Digital Career Institute in Berlin as a web development lecturer. In this capacity for the past three years, I have taught full-year classes of 20+ students how to create professional full-stack websites with React/Next.js on the frontend with Node/Express on the backend connected to both NoSQL and SQL databases (MongoDB, MySQL, Postgres).
+    In building full-stack MERN apps that are deployed to public-facing servers, we spend the year perfecting our skills not only in React but in tools throughout the entire ecosystem in which React is used, e.g.
+        state management tools such as Zustand and Redux
+         React form tools such as Formik and React Hook Form
+         React and functional design patterns such as Higher-Order Functions and Custom Hooks
+         testing tools such as Jest, Vitest, Supertest and Cypress
+         APIs based on both REST and GraphQL, and we look at more complex backend architectures that use the MVC pattern such as NestJS
+         modern styling tools such as Tailwind and shadcn/ui
+         TypeScript exclusively on both backend and frontend
+         authentication tools such as OAuth, Kinde and Clerk
+         connection to both installed and hosted databases such as MongoDB, MySQL and Postgres  with the ORMs such as Mongoose and Prisma
+         deployment for Frontend at Vercel and backend on Hetzner machines using Nginx, PM2, GitHub Actions, npm scripts and Docker
+        This experience of teaching and working together with my students to develop and deploy useful, public-facing, full-stack applications to cloud servers, has given me deep skills not only in React but in the tools and technologies with which React is widely used, and years of experience of encountering and solving real-world issues that come about from getting non-complex applications run online and respond quickly and predictably on all devices.
+    I look forward to using these skills in professional teams to build even larger and more complex applications that solve business and customer needs.
+
+Regards,
+
+Edward
+
+- 2024-06-04 07:13:19; wrote to Sean
+    -------------------------------------------
+    Great, thanks for the info. I always ask about and prefer to apply and work at companies that have a multi-level hiring process which involves a coding challenge with follow-up discussion of the applicant's code and their approach to the solution with the team they will be working with. This is a good sign that companies have developers who actually have the skills the company needs, and who are a good fit in the team both in terms of communication skills and work ethic.
+    -------------------------------------------

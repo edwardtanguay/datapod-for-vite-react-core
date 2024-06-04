@@ -194,6 +194,20 @@ history::[[
 	vielen Dank für Dein Interesse an Sopra Steria. Bezugnehmend auf Deine Frage: es handelt sich hier um allgemeine Java Skills.
 	Ergänzend zu Deinen Unterlagen bitten wir Dich, uns Deine Gehaltsvorstellung sowie Deinen frühestmöglichen Eintrittstermin bzw. Deine Kündigungsfrist mitzuteilen.
 	-----------------------------------------------
+- 2024-06-03 09:10:10; I wrote back
+	-----------------------------------------
+	Hallo Steffi,
+
+	vielen Dank für die schnelle Antwort.
+
+	Meine Gehaltsvorstellung liegt zwischen 3.800,- € und 4.400,- € brutto monatlich.
+	Mein frühester Eintrittstermin ist der 01. August 2024.
+
+	Mit freundlichen Grüßen
+	
+	Edward
+	-----------------------------------------
+- 2024-06-03 09:26:19; waiting for Steffi to write back after sending salary and start date
 ]]
 
 ==jobApplication
@@ -472,4 +486,5 @@ history::[[
 - 2024-06-02 20:22:13; was confirmed on site: "bitten wir Sie um etwas Geduld"
 - 2024-06-02 20:28:36; got e-mail confirmation: "vielen Dank für Ihre Bewerbung auf die Position als Full Stack Software Engineer (m/w/d) - React/ Node.js mit der Referenznummer JN-052024-6439572 "
 - 2024-06-02 20:29:13; todo: call about not being able to upload CV
+- 2024-06-03 13:52:51; ~rejection: "sich andere Profile besser unseren Erwartungen gedeckt haben"
 ]]

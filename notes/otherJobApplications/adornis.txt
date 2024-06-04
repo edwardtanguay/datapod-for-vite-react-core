@@ -1,0 +1,9 @@
+2024-06-04 07:42:21; quick-applied via LinkedIn
+	-------------------------------------------
+	Wie gut beherrschen Sie Deutsch? 
+		Muttersprache oder zweisprachig
+	Wie viele Jahre Erfahrung hast du mit Softwareentwicklung?
+		20
+	Wie viele Jahre Erfahrung hast du mit professioneller TypeScript-Entwicklung?
+		4
+	-------------------------------------------

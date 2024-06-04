@@ -1,0 +1,17 @@
+2024-06-04 07:52:45; quick-applied at LinkedIn
+	------------------------------------------
+	¿Cuál es tu nivel de Inglés?¿Cuál es tu nivel de Inglés?
+				Nativo o bilingüe
+			
+	¿Cuántos años de experiencia tienes con React.js?¿Cuántos años de experiencia tienes con React.js?
+				5
+			
+	¿Tienes permiso de trabajo para Portugal?¿Tienes permiso de trabajo para Portugal?
+				Sí
+			
+	How many years of experience you have with OOP languages?How many years of experience you have with OOP languages?
+				20
+			
+	Do you live in Portugal or willing to relocate?Do you live in Portugal or willing to relocate?
+				No
+	------------------------------------------
