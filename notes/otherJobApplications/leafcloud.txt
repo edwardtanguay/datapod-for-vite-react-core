@@ -13,3 +13,20 @@
 				Yes
 			
 	-------------------------------------------
+- 2024-06-04 13:38:06; was clicked on, here more information
+	---------------------------------------------
+	Key Responsibilities:
+		Design and develop scalable, high-performance platform using Python (Flask, Django), JavaScript (React), and Node.js (Express), ensuring optimal user experience and functionality
+		Utilize AI tooling and smart IDEs to streamline development workflows, automate repetitive tasks, and improve code quality and efficiency
+		Collaborate with cross-functional teams, including product management, design, and infrastructure, to translate business requirements into technical solutions
+		Implement best practices for code versioning, collaboration, and deployment using Git and other modern development tools
+		Stay on top of emerging technologies and trends in full-stack development, continuously evaluating and integrating new tools and frameworks to enhance our platform
+
+	Requirements:
+		Minimum 5 years of experience in full-stack web development, with a focus on Python (Flask, Django), JavaScript (React), and Node.js (Express)
+		Experience using AI tooling and smart IDEs to improve development processes and productivity
+		Proficiency in Git and other modern version control systems, with experience collaborating with distributed teams
+		Strong problem-solving and analytical skills, with the ability to translate business requirements into technical solutions
+		Great communication and collaboration skills, with the ability to work effectively in a cross-functional team environment
+		At least a Bachelor's degree or more in Computer Science, Engineering, or related field
+	---------------------------------------------
