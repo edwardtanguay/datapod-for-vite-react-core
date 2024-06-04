@@ -31,11 +31,10 @@ export const TodoJobApplication = ({ currentJobApplication }: IProps) => {
 				</section>
 				<section className="flex flex-col justify-between w-[20rem]">
 					<div className="flex justify-end">
-						{currentJobApplication.fullJobApplication && (
+						{currentJobApplication.job.url && (
 							<a
 								href={
-									currentJobApplication.fullJobApplication
-										.jobAnnouncementUrl
+									currentJobApplication.job.url
 								}
 								className="underline"
 								target="_blank"

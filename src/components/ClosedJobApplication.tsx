@@ -21,7 +21,7 @@ export const ClosedJobApplication = ({ currentJobApplication }: IProps) => {
 			<header className="bg-slate-500 px-4 pt-4 rounded-t-lg w-[60rem] flex justify-between">
 				<section>
 					<p className="text-xl">
-						{currentJobApplication.job.title} TODO
+						{currentJobApplication.job.title}
 					</p>
 					<p className="italic">
 						<span>{currentJobApplication.job.company}</span>{" "}
@@ -29,7 +29,7 @@ export const ClosedJobApplication = ({ currentJobApplication }: IProps) => {
 							({currentJobApplication.job.id})
 						</span>
 					</p>
-					<p className="text-sm text-red-700 font-semibold bg-slate-800 w-fit py-1 px-2 rounded">
+					<p className="text-sm text-gray-500 font-semibold bg-slate-800 w-fit py-1 px-2 rounded">
 						{currentJobApplication.lastStatus}
 					</p>
 				</section>

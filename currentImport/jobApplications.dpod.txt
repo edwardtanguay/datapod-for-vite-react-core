@@ -488,3 +488,23 @@ history::[[
 - 2024-06-02 20:29:13; todo: call about not being able to upload CV
 - 2024-06-03 13:52:51; ~rejection: "sich andere Profile besser unseren Erwartungen gedeckt haben"
 ]]
+
+==jobApplication
+dpodId::jiwleG
+baseJobId::264
+referenceId::
+contactKind::company
+language::english
+letterDate::
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-04 10:08:39; job was ~filled before I applied
