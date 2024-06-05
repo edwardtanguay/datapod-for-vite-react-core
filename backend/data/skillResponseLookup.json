@@ -161,7 +161,7 @@
 		"german": "Ein Beispiel meiner Programmier-Leidenschaft und meine Bereitschaft, neue Themen und Technologien zu erkunden, finden Sie in meinen <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">über 800 Howtos</a>, die ich in den letzten Jahren erstellt habe."
 	},
 	"react": {
-		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students in which we build fullstack websites based on the MERN stack (Node/Express/MongoDB on the backend, React or Next.js on the frontend).",
+		"english": "In 2018 as part of my system administration job, I began using React to develop internal task tracking websites with Node/Express backends. Since 2021 I have been teaching the React and Next.js framework to web developer students in which we build fullstack websites based on the MERN stack (Node/Express/MongoDB on the backend, React or Next.js on the frontend).",
 		"german": "Seit 2021 unterrichte ich React und Next.js in einem Webentwicklung Kurs bei Digital Career Institut GmbH, wo ich erstelle Fullstack-Websites basierend auf dem MERN-Stack: Node/Express/MongoDB im Backend mit React oder Next.js für das Frontend."
 	},
 	"basicsGitTypeScriptRest": {
@@ -363,6 +363,19 @@
 	"mongodb": {
 		"english": "Since 2021 I have been teaching the MERN Stack to web developer students at Digital Career Institute in Berlin in which I use MongoDB both native and hosted as Docker instances. We connect these databases to Node/Express backends with both Mongoose and the ORM Prisma.",
 		"german": "Seit 2021 unterrichte ich Webentwickler-Studenten am Digital Career Institute in Berlin den MERN Stack, wobei ich MongoDB sowohl nativ als auch gehostet als Docker-Instanzen verwende. Ich verbinde diese Datenbanken mit Node/Express-Backends sowohl mit Mongoose als auch mit dem ORM Prisma."
+	},
+	"experienceIncludingTypescript": {
+		"english": "My over 20 years of experience as a web developer, my background in C#, and particularly my experience teaching TypeScript for the past three years as a web development instructor at the Digital Career Institute in Berlin, gives me solid skills in TypeScript both backend and frontend."
+	},
+	"typescriptOverJavascript": {
+		"english": "In my web development course, I teach TypeScript from the beginning when we start with the React and Next.js frameworks, after which we use TypeScript only, including tools that work closely with TypeScript such as the validation tool Zod and ORM database tools such as Prisma. For backend APIs we set up TypeScript development environments so that we get TypeScript support and type safety in the VSCode editor as well as during deployment to servers such as Vercel or custom deployment scenarios e.g. cloud hosting at Hetzner."
+	},
+	"storybookAntdesign": {
+		"english": "I have limited experience with both Storybook and Ant Design, but look forward to learning and using both of them in projects, as they seem to both be a way to better organize components in React projects, particularly when working in teams."
+	},
+	"testingTools": {
+		"english": "Testing tools that I teach and use are Jest or more recently Vitest/TypeScript, as well as React Testing Library for frontend. To test APIs I use a combination of Vitest and Supertest. End-to-end testing I mainly use Cypress.",
+		"german": "nnn"
 	},
 	"nnn": {
 		"english": "nnn",

@@ -1,0 +1,21 @@
+- 2024-06-05 15:50:47; LinkedIn
+	--------------------------------------
+	Additional Questions
+	What is your level of proficiency in German?What is your level of proficiency in German?
+				Native or bilingual
+			
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+			
+	Are you comfortable commuting to this job's location?Are you comfortable commuting to this job's location?
+				Yes
+			
+	Have you completed the following level of education: Bachelor's Degree?Have you completed the following level of education: Bachelor's Degree?
+				Yes
+			
+	Will you now or in the future require sponsorship for employment visa status?Will you now or in the future require sponsorship for employment visa status?
+				No
+			
+	How many years of work experience do you have with Java?How many years of work experience do you have with Java?
+				5
+	--------------------------------------
