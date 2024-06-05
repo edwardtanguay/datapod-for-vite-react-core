@@ -314,9 +314,9 @@ export const getClosingParagraph = (jobApplication: JobApplication): string => {
 			}
 		} else {
 			if (jobApplication.language === "english") {
-				return `Answering the above requirements has sparked my interest in this position even more. I also have a few questions, e.g. how unit and end-to-end testing are organized in projects at your company, and I would like to find out more about this position and your company in general. I look forward to speaking with you soon.`;
+				return `Answering the above requirements has sparked my interest in this position and your company even more. A number of questions occurred to me that I would like to discuss with you, e.g. how unit and end-to-end testing are organized in projects. It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at ___________ in general. I look forward to the opportunity to meet soon in a personal meeting.`;
 			} else {
-				return `Die Beantwortung der obigen Anforderungen hat mein Interesse an der von Ihnen ausgeschriebenen Stelle noch mehr geweckt. Ich habe auch einige Fragen, z.B. wie Unit- und End-to-End-Testing bei Ihnen organisiert werden. Gerne würde ich mehr über Ihr Team, Ihre Entwicklungsprozesse und Ihr Unternehmen erfahren. Ich freue mich auf ein Gespräch mit Ihnen.`;
+				return `Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei ___________ erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.`;
 			}
 		}
 	}

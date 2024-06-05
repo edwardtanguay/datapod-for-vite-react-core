@@ -25,7 +25,7 @@
 	},
 	"agileScrum": {
 		"english": "All projects I have worked in during the last ten years have had one version or another of agile development practices, particularly the daily stand-up scrum meeting as well as developer meetings to organize tasks on task boards and for planning sprints.",
-		"german": "Alle Projekte, an denen ich in den letzten zehn Jahren gearbeitet habe, verfügten über eine angepassten Konstellation agiler Entwicklungspraktiken, insbesondere das tägliche Stand-up-Scrum-Meeting sowie Entwicklermeetings zur Organisation von Aufgaben auf Taskboards und zur Planung von Sprints."
+		"german": "Alle Projekte, an denen ich in den letzten zehn Jahren gearbeitet habe, verfügten über eine angepassten Konstellation agiler Entwicklungspraktiken, insbesondere das tägliche Stand-up-Scrum-Meeting sowie Entwickler Meetings zur Organisation von Aufgaben auf Taskboards und zur Planung von Sprints."
 	},
 	"selfLearning": {
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
@@ -37,7 +37,7 @@
 		"english": "I've been creating websites with HTML and CSS since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5 and particularly Flexbox and Grid in CSS3."
 	},
 	"frameworksLikeReact": {
-		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
+		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also teach and create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
 	},
 	"cssPreprocessorOfChoice": {
 		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in. For projects that may need a Tailwind-only solution, you could use PostCSS to achieve Sass features such as Mixins since Tailwind already uses PostCSS."
@@ -78,7 +78,7 @@
 		"english": "I can't say that I am an expert in real-time systems at the moment, but I would be very interested in hearing what kinds of real-time systems you plan to develop."
 	},
 	"fullstackApplicationsInUse": {
-		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
+		"english": "During my over 20 years of experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
 		"german": "Während meiner über 20-jährigen Erfahrung als Webentwickler habe ich zahlreiche Anwendungen erstellt. Den Großteil meiner Berufserfahrung seit 2001 habe ich in den Stacks .NET/C# und LAMP (PHP/MySQL) gesammelt. Seit 2018 arbeite ich im Bereich MERN-Stack (Node/Express/MongoDB und React)."
 	},
 	"vcBackedStartup": {
@@ -153,7 +153,7 @@
 		"german": "Gerne übernehme ich von Anfang bis Ende die persönliche Verantwortung für Aufgaben und arbeite am besten in einer Umgebung mit klar formulierten Zielen."
 	},
 	"programmingProjects": {
-		"english": "During my over 20 years experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
+		"english": "During my over 20 years of experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
 		"german": "Während meiner über 20-jährigen Erfahrung als Webprogrammierer habe ich zahlreiche Anwendungen erstellt, die von Unternehmen und Kunden genutzt werden. Den Großteil meiner Berufserfahrung seit 2001 habe ich in den Stacks .NET/C# und LAMP (PHP/MySQL) gesammelt. Seit 2018 arbeite ich in Entwicklungsteams und unterrichte ich andere darin, wie man Webanwendungen im MERN-Stack (Node/Express, React und MongoDB) erstellt."
 	},
 	"programmingPassion": {
@@ -162,7 +162,7 @@
 	},
 	"react": {
 		"english": "Since 2021 I have been teaching the React and Next.js framework to web developer students in which we build fullstack websites based on the MERN stack (Node/Express/MongoDB on the backend, React or Next.js on the frontend).",
-		"german": "Seit 2021 unterrichte ich React und Next.js in einem Webentwicklerkurs bei Digital Career Institut GmbH, wo ich erstelle Fullstack-Websites basierend auf dem MERN-Stack: Node/Express/MongoDB im Backend mit React oder Next.js für das Frontend."
+		"german": "Seit 2021 unterrichte ich React und Next.js in einem Webentwicklung Kurs bei Digital Career Institut GmbH, wo ich erstelle Fullstack-Websites basierend auf dem MERN-Stack: Node/Express/MongoDB im Backend mit React oder Next.js für das Frontend."
 	},
 	"basicsGitTypeScriptRest": {
 		"english": "I have been developing websites with HTML, CSS and JavaScript since the 1990s. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend. Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years, and REST is a standard topic that I have been teaching for the past three years as a web developer instructor.",
@@ -241,7 +241,7 @@
 		"german": "Ich verwende Sass in Projekten sowohl als Haupt-CSS-Strategie (z.B. mithilfe des 7-1 Sass Folder Structure Pattern), aber auch als unterstützende Technologie für Tailwind in Projekten, in denen ich ausdrücklich die erweiterten Funktionen von Sass wie Mixins und Farbfunktionen benötige."
 	},
 	"mysql": {
-		"english": "I have been using MySQL in LAMP stack projects since the early 2000s. I have a solid knowledge of both classic SQL and using cloud or Docker hosted MySQL instances with ORMs like Prisma.",
+		"english": "I have been using MySQL in LAMP stack projects since the early 2000s. I have a solid knowledge of both classic SQL as well as using cloud- and Docker-hosted MySQL instances with ORMs like Prisma.",
 		"german": "Seit Anfang der 2000er Jahre verwende ich MySQL in LAMP-Stack Projekten. Ich verfüge über solide Kenntnisse sowohl in klassischem SQL als auch in der Verwendung von in der Cloud oder Docker gehosteten MySQL-Instanzen mit ORMs wie Prisma."
 	},
 	"laravel": {
@@ -319,6 +319,50 @@
 	"niceTeam": {
 		"english": "I look forward to it!",
 		"german": "Ich freue mich darauf!"
+	},
+	"experienceLargeComplexSystems": {
+		"english": "During my over 20 years of experience as a web developer, I have worked in large teams that have built numerous enterprise-level applications, for instance during my employment as a Microsoft Consultant, I was responsible for Frontend development in a two-year-long research software project for the Polizei Rheinland-Pfalz, and worked on the backend of a bus ticketing system for Siemens VDO in Berlin. ",
+		"german": "nnn"
+	},
+	"scaleUpStartUp": {
+		"english": "From 2005-2006, I worked for a company called ASDIS Software that was successful in the German market and received VC money to expand globally, and so could be considered a scale-up company. And much earlier in my career, in 1985 in the United States at the age of 19, I joined my brother in a software company he had created a year earlier. We developed applications in DBase II and Clipper for insurance companies, banks and hospitals. For those two years, it was only the two of us, and even though I don't think the word \"startup\" had been invented yet, it definitely had all the stress and excitement of a startup.",
+		"german": "nnn"
+	},
+	"eventDrivenArchitecture": {
+		"english": "Microservices is a topic I teach in my web developer course at Digital Career Institute, and one particular .NET project for Avario Business Solutions GmbH from 2009-2010 involved us implementing the .NET WCF SOA framework which focuses on contracts and messages exchange.",
+		"german": "nnn"
+	},
+	"postgres": {
+		"english": "Setting up a Postgres database on Ubuntu Linux and using it in a Node/Express API is a topic that I teach in my web developer course at Digital Career Services.",
+		"german": "nnn"
+	},
+	"mentorship": {
+		"english": "Mentorship is an integral part of my teaching philosophy and when I have been in senior positions in developer teams, allowing students or co-developers to take on challenging tasks and supporting them through the thought process as well as technical debugging and problem solving.",
+		"german": "nnn"
+	},
+	"codeReview": {
+		"english": "Exactly, code reviews serve the dual purpose of both improving the code quality of the project at hand, as well as being a tool to continually level-up the skills of all team members. Code reviews enable everyone on the team to go beyond a simplistic right/wrong approach to programming. They help team members over time develop a more nuanced and senior outlook of the wider software development craft. A team's strategic and organized use of code reviews helps team members develop skills which involve every aspect of software development from understanding the wider architecture, to pragmatic decisions based on customer need, to the most efficient way to implement new technologies, to understanding the importance and limits of testing, to the application of abstract patterns that solve real-world problems.",
+		"german": "nnn"
+	},
+	"equivalentBaschelorsDegree": {
+		"english": "While I have both a Bachelors and Masters degree in subjects other than computer science, I started programming computers in the 1980s and was creating database-driven websites for university projects by the end of the 90s. Since 2001 when I joined Microsoft as a Fullstack Developer Consultant, I have been working as a full-time, professional web developer at numerous companies, on various-sized projects, and in at least three technology platforms including .NET/C# and the LAMP and MERN stacks.",
+		"german": "In den 90er Jahren habe ich schon datenbankbasierte Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001 habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, u.a. .NET/C# und die LAMP- und MERN-Stacks."
+	},
+	"git": {
+		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years.",
+		"german": "Obwohl ich erfahren genug bin, um früher CVS und SVN verwendet zu haben, wird Git in allen Projekten verwendet, an denen ich in den letzten 10 Jahren beteiligt war."
+	},
+	"rest": {
+		"english": "REST is a standard topic that I have been teaching for the past three years as a web developer instructor as part of the MERN-stack, e.g. for building backend APIs with Node and Express which connect to MongoDB and MySQL databases.",
+		"german": "REST ist ein Standardthema, das ich seit drei Jahren als Dozent für Webentwicklung im Rahmen des MERN-Stacks unterrichte, z.B. das Erstellen von Backend-APIs mit Node und Express, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
+	},
+	"databaseDesign": {
+		"english": "Database design has been a core responsibility in projects of mine within the last 20 years both in LAMP-stack projects with MySQL and Postgres as well as .NET with SQL Server.",
+		"german": "In den letzten 20 Jahren war Datenbankdesign eine meiner Kernaufgaben in Projekten, sowohl in LAMP-Stack-Projekten mit MySQL und Postgres als auch in .NET mit SQL Server."
+	},
+	"mongodb": {
+		"english": "Since 2021 I have been teaching the MERN Stack to web developer students at Digital Career Institute in Berlin in which I use MongoDB both native and hosted as Docker instances. We connect these databases to Node/Express backends with both Mongoose and the ORM Prisma.",
+		"german": "Seit 2021 unterrichte ich Webentwickler-Studenten am Digital Career Institute in Berlin den MERN Stack, wobei ich MongoDB sowohl nativ als auch gehostet als Docker-Instanzen verwende. Ich verbinde diese Datenbanken mit Node/Express-Backends sowohl mit Mongoose als auch mit dem ORM Prisma."
 	},
 	"nnn": {
 		"english": "nnn",

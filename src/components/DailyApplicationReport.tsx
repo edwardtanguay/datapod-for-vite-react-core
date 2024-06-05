@@ -14,7 +14,7 @@ export const DailyApplicationReport = () => {
 					</span>
 				</h2>
 				<h3 className="mb-3 italic">
-					{fullReport.numberActive} still active,{" "}
+					{fullReport.numberActive} active,{" "}
 					<span className="text-red-800">
 						{fullReport.numberOfRejections} rejected
 					</span>

@@ -1,0 +1,8 @@
+- 2024-06-04 18:37:01; quick-apply with Indeed
+- 2024-06-04 19:41:01; got mail, taking assessment online
+- 2024-06-05 10:37:30; got mail: "Thanks for your interest in our Senior Frontend Engineer﻿ role. We're excited to get to know you better, ... call with Sebastian, the hiring manager for the role"
+	- jobad: https://de.indeed.com/jobs?q=hipeople&l=berlin&from=searchOnHP&vjk=d84a9466ba6c40c4
+	- not much of a technical description but "FYI we are adding 2 new products to the platform over the next 12 months!"
+	- Go (backend), React/Typescript (frontend) and we deploy using AWS
+	-  made appointment for June 6, 2024, 8:00-8:30 with Sebastian Schüller (HiPeople)
+

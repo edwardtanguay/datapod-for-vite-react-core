@@ -685,25 +685,97 @@ dpodId::t2L2rf
 baseJobId::233
 referenceId::
 contactKind::company
-language::german
-letterDate::2024-06-04 15:30:43
+language::english
+letterDate::2024-06-05 08:54:08
 skillTextsBlock::[[
-Have 5+ years of experience building large-scale complex systems. Having both scale-up and start-up experiences is a big plus.
-Proficiency in Typescript and Node.js and at least one modern frontend framework (Vue, React, Angular, Svelte)
-Proficiency in event-driven architecture
-Strong command in relational databases like Postgres
-Extensive mentorship experience. Strong communication and leadership skills
-You use code review as a tool to mentor and uphold the standard of the systems you own
-A bachelor's or master's degree in computer science or another relevant technical field—or equivalent experience
+Have 5+ years of experience building large-scale complex systems. Having both scale-up and start-up experiences is a big plus.;experienceLargeComplexSystems, scaleUpStartUp
+Proficiency in Typescript and Node.js and at least one modern frontend framework (Vue, React, Angular, Svelte);typescript, node, react, frameworksLikeReact
+Proficiency in event-driven architecture;eventDrivenArchitecture
+Strong command in relational databases like Postgres;sql,postgres
+Extensive mentorship experience. Strong communication and leadership skills;mentorship, teamCommunication
+You use code review as a tool to mentor and uphold the standard of the systems you own; codeReview
+A bachelor's or master's degree in computer science or another relevant technical field—or equivalent experience;equivalentBaschelorsDegree
 ]]
 customText::
 customOutlineText::
 contactFullName::
 contactGender::
 contactEmail::
-contactAddress::
+contactAddress::[[
+Gartenstraße 86-87
+10115 Berlin
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::
-history::- 2024-06-04 15:30:43; creating...
+closingParagraph::Answering the above requirements has sparked my interest in this position and your company even more. A number of questions occurred to me that I would like to discuss with you, e.g. how unit and end-to-end testing are organized in projects. It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Charles GmbH in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-04 15:30:43; created
+- 2024-06-05 12:07:57; sent via form, got message "Your application has been received and our team is working hard on reviewing it as soon as possible"
+- 2024-06-05 12:08:32; receive e-mail confirmation: "application has been received and our Talent team will review it shortly"
+]]
+
+==jobApplication
+dpodId::TN45sV
+baseJobId::265
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-05 13:28:54
+skillTextsBlock::[[
+3-5 Jahre Erfahrung in der professionellen Entwicklung von Web-Frontends;fullstackApplicationsInUse
+Kenntnisse in der agilen Softwareentwicklung sowie Begeisterung und Leidenschaft für innovative Technologien, aktuelle Web-Entwicklungen und funktionales UI-Design;agileScrum
+gute Kenntnisse in JavaScript, React JS, HTML 5, CSS3 / SCSS, Git (erste Erfahrungen mit TypeScript und flutter wären ein Plus aber kein Must-have);react,sass, git, typescript
+Gute Kommunikationsfähigkeit in Deutsch und Englisch in Wort und Schrift;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::Tessa Geilenbrügge
+contactGender::female
+contactEmail::personal@teravolt.tv
+contactAddress::[[
+Lagerstraße 34a
+20357 Hamburg
+]]
+salaryFrom::4000
+salaryTo::4500
+earliestStartDate::2024-08-01
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei TeraVolt erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-05 13:28:54; created
+- 2024-06-05 14:11:45; sent application as email to personal@teravolt.tv, no immediate response, waiting for confirmation
+]]
+
+==jobApplication
+dpodId::18rIrX
+baseJobId::237
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-05 14:12:25
+skillTextsBlock::[[
+2-4 Jahre Berufserfahrung in der Backend-Entwicklung;fullstackApplicationsInUse
+Versiert in Typescript und Express.js;typescript, node
+Solides Verständnis von RESTful APIs, Datenbankarchitektur und Designprinzipien;rest, databaseDesign
+Vertrautheit mit modernen Backend-Build-Pipelines und -Tools;cicd
+Erfahrung mit Datenbanktechnologien (z.B. MongoDB, MySQL);mongodb, mysql
+Gute Englischkenntnisse in Wort und Schrift;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::info@mhaircompany.com
+contactAddress::[[
+Brandenburgische Str. 20
+10707 Berlin
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei Medical Hair Company erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-05 14:05:49; called +49 30 609 886 060, they said to send a general email
+- 2024-06-05 14:12:25; created
+- 2024-06-05 15:33:07; sent to e-mail info@mhaircompany.com but no response
+]]
