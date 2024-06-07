@@ -100,5 +100,8 @@
 			- Chrome
 		- helped Ricky look at this
 - 2024-06-07 10:30:00 Interview with Nina 
+	- salary: 
+		- 4000-4500 monthly brutto/gross euro
+		- 48000-54000 monthly brutto/gross euro
 
 
