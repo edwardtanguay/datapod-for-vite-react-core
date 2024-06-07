@@ -1,0 +1,15 @@
+- 2024-06-07 09:45:41; LinkedIn
+	--------------------------------------------
+	Additional Questions
+	How many years of work experience do you have with TypeScript?How many years of work experience do you have with TypeScript?
+				4
+			
+	What is your level of proficiency in German?What is your level of proficiency in German?
+				Native or bilingual
+			
+	How many years of work experience do you have with Amazon Web Services (AWS)?How many years of work experience do you have with Amazon Web Services (AWS)?
+				1
+			
+	How many years of work experience do you have with Next.js?How many years of work experience do you have with Next.js?
+				2
+	--------------------------------------------

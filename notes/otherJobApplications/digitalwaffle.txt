@@ -1,0 +1,8 @@
+- 2024-06-07 09:52:42; LinkedIn, no questions, one click
+	-------------------------------------
+	least 3 years of experience using Node.js and TypeScript
+	in TDD, BDD and DDD
+	working within a serverless AWS ecosystem (Lambda)
+	SQL knowledge would be beneficial
+	German language skills are a must
+	-------------------------------------

@@ -1,0 +1,13 @@
+- 2024-06-07 09:50:05; LinkedIn
+	-------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: JavaScript?Wie viele Jahre Erfahrung haben Sie mit: JavaScript?
+				25
+			
+	Wie viele Jahre Erfahrung haben Sie mit: HTML?Wie viele Jahre Erfahrung haben Sie mit: HTML?
+				30
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Cascading Style Sheets (CSS)?Wie viele Jahre Erfahrung haben Sie mit: Cascading Style Sheets (CSS)?
+				30
+	-------------------------------------
+- also: react, MDBootstrap, Material Design 
