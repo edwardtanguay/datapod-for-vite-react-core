@@ -1,8 +1,103 @@
 - 2024-06-04 18:37:01; quick-apply with Indeed
 - 2024-06-04 19:41:01; got mail, taking assessment online
-- 2024-06-05 10:37:30; got mail: "Thanks for your interest in our Senior Frontend Engineer﻿ role. We're excited to get to know you better, ... call with Sebastian, the hiring manager for the role"
+- 2024-06-05 10:37:30; got mail: "Thanks for your interest in our Senior Frontend Engineer role. We're excited to get to know you better, ... call with Sebastian, the hiring manager for the role"
 	- jobad: https://de.indeed.com/jobs?q=hipeople&l=berlin&from=searchOnHP&vjk=d84a9466ba6c40c4
 	- not much of a technical description but "FYI we are adding 2 new products to the platform over the next 12 months!"
 	- Go (backend), React/Typescript (frontend) and we deploy using AWS
 	-  made appointment for June 6, 2024, 8:00-8:30 with Sebastian Schüller (HiPeople)
+- 2024-06-06 08:00:00; meeting with Sebastian Schüller
+	- website
+		- https://www.hipeople.io
+	- wo
+		- Chorinerstr. 7 berlin
+	- Funding
+		- Country: Germany | Funding: $6.8M
+	- talked with Sebastian Schüller, er ist Mitgründer
+	- Jakob Gillmann ist der andere Mitgründer
+	- ihr Hauptprodukt ist ein Assessment Tool, was ich auch verwendet habe für das erste Interview
+	- ihr Konkurrenz ist z.B. HireVue
+		- https://www.hirevue.com
+	- history
+		- 2019 gegründet
+		- extra wachstum vor und nach Covid
+		- sind momentan 14 Mitarbeiter, wollen 19 bis Ende des Jahres
+	- Tools
+		- Task Management
+			- https://linear.app
+		- Others: https://hipeople.notion.site/Tools-we-use-37f617a0b3324413996be2fbe9a46731
+			- Application and Data
+				- Python
+				- React
+				- Postgres
+				- TypeScript
+				- Redux
+				- Go
+				- Amazon RDS
+				- Amazon DynamoDB
+				- R Language
+				- Apache Airflow - monitor workflows
+			- Utilities
+				- Google Analytics
+				- Mixpanel - analytics platform designed to help companies understand how users interact with their web and mobile applications
+				- Jupyter - open-source project that provides an interactive computing environment primarily used for data science, scientific computing, and machine learning
+				- Airtable - cloud-based collaboration platform that combines the features of a database with the functionality and usability of a spreadsheet
+				- TypeForm - online survey and form-building tool that allows users to create interactive and engaging forms, surveys, quizzes, and questionnaires
+			- DevOps
+				- Docker
+			- Business Tools
+				- Slack
+				- G Suite - GMail, Docs, etc.
+				- HubSpot - suite of tools and services designed to help businesses attract, engage, and delight customers at every stage of the buyer's journey
+				- Figma
+				- Notion
+				- Zapier - web-based automation tool that connects various apps and services together to automate workflows without the need for coding or technical expertise
+				- Contentful - headless CMS
+				- Miro - online collaborative whiteboard platform that enables teams to work together visually
+				- 1Password - password manager and digital vault that helps individuals and teams securely store, manage, and share sensitive information such as passwords, login credentials, credit card details, secure notes, and more
+	- Tech Stack
+		- Redux
+		- Go
+		- AWS
+		- React/TypeScript
+		- Storybook
+		- möchte, dass es ein Monorepo ist, im Moment zwei
+		- wollen AI integrieren
+		- mit Testing muss noch einiges gemacht werden
+	- Position
+		- Senior Frontend
+		- viel muss Refactored werden
+		- Task Beispiele
+			- core CTAs (Call-to-Action) müssen inverted werden, mit Pink Farbe (Telekom)
+			- neue Features
+				- sequential
+				- reference check
+				- assessments 
+	- Dev Team
+		- weekly cycles
+			- standup
+			- Linea.app
+		- sie stellen 3 im Moment ein: 2x Front, 1x Back
+			- next step: technical
+				- live repo
+		- Engineers
+			- Theo Morgan
+			- Marcel Reis-Soubkovsky
+			- Marco Da Col
+			- Senan Kelly
+			- Sasha Ostrikov
+		- Design
+			- Emmanuel Ogunjirin
+	- Leute
+		- Nina Khorasanee recruiting
+	- not understood
+		- ?micalas
+		- ?legacy
+	- look through site
+		- signing up for account
+			- https://app.hipeople.io/sign-up/google?state=eyJub25jZSI6IjE3NywyMjQsMjI3LDUxLDExNCw0NiwxODMsMTIxLDkzLDE2Nyw1OSwyMzIsNDMsMTAsODEsMTY2LDI0LDMzLDE2NSw2NiwxOTQsMTk0LDQ0LDQ4LDEwNSw0LDI1MiwxNTEsMjMzLDE3OSwyMDAsMTU0LDM5LDE1OCwyMzUsMjI3LDEwNywxOTcsMjQsNjcsMTA5LDcxLDgyLDE4OCwzMiw2NywxMDIsMTQ1LDEwNywxMywxODcsMTU4LDczLDExMywxNTgsMTIyLDEwMiwyMzYsMTM1LDIzMywxOTUsMzEsMTE3LDIzNiwxNzgsMTMsMTEyLDEyNSwyMTksMTU1LDE4MSw0LDEzOCwyNDcsMjQ1LDI0OCwyMjYsMjAyLDg2LDEyMiwxMTksODAsMTEyLDY1LDIyOCwxNDQsODEsMjQ2LDIyNywxNTIsMjA2LDIyOCw3NSwyMzYsMjI0LDE1MiwzOCw4OCwyMzYsMTEwLDQyLDIwOSwxMTgsNjksMjE4LDk2LDEwLDIzOSwyNTIsODcsMjU1LDYwLDMsMjI3LDEyOSwyMTAsMjIxLDg0LDEyLDQ2LDI3LDc0LDE2MywxNDQsMTY0LDE5NywxNDcsMjExIiwiZmxvdyI6InJlZ2lzdHJhdGlvbiIsInRuY0FjY2VwdGVkIjp0cnVlLCJuZXdzbGV0dGVyQWNjZXB0ZWQiOnRydWV9&code=4%2F0AdLIrYeium27veUq5lYMqJrbRjRDIytyR9xZr26UhgMVVKSjTiZLqjhAm3fKrwVROBmYpQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent
+			- Firefox
+				- clicking "Start for free" didn't respond##screenfreeze
+			- Chrome
+				- 
+
 

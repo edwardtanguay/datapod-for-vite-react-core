@@ -62,6 +62,9 @@ export const ProcessingJobApplication = ({ currentJobApplication }: IProps) => {
 					>
 						{currentJobApplication.lastStatus}
 					</p>
+					<p className="text-yellow-200">
+						{currentJobApplication.job.skillList}
+					</p>
 				</section>
 				<section className="flex flex-col justify-between w-[20rem]">
 					<div className="flex justify-end">

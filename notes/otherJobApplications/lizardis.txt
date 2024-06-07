@@ -1,0 +1,21 @@
+- 2024-06-06 16:44:52; LinkedIn
+	----------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: React.js?Wie viele Jahre Erfahrung haben Sie mit: React.js?
+				5
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Webentwicklung?Wie viele Jahre Erfahrung haben Sie mit: Webentwicklung?
+				20
+			
+	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
+				Muttersprache oder zweisprachig
+			
+	Wie gut beherrschen Sie Englisch?Wie gut beherrschen Sie Englisch?
+				Muttersprache oder zweisprachig
+			
+	Sind Sie rechtlich befugt, in diesem Land zu arbeiten: Deutschland?Sind Sie rechtlich befugt, in diesem Land zu arbeiten: Deutschland?
+				Ja
+			
+	Wie viele Jahre Erfahrung haben Sie mit: JavaScript?Wie viele Jahre Erfahrung haben Sie mit: JavaScript?
+				25
+	----------------------------------

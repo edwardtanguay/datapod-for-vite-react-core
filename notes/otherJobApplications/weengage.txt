@@ -1,0 +1,18 @@
+- 2024-06-06 16:18:02; LinkedIn
+	------------------------------------------
+	Additional Questions
+	What is your level of proficiency in German?What is your level of proficiency in German?
+				Native or bilingual
+			
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+			
+	How many years of work experience do you have with TypeScript?How many years of work experience do you have with TypeScript?
+				4
+			
+	Are you comfortable working in an onsite setting?Are you comfortable working in an onsite setting?
+				Yes
+			
+	How many years of Full-Stack Development experience do you currently have?How many years of Full-Stack Development experience do you currently have?
+				20
+	------------------------------------------

@@ -1,0 +1,21 @@
+- 2024-06-06 16:16:26; LinkedIn
+	---------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: TypeScript?Wie viele Jahre Erfahrung haben Sie mit: TypeScript?
+				4
+			
+	Wie viele Jahre Erfahrung haben Sie mit: JavaScript?Wie viele Jahre Erfahrung haben Sie mit: JavaScript?
+				25
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Amazon Web Services (AWS)?Wie viele Jahre Erfahrung haben Sie mit: Amazon Web Services (AWS)?
+				1
+			
+	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
+				Muttersprache oder zweisprachig
+			
+	Wie gut beherrschen Sie Englisch?Wie gut beherrschen Sie Englisch?
+				Muttersprache oder zweisprachig
+			
+	Wären Sie bereit, sich einer Hintergrundprüfung zu unterziehen, die im Einklang mit lokalen Gesetzen und Vorschriften durchgeführt wird?Wären Sie bereit, sich einer Hintergrundprüfung zu unterziehen, die im Einklang mit lokalen Gesetzen und Vorschriften durchgeführt wird?
+				Ja
+	---------------------------------------

@@ -1,0 +1,45 @@
+- 2024-06-06 16:14:20; LinkedIn
+----------------------------------------
+	Additional Questions
+	What is your level of proficiency in German?What is your level of proficiency in German?
+				Native or bilingual
+			
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+			
+	Are you comfortable commuting to this job's location?Are you comfortable commuting to this job's location?
+				Yes
+			
+	Are you legally authorized to work in Germany?Are you legally authorized to work in Germany?
+				Yes
+			
+	How many years of Software Development experience do you currently have?How many years of Software Development experience do you currently have?
+				20
+			
+	How many years of work experience do you have with Spring Boot?How many years of work experience do you have with Spring Boot?
+				0
+			
+	How many years of work experience do you have with REST APIs?How many years of work experience do you have with REST APIs?
+				5
+			
+	How many years of work experience do you have with Sonarqube?How many years of work experience do you have with Sonarqube?
+				0
+			
+	How many years of work experience do you have with MySQL?How many years of work experience do you have with MySQL?
+				15
+			
+	How many years of work experience do you have with Kubernetes?How many years of work experience do you have with Kubernetes?
+				0
+			
+	How many years of work experience do you have with Angular?How many years of work experience do you have with Angular?
+				2
+			
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+			
+	How many years of work experience do you have with Docker Products?How many years of work experience do you have with Docker Products?
+				3
+			
+	How many years of work experience do you have with Java?How many years of work experience do you have with Java?
+				5
+----------------------------------------
