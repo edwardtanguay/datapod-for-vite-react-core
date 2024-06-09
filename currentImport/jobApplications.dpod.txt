@@ -980,15 +980,26 @@ referenceId::
 contactKind::company
 language::german
 letterDate::2024-06-09 14:11:09
-skillTextsBlock::
+skillTextsBlock::[[
+Du hast mehrere Jahre mit JavaScript gearbeitet und Frontends entwickelt;webTechnologies
+Du hast bereits React und/oder React-Native und ggf. mit Redux Applikationen entwickelt;react, redux
+Du bist neugierig auf neue Technologien und willst dich immer weiterentwickeln;programmingPassion
+]]
 customText::
 customOutlineText::
-contactFullName::
-contactGender::
-contactEmail::
-contactAddress::
+contactFullName::Friederike Stork
+contactGender::female
+contactEmail::jobs@finanzguru.de
+contactAddress::[[
+Sandweg 94 C
+60316 Frankfurt am Main
+]]
 salaryFrom::0
 salaryTo::0
 earliestStartDate::
-closingParagraph::
-history::- 2024-06-09 14:11:09; creating...
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei Finanzguru erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-09 14:11:09; created
+- 2024-06-09 14:23:12; sent on web form: "Deine Bewerbung ist abgeschickt und bei uns eingegangen"
+- 2024-06-09 14:24:32; received confirmation mail: "werden wir uns nun deine Unterlagen ausführlich anschauen und uns dann wieder bei dir melden"
+]]
