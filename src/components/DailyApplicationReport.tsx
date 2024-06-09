@@ -17,7 +17,8 @@ export const DailyApplicationReport = () => {
 					{fullReport.numberActive} active,{" "}
 					<span className="text-red-800">
 						{fullReport.numberOfRejections} rejected
-					</span>
+					</span>{" "}
+					in {fullReport.totalDays} days
 				</h3>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {

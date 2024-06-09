@@ -156,6 +156,13 @@ export type ApplicationDay = {
 	processStatus: ProcessStatus; 
 };
 
+export const blankApplicationDay:ApplicationDay = {
+	title: 'ttt',
+	company: 'ccc',
+	letterDate: 'lll',
+	processStatus: "active"
+}
+
 export type GroupedApplicationDayReport = {
 	[date: string]: ApplicationDay[];
 };

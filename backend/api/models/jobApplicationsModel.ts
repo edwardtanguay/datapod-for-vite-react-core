@@ -123,8 +123,12 @@ const padGroupedapplicationDayReportWithEmptyDays = (groupedApplicationDayReport
 	const startDate = dates[dates.length - 1];
 	const allDates = qdat.fillDateArray(startDate, endDate);
 	allDates.reverse();
-	console.log(dates);
-	console.log(allDates);
+
+	const newGroupedApplicationDayReport = {} as GroupedApplicationDayReport;
+	for (const allDate of allDates) {
+		newGroupedApplicationDayReport[allDate] = [];
+	}
+	return newGroupedApplicationDayReport;
 }
 
 export const getFullReport = (): FullReport => {
@@ -155,7 +159,7 @@ export const getFullReport = (): FullReport => {
 		}
 	}
 
-	const groupedApplicationDayReport: GroupedApplicationDayReport =
+	let groupedApplicationDayReport: GroupedApplicationDayReport =
 		applicationDays.reduce((acc, day) => {
 			const date = day.letterDate.split(" ")[0];
 			if (!acc[date]) {
@@ -165,7 +169,7 @@ export const getFullReport = (): FullReport => {
 			return acc;
 		}, {});
 	
-	padGroupedapplicationDayReportWithEmptyDays(groupedApplicationDayReport);
+	groupedApplicationDayReport = padGroupedapplicationDayReportWithEmptyDays(groupedApplicationDayReport);
 
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
