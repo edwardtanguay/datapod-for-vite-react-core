@@ -116,7 +116,7 @@
 		"german": "Insbesondere meine Projekterfahrung in einer breiten Palette von Technologien und Plattformen hat mir ein gutes Verständnis von den relevanten technologischen und operativen Prozessen technischen Projekten verschaffen."
 	},
 	"germanEnglish": {
-		"english": "I am fluent in written and spoken German (Central Advanced Level Examination of the Goethe Institute in 2003: very good / good). As an American native speaker and trained English teacher, my written and spoken English skills are perfect.",
+		"english": "I am fluent in written and spoken German (Zentrale Oberstufenprüfung des Goethe Instituts in 2003: sehr gut / gut). As an American native speaker and trained English teacher, my written and spoken English skills are perfect.",
 		"german": "Deutsch beherrsche ich in Wort und Schrift (Zentrale Oberstufenprüfung des Goethe Instituts in 2003: sehr gut / gut). Als amerikanischer Muttersprachler und ausgebildeter Englischlehrer sind meine Englischkenntnisse in Wort und Schrift perfekt."
 	},
 	"consultingFlexibility": {
@@ -390,6 +390,17 @@
 	},
 	"shareWithTeam": {
 		"english": "For an example of how I share my knowledge with other developers, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> which I have produced over the last five years."
+	},
+	"berlinRosenthalerPlatz": {
+		"english": "I live in Berlin and have easy access to Rosenthaler Platz with BVG.",
+		"german": "nnn"
+	},
+	"java": {
+		"english": "The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
+		"german": "nnn"
+	},
+	"aws": {
+		"english": "I began using AWS and Docker at my web developer position at GEFEG mbh from 2018 to 2021 where I was responsible for moving our Strato infrastructure to AWS."
 	},
 	"nnn": {
 		"english": "nnn",

@@ -907,8 +907,79 @@ dpodId::3MGAdA
 baseJobId::260
 referenceId::
 contactKind::company
-language::german
+language::english
 letterDate::2024-06-09 13:27:17
+skillTextsBlock::[[
+Experienced in frontend development, architecture, or a generalist role, with +3 years experience; architectureSolutionsProcesses
+Based in Berlin, with a willingness to work from our office close to Rosenthaler Platz;berlinRosenthalerPlatz
+Fluent in English (German is a plus);germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::hello@autarc.energy
+contactAddress::[[
+Hoppestr. 31
+13409 Berlin
+]]
+salaryFrom::4000
+salaryTo::4500
+earliestStartDate::2024-08-01
+closingParagraph::Answering the above requirements has sparked my interest in this position and your company even more. A number of questions occurred to me that I would like to discuss with you, e.g. how unit and end-to-end testing are organized in projects. It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at autarc in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- info
+	- YouTube videos: https://www.youtube.com/@getautarc
+- 2024-06-09 13:27:17; created
+- 2024-06-09 13:51:32; applied on web form, "Wir haben Deine Bewerbung erhalten und werden uns in Kürze bei Dir melden!"
+- 2024-06-09 13:51:41; confirmation mail: "Please understand that this process could take a while. We will contact you as soon as possible."
+]]
+
+==jobApplication
+dpodId::kCIP2Z
+baseJobId::262
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-09 13:53:57
+skillTextsBlock::[[
+Have strong experience with a backend framework, preferably Java or Node.js;node, java
+Have experience in frontend development with Javascript and modern frameworks, preferably React and other modern frameworks; webTechnologies, react
+Have experience with distributed system design, deployment, and operations - preferably with AWS; aws
+Excellent oral and written English communication skills;germanEnglish
+Have worked in an agile environment participating in and running SCRUM meetings;agileScrum
+Deep Javascript knowledge;vanillaJavaScript
+Developing single-page applications with a variety of Javascript frameworks;frameworksLikeReact
+Experience with NoSQL and relational databases; mongodb,sql
+Experience with test-driven development, and agile engineering practices, including continuous integration;testing
+Working knowledge of using a distributed version control system within a team environment(preferably Git);git
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::recruitment@flywheeldigital.com
+contactAddress::[[
+1801 Porter St Suite 300
+Baltimore, MD 21230
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Answering the above requirements has sparked my interest in this position and your company even more. A number of questions occurred to me that I would like to discuss with you, e.g. how unit and end-to-end testing are organized in projects. It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Flywheel Digital in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-09 13:53:57; created
+- 2024-06-09 14:09:38; sent on web form: "Thank you for applying to the open role with us."
+- 2024-06-09 14:10:56; received confirmation mail: "we sometimes get upwards of 100+ applications for some roles, it can take some time"
+]]
+
+==jobApplication
+dpodId::zUJqnV
+baseJobId::272
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-09 14:11:09
 skillTextsBlock::
 customText::
 customOutlineText::
@@ -920,4 +991,4 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::
-history::- 2024-06-09 13:27:17; creating...
+history::- 2024-06-09 14:11:09; creating...
