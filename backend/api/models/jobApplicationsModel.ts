@@ -21,7 +21,7 @@ import * as model from "./jobApplicationsModel.js";
 
 // jobs (from online JSON file)
 export const getJobs = (): Job[] => {
-	const jobs: Job[] = []
+	const jobs: Job[] = [];
 	for (const _job of _jobs) {
 		const job: Job = {
 			id: _job.id,
@@ -31,8 +31,8 @@ export const getJobs = (): Job[] => {
 			description: _job.description,
 			skillList: _job.skillList,
 			publicationDate: _job.publicationDate,
-			rank: _job.rank ? _job.rank : 2.5
-		}
+			rank: _job.rank ? _job.rank : 2.5,
+		};
 		jobs.push(job);
 	}
 	return jobs;
@@ -106,7 +106,7 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 				closingPhrase: tools.getClosingPhrase(jobApplication),
 				jobAnnouncementUrl: job.url,
 				history: jobApplication.history,
-				historyHtml: qstr.buildOutlineHtml(jobApplication.history)
+				historyHtml: qstr.buildOutlineHtml(jobApplication.history),
 			};
 			fullJobApplications.push(fullJobApplication);
 		}
@@ -114,7 +114,9 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 	return fullJobApplications;
 };
 
-const padGroupedapplicationDayReportWithEmptyDays = (groupedApplicationDayReport: GroupedApplicationDayReport) => {
+const padGroupedapplicationDayReportWithEmptyDays = (
+	groupedApplicationDayReport: GroupedApplicationDayReport
+) => {
 	const dates: string[] = [];
 	for (const applicationDayDate of Object.keys(groupedApplicationDayReport)) {
 		dates.push(applicationDayDate);
@@ -126,10 +128,15 @@ const padGroupedapplicationDayReportWithEmptyDays = (groupedApplicationDayReport
 
 	const newGroupedApplicationDayReport = {} as GroupedApplicationDayReport;
 	for (const allDate of allDates) {
-		newGroupedApplicationDayReport[allDate] = [];
+		const applicationDays = groupedApplicationDayReport[allDate];
+		if (applicationDays) {
+			newGroupedApplicationDayReport[allDate] = applicationDays;
+		} else {
+			newGroupedApplicationDayReport[allDate] = [];
+		}
 	}
 	return newGroupedApplicationDayReport;
-}
+};
 
 export const getFullReport = (): FullReport => {
 	const overviewJobApplications = model.getOverviewApplications();
@@ -140,17 +147,24 @@ export const getFullReport = (): FullReport => {
 	let numberOfRejections = 0;
 	let numberDoing = 0;
 	for (const overviewJobApplication of overviewJobApplications) {
-		if (overviewJobApplication.letterDate.trim() !== "" && (overviewJobApplication.kind !== 'closed') || overviewJobApplication.lastStatus.includes('rejection:')) {
-			let processStatus:ProcessStatus = overviewJobApplication.lastStatus.includes('rejection:') ? "rejected" : "active";
-			if (overviewJobApplication.lastStatus.includes('...')) {
-				processStatus = 'doing';
+		if (
+			(overviewJobApplication.letterDate.trim() !== "" &&
+				overviewJobApplication.kind !== "closed") ||
+			overviewJobApplication.lastStatus.includes("rejection:")
+		) {
+			let processStatus: ProcessStatus =
+				overviewJobApplication.lastStatus.includes("rejection:")
+					? "rejected"
+					: "active";
+			if (overviewJobApplication.lastStatus.includes("...")) {
+				processStatus = "doing";
 				numberDoing++;
 			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,
 				letterDate: overviewJobApplication.letterDate,
-				processStatus 
+				processStatus,
 			};
 			if (processStatus === "rejected") {
 				numberOfRejections++;
@@ -168,8 +182,10 @@ export const getFullReport = (): FullReport => {
 			acc[date].push(day);
 			return acc;
 		}, {});
-	
-	groupedApplicationDayReport = padGroupedapplicationDayReportWithEmptyDays(groupedApplicationDayReport);
+
+	groupedApplicationDayReport = padGroupedapplicationDayReportWithEmptyDays(
+		groupedApplicationDayReport
+	);
 
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
@@ -182,7 +198,7 @@ export const getFullReport = (): FullReport => {
 		),
 		groupedApplicationDayReport,
 		numberOfRejections,
-		numberActive
+		numberActive,
 	};
 };
 
@@ -242,7 +258,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 				);
 			}
 		} else {
-			overviewJobApplication.lastStatus = '';
+			overviewJobApplication.lastStatus = "";
 		}
 	}
 	return overviewJobApplications;
