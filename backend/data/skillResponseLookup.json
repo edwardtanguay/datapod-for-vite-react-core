@@ -31,7 +31,8 @@
 		"english": "For an example of my appetite for learning and self-development, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
 	},
 	"vanillaJavaScript": {
-		"english": "I have been programming with JavaScript for over 20 years. In my current job as web development instructor, I train students how to use vanilla JavaScript to build complex websites without a JavaScript framework. Here's an example of a Vanilla JavaScript site I created to teach these skills: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">html-css-js-learn-template</a>"
+		"english": "I have been programming with JavaScript for over 20 years. In my current job as web development instructor, I train students how to use vanilla JavaScript to build complex websites without a JavaScript framework. Here's an example of a Vanilla JavaScript site I created to teach these skills: <a style=\"text-decoration: underline\" href=\"https://github.com/edwardtanguay/html-css-js-learn-template\">html-css-js-learn-template</a>",
+		"german": "Ich programmiere seit über 20 Jahren mit JavaScript. In meinem aktuellen Job als Dozent für Webentwicklung bringe ich den Studenten bei, wie sie mit Vanilla JavaScript komplexe Websites ohne JavaScript-Framework erstellen können."
 	},
 	"html5css3": {
 		"english": "I've been creating websites with HTML and CSS since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5 and particularly Flexbox and Grid in CSS3."
@@ -68,7 +69,7 @@
 		"english": "Advertising stacks would also be a new area for me."
 	},
 	"node": {
-		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component and before that created Node/Express/React sites for internal task management tools. I have used Node extensively to build backend APIs with Express and backend data-driven web servers with EJS and Mustache templating engines which connect to MongoDB and MySQL databases.",
+		"english": "I have been teaching the MERN stack for the past three years of which Node is a core component and before that created Node/Express/React sites for internal task management tools. I have used Node extensively to build both REST-based and GraphQL APIs with Express and backend data-driven web servers with EJS and Mustache templating engines which connect to MongoDB and MySQL databases.",
 		"german": "Bei meiner jetzigen Tätigkeit als Dozent für Webentwicklung unterrichte ich seit drei Jahren den MERN-Stack, wo Node eine Kernkomponente ist. Ich verwende Node, um Backend-APIs mit Express und datengesteuerte Backend-Webservers mit EJS- und Mustache-Template-Engines zu erstellen, die eine Verbindung zu MongoDB- und MySQL-Datenbanken herstellen."
 	},
 	"firebaseEtc": {
@@ -140,7 +141,8 @@
 		"german": "Mit Frontend-Architekturen arbeite ich seit der 90er Jahren. Ich habe im Laufe der Zeit jedes Update dieser Technologien miterlebt und gelernt, beispielsweise semantische Änderungen in HTML5, Flexbox und Grid in CSS3, und die neuen ES6 Features in JavaScript. Ich verfüge über jahrzehntelange, solide Kenntnisse in der Frontend-Entwicklung."
 	},
 	"vueSvelteSolidjsReact": {
-		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases."
+		"english": "While my strongest skills are in the React and Next.js ecosystem, I teach SvelteKit in my classes as an alternative framework that has important of features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as well. From the videos of Ryan Carniato's 4-hour SolidJS course on Frontend Masters that I watched, I was impressed with his knowledge of frameworks, although SolidJS seems to have many reactive features that in my opinion are more elegantly solved by Svelte, although I would love to discuss the comparison of these frameworks with you, and why one would use one over the other in specific cases.",
+		"german": "Obwohl meine stärksten Fähigkeiten im React- und Next.js-Ökosystem liegen, unterrichte ich in meinen Kursen SvelteKit als alternatives Framework, das wichtige Funktionen für Reaktivität und statische Site-Generierung bietet. Während meiner Arbeit bei der zappmedia GmbH von 2014 bis 2018 haben wir Smarty (eine PHP-Template-Engine) durch Vue ersetzt, um das Frontend unserer statischen PHP-Website vollständig interaktiv zu gestalten. Ich unterrichte in meinem Kurs auch Vue und Nuxt als alternative Frameworks. In den Videos von Ryan Carniatos 4-stündigem SolidJS-Kurs auf Frontend Masters, die ich mir angesehen habe, war ich von seinem Wissen über Frameworks beeindruckt, obwohl SolidJS viele reaktive Funktionen zu haben scheint, die meiner Meinung nach von Svelte eleganter gelöst werden. Ich würde jedoch gerne den Vergleich dieser Frameworks mit Ihnen besprechen und warum man in bestimmten Fällen das eine dem anderen vorziehen sollte."
 	},
 	"enthusiasticTechnicalConcepts": {
 		"english": "For an example of my enthusiasm for technical and web development topics, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> that I have produced in recent years."
@@ -322,8 +324,8 @@
 		"german": "Ich freue mich darauf!"
 	},
 	"experienceLargeComplexSystems": {
-		"english": "During my over 20 years of experience as a web developer, I have worked in large teams that have built numerous enterprise-level applications, for instance during my employment as a Microsoft Consultant, I was responsible for Frontend development in a two-year-long research software project for the Polizei Rheinland-Pfalz, and worked on the backend of a bus ticketing system for Siemens VDO in Berlin. ",
-		"german": "nnn"
+		"english": "During my over 20 years of experience as a web developer, I have worked in large teams that have built numerous enterprise-level applications, for instance during my employment as a Microsoft Consultant, I was responsible for Frontend development in a two-year-long research software project for the Polizei Rheinland-Pfalz, and worked on the backend of a bus ticketing system for Siemens VDO in Berlin.",
+		"german": "Während meiner über 20-jährigen Erfahrung als Webentwickler habe ich in großen Teams gearbeitet, die zahlreiche Anwendungen auf Unternehmensebene erstellt haben. Während meiner Anstellung als Microsoft Consultant und Entwickler war ich beispielsweise für die Frontend-Entwicklung in einem zweijährigen Forschungssoftwareprojekt für die Polizei Rheinland-Pfalz verantwortlich und habe am Backend eines Busticketsystems für Siemens VDO in Berlin gearbeitet."
 	},
 	"scaleUpStartUp": {
 		"english": "From 2005-2006, I worked for a company called ASDIS Software that was successful in the German market and received VC money to expand globally, and so could be considered a scale-up company. And much earlier in my career, in 1985 in the United States at the age of 19, I joined my brother in a software company he had created a year earlier. We developed applications in DBase II and Clipper for insurance companies, banks and hospitals. For those two years, it was only the two of us, and even though I don't think the word \"startup\" had been invented yet, it definitely had all the stress and excitement of a startup.",
@@ -377,6 +379,17 @@
 	"testingTools": {
 		"english": "Testing tools that I teach and use are Jest or more recently Vitest/TypeScript, as well as React Testing Library for frontend. To test APIs I use a combination of Vitest and Supertest. End-to-end testing I mainly use Cypress.",
 		"german": "nnn"
+	},
+	"vueReactSolidjs": {
+		"english": "My strongest skills are in the React and Next.js ecosystem, while I also teach the frameworks SvelteKit and SolidJS in my classes as an alternative framework that has features of reactivity and static site generation. While working at zappmedia GmbH from 2014 to 2018, we replaced Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class.",
+		"german": "Meine größten Fähigkeiten liegen im React- und Next.js Stacks, wobei ich in meinen Kursen auch die Frameworks SvelteKit und SolidJS unterrichte als Einführung in das Thema Reactivity. Während meiner Tätigkeit bei der zappmedia GmbH von 2014 bis 2018 haben wir Smarty (eine PHP-Template-Engine) durch Vue ersetzt, um das Frontend unserer statischen PHP-Website vollständig interaktiv zu gestalten. Ich unterrichte in meinem Kurs sowohl Vue als auch Nuxt als alternative Frameworks."
+	},
+	"vueReact": {
+		"english": "My strongest skills are in the React and Next.js ecosystem. While working at zappmedia GmbH from 2014 to 2018, I was responsible for replacing Smarty (a PHP template engine) with Vue to make the frontend of our static PHP website fully interactive. I teach both Vue and Nuxt as alternative frameworks in my class as Digital Career Institute.",
+		"german": "Meine größten Fähigkeiten liegen im React- und Next.js-Ökosystem. Während meiner Tätigkeit bei der zappmedia GmbH von 2014 bis 2018 war ich dafür verantwortlich, Smarty (eine PHP-Template-Engine) durch Vue zu ersetzen, um das Frontend unserer statischen PHP-Website vollständig interaktiv zu gestalten. In meinem Kurs am Digital Career Institute unterrichte ich sowohl Vue als auch Nuxt als alternative Frameworks."
+	},
+	"shareWithTeam": {
+		"english": "For an example of how I share my knowledge with other developers, please see my <a style=\"text-decoration: underline\" href=\"https://tanguay-eu.vercel.app/howtos\">over 800 howtos</a> which I have produced over the last five years."
 	},
 	"nnn": {
 		"english": "nnn",

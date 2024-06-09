@@ -833,3 +833,71 @@ history::[[
 - 2024-06-05 17:43:38; immediately received confirmation mail from Sarah Leers, Senior Recruiter, "We will review your application in detail for Software Engineer Web (f/m/d) - React, TypeScript and we will contact you as soon as possible."
 - 2024-06-07 11:22:27; ~rejection: "we have decided to continue the process with candidates who are an even better fit for our requirements for the position"
 ]]
+
+==jobApplication
+dpodId::OOvhck
+baseJobId::269
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-09 11:28:50
+skillTextsBlock::[[
+Mindestens 6 Jahre Erfahrung in der Frontend-Entwicklung.;webTechnologies
+Tiefgehende Kenntnisse in Frameworks wie Vue.js oder vergleichbare wie React oder SolidJS.;vueReactSolidjs
+Expertise in modernem JavaScript (ES6+), TypeScript, HTML, CSS und verwandten Frameworks.;vanillaJavaScript
+Sehr gute Deutschkenntnisse und gute Englischkenntnisse.;germanEnglish
+Erfahrungen mit e2e Testframeworks wie Playwright.;testing
+Kenntnisse im Bereich Cloud-Hosting, vorzugsweise AWS.;cloud
+]]
+customText::
+customOutlineText::
+contactFullName::Florian Bieberstein
+contactGender::male
+contactEmail::f.bieberstein@dina.de
+contactAddress::[[
+Esslinger Str. 84
+D-72649 Wolfschlugen
+]]
+salaryFrom::4000
+salaryTo::4500
+earliestStartDate::2024-08-01
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei DINA Elektronik erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-09 11:28:50; created
+- 2024-06-09 12:41:43; proofread
+- 2024-06-09 13:06:10; sent on online form, "Wir haben deine Bewerbung erhalten und werden uns schon bald bei dir melden!"
+- 2024-06-09 13:26:29; received confirmation e-mail: "Wir setzen uns so bald wie möglich mit dir in Verbindung."
+]]
+
+==jobApplication
+dpodId::bNX68o
+baseJobId::274
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-09 12:41:58
+skillTextsBlock::[[
+4-5 years of full stack experience building and operating scalable systems in production;experienceLargeComplexSystems
+Experience with reactive JavaScript/TypeScript frameworks for building responsive single-page applications (using Vue or React) as well as the backend object oriented ecosystem such as Ruby or NodeJs;vueReact, node
+Exposure to A/B testing and creating frontend setups for support the experiments;testing
+You are familiar with containerization technologies such as Docker and orchestration tools like Kubernetes;awsDockerKubernetes
+You actively document and update technical architecture and enjoy sharing knowledge with the team;shareWithTeam
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::[[
+Förrlibuckstrasse 190
+8005 Zürich
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Answering the above requirements has sparked my interest in this position and your company even more. A number of questions occurred to me that I would like to discuss with you, e.g. how unit and end-to-end testing are organized in projects. It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at On in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-09 12:41:58; created
+- 2024-06-09 13:24:40; applied via web form, "We have received your application. This is just a quick note to let you know we are looking at your application and will get back to you soon."
+- 2024-06-09 13:26:29; received confirmation e-mail: "due to the number of applications we receive, in some cases it could take us up to two weeks to get back to you"
+]]
