@@ -901,3 +901,23 @@ history::[[
 - 2024-06-09 13:24:40; applied via web form, "We have received your application. This is just a quick note to let you know we are looking at your application and will get back to you soon."
 - 2024-06-09 13:26:29; received confirmation e-mail: "due to the number of applications we receive, in some cases it could take us up to two weeks to get back to you"
 ]]
+
+==jobApplication
+dpodId::3MGAdA
+baseJobId::260
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-09 13:27:17
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-09 13:27:17; creating...
