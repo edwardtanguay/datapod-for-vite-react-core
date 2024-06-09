@@ -1003,3 +1003,35 @@ history::[[
 - 2024-06-09 14:23:12; sent on web form: "Deine Bewerbung ist abgeschickt und bei uns eingegangen"
 - 2024-06-09 14:24:32; received confirmation mail: "werden wir uns nun deine Unterlagen ausführlich anschauen und uns dann wieder bei dir melden"
 ]]
+
+==jobApplication
+dpodId::wqqhO4
+baseJobId::273
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-09 14:24:47
+skillTextsBlock::[[
+Du hast bereits drei Jahre Berufserfahrung als Software Developer (m/w/d) gesammelt und mit PHP und JavaScript (oder TypeScript) gearbeitet.;javascriptTypeScriptFrontendBackend, php
+Du hast Lust überwiegend "Fullstack" zu arbeiten und gleichermaßen am Frontend und Backend zu coden.;fullstackApplications
+Du bist bereit 1-2 mal pro Monat an unserem Campus in Schöppingen (Nähe Münster) mit dem Team zusammenzukommen.;nearMuenster
+Du traust dich täglich Englisch zu sprechen und in einem internationalen Umfeld mit einem "English First" Ansatz zu arbeiten.;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::Madlen Hebing
+contactGender::female
+contactEmail::application@shopware.com
+contactAddress::[[
+Ebbinghoff 10
+48624 Schoeppingen
+]]
+salaryFrom::4000
+salaryTo::4500
+earliestStartDate::2024-08-01
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei Shopware erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-09 14:24:47; created
+- 2024-06-09 14:54:31; sent application via web form: "Vielen Dank für deine Bewerbung!"
+- 2024-06-09 14:55:00; email confirmation: "werden so schnell wie möglich wieder auf dich zukommen, solltest du nach vier Wochen noch nichts von uns gehört haben, melde dich gerne bei uns"
+]]

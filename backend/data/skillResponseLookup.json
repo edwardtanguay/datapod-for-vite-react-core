@@ -3,7 +3,8 @@
 		"english": "I have been developing applications professionally since 2001 in numerous technical environments including the .NET, LAMP and MERN stacks. As a web developer at GEFEG mbh, I was responsible for moving our Strato infrastructure to AWS."
 	},
 	"javascriptTypeScriptFrontendBackend": {
-		"english": "I have over 20 years of experience in web development. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend."
+		"english": "I have over 20 years of experience in web development. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
+		"german": "Ich habe über 20 Jahre Erfahrung in der Webentwicklung. Durch meinen Hintergrund in C# und insbesondere durch die Vermittlung von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
 	},
 	"gitDocker": {
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years. I began using Docker at my web developer position at GEFEG mbh from 2018 to 2021, and currently use it extensively to host fullstack applications on Hetzner machines."
@@ -401,6 +402,14 @@
 	},
 	"aws": {
 		"english": "I began using AWS and Docker at my web developer position at GEFEG mbh from 2018 to 2021 where I was responsible for moving our Strato infrastructure to AWS."
+	},
+	"fullstackApplications": {
+		"english": "During my over 20 years of experience as a web developer, I have built and help build numerous applications that businesses and customers use. Most of my professional experience since 2001 has been in the .NET/C# and LAMP (PHP/MySQL) stacks. Since 2018, I have been working in teams developing and training others how to build web applications in the MERN stack (Node/Express, React and MongoDB).",
+		"german": "Den Großteil meiner Berufserfahrung seit 2001 habe ich als Fullstack Entwickler gearbeiet, vor allem in den Stacks .NET/C# und LAMP (PHP/MySQL). Seit 2018 arbeite ich im Bereich MERN-Stack (Node/Express/MongoDB und React)."
+	},
+	"nearMuenster": {
+		"english": "I live in Berlin and would gladly travel 1-2 time per month to the Campus in Schöppingen.",
+		"german": "Ich wohne in Berlin und würde gerne 1-2 mal im Monat zum Campus nach Schöppingen fahren."
 	},
 	"nnn": {
 		"english": "nnn",
