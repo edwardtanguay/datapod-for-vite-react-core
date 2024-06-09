@@ -1,0 +1,13 @@
+- 2024-06-09 08:30:22; Indeed
+	- We're looking for a motivated and driven Senior Fullstack Developer (TypeScript/React/Node.js) (m/f/d) who will help us shape our team, drive the company to the next level, and have the most direct influence on our success. 
+		---------------------------
+		Fragen des Arbeitgebers
+		Bearbeiten
+
+		What is your salary expectation (gross per year)?
+			50000
+		What is your earliest possible start date?
+			2024-08-01
+		Do you have the legal right to work in the country for which you are applying?
+			Yes
+		---------------------------

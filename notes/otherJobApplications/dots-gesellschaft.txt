@@ -1,0 +1,18 @@
+- 2024-06-09 08:42:22; Indeed
+	----------------------------------
+	2nd / 3rd Level Software Support Specialist (f/m/d),
+	English, German, French
+	You have a strong background in IT, Support or Printing
+	You have great communicational skills and a self-driven and structured method of working
+	A strong customer and service orientation is natural to you
+	Knowledge of printing, page description languages PDF & PostScript, digital pre-press and color management is an advantage but not a must
+	Knowledge of scripting languages (e.g. JavaScript, Batch, PowerShell) and XML, JSON as well as databases (e.g. MongoDB, SQLite) is also beneficial
+	Good written and spoken English skills are mandatory, German and French language skills are a plus
+	---
+	Do you speak English?
+		Yes
+	Do you have a valid work permit?
+		Yes
+	Will you be able to reliably commute or relocate to 10997 Berlin-Kreuzberg for this job?
+		Yes, I can make the commute
+	----------------------------------

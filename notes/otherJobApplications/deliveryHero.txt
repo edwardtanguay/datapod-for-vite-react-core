@@ -1,0 +1,14 @@
+- 2024-06-09 08:33:00; Indeed
+	---------------------------------
+	4+ years of professional web application development knowledge
+
+	Working experience with JavaScript (ES6+), Typescript, and React
+
+	Experience with Git version control, CI/CD
+
+	Experience writing tests on a daily basis and experience with different testing approaches.
+	Have you been previously employed at Delivery Hero Group?
+		No
+	Gender, checked three boxes
+	---------------------------------
+	

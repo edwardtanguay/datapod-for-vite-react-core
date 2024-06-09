@@ -1,0 +1,12 @@
+- 2024-06-07 20:30:50; LinkedIn
+	-----------------------------
+	Additional Questions
+	How many years of work experience do you have with Node.js?How many years of work experience do you have with Node.js?
+				5
+			
+	How many years of work experience do you have with TypeScript?How many years of work experience do you have with TypeScript?
+				4
+			
+	How many years of work experience do you have with MySQL?How many years of work experience do you have with MySQL?
+				15
+	-----------------------------

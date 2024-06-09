@@ -14,6 +14,7 @@ import { DpodDataLoader } from "../../classes/DpodDataLoader.js";
 import _jobs from "../../data/jobs.json";
 import * as qfil from "../../../share/qtools/qfil.js";
 import * as qstr from "../../../share/qtools/qstr.js";
+import * as qdat from "../../../share/qtools/qdat.js";
 import * as tools from "../tools/jobApplicationsTools.js";
 import * as model from "./jobApplicationsModel.js";
 // import * as qdev from "../../../share/qtools/qdev.js";
@@ -113,6 +114,19 @@ export const getFullJobApplications = (): FullJobApplication[] => {
 	return fullJobApplications;
 };
 
+const padGroupedapplicationDayReportWithEmptyDays = (groupedApplicationDayReport: GroupedApplicationDayReport) => {
+	const dates: string[] = [];
+	for (const applicationDayDate of Object.keys(groupedApplicationDayReport)) {
+		dates.push(applicationDayDate);
+	}
+	const endDate = dates[0];
+	const startDate = dates[dates.length - 1];
+	const allDates = qdat.fillDateArray(startDate, endDate);
+	allDates.reverse();
+	console.log(dates);
+	console.log(allDates);
+}
+
 export const getFullReport = (): FullReport => {
 	const overviewJobApplications = model.getOverviewApplications();
 	overviewJobApplications.sort((a, b) =>
@@ -150,6 +164,8 @@ export const getFullReport = (): FullReport => {
 			acc[date].push(day);
 			return acc;
 		}, {});
+	
+	padGroupedapplicationDayReportWithEmptyDays(groupedApplicationDayReport);
 
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;

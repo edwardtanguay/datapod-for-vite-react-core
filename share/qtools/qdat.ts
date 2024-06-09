@@ -65,3 +65,17 @@ export const formatAsAmericanDateWithFullYear = (isoDate: string): string => {
 
 	return `${month} ${day}, ${year}`;
 };
+
+export const fillDateArray = (startDate: string, endDate: string): string[] => {
+	const dateArray: string[] = [];
+	const start = dayjs(startDate);
+	const end = dayjs(endDate);
+
+	let currentDate = start;
+	while (currentDate.isBefore(end) || currentDate.isSame(end, 'day')) {
+		dateArray.push(currentDate.format("YYYY-MM-DD"));
+		currentDate = currentDate.add(1, "day");
+	}
+
+	return dateArray;
+};
