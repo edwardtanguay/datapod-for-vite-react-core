@@ -83,3 +83,10 @@ export const fillDateArray = (startDate: string, endDate: string): string[] => {
 export const getTodayAsIso = (): string => {
 	return dayjs().format("YYYY-MM-DD");
 };
+
+export const getAmericanDayAbbreviation = (dateString: string): string => {
+	const dayAbbreviation: string = dayjs(dateString).format("ddd");
+	return dayAbbreviation;
+};
+
+export const getNiceAmericanShortDate = (dateString: string): string => dayjs(dateString).format('ddd, MMMM D');

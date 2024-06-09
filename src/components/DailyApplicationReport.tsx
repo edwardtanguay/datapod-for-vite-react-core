@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../AppContext";
+import * as qdat from '../../share/qtools/qdat';
 
 export const DailyApplicationReport = () => {
 	const { fullReport } = useContext(AppContext);
@@ -30,7 +31,7 @@ export const DailyApplicationReport = () => {
 									key={index}
 									className="font-semibold bg-slate-300 px-1 rounded"
 								>
-									{day}
+									{qdat.getNiceAmericanShortDate(day)}
 								</div>
 								<ul className="list-disc ml-6 mb-2 pt-1">
 									{applications.map((application, index) => {

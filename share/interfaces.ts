@@ -153,15 +153,9 @@ export type ApplicationDay = {
 	title: string;
 	company: string;
 	letterDate: string;
+	longLetterDate: string;
 	processStatus: ProcessStatus; 
 };
-
-export const blankApplicationDay:ApplicationDay = {
-	title: 'ttt',
-	company: 'ccc',
-	letterDate: 'lll',
-	processStatus: "active"
-}
 
 export type GroupedApplicationDayReport = {
 	[date: string]: ApplicationDay[];

@@ -164,6 +164,7 @@ export const getFullReport = (): FullReport => {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,
 				letterDate: overviewJobApplication.letterDate,
+				longLetterDate: qdat.getAmericanDayAbbreviation(overviewJobApplication.letterDate) + ' ' + overviewJobApplication.letterDate,
 				processStatus,
 			};
 			if (processStatus === "rejected") {
