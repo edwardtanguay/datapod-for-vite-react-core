@@ -121,7 +121,7 @@ const padGroupedapplicationDayReportWithEmptyDays = (
 	for (const applicationDayDate of Object.keys(groupedApplicationDayReport)) {
 		dates.push(applicationDayDate);
 	}
-	const endDate = dates[0];
+	const endDate = qdat.getTodayAsIso();
 	const startDate = dates[dates.length - 1];
 	const allDates = qdat.fillDateArray(startDate, endDate);
 	allDates.reverse();

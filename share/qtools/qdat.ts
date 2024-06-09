@@ -72,10 +72,14 @@ export const fillDateArray = (startDate: string, endDate: string): string[] => {
 	const end = dayjs(endDate);
 
 	let currentDate = start;
-	while (currentDate.isBefore(end) || currentDate.isSame(end, 'day')) {
+	while (currentDate.isBefore(end) || currentDate.isSame(end, "day")) {
 		dateArray.push(currentDate.format("YYYY-MM-DD"));
 		currentDate = currentDate.add(1, "day");
 	}
 
 	return dateArray;
+};
+
+export const getTodayAsIso = (): string => {
+	return dayjs().format("YYYY-MM-DD");
 };
