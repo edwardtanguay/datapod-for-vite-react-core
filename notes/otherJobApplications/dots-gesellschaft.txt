@@ -16,3 +16,4 @@
 	Will you be able to reliably commute or relocate to 10997 Berlin-Kreuzberg for this job?
 		Yes, I can make the commute
 	----------------------------------
+- 2024-06-10 11:11:18; email confirmation, "Bitte haben Sie Verständnis dafür, dass wir für eine Rückmeldung noch etwas Zeit benötigen, da wir jede Bewerbung sorgfältig prüfen"
