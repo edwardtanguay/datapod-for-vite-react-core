@@ -1,0 +1,15 @@
+- 2024-06-10 12:24:43; Indeed
+	--------------------------------
+	Additional Questions
+	How many years of work experience do you have with JavaScript?How many years of work experience do you have with JavaScript?
+				25
+			
+	How many years of work experience do you have with HTML?How many years of work experience do you have with HTML?
+				30
+			
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+			
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+	--------------------------------
