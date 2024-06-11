@@ -8,7 +8,8 @@ export const DailyApplicationReport = () => {
 		<section>
 			<>
 				<h2 className="text-xl">
-					{fullReport.totalApplications} Total Applications Sent{" "}
+					{fullReport.totalApplications} total applications sent{" "}
+					in {fullReport.totalDays} days{' '}
 					<span className="text-sm">
 						(average per day ={" "}
 						{fullReport.averageApplicationsPerDay})
@@ -19,7 +20,6 @@ export const DailyApplicationReport = () => {
 					<span className="text-red-800">
 						{fullReport.numberOfRejections} rejected
 					</span>{" "}
-					in {fullReport.totalDays} days
 				</h3>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
