@@ -60,6 +60,7 @@ closingParagraph::
 history::[[
 - 2024-05-29 12:00:22; sent; posted application on their [website](https://www.lofino.de/jobs/)
 - 2024-05-29 12:00:54; received e-mail from Jakob Roeingh-van Doorn, "We will contact you as soon as possible."
+- 2024-06-11 12:17:41; ~rejection: "From the huge amount of very good applications we had to narrow down the candidates which fit to all areas of the job profile and unfortunately decline your application at this point."
 ]]
 
 ==jobApplication
