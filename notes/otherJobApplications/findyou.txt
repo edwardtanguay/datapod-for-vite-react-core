@@ -1,0 +1,12 @@
+- 2024-06-11 08:18:01; LinkedIn
+	----------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: React.js?Wie viele Jahre Erfahrung haben Sie mit: React.js?
+				5
+			
+	Wie viele Jahre Erfahrung haben Sie mit: JavaScript?Wie viele Jahre Erfahrung haben Sie mit: JavaScript?
+				25
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Continuous Integration und Continuous Delivery (CI/CD)?Wie viele Jahre Erfahrung haben Sie mit: Continuous Integration und Continuous Delivery (CI/CD)?
+				5
+	----------------------------------------

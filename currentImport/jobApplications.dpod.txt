@@ -303,6 +303,7 @@ history::[[
 - 2024-06-01 03:16:14; proofread
 - 2024-06-01 11:16:40; posted application on [this site](https://career55.sapsf.eu/portalcareer), received "Ihre Bewerbung wurde abgeschickt. Vielen Dank!"
 - 2024-06-01 11:17:30; received mail "schnellstmöglich wieder bei Ihnen melden", waiting for response
+- 2024-06-11 08:56:54; ~rejection: "Sie leider nicht in die engere Auswahl genommen haben"
 ]]
 
 ==jobApplication
@@ -415,6 +416,28 @@ history::[[
 - 2024-06-02 13:33:34; proofread
 - 2024-06-02 13:56:36; posted
 - 2024-06-02 14:11:11; received e-mail confirmation, "Bitte haben Sie etwas Geduld. Wir prüfen Ihre Bewerbung"
+- 2024-06-10 15:07:28; email from Lea Hess for a first call
+	----------------------------------------
+	Hallo Edward,
+
+	Du hattest Dich auf eine Position bei uns beworben. Gerne würde ich ein erstes Gespräch mit Dir vereinbaren.
+	Wann passt es bei Dir zeitlich?
+
+	Beste Grüße,
+	Lea
+
+	Lea Hess, B.A.
+	Consultant
+	----------------------------------------
+- 2024-06-11 07:40:14; received confirmation email, "wenden Sie sich gerne an unser Recruiting-Team, das Sie unter folgender Rufnummer erreichen: +49 (0)2225-988-5000"
+- 2024-06-11 11:12:18; Lea called, she described the position:
+	- fullstack, mostly backend Laravel but perhaps Vue in frontend
+	- company: Hostpack
+	- Swiss company, smaller office in Berlin
+	- work with customers
+	- backend eingestellt
+	- go to Switzerland for trainings
+	- 2-Tage im Buero
 ]]
 
 ==jobApplication
@@ -867,6 +890,7 @@ history::[[
 - 2024-06-09 12:41:43; proofread
 - 2024-06-09 13:06:10; sent on online form, "Wir haben deine Bewerbung erhalten und werden uns schon bald bei dir melden!"
 - 2024-06-09 13:26:29; received confirmation e-mail: "Wir setzen uns so bald wie möglich mit dir in Verbindung."
+- 2024-06-10 14:43:50; ~rejection: "Nach eingehender Prüfung aller Bewerbungen müssen wir dir jedoch mitteilen, dass wir den weiteren Auswahlprozess mit anderen Kandidaten fortführen werden, deren Profile in diesem Moment am besten zu unseren aktuellen Anforderungen passen."
 ]]
 
 ==jobApplication
@@ -933,6 +957,7 @@ history::[[
 - 2024-06-09 13:27:17; created
 - 2024-06-09 13:51:32; applied on web form, "Wir haben Deine Bewerbung erhalten und werden uns in Kürze bei Dir melden!"
 - 2024-06-09 13:51:41; confirmation mail: "Please understand that this process could take a while. We will contact you as soon as possible."
+- 2024-06-11 09:33:52; ~rejection: "unfortunately decline your application at this point"
 ]]
 
 ==jobApplication
@@ -1034,4 +1059,220 @@ history::[[
 - 2024-06-09 14:24:47; created
 - 2024-06-09 14:54:31; sent application via web form: "Vielen Dank für deine Bewerbung!"
 - 2024-06-09 14:55:00; email confirmation: "werden so schnell wie möglich wieder auf dich zukommen, solltest du nach vier Wochen noch nichts von uns gehört haben, melde dich gerne bei uns"
+]]
+
+==jobApplication
+dpodId::xPTNar
+baseJobId::282
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-10 12:31:00
+skillTextsBlock::[[
+Du verfügst über eine abgeschlossene Ausbildung oder ein Studium - bevorzugt im IT-Bereich;computerScienceDegreeOrSimilar
+Darüber hinaus hast du bereits mehrjährige Berufserfahrung im Bereich Frontend‐Engineering im E-Commerce-Umfeld;javascriptTypeScriptFrontendBackend
+Du setzt CSS‐Frameworks (z.B. Bootstrap) und JavaScript‐Frameworks (z. B. Angular, React, Vue.js) sicher ein, Präprozessoren (z.B. SASS) gehören bei dir zur täglichen Arbeit;angularVueReact,cssCurrently
+Sehr gute Deutsch- und gute Englischkenntnisse;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::Steffen Pfau
+contactGender::male
+contactEmail::
+contactAddress::[[
+Personalabteilung
+Dr.-Mack-Straße 83
+90762 Fürth
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei Onlineprinters erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- telephone: 09161 8989 1639
+- 2024-06-10 12:31:00; created
+- 2024-06-10 12:49:10; sent via form, very extensive, "Vielen Dank für Ihre Bewerbung!"
+- 2024-06-10 12:49:45; confirmation mail: "genügend Zeit nehmen und bitten dich daher um etwas Geduld"
+]]
+
+==jobApplication
+dpodId::I8hi0t
+baseJobId::277
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-10 12:50:15
+skillTextsBlock::[[
+Du bist Expertin oder Experte in moderner TypeScript Front-End Entwicklung (das Front-End unserer Website ist mit Vue / Nuxt gebaut und das Front-End unseres Copiloten in Vanilla React);typescript, frameworksLikeReact
+Du weißt, wie man komplexe Apps sowohl auf Komponenten-Basis als auch E2E testet;testing
+Als gute Teamplayerin oder guter Teamplayer beherrschst du eine klare Kommunikation, du bist zuverlässig und deine Ergebnisse sind planbar;teamWorkSolutionOriented
+Optional: Du hast Erfahrung im Aufsetzen von zuverlässigen CI/CD Pipelines und dem Monitoring von produktiven Anwendungen;devops
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::[[
+Ritterstraße 12-14
+10969 Berlin
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei Finflow erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-10 12:50:15; creating...
+- 2024-06-10 14:09:43; sent application via website form, "Die Übermittlung Ihres Formulars war erfolgreich!", and e-mail confirmation: "	Vielen Dank für dein Interesse, ein Teil unseres Teams zu werden."
+]]
+
+==jobApplication
+dpodId::fGBb68
+baseJobId::281
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-10 14:10:56
+skillTextsBlock::[[
+Typescript, Node.js, React.js; typescript, node, react
+Test new languages, libraries and frameworks and evaluate their potential to make sure we never stop innovating. You will share best practices with other teams and help make those a company standard.;programmingPassion
+German and English proficiency;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::[[
+Sonnenburger Straße 73
+10437 Berlin
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Answering the above requirements has sparked my interest in this position and your company even more. A number of questions occurred to me that I would like to discuss with you, e.g. how unit and end-to-end testing are organized in projects. It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at GoEuro in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-10 14:10:56; created
+- 2024-06-10 14:24:02; filled in at Stepstone (logged in at Google), "Wir haben deine Bewerbung direkt weitergeleitet. Du solltest innerhalb der nächsten 2 Wochen Feedback vom Unternehmen bekommen."
+- 2024-06-10 14:26:37; e-mail confirmation: "our interview process can take up to 30 days"
+]]
+
+==jobApplication
+dpodId::kQf49q
+baseJobId::279
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-10 14:28:57
+skillTextsBlock::[[
+Gut abgeschlossenes Informatik-Studium oder ein gleichwertiges Studium aus dem MINT-Bereich; computerScienceDegreeOrSimilar
+Hervorragende Programmierkenntnisse in JavaScript und/oder TypeScript;javascriptTypeScriptFrontendBackend
+2 Jahre Berufserfahrung in einem ähnlichen Aufgabenumfeld;fullstackApplicationsInUse
+Webtechnologien: HTML5, CSS, REST; node
+Frameworks wie React, React Query, d3.js;frameworksLikeReact
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::[[
+Charlottenstraße 68
+10117 Berlin
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei Projektron erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-10 14:28:57; created
+- 2024-06-10 14:41:32; applied at the indeed website: "Ihre Bewerbung wurde gesendet"
+- 2024-06-10 14:41:45ñ received confirmation mail: "bitten wir Sie noch um etwas Geduld"
+]]
+
+==jobApplication
+dpodId::yPFhaZ
+baseJobId::208
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-10 14:44:53
+skillTextsBlock::
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::
+history::- 2024-06-10 14:44:53; marked as ~duplicate
+
+==jobApplication
+dpodId::aXoHwW
+baseJobId::278
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-10 14:47:32
+skillTextsBlock::[[
+Proven track record in building and maintaining web applications;javascriptTypeScriptFrontendBackend
+Advanced knowledge of React, including hooks and context API;react
+Proficient in state management libraries like Redux or MobX;redux
+Experience with server-side rendering using Next.js;frameworksLikeReact
+Proficient in consuming and integrating RESTful APIs;node
+Strong experience with TypeScript;typescript
+Writing modular and maintainable CSS using SCSS or CSS-in-JS libraries like styled-components;cssPreprocessorOfChoice
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::[[
+Grünberger Straße 54
+10245 Berlin
+]]
+salaryFrom::4200
+salaryTo::4500
+earliestStartDate::2024-08-01
+closingParagraph::
+history::[[
+- 2024-06-10 14:47:32; created
+- 2024-06-10 15:36:32; submitted application on elopage.breezy.hr page: "Ihre Bewerbung wurde erfolgreich übermittelt. Viel Glück!"
+- 2024-06-10 15:37:44; received email confirmation: "sometimes our turnaround time can be a bit longer"
+]]
+
+==jobApplication
+dpodId::slTJOx
+baseJobId::280
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-11 07:05:37
+skillTextsBlock::[[
+​Abgeschlossenes Hochschulstudium der Informatik oder vergleichbar in Kombination mit mindestens 4 Jahren einschlägiger Berufserfahrung im Bereich Software Engineering (z.B. SW Design & Architektur, Middleware, User Experience / Interface Engineering) nach Abschluss des Studiums. Sehr gute Kenntnisse in der Backend-Entwicklung mit C# / .NET Core und Entity Framework sowie Datenbanksystemen, insbesondere MS SQL;computerScienceDegreeOrSimilar,experienceLargeComplexSystems
+Sehr gute Kenntnisse in der Frontend-Entwicklung mit TypeScript, React und CSS;typescript, react
+Kundenorientiertes Arbeiten sowie Begeisterung für die enge Zusammenarbeit in einem agilen Team;teamWorkSolutionOriented
+Verhandlungssichere Englisch- und Deutschkenntnisse in Wort und Schrift;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::[[
+Auf dem Steinbüchel 22
+53340 Meckenheim
+]]
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist mein Interesse an dieser Position noch mehr geweckt. Dabei sind mir einige Fragen eingefallen, die ich gerne mit Ihnen besprechen möchte, z.B. wie Unit- und End-to-End-Tests in Projekten organisiert sind. Gerne würde ich mehr über die spezifischen Aufgaben dieser Position, Ihre aktuellen Projekte, Ihre Ziele als Unternehmen und die Teamkultur bei BWI erfahren. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-11 07:05:50; created
+- 2024-06-11 07:26:47; Indeed webform "irgendwas scheifgelaufen"
+- 2024-06-11 07:38:03; Then it gave me a form at https://karriere.bwi.de which worked, "Die Bewerbung wurde erfolgreich versendet und in unserem Bewerbersystem gespeichert."
 ]]

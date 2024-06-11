@@ -3,8 +3,8 @@
 		"english": "I have been developing applications professionally since 2001 in numerous technical environments including the .NET, LAMP and MERN stacks. As a web developer at GEFEG mbh, I was responsible for moving our Strato infrastructure to AWS."
 	},
 	"javascriptTypeScriptFrontendBackend": {
-		"english": "I have over 20 years of experience in web development. My background in C# and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
-		"german": "Ich habe über 20 Jahre Erfahrung in der Webentwicklung. Durch meinen Hintergrund in C# und insbesondere durch die Vermittlung von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
+		"english": "I have over 20 years of experience in web development. My background in C# when I worked for Microsoft and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
+		"german": "Ich habe über 20 Jahre Erfahrung in der Webentwicklung. Durch meinen Hintergrund in C# als ich bei Microsoft arbeitete und insbesondere durch die Vermittlung von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
 	},
 	"gitDocker": {
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years. I began using Docker at my web developer position at GEFEG mbh from 2018 to 2021, and currently use it extensively to host fullstack applications on Hetzner machines."
@@ -19,7 +19,9 @@
 		"english": "AWS Lambda was used in projects I was involved in as a web developer at GEFEG mbh from 2018 to 2021."
 	},
 	"devops": {
-		"english": "As cloud technology became an increased focus in projects in the past ten years, I have been increasingly involved in devop tasks such as creating GitHub Actions and setting up deployment workflows for fullstack applications hosted on Hetzner machines."
+		"english": "As cloud technology became an increased focus in projects in the past ten years, I have been increasingly involved in devop tasks such as creating GitHub Actions and setting up deployment workflows for fullstack applications hosted on Hetzner machines. As a web developer at GEFEG mbh, I was responsible for moving our Strato infrastructure to AWS.",
+		"german": "Da die Cloud-Technologie in den letzten zehn Jahren bei Projekten immer mehr in den Mittelpunkt rückte, war ich zunehmend an Devop-Aufgaben beteiligt, beispielsweise an der Erstellung von GitHub Actions und der Einrichtung von Bereitstellungs-Workflows für Full-Stack-Anwendungen, die auf Hetzner-Maschinen gehostet werden. Als Webentwickler bei der GEFEG mbH war ich für die Migration unserer Strato-Infrastruktur zu AWS verantwortlich."
+		
 	},
 	"engineeringPractices": {
 		"english": "The standard engineering practices such as Clean Code, DRY, pair programming, extreme programming, infrastructure-as-code, as well as functional and OOP design patterns are familiar to me."
@@ -39,10 +41,16 @@
 		"english": "I've been creating websites with HTML and CSS since the 1990s and throughout the years have upgraded my skills in these technologies as newer versions have been released such as the semantic features in HTML5 and particularly Flexbox and Grid in CSS3."
 	},
 	"frameworksLikeReact": {
-		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also teach and create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
+		"english": "My strongest skills are in React with which I have been developing websites for over three years but I also teach and create sites with <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a>, and <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>.",
+		"german": "Meine stärksten Skills liegen in React, mit dem ich seit über drei Jahren Websites entwickle, aber ich unterrichte und erstelle auch Websites mit <a href=\"https://tanguay-eu.vercel.app/howtos\" style=\"text-decoration: underline\">Next.js</a>, <a href=\"https://svelte-learn-showcase.vercel.app/\" style=\"text-decoration: underline\">Svelte</a>, <a href=\"https://sveltekit-the-learn-showcase.vercel.app\" style=\"text-decoration: underline\">SvelteKit</a>, <a href=\"https://edward-tanguay-eu.vercel.app/about\" style=\"text-decoration: underline\">Vue</a> und <a href=\"https://datapod-tanguay-eu.vercel.app/tasks\" style=\"text-decoration: underline\">Angular 17</a>."
 	},
 	"cssPreprocessorOfChoice": {
-		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in. For projects that may need a Tailwind-only solution, you could use PostCSS to achieve Sass features such as Mixins since Tailwind already uses PostCSS."
+		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in. For projects that may need a Tailwind-only solution, you could use PostCSS to achieve Sass features such as Mixins since Tailwind already uses PostCSS.",
+		"german": "Im Moment ist Sass mein bevorzugter CSS-Präprozessor, obwohl ich mittlerweile für fast alle meine Projekte Tailwind verwende, das 90% des Stylings übernimmt, und alles, was ich mit Tailwind nicht einfach erledigen kann, erledige ich mit Sass. Tailwind und Sass arbeiten in allen Frameworks, in denen ich sie verwendet habe, gut zusammen. Für Projekte, die möglicherweise eine reine Tailwind-Lösung benötigen, können Sie PostCSS verwenden, um Sass-Funktionen wie Mixins zu erreichen, da Tailwind bereits PostCSS verwendet."
+	},
+	"cssCurrently": {
+		"english": "At the moment my CSS preprocessor of choice is Sass, although I find myself using Tailwind for almost all of my projects now which takes care of 90% of the styling and anything I can't do easily with Tailwind, I do with Sass. Tailwind and Sass work well together in all frameworks I have used them in.",
+		"german": "Im Moment ist Sass mein bevorzugter CSS-Präprozessor, obwohl ich mittlerweile für fast alle meine Projekte Tailwind verwende, das 90% des Stylings übernimmt, und alles, was ich mit Tailwind nicht einfach erledigen kann, erledige ich mit Sass."
 	},
 	"toolingRollupWebpackNpmscripts": {
 		"english": "My bundler of choice has been Parcel since it is the simplest to use if you have generic bundling needs. I am familiar with Rollup from my use of Vite, and have used Webpack in the past. For most sites that I host on Hetzner machines, I use npm scripts for the setup and deployment scripts."
@@ -177,7 +185,7 @@
 		"german": "Insbesondere in den PHP-Projekten, für die ich verantwortlich war, war das Refactoring von Legacy-Code eine Herausforderung, der ich mich im Laufe der Jahre stellen musste."
 	},
 	"redux": {
-		"english": "In the React state solutions section of my web developer course, I teach useContext, Zustand and Redux ToolKit.",
+		"english": "In the React state solutions section of my web developer course, I teach useContext, Zustand, MobX and Redux ToolKit. In larger projects where I have the choice of state management tools, I choose to work with MobX and Redux.",
 		"german": "In meinem Webentwicklerkurs unterrichte ich zum Thema React-State-Lösungen die drei State Management Tools useContext, Zustand und Redux ToolKit."
 	},
 	"mobx": {
