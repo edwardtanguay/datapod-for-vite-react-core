@@ -81,3 +81,10 @@
 	- projects
 		- want to focus on more projects
 	- will talk to David tomorrow
+- 2024-06-13 13:00:00; meeting with Steve
+	- three main projects now
+	- uses pocketbase
+	- get Macbook
+	- TODO: send Steve my salary expectations (4000-4500) and when I can start 2024-08-01
+	- TODO: Event
+		- SvelteKit and PocketBase

@@ -1,0 +1,22 @@
+- 2024-06-13 09:05:38; LinkedIn
+	-------------------------------------
+	Additional Questions
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+			
+	How many years of work experience do you have with SQL?How many years of work experience do you have with SQL?
+				20
+			
+	Are you comfortable working in a remote setting?Are you comfortable working in a remote setting?
+				Yes
+			
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+			
+	How many years of work experience do you have with Microservices?How many years of work experience do you have with Microservices?
+				3
+			
+	Work authorization
+	We must fill this position urgently. Can you start immediately?We must fill this position urgently. Can you start immediately?
+				Yes
+	-------------------------------------

@@ -12,3 +12,4 @@
 	How did you hear about this job?
 		Indeed
 	---------------------------------------
+- 2024-06-13 09:07:00; ~rejection: "we decided to move on with other candidates"

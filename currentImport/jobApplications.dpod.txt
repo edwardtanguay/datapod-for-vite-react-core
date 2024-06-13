@@ -1147,6 +1147,7 @@ closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist me
 history::[[
 - 2024-06-10 12:50:15; creating...
 - 2024-06-10 14:09:43; sent application via website form, "Die Übermittlung Ihres Formulars war erfolgreich!", and e-mail confirmation: "	Vielen Dank für dein Interesse, ein Teil unseres Teams zu werden."
+- 2024-06-13 13:47:21; ~rejection: "Leider können wir aufgrund unseres gesuchten Profils und der Anzahl anderer qualifizierter Bewerbungen zum jetzigen Zeitpunkt nicht mit deiner Bewerbung fortfahren."
 ]]
 
 ==jobApplication
@@ -1327,4 +1328,113 @@ history::[[
 - 2024-06-11 12:17:55; created
 - 2024-06-11 17:53:36; applied on web form: "Wir haben Ihre Bewerbung erhalten und werden uns in Kürze bei Ihnen melden!"
 - 2024-06-11 17:54:12; received email confirmation: "Wir setzen uns so bald wie möglich mit Ihnen in Verbindung."
+]]
+
+==jobApplication
+dpodId::voZr7p
+baseJobId::295
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-13 10:29:53
+skillTextsBlock::[[
+Are an expert in PHP Back End Engineering;php
+Have hands-on experience in current Web UI development practices (React and TypeScript);react, typescript
+Are fluent in English;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Smoobu in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-13 10:29:53; created
+- 2024-06-13 10:45:53; posted on web form: "Your application has landed safely with us at HomeToGo.", received confirmation mail: "our Talent Acquisition team will reach out to you within 2 weeks to schedule an interview"
+]]
+
+==jobApplication
+dpodId::m2Zk54
+baseJobId::284
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-13 10:46:47
+skillTextsBlock::[[
+University degree in Computer Science or related fields or equivalent practical experience;computerScienceDegreeOrSimilar
+Strong proficiency in TypeScript;typescript
+You have strong experience with React or similar Frameworks / Libraries;frameworksLikeReact
+Great English communication skills;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Raisin in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-13 10:46:47; created
+- 2024-06-13 11:10:02; posted on Indeed form, got confirmation e-mail, "Sie erhalten innerhalb der nächsten Wochen von Indeed ein Statusupdate zu Ihrer Bewerbung."
+]]
+
+==jobApplication
+dpodId::apAZFP
+baseJobId::285
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-13 11:10:26
+skillTextsBlock::[[
+Ein Studium der Informatik, eines anderen MINT-Fachs. Alternativ verfügst du über eine mehrjährige Berufserfahrung als Softwareentwickler.;computerScienceDegreeOrSimilar
+Du hast bereits mehrjährige praktische Erfahrung in der Entwicklung mit TypeScript/JavaScript und einem der gängigen Frontend-Frameworks wie Angular, React oder Vue.js gesammelt.;frameworksLikeReact
+Du beherrschst den sicheren Umgang mit Git und verfügst über fundierte Kenntnisse in der Verwendung einer Shell wie Bash, ZSH oder fish.;gitSvn, linuxServers
+Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift runden dein Profil ab.;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei PricewaterhouseCoopers erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-13 11:10:26; created
+- 2024-06-13 11:28:56; posted on web page: "Vielen Dank für deine Bewerbung und dein Interesse an einer Karriere bei PwC Deutschland.", received confirmation mail: "so schnell wie möglich mit dir in Verbindung zu setzen"
+]]
+
+==jobApplication
+dpodId::HwvquN
+baseJobId::286
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-13 11:29:41
+skillTextsBlock::[[
+Experience in React.js, JavaScript, TypeScript, MongoDB;react, typescript
+Good English communication skills;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Staffbase in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-13 11:29:41; created
+- 2024-06-13 11:42:20; posted on online form, "Our People Experience Team is doing its best to send you a feedback on your application as fast as possible, which could take a few working days.", received confirmation mail
 ]]
