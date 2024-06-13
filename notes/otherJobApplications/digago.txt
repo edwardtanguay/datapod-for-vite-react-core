@@ -11,3 +11,73 @@
 	Die Position muss dringend besetzt werden. Können Sie sofort anfangen?Die Position muss dringend besetzt werden. Können Sie sofort anfangen?
 				Ja
 	-------------------------------------
+- 2024-06-11 12:09:24; via LinkedIn from Steve Gortol, Geschäftsführer, "Hallo Edward, ich habe deine Bewerbung für die Stelle des Full Stack Developers bei der DIGAGO gesehen. Mit den Informationen, die ich deinem Lebenslauf entnehmen kann, ist das erstmal ein guter Fit. Kannst du vielleicht einmal einen Link zu deinem Github Profile senden? Dank dir!"
+- 2024-06-11 13:11:12; Hi Steve, danke für die Nachricht. Kein Problem, meine GitHub URL lautet: https://github.com/edwardtanguay Auch meine Howto Site https://tanguay-eu.vercel.app/howtos zeigt, mit welchen Technologien ich in den letzten Jahren gearbeitet habe. Viele Grüße, Edward Tanguay
+- info on job
+	-------------------------------------------
+	About the job
+	Building Fullstack web applications: customer portals, admin panels, individual corporate solutions, maps, document management, frontend development
+	We don't develop like large corporations, no inflexible structures. We use what makes sense, works efficiently and is safe. With a little bit of foresight.
+	The role is a developer with some parts of coordinating, organizing, and designing projects, and working with an internal team of 1-2 additional developers, along with 1-2 external developers. Full responsibility and freedom. The team size is flexible and can scale up internally/externally if necessary and appropriate for a project.
+	Programming languages:
+		TypeScript
+	Optional:
+		Python
+	Should be able to pick up in a few days if you have experience with comparable frameworks/services:
+		Vue
+		Quasar
+		Svelte
+		SvelteKit
+		Supabase
+		(Django, DRF, OpenAPI)
+	Also optional, not strictly necessary, we still operate some systems on WordPress/WooCommerce, hence:
+		WordPress, WooCommerce
+		PHP
+	Also optional but nice-to-have, contact with no-code/low-code automation solutions such as (often the quickest and most effective to implement in everyday life for certain scenarios):
+		n8n
+		Integromat/Make
+	Developing for a small growing team of 2-4 internal + external engineers.
+	Fully remote, location doesn't really matter. German address is required.
+	-------------------------------------------
+- 2024-06-12 21:45:44; Meeting with Alejandro
+	- Alejandro
+		- lazy vim
+	- energy companies
+		- vue, python
+	- cosmetic: ambier care
+		- germany
+		- wordpress
+		- sveltekit
+		- client shop
+		- B2B
+	- insurance
+		- wordpress
+		- Linode
+		- cloudrun
+		- plesk
+		- vercel
+	- steve
+		- magdeburg  
+		- expanding to UK
+	- pocketbase
+	- team
+		- 2 devs
+		- Alejandro
+			- 1 year
+		- no scrum
+		- David
+			- was a dev, taught Alejandro
+		- David and Steve
+			- Germany
+		- Markus
+			- Koeln
+	- mattermost
+	- lack of processes
+		- 
+	- cutifiy
+	- hardware
+	- height
+		- https://height.app/product/kanban
+	- projects
+		- want to focus on more projects
+	- will talk to David tomorrow

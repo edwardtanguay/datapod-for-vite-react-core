@@ -439,6 +439,27 @@ history::[[
 	- backend eingestellt
 	- go to Switzerland for trainings
 	- 2-Tage im Buero
+- 2024-06-12 17:52:58; got call from Nadja Ay, who took place of Lea
+	-----------------------------------------------------
+	vielen Dank für den netten Austausch. Wie besprochen sende ich dir eine Mail mit meinen Kontaktdaten, diese findest du in der untenstehende Signatur. Du kannst dich gerne jederzeit bei mir melden.
+
+	Hier ist der Link zur Syncwork AG:
+	https://www.syncwork.de/
+
+	Ich melde mich, sobald ich neue Informationen habe. Hab noch einen schönen Tag.
+	-----------------------------------------------------
+	- Nadja
+		- from Leipzig
+	- regarding job:
+		- C#/.NET
+		- Azure
+		- Visual Studio
+		- ASP.NET
+	- Berater
+		- Unterschiedlihce
+		- ThinkWork
+		- Dresden
+		- Reisebereitschaft
 ]]
 
 ==jobApplication
@@ -925,6 +946,7 @@ history::[[
 - 2024-06-09 12:41:58; created
 - 2024-06-09 13:24:40; applied via web form, "We have received your application. This is just a quick note to let you know we are looking at your application and will get back to you soon."
 - 2024-06-09 13:26:29; received confirmation e-mail: "due to the number of applications we receive, in some cases it could take us up to two weeks to get back to you"
+- 2024-06-12 17:42:10; ~rejection: we are moving forward with other candidates whose background and skills more closely align with the needs of the position for this year
 ]]
 
 ==jobApplication
@@ -1276,4 +1298,33 @@ history::[[
 - 2024-06-11 07:05:50; created
 - 2024-06-11 07:26:47; Indeed webform "irgendwas scheifgelaufen"
 - 2024-06-11 07:38:03; Then it gave me a form at https://karriere.bwi.de which worked, "Die Bewerbung wurde erfolgreich versendet und in unserem Bewerbersystem gespeichert."
+]]
+
+==jobApplication
+dpodId::cUCrhs
+baseJobId::283
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-11 12:17:55
+skillTextsBlock::[[
+Experience using PHP;php
+Experience using Node.js; node
+Experience using MariaDB/MySQL;mysql
+Experience using Docker; docker
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at ERASYS/Romeo in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-11 12:17:55; created
+- 2024-06-11 17:53:36; applied on web form: "Wir haben Ihre Bewerbung erhalten und werden uns in Kürze bei Ihnen melden!"
+- 2024-06-11 17:54:12; received email confirmation: "Wir setzen uns so bald wie möglich mit Ihnen in Verbindung."
 ]]
