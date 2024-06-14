@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 
 export const readJsonFile = (filePath: string) => {
 	const jsonData = fs.readFileSync(filePath, "utf8");
@@ -59,11 +60,16 @@ export const createFile = (pathAndFileName: string, content: string) => {
 	fs.writeFileSync(pathAndFileName, content.trim());
 };
 
-
 export const wrapAsArrayForJson = (objectsText: string) => {
 	return `
 [
 ${objectsText}
 ]	
 	`;
+};
+
+export const getFileNameFromPathAndFileName = (
+	pathAndFileName: string
+): string => {
+	return path.basename(pathAndFileName);
 };
