@@ -58,10 +58,14 @@ export const getCompanyFromFileName = (fileName: string): string => {
 };
 
 const getQuickApplicationFileInfosFromFileName = (
-	fileName: string
+	pathAndFileName: string
 ): QuickApplicationFileInfos => {
+	const content = qfil.readTextFile(pathAndFileName);
+	const lines = qstr.convertStringBlockToLines(content);
+	const line1 = lines[0];
+	const statusWhen = qstr.getIsoDateTimeFromString(line1);
 	return {
-		statusWhen: "2024-06-12 14:13:53",
+		statusWhen,
 	};
 };
 
@@ -75,16 +79,19 @@ export const buildQuickApplicationsForDirectory = (
 	for (const pathAndFileName of pathAndFileNames) {
 		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
 		const quickApplicationFileInfos =
-			getQuickApplicationFileInfosFromFileName(fileName);
-
+			getQuickApplicationFileInfosFromFileName(pathAndFileName);
 		const company = getCompanyFromFileName(fileName);
-		quickApplications.push({
-			id: 0,
-			company,
-			recruiter: false,
-			status,
-			statusWhen: quickApplicationFileInfos.statusWhen,
-		});
+		if (quickApplicationFileInfos.statusWhen.trim() !== "") {
+			quickApplications.push({
+				id: 0,
+				company,
+				recruiter: false,
+				status,
+				statusWhen: quickApplicationFileInfos.statusWhen,
+			});
+		} else {
+			console.log(`FIX: No date in file: ${pathAndFileName}`);
+		}
 	}
 	return quickApplications;
 };
