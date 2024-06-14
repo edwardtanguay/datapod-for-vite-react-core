@@ -143,6 +143,7 @@ const normalizeCompanyName = (company: string): string => {
 	let r = company;
 	r = qstr.chopRight(r, ' (Recruiter)');
 	r = qstr.chopRight(r, ' recruiter');
+	r = qstr.chopRight(r, ' Recruiter');
 	return r;
 }
 

@@ -75,12 +75,10 @@ export const FullApplicationOverview = () => {
 																{
 																	application.company
 																}
-															</span>
-															<span className="italic text-purple-700">
-																-{" "}
-																{
-																	application.companyKind
-																}
+																{application.processStatus ===
+																	"interviewing" &&
+																	" (interviewing)"}
+																	{application.companyKind === 'recruiter' && ' (RECRUITER)'}
 															</span>
 														</span>
 													</li>
@@ -125,12 +123,7 @@ export const FullApplicationOverview = () => {
 																{application.processStatus ===
 																	"interviewing" &&
 																	" (interviewing)"}
-																<span className="italic text-purple-700">
-																	-{" "}
-																	{
-																		application.companyKind
-																	}
-																</span>
+																	{application.companyKind === 'recruiter' && ' (RECRUITER)'}
 															</span>
 														</span>
 													</li>
