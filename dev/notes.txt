@@ -8,7 +8,9 @@
 	-----------------------------------
 	- x make function and display all files including rejected
 	- x make two components: FullApplicationOverview, QuickApplicationOverview
-	- .. one component, add quicks to fulls and show both
+	- x one component, add quicks to fulls and show both
+	- .. show all files
+	- process them into objects
 
 
 - x planning

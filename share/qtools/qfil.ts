@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 
 export const readJsonFile = (filePath: string) => {
 	const jsonData = fs.readFileSync(filePath, "utf8");
@@ -18,6 +19,19 @@ export const getFileNamesInDirectory = (directory: string) => {
 			const relativePathAndFileName = directory + "/" + fileName;
 			if (!fs.lstatSync(relativePathAndFileName).isDirectory()) {
 				fileNames.push(fileName);
+			}
+		});
+	}
+	return fileNames;
+};
+
+export const getPathAndFileNamesInDirectory = (directory: string) => {
+	const fileNames: string[] = [];
+	if (fs.existsSync(directory)) {
+		fs.readdirSync(directory).forEach((fileName: string) => {
+			const relativePathAndFileName = directory + "/" + fileName;
+			if (!fs.lstatSync(relativePathAndFileName).isDirectory()) {
+				fileNames.push(relativePathAndFileName);
 			}
 		});
 	}
@@ -46,11 +60,16 @@ export const createFile = (pathAndFileName: string, content: string) => {
 	fs.writeFileSync(pathAndFileName, content.trim());
 };
 
-
 export const wrapAsArrayForJson = (objectsText: string) => {
 	return `
 [
 ${objectsText}
 ]	
 	`;
+};
+
+export const getFileNameFromPathAndFileName = (
+	pathAndFileName: string
+): string => {
+	return path.basename(pathAndFileName);
 };

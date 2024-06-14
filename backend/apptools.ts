@@ -1,5 +1,11 @@
-import { IFileObject, QuickApplication } from "../share/interfaces.js";
+import {
+	IFileObject,
+	ProcessStatus,
+	QuickApplication,
+	QuickApplicationFileInfos,
+} from "../share/interfaces.js";
 import * as qfil from "../share/qtools/qfil.js";
+import * as qstr from "../share/qtools/qstr.js";
 import * as appconfig from "./appconfig.js";
 
 export const extractPortNumber = (text: string) => {
@@ -41,21 +47,66 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 	return r;
 };
 
-export const buildQuickApplications = (): QuickApplication[] => {
-	const quickApplications:QuickApplication[] = [];
-	quickApplications.push({
-		id: 1,
-		company: "Temp Company",
-		recruiter: false,
-		status: "active",
-		statusWhen: "2024-06-12 10:15:27"
-	})
-	quickApplications.push({
-		id: 2,
-		company: "Temp Company 2",
-		recruiter: false,
-		status: "rejected",
-		statusWhen: "2024-06-14 10:15:27"
-	})
+export const getCompanyFromFileName = (fileName: string): string => {
+	let r = fileName;
+	r = qstr.chopRight(r, ".txt");
+	r = qstr.replaceAll(r, "-", ".");
+	const parts = qstr.breakIntoParts(r, ".");
+	const titleParts = parts.map((m) => qstr.forceTitleNotation(m));
+	r = titleParts.join(" ");
+	return r;
+};
+
+const getQuickApplicationFileInfosFromFileName = (
+	pathAndFileName: string
+): QuickApplicationFileInfos => {
+	const content = qfil.readTextFile(pathAndFileName);
+	const lines = qstr.convertStringBlockToLines(content);
+	const line1 = lines[0];
+	const statusWhen = qstr.getIsoDateTimeFromString(line1);
+	return {
+		statusWhen,
+	};
+};
+
+export const buildQuickApplicationsForDirectory = (
+	directory: string,
+	status: ProcessStatus
+): QuickApplication[] => {
+	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory(directory);
+
+	const quickApplications: QuickApplication[] = [];
+	for (const pathAndFileName of pathAndFileNames) {
+		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+		const quickApplicationFileInfos =
+			getQuickApplicationFileInfosFromFileName(pathAndFileName);
+		const company = getCompanyFromFileName(fileName);
+		if (quickApplicationFileInfos.statusWhen.trim() !== "") {
+			quickApplications.push({
+				id: 0,
+				company,
+				recruiter: false,
+				status,
+				statusWhen: quickApplicationFileInfos.statusWhen,
+			});
+		} else {
+			console.log(`FIX: No date in file: ${pathAndFileName}`);
+		}
+	}
 	return quickApplications;
-}
+};
+
+export const buildQuickApplications = (): QuickApplication[] => {
+	const quickApplications = [
+		...buildQuickApplicationsForDirectory(
+			"notes/otherJobApplications",
+			"active"
+		),
+		...buildQuickApplicationsForDirectory(
+			"notes/otherJobApplications/_REJECTIONS",
+			"rejected"
+		),
+	];
+	quickApplications.sort((a, b) => (a.company < b.company ? 1 : -1));
+	return quickApplications;
+};

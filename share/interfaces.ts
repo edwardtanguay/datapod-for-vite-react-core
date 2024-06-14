@@ -170,6 +170,7 @@ export type FullReport = {
 	groupedApplicationDayReport: GroupedApplicationDayReport;
 	numberOfRejections: number;
 	numberActive: number;
+	rejectionRate: number;
 };
 
 export type QuickApplication = {
@@ -177,5 +178,9 @@ export type QuickApplication = {
 	company: string;
 	recruiter: boolean;
 	status: ProcessStatus;
+	statusWhen: string;
+};
+
+export type QuickApplicationFileInfos = {
 	statusWhen: string;
 };

@@ -719,3 +719,9 @@ export const formatNumberAsGermanThousandsEuroCurrency = (
 ): string => {
 	return currencyValue.toLocaleString("de-de") + ",- €";
 };
+
+export const getIsoDateTimeFromString = (input: string): string => {
+	const regex = /\b\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\b/;
+	const match = input.match(regex);
+	return match ? match[0] : "";
+};
