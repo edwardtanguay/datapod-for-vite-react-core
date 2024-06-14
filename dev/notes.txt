@@ -1,8 +1,8 @@
-- .. define and show "interviewing" 
-	- .. update type
-	- make "interview rate"
-- define and show "recruiter"
-- make button "Overview List"
+- x define and show "interviewing" 
+	- x update type
+	- x make "interview rate"
+- x define and show "recruiter"
+- .. make button "Overview List"
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site
