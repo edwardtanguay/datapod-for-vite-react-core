@@ -1,4 +1,9 @@
-import { IFileObject, QuickApplication } from "../share/interfaces.js";
+import {
+	IFileObject,
+	ProcessStatus,
+	QuickApplication,
+	QuickApplicationFileInfos,
+} from "../share/interfaces.js";
 import * as qfil from "../share/qtools/qfil.js";
 import * as qstr from "../share/qtools/qstr.js";
 import * as appconfig from "./appconfig.js";
@@ -52,32 +57,49 @@ export const getCompanyFromFileName = (fileName: string): string => {
 	return r;
 };
 
+const getQuickApplicationFileInfosFromFileName = (
+	fileName: string
+): QuickApplicationFileInfos => {
+	return {
+		statusWhen: "2024-06-12 14:13:53",
+	};
+};
+
 export const buildQuickApplicationsForDirectory = (
-	directory: string
+	directory: string,
+	status: ProcessStatus
 ): QuickApplication[] => {
 	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory(directory);
 
 	const quickApplications: QuickApplication[] = [];
 	for (const pathAndFileName of pathAndFileNames) {
 		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+		const quickApplicationFileInfos =
+			getQuickApplicationFileInfosFromFileName(fileName);
 
 		const company = getCompanyFromFileName(fileName);
 		quickApplications.push({
 			id: 0,
 			company,
 			recruiter: false,
-			status: "active",
-			statusWhen: "2024-06-13 10:15:27",
+			status,
+			statusWhen: quickApplicationFileInfos.statusWhen,
 		});
 	}
 	return quickApplications;
 };
 
 export const buildQuickApplications = (): QuickApplication[] => {
-	return [
-		...buildQuickApplicationsForDirectory("notes/otherJobApplications"),
+	const quickApplications = [
 		...buildQuickApplicationsForDirectory(
-			"notes/otherJobApplications/_REJECTIONS"
+			"notes/otherJobApplications",
+			"active"
+		),
+		...buildQuickApplicationsForDirectory(
+			"notes/otherJobApplications/_REJECTIONS",
+			"rejected"
 		),
 	];
+	quickApplications.sort((a, b) => (a.company < b.company ? 1 : -1));
+	return quickApplications;
 };

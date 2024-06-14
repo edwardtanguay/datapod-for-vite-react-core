@@ -37,60 +37,64 @@ export const FullApplicationOverview = () => {
 									{applications.map((application, index) => {
 										return (
 											<>
-												{application.speedKind === "coverLetterApplication" ? (
-												<li key={index}>
-													{application.processStatus ===
-														"doing" && (
-														<span className="text-green-900 italic font-semibold">
-															...in process...{" "}
-														</span>
-													)}
-													<span
-														className={
-															application.processStatus ===
-															"rejected"
-																? "text-red-700 line-through"
-																: ""
-														}
-													>
-														<span className="font-semibold text-black">
-															{application.title}
-														</span>{" "}
-														<span className="italic text-slate-700">
-															-{" "}
-															{
-																application.company
+												{application.speedKind ===
+												"coverLetterApplication" ? (
+													<li key={index}>
+														{application.processStatus ===
+															"doing" && (
+															<span className="text-green-900 italic font-semibold">
+																...in process...{" "}
+															</span>
+														)}
+														<span
+															className={
+																application.processStatus ===
+																"rejected"
+																	? "text-red-700 line-through"
+																	: ""
 															}
+														>
+															<span className="font-semibold text-black">
+																{
+																	application.title
+																}
+															</span>{" "}
+															<span className="italic text-slate-700">
+																-{" "}
+																{
+																	application.company
+																}
+															</span>
 														</span>
-													</span>
-												</li>
+													</li>
 												) : (
-												<li key={index}>
-													{application.processStatus ===
-														"doing" && (
-														<span className="text-green-900 italic font-semibold">
-															...in process...{" "}
-														</span>
-													)}
-													<span
-														className={
-															application.processStatus ===
-															"rejected"
-																? "text-red-700 line-through"
-																: ""
-														}
-													>
-														<span className="bg-gray-500 text-yellow-100 px-1 text-sm italic rounded">
-															quick application
-														</span>{" "}
-														<span className="italic text-slate-700">
-															{
-																application.company
+													<li key={index}>
+														{application.processStatus ===
+															"doing" && (
+															<span className="text-green-900 italic font-semibold">
+																...in process...{" "}
+															</span>
+														)}
+														<span
+															className={
+																application.processStatus ===
+																"rejected"
+																	? "text-red-700 line-through"
+																	: ""
 															}
+														>
+															<span className="bg-gray-500 text-gray-100 px-1 text-sm italic rounded">
+																quick
+																application
+															</span>{" "}
+															<span className="italic text-slate-700">
+																{
+																	application.company
+																}
+															</span>
 														</span>
-													</span>
-												</li>
-											)}
+													</li>
+												)}
 											</>
 										);
 									})}

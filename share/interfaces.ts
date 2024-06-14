@@ -179,3 +179,7 @@ export type QuickApplication = {
 	status: ProcessStatus;
 	statusWhen: string;
 };
+
+export type QuickApplicationFileInfos = {
+	statusWhen: string;
+};
