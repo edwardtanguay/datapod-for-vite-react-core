@@ -150,6 +150,8 @@ export type OverviewJobApplication = {
 
 export type ProcessStatus = "active" | "doing" | "interviewing" | "rejected";
 
+export type CompanyKind = "normal" | "recruiter";
+
 export type ApplicationDay = {
 	title: string;
 	company: string;
@@ -157,6 +159,7 @@ export type ApplicationDay = {
 	longLetterDate: string;
 	processStatus: ProcessStatus;
 	speedKind: "coverLetterApplication" | "quickApplication";
+	companyKind: CompanyKind
 };
 
 export type GroupedApplicationDayReport = {

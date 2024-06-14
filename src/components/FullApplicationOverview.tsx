@@ -18,8 +18,9 @@ export const FullApplicationOverview = () => {
 				<h3 className="mb-3 italic">
 					{fullReport.numberActive} waiting for response,{" "}
 					<span className="text-green-900 font-semibold">
-					{fullReport.numberOfInterviewing} interviewing  
-					</span>,{' '}
+						{fullReport.numberOfInterviewing} interviewing
+					</span>
+					,{" "}
 					<span className="text-red-900">
 						{fullReport.numberOfRejections} rejected
 					</span>{" "}
@@ -75,6 +76,12 @@ export const FullApplicationOverview = () => {
 																	application.company
 																}
 															</span>
+															<span className="italic text-purple-700">
+																-{" "}
+																{
+																	application.companyKind
+																}
+															</span>
 														</span>
 													</li>
 												) : (
@@ -93,15 +100,37 @@ export const FullApplicationOverview = () => {
 																	: ""
 															}
 														>
-																<span className={`${application.processStatus === "interviewing" ? 'bg-green-900' : 'bg-gray-500'}  text-gray-100 px-1 text-sm italic rounded`}>
+															<span
+																className={`${
+																	application.processStatus ===
+																	"interviewing"
+																		? "bg-green-900"
+																		: "bg-gray-500"
+																}  text-gray-100 px-1 text-sm italic rounded`}
+															>
 																quick
 																application
 															</span>{" "}
-																<span className={`italic ${application.processStatus === "interviewing" ? 'text-green-900 font-semibold' : 'text-slate-700'}`}>
+															<span
+																className={`italic ${
+																	application.processStatus ===
+																	"interviewing"
+																		? "text-green-900 font-semibold"
+																		: "text-slate-700"
+																}`}
+															>
 																{
 																	application.company
 																}
-																	{application.processStatus === "interviewing" && " (interviewing)"}
+																{application.processStatus ===
+																	"interviewing" &&
+																	" (interviewing)"}
+																<span className="italic text-purple-700">
+																	-{" "}
+																	{
+																		application.companyKind
+																	}
+																</span>
 															</span>
 														</span>
 													</li>

@@ -1,5 +1,6 @@
 import {
 	ApplicationDay,
+	CompanyKind,
 	FullJobApplication,
 	FullReport,
 	GroupedApplicationDayReport,
@@ -138,6 +139,17 @@ const padGroupedapplicationDayReportWithEmptyDays = (
 	return newGroupedApplicationDayReport;
 };
 
+const normalizeCompanyName = (company: string): string => {
+	let r = company;
+	r = qstr.chopRight(r, ' (Recruiter)');
+	r = qstr.chopRight(r, ' recruiter');
+	return r;
+}
+
+const getCompanyKindFromCompany = (company: string): CompanyKind => {
+	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
+};
+
 export const getFullReport = (): FullReport => {
 	const overviewJobApplications = model.getOverviewApplications();
 	overviewJobApplications.sort((a, b) =>
@@ -167,7 +179,7 @@ export const getFullReport = (): FullReport => {
 			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
-				company: overviewJobApplication.job.company,
+				company: normalizeCompanyName(overviewJobApplication.job.company),
 				letterDate: overviewJobApplication.letterDate,
 				longLetterDate:
 					qdat.getAmericanDayAbbreviation(
@@ -177,6 +189,7 @@ export const getFullReport = (): FullReport => {
 					overviewJobApplication.letterDate,
 				processStatus,
 				speedKind: "coverLetterApplication",
+				companyKind: getCompanyKindFromCompany(overviewJobApplication.job.company)
 			};
 			if (processStatus === "rejected") {
 				numberOfRejections++;
@@ -191,7 +204,7 @@ export const getFullReport = (): FullReport => {
 		const tempLetterDate = quickApplication.statusWhen;
 		const day: ApplicationDay = {
 			title: "ttt",
-			company: quickApplication.company,
+			company: normalizeCompanyName(quickApplication.company),
 			letterDate: tempLetterDate,
 			longLetterDate:
 				qdat.getAmericanDayAbbreviation(tempLetterDate) +
@@ -199,6 +212,7 @@ export const getFullReport = (): FullReport => {
 				tempLetterDate,
 			processStatus: quickApplication.status,
 			speedKind: "quickApplication",
+			companyKind: getCompanyKindFromCompany(quickApplication.company)
 		};
 		if (day.processStatus === "rejected") {
 			numberOfRejections++;
@@ -229,7 +243,6 @@ export const getFullReport = (): FullReport => {
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
 	const rejectionRate = numberOfRejections / totalApplications;
-	console.log('111a', numberOfInterviewing);
 	return {
 		totalApplications,
 		totalDays,
