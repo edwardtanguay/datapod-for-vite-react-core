@@ -1,4 +1,4 @@
-import { IFileObject } from "../share/interfaces.js";
+import { IFileObject, QuickApplication } from "../share/interfaces.js";
 import * as qfil from "../share/qtools/qfil.js";
 import * as appconfig from "./appconfig.js";
 
@@ -41,3 +41,14 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 	return r;
 };
 
+export const buildQuickApplications = (): QuickApplication[] => {
+	const quickApplications:QuickApplication[] = [];
+	quickApplications.push({
+		id: 1,
+		company: "ccc",
+		recruiter: false,
+		status: "appliedAndWaiting",
+		statusWhen: "2024-06-14 10:15:27"
+	})
+	return quickApplications;
+}

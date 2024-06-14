@@ -29,6 +29,7 @@ export interface IAppData {
 	lineBlockDataItems: ILineBlockDataItem[];
 	dpodSchemaDataItems: any[];
 	dpodItemGroupDataItems: DpodItemGroupDataItem[];
+	quickApplications: QuickApplication[];
 }
 
 export const blankAppData = {
@@ -154,7 +155,7 @@ export type ApplicationDay = {
 	company: string;
 	letterDate: string;
 	longLetterDate: string;
-	processStatus: ProcessStatus; 
+	processStatus: ProcessStatus;
 };
 
 export type GroupedApplicationDayReport = {
@@ -168,4 +169,12 @@ export type FullReport = {
 	groupedApplicationDayReport: GroupedApplicationDayReport;
 	numberOfRejections: number;
 	numberActive: number;
+};
+
+export type QuickApplication = {
+	id: number;
+	company: string;
+	recruiter: boolean;
+	status: "appliedAndWaiting" | "interviewProcess" | "rejected";
+	statusWhen: string;
 };
