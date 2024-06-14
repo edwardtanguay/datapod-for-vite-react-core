@@ -234,7 +234,8 @@ export const getFullReport = (): FullReport => {
 		groupedApplicationDayReport,
 		numberOfRejections,
 		numberActive,
-		rejectionRate
+		rejectionRate,
+		numberInterviewing: 0
 	};
 };
 

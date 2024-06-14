@@ -16,7 +16,10 @@ export const FullApplicationOverview = () => {
 					</span>
 				</h2>
 				<h3 className="mb-3 italic">
-					{fullReport.numberActive} active,{" "}
+					{fullReport.numberActive} waiting for response,{" "}
+					<span className="text-green-900">
+					{fullReport.numberInterviewing} interviewing,{' '}  
+					</span>
 					<span className="text-red-900">
 						{fullReport.numberOfRejections} rejected
 					</span>{" "}
@@ -98,6 +101,7 @@ export const FullApplicationOverview = () => {
 																{
 																	application.company
 																}
+																	{'---'}{application.processStatus}
 															</span>
 														</span>
 													</li>

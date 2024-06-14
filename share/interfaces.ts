@@ -148,7 +148,7 @@ export type OverviewJobApplication = {
 	letterDate: string;
 };
 
-export type ProcessStatus = "active" | "rejected" | "doing";
+export type ProcessStatus = "active" | "doing" | "interviewing" | "rejected";
 
 export type ApplicationDay = {
 	title: string;
@@ -171,6 +171,7 @@ export type FullReport = {
 	numberOfRejections: number;
 	numberActive: number;
 	rejectionRate: number;
+	numberInterviewing: number;
 };
 
 export type QuickApplication = {
@@ -183,4 +184,5 @@ export type QuickApplication = {
 
 export type QuickApplicationFileInfos = {
 	statusWhen: string;
+	status: ProcessStatus;
 };
