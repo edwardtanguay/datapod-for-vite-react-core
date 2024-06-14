@@ -74,5 +74,10 @@ export const buildQuickApplicationsForDirectory = (
 };
 
 export const buildQuickApplications = (): QuickApplication[] => {
-	return buildQuickApplicationsForDirectory("notes/otherJobApplications");
+	return [
+		...buildQuickApplicationsForDirectory("notes/otherJobApplications"),
+		...buildQuickApplicationsForDirectory(
+			"notes/otherJobApplications/_REJECTIONS"
+		),
+	];
 };
