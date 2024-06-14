@@ -1,7 +1,3 @@
-- x define and show "interviewing" 
-	- x update type
-	- x make "interview rate"
-- x define and show "recruiter"
 - .. make button "Overview List"
 
 - x planning
