@@ -80,7 +80,7 @@ export const FullApplicationOverview = () => {
 																: ""
 														}
 													>
-														<span className="bg-gray-500 text-gray-300 px-1 text-sm italic rounded">
+														<span className="bg-gray-500 text-yellow-100 px-1 text-sm italic rounded">
 															quick application
 														</span>{" "}
 														<span className="italic text-slate-700">

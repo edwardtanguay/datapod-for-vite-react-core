@@ -188,7 +188,6 @@ export const getFullReport = (): FullReport => {
 	for (const quickApplication of quickApplications) {
 		// const tempLetterDate = '2024-06-13 11:47:23';  //quickApplication.statusWhen;
 		const tempLetterDate = quickApplication.statusWhen;
-		console.log("111a", tempLetterDate);
 		const day: ApplicationDay = {
 			title: "ttt",
 			company: quickApplication.company,

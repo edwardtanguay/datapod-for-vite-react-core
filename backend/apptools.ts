@@ -42,20 +42,18 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 };
 
 export const buildQuickApplications = (): QuickApplication[] => {
+	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory('notes/otherJobApplications');
+
 	const quickApplications:QuickApplication[] = [];
-	quickApplications.push({
-		id: 1,
-		company: "Temp Company",
-		recruiter: false,
-		status: "active",
-		statusWhen: "2024-06-12 10:15:27"
-	})
-	quickApplications.push({
-		id: 2,
-		company: "Temp Company 2",
-		recruiter: false,
-		status: "rejected",
-		statusWhen: "2024-06-14 10:15:27"
-	})
+	for (const pathAndFileName of pathAndFileNames) {
+		console.log('111name', pathAndFileName);
+	}
+	// quickApplications.push({
+	// 	id: 2,
+	// 	company: "Temp Company 2",
+	// 	recruiter: false,
+	// 	status: "rejected",
+	// 	statusWhen: "2024-06-14 10:15:27"
+	// })
 	return quickApplications;
 }

@@ -24,6 +24,19 @@ export const getFileNamesInDirectory = (directory: string) => {
 	return fileNames;
 };
 
+export const getPathAndFileNamesInDirectory = (directory: string) => {
+	const fileNames: string[] = [];
+	if (fs.existsSync(directory)) {
+		fs.readdirSync(directory).forEach((fileName: string) => {
+			const relativePathAndFileName = directory + "/" + fileName;
+			if (!fs.lstatSync(relativePathAndFileName).isDirectory()) {
+				fileNames.push(relativePathAndFileName);
+			}
+		});
+	}
+	return fileNames;
+};
+
 export const writeToFile = (pathAndFileName: string, content: string): void => {
 	fs.writeFile(pathAndFileName, content, (err) => {
 		if (err) {
