@@ -1,5 +1,6 @@
 import { IFileObject, QuickApplication } from "../share/interfaces.js";
 import * as qfil from "../share/qtools/qfil.js";
+import * as qstr from "../share/qtools/qstr.js";
 import * as appconfig from "./appconfig.js";
 
 export const extractPortNumber = (text: string) => {
@@ -41,19 +42,33 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 	return r;
 };
 
-export const buildQuickApplications = (): QuickApplication[] => {
-	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory('notes/otherJobApplications');
+export const getCompanyFromFileName = (fileName: string): string => {
+	let r = fileName;
+	r = qstr.chopRight(r, ".txt");
+	r = qstr.replaceAll(r, "-", ".");
+	const parts = qstr.breakIntoParts(r, ".");
+	const titleParts = parts.map((m) => qstr.forceTitleNotation(m));
+	r = titleParts.join(" ");
+	return r;
+};
 
-	const quickApplications:QuickApplication[] = [];
+export const buildQuickApplications = (): QuickApplication[] => {
+	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory(
+		"notes/otherJobApplications"
+	);
+
+	const quickApplications: QuickApplication[] = [];
 	for (const pathAndFileName of pathAndFileNames) {
-		console.log('111name', pathAndFileName);
+		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+
+		const company = getCompanyFromFileName(fileName);
+		quickApplications.push({
+			id: 0,
+			company,
+			recruiter: false,
+			status: "active",
+			statusWhen: "2024-06-14 10:15:27",
+		});
 	}
-	// quickApplications.push({
-	// 	id: 2,
-	// 	company: "Temp Company 2",
-	// 	recruiter: false,
-	// 	status: "rejected",
-	// 	statusWhen: "2024-06-14 10:15:27"
-	// })
 	return quickApplications;
-}
+};
