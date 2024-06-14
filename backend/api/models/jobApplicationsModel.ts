@@ -146,6 +146,10 @@ export const getFullReport = (): FullReport => {
 	const applicationDays: ApplicationDay[] = [];
 	let numberOfRejections = 0;
 	let numberDoing = 0;
+
+	// add quick applications
+	const quickApplications = apptools.buildQuickApplications();
+
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (
 			(overviewJobApplication.letterDate.trim() !== "" &&
@@ -164,8 +168,14 @@ export const getFullReport = (): FullReport => {
 				title: overviewJobApplication.job.title,
 				company: overviewJobApplication.job.company,
 				letterDate: overviewJobApplication.letterDate,
-				longLetterDate: qdat.getAmericanDayAbbreviation(overviewJobApplication.letterDate) + ' ' + overviewJobApplication.letterDate,
+				longLetterDate:
+					qdat.getAmericanDayAbbreviation(
+						overviewJobApplication.letterDate
+					) +
+					" " +
+					overviewJobApplication.letterDate,
 				processStatus,
+				speedKind: "coverLetterApplication",
 			};
 			if (processStatus === "rejected") {
 				numberOfRejections++;
@@ -173,6 +183,30 @@ export const getFullReport = (): FullReport => {
 			applicationDays.push(day);
 		}
 	}
+
+	// add quickapplications into overviewJobApplications
+	for (const quickApplication of quickApplications) {
+		// const tempLetterDate = '2024-06-13 11:47:23';  //quickApplication.statusWhen;
+		const tempLetterDate = quickApplication.statusWhen;
+		console.log("111a", tempLetterDate);
+		const day: ApplicationDay = {
+			title: "ttt",
+			company: quickApplication.company,
+			letterDate: tempLetterDate,
+			longLetterDate:
+				qdat.getAmericanDayAbbreviation(tempLetterDate) +
+				" " +
+				tempLetterDate,
+			processStatus: quickApplication.status,
+			speedKind: "quickApplication",
+		};
+		if (day.processStatus === "rejected") {
+			numberOfRejections++;
+		}
+
+		applicationDays.push(day);
+	}
+	applicationDays.sort((a, b) => (a.letterDate < b.letterDate ? 1 : -1));
 
 	let groupedApplicationDayReport: GroupedApplicationDayReport =
 		applicationDays.reduce((acc, day) => {
@@ -206,6 +240,8 @@ export const getFullReport = (): FullReport => {
 export const getOverviewApplications = (): OverviewJobApplication[] => {
 	const overviewJobApplications: OverviewJobApplication[] = [];
 	const fullJobApplications = getFullJobApplications();
+
+	// load coverLetterApplications into overviewJobApplications
 	for (const job of getJobs()) {
 		const fullJobApplication = fullJobApplications.find((m) => {
 			return m.baseJobId === job.id;
@@ -232,6 +268,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 			overviewJobApplications.push(overviewJobApplication);
 		}
 	}
+
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.lastStatus) {
 			if (overviewJobApplication.lastStatus.includes("~duplicate")) {

@@ -1,0 +1,105 @@
+** Central Datapod Site Blocks
+Id Code
+Body;p
+
+==centralDatapodSiteBlock
+dpodId::bcUw0g
+idCode::siteAndGoalOverview
+body::[[
+- Datapod frameworks
+	- **Datapod-for-Vite-React 0.1.0**
+		- Edward's Language Learning Site
+	- **Datapod-for-Nextjs 0.0.0**
+		- Edward's Tech Site
+	- *Edward's Personal site*
+		- genericizes
+			- **Datapod-for-Nuxt 0.0.0**
+	- *Datapod Central*
+		- genericizes
+			- **Datapod-for-Angular 0.0.0**	
+	- *Edward's Fitness Site*
+		- genericizes
+			- **Datapod-for-SvelteKit 0.0.0**
+	- *Edward's Learn Vim Site*
+		- genericizes
+			- **Datapod-for-Python 0.0.0**
+	- *Edward's Tech Items Site*
+		- genericizes
+			- **Datapod-for-Phoenix 0.0.0**
+	- *Edward's Job Site*
+		- genericizes
+			- **Datapod-for-Go 0.0.0**
+		- possible frameworks
+			- Echo: https://echo.labstack.com
+			- Gin: https://gin-gonic.com
+	- *Edward's Personal Task Manager*
+		- genericizes
+			- **Datapod-for-Electron 0.0.0**
+		- offline program that manages personal tasks and projects
+		- can publish static sites that show itemTypes
+	- *Edward's Good Arguments Site*
+		- genericizes
+			- **Datapod-for-Ruby-on-Rails 0.0.0**
+	- *Edward's De-Echo Site*
+		- genericizes
+			- **Datapod-for-T3-Stack 0.0.0**
+		- uses tRPC
+	- *Edward's Good Arguments Site*
+		- genericizes
+			- **Datapod-for-Haskell 0.0.0**
+		- uses the Yesod framework
+	- *(((project)))*
+		- genericizes
+			- **Datapod-for-Rust 0.0.0**
+		- uses the Actix framework
+	- *(((project)))*
+		- genericizes
+			- **Datapod-for-Clojure 0.0.0**
+		- uses the re-frame framework
+	- *(((project)))*
+		- genericizes
+			- **Datapod-for-Laravel 0.0.0**
+		- uses Vue.js for the frontend
+	- *(((project)))*
+		- genericizes
+			- **Datapod-for-ASP.NET-Core 0.0.0**	
+	- *(((project)))*
+		- genericizes
+			- **Datapod-for-bash 0.0.0**
+			- see: https://github.com/JosefZIla/bash2048/blob/master/bash2048.sh
+- **supporting tools**
+	- 4.9; Docker; get full stack apps hosted at Hetzner with docker-compose
+	- 4.8; Shadcn UI
+	- 4.8; Zod; get site working with validation/cleansing frontend/backend for all data inputs;finished
+	- 4.7; Kinde; get example site working
+	- 4.7; Drizzle; make howto
+	- 4.7; testing with mocking
+	- 4.6; socket.io; howto that shows chat, dashboard and instant shows instant clicks on likes
+	- 4.6; Prisma; make howto
+	- 4.5; React Hook Form; make howto
+		- https://www.youtube.com/watch?v=u6PQ5xZAv7Q
+	- 4.4; Formik; make howto
+	- 4.2; React Query; make howto
+	- 4.3; https://railway.app
+	- 4.1; Clerk; get example site working
+	- 3.9; Supabase
+	- 3.8; Firebase
+	- 3.8; [uploadthing](https://uploadthing.com); howto that allows Next.js site to upload images to Hetzner
+	- 3.7; shadcn; howto that shows how to use 20 components
+	- 3.6; CSS Layouts; make a library of various mobile-first
+	- 3.4; hosting at [Koyeb](https://www.koyeb.com/pricing) - mentioned for Go
+	- 3.4; hosting at [Qovery](https://www.qovery.com/pricing) - mentioned for Go
+	- 3.2; Jotai; make howto
+	- 3.9; CSS design and layout, e.g. reproduce reponsive sites in tailwind from: https://html5up.net
+	- 2.6; GraphQL
+	- 3.7; cron jobs
+	- 3.8; screen and tmux
+	- 2.9; sed and awk
+	- 1.2; symlinks
+- **keep up to date - watch regularly**
+	- ByteGrade; https://www.youtube.com/@ByteGrad/videos
+	- Kyle: https://www.youtube.com/@WebDevSimplified/videos
+- **learn regularly**
+	- Linux file writes, groups
+	- Linux command line tips
+]]

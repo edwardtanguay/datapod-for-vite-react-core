@@ -6,8 +6,10 @@
 	status: "appliedAndWaiting" | "interviewProcess" | "rejected"
 	statusDate: string;
 	-----------------------------------
-	- .. make function and display all files including rejected
-	
+	- x make function and display all files including rejected
+	- x make two components: FullApplicationOverview, QuickApplicationOverview
+	- .. one component, add quicks to fulls and show both
+
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site
