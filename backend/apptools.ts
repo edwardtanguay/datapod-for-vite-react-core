@@ -58,14 +58,25 @@ export const getCompanyFromFileName = (fileName: string): string => {
 };
 
 const getQuickApplicationFileInfosFromFileName = (
-	pathAndFileName: string
+	pathAndFileName: string,
+	status: ProcessStatus
 ): QuickApplicationFileInfos => {
 	const content = qfil.readTextFile(pathAndFileName);
 	const lines = qstr.convertStringBlockToLines(content);
+
+	// statusWhen
 	const line1 = lines[0];
 	const statusWhen = qstr.getIsoDateTimeFromString(line1);
+
+	// check if interviewing
+	for (const line of lines) {
+		if (line.includes('~interviewing')) {
+			status = 'interviewing'
+		}
+	}
 	return {
 		statusWhen,
+		status
 	};
 };
 
@@ -79,14 +90,14 @@ export const buildQuickApplicationsForDirectory = (
 	for (const pathAndFileName of pathAndFileNames) {
 		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
 		const quickApplicationFileInfos =
-			getQuickApplicationFileInfosFromFileName(pathAndFileName);
+			getQuickApplicationFileInfosFromFileName(pathAndFileName, status);
 		const company = getCompanyFromFileName(fileName);
 		if (quickApplicationFileInfos.statusWhen.trim() !== "") {
 			quickApplications.push({
 				id: 0,
 				company,
 				recruiter: false,
-				status,
+				status: quickApplicationFileInfos.status,
 				statusWhen: quickApplicationFileInfos.statusWhen,
 			});
 		} else {

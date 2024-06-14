@@ -1,17 +1,4 @@
-- .. make buildQuickApplications, an array of objects
-	-----------------------------------
-	id: number;
-	company: string;
-	recruiter: boolean;
-	status: "appliedAndWaiting" | "interviewProcess" | "rejected"
-	statusDate: string;
-	-----------------------------------
-	- x make function and display all files including rejected
-	- x make two components: FullApplicationOverview, QuickApplicationOverview
-	- x one component, add quicks to fulls and show both
-	- .. show all files
-	- process them into objects
-
+- .. make button "Overview List"
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site

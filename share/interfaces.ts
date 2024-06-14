@@ -148,7 +148,9 @@ export type OverviewJobApplication = {
 	letterDate: string;
 };
 
-export type ProcessStatus = "active" | "rejected" | "doing";
+export type ProcessStatus = "active" | "doing" | "interviewing" | "rejected";
+
+export type CompanyKind = "normal" | "recruiter";
 
 export type ApplicationDay = {
 	title: string;
@@ -157,6 +159,7 @@ export type ApplicationDay = {
 	longLetterDate: string;
 	processStatus: ProcessStatus;
 	speedKind: "coverLetterApplication" | "quickApplication";
+	companyKind: CompanyKind
 };
 
 export type GroupedApplicationDayReport = {
@@ -171,6 +174,7 @@ export type FullReport = {
 	numberOfRejections: number;
 	numberActive: number;
 	rejectionRate: number;
+	numberOfInterviewing: number;
 };
 
 export type QuickApplication = {
@@ -183,4 +187,5 @@ export type QuickApplication = {
 
 export type QuickApplicationFileInfos = {
 	statusWhen: string;
+	status: ProcessStatus;
 };
