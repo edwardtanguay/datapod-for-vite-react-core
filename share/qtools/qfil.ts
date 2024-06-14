@@ -33,3 +33,24 @@ export const writeToFile = (pathAndFileName: string, content: string): void => {
 		}
 	});
 };
+
+/**
+ * Creates a file with content
+ *
+ * pathAndFileName starts at root
+ * tools.createFile('./logs/log.txt', 'added item');
+ *
+ * (file is created)
+ */
+export const createFile = (pathAndFileName: string, content: string) => {
+	fs.writeFileSync(pathAndFileName, content.trim());
+};
+
+
+export const wrapAsArrayForJson = (objectsText: string) => {
+	return `
+[
+${objectsText}
+]	
+	`;
+};

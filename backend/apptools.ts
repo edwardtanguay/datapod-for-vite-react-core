@@ -1,7 +1,6 @@
 import { IFileObject } from "../share/interfaces.js";
 import * as qfil from "../share/qtools/qfil.js";
 import * as appconfig from "./appconfig.js";
-import fs from "fs";
 
 export const extractPortNumber = (text: string) => {
 	const regex = /(\d+)/;
@@ -42,22 +41,3 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 	return r;
 };
 
-/**
- * Creates a file with content
- *
- * pathAndFileName starts at root
- * tools.createFile('./logs/log.txt', 'added item');
- *
- * (file is created)
- */
-export const createFile = (pathAndFileName: string, content: string) => {
-	fs.writeFileSync(pathAndFileName, content.trim());
-};
-
-export const wrapAsArrayForJson = (objectsText: string) => {
-	return `
-[
-${objectsText}
-]	
-	`;
-};

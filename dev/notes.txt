@@ -1,3 +1,14 @@
+- .. make buildQuickApplications, an array of objects
+	-----------------------------------
+	id: number;
+	company: string;
+	recruiter: boolean;
+	status: "appliedAndWaiting" | "interviewProcess" | "rejected"
+	statusDate: string;
+	-----------------------------------
+	- .. make function and display all files including rejected
+	
+
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site
 	- x delete all configs
@@ -16,5 +27,4 @@
 	- read file from etsite, make configurable 
 	- decimal and wholeNumber extend number
 	- be able to put a paragraph field at the end (didn't work)
-
 - test
