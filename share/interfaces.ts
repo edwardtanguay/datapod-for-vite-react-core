@@ -171,7 +171,7 @@ export type FullReport = {
 	numberOfRejections: number;
 	numberActive: number;
 	rejectionRate: number;
-	numberInterviewing: number;
+	numberOfInterviewing: number;
 };
 
 export type QuickApplication = {

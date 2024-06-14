@@ -18,7 +18,7 @@ export const FullApplicationOverview = () => {
 				<h3 className="mb-3 italic">
 					{fullReport.numberActive} waiting for response,{" "}
 					<span className="text-green-900">
-					{fullReport.numberInterviewing} interviewing,{' '}  
+					{fullReport.numberOfInterviewing} interviewing,{' '}  
 					</span>
 					<span className="text-red-900">
 						{fullReport.numberOfRejections} rejected

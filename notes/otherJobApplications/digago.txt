@@ -11,7 +11,7 @@
 	Die Position muss dringend besetzt werden. Können Sie sofort anfangen?Die Position muss dringend besetzt werden. Können Sie sofort anfangen?
 				Ja
 	-------------------------------------
-- 2024-06-11 12:09:24; via LinkedIn from Steve Gortol, Geschäftsführer, "Hallo Edward, ich habe deine Bewerbung für die Stelle des Full Stack Developers bei der DIGAGO gesehen. Mit den Informationen, die ich deinem Lebenslauf entnehmen kann, ist das erstmal ein guter Fit. Kannst du vielleicht einmal einen Link zu deinem Github Profile senden? Dank dir!"
+- 2024-06-11 12:09:24; ~interviewing: via LinkedIn from Steve Gortol, Geschäftsführer, "Hallo Edward, ich habe deine Bewerbung für die Stelle des Full Stack Developers bei der DIGAGO gesehen. Mit den Informationen, die ich deinem Lebenslauf entnehmen kann, ist das erstmal ein guter Fit. Kannst du vielleicht einmal einen Link zu deinem Github Profile senden? Dank dir!"
 - 2024-06-11 13:11:12; Hi Steve, danke für die Nachricht. Kein Problem, meine GitHub URL lautet: https://github.com/edwardtanguay Auch meine Howto Site https://tanguay-eu.vercel.app/howtos zeigt, mit welchen Technologien ich in den letzten Jahren gearbeitet habe. Viele Grüße, Edward Tanguay
 - info on job
 	-------------------------------------------

@@ -145,6 +145,7 @@ export const getFullReport = (): FullReport => {
 	);
 	const applicationDays: ApplicationDay[] = [];
 	let numberOfRejections = 0;
+	let numberOfInterviewing = 0;
 	let numberDoing = 0;
 
 	// add quick applications
@@ -202,6 +203,9 @@ export const getFullReport = (): FullReport => {
 		if (day.processStatus === "rejected") {
 			numberOfRejections++;
 		}
+		if (day.processStatus === "interviewing") {
+			numberOfInterviewing++;
+		}
 
 		applicationDays.push(day);
 	}
@@ -225,6 +229,7 @@ export const getFullReport = (): FullReport => {
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
 	const rejectionRate = numberOfRejections / totalApplications;
+	console.log('111a', numberOfInterviewing);
 	return {
 		totalApplications,
 		totalDays,
@@ -235,7 +240,7 @@ export const getFullReport = (): FullReport => {
 		numberOfRejections,
 		numberActive,
 		rejectionRate,
-		numberInterviewing: 0
+		numberOfInterviewing,
 	};
 };
 
