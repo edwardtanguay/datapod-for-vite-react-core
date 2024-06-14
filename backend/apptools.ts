@@ -52,10 +52,10 @@ export const getCompanyFromFileName = (fileName: string): string => {
 	return r;
 };
 
-export const buildQuickApplications = (): QuickApplication[] => {
-	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory(
-		"notes/otherJobApplications"
-	);
+export const buildQuickApplicationsForDirectory = (
+	directory: string
+): QuickApplication[] => {
+	const pathAndFileNames = qfil.getPathAndFileNamesInDirectory(directory);
 
 	const quickApplications: QuickApplication[] = [];
 	for (const pathAndFileName of pathAndFileNames) {
@@ -67,8 +67,12 @@ export const buildQuickApplications = (): QuickApplication[] => {
 			company,
 			recruiter: false,
 			status: "active",
-			statusWhen: "2024-06-14 10:15:27",
+			statusWhen: "2024-06-13 10:15:27",
 		});
 	}
 	return quickApplications;
+};
+
+export const buildQuickApplications = (): QuickApplication[] => {
+	return buildQuickApplicationsForDirectory("notes/otherJobApplications");
 };
