@@ -17,9 +17,16 @@ export const FullApplicationOverview = () => {
 				</h2>
 				<h3 className="mb-3 italic">
 					{fullReport.numberActive} active,{" "}
-					<span className="text-red-800">
+					<span className="text-red-900">
 						{fullReport.numberOfRejections} rejected
 					</span>{" "}
+					<span>
+						(rejection rate:{" "}
+						<span className="text-red-900">
+							{(fullReport.rejectionRate * 100).toFixed(2)}%
+						</span>
+						)
+					</span>
 				</h3>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {

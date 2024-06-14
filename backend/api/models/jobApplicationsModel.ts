@@ -224,6 +224,7 @@ export const getFullReport = (): FullReport => {
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
+	const rejectionRate = numberOfRejections / totalApplications;
 	return {
 		totalApplications,
 		totalDays,
@@ -233,6 +234,7 @@ export const getFullReport = (): FullReport => {
 		groupedApplicationDayReport,
 		numberOfRejections,
 		numberActive,
+		rejectionRate
 	};
 };
 
