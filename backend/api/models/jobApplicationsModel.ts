@@ -158,9 +158,12 @@ export const getCompanyInfoItems = (
 	const companyInfoItems: CompanyInfoItem[] = [];
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.fullJobApplication) {
+			const companyName =
+				overviewJobApplication.fullJobApplication.company;
 			const companyInfoItem: CompanyInfoItem = {
 				id: overviewJobApplication.job.id,
-				companyName: overviewJobApplication.fullJobApplication.company,
+				companyName,
+				companyKind: getCompanyKindFromCompany(companyName),
 				kind: overviewJobApplication.kind,
 				kindClosedReason: overviewJobApplication.kindClosedReason,
 			};

@@ -203,6 +203,7 @@ export type ShowGroup = "todo" | "processing" | "closed";
 export type CompanyInfoItem = {
 	id: number;
 	companyName: string;
+	companyKind: CompanyKind;
 	kind: OverviewJobApplicationKind;
 	kindClosedReason: KindClosedReason;
 };

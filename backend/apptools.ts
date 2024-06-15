@@ -132,12 +132,21 @@ export const getCompanyInfoItems = (): CompanyInfoItem[] => {
 };
 
 export const buildOverviewListText = (): string => {
-	let r = "";
+	const lines = [];
 	const companyInfoItems = apptools.getCompanyInfoItems();
 
 	for (const companyInfoItem of companyInfoItems) {
-		r += `${companyInfoItem.companyName} (${companyInfoItem.id}) - (kind=${companyInfoItem.kind}) - (kindClosedReason=${companyInfoItem.kindClosedReason})\n`;
+		if (
+			companyInfoItem.kind !== "closed" ||
+			(companyInfoItem.kind === "closed" &&
+				companyInfoItem.kindClosedReason === "rejected")
+		) {
+			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - (companyKind=${companyInfoItem.companyKind}) - (kind=${companyInfoItem.kind})`;
+			lines.push(line);
+		}
 	}
 
-	return r.trim();
+	lines.unshift(`${lines.length} COMPANIES:`);
+
+	return qstr.convertLinesToStringBlock(lines);
 };
