@@ -152,10 +152,10 @@ const getCompanyKindFromCompany = (company: string): CompanyKind => {
 	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
 };
 
-export const getCompanyInfoItems = (): CompanyInfoItem[] => {
+export const getCompanyInfoItems = (overviewJobApplications: OverviewJobApplication[]): CompanyInfoItem[] => {
 	return [
 		{
-			companyName: "Json Company 111 generated",
+			companyName: "Json Company 111 generated" + overviewJobApplications.length,
 		},
 		{
 			companyName: "Json Company 222 generated",
@@ -264,7 +264,7 @@ export const getFullReport = (): FullReport => {
 	// write to JSON file to avoid fs error in frontend
 	qfil.createFile(
 		"./backend/data/companyInfoItems.json",
-		JSON.stringify(getCompanyInfoItems(), null, 2)
+		JSON.stringify(getCompanyInfoItems(overviewJobApplications), null, 2)
 	);
 
 	return {
