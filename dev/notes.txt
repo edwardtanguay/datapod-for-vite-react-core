@@ -7,7 +7,9 @@
 	- .. make buildOverviewListText
 		- x mock
 		- x add ProcessStatus and process beforehand
-		- .. add quickApplications
+		- x add quickApplications
+		- .. list in two groups: Recruiters, Companies
+		- style both	
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site

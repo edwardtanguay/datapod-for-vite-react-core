@@ -134,10 +134,13 @@ export const getCompanyInfoItems = (): CompanyInfoItem[] => {
 export const buildOverviewListText = (): string => {
 	const lines = [];
 	const companyInfoItems = apptools.getCompanyInfoItems();
+	const recruiters = companyInfoItems.filter(
+		(m) => m.contactKind === "recruiter"
+	);
 
-	for (const companyInfoItem of companyInfoItems) {
-		if (companyInfoItem.processStatus !== "closed") {
-			const line = `${companyInfoItem.companyName} - ${companyInfoItem.contactKind} - ${companyInfoItem.processStatus}`;
+	for (const recruiter of recruiters) {
+		if (recruiter.processStatus !== "closed") {
+			const line = `${recruiter.companyName} - ${recruiter.contactKind} - ${recruiter.processStatus}`;
 			lines.push(line);
 		}
 	}

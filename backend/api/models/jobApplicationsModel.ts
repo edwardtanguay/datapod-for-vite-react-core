@@ -198,8 +198,12 @@ export const getCompanyInfoItems = (
 	for (const quickApplication of quickApplications) {
 		const companyInfoItem: CompanyInfoItem = {
 			id: quickApplication.id,
-			companyName: quickApplication.company,
-			contactKind: quickApplication.recruiter ? "recruiter" : "company",
+			companyName: normalizeCompanyName(quickApplication.company),
+			contactKind:
+				getCompanyKindFromCompany(quickApplication.company) ===
+				"recruiter"
+					? "recruiter"
+					: "company",
 			processStatus: quickApplication.status,
 		};
 		companyInfoItems.push(companyInfoItem);

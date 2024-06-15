@@ -151,8 +151,8 @@
   },
   {
     "id": 0,
-    "companyName": "Eagle Eye Staffing Solutions Poland Recruiter",
-    "contactKind": "company",
+    "companyName": "Eagle Eye Staffing Solutions Poland",
+    "contactKind": "recruiter",
     "processStatus": "rejected"
   },
   {
@@ -259,14 +259,14 @@
   },
   {
     "id": 0,
-    "companyName": "Hays Italy Recruiter",
-    "contactKind": "company",
+    "companyName": "Hays Italy",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {
     "id": 0,
-    "companyName": "Hays Poland Recruiter",
-    "contactKind": "company",
+    "companyName": "Hays Poland",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {
@@ -337,8 +337,8 @@
   },
   {
     "id": 0,
-    "companyName": "Jk Recruitment Bulgaria Recruiter",
-    "contactKind": "company",
+    "companyName": "Jk Recruitment Bulgaria",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {
@@ -439,8 +439,8 @@
   },
   {
     "id": 0,
-    "companyName": "Opus Talent Solutions Recruiter",
-    "contactKind": "company",
+    "companyName": "Opus Talent Solutions",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {
