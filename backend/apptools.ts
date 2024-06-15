@@ -50,6 +50,7 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 };
 
 // e.g. - ~companyName: GR4
+// note: we have to add recruiter for it to be flagged as recruiter later in the parsing process
 export const getCompanyNameFromFileContent = (
 	pathAndFileName: string
 ): string => {
@@ -61,6 +62,9 @@ export const getCompanyNameFromFileContent = (
 		if (line.includes(marker)) {
 			const parts = qstr.breakIntoParts(line, marker);
 			r = parts.slice(-1)[0];
+			if (pathAndFileName.endsWith(".recruiter.txt")) {
+				r += " Recruiter";
+			}
 		}
 	}
 	return r;
