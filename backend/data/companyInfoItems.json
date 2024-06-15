@@ -24,6 +24,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Almeda",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 215,
     "companyName": "ALTEN GmbH",
     "contactKind": "company",
