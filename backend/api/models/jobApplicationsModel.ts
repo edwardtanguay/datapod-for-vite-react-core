@@ -157,16 +157,12 @@ export const getCompanyInfoItems = (
 ): CompanyInfoItem[] => {
 	const companyInfoItems: CompanyInfoItem[] = [];
 	for (const overviewJobApplication of overviewJobApplications) {
-		const companyInfoItem: CompanyInfoItem = {
-			companyName: "",
-		};
 		if (overviewJobApplication.fullJobApplication) {
-			companyInfoItem.companyName =
-				overviewJobApplication.fullJobApplication.company;
-		} else {
-			companyInfoItem.companyName = "BLANK";
+			const companyInfoItem: CompanyInfoItem = {
+				companyName: overviewJobApplication.fullJobApplication.company,
+			};
+			companyInfoItems.push(companyInfoItem);
 		}
-		companyInfoItems.push(companyInfoItem);
 	}
 	return companyInfoItems;
 };
