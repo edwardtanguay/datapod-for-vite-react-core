@@ -128,7 +128,7 @@ export const buildOverviewListText = (): string => {
 	let r = "";
 
 	for (const quickApplication of quickApplications) {
-		r += `${quickApplication.company}\n`;
+		r += `${quickApplication.company} - ${quickApplication.recruiter} - ${quickApplication.status}\n`;
 	}
 
 	return r.trim();
