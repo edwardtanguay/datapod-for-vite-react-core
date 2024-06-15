@@ -19,13 +19,13 @@ export const MainJobApplicationHeader = ({
 		todoJobApplications,
 		processingJobApplications,
 		closedJobApplications,
-		appData
+		appData,
 	} = useContext(AppContext);
 	const [overviewListShowing, setOverviewListShowing] = useState(false);
 
 	const handleToggleOverviewList = () => {
 		setOverviewListShowing(!overviewListShowing);
-	}
+	};
 
 	return (
 		<section className="mb-3">
@@ -72,14 +72,22 @@ export const MainJobApplicationHeader = ({
 					</label>
 				</div>
 				<div className="buttonList">
-					<button className="generic2 mr-1 text-slate-900" onClick={() => handleToggleOverviewList()}>
+					<button
+						className="generic2 mr-1 text-slate-900"
+						onClick={() => handleToggleOverviewList()}
+					>
 						Overview List
 					</button>
 				</div>
 			</section>
 			<section className="copyPasteTexts">
 				{overviewListShowing && (
-					<textarea spellCheck={false} readOnly={true} className="w-full h-[20rem] text-xs bg-gray-300 font-mono">{appData.overviewListText}</textarea>
+					<textarea
+						spellCheck={false}
+						readOnly={true}
+						className="w-full h-[20rem] text-xs bg-gray-300 font-mono"
+						value={appData.overviewListText}
+					></textarea>
 				)}
 			</section>
 		</section>

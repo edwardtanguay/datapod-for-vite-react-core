@@ -47,10 +47,10 @@ export const FullApplicationOverview = () => {
 								<ul className="list-disc ml-6 mb-2 pt-1">
 									{applications.map((application, index) => {
 										return (
-											<>
+											<div key={index}>
 												{application.speedKind ===
 												"coverLetterApplication" ? (
-													<li key={index}>
+													<li>
 														{application.processStatus ===
 															"doing" && (
 															<span className="text-green-900 italic font-semibold">
@@ -83,7 +83,7 @@ export const FullApplicationOverview = () => {
 														</span>
 													</li>
 												) : (
-													<li key={index}>
+													<li>
 														{application.processStatus ===
 															"doing" && (
 															<span className="text-green-900 italic font-semibold">
@@ -128,7 +128,7 @@ export const FullApplicationOverview = () => {
 														</span>
 													</li>
 												)}
-											</>
+											</div>
 										);
 									})}
 								</ul>
