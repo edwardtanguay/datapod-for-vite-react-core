@@ -8,7 +8,7 @@ export const FullApplicationOverview = () => {
 		<section>
 			<>
 				<h2 className="text-xl">
-					{fullReport.totalApplications} total applications sent in{" "}
+					{fullReport.adjustedTotalApplications} total applications sent in{" "}
 					{fullReport.totalDays} days{" "}
 					<div className="text-sm text-blue-800">
 						average per day ={" "}

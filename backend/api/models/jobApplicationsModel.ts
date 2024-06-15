@@ -311,8 +311,9 @@ export const getFullReport = (): FullReport => {
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
-	const rejectionRate = numberOfRejections / totalApplications;
-	const interviewRate = numberOfInterviewing / totalApplications;
+	const adjustedTotalApplications = numberActive + numberOfRejections + numberOfInterviewing;
+	const rejectionRate = numberOfRejections / adjustedTotalApplications;
+	const interviewRate = numberOfInterviewing / adjustedTotalApplications;
 
 	// write to JSON file to avoid fs error in frontend
 	qfil.createFile(
@@ -326,9 +327,10 @@ export const getFullReport = (): FullReport => {
 
 	return {
 		totalApplications,
+		adjustedTotalApplications,
 		totalDays,
 		averageApplicationsPerDay: Number(
-			(totalApplications / totalDays).toFixed(2)
+			(adjustedTotalApplications / totalDays).toFixed(2)
 		),
 		groupedApplicationDayReport,
 		numberOfRejections,
