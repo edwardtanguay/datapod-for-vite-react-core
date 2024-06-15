@@ -1,0 +1,25 @@
+- 2024-06-15 23:35:24; Xing
+	------------------------------------------
+	https://www.xing.com/jobs/berlin-senior-frontend-developer-react-120939891
+
+	Qualifikation
+
+	Diese Fähigkeiten bringst Du mit
+	- Sehr gutes Verständnis grundlegender Web-Technologien (HTML, CSS, JavaScript)
+	- mehrjährige Erfahrung mit React
+	- mehrjährige Erfahrung mit SSR-React-Frameworks, vorzugsweise NextJS
+	- Erfahrung mit der Versionsverwaltung git
+	- Sehr gute Deutschkenntnisse in Wort und Schrift.
+	- Teamfähigkeit, Belastbarkeit und Offenheit für neue Herausforderungen.
+	- Du arbeitest effizient, gewissenhaft und sorgfältig.
+
+	Zusätzliche Fähigkeiten die Dich vom Rest der Bewerber abheben
+	- Erfahrung mit Github, SCRUM, Confluence und Jira.
+	- Erfahrung in der Anbindung an Django / Django REST Framework
+	- TypeScript
+	- Tailwind CSS
+	- Playwright
+	- Vite
+
+	- 45000 - 70000
+	------------------------------------------

@@ -1,0 +1,28 @@
+- 2024-06-15 23:46:18; LinkedIn
+	----------------------------------------
+	YOUR MISSION
+
+	Design, develop and maintain existing and new frontend components 
+	Select and introduce reliable technology to improve our products 
+	Review and transform frontend components according to UX best practices and user research 
+	Support our Product Managers in conceptualization and wireframing 
+	Support our Developers to apply best practices of frontend development 
+
+	YOUR PROFILE
+
+	5+ years professional experience in frontend development
+	You are passionate about what you do and deliver
+	Extensive experience in React and Typescript
+	Extensive experience in designing frontend components
+	Substantial experience with frontends in service-oriented environments and UX design
+	Bonus: Experience in F# development
+
+	THE JOY OF WORKING WITH US
+
+	Scale-up company with a market-leading product 
+	Open culture with diverse international teams 
+	Flexible working hours 
+	Remote work and a cozy Berlin office 
+	Top-notch hardware equipment 
+	Personal development support, e.g. access to the learning platform Udemy 
+	----------------------------------------

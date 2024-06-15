@@ -1,0 +1,14 @@
+- 2024-06-14 23:31:02; Xing
+	- https://www.xing.com/jobs/berlin-senior-software-engineer-react-120955047
+		----------------------------------------------------
+		The impact of your work drives you. You don't require a large team to make things happen.
+		🙋🏽 You strive for customer value.
+		💡 You consider the perspective of the user and the company when proposing new ideas. Why we do something is just as important as what we do.
+		� You set code standards through your work and mentor fellow engineers.
+		�🗣️ You can express yourself in both German and English
+		Closing
+		🖥️ Our WEB stack is a Remix-oriented Monorepo powered by turborepo and pnpm workspaces. Containing a ready-to-deploy Remix App on fly_io via the building of a Docker container.
+		💽 Our BE is mainly PHP/Laravel but we are also using Node.js when needed
+		🗄️ We are mainly using AWS as our Clode Provider
+		----------------------------------------------------
+- ~companyName: Purpose Green Real Estate GmbH

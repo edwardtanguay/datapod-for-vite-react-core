@@ -198,6 +198,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Fact Finder",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 272,
     "companyName": "Finanzguru GmbH",
     "contactKind": "company",
@@ -385,6 +391,12 @@
   },
   {
     "id": 0,
+    "companyName": "Luka Global Group",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Lüth & Dümchen GmbH",
     "contactKind": "company",
     "processStatus": "active"
@@ -535,6 +547,12 @@
   },
   {
     "id": 0,
+    "companyName": "Purpose Green Real Estate GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Qtech",
     "contactKind": "company",
     "processStatus": "active"
@@ -572,6 +590,12 @@
   {
     "id": 0,
     "companyName": "Salufast GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Selfmade Energy",
     "contactKind": "company",
     "processStatus": "active"
   },

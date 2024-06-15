@@ -1,0 +1,14 @@
+- 2024-06-15 23:42:12; LinkedIn
+	----------------------------------------
+	https://www.linkedin.com/jobs/search/?alertAction=viewjobs&currentJobId=3894012169&distance=25&f_TPR=a1718358583-&f_WT=1%2C3%2C2&geoId=90009712&keywords=full%20stack%20engineer&origin=JOB_ALERT_IN_APP_NOTIFICATION&originToLandingJobPostings=3934892272&savedSearchId=1736227595&sortBy=R
+	Skills and experience
+	University degree (or equivalent) in software, computer science or other relevant field
+	Extensive experience as a Full Stack Developer or similar role
+	Experience in medical devices is required
+	Knowledge of multiple front-end languages and frameworks (e.g. HTML/CSS, JavaScript, XML, jQuery, Angular, React)
+	Knowledge of multiple back-end languages (C#, Java, Python) and JavaScript frameworks (Node.js)
+	Familiarity with databases (MySQL, MongoDB), web servers (Apache) and UI/UX design (Figma)
+	Experience developing desktop and mobile applications
+	Team oriented, collaborative with excellent organizational skills
+	Excellent English skills
+	----------------------------------------
