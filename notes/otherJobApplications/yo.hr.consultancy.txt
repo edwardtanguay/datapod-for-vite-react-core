@@ -1,0 +1,14 @@
+- 2024-06-15 13:44:06; LinkedIn
+	------------------------------------------
+	Work experience
+	Please enter your notice period in days
+				30
+			
+	Additional Questions
+	How many years of relevant experience do you have in Node.js and React.js ?How many years of relevant experience do you have in Node.js and React.js ?
+				5
+			
+	How many years of relevant experience do you have in Javascript or Typescript ? ?How many years of relevant experience do you have in Javascript or Typescript ? ?
+				20
+	------------------------------------------
+- ~companyName: YO HR Consultancy

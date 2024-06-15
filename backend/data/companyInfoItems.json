@@ -24,12 +24,6 @@
     "processStatus": "active"
   },
   {
-    "id": 215,
-    "companyName": "ALTEN GmbH",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
     "id": 0,
     "companyName": "Altia Spain",
     "contactKind": "company",
@@ -60,26 +54,8 @@
     "processStatus": "active"
   },
   {
-    "id": 255,
-    "companyName": "ASTRIAL GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 260,
-    "companyName": "autarc GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
-  },
-  {
     "id": 0,
     "companyName": "Buerolersch",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 280,
-    "companyName": "BWI GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -96,12 +72,6 @@
     "processStatus": "interviewing"
   },
   {
-    "id": 233,
-    "companyName": "Charles GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "Cleeng Poland",
     "contactKind": "company",
@@ -114,12 +84,6 @@
     "processStatus": "active"
   },
   {
-    "id": 213,
-    "companyName": "Deutsche Welle",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
     "id": 0,
     "companyName": "Digago",
     "contactKind": "company",
@@ -130,12 +94,6 @@
     "companyName": "Digitalwaffle",
     "contactKind": "company",
     "processStatus": "active"
-  },
-  {
-    "id": 269,
-    "companyName": "DINA Elektronik GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -156,20 +114,8 @@
     "processStatus": "rejected"
   },
   {
-    "id": 278,
-    "companyName": "elopage GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "Energize Group",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 283,
-    "companyName": "ERASYS GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -192,32 +138,14 @@
     "processStatus": "active"
   },
   {
-    "id": 272,
-    "companyName": "Finanzguru GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "Findyou",
     "contactKind": "company",
     "processStatus": "active"
   },
   {
-    "id": 277,
-    "companyName": "Finflow GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
-  },
-  {
     "id": 0,
     "companyName": "Flix",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 262,
-    "companyName": "Flywheel Digital",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -234,12 +162,6 @@
     "processStatus": "active"
   },
   {
-    "id": 281,
-    "companyName": "GoEuro Corp.",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "GR4 Recruitment Agency",
     "contactKind": "recruiter",
@@ -249,12 +171,6 @@
     "id": 0,
     "companyName": "Groenewold",
     "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 253,
-    "companyName": "Hays AG",
-    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {
@@ -294,34 +210,10 @@
     "processStatus": "active"
   },
   {
-    "id": 247,
-    "companyName": "infoteam Software AG",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
-    "id": 227,
-    "companyName": "ING Germany",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
     "id": 0,
     "companyName": "International Organization For Migration",
     "contactKind": "company",
     "processStatus": "active"
-  },
-  {
-    "id": 251,
-    "companyName": "IU Internationale Hochschule GmbH",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
-    "id": 252,
-    "companyName": "IU Internationale Hochschule GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -354,20 +246,8 @@
     "processStatus": "active"
   },
   {
-    "id": 240,
-    "companyName": "LOFINO GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
-  },
-  {
     "id": 0,
     "companyName": "Lokalleads",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 237,
-    "companyName": "Medical Hair Company GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -376,18 +256,6 @@
     "companyName": "Mentor Talent Acquisition",
     "contactKind": "company",
     "processStatus": "active"
-  },
-  {
-    "id": 257,
-    "companyName": "Michael Page GmbH",
-    "contactKind": "recruiter",
-    "processStatus": "rejected"
-  },
-  {
-    "id": 250,
-    "companyName": "Murrelektronik GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -408,28 +276,10 @@
     "processStatus": "active"
   },
   {
-    "id": 209,
-    "companyName": "Noir Consulting",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
-    "id": 274,
-    "companyName": "On Holding AG",
-    "contactKind": "company",
-    "processStatus": "rejected"
-  },
-  {
     "id": 0,
     "companyName": "Oneclick Ag",
     "contactKind": "company",
     "processStatus": "rejected"
-  },
-  {
-    "id": 282,
-    "companyName": "Onlineprinters GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
   },
   {
     "id": 0,
@@ -468,24 +318,6 @@
     "processStatus": "active"
   },
   {
-    "id": 261,
-    "companyName": "Prezi Inc.",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 285,
-    "companyName": "PricewaterhouseCoopers GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 279,
-    "companyName": "Projektron GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "Qtech",
     "contactKind": "company",
@@ -498,34 +330,10 @@
     "processStatus": "active"
   },
   {
-    "id": 284,
-    "companyName": "Raisin GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 258,
-    "companyName": "Ratbacher GmbH",
-    "contactKind": "recruiter",
-    "processStatus": "active"
-  },
-  {
-    "id": 245,
-    "companyName": "Root Global GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "SGF Global Portugal",
     "contactKind": "company",
     "processStatus": "rejected"
-  },
-  {
-    "id": 273,
-    "companyName": "Shopware AG",
-    "contactKind": "company",
-    "processStatus": "active"
   },
   {
     "id": 0,
@@ -540,42 +348,6 @@
     "processStatus": "active"
   },
   {
-    "id": 259,
-    "companyName": "smartclip Europe GmbH",
-    "contactKind": "company",
-    "processStatus": "rejected"
-  },
-  {
-    "id": 295,
-    "companyName": "Smoobu GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 249,
-    "companyName": "Sopra Steria SE",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 264,
-    "companyName": "StackFuel GmbH",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
-    "id": 286,
-    "companyName": "Staffbase GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 199,
-    "companyName": "Stolzberger GmbH",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
     "id": 0,
     "companyName": "Talent",
     "contactKind": "company",
@@ -588,26 +360,8 @@
     "processStatus": "active"
   },
   {
-    "id": 254,
-    "companyName": "Tech Punk GmbH",
-    "contactKind": "recruiter",
-    "processStatus": "active"
-  },
-  {
     "id": 0,
     "companyName": "Tech Shack",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 265,
-    "companyName": "TeraVolt GmbH",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 217,
-    "companyName": "th data GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -654,20 +408,14 @@
     "processStatus": "active"
   },
   {
-    "id": 208,
-    "companyName": "wefox Germany GmbH",
-    "contactKind": "company",
-    "processStatus": "closed"
-  },
-  {
     "id": 0,
     "companyName": "Wir Winzer",
     "contactKind": "company",
     "processStatus": "active"
   },
   {
-    "id": 246,
-    "companyName": "xymatic GmbH",
+    "id": 0,
+    "companyName": "YO HR Consultancy",
     "contactKind": "company",
     "processStatus": "active"
   }
