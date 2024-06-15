@@ -48,13 +48,12 @@ export const PageJobApplications = () => {
 		}
 	}, [todoJobApplications]);
 
-
 	return (
 		<>
 			{pageIsReady && (
 				<section className="flex gap-6">
 					<main>
-						<section className="bg-gray-600 mb-3 py-1 px-2 rounded w-[60rem] text-gray-200">
+						<section className="bg-gray-600 mb-3 py-1 px-2 rounded w-[60rem] text-gray-200 flex justify-between">
 							<div className="flex space-x-4">
 								<label className="inline-flex cursor-pointer align-middle">
 									<input
@@ -105,6 +104,11 @@ export const PageJobApplications = () => {
 									</span>
 								</label>
 							</div>
+							<div className="buttonList">
+								<button className="generic2 mr-1 text-slate-900">
+									Overview List
+								</button>
+							</div>
 						</section>
 						{currentJobApplications.map(
 							(currentJobApplication, index) => {
@@ -142,7 +146,7 @@ export const PageJobApplications = () => {
 							}
 						)}
 					</main>
-					<DailyApplicationReport/>
+					<DailyApplicationReport />
 				</section>
 			)}
 		</>

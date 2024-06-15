@@ -1,4 +1,9 @@
 - .. make button "Overview List"
+	- x button and open area for copy-and-paste
+	- .. make copy-paste-area
+	- make toggle-able
+	- make buildOverviewListText
+	- show text in text area
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site
