@@ -547,6 +547,12 @@
   },
   {
     "id": 0,
+    "companyName": "Sennder",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "SGF Global Portugal",
     "contactKind": "company",
     "processStatus": "rejected"
