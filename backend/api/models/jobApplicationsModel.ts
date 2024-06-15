@@ -1,5 +1,6 @@
 import {
 	ApplicationDay,
+	CompanyInfoItem,
 	CompanyKind,
 	FullJobApplication,
 	FullReport,
@@ -151,6 +152,17 @@ const getCompanyKindFromCompany = (company: string): CompanyKind => {
 	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
 };
 
+export const getCompanyInfoItems = (): CompanyInfoItem[] => {
+	return [
+		{
+			companyName: "Json Company 111 generated",
+		},
+		{
+			companyName: "Json Company 222 generated",
+		},
+	];
+};
+
 export const getFullReport = (): FullReport => {
 	const overviewJobApplications = model.getOverviewApplications();
 	overviewJobApplications.sort((a, b) =>
@@ -250,7 +262,10 @@ export const getFullReport = (): FullReport => {
 	const rejectionRate = numberOfRejections / totalApplications;
 
 	// write to JSON file to avoid fs error in frontend
-	qfil.createFile('./backend/data/test.json', 'testdata222333');
+	qfil.createFile(
+		"./backend/data/companyInfoItems.json",
+		JSON.stringify(getCompanyInfoItems(), null, 2)
+	);
 
 	return {
 		totalApplications,
@@ -262,7 +277,7 @@ export const getFullReport = (): FullReport => {
 		numberOfRejections,
 		numberActive,
 		rejectionRate,
-		numberOfInterviewing
+		numberOfInterviewing,
 	};
 };
 
