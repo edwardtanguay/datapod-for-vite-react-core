@@ -1,5 +1,6 @@
 import {
 	ApplicationDay,
+	CompanyInfoItem,
 	CompanyKind,
 	FullJobApplication,
 	FullReport,
@@ -141,11 +142,11 @@ const padGroupedapplicationDayReportWithEmptyDays = (
 
 const normalizeCompanyName = (company: string): string => {
 	let r = company;
-	r = qstr.chopRight(r, ' (Recruiter)');
-	r = qstr.chopRight(r, ' recruiter');
-	r = qstr.chopRight(r, ' Recruiter');
+	r = qstr.chopRight(r, " (Recruiter)");
+	r = qstr.chopRight(r, " recruiter");
+	r = qstr.chopRight(r, " Recruiter");
 	return r;
-}
+};
 
 const getCompanyKindFromCompany = (company: string): CompanyKind => {
 	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
@@ -180,7 +181,9 @@ export const getFullReport = (): FullReport => {
 			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
-				company: normalizeCompanyName(overviewJobApplication.job.company),
+				company: normalizeCompanyName(
+					overviewJobApplication.job.company
+				),
 				letterDate: overviewJobApplication.letterDate,
 				longLetterDate:
 					qdat.getAmericanDayAbbreviation(
@@ -190,7 +193,9 @@ export const getFullReport = (): FullReport => {
 					overviewJobApplication.letterDate,
 				processStatus,
 				speedKind: "coverLetterApplication",
-				companyKind: getCompanyKindFromCompany(overviewJobApplication.job.company)
+				companyKind: getCompanyKindFromCompany(
+					overviewJobApplication.job.company
+				),
 			};
 			if (processStatus === "rejected") {
 				numberOfRejections++;
@@ -213,7 +218,7 @@ export const getFullReport = (): FullReport => {
 				tempLetterDate,
 			processStatus: quickApplication.status,
 			speedKind: "quickApplication",
-			companyKind: getCompanyKindFromCompany(quickApplication.company)
+			companyKind: getCompanyKindFromCompany(quickApplication.company),
 		};
 		if (day.processStatus === "rejected") {
 			numberOfRejections++;
@@ -240,6 +245,15 @@ export const getFullReport = (): FullReport => {
 		groupedApplicationDayReport
 	);
 
+	const companyInfoItems: CompanyInfoItem[] = [
+		{
+			companyName: "Company 111",
+		},
+		{
+			companyName: "Company 222",
+		},
+	];
+
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
@@ -255,6 +269,7 @@ export const getFullReport = (): FullReport => {
 		numberActive,
 		rejectionRate,
 		numberOfInterviewing,
+		companyInfoItems,
 	};
 };
 
