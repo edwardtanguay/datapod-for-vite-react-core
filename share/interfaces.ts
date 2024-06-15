@@ -30,6 +30,7 @@ export interface IAppData {
 	dpodSchemaDataItems: any[];
 	dpodItemGroupDataItems: DpodItemGroupDataItem[];
 	quickApplications: QuickApplication[];
+	overviewListText: string;
 }
 
 export const blankAppData = {

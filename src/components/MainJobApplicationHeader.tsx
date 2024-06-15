@@ -19,6 +19,7 @@ export const MainJobApplicationHeader = ({
 		todoJobApplications,
 		processingJobApplications,
 		closedJobApplications,
+		appData
 	} = useContext(AppContext);
 	const [overviewListShowing, setOverviewListShowing] = useState(false);
 
@@ -78,7 +79,7 @@ export const MainJobApplicationHeader = ({
 			</section>
 			<section className="copyPasteTexts">
 				{overviewListShowing && (
-				<textarea className="w-full">nnn</textarea>
+					<textarea className="w-full">{appData.overviewListText}</textarea>
 				)}
 			</section>
 		</section>
