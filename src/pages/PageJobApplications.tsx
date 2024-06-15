@@ -2,11 +2,9 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../AppContext";
 import { OverviewJobApplication, ShowGroup } from "../../share/interfaces";
-import { ProcessingJobApplication } from "../components/ProcessingJobApplication";
-import { TodoJobApplication } from "../components/TodoJobApplication";
-import { ClosedJobApplication } from "../components/ClosedJobApplication";
 import { DailyApplicationReport } from "../components/DailyApplicationReport";
 import { MainJobApplicationHeader } from "../components/MainJobApplicationHeader";
+import { MainJobApplicationSection } from "../components/MainJobApplicationSection";
 
 export const PageJobApplications = () => {
 	const {
@@ -52,42 +50,21 @@ export const PageJobApplications = () => {
 			{pageIsReady && (
 				<section className="flex gap-6">
 					<main>
-					<MainJobApplicationHeader currentShowGroup={currentShowGroup} handleShowTodoApplications={handleShowTodoApplications} handleShowProcessingApplications={handleShowProcessingApplications} handleShowClosedApplications={handleShowClosedApplications}/>	
-						{currentJobApplications.map(
-							(currentJobApplication, index) => {
-								return (
-									<div key={index}>
-										{currentJobApplication.kind ===
-											"todo" && (
-											<TodoJobApplication
-												currentJobApplication={
-													currentJobApplication
-												}
-												key={index}
-											/>
-										)}
-										{currentJobApplication.kind ===
-											"processing" && (
-											<ProcessingJobApplication
-												currentJobApplication={
-													currentJobApplication
-												}
-												key={index}
-											/>
-										)}
-										{currentJobApplication.kind ===
-											"closed" && (
-											<ClosedJobApplication
-												currentJobApplication={
-													currentJobApplication
-												}
-												key={index}
-											/>
-										)}
-									</div>
-								);
+						<MainJobApplicationHeader
+							currentShowGroup={currentShowGroup}
+							handleShowTodoApplications={
+								handleShowTodoApplications
 							}
-						)}
+							handleShowProcessingApplications={
+								handleShowProcessingApplications
+							}
+							handleShowClosedApplications={
+								handleShowClosedApplications
+							}
+						/>
+						<MainJobApplicationSection
+							currentJobApplications={currentJobApplications}
+						/>
 					</main>
 					<DailyApplicationReport />
 				</section>
