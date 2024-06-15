@@ -1050,6 +1050,7 @@ history::[[
 - 2024-06-09 14:11:09; created
 - 2024-06-09 14:23:12; sent on web form: "Deine Bewerbung ist abgeschickt und bei uns eingegangen"
 - 2024-06-09 14:24:32; received confirmation mail: "werden wir uns nun deine Unterlagen ausführlich anschauen und uns dann wieder bei dir melden"
+- 2024-06-15 17:15:16; ~rejection: "Unfortunately, I have to tell you that we can't take you any further in the process."
 ]]
 
 ==jobApplication

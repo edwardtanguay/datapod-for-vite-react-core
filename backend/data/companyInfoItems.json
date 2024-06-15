@@ -9,7 +9,7 @@
     "id": 0,
     "companyName": "Adjust",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -201,7 +201,7 @@
     "id": 272,
     "companyName": "Finanzguru GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -366,6 +366,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Locoia GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 240,
     "companyName": "LOFINO GmbH",
     "contactKind": "company",
@@ -374,6 +380,12 @@
   {
     "id": 0,
     "companyName": "Lokalleads",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Lüth & Dümchen GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -387,6 +399,12 @@
     "id": 0,
     "companyName": "Mentor Talent Acquisition",
     "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Michael Page Fullstack React Node",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {
@@ -656,6 +674,12 @@
   {
     "id": 0,
     "companyName": "Venturi Netherlands",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Verivox",
     "contactKind": "company",
     "processStatus": "active"
   },

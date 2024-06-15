@@ -1,0 +1,19 @@
+- 2024-06-14 17:57:05; Indeed
+	------------------------------------
+	Was ist Ihr höchster Bildungsabschluss?
+		Master
+	Über wie viele Jahre Erfahrung in Software Entwicklung verfügen Sie?
+		20
+	Über wie viele Jahre Erfahrung in Java verfügen Sie?
+		5
+	Über wie viele Jahre Erfahrung in Informatik verfügen Sie?
+		10
+	Sprechen Sie Englisch?
+		Ja
+
+	Relevante Berufserfahrung
+	Bearbeiten
+	Microsoft Consultant
+	Microsoft Deutschland GmbH
+	------------------------------------
+- ~companyName: Lüth & Dümchen GmbH
