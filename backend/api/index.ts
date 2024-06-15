@@ -38,7 +38,7 @@ app.get("/appdata", (_req, res) => {
 		dpodSchemaDataItems: dpodDataLoader.getDpodSchemaDataItems(),
 		dpodItemGroupDataItems: dpodDataLoader.getDpodItemGroupDataItems(),
 		quickApplications: apptools.buildQuickApplications(),
-		overviewListText: '111'
+		overviewListText: '111\n222'
 	};
 	res.status(200).json(appJsonData);
 });
