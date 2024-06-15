@@ -1,6 +1,6 @@
 - .. make button "Overview List"
 	- x button and open area for copy-and-paste
-	- .. refactor to MainJobApplicationSection
+	- x refactor to MainJobApplicationSection
 	- .. make copy-paste-area
 	- make toggle-able
 	- make buildOverviewListText
