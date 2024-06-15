@@ -160,11 +160,15 @@ export type ApplicationDay = {
 	longLetterDate: string;
 	processStatus: ProcessStatus;
 	speedKind: "coverLetterApplication" | "quickApplication";
-	companyKind: CompanyKind
+	companyKind: CompanyKind;
 };
 
 export type GroupedApplicationDayReport = {
 	[date: string]: ApplicationDay[];
+};
+
+export type CompanyInfoItem = {
+	companyName: string;
 };
 
 export type FullReport = {
@@ -176,6 +180,7 @@ export type FullReport = {
 	numberActive: number;
 	rejectionRate: number;
 	numberOfInterviewing: number;
+	companyInfoItems: CompanyInfoItem[];
 };
 
 export type QuickApplication = {
