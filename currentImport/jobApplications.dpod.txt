@@ -1411,6 +1411,7 @@ closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Posi
 history::[[
 - 2024-06-13 11:10:26; created
 - 2024-06-13 11:28:56; posted on web page: "Vielen Dank für deine Bewerbung und dein Interesse an einer Karriere bei PwC Deutschland.", received confirmation mail: "so schnell wie möglich mit dir in Verbindung zu setzen"
+- 2024-06-15 13:33:24; ~rejection: "Wir bedauern, dass wir dir derzeit die Position Frontend Developer (w/m/d)  nicht anbieten können"
 ]]
 
 ==jobApplication
