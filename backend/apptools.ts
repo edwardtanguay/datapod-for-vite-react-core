@@ -149,7 +149,7 @@ export const buildOverviewListText = (): string => {
 	lines.push(dividerLine);
 	for (const recruiter of recruiters) {
 		if (recruiter.processStatus !== "closed") {
-			const line = `${recruiter.companyName} - ${recruiter.contactKind} - ${recruiter.processStatus}`;
+			const line = `${recruiter.companyName}`;
 			lines.push(line);
 		}
 	}
@@ -160,8 +160,14 @@ export const buildOverviewListText = (): string => {
 	lines.push(`${companies.length} COMPANIES:`);
 	lines.push(dividerLine);
 	for (const company of companies) {
+		const smartStatus =
+			company.processStatus === "active"
+				? "waiting"
+				: company.processStatus === "interviewing"
+				? "INTERVIEWING..."
+				: "rejected";
 		if (company.processStatus !== "closed") {
-			const line = `${company.companyName} - ${company.contactKind} - ${company.processStatus}`;
+			const line = `${company.companyName} (${smartStatus})`;
 			lines.push(line);
 		}
 	}
