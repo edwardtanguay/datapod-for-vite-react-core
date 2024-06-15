@@ -137,15 +137,18 @@ export const buildOverviewListText = (): string => {
 	const recruiters = companyInfoItems.filter(
 		(m) => m.contactKind === "recruiter"
 	);
+	const dividerLine =
+		"------------------------------------------------------";
 
+	lines.push(`${recruiters.length} RECRUITERS:`);
+	lines.push(dividerLine);
 	for (const recruiter of recruiters) {
 		if (recruiter.processStatus !== "closed") {
 			const line = `${recruiter.companyName} - ${recruiter.contactKind} - ${recruiter.processStatus}`;
 			lines.push(line);
 		}
 	}
-
-	lines.unshift(`${lines.length} COMPANIES:`);
+	lines.push(dividerLine);
 
 	return qstr.convertLinesToStringBlock(lines);
 };
