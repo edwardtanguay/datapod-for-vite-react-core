@@ -190,6 +190,7 @@ export type FullReport = {
 	numberActive: number;
 	rejectionRate: number;
 	numberOfInterviewing: number;
+	interviewRate: number;
 };
 
 export type QuickApplication = {

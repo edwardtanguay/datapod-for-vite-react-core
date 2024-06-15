@@ -15,12 +15,21 @@ export const FullApplicationOverview = () => {
 						{fullReport.averageApplicationsPerDay})
 					</span>
 				</h2>
-				<h3 className="mb-3 italic">
-					{fullReport.numberActive} waiting for response,{" "}
-					<span className="text-green-900 font-semibold">
-						{fullReport.numberOfInterviewing} interviewing
-					</span>
-					,{" "}
+				<div className="mb-3 italic">
+					<p>{fullReport.numberActive} waiting for response</p>
+					<p>
+						<span className="text-green-900 font-semibold">
+							{fullReport.numberOfInterviewing} interviewing
+						</span>
+						<span>
+							{" "}
+							(interview rate:{" "}
+							<span className="text-green-900">
+								{(fullReport.interviewRate * 100).toFixed(2)}%
+							</span>
+							)
+						</span>
+					</p>
 					<span className="text-red-900">
 						{fullReport.numberOfRejections} rejected
 					</span>{" "}
@@ -31,7 +40,7 @@ export const FullApplicationOverview = () => {
 						</span>
 						)
 					</span>
-				</h3>
+				</div>
 				{Object.entries(fullReport.groupedApplicationDayReport).map(
 					(kv, index) => {
 						const day = kv[0];
@@ -78,7 +87,9 @@ export const FullApplicationOverview = () => {
 																{application.processStatus ===
 																	"interviewing" &&
 																	" (interviewing)"}
-																	{application.companyKind === 'recruiter' && ' (RECRUITER)'}
+																{application.companyKind ===
+																	"recruiter" &&
+																	" (RECRUITER)"}
 															</span>
 														</span>
 													</li>
@@ -123,7 +134,9 @@ export const FullApplicationOverview = () => {
 																{application.processStatus ===
 																	"interviewing" &&
 																	" (interviewing)"}
-																	{application.companyKind === 'recruiter' && ' (RECRUITER)'}
+																{application.companyKind ===
+																	"recruiter" &&
+																	" (RECRUITER)"}
 															</span>
 														</span>
 													</li>

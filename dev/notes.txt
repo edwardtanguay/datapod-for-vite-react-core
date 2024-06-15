@@ -1,4 +1,6 @@
-- applications
+- .. applications
+	- .. fix total applications on side
+	- fix math
 	- remove doubles from recruiters, e.g.
 		- Michael Page Fullstack React Node
 		- Michael Page GmbH
