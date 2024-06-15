@@ -166,6 +166,8 @@ export const getCompanyInfoItems = (
 				companyKind: getCompanyKindFromCompany(companyName),
 				kind: overviewJobApplication.kind,
 				kindClosedReason: overviewJobApplication.kindClosedReason,
+				contactKind:
+					overviewJobApplication.fullJobApplication.contactKind,
 			};
 			companyInfoItems.push(companyInfoItem);
 		}

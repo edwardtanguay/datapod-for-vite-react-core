@@ -65,12 +65,14 @@ export type ILineBlockKind = "schema" | "item" | "UNKNOWN";
 
 export type DpodSyntaxType = "simple" | "verbose";
 
+export type ContactKind = "company" | "recruiter";
+
 export type JobApplication = {
 	dpodId: string;
 	language: "english" | "german";
 	baseJobId: number;
 	referenceId: string;
-	contactKind: "company" | "recruiter";
+	contactKind: ContactKind;
 	letterDate: string;
 	skillTextsBlock: string;
 	customText: string;
@@ -94,7 +96,7 @@ export type SkillAndResponseBlock = {
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
-	contactKind: string;
+	contactKind: ContactKind;
 	jobAnnouncementUrl: string;
 	letterDateText: string;
 	letterDate: string;
@@ -206,4 +208,5 @@ export type CompanyInfoItem = {
 	companyKind: CompanyKind;
 	kind: OverviewJobApplicationKind;
 	kindClosedReason: KindClosedReason;
+	contactKind: ContactKind;
 };

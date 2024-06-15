@@ -4,300 +4,343 @@
     "companyName": "ALTEN GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 255,
     "companyName": "ASTRIAL GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 260,
     "companyName": "autarc GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 280,
     "companyName": "BWI GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 233,
     "companyName": "Charles GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 213,
     "companyName": "Deutsche Welle",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 269,
     "companyName": "DINA Elektronik GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 278,
     "companyName": "elopage GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 283,
     "companyName": "ERASYS GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 272,
     "companyName": "Finanzguru GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 277,
     "companyName": "Finflow GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 262,
     "companyName": "Flywheel Digital",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 281,
     "companyName": "GoEuro Corp.",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 253,
     "companyName": "Hays AG",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "recruiter"
   },
   {
     "id": 247,
     "companyName": "infoteam Software AG",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 227,
     "companyName": "ING Germany",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 251,
     "companyName": "IU Internationale Hochschule GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "duplicate"
+    "kindClosedReason": "duplicate",
+    "contactKind": "company"
   },
   {
     "id": 252,
     "companyName": "IU Internationale Hochschule GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 240,
     "companyName": "LOFINO GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 237,
     "companyName": "Medical Hair Company GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 257,
     "companyName": "Michael Page GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "recruiter"
   },
   {
     "id": 250,
     "companyName": "Murrelektronik GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 209,
     "companyName": "Noir Consulting",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 274,
     "companyName": "On Holding AG",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 282,
     "companyName": "Onlineprinters GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 261,
     "companyName": "Prezi Inc.",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 285,
     "companyName": "PricewaterhouseCoopers GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 279,
     "companyName": "Projektron GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 284,
     "companyName": "Raisin GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 258,
     "companyName": "Ratbacher GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "recruiter"
   },
   {
     "id": 245,
     "companyName": "Root Global GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 273,
     "companyName": "Shopware AG",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 259,
     "companyName": "smartclip Europe GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "rejected"
+    "kindClosedReason": "rejected",
+    "contactKind": "company"
   },
   {
     "id": 295,
     "companyName": "Smoobu GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 249,
     "companyName": "Sopra Steria SE",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 264,
     "companyName": "StackFuel GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 286,
     "companyName": "Staffbase GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 199,
     "companyName": "Stolzberger GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "filled"
+    "kindClosedReason": "filled",
+    "contactKind": "company"
   },
   {
     "id": 254,
     "companyName": "Tech Punk GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "recruiter"
   },
   {
     "id": 265,
     "companyName": "TeraVolt GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 217,
     "companyName": "th data GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   },
   {
     "id": 208,
     "companyName": "wefox Germany GmbH",
     "companyKind": "normal",
     "kind": "closed",
-    "kindClosedReason": "duplicate"
+    "kindClosedReason": "duplicate",
+    "contactKind": "company"
   },
   {
     "id": 246,
     "companyName": "xymatic GmbH",
     "companyKind": "normal",
     "kind": "processing",
-    "kindClosedReason": "notApplicable"
+    "kindClosedReason": "notApplicable",
+    "contactKind": "company"
   }
 ]
