@@ -7,7 +7,6 @@ import {
 import * as qfil from "../share/qtools/qfil.js";
 import * as qstr from "../share/qtools/qstr.js";
 import * as appconfig from "./appconfig.js";
-import * as apptools from "./apptools.js";
 
 export const extractPortNumber = (text: string) => {
 	const regex = /(\d+)/;
@@ -124,12 +123,13 @@ export const buildQuickApplications = (): QuickApplication[] => {
 };
 
 export const buildOverviewListText = (): string => {
-	const quickApplications = apptools.buildQuickApplications();
 	let r = "";
 
-	for (const quickApplication of quickApplications) {
-		r += `${quickApplication.company} - ${quickApplication.recruiter} - ${quickApplication.status}\n`;
-	}
+	// for (const quickApplication of quickApplications) {
+	// 	r += `${quickApplication.company} - ${quickApplication.recruiter} - ${quickApplication.status}\n`;
+	// }
+
+	r += 'okok';
 
 	return r.trim();
 };
