@@ -37,7 +37,8 @@ app.get("/appdata", (_req, res) => {
 		lineBlockDataItems: dpodDataLoader.getLineBlockDataItems(),
 		dpodSchemaDataItems: dpodDataLoader.getDpodSchemaDataItems(),
 		dpodItemGroupDataItems: dpodDataLoader.getDpodItemGroupDataItems(),
-		quickApplications: apptools.buildQuickApplications()
+		quickApplications: apptools.buildQuickApplications(),
+		overviewListText: apptools.buildOverviewListText()
 	};
 	res.status(200).json(appJsonData);
 });

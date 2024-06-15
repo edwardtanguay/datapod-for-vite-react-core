@@ -1,4 +1,16 @@
 - .. make button "Overview List"
+	- x button and open area for copy-and-paste
+	- x refactor to MainJobApplicationSection
+	- x make copy-paste-area
+	- x make toggle-able
+	- x show text in text area
+	- x make buildOverviewListText
+		- x mock
+		- x add ProcessStatus and process beforehand
+		- x add quickApplications
+		- x list in two groups: Recruiters, Companies
+		- x style both	
+	- .. get companyName from quickApplication file
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site

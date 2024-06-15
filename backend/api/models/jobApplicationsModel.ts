@@ -1,13 +1,17 @@
 import {
 	ApplicationDay,
+	CompanyInfoItem,
 	CompanyKind,
 	FullJobApplication,
 	FullReport,
 	GroupedApplicationDayReport,
 	Job,
 	JobApplication,
+	KindClosedReason,
 	OverviewJobApplication,
+	OverviewJobApplicationKind,
 	ProcessStatus,
+	QuickApplication,
 } from "../../../share/interfaces";
 import * as apptools from "../../apptools.js";
 import * as appconfig from "../../appconfig.js";
@@ -141,14 +145,74 @@ const padGroupedapplicationDayReportWithEmptyDays = (
 
 const normalizeCompanyName = (company: string): string => {
 	let r = company;
-	r = qstr.chopRight(r, ' (Recruiter)');
-	r = qstr.chopRight(r, ' recruiter');
-	r = qstr.chopRight(r, ' Recruiter');
+	r = qstr.chopRight(r, " (Recruiter)");
+	r = qstr.chopRight(r, " recruiter");
+	r = qstr.chopRight(r, " Recruiter");
 	return r;
-}
+};
 
 const getCompanyKindFromCompany = (company: string): CompanyKind => {
 	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
+};
+
+export const getProcessStatus = (
+	kind: OverviewJobApplicationKind,
+	kindClosedReason: KindClosedReason
+): ProcessStatus => {
+	if (kind === "closed") {
+		if (kindClosedReason === "rejected") {
+			return "rejected";
+		} else {
+			return "closed";
+		}
+	} else {
+		return "active";
+	}
+};
+
+export const getCompanyInfoItems = (
+	overviewJobApplications: OverviewJobApplication[],
+	quickApplications: QuickApplication[]
+): CompanyInfoItem[] => {
+	const companyInfoItems: CompanyInfoItem[] = [];
+
+	// process overviewApplications
+	for (const overviewJobApplication of overviewJobApplications) {
+		if (overviewJobApplication.fullJobApplication) {
+			const companyName =
+				overviewJobApplication.fullJobApplication.company;
+			const kind = overviewJobApplication.kind;
+			const kindClosedReason = overviewJobApplication.kindClosedReason;
+			const companyInfoItem: CompanyInfoItem = {
+				id: overviewJobApplication.job.id,
+				companyName,
+				contactKind:
+					overviewJobApplication.fullJobApplication.contactKind,
+				processStatus: getProcessStatus(kind, kindClosedReason),
+			};
+			companyInfoItems.push(companyInfoItem);
+		}
+	}
+
+	// process quickApplications
+	for (const quickApplication of quickApplications) {
+		const companyInfoItem: CompanyInfoItem = {
+			id: quickApplication.id,
+			companyName: normalizeCompanyName(quickApplication.company),
+			contactKind:
+				getCompanyKindFromCompany(quickApplication.company) ===
+				"recruiter"
+					? "recruiter"
+					: "company",
+			processStatus: quickApplication.status,
+		};
+		companyInfoItems.push(companyInfoItem);
+	}
+
+	companyInfoItems.sort((a, b) =>
+		a.companyName.toLowerCase() > b.companyName.toLowerCase() ? 1 : -1
+	);
+	return companyInfoItems;
 };
 
 export const getFullReport = (): FullReport => {
@@ -180,7 +244,9 @@ export const getFullReport = (): FullReport => {
 			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
-				company: normalizeCompanyName(overviewJobApplication.job.company),
+				company: normalizeCompanyName(
+					overviewJobApplication.job.company
+				),
 				letterDate: overviewJobApplication.letterDate,
 				longLetterDate:
 					qdat.getAmericanDayAbbreviation(
@@ -190,7 +256,9 @@ export const getFullReport = (): FullReport => {
 					overviewJobApplication.letterDate,
 				processStatus,
 				speedKind: "coverLetterApplication",
-				companyKind: getCompanyKindFromCompany(overviewJobApplication.job.company)
+				companyKind: getCompanyKindFromCompany(
+					overviewJobApplication.job.company
+				),
 			};
 			if (processStatus === "rejected") {
 				numberOfRejections++;
@@ -213,7 +281,7 @@ export const getFullReport = (): FullReport => {
 				tempLetterDate,
 			processStatus: quickApplication.status,
 			speedKind: "quickApplication",
-			companyKind: getCompanyKindFromCompany(quickApplication.company)
+			companyKind: getCompanyKindFromCompany(quickApplication.company),
 		};
 		if (day.processStatus === "rejected") {
 			numberOfRejections++;
@@ -244,6 +312,17 @@ export const getFullReport = (): FullReport => {
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
 	const rejectionRate = numberOfRejections / totalApplications;
+
+	// write to JSON file to avoid fs error in frontend
+	qfil.createFile(
+		"./backend/data/companyInfoItems.json",
+		JSON.stringify(
+			getCompanyInfoItems(overviewJobApplications, quickApplications),
+			null,
+			2
+		)
+	);
+
 	return {
 		totalApplications,
 		totalDays,
@@ -272,6 +351,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 				job,
 				fullJobApplication,
 				kind: tools.getKind(),
+				kindClosedReason: "notApplicable",
 				lastStatus: tools.getLastStatus(fullJobApplication),
 				applicationCreateText: "",
 				letterDate: fullJobApplication.letterDate,
@@ -282,6 +362,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 				job,
 				fullJobApplication,
 				kind: "todo",
+				kindClosedReason: "notApplicable",
 				lastStatus: "",
 				applicationCreateText: tools.getApplicationCreateText(job),
 				letterDate: "",
@@ -294,6 +375,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 		if (overviewJobApplication.lastStatus) {
 			if (overviewJobApplication.lastStatus.includes("~duplicate")) {
 				overviewJobApplication.kind = "closed";
+				overviewJobApplication.kindClosedReason = "duplicate";
 				overviewJobApplication.lastStatus = qstr.replaceAll(
 					overviewJobApplication.lastStatus,
 					"~",
@@ -302,6 +384,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 			}
 			if (overviewJobApplication.lastStatus.includes("~rejection")) {
 				overviewJobApplication.kind = "closed";
+				overviewJobApplication.kindClosedReason = "rejected";
 				overviewJobApplication.lastStatus = qstr.replaceAll(
 					overviewJobApplication.lastStatus,
 					"~",
@@ -310,6 +393,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 			}
 			if (overviewJobApplication.lastStatus.includes("~filled")) {
 				overviewJobApplication.kind = "closed";
+				overviewJobApplication.kindClosedReason = "filled";
 				overviewJobApplication.lastStatus = qstr.replaceAll(
 					overviewJobApplication.lastStatus,
 					"~",

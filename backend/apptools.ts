@@ -1,4 +1,5 @@
 import {
+	CompanyInfoItem,
 	IFileObject,
 	ProcessStatus,
 	QuickApplication,
@@ -7,6 +8,7 @@ import {
 import * as qfil from "../share/qtools/qfil.js";
 import * as qstr from "../share/qtools/qstr.js";
 import * as appconfig from "./appconfig.js";
+import * as apptools from "./apptools.js";
 
 export const extractPortNumber = (text: string) => {
 	const regex = /(\d+)/;
@@ -47,14 +49,42 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 	return r;
 };
 
-export const getCompanyFromFileName = (fileName: string): string => {
-	let r = fileName;
-	r = qstr.chopRight(r, ".txt");
-	r = qstr.replaceAll(r, "-", ".");
-	const parts = qstr.breakIntoParts(r, ".");
-	const titleParts = parts.map((m) => qstr.forceTitleNotation(m));
-	r = titleParts.join(" ");
+// e.g. - ~companyName: GR4
+// note: we have to add recruiter for it to be flagged as recruiter later in the parsing process
+export const getCompanyNameFromFileContent = (
+	pathAndFileName: string
+): string => {
+	let r = "";
+	const content = qfil.readTextFile(pathAndFileName);
+	const lines = qstr.convertStringBlockToLines(content);
+	const marker = "~companyName:";
+	for (const line of lines) {
+		if (line.includes(marker)) {
+			const parts = qstr.breakIntoParts(line, marker);
+			r = parts.slice(-1)[0];
+			if (pathAndFileName.endsWith(".recruiter.txt")) {
+				r += " Recruiter";
+			}
+		}
+	}
 	return r;
+};
+
+export const getCompanyFromPathAndFileName = (
+	pathAndFileName: string
+): string => {
+	let r = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+	const explicitName = getCompanyNameFromFileContent(pathAndFileName);
+	if (explicitName.trim() !== "") {
+		return explicitName;
+	} else {
+		r = qstr.chopRight(r, ".txt");
+		r = qstr.replaceAll(r, "-", ".");
+		const parts = qstr.breakIntoParts(r, ".");
+		const titleParts = parts.map((m) => qstr.forceTitleNotation(m));
+		r = titleParts.join(" ");
+		return r;
+	}
 };
 
 const getQuickApplicationFileInfosFromFileName = (
@@ -70,13 +100,13 @@ const getQuickApplicationFileInfosFromFileName = (
 
 	// check if interviewing
 	for (const line of lines) {
-		if (line.includes('~interviewing')) {
-			status = 'interviewing'
+		if (line.includes("~interviewing")) {
+			status = "interviewing";
 		}
 	}
 	return {
 		statusWhen,
-		status
+		status,
 	};
 };
 
@@ -88,10 +118,10 @@ export const buildQuickApplicationsForDirectory = (
 
 	const quickApplications: QuickApplication[] = [];
 	for (const pathAndFileName of pathAndFileNames) {
-		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+		// const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
 		const quickApplicationFileInfos =
 			getQuickApplicationFileInfosFromFileName(pathAndFileName, status);
-		const company = getCompanyFromFileName(fileName);
+		const company = getCompanyFromPathAndFileName(pathAndFileName);
 		if (quickApplicationFileInfos.statusWhen.trim() !== "") {
 			quickApplications.push({
 				id: 0,
@@ -120,4 +150,55 @@ export const buildQuickApplications = (): QuickApplication[] => {
 	];
 	quickApplications.sort((a, b) => (a.company < b.company ? 1 : -1));
 	return quickApplications;
+};
+
+export const getCompanyInfoItems = (): CompanyInfoItem[] => {
+	const companyInfoItems: CompanyInfoItem[] = qfil.readJsonFile(
+		"./backend/data/companyInfoItems.json"
+	);
+	return companyInfoItems;
+};
+
+export const buildOverviewListText = (): string => {
+	const lines = [];
+	const companyInfoItems = apptools.getCompanyInfoItems();
+	const recruiters = companyInfoItems.filter(
+		(m) => m.contactKind === "recruiter"
+	);
+	const companies = companyInfoItems.filter(
+		(m) => m.contactKind === "company"
+	);
+	const dividerLine =
+		"------------------------------------------------------";
+
+	// recruiters
+	lines.push(`${recruiters.length} RECRUITERS:`);
+	lines.push(dividerLine);
+	for (const recruiter of recruiters) {
+		if (recruiter.processStatus !== "closed") {
+			const line = `${recruiter.companyName}`;
+			lines.push(line);
+		}
+	}
+	lines.push(dividerLine);
+	lines.push("");
+
+	// companies
+	lines.push(`${companies.length} COMPANIES:`);
+	lines.push(dividerLine);
+	for (const company of companies) {
+		const smartStatus =
+			company.processStatus === "active"
+				? "waiting"
+				: company.processStatus === "interviewing"
+				? "INTERVIEWING..."
+				: "rejected";
+		if (company.processStatus !== "closed") {
+			const line = `${company.companyName} (${smartStatus})`;
+			lines.push(line);
+		}
+	}
+	lines.push(dividerLine);
+
+	return qstr.convertLinesToStringBlock(lines);
 };

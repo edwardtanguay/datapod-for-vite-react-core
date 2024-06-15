@@ -30,6 +30,7 @@ export interface IAppData {
 	dpodSchemaDataItems: any[];
 	dpodItemGroupDataItems: DpodItemGroupDataItem[];
 	quickApplications: QuickApplication[];
+	overviewListText: string;
 }
 
 export const blankAppData = {
@@ -64,12 +65,14 @@ export type ILineBlockKind = "schema" | "item" | "UNKNOWN";
 
 export type DpodSyntaxType = "simple" | "verbose";
 
+export type ContactKind = "company" | "recruiter";
+
 export type JobApplication = {
 	dpodId: string;
 	language: "english" | "german";
 	baseJobId: number;
 	referenceId: string;
-	contactKind: "company" | "recruiter";
+	contactKind: ContactKind;
 	letterDate: string;
 	skillTextsBlock: string;
 	customText: string;
@@ -93,7 +96,7 @@ export type SkillAndResponseBlock = {
 export type FullJobApplication = {
 	language: string;
 	baseJobId: number;
-	contactKind: string;
+	contactKind: ContactKind;
 	jobAnnouncementUrl: string;
 	letterDateText: string;
 	letterDate: string;
@@ -139,16 +142,28 @@ export type SkillResponseLookupObject = {
 
 export type OverviewJobApplicationKind = "todo" | "processing" | "closed";
 
+export type KindClosedReason =
+	| "rejected"
+	| "duplicate"
+	| "filled"
+	| "notApplicable";
+
 export type OverviewJobApplication = {
 	job: Job;
 	fullJobApplication: FullJobApplication | undefined;
 	kind: OverviewJobApplicationKind;
+	kindClosedReason: KindClosedReason;
 	lastStatus: string;
 	applicationCreateText: string;
 	letterDate: string;
 };
 
-export type ProcessStatus = "active" | "doing" | "interviewing" | "rejected";
+export type ProcessStatus =
+	| "active"
+	| "doing"
+	| "interviewing"
+	| "rejected"
+	| "closed";
 
 export type CompanyKind = "normal" | "recruiter";
 
@@ -159,7 +174,7 @@ export type ApplicationDay = {
 	longLetterDate: string;
 	processStatus: ProcessStatus;
 	speedKind: "coverLetterApplication" | "quickApplication";
-	companyKind: CompanyKind
+	companyKind: CompanyKind;
 };
 
 export type GroupedApplicationDayReport = {
@@ -188,4 +203,13 @@ export type QuickApplication = {
 export type QuickApplicationFileInfos = {
 	statusWhen: string;
 	status: ProcessStatus;
+};
+
+export type ShowGroup = "todo" | "processing" | "closed";
+
+export type CompanyInfoItem = {
+	id: number;
+	companyName: string;
+	contactKind: ContactKind;
+	processStatus: ProcessStatus;
 };
