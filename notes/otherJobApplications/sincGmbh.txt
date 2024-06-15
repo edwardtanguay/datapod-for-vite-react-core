@@ -1,0 +1,30 @@
+- 2024-06-14 23:57:09; LinkedIn
+	----------------------------------------------
+	https://www.linkedin.com/jobs/collections/similar-jobs/?currentJobId=3892284724
+	DEINE AUFGABEN
+
+	Du entwickelst in einem agilen Team anspruchsvolle Webanwendungen.
+	In enger Abstimmung mit dem Designer und der Projektleitung setzt Du neue Anforderungen nach den Vorstellungen unserer Kunden um.
+	Als erfahrene*r Entwickler*in tauschst Du Dich regelmäßig mit Deinen Kolleg*innen aus und gibst Dein Wissen gerne an Kolleg*innen weiter. Natürlich kannst Du auch selbst von unseren Expert*innen lernen und erweiterst Deinen Erfahrungsschatz mit Hilfe von Prototyping, insbesondere mit neuen Technologien.
+	Unsere Kunden sind von uns eine hohe Codequalität gewohnt. Daher führst Du regelmäßig Unit- und Integrationstests durch.
+
+	WAS DU MITBRINGST
+
+	Nach Deinem Studium oder Deiner Ausbildung im IT-Umfeld hast Du bereits mehrjährige Erfahrungen in der Entwicklung von Webanwendungen im Bereich .NET bzw. .NET Core.
+	Du verfügst über praktische Erfahrung mit Angular 15 oder höher und entwickelst am liebsten mit HTML, CSS und JavaScript.
+	Im Zusammenhang mit MS SQL und Entity Framework setzten wir GraphQL oder OData ein. Erfahrungen mit diesen Technologien erleichtern Dir den Einstieg bei uns.
+	Du arbeitest strukturiert und eigenständig an Deinem Aufgabenbereich. Zur Mitgestaltung des Gesamtergebnisses tauschst Du Dich jedoch gerne mit dem Team aus und begleitest den Entwicklungsprozess von der Konzeption bis zum Roll-Out.
+	Manchmal bist auch Du das Sprachrohr zu unseren Kunden. Daher überzeugst Du durch sehr gute Deutschkenntnisse und eine klare Ausdrucksweise, mündlich wie auch schriftlich.
+
+	HIERMIT ARBEITEN WIR
+
+	Frameworks & Technologien: .NET Framework und bald nur noch .NET Core, Angular 15, Kendo, UI
+	Middleware: gRPC, WebApi, OData
+	Datenbanken: MS SQL, Oracle, PostgreSQL
+	Programmiersprache: C#, TypeScript, JavaScript
+	Patterns & Methoden: MVVM/MVC, Clean Code, Dependency Injection (DI)
+	CI/CD & Versionsverwaltung: Azure DevOps, Git
+	Testing: Unit-Tests, Integrationstests
+	Tooling: Visual Studio, Rider, ReSharper, SonarQub
+	----------------------------------------------
+- ~companyName: SINC GmbH

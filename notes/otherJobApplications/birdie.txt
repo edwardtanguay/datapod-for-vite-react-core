@@ -1,0 +1,17 @@
+- 2024-06-15 23:52:54; LinkedIn
+	---------------------------------------------
+	https://www.linkedin.com/jobs/collections/similar-jobs/?currentJobId=3936906891
+	What skills would help me be successful?
+
+	You will be working most often with React & React Native and related tech (Redux, Redux-saga, offline-first...) ;NodeJS and Typescript.
+
+	Having knowledge of Relational databases. For example, you will have to write and debug queries, understand their performance and figure out how to make them run faster and smoother.
+
+	Have knowledge of automated testing. We want to ensure that what we provide to our users is safe and reliable: to do so you’ll have to write unit, integration, and end-to-end tests for the features you develop, or the bugs you fix, so that they won’t break unexpectedly in the future
+
+	Have knowledge of common design patterns. By following engineering best practices wherever appropriate, you will help maintain our code clean and maintainable over time, helping us providing reliable software to our partners.
+
+	Clear and effective communication, able to articulate your ideas to diverse audiences including team members and stakeholders
+
+	We value a strong ability to drive projects to completion and deliver results effectively at a sustainable pace.
+	---------------------------------------------
