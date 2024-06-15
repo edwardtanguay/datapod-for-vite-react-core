@@ -141,7 +141,7 @@ export const buildOverviewListText = (): string => {
 			(companyInfoItem.kind === "closed" &&
 				companyInfoItem.kindClosedReason === "rejected")
 		) {
-			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - (companyKind=${companyInfoItem.companyKind}) - (kind=${companyInfoItem.kind}) - (contactKind=${companyInfoItem.contactKind})`;
+			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - (kind=${companyInfoItem.kind}) - (contactKind=${companyInfoItem.contactKind}) - (processStatus=${companyInfoItem.processStatus})`;
 			lines.push(line);
 		}
 	}

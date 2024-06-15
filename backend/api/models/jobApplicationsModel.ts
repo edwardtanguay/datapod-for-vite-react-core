@@ -7,7 +7,9 @@ import {
 	GroupedApplicationDayReport,
 	Job,
 	JobApplication,
+	KindClosedReason,
 	OverviewJobApplication,
+	OverviewJobApplicationKind,
 	ProcessStatus,
 } from "../../../share/interfaces";
 import * as apptools from "../../apptools.js";
@@ -152,6 +154,21 @@ const getCompanyKindFromCompany = (company: string): CompanyKind => {
 	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
 };
 
+export const getProcessStatus = (
+	kind: OverviewJobApplicationKind,
+	kindClosedReason: KindClosedReason
+): ProcessStatus => {
+	if (kind === "closed") {
+		if (kindClosedReason === "rejected") {
+			return "rejected";
+		} else {
+			return "closed";
+		}
+	} else {
+		return "active";
+	}
+};
+
 export const getCompanyInfoItems = (
 	overviewJobApplications: OverviewJobApplication[]
 ): CompanyInfoItem[] => {
@@ -160,14 +177,16 @@ export const getCompanyInfoItems = (
 		if (overviewJobApplication.fullJobApplication) {
 			const companyName =
 				overviewJobApplication.fullJobApplication.company;
+			const kind = overviewJobApplication.kind;
+			const kindClosedReason = overviewJobApplication.kindClosedReason;
 			const companyInfoItem: CompanyInfoItem = {
 				id: overviewJobApplication.job.id,
 				companyName,
-				companyKind: getCompanyKindFromCompany(companyName),
-				kind: overviewJobApplication.kind,
-				kindClosedReason: overviewJobApplication.kindClosedReason,
+				kind,
+				kindClosedReason,
 				contactKind:
 					overviewJobApplication.fullJobApplication.contactKind,
+				processStatus: getProcessStatus(kind, kindClosedReason),
 			};
 			companyInfoItems.push(companyInfoItem);
 		}

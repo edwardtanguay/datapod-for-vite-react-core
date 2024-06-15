@@ -158,7 +158,12 @@ export type OverviewJobApplication = {
 	letterDate: string;
 };
 
-export type ProcessStatus = "active" | "doing" | "interviewing" | "rejected";
+export type ProcessStatus =
+	| "active"
+	| "doing"
+	| "interviewing"
+	| "rejected"
+	| "closed";
 
 export type CompanyKind = "normal" | "recruiter";
 
@@ -205,8 +210,8 @@ export type ShowGroup = "todo" | "processing" | "closed";
 export type CompanyInfoItem = {
 	id: number;
 	companyName: string;
-	companyKind: CompanyKind;
 	kind: OverviewJobApplicationKind;
 	kindClosedReason: KindClosedReason;
 	contactKind: ContactKind;
+	processStatus: ProcessStatus;
 };
