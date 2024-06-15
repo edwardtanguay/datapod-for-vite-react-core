@@ -189,3 +189,5 @@ export type QuickApplicationFileInfos = {
 	statusWhen: string;
 	status: ProcessStatus;
 };
+
+export type ShowGroup = "todo" | "processing" | "closed";

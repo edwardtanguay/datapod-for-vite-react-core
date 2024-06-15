@@ -1,13 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../AppContext";
-import { OverviewJobApplication } from "../../share/interfaces";
+import { OverviewJobApplication, ShowGroup } from "../../share/interfaces";
 import { ProcessingJobApplication } from "../components/ProcessingJobApplication";
 import { TodoJobApplication } from "../components/TodoJobApplication";
 import { ClosedJobApplication } from "../components/ClosedJobApplication";
 import { DailyApplicationReport } from "../components/DailyApplicationReport";
-
-type ShowGroup = "todo" | "processing" | "closed";
+import { MainJobApplicationHeader } from "../components/MainJobApplicationHeader";
 
 export const PageJobApplications = () => {
 	const {
@@ -53,63 +52,7 @@ export const PageJobApplications = () => {
 			{pageIsReady && (
 				<section className="flex gap-6">
 					<main>
-						<section className="bg-gray-600 mb-3 py-1 px-2 rounded w-[60rem] text-gray-200 flex justify-between">
-							<div className="flex space-x-4">
-								<label className="inline-flex cursor-pointer align-middle">
-									<input
-										type="radio"
-										className="form-radio"
-										name="status"
-										value="todo"
-										checked={currentShowGroup === "todo"}
-										onChange={() =>
-											handleShowTodoApplications()
-										}
-									/>
-									<span className="ml-1 mb-1 select-none">
-										{todoJobApplications.length} Todo
-									</span>
-								</label>
-								<label className="inline-flex items-center cursor-pointer">
-									<input
-										type="radio"
-										className="form-radio"
-										name="status"
-										value="processing"
-										checked={
-											currentShowGroup === "processing"
-										}
-										onChange={() =>
-											handleShowProcessingApplications()
-										}
-									/>
-									<span className="ml-1 mb-1 select-none">
-										{processingJobApplications.length}{" "}
-										Active
-									</span>
-								</label>
-								<label className="inline-flex items-center cursor-pointer">
-									<input
-										type="radio"
-										className="form-radio"
-										name="status"
-										value="closed"
-										checked={currentShowGroup === "closed"}
-										onChange={() =>
-											handleShowClosedApplications()
-										}
-									/>
-									<span className="ml-1 mb-1 select-none">
-										{closedJobApplications.length} Closed
-									</span>
-								</label>
-							</div>
-							<div className="buttonList">
-								<button className="generic2 mr-1 text-slate-900">
-									Overview List
-								</button>
-							</div>
-						</section>
+					<MainJobApplicationHeader currentShowGroup={currentShowGroup} handleShowTodoApplications={handleShowTodoApplications} handleShowProcessingApplications={handleShowProcessingApplications} handleShowClosedApplications={handleShowClosedApplications}/>	
 						{currentJobApplications.map(
 							(currentJobApplication, index) => {
 								return (
