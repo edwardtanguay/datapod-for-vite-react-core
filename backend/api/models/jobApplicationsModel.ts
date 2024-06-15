@@ -152,15 +152,23 @@ const getCompanyKindFromCompany = (company: string): CompanyKind => {
 	return company.toLowerCase().includes("recruiter") ? "recruiter" : "normal";
 };
 
-export const getCompanyInfoItems = (overviewJobApplications: OverviewJobApplication[]): CompanyInfoItem[] => {
-	return [
-		{
-			companyName: "Json Company 111 generated" + overviewJobApplications.length,
-		},
-		{
-			companyName: "Json Company 222 generated",
-		},
-	];
+export const getCompanyInfoItems = (
+	overviewJobApplications: OverviewJobApplication[]
+): CompanyInfoItem[] => {
+	const companyInfoItems: CompanyInfoItem[] = [];
+	for (const overviewJobApplication of overviewJobApplications) {
+		const companyInfoItem: CompanyInfoItem = {
+			companyName: "",
+		};
+		if (overviewJobApplication.fullJobApplication) {
+			companyInfoItem.companyName =
+				overviewJobApplication.fullJobApplication.company;
+		} else {
+			companyInfoItem.companyName = "BLANK";
+		}
+		companyInfoItems.push(companyInfoItem);
+	}
+	return companyInfoItems;
 };
 
 export const getFullReport = (): FullReport => {
