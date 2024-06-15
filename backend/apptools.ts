@@ -70,13 +70,13 @@ const getQuickApplicationFileInfosFromFileName = (
 
 	// check if interviewing
 	for (const line of lines) {
-		if (line.includes('~interviewing')) {
-			status = 'interviewing'
+		if (line.includes("~interviewing")) {
+			status = "interviewing";
 		}
 	}
 	return {
 		statusWhen,
-		status
+		status,
 	};
 };
 
@@ -120,4 +120,14 @@ export const buildQuickApplications = (): QuickApplication[] => {
 	];
 	quickApplications.sort((a, b) => (a.company < b.company ? 1 : -1));
 	return quickApplications;
+};
+
+export const buildOverviewListText = (): string => {
+	return `
+111
+222
+	- aaa
+	- bbbb
+333
+	`.trim();
 };

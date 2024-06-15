@@ -79,7 +79,7 @@ export const MainJobApplicationHeader = ({
 			</section>
 			<section className="copyPasteTexts">
 				{overviewListShowing && (
-					<textarea className="w-full">{appData.overviewListText}</textarea>
+					<textarea className="w-full h-[20rem] text-sm">{appData.overviewListText}</textarea>
 				)}
 			</section>
 		</section>
