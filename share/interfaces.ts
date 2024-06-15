@@ -168,6 +168,7 @@ export type GroupedApplicationDayReport = {
 };
 
 export type CompanyInfoItem = {
+	id: number;
 	companyName: string;
 };
 

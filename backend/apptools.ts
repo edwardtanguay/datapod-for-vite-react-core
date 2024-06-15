@@ -136,7 +136,7 @@ export const buildOverviewListText = (): string => {
 	const companyInfoItems = apptools.getCompanyInfoItems();
 
 	for (const companyInfoItem of companyInfoItems) {
-		r += `${companyInfoItem.companyName}\n`;
+		r += `${companyInfoItem.companyName} (${companyInfoItem.id})\n`;
 	}
 
 	return r.trim();

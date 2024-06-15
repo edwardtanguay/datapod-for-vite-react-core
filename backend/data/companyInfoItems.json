@@ -1,134 +1,174 @@
 [
   {
-    "companyName": "Staffbase GmbH"
-  },
-  {
-    "companyName": "PricewaterhouseCoopers GmbH"
-  },
-  {
-    "companyName": "Raisin GmbH"
-  },
-  {
-    "companyName": "Smoobu GmbH"
-  },
-  {
-    "companyName": "ERASYS GmbH"
-  },
-  {
-    "companyName": "BWI GmbH"
-  },
-  {
-    "companyName": "elopage GmbH"
-  },
-  {
-    "companyName": "Bitly Europe GmbH"
-  },
-  {
-    "companyName": "Bitly Europe GmbH"
-  },
-  {
-    "companyName": "Projektron GmbH"
-  },
-  {
-    "companyName": "GoEuro Corp."
-  },
-  {
-    "companyName": "Finflow GmbH"
-  },
-  {
-    "companyName": "Onlineprinters GmbH"
-  },
-  {
-    "companyName": "Shopware AG"
-  },
-  {
-    "companyName": "Finanzguru GmbH"
-  },
-  {
-    "companyName": "Flywheel Digital"
-  },
-  {
-    "companyName": "autarc GmbH"
-  },
-  {
-    "companyName": "On Holding AG"
-  },
-  {
-    "companyName": "DINA Elektronik GmbH"
-  },
-  {
-    "companyName": "smartclip Europe GmbH"
-  },
-  {
-    "companyName": "infoteam Software AG"
-  },
-  {
-    "companyName": "Medical Hair Company GmbH"
-  },
-  {
-    "companyName": "TeraVolt GmbH"
-  },
-  {
-    "companyName": "Charles GmbH"
-  },
-  {
-    "companyName": "th data GmbH"
-  },
-  {
+    "id": 215,
     "companyName": "ALTEN GmbH"
   },
   {
-    "companyName": "Deutsche Welle"
-  },
-  {
-    "companyName": "Noir Consulting"
-  },
-  {
-    "companyName": "Prezi Inc."
-  },
-  {
-    "companyName": "ING Germany"
-  },
-  {
-    "companyName": "Stolzberger GmbH"
-  },
-  {
-    "companyName": "Michael Page GmbH"
-  },
-  {
-    "companyName": "Ratbacher GmbH"
-  },
-  {
-    "companyName": "Hays AG"
-  },
-  {
-    "companyName": "Tech Punk GmbH"
-  },
-  {
+    "id": 255,
     "companyName": "ASTRIAL GmbH"
   },
   {
-    "companyName": "Murrelektronik GmbH"
+    "id": 260,
+    "companyName": "autarc GmbH"
   },
   {
+    "id": 280,
+    "companyName": "BWI GmbH"
+  },
+  {
+    "id": 233,
+    "companyName": "Charles GmbH"
+  },
+  {
+    "id": 213,
+    "companyName": "Deutsche Welle"
+  },
+  {
+    "id": 269,
+    "companyName": "DINA Elektronik GmbH"
+  },
+  {
+    "id": 278,
+    "companyName": "elopage GmbH"
+  },
+  {
+    "id": 283,
+    "companyName": "ERASYS GmbH"
+  },
+  {
+    "id": 272,
+    "companyName": "Finanzguru GmbH"
+  },
+  {
+    "id": 277,
+    "companyName": "Finflow GmbH"
+  },
+  {
+    "id": 262,
+    "companyName": "Flywheel Digital"
+  },
+  {
+    "id": 281,
+    "companyName": "GoEuro Corp."
+  },
+  {
+    "id": 253,
+    "companyName": "Hays AG"
+  },
+  {
+    "id": 247,
+    "companyName": "infoteam Software AG"
+  },
+  {
+    "id": 227,
+    "companyName": "ING Germany"
+  },
+  {
+    "id": 251,
     "companyName": "IU Internationale Hochschule GmbH"
   },
   {
-    "companyName": "Sopra Steria SE"
+    "id": 252,
+    "companyName": "IU Internationale Hochschule GmbH"
   },
   {
-    "companyName": "Root Global GmbH"
-  },
-  {
-    "companyName": "xymatic GmbH"
-  },
-  {
+    "id": 240,
     "companyName": "LOFINO GmbH"
   },
   {
+    "id": 237,
+    "companyName": "Medical Hair Company GmbH"
+  },
+  {
+    "id": 257,
+    "companyName": "Michael Page GmbH"
+  },
+  {
+    "id": 250,
+    "companyName": "Murrelektronik GmbH"
+  },
+  {
+    "id": 209,
+    "companyName": "Noir Consulting"
+  },
+  {
+    "id": 274,
+    "companyName": "On Holding AG"
+  },
+  {
+    "id": 282,
+    "companyName": "Onlineprinters GmbH"
+  },
+  {
+    "id": 261,
+    "companyName": "Prezi Inc."
+  },
+  {
+    "id": 285,
+    "companyName": "PricewaterhouseCoopers GmbH"
+  },
+  {
+    "id": 279,
+    "companyName": "Projektron GmbH"
+  },
+  {
+    "id": 284,
+    "companyName": "Raisin GmbH"
+  },
+  {
+    "id": 258,
+    "companyName": "Ratbacher GmbH"
+  },
+  {
+    "id": 245,
+    "companyName": "Root Global GmbH"
+  },
+  {
+    "id": 273,
+    "companyName": "Shopware AG"
+  },
+  {
+    "id": 259,
+    "companyName": "smartclip Europe GmbH"
+  },
+  {
+    "id": 295,
+    "companyName": "Smoobu GmbH"
+  },
+  {
+    "id": 249,
+    "companyName": "Sopra Steria SE"
+  },
+  {
+    "id": 264,
     "companyName": "StackFuel GmbH"
   },
   {
-    "companyName": "IU Internationale Hochschule GmbH"
+    "id": 286,
+    "companyName": "Staffbase GmbH"
+  },
+  {
+    "id": 199,
+    "companyName": "Stolzberger GmbH"
+  },
+  {
+    "id": 254,
+    "companyName": "Tech Punk GmbH"
+  },
+  {
+    "id": 265,
+    "companyName": "TeraVolt GmbH"
+  },
+  {
+    "id": 217,
+    "companyName": "th data GmbH"
+  },
+  {
+    "id": 208,
+    "companyName": "wefox Germany GmbH"
+  },
+  {
+    "id": 246,
+    "companyName": "xymatic GmbH"
   }
 ]

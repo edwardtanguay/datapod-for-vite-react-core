@@ -159,11 +159,15 @@ export const getCompanyInfoItems = (
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.fullJobApplication) {
 			const companyInfoItem: CompanyInfoItem = {
+				id: overviewJobApplication.job.id,
 				companyName: overviewJobApplication.fullJobApplication.company,
 			};
 			companyInfoItems.push(companyInfoItem);
 		}
 	}
+	companyInfoItems.sort((a, b) =>
+		a.companyName.toLowerCase() > b.companyName.toLowerCase() ? 1 : -1
+	);
 	return companyInfoItems;
 };
 
