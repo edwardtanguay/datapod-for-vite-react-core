@@ -10,10 +10,12 @@ export const FullApplicationOverview = () => {
 				<h2 className="text-xl">
 					{fullReport.totalApplications} total applications sent in{" "}
 					{fullReport.totalDays} days{" "}
-					<span className="text-sm">
-						(average per day ={" "}
-						{fullReport.averageApplicationsPerDay})
-					</span>
+					<div className="text-sm text-blue-800">
+						average per day ={" "}
+						<span className="font-bold">
+							{fullReport.averageApplicationsPerDay}
+						</span>
+					</div>
 				</h2>
 				<div className="mb-3 italic">
 					<p>{fullReport.numberActive} waiting for response</p>
