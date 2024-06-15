@@ -125,14 +125,9 @@ export const buildQuickApplications = (): QuickApplication[] => {
 };
 
 export const getCompanyInfoItems = (): CompanyInfoItem[] => {
-	const companyInfoItems: CompanyInfoItem[] = [
-		{
-			companyName: "Company 111",
-		},
-		{
-			companyName: "Company 222",
-		},
-	];
+	const companyInfoItems: CompanyInfoItem[] = qfil.readJsonFile(
+		"./backend/data/companyInfoItems.json"
+	);
 	return companyInfoItems;
 };
 

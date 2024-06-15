@@ -1,6 +1,5 @@
 import {
 	ApplicationDay,
-	CompanyInfoItem,
 	CompanyKind,
 	FullJobApplication,
 	FullReport,
