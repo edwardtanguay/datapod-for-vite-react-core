@@ -451,6 +451,12 @@
   },
   {
     "id": 0,
+    "companyName": "Palabra Praxisgruppe",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Peglobal Ireland",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -488,6 +494,12 @@
   {
     "id": 0,
     "companyName": "Qtech",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Qubidu GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -620,12 +632,6 @@
   {
     "id": 0,
     "companyName": "Venturi Netherlands",
-    "contactKind": "company",
-    "processStatus": "active"
-  },
-  {
-    "id": 0,
-    "companyName": "Venturi Netherlands Python",
     "contactKind": "company",
     "processStatus": "active"
   },

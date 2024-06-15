@@ -1,0 +1,18 @@
+- 2024-06-15 14:01:57; LinkedIn
+	-----------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: React.js?Wie viele Jahre Erfahrung haben Sie mit: React.js?
+				5
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Next.js?Wie viele Jahre Erfahrung haben Sie mit: Next.js?
+				2
+			
+	Was ist Ihre jährliche Gehaltserwartung in EUR?Was ist Ihre jährliche Gehaltserwartung in EUR?
+				50000
+			
+	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
+				Muttersprache oder zweisprachig
+			
+	In wie viel Monaten könnten Sie starten?In wie viel Monaten könnten Sie starten?
+				1
+	-----------------------------------

@@ -1,0 +1,25 @@
+- 2024-06-14 14:10:07; LinkedIn
+	---------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: React.js?Wie viele Jahre Erfahrung haben Sie mit: React.js?
+				5
+			
+	Wie viele Jahre Erfahrung haben Sie mit: TypeScript?Wie viele Jahre Erfahrung haben Sie mit: TypeScript?
+				4
+			
+	Wie gut beherrschen Sie Englisch?Wie gut beherrschen Sie Englisch?
+				Muttersprache oder zweisprachig
+			
+	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
+				Muttersprache oder zweisprachig
+			
+	Können Sie sich vorstellen, remote zu arbeiten?Können Sie sich vorstellen, remote zu arbeiten?
+				Ja
+			
+	Sind Sie rechtlich befugt, in diesem Land zu arbeiten: Deutschland?Sind Sie rechtlich befugt, in diesem Land zu arbeiten: Deutschland?
+				Ja
+			
+	Leben Sie in Deutschland oder Spanien?Leben Sie in Deutschland oder Spanien?
+				Yes
+	---------------------------------------
+- ~companyName: Qubidu GmbH
