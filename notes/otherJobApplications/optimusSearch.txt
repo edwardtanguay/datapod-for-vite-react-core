@@ -1,0 +1,5 @@
+- 2024-06-14 23:09:00; Xing
+	-------------------------------------------
+	Wenn Du möchtest, kannst Du hier ein paar persönliche Worte hinzufügen.
+	Ich habe solide Kenntnisse in C# und React sowie Angular.
+	-------------------------------------------

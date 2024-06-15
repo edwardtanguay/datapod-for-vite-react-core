@@ -1,0 +1,7 @@
+- 2024-06-14 23:22:04; Xing
+	----------------------------------------
+	applied on Xing's web form, no extra infos 
+	 React Developer - 4.95 - react, typescript, graphql, apollo, git
+	https://www.xing.com/jobs/berlin-react-developer-vollzeit-teilzeit-praktikum-120953522
+	----------------------------------------
+- ~companyName: Salufast GmbH

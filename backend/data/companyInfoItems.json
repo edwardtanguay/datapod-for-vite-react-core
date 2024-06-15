@@ -475,6 +475,12 @@
   },
   {
     "id": 0,
+    "companyName": "Optimus Search",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Opus Talent Solutions",
     "contactKind": "recruiter",
     "processStatus": "active"
@@ -560,6 +566,12 @@
   {
     "id": 245,
     "companyName": "Root Global GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Salufast GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
