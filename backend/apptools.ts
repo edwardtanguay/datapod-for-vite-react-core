@@ -134,17 +134,34 @@ export const getCompanyInfoItems = (): CompanyInfoItem[] => {
 export const buildOverviewListText = (): string => {
 	const lines = [];
 	const companyInfoItems = apptools.getCompanyInfoItems();
+	console.log("111items", companyInfoItems.length);
 	const recruiters = companyInfoItems.filter(
 		(m) => m.contactKind === "recruiter"
+	);
+	const companies = companyInfoItems.filter(
+		(m) => m.contactKind === "company"
 	);
 	const dividerLine =
 		"------------------------------------------------------";
 
+	// recruiters
 	lines.push(`${recruiters.length} RECRUITERS:`);
 	lines.push(dividerLine);
 	for (const recruiter of recruiters) {
 		if (recruiter.processStatus !== "closed") {
 			const line = `${recruiter.companyName} - ${recruiter.contactKind} - ${recruiter.processStatus}`;
+			lines.push(line);
+		}
+	}
+	lines.push(dividerLine);
+	lines.push("");
+
+	// companies
+	lines.push(`${companies.length} COMPANIES:`);
+	lines.push(dividerLine);
+	for (const company of companies) {
+		if (company.processStatus !== "closed") {
+			const line = `${company.companyName} - ${company.contactKind} - ${company.processStatus}`;
 			lines.push(line);
 		}
 	}
