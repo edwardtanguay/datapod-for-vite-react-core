@@ -180,7 +180,6 @@ export type FullReport = {
 	numberActive: number;
 	rejectionRate: number;
 	numberOfInterviewing: number;
-	companyInfoItems: CompanyInfoItem[];
 };
 
 export type QuickApplication = {

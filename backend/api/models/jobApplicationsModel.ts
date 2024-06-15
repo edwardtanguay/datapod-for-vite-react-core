@@ -245,15 +245,6 @@ export const getFullReport = (): FullReport => {
 		groupedApplicationDayReport
 	);
 
-	const companyInfoItems: CompanyInfoItem[] = [
-		{
-			companyName: "Company 111",
-		},
-		{
-			companyName: "Company 222",
-		},
-	];
-
 	const totalApplications = applicationDays.length - numberDoing;
 	const totalDays = Object.keys(groupedApplicationDayReport).length;
 	const numberActive = totalApplications - numberOfRejections;
@@ -268,8 +259,7 @@ export const getFullReport = (): FullReport => {
 		numberOfRejections,
 		numberActive,
 		rejectionRate,
-		numberOfInterviewing,
-		companyInfoItems,
+		numberOfInterviewing
 	};
 };
 

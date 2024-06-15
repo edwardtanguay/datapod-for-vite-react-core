@@ -1,4 +1,5 @@
 import {
+	CompanyInfoItem,
 	IFileObject,
 	ProcessStatus,
 	QuickApplication,
@@ -7,6 +8,7 @@ import {
 import * as qfil from "../share/qtools/qfil.js";
 import * as qstr from "../share/qtools/qstr.js";
 import * as appconfig from "./appconfig.js";
+import * as apptools from "./apptools.js";
 
 export const extractPortNumber = (text: string) => {
 	const regex = /(\d+)/;
@@ -122,14 +124,25 @@ export const buildQuickApplications = (): QuickApplication[] => {
 	return quickApplications;
 };
 
+export const getCompanyInfoItems = (): CompanyInfoItem[] => {
+	const companyInfoItems: CompanyInfoItem[] = [
+		{
+			companyName: "Company 111",
+		},
+		{
+			companyName: "Company 222",
+		},
+	];
+	return companyInfoItems;
+};
+
 export const buildOverviewListText = (): string => {
 	let r = "";
+	const companyInfoItems = apptools.getCompanyInfoItems();
 
-	// for (const quickApplication of quickApplications) {
-	// 	r += `${quickApplication.company} - ${quickApplication.recruiter} - ${quickApplication.status}\n`;
-	// }
-
-	r += 'okok';
+	for (const companyInfoItem of companyInfoItems) {
+		r += `${companyInfoItem.companyName}\n`;
+	}
 
 	return r.trim();
 };
