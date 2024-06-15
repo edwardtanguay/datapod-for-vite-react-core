@@ -140,10 +140,17 @@ export type SkillResponseLookupObject = {
 
 export type OverviewJobApplicationKind = "todo" | "processing" | "closed";
 
+export type KindClosedReason =
+	| "rejected"
+	| "duplicate"
+	| "filled"
+	| "notApplicable";
+
 export type OverviewJobApplication = {
 	job: Job;
 	fullJobApplication: FullJobApplication | undefined;
 	kind: OverviewJobApplicationKind;
+	kindClosedReason: KindClosedReason;
 	lastStatus: string;
 	applicationCreateText: string;
 	letterDate: string;
@@ -165,11 +172,6 @@ export type ApplicationDay = {
 
 export type GroupedApplicationDayReport = {
 	[date: string]: ApplicationDay[];
-};
-
-export type CompanyInfoItem = {
-	id: number;
-	companyName: string;
 };
 
 export type FullReport = {
@@ -197,3 +199,10 @@ export type QuickApplicationFileInfos = {
 };
 
 export type ShowGroup = "todo" | "processing" | "closed";
+
+export type CompanyInfoItem = {
+	id: number;
+	companyName: string;
+	kind: OverviewJobApplicationKind;
+	kindClosedReason: KindClosedReason;
+};

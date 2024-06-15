@@ -161,6 +161,8 @@ export const getCompanyInfoItems = (
 			const companyInfoItem: CompanyInfoItem = {
 				id: overviewJobApplication.job.id,
 				companyName: overviewJobApplication.fullJobApplication.company,
+				kind: overviewJobApplication.kind,
+				kindClosedReason: overviewJobApplication.kindClosedReason,
 			};
 			companyInfoItems.push(companyInfoItem);
 		}
@@ -303,6 +305,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 				job,
 				fullJobApplication,
 				kind: tools.getKind(),
+				kindClosedReason: "notApplicable",
 				lastStatus: tools.getLastStatus(fullJobApplication),
 				applicationCreateText: "",
 				letterDate: fullJobApplication.letterDate,
@@ -313,6 +316,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 				job,
 				fullJobApplication,
 				kind: "todo",
+				kindClosedReason: "notApplicable",
 				lastStatus: "",
 				applicationCreateText: tools.getApplicationCreateText(job),
 				letterDate: "",
@@ -325,6 +329,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 		if (overviewJobApplication.lastStatus) {
 			if (overviewJobApplication.lastStatus.includes("~duplicate")) {
 				overviewJobApplication.kind = "closed";
+				overviewJobApplication.kindClosedReason = "duplicate";
 				overviewJobApplication.lastStatus = qstr.replaceAll(
 					overviewJobApplication.lastStatus,
 					"~",
@@ -333,6 +338,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 			}
 			if (overviewJobApplication.lastStatus.includes("~rejection")) {
 				overviewJobApplication.kind = "closed";
+				overviewJobApplication.kindClosedReason = "rejected";
 				overviewJobApplication.lastStatus = qstr.replaceAll(
 					overviewJobApplication.lastStatus,
 					"~",
@@ -341,6 +347,7 @@ export const getOverviewApplications = (): OverviewJobApplication[] => {
 			}
 			if (overviewJobApplication.lastStatus.includes("~filled")) {
 				overviewJobApplication.kind = "closed";
+				overviewJobApplication.kindClosedReason = "filled";
 				overviewJobApplication.lastStatus = qstr.replaceAll(
 					overviewJobApplication.lastStatus,
 					"~",
