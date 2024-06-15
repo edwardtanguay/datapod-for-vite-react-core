@@ -186,7 +186,6 @@ export const getCompanyInfoItems = (
 			const companyInfoItem: CompanyInfoItem = {
 				id: overviewJobApplication.job.id,
 				companyName,
-				kindClosedReason,
 				contactKind:
 					overviewJobApplication.fullJobApplication.contactKind,
 				processStatus: getProcessStatus(kind, kindClosedReason),
@@ -200,8 +199,6 @@ export const getCompanyInfoItems = (
 	// 	const companyInfoItem: CompanyInfoItem = {
 	// 		id: quickApplication.id,
 	// 		companyName: quickApplication.company,
-	// 		kind: ""
-	// 		kindClosedReason,
 	// 		contactKind: overviewJobApplication.fullJobApplication.contactKind,
 	// 		processStatus: getProcessStatus(kind, kindClosedReason),
 	// 	};
