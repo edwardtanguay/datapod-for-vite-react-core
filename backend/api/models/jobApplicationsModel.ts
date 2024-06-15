@@ -11,6 +11,7 @@ import {
 	OverviewJobApplication,
 	OverviewJobApplicationKind,
 	ProcessStatus,
+	QuickApplication,
 } from "../../../share/interfaces";
 import * as apptools from "../../apptools.js";
 import * as appconfig from "../../appconfig.js";
@@ -170,9 +171,12 @@ export const getProcessStatus = (
 };
 
 export const getCompanyInfoItems = (
-	overviewJobApplications: OverviewJobApplication[]
+	overviewJobApplications: OverviewJobApplication[],
+	quickApplications: QuickApplication[]
 ): CompanyInfoItem[] => {
 	const companyInfoItems: CompanyInfoItem[] = [];
+
+	// process overviewApplications
 	for (const overviewJobApplication of overviewJobApplications) {
 		if (overviewJobApplication.fullJobApplication) {
 			const companyName =
@@ -182,7 +186,6 @@ export const getCompanyInfoItems = (
 			const companyInfoItem: CompanyInfoItem = {
 				id: overviewJobApplication.job.id,
 				companyName,
-				kind,
 				kindClosedReason,
 				contactKind:
 					overviewJobApplication.fullJobApplication.contactKind,
@@ -191,6 +194,20 @@ export const getCompanyInfoItems = (
 			companyInfoItems.push(companyInfoItem);
 		}
 	}
+
+	// process quickApplications
+	// for (const quickApplication of quickApplications) {
+	// 	const companyInfoItem: CompanyInfoItem = {
+	// 		id: quickApplication.id,
+	// 		companyName: quickApplication.company,
+	// 		kind: ""
+	// 		kindClosedReason,
+	// 		contactKind: overviewJobApplication.fullJobApplication.contactKind,
+	// 		processStatus: getProcessStatus(kind, kindClosedReason),
+	// 	};
+	// 	companyInfoItems.push(companyInfoItem);
+	// }
+
 	companyInfoItems.sort((a, b) =>
 		a.companyName.toLowerCase() > b.companyName.toLowerCase() ? 1 : -1
 	);
@@ -298,7 +315,11 @@ export const getFullReport = (): FullReport => {
 	// write to JSON file to avoid fs error in frontend
 	qfil.createFile(
 		"./backend/data/companyInfoItems.json",
-		JSON.stringify(getCompanyInfoItems(overviewJobApplications), null, 2)
+		JSON.stringify(
+			getCompanyInfoItems(overviewJobApplications, quickApplications),
+			null,
+			2
+		)
 	);
 
 	return {

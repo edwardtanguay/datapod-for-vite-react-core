@@ -2,7 +2,6 @@
   {
     "id": 215,
     "companyName": "ALTEN GmbH",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -10,7 +9,6 @@
   {
     "id": 255,
     "companyName": "ASTRIAL GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -18,7 +16,6 @@
   {
     "id": 260,
     "companyName": "autarc GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -26,7 +23,6 @@
   {
     "id": 280,
     "companyName": "BWI GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -34,7 +30,6 @@
   {
     "id": 233,
     "companyName": "Charles GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -42,7 +37,6 @@
   {
     "id": 213,
     "companyName": "Deutsche Welle",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -50,7 +44,6 @@
   {
     "id": 269,
     "companyName": "DINA Elektronik GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -58,7 +51,6 @@
   {
     "id": 278,
     "companyName": "elopage GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -66,7 +58,6 @@
   {
     "id": 283,
     "companyName": "ERASYS GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -74,7 +65,6 @@
   {
     "id": 272,
     "companyName": "Finanzguru GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -82,7 +72,6 @@
   {
     "id": 277,
     "companyName": "Finflow GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -90,7 +79,6 @@
   {
     "id": 262,
     "companyName": "Flywheel Digital",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -98,7 +86,6 @@
   {
     "id": 281,
     "companyName": "GoEuro Corp.",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -106,7 +93,6 @@
   {
     "id": 253,
     "companyName": "Hays AG",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "recruiter",
     "processStatus": "active"
@@ -114,7 +100,6 @@
   {
     "id": 247,
     "companyName": "infoteam Software AG",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -122,7 +107,6 @@
   {
     "id": 227,
     "companyName": "ING Germany",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -130,7 +114,6 @@
   {
     "id": 251,
     "companyName": "IU Internationale Hochschule GmbH",
-    "kind": "closed",
     "kindClosedReason": "duplicate",
     "contactKind": "company",
     "processStatus": "closed"
@@ -138,7 +121,6 @@
   {
     "id": 252,
     "companyName": "IU Internationale Hochschule GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -146,7 +128,6 @@
   {
     "id": 240,
     "companyName": "LOFINO GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -154,7 +135,6 @@
   {
     "id": 237,
     "companyName": "Medical Hair Company GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -162,7 +142,6 @@
   {
     "id": 257,
     "companyName": "Michael Page GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "recruiter",
     "processStatus": "rejected"
@@ -170,7 +149,6 @@
   {
     "id": 250,
     "companyName": "Murrelektronik GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -178,7 +156,6 @@
   {
     "id": 209,
     "companyName": "Noir Consulting",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -186,7 +163,6 @@
   {
     "id": 274,
     "companyName": "On Holding AG",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -194,7 +170,6 @@
   {
     "id": 282,
     "companyName": "Onlineprinters GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -202,7 +177,6 @@
   {
     "id": 261,
     "companyName": "Prezi Inc.",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -210,7 +184,6 @@
   {
     "id": 285,
     "companyName": "PricewaterhouseCoopers GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -218,7 +191,6 @@
   {
     "id": 279,
     "companyName": "Projektron GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -226,7 +198,6 @@
   {
     "id": 284,
     "companyName": "Raisin GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -234,7 +205,6 @@
   {
     "id": 258,
     "companyName": "Ratbacher GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "recruiter",
     "processStatus": "active"
@@ -242,7 +212,6 @@
   {
     "id": 245,
     "companyName": "Root Global GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -250,7 +219,6 @@
   {
     "id": 273,
     "companyName": "Shopware AG",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -258,7 +226,6 @@
   {
     "id": 259,
     "companyName": "smartclip Europe GmbH",
-    "kind": "closed",
     "kindClosedReason": "rejected",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -266,7 +233,6 @@
   {
     "id": 295,
     "companyName": "Smoobu GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -274,7 +240,6 @@
   {
     "id": 249,
     "companyName": "Sopra Steria SE",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -282,7 +247,6 @@
   {
     "id": 264,
     "companyName": "StackFuel GmbH",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -290,7 +254,6 @@
   {
     "id": 286,
     "companyName": "Staffbase GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -298,7 +261,6 @@
   {
     "id": 199,
     "companyName": "Stolzberger GmbH",
-    "kind": "closed",
     "kindClosedReason": "filled",
     "contactKind": "company",
     "processStatus": "closed"
@@ -306,7 +268,6 @@
   {
     "id": 254,
     "companyName": "Tech Punk GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "recruiter",
     "processStatus": "active"
@@ -314,7 +275,6 @@
   {
     "id": 265,
     "companyName": "TeraVolt GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -322,7 +282,6 @@
   {
     "id": 217,
     "companyName": "th data GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"
@@ -330,7 +289,6 @@
   {
     "id": 208,
     "companyName": "wefox Germany GmbH",
-    "kind": "closed",
     "kindClosedReason": "duplicate",
     "contactKind": "company",
     "processStatus": "closed"
@@ -338,7 +296,6 @@
   {
     "id": 246,
     "companyName": "xymatic GmbH",
-    "kind": "processing",
     "kindClosedReason": "notApplicable",
     "contactKind": "company",
     "processStatus": "active"

@@ -136,12 +136,8 @@ export const buildOverviewListText = (): string => {
 	const companyInfoItems = apptools.getCompanyInfoItems();
 
 	for (const companyInfoItem of companyInfoItems) {
-		if (
-			companyInfoItem.kind !== "closed" ||
-			(companyInfoItem.kind === "closed" &&
-				companyInfoItem.kindClosedReason === "rejected")
-		) {
-			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - (kind=${companyInfoItem.kind}) - (contactKind=${companyInfoItem.contactKind}) - (processStatus=${companyInfoItem.processStatus})`;
+		if (companyInfoItem.processStatus !== "closed") {
+			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - (contactKind=${companyInfoItem.contactKind}) - (processStatus=${companyInfoItem.processStatus})`;
 			lines.push(line);
 		}
 	}

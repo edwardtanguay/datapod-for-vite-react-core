@@ -6,7 +6,8 @@
 	- x show text in text area
 	- .. make buildOverviewListText
 		- x mock
-		- .. add ProcessStatus and process beforehand
+		- x add ProcessStatus and process beforehand
+		- .. add quickApplications
 
 - x planning
 - .. (1) be able to record runs/swims/weight in edward-tanguay-eu site project, press button in datapod-vite-react-core, three JSON files are created in edward-tanguay-eu site
