@@ -250,7 +250,7 @@ export const getFullReport = (): FullReport => {
 	const rejectionRate = numberOfRejections / totalApplications;
 
 	// write to JSON file to avoid fs error in frontend
-	// qfil.createFile('./backend/data/test.json', 'testdata');
+	qfil.createFile('./backend/data/test.json', 'testdata222333');
 
 	return {
 		totalApplications,
