@@ -1,9 +1,63 @@
 [
   {
+    "id": 0,
+    "companyName": "Acefinder",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Adjust",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Adornis",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Affinidi",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 215,
     "companyName": "ALTEN GmbH",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Altia Spain",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Amadeus Fire Berlin",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Amicus",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Amura Spain",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Asbis",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 255,
@@ -18,14 +72,44 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Buerolersch",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 280,
     "companyName": "BWI GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Bytebrew",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Calimoto",
+    "contactKind": "company",
+    "processStatus": "interviewing"
+  },
+  {
     "id": 233,
     "companyName": "Charles GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Cleeng Poland",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Delivery Hero",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -36,8 +120,38 @@
     "processStatus": "closed"
   },
   {
+    "id": 0,
+    "companyName": "Digago",
+    "contactKind": "company",
+    "processStatus": "interviewing"
+  },
+  {
+    "id": 0,
+    "companyName": "Digitalwaffle",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 269,
     "companyName": "DINA Elektronik GmbH",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Dots Gesellschaft",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Dxc",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Eagle Eye Staffing Solutions Poland Recruiter",
     "contactKind": "company",
     "processStatus": "rejected"
   },
@@ -48,8 +162,32 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Energize Group",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 283,
     "companyName": "ERASYS GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Esprimo Srl Italy",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Eterno Health",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Explore Group",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -60,14 +198,38 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Findyou",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 277,
     "companyName": "Finflow GmbH",
     "contactKind": "company",
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Flix",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 262,
     "companyName": "Flywheel Digital",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Foxley Talent Limited Germany",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Gazelle Global Sweden",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -78,9 +240,57 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Gr4",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Groenewold",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 253,
     "companyName": "Hays AG",
     "contactKind": "recruiter",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Hays Italy Recruiter",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Hays Poland Recruiter",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Hipeople Indeed",
+    "contactKind": "company",
+    "processStatus": "interviewing"
+  },
+  {
+    "id": 0,
+    "companyName": "Homeofjobs",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Hyqoo",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Immoscout24 Indeed",
+    "contactKind": "company",
     "processStatus": "active"
   },
   {
@@ -96,6 +306,12 @@
     "processStatus": "closed"
   },
   {
+    "id": 0,
+    "companyName": "International Organization For Migration",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 251,
     "companyName": "IU Internationale Hochschule GmbH",
     "contactKind": "company",
@@ -108,14 +324,56 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Jakala",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Jeffersonwolfe",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Jk Recruitment Bulgaria Recruiter",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Leafcloud",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Lizardis",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 240,
     "companyName": "LOFINO GmbH",
     "contactKind": "company",
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Lokalleads",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 237,
     "companyName": "Medical Hair Company GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Mentor Talent Acquisition",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -132,6 +390,24 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Mvp Match Germany",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Next Engineering Portugal",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Next Ventures",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 209,
     "companyName": "Noir Consulting",
     "contactKind": "company",
@@ -144,8 +420,50 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Oneclick Ag",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
     "id": 282,
     "companyName": "Onlineprinters GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Optimus",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Opus Talent Solutions Recruiter",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Orange Logic France",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Peglobal Ireland",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Permtech",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Plexus Tech Spain",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -168,6 +486,18 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Qtech",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Raisin",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 284,
     "companyName": "Raisin GmbH",
     "contactKind": "company",
@@ -186,8 +516,26 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Sgf Global Portugal",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
     "id": 273,
     "companyName": "Shopware AG",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Shyftplan",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Siira",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -228,9 +576,27 @@
     "processStatus": "closed"
   },
   {
+    "id": 0,
+    "companyName": "Talent",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Taylorhall",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 254,
     "companyName": "Tech Punk GmbH",
     "contactKind": "recruiter",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Tech Shack",
+    "contactKind": "company",
     "processStatus": "active"
   },
   {
@@ -246,10 +612,58 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Vass Spain",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Venturi Netherlands",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Venturi Netherlands Python",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Vertext",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Virtimo",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "We Match",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Weengage",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 208,
     "companyName": "wefox Germany GmbH",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Wir Winzer",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 246,

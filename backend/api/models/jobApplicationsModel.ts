@@ -195,15 +195,15 @@ export const getCompanyInfoItems = (
 	}
 
 	// process quickApplications
-	// for (const quickApplication of quickApplications) {
-	// 	const companyInfoItem: CompanyInfoItem = {
-	// 		id: quickApplication.id,
-	// 		companyName: quickApplication.company,
-	// 		contactKind: overviewJobApplication.fullJobApplication.contactKind,
-	// 		processStatus: getProcessStatus(kind, kindClosedReason),
-	// 	};
-	// 	companyInfoItems.push(companyInfoItem);
-	// }
+	for (const quickApplication of quickApplications) {
+		const companyInfoItem: CompanyInfoItem = {
+			id: quickApplication.id,
+			companyName: quickApplication.company,
+			contactKind: quickApplication.recruiter ? "recruiter" : "company",
+			processStatus: quickApplication.status,
+		};
+		companyInfoItems.push(companyInfoItem);
+	}
 
 	companyInfoItems.sort((a, b) =>
 		a.companyName.toLowerCase() > b.companyName.toLowerCase() ? 1 : -1
