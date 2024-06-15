@@ -162,6 +162,7 @@ export const getCompanyInfoItems = (): CompanyInfoItem[] => {
 export const buildOverviewListText = (): string => {
 	const lines = [];
 	const companyInfoItems = apptools.getCompanyInfoItems();
+	console.log('111total', companyInfoItems.length);
 	const recruiters = companyInfoItems.filter(
 		(m) => m.contactKind === "recruiter"
 	);
