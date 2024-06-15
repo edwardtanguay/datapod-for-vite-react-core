@@ -137,7 +137,7 @@ export const buildOverviewListText = (): string => {
 
 	for (const companyInfoItem of companyInfoItems) {
 		if (companyInfoItem.processStatus !== "closed") {
-			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - (contactKind=${companyInfoItem.contactKind}) - (processStatus=${companyInfoItem.processStatus})`;
+			const line = `${companyInfoItem.companyName} (${companyInfoItem.id}) - ${companyInfoItem.contactKind} - ${companyInfoItem.processStatus}`;
 			lines.push(line);
 		}
 	}
