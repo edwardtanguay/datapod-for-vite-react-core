@@ -49,14 +49,39 @@ export const getEntireContent = (fileObjects: IFileObject[]): string => {
 	return r;
 };
 
-export const getCompanyFromFileName = (fileName: string): string => {
-	let r = fileName;
-	r = qstr.chopRight(r, ".txt");
-	r = qstr.replaceAll(r, "-", ".");
-	const parts = qstr.breakIntoParts(r, ".");
-	const titleParts = parts.map((m) => qstr.forceTitleNotation(m));
-	r = titleParts.join(" ");
+// e.g. - ~companyName: GR4
+export const getCompanyNameFromFileContent = (
+	pathAndFileName: string
+): string => {
+	let r = "";
+	const content = qfil.readTextFile(pathAndFileName);
+	const lines = qstr.convertStringBlockToLines(content);
+	const marker = "~companyName:";
+	for (const line of lines) {
+		if (line.includes(marker)) {
+			const parts = qstr.breakIntoParts(line, marker);
+			r = parts.slice(-1)[0];
+		}
+	}
 	return r;
+};
+
+export const getCompanyFromPathAndFileName = (
+	pathAndFileName: string
+): string => {
+	let r = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+	const explicitName = getCompanyNameFromFileContent(pathAndFileName);
+	console.log("111explicit", explicitName);
+	if (explicitName.trim() !== "") {
+		return explicitName;
+	} else {
+		r = qstr.chopRight(r, ".txt");
+		r = qstr.replaceAll(r, "-", ".");
+		const parts = qstr.breakIntoParts(r, ".");
+		const titleParts = parts.map((m) => qstr.forceTitleNotation(m));
+		r = titleParts.join(" ");
+		return r;
+	}
 };
 
 const getQuickApplicationFileInfosFromFileName = (
@@ -90,10 +115,10 @@ export const buildQuickApplicationsForDirectory = (
 
 	const quickApplications: QuickApplication[] = [];
 	for (const pathAndFileName of pathAndFileNames) {
-		const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
+		// const fileName = qfil.getFileNameFromPathAndFileName(pathAndFileName);
 		const quickApplicationFileInfos =
 			getQuickApplicationFileInfosFromFileName(pathAndFileName, status);
-		const company = getCompanyFromFileName(fileName);
+		const company = getCompanyFromPathAndFileName(pathAndFileName);
 		if (quickApplicationFileInfos.statusWhen.trim() !== "") {
 			quickApplications.push({
 				id: 0,
