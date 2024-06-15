@@ -294,6 +294,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Impax Recruitment",
+    "contactKind": "recruiter",
+    "processStatus": "active"
+  },
+  {
     "id": 247,
     "companyName": "infoteam Software AG",
     "contactKind": "company",
@@ -412,6 +418,12 @@
     "companyName": "Noir Consulting",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Omnevo",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 274,
