@@ -75,7 +75,6 @@ export const getCompanyFromPathAndFileName = (
 ): string => {
 	let r = qfil.getFileNameFromPathAndFileName(pathAndFileName);
 	const explicitName = getCompanyNameFromFileContent(pathAndFileName);
-	console.log("111explicit", explicitName);
 	if (explicitName.trim() !== "") {
 		return explicitName;
 	} else {
@@ -163,7 +162,6 @@ export const getCompanyInfoItems = (): CompanyInfoItem[] => {
 export const buildOverviewListText = (): string => {
 	const lines = [];
 	const companyInfoItems = apptools.getCompanyInfoItems();
-	console.log("111items", companyInfoItems.length);
 	const recruiters = companyInfoItems.filter(
 		(m) => m.contactKind === "recruiter"
 	);

@@ -1,3 +1,4 @@
 - 2024-06-06 08:50:51; received rejection from company I don't remember applying for
 	- Absage zu Ihrer Bewerbung vom 05.06.2024
 	- https://www.homeofjobs.de
+- ~companyName: Home of Jobs Holding GmbH
