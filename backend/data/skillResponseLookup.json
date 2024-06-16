@@ -6,6 +6,10 @@
 		"english": "I have over 20 years of experience in web development. My background in C# when I worked for Microsoft and particularly teaching TypeScript for the past three years as a web development instructor gives me solid skills in TypeScript both backend and frontend.",
 		"german": "Ich habe über 20 Jahre Erfahrung in der Webentwicklung. Durch meinen Hintergrund in C# als ich bei Microsoft arbeitete und insbesondere durch die Vermittlung von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
 	},
+	"javascriptTypeScriptNodeBackend": {
+		"english": "I have over 20 years of experience in web development. My background in C# when I worked for Microsoft and particularly teaching TypeScript with the MERN stack for the past three years as a web development instructor gives me solid skills in both Node and TypeScript.",
+		"german": "Ich habe über 20 Jahre Erfahrung in der Webentwicklung. Durch meinen Hintergrund in C# als ich bei Microsoft arbeitete und insbesondere durch die Vermittlung von TypeScript in den letzten drei Jahren als Dozent für Webentwicklung habe ich solide Kenntnisse in TypeScript sowohl im Backend als auch im Frontend."
+	},
 	"gitDocker": {
 		"english": "While I am old enough to have used CVS and SVN back in the day, Git has been the standard version control system in all projects and jobs I have been involved in during the past 10 years. I began using Docker at my web developer position at GEFEG mbh from 2018 to 2021, and currently use it extensively to host fullstack applications on Hetzner machines."
 	},

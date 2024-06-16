@@ -1440,3 +1440,55 @@ history::[[
 - 2024-06-13 11:29:41; created
 - 2024-06-13 11:42:20; posted on online form, "Our People Experience Team is doing its best to send you a feedback on your application as fast as possible, which could take a few working days.", received confirmation mail
 ]]
+
+==jobApplication
+dpodId::t992P9
+baseJobId::302
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-16 10:00:16
+skillTextsBlock::[[
+Abgeschlossenes Studium im Bereich Informatik oder eine ähnliche Ausbildung mit Berufserfahrung und Kenntnisse in Java, TypeScript und Web Technologien;javascriptTypeScriptFrontendBackend
+Sehr gute Deutsch- und gute Englischkenntnisse;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei mgm technology partners erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-16 10:00:16; created
+- 2024-06-16 10:10:09; send via web form
+]]
+
+==jobApplication
+dpodId::PbHmdY
+baseJobId::303
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-16 10:10:27
+skillTextsBlock::[[
+Bachelor’s degree in computer science or equivalent, 5 years Node.js, TypeScript, and backend development experience;javascriptTypeScriptNodeBackend
+Strong communication skills in both English and German;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::jobs@pdr.cloud
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei PDF Cloud erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-16 10:10:27; created
+- 2024-06-16 10:30:25; sent to jobs@pdr.cloud
+]]

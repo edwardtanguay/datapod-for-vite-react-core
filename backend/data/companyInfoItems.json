@@ -420,6 +420,12 @@
     "processStatus": "active"
   },
   {
+    "id": 302,
+    "companyName": "mgm technology partners GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 0,
     "companyName": "Michael Page Fullstack React Node",
     "contactKind": "recruiter",
@@ -512,6 +518,12 @@
   {
     "id": 0,
     "companyName": "Palabra Praxisgruppe",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 303,
+    "companyName": "PDF Cloud GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
