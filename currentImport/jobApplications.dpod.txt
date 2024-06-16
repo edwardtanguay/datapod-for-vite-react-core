@@ -1601,3 +1601,58 @@ history::[[
 - 2024-06-16 15:29:11; created
 - 2024-06-16 15:37:33; sent application via email to work@datatroniq.com
 ]]
+
+==jobApplication
+dpodId::Eu1kPg
+baseJobId::301
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-16 15:38:08
+skillTextsBlock::[[
+Umfangreiche Erfahrung in der Webentwicklung mit Schwerpunkt auf React und HTML5 Canvas;computerScienceDegreeOrSimilar, react
+Erfahrung in der Nutzung von Cloud-Technologien und serverlosen Architekturen;devops
+Idealerweise fließende Deutsch- und sehr gute Englischkenntnisse in Wort und Schrift;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::Clemens Müller
+contactGender::male
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei Drees & Sommer erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-16 15:38:08; created
+- 2024-06-16 15:47:56; sent via Stepstone form
+]]
+
+==jobApplication
+dpodId::FMNC2J
+baseJobId::292
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-16 15:49:02
+skillTextsBlock::[[
+Zwei bis fünf Jahre Erfahrung als Entwickler haben; fullstackApplicationsInUse
+Dich gut mit dem React Ökosystem auskennen (Wir nutzen Remix run);frameworksLikeReact
+Erfahrung mit Node.js Backends haben (Wir nutzen Nest.js und Prisma);node
+Gute Deutsch- und Englischkenntnisse;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei Keaz erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-16 15:49:02; created
+- 2024-06-16 16:41:03; sent via join.com form
+]]

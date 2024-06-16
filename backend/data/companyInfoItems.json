@@ -168,6 +168,12 @@
     "processStatus": "active"
   },
   {
+    "id": 301,
+    "companyName": "Drees & Sommer SE",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 0,
     "companyName": "DXC Technology Company",
     "contactKind": "company",
@@ -375,6 +381,12 @@
     "id": 0,
     "companyName": "JK Recruitment Bulgaria",
     "contactKind": "recruiter",
+    "processStatus": "active"
+  },
+  {
+    "id": 292,
+    "companyName": "Keaz GmbH",
+    "contactKind": "company",
     "processStatus": "active"
   },
   {
