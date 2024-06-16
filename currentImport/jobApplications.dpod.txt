@@ -1656,3 +1656,28 @@ history::[[
 - 2024-06-16 15:49:02; created
 - 2024-06-16 16:41:03; sent via join.com form
 ]]
+
+==jobApplication
+dpodId::MgeAMC
+baseJobId::296
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-16 16:41:25
+skillTextsBlock::[[
+5+ years experience as a fullstack or backend developer;fullstackApplicationsInUse
+Experience with REST API development;node
+Experience with NextJS, Javascript/Typescript, React, CSS, Tailwind;frameworksLikeReact
+Experience with AWS, Kubernetes, Vercel;aws
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Pigeon Technologies in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::- 2024-06-16 16:41:25; creating...
