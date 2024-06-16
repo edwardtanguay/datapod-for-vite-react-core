@@ -1,0 +1,15 @@
+- 2024-06-16 09:17:24; LinkedIn
+	---------------------------------------------
+	Additional Questions
+	How many years of work experience do you have as a Full Stack JS Developer or similar role in software development? How many years of work experience do you have as a Full Stack JS Developer or similar role in software development? 
+				5
+			
+	Years of experience working with these technical skills Next.js, TypeScript, JavaScript Node.JS? Years of experience working with these technical skills Next.js, TypeScript, JavaScript Node.JS?
+				5
+			
+	Do you have experience working with SQL database? Do you have experience working with SQL database? 
+				Yes
+			
+	Do you have working experience with styled components, server-side rendering, and UI kits such as Ant Design (antd) ? Do you have working experience with styled components, server-side rendering, and UI kits such as Ant Design (antd) ? 
+				Yes
+	---------------------------------------------
