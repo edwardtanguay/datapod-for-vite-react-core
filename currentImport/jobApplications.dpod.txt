@@ -1680,4 +1680,7 @@ salaryFrom::0
 salaryTo::0
 earliestStartDate::
 closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Pigeon Technologies in general. I look forward to the opportunity to meet soon in a personal meeting.
-history::- 2024-06-16 16:41:25; creating...
+history::[[
+- 2024-06-16 16:41:25; created
+- 2024-06-16 17:04:14; sent via form
+]]
