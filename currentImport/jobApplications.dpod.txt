@@ -1492,3 +1492,112 @@ history::[[
 - 2024-06-16 10:10:27; created
 - 2024-06-16 10:30:25; sent to jobs@pdr.cloud
 ]]
+
+==jobApplication
+dpodId::YnEQ1t
+baseJobId::298
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-16 13:39:19
+skillTextsBlock::[[
+Must have: Angular oder React und NextJS.;frameworksLikeReact
+Gerne weitere Technologien, Frameworks und Tools wie: .Net, C#, SQL, Rest API;computerScienceDegreeOrSimilar
+Sehr gute Deutsch- und gute Englischkenntnisse;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei Maximago erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-16 13:39:19; created
+- 2024-06-16 13:45:25; sent via their form at https://maximago.factorialhr.de/200612/thanks
+]]
+
+==jobApplication
+dpodId::uXuDOv
+baseJobId::304
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-16 14:52:06
+skillTextsBlock::[[
+Technical Skills: Proficiency in NodeJS, TypeScript, MongoDB, and ReactJS. Experience with GraphQL is a plus.;javascriptTypeScriptFrontendBackend, node
+Testing Skills: Strong experience in developing and maintaining automated tests (unit, integration, end-to-end) to ensure code quality and reliability.;testing
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at Cognism in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-16 14:52:06; created
+- 2024-06-16 15:03:16; sent on LinkedIn form
+]]
+
+==jobApplication
+dpodId::OKo5uk
+baseJobId::299
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-16 15:03:29
+skillTextsBlock::[[
+Minimum 3 years of development using modern backend technology (including at least 2 years of Node.js + TypeScript);javascriptTypeScriptNodeBackend
+Experience with relational databases, preferably Aurora PostgreSQL;basicMernStackWithTypeScriptAws
+Familiarity with AWS;devops
+Excellent written and verbal communication skills in English, German is a bonus;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at SoSafe in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-16 15:03:29; created
+- 2024-06-16 15:28:41; sent via https://boards.eu.greenhouse.io/sosafe/jobs/4350470101/confirmation
+]]
+
+==jobApplication
+dpodId::oAY06E
+baseJobId::306
+referenceId::
+contactKind::company
+language::english
+letterDate::2024-06-16 15:29:11
+skillTextsBlock::[[
+Completed studies in the field of computer science, mathematics, physics or similar;javascriptTypeScriptNodeBackend
+Expertise in working with databases and familiarity with technologies such as React, Node.js;basicMernStackWithTypeScriptAws
+Openness for new technologies;enthusiasticTechnicalConcepts
+Great written and spoken English, German is a plus;germanEnglish
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::work@datatroniq.com
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::It would be my pleasure to learn more about the specific tasks of this position, current projects, your goals as a company, and the team culture at DATATRONiQ in general. I look forward to the opportunity to meet soon in a personal meeting.
+history::[[
+- 2024-06-16 15:29:11; created
+- 2024-06-16 15:37:33; sent application via email to work@datatroniq.com
+]]

@@ -120,6 +120,18 @@
     "processStatus": "rejected"
   },
   {
+    "id": 304,
+    "companyName": "Cognism Ltd.",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 306,
+    "companyName": "DATATRONiQ GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 0,
     "companyName": "Delivery Hero",
     "contactKind": "company",
@@ -408,6 +420,12 @@
     "processStatus": "active"
   },
   {
+    "id": 298,
+    "companyName": "Maximago GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 237,
     "companyName": "Medical Hair Company GmbH",
     "contactKind": "company",
@@ -674,6 +692,12 @@
   {
     "id": 249,
     "companyName": "Sopra Steria SE",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 299,
+    "companyName": "SoSafe GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
