@@ -4,3 +4,7 @@
 	70,000-100,000 per year
 	------------------------------------
 - ~companyName: Locoia GmbH
+- 2024-06-17 14:13:45; got email from Marcel Reinhardt <marcel.reinhardt@locoia.com> 
+	- Thank you for your informative application as a Sr. Full-Stack Engineer at Locoia :)
+	- job ad is here: https://join.com/companies/locoia/11634650-senior-full-stack-engineer-7-f-m-d-remote-germany-based
+- 2024-06-17 14:34:56; ~interviewing: Monday, Jun 24th, 16:00

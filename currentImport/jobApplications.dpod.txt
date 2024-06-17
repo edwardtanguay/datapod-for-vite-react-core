@@ -759,6 +759,7 @@ history::[[
 - 2024-06-04 15:30:43; created
 - 2024-06-05 12:07:57; sent via form, got message "Your application has been received and our team is working hard on reviewing it as soon as possible"
 - 2024-06-05 12:08:32; receive e-mail confirmation: "application has been received and our Talent team will review it shortly"
+- 2024-06-17 14:34:05; ~rejection: "have decided not to proceed with your application for the Staff Full Stack Engineer (m/w/d) position at charles"
 ]]
 
 ==jobApplication
@@ -1520,6 +1521,7 @@ closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Posi
 history::[[
 - 2024-06-16 13:39:19; created
 - 2024-06-16 13:45:25; sent via their form at https://maximago.factorialhr.de/200612/thanks
+- 2024-06-17 14:37:32; ~rejection: "andere Bewerber:innen dir einen kleinen Schritt voraus sind"
 ]]
 
 ==jobApplication

@@ -111,7 +111,7 @@
     "id": 233,
     "companyName": "Charles GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -405,7 +405,7 @@
     "id": 0,
     "companyName": "Locoia GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "interviewing"
   },
   {
     "id": 240,
@@ -435,7 +435,7 @@
     "id": 298,
     "companyName": "Maximago GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 237,
