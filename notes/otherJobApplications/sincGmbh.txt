@@ -12,7 +12,7 @@
 
 	Nach Deinem Studium oder Deiner Ausbildung im IT-Umfeld hast Du bereits mehrjährige Erfahrungen in der Entwicklung von Webanwendungen im Bereich .NET bzw. .NET Core.
 	Du verfügst über praktische Erfahrung mit Angular 15 oder höher und entwickelst am liebsten mit HTML, CSS und JavaScript.
-	Im Zusammenhang mit MS SQL und Entity Framework setzten wir GraphQL oder OData ein. Erfahrungen mit diesen Technologien erleichtern Dir den Einstieg bei uns.
+	...Im Zusammenhang mit MS SQL und Entity Framework setzten wir GraphQL oder OData ein. Erfahrungen mit diesen Technologien erleichtern Dir den Einstieg bei uns.
 	Du arbeitest strukturiert und eigenständig an Deinem Aufgabenbereich. Zur Mitgestaltung des Gesamtergebnisses tauschst Du Dich jedoch gerne mit dem Team aus und begleitest den Entwicklungsprozess von der Konzeption bis zum Roll-Out.
 	Manchmal bist auch Du das Sprachrohr zu unseren Kunden. Daher überzeugst Du durch sehr gute Deutschkenntnisse und eine klare Ausdrucksweise, mündlich wie auch schriftlich.
 
@@ -55,3 +55,4 @@
 	Meine Gehaltsvorstellung liegt zwischen 4.000,- € und 4.500,- € brutto monatlich.
 	Mein frühester Eintrittstermin ist der 01. August 2024.
 	------------------------------------------
+- 2024-06-17 11:19:15; ~interviewing: Friday, Jun 17, 13:00
