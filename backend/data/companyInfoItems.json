@@ -459,7 +459,7 @@
     "id": 0,
     "companyName": "Michael Page Fullstack React Node",
     "contactKind": "recruiter",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 257,
@@ -603,7 +603,7 @@
     "id": 279,
     "companyName": "Projektron GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -639,7 +639,7 @@
     "id": 258,
     "companyName": "Ratbacher GmbH",
     "contactKind": "recruiter",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 245,
@@ -806,7 +806,7 @@
   {
     "id": 0,
     "companyName": "We Match",
-    "contactKind": "company",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {

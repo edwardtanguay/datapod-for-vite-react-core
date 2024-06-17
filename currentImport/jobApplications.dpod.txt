@@ -495,6 +495,7 @@ history::[[
 - 2024-06-02 19:55:26; I received e-mail and verified my account: "Ihr Benutzeraccount wurde erfolgreich freigeschaltet"
 - 2024-06-02 19:56:30; logged in, worked well, they have my documents as well
 - 2024-06-02 19:58:09; got confirmation mail, they will report back by June 12th
+- 2024-06-17 10:17:56; ~rejection: "nicht in die engere Auswahl nehmen können"
 ]]
 
 ==jobApplication
@@ -1212,7 +1213,8 @@ closingParagraph::Durch die Beantwortung der oben genannten Anforderungen ist me
 history::[[
 - 2024-06-10 14:28:57; created
 - 2024-06-10 14:41:32; applied at the indeed website: "Ihre Bewerbung wurde gesendet"
-- 2024-06-10 14:41:45ñ received confirmation mail: "bitten wir Sie noch um etwas Geduld"
+- 2024-06-10 14:41:45; received confirmation mail: "bitten wir Sie noch um etwas Geduld"
+- 2024-06-17 10:20:39; ~rejection: "dass wir uns entschieden haben, uns auf andere Bewerber zu konzentrieren"
 ]]
 
 ==jobApplication

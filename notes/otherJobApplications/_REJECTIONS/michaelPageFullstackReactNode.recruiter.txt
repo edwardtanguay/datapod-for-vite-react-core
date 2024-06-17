@@ -5,3 +5,4 @@
 - 2024-06-15 20:41:42; got "Temporarily Unavailable, The website that you're trying to reach is having technical difficulties and is currently unavailable.  We are aware of the issue and are working hard to fix it. Thank you for your patience."
 - 2024-06-15 20:43:52; then again, got "Bewerbung erfolgreich, Ihre Angaben wurden bereits erfasst"
 - 2024-06-15 20:45:25; got email: "Ihre Bewerbung ist bei uns eingegangen"
+- 2024-06-17 09:32:27; ~rejection
