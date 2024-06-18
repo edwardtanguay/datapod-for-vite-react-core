@@ -1085,6 +1085,7 @@ history::[[
 - 2024-06-09 14:24:47; created
 - 2024-06-09 14:54:31; sent application via web form: "Vielen Dank für deine Bewerbung!"
 - 2024-06-09 14:55:00; email confirmation: "werden so schnell wie möglich wieder auf dich zukommen, solltest du nach vier Wochen noch nichts von uns gehört haben, melde dich gerne bei uns"
+- 2024-06-18 08:35:04; ~rejection: "we will not be moving forward with your application for this role"
 ]]
 
 ==jobApplication
