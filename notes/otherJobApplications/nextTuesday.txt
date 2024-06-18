@@ -1,0 +1,25 @@
+- 2024-06-17 23:47:10; Indeed
+	-----------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Do you speak English?
+		Yes
+	This is an employer-written question. You can report inappropriate questions to Indeed through the "Report Job" link at the bottom of the job description. "What's your English level?"
+		Native speaker
+	Do you speak PHP8?
+		Yes
+	Do you speak ReactJS?
+		Yes
+	Do you speak Laravel PHP framework?
+		Yes
+	This is an employer-written question. You can report inappropriate questions to Indeed through the "Report Job" link at the bottom of the job description. "Please briefly describe your experience level with Laravel framework."
+		I've been programming in PHP since 2005 and in Laravel for 2 years.
+	How many years of Web development experience do you have?
+		24
+
+	Relevante Berufserfahrung
+	Bearbeiten
+	PHP Software Developer
+	Meteogroup Deutschland GmbH (Berlin)
+	-----------------------------------------

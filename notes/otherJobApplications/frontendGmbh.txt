@@ -1,0 +1,3 @@
+- 2024-06-17 23:49:07; Indeed
+	- Laravel and React
+- ~companyName: Frontend GmbH

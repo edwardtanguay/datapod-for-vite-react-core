@@ -49,6 +49,12 @@
   },
   {
     "id": 0,
+    "companyName": "Amadeus Fire Php Entwickler",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Amicus",
     "contactKind": "company",
     "processStatus": "active"
@@ -126,6 +132,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Coinsbee",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 306,
     "companyName": "DATATRONiQ GmbH",
     "contactKind": "company",
@@ -142,6 +154,12 @@
     "companyName": "Deutsche Welle",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Developrec",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -194,6 +212,12 @@
   {
     "id": 0,
     "companyName": "Energize Group",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "English Language Centres",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -260,6 +284,12 @@
   {
     "id": 0,
     "companyName": "Foxley Talent Limited Germany",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Frontend GmbH",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -468,6 +498,12 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Morhane",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 250,
     "companyName": "Murrelektronik GmbH",
     "contactKind": "company",
@@ -487,6 +523,12 @@
   },
   {
     "id": 0,
+    "companyName": "Next Tuesday",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Next Ventures",
     "contactKind": "company",
     "processStatus": "active"
@@ -496,6 +538,12 @@
     "companyName": "Noir Consulting",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Ohlala",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -598,6 +646,12 @@
     "companyName": "PricewaterhouseCoopers GmbH",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Proactivity",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 279,
@@ -824,6 +878,12 @@
   {
     "id": 0,
     "companyName": "Wir Winzer",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Xappex LLC",
     "contactKind": "company",
     "processStatus": "active"
   },

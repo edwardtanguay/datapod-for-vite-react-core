@@ -1,0 +1,3 @@
+- 2024-06-17 23:19:47; LinkedIn
+	- they wanted Russian, I put conversational, other than that React, JavaScript, MySQL
+- ~companyName: Xappex LLC
