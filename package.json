@@ -12,7 +12,8 @@
 		"preview": "vite preview",
 		"pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
 		"sc": "git log --pretty=format:\"%h - %ad - %s (%an)\" -10 --date=format:\"%Y-%m-%d %H:%M:%S\"",
-		"sca": "git log --pretty=format:\"%h - %ad - %s (%an)\" --date=format:\"%Y-%m-%d %H:%M:%S\""
+		"sca": "git log --pretty=format:\"%h - %ad - %s (%an)\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
+		"test": "vitest"
 	},
 	"nodemonConfig": {
 		"watch": [
@@ -34,6 +35,8 @@
 		"react-dom": "^18.2.0",
 		"react-icons": "^5.2.1",
 		"react-router-dom": "^6.18.0",
+		"supertest": "^7.0.0",
+		"vitest": "^1.6.0",
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {
@@ -42,6 +45,7 @@
 		"@types/marked": "^5.0.1",
 		"@types/react": "^18.2.15",
 		"@types/react-dom": "^18.2.7",
+		"@types/supertest": "^6.0.2",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"@vitejs/plugin-react": "^4.0.3",
