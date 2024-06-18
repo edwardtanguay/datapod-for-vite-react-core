@@ -40,7 +40,7 @@ app.get("/appdata", (_req, res) => {
 		quickApplications: apptools.buildQuickApplications(),
 		overviewListText: apptools.buildOverviewListText()
 	};
-	res.status(200).json(appJsonData);
+	res.json(appJsonData);
 });
 
 app.get("/parse-etsite-data", (req, res) => {

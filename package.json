@@ -13,7 +13,7 @@
 		"pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
 		"sc": "git log --pretty=format:\"%h - %ad - %s (%an)\" -10 --date=format:\"%Y-%m-%d %H:%M:%S\"",
 		"sca": "git log --pretty=format:\"%h - %ad - %s (%an)\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
-		"test": "vitest"
+		"test": "vitest --ui"
 	},
 	"nodemonConfig": {
 		"watch": [
@@ -49,6 +49,7 @@
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"@vitejs/plugin-react": "^4.0.3",
+		"@vitest/ui": "^1.6.0",
 		"autoprefixer": "^10.4.16",
 		"chalk": "^5.3.0",
 		"concurrently": "^8.2.2",
