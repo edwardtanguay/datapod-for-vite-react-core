@@ -1,0 +1,24 @@
+- 2024-06-18 17:19:54; Indeed
+	--------------------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Was ist Ihr höchster Bildungsabschluss?
+		Master
+	Über wie viele Jahre Erfahrung in Backend Development verfügen Sie?
+		10
+	Über wie viele Jahre Erfahrung in Node.js verfügen Sie?
+		5
+	Über wie viele Jahre Erfahrung in TypeScript verfügen Sie?
+		5
+	Sprechen Sie Deutsch?
+		Ja
+	Sprechen Sie Englisch?
+		Ja
+
+	Relevante Berufserfahrung
+	Bearbeiten
+	Microsoft Consultant
+	Microsoft Deutschland GmbH
+	--------------------------------------------------
+- ~companyName: PDR.cloud

@@ -13,3 +13,4 @@
 	Do you live in Germany?Do you live in Germany?
 				Yes
 	-------------------------------------
+- 2024-06-18 14:44:40; ~rejection: "we have other candidates who are a closer match to our job specifications"

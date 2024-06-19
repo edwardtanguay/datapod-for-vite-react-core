@@ -13,3 +13,4 @@
 	Do you have working experience with styled components, server-side rendering, and UI kits such as Ant Design (antd) ? Do you have working experience with styled components, server-side rendering, and UI kits such as Ant Design (antd) ? 
 				Yes
 	---------------------------------------------
+- 2024-06-19 10:25:25; ~rejection: "we will not be moving forward with your application"

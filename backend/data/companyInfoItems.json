@@ -87,7 +87,7 @@
     "id": 0,
     "companyName": "Birdie",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -363,7 +363,7 @@
     "id": 0,
     "companyName": "Impax Recruitment",
     "contactKind": "recruiter",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 247,
@@ -549,7 +549,7 @@
     "id": 0,
     "companyName": "Omnevo",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 274,
@@ -602,6 +602,12 @@
   {
     "id": 303,
     "companyName": "PDF Cloud GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "PDR.Cloud",
     "contactKind": "company",
     "processStatus": "active"
   },
