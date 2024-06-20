@@ -1,4 +1,4 @@
-- 2024-06-19 10:19:27; LinkedIn
+- 2024-06-20 10:19:27; LinkedIn
 	----------------------------------------------
 	Additional
 	Will you require sponsorship now or in the future to be able to work in the country the role will be located? Will you require sponsorship now or in the future to be able to work in the country the role will be located? 
@@ -22,3 +22,4 @@
 	Work with team to manage risk effectively, provide visible and consistent leadership on Values and Code of Business Conduct and act where you see issues.
 	Experience using GCP or other cloud platforms, .NET Core, React JS Docker, k8s
 	----------------------------------------------
+- 2024-06-20 11:39:33; ~interviewing: got first interview 

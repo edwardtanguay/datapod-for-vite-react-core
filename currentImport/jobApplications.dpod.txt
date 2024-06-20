@@ -628,6 +628,7 @@ history::[[
 - info: they use [the Shape Up approach](https://basecamp.com/shapeup)
 - 2024-06-04 11:26:55; created
 - 2024-06-04 12:43:05; posted on web form, received message "Deine Bewerbung wurde erfolgreich eingereicht" and the e-mail confirmation said "We aim to get back to applicants within 2 weeks time frame."
+- 2024-06-20 11:54:53; ~rejection: "we will not be proceeding with you at this time"
 ]]
 
 ==jobApplication
