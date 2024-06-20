@@ -22,3 +22,4 @@
 	Microsoft Deutschland GmbH
 	--------------------------------------------------
 - ~companyName: PDR.cloud
+- 2024-06-19 12:31:14; ~rejection: "den Auswahlprozess mit anderen Kandidaten fortzusetzen"

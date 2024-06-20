@@ -607,15 +607,15 @@
   },
   {
     "id": 0,
-    "companyName": "PDR.Cloud",
+    "companyName": "PDR.cloud",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
     "companyName": "Peerplays",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -657,7 +657,7 @@
     "id": 0,
     "companyName": "Proactivity",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 279,
@@ -681,7 +681,7 @@
     "id": 0,
     "companyName": "Qubidu GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "interviewing"
   },
   {
     "id": 0,

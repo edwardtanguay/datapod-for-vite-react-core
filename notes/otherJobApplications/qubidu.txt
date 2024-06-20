@@ -23,3 +23,15 @@
 				Yes
 	---------------------------------------
 - ~companyName: Qubidu GmbH
+- 2024-06-20 07:43:13; ~interviewing: received email from Kati Muth - kati.muth@qubidu.com
+	----------------------------------------------------------
+	Thank you again for your application. 
+
+	I would like to schedule a meeting for more details. You shortly receive an invitation with a Zoom link.
+
+	Thank you once again for your interest in joining our company.
+
+	Have a nice day,
+	----------------------------------------------------------
+- their website: https://www.qubidu.com
+- 
