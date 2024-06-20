@@ -1,0 +1,15 @@
+- 2024-06-18 09:36:45; LinkedIn
+	------------------------------------------------
+	Additional Questions
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+    5+ years of experience as a professional JavaScript developer
+    In-depth knowledge of modern JavaScript concepts (ES6+, modules, promises, etc.)
+    Experience working with popular JavaScript frameworks (React, Angular, Vue.js preferred)
+    Strong understanding of web development fundamentals (HTML5, CSS3)
+    Experience with Node.js and backend development is a plus
+    Excellent problem-solving skills and a passion for crafting beautiful and efficient code
+    Ability to work independently and take ownership of projects
+    Strong communication and collaboration skills
+    A fluency in English (German is a plus)
+	------------------------------------------------

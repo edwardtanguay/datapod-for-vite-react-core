@@ -1,0 +1,18 @@
+- 2024-06-18 09:18:06; LinkedIn
+	----------------------------------------
+	Additional Questions
+	How many years of work experience do you have with Node.js?How many years of work experience do you have with Node.js?
+				5
+			
+	How many years of work experience do you have with TypeScript?How many years of work experience do you have with TypeScript?
+				4
+			
+	How many years of work experience do you have with NestJS?How many years of work experience do you have with NestJS?
+				1
+			
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+			
+	Are you currently located in Germany?Are you currently located in Germany?
+				Yes
+	----------------------------------------

@@ -385,6 +385,12 @@
   },
   {
     "id": 0,
+    "companyName": "InterEx Group",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "International Organization For Migration",
     "contactKind": "company",
     "processStatus": "active"
@@ -422,6 +428,12 @@
   {
     "id": 292,
     "companyName": "Keaz GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Kore",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -720,6 +732,12 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Rebel Recruiting",
+    "contactKind": "recruiter",
+    "processStatus": "active"
+  },
+  {
     "id": 245,
     "companyName": "Root Global GmbH",
     "contactKind": "company",
@@ -852,8 +870,20 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Testq Technologies Limited",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 217,
     "companyName": "th data GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "The Rec Hub",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -926,6 +956,12 @@
   {
     "id": 0,
     "companyName": "Xappex LLC",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Xcede Group",
     "contactKind": "company",
     "processStatus": "active"
   },

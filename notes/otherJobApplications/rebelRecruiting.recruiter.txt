@@ -1,0 +1,21 @@
+- 2024-06-18 09:38:33; LinkedIn
+	----------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: React.js?Wie viele Jahre Erfahrung haben Sie mit: React.js?
+				5
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Node.js?Wie viele Jahre Erfahrung haben Sie mit: Node.js?
+				5
+			
+	Wie viele Jahre Erfahrung haben Sie mit: JavaScript?Wie viele Jahre Erfahrung haben Sie mit: JavaScript?
+				25
+			
+	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
+				Muttersprache oder zweisprachig
+    Du arbeitest gerne eigenständig in agilen Teams und bringst frische Ideen ein 
+    Du bist offen, engagiert und traust Dich auch über den Tellerrand hinauszublicken 
+    Du besitzt mehrjährige Erfahrung mit Node.js, React und SQL und gehst sicher mit JavaScript um (idealerweise mit TypeScript) 
+    Du hast einen Blick für saubere Architekturen und Schnittstellen 
+    Du perfektionierst Deine Arbeit mit Hilfe von UnitTests & Co. und nutzt GIT, um mit Deinem Team in sync zu bleiben 
+    Deutsch mindestens B2 
+	----------------------------------------

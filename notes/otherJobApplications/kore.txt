@@ -1,0 +1,13 @@
+- 2024-06-18 09:27:26; LinkedIn
+	-------------------------------------
+	1-3 years of hands-on experience in frontend development.
+	Strong understanding of React.js and its core principles.
+	Experience with data structure concepts and libraries.
+	Experience with RESTful APIs.
+	Proficient understanding of web markup, including HTML5, CSS3.
+	Familiarity with AWS services such as S3, EC2, RDS, and Lambda, and understanding how to integrate these into a scalable frontend architecture.
+	Proficient understanding of client-side scripting and JavaScript frameworks, including jQuery.
+	Proficient understanding of cross-browser compatibility issues and ways to work around them.
+	Proficient understanding of code versioning tools, such as Git.
+	A Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent practical experience.
+	-------------------------------------
