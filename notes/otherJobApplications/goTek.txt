@@ -1,0 +1,34 @@
+- 2024-06-19 10:13:35; LinkedIn
+	---------------------------------------
+	Additional Questions
+	How many years of work experience do you have with Node.js?How many years of work experience do you have with Node.js?
+				5
+			
+	How many years of work experience do you have with TypeScript?How many years of work experience do you have with TypeScript?
+				4
+			
+	How many years of work experience do you have with Amazon Web Services (AWS)?How many years of work experience do you have with Amazon Web Services (AWS)?
+				1
+			
+	Are you legally authorized to work in Germany?Are you legally authorized to work in Germany?
+				Yes
+
+	Responsibilities include: 
+
+		Develop new features to help modernise Webshops & E-Commerce systems.
+		Support decisions across Software Architecture to ensure optimal scalability, reliability & availability of the Marketplace platform.
+		Combine several individual solutions into one large-scale solution to provide a seamless customer experience.
+		Develop & mentor Junior Engineers, teaching them best practices. 
+
+	Technical Requirements: 
+
+	Programming: TypeScript, Node.js, Javascript
+
+	Public Cloud: Amazon Web Services (AWS)
+
+	Containers: Kubernetes, Docker
+
+	Databases: PostgreSQL
+
+	CI/CD: Git, Jenkins, GitHub Actions
+	---------------------------------------

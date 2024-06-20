@@ -1,0 +1,30 @@
+- 2024-06-19 09:55:03; LinkedIn
+	---------------------------------------------
+	Additional Questions
+	How many years of work experience do you have with Vue.js?How many years of work experience do you have with Vue.js?
+				4
+			
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+			
+	How many years of work experience do you have with JavaScript?How many years of work experience do you have with JavaScript?
+				25
+			
+	What is your level of proficiency in German?What is your level of proficiency in German?
+				Native or bilingual
+			
+	What is your level of proficiency in English?What is your level of proficiency in English?
+				Native or bilingual
+
+    Du verfügst über ein abgeschlossenes Studium oder über eine fachspezifische Ausbildung im IT-Umfeld
+    Du hast sehr gute Kenntnisse und mehrere Jahre Erfahrung in HTML/CSS, JavaScript/TypeScript und mindestens einem modernen JavaScript Bibliothek wie React, Angular, Vue o.Ä.
+    Du bist vertraut mit agilen Entwicklungsansätzen und -methoden, Clean Code und TDD
+    Du bist lösungsorientiert, strukturiert, engagiert und kommunikativ
+    Du hast Erfahrung in der Arbeit mit Web Components, Responsive Design, Microservices, REST-API sowie CI/CD
+    Idealweise hast Du bereits E-commerce Erfahrung mit shopware
+    Du arbeitest gerne im Team an komplexen Aufgaben und motivierst Dich und Deine Kollegen
+    Du suchst zusammen mit unseren Kunden und Deinem Team nach effizienten Lösungsansätzen, um das bestmögliche Ergebnis zu erzielen
+    Du bildest Dich gerne fort und teilst Dein Know-How im Team
+    Du hast eine hohe digitale Affinität und Spaß daran, Dich mit neuen Technologien zu beschäftigen
+    Du arbeitest ergebnisorientiert und unternehmerisch und bringst Dich und NETFORMIC damit weiter
+	---------------------------------------------

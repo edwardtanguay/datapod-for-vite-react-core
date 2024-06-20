@@ -1,0 +1,46 @@
+- 2024-06-18 10:09:03;LinkedIn
+	-----------------------------------------------------
+	Additional Questions
+	How many years of work experience do you have with JavaScript?How many years of work experience do you have with JavaScript?
+				25
+			
+	How many years of work experience do you have with HTML5?How many years of work experience do you have with HTML5?
+				10
+			
+	How many years of work experience do you have with Angular?How many years of work experience do you have with Angular?
+				2
+			
+	Are you legally authorized to work in Germany?Are you legally authorized to work in Germany?
+				Yes
+			
+	Will you now or in the future require sponsorship for employment visa status?Will you now or in the future require sponsorship for employment visa status?
+				No
+	About the job
+
+		You are responsible for designing and implementing new software components for the complex web development of our physician information system based on Angular and TypeScript
+		You implement user stories in codes, templates and style sheets using the latest web technologies such as HTML5, CSS3, etc. 
+		You comprehensively secure your results via unit tests and defensive programming techniques
+		You are responsible for all baseline testing and developer-facing documentation by using Jira and Confluence
+		You support the technical lead of the frontend development and work in international teams
+
+	What we expect:
+
+		5+ years of senior work experience with Angular 11+
+		Excellent knowledge of Typescript and JavaScript ES5+
+		Expert in working with CSS pre-processors - Less or Sass
+		Proficient with API-first approach
+		Exceptional technical leadership skills
+		Able to show us architectural designs that you have made
+		Can explain your approach well to both technical and non-technical personnel
+		Proactive in project planning, having long term vision of the project
+		You have been the go-to person for other teammates in your past projects
+		Ability to take ownership
+		High level of problem-solving skills
+		Mentorship for juniors
+		Team’s workflow coordination
+		Understanding of the business values
+		Functional programming
+		Designing responsive layouts
+		Good understanding of the Agile mindset 
+		Exceptional verbal, written, and presentation skills in English.
+	-----------------------------------------------------

@@ -1,4 +1,4 @@
-- 2024-06-20 09:32:04; LinkedIn
+- 2024-06-19 09:32:04; LinkedIn
 	-------------------------------------------
 	Experience in AWS, Typescript, NodeJS, React, Redis etc.
 	Preferably a full-stack developer with high level of experience in Integration with AWS.

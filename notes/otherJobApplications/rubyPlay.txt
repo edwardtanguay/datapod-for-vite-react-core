@@ -1,4 +1,4 @@
-- 2024-06-20 09:07:09; their web application form: https://rubyplay.talentlyft.com/jobs/game-framework-developer-typescript-HoK
+- 2024-06-19 09:07:09; their web application form: https://rubyplay.talentlyft.com/jobs/game-framework-developer-typescript-HoK
 	---------------------------------------------
 	As a Game Framework Developer you will be involved in developing as well as supporting our game framework and related products.
 

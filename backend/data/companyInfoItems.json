@@ -306,6 +306,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Go Tek",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 281,
     "companyName": "GoEuro Corp.",
     "contactKind": "company",
@@ -530,6 +536,12 @@
   {
     "id": 0,
     "companyName": "MVP Match Company",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Netformic Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -810,6 +822,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Solutions Driven",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 249,
     "companyName": "Sopra Steria SE",
     "contactKind": "company",
@@ -838,6 +856,12 @@
     "companyName": "Stolzberger GmbH",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Sykell",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
