@@ -1,0 +1,13 @@
+- 2024-06-19 08:30:03; LinkedIn
+	-----------------------------------------
+	Perguntas adicionais
+	Há quantos anos você já usa .NET Core no trabalho?Há quantos anos você já usa .NET Core no trabalho?
+				7
+			
+	Há quantos anos você já usa React.js no trabalho?Há quantos anos você já usa React.js no trabalho?
+				5
+			
+	Qual seu nível de proficiência em Inglês?Qual seu nível de proficiência em Inglês?
+				Nativo ou bilíngue
+	-----------------------------------------
+- ~companyName: PrimeIT

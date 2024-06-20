@@ -1,0 +1,44 @@
+- 2024-06-20 09:07:09; their web application form: https://rubyplay.talentlyft.com/jobs/game-framework-developer-typescript-HoK
+	---------------------------------------------
+	As a Game Framework Developer you will be involved in developing as well as supporting our game framework and related products.
+
+	What will you be responsible for?
+
+		Take part in analyzing business requirements and propose technical solutions
+		Collaborate with the team and other stakeholders
+		Identify and resolve technical debt
+		Create new products and futures as well as maintain existing products
+
+	What do we expect from our perfect candidate?
+
+		Game development experience, developing game frameworks is a big advantage
+		Slot experience is a big advantage
+		4+ years of experience with TypeScript or JavaScript (ES5/ES6+), HTML5, CSS3
+		Experience with Pixi.js and/or Phaser, Spine
+		Knowledge of JavaScript ecosystem tools, such as webpack, npm, yarn
+		OOP, Design patterns, SOLID
+		Understanding CI/CD processes, experience with Git or similar tools
+
+	Will be a plus
+
+		Experience with Node.js
+
+	Other skills:
+
+		English (Upper Intermediate and higher)
+		Ability to work and collaborate in the team
+		Openness to give and receive feedback
+		Good prioritization and estimation skills
+
+	Benefits of working with us:
+
+		Talented and open people around
+		Challenging tasks to feel the impact
+		Budget for personal development 
+		Well-being Budget
+		Annual bonus
+		Medical insurance
+		Development day to grow professionally
+		Free English classes
+		Paid vacation days/paid sick leaves (number depends on the country you live in)
+	---------------------------------------------

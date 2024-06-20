@@ -13,3 +13,4 @@
 	Do you live in Germany and have an EU work permit?Do you live in Germany and have an EU work permit?
 				Yes
 	--------------------------------------------
+- 2024-06-20 09:14:53; ~rejection: "we will not be moving forward with your application"

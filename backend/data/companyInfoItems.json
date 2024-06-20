@@ -67,6 +67,12 @@
   },
   {
     "id": 0,
+    "companyName": "Andela",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Asbis",
     "contactKind": "company",
     "processStatus": "active"
@@ -517,6 +523,12 @@
   },
   {
     "id": 0,
+    "companyName": "Neunen",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Next Engineering Portugal",
     "contactKind": "company",
     "processStatus": "active"
@@ -655,6 +667,12 @@
   },
   {
     "id": 0,
+    "companyName": "PrimeIT",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Proactivity",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -675,7 +693,7 @@
     "id": 0,
     "companyName": "Qtech",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -704,6 +722,12 @@
   {
     "id": 245,
     "companyName": "Root Global GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Ruby Play",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -835,6 +859,12 @@
   },
   {
     "id": 0,
+    "companyName": "Trilogy",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Vass Spain",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -880,6 +910,12 @@
     "companyName": "wefox Germany GmbH",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Who Moves",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,

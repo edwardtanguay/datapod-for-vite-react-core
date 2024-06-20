@@ -1,0 +1,18 @@
+- 2024-06-19 08:41:08; LinkedIn
+	--------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: Full-Stack-Entwicklung?Wie viele Jahre Erfahrung haben Sie mit: Full-Stack-Entwicklung?
+				20
+			
+	Wie viele Jahre Erfahrung haben Sie mit: React Native?Wie viele Jahre Erfahrung haben Sie mit: React Native?
+				1
+			
+	Wie viele Jahre Erfahrung haben Sie mit: TypeScript?Wie viele Jahre Erfahrung haben Sie mit: TypeScript?
+				4
+			
+	Wie gut beherrschen Sie Englisch?Wie gut beherrschen Sie Englisch?
+				Muttersprache oder zweisprachig
+			
+	How many years experience do you have with Go?How many years experience do you have with Go?
+				1
+	--------------------------------------
