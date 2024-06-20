@@ -1,0 +1,14 @@
+- 2024-06-20 10:27:01; applied on their site: https://btc-echo-gmbh.jobs.personio.de/thank-you/374266
+	-----------------------------------
+	Du solltest du nicht nur ein Profi in deinem Bereich sein, sondern auch den Ehrgeiz haben, deine eigenen Ideen proaktiv einzubringen und so gemeinsam mit uns die Zukunft des Unternehmens zu gestalten. Du findest dich hier wieder? Dann freuen wir uns, von dir zu hören! 
+
+	Erfahrungen in der Projektarbeit: Du hast bereits Erfahrungen bei der Planung und Umsetzung von größeren Projekten gesammelt.
+	Programmierkenntnisse: Du beherrschst Programmiersprachen oder Technologien wie Javascript, Python, Kotlin, React, Next.js, Tailwind CSS.
+	Weitere Technologien: Du fühlst dich sicher im Umgang mit Node.js/TypeScript, Angular, Ionic, Capacitor und PHP.
+	Webentwicklung: Du hast sehr gute HTML5 und CSS3 Kenntnisse.
+	Systemintegration: Anbindung und Steuerung von Fremdsystemen durch z.B. REST APIs beherrschst du im Schlaf.
+	Spezialkenntnisse: Idealerweise hast du bereits Erfahrungen mit Sanity (CMS) und Supabase sammeln können.
+	Neue Technologien: Du bist bereit, dich in diverse Blockchain und KI-Anwendungen einzuarbeiten.
+	Sprachkenntnisse: Du hast sehr gute Deutsch- und Englischkenntnisse.
+	Arbeitsweise und Soft Skills: Du hast eine hohe eigenverantwortliche und strukturierte Arbeitsweise, sowie eine ausgeprägte Team- und Kommunikationsfähigkeit.
+	-----------------------------------

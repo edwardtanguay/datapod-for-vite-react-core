@@ -1,0 +1,24 @@
+- 2024-06-19 10:19:27; LinkedIn
+	----------------------------------------------
+	Additional
+	Will you require sponsorship now or in the future to be able to work in the country the role will be located? Will you require sponsorship now or in the future to be able to work in the country the role will be located? 
+				No
+			
+	I confirm that all information I have provided in this application is true and accurate'I confirm that all information I have provided in this application is true and accurate'
+				Yes
+			
+	Have you worked at dunnhumby before? Have you worked at dunnhumby before? 
+				No
+			
+	What best describes your genderWhat best describes your gender
+				Male
+	Eager to learn the new technology and business domain. Moderate experience on designing and architecting applications based on microservices.
+	Fullstack programming experience in both frontend technologies using JavaScript/React and backend technologies using .NET/C#. Experience on Google Cloud is an advantage.
+	Define and develop solutions to complex problems that arise ensuring standards are fully met and best practice is adhered to.
+	Participate on the requirement discussions, ask clarifying questions and build suitable solutions. Influence the team software architecture through team discussions.
+	Develop and deploy applications, components, software, platforms or services that are used at scale and contribute to significant performance or business value (e.g. core components that are used across teams, POCs,…).
+	Collaborate with the team on creating clear standards, tools and technical guidelines in line with the department’s strategy, policies and client obligations etc.
+	Collaborate with internal and external technical stakeholders including product owners, commercial and business stakeholders and product consumers.
+	Work with team to manage risk effectively, provide visible and consistent leadership on Values and Code of Business Conduct and act where you see issues.
+	Experience using GCP or other cloud platforms, .NET Core, React JS Docker, k8s
+	----------------------------------------------
