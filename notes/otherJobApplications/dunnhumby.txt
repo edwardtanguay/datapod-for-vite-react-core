@@ -23,3 +23,4 @@
 	Experience using GCP or other cloud platforms, .NET Core, React JS Docker, k8s
 	----------------------------------------------
 - 2024-06-20 11:39:33; ~interviewing: got first interview 
+	- here is the job ad: https://www.dunnhumby.com/jobs?gh_jid=5790592003

@@ -1,4 +1,4 @@
-- 2024-06-19 08:41:08; LinkedIn
+- 2024-06-20 08:41:08; LinkedIn
 	--------------------------------------
 	Weitere Fragen
 	Wie viele Jahre Erfahrung haben Sie mit: Full-Stack-Entwicklung?Wie viele Jahre Erfahrung haben Sie mit: Full-Stack-Entwicklung?
@@ -16,3 +16,5 @@
 	How many years experience do you have with Go?How many years experience do you have with Go?
 				1
 	--------------------------------------
+- 2024-06-21 09:34:12; message from Timo Gatta to apply for this job here: https://whomoves.de/jobs/5830615f-47fd-407e-9d23-8cb6f6c276b2
+	- also it says: We are searching for talented Full-Stack Developers (f/m/d) proficient in Go and TypeScript to join our dynamic team in Bochum and the surrounding area.

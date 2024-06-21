@@ -1578,6 +1578,7 @@ closingParagraph::It would be my pleasure to learn more about the specific tasks
 history::[[
 - 2024-06-16 15:03:29; created
 - 2024-06-16 15:28:41; sent via https://boards.eu.greenhouse.io/sosafe/jobs/4350470101/confirmation
+- 2024-06-21 15:21:28; ~rejection: "we have chosen to continue with other candidates"
 ]]
 
 ==jobApplication

@@ -27,7 +27,7 @@
     "id": 0,
     "companyName": "Almeda",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 215,
@@ -308,6 +308,12 @@
   {
     "id": 0,
     "companyName": "Frontend GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Funded Club",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -855,7 +861,7 @@
     "id": 299,
     "companyName": "SoSafe GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 264,
