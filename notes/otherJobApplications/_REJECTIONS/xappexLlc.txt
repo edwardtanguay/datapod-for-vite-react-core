@@ -1,3 +1,4 @@
 - 2024-06-17 23:19:47; LinkedIn
 	- they wanted Russian, I put conversational, other than that React, JavaScript, MySQL
 - ~companyName: Xappex LLC
+- 2024-06-21 06:58:39; ~rejection: we will not be moving forward with your application
