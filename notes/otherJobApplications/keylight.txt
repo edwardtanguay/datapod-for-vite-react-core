@@ -1,0 +1,10 @@
+- 2024-06-21 07:35:43; Indeed
+	-----------------------------------
+	https://de.indeed.com/viewjob?jk=2e2643f23d9a2dc6
+
+	Bachelor’s degree in Computer Science, Engineering, or a related field.
+	At least 5 years of experience in backend development, with a strong proficiency in Node.js.
+	Experience with Salesforce development, although not necessarily specialized.
+	Knowledge of databases (SQL and NoSQL), and web servers (e.g., Apache) design.
+	Strong understanding of the full software development lifecycle.
+	-----------------------------------

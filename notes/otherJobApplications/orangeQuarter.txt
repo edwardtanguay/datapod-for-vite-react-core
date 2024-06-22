@@ -1,0 +1,7 @@
+- 2024-06-20 07:09:33; applied on their site
+	-------------------------------------------------------
+	5+ years of experience working with JavaScript and Typescript.
+	Profficient in working with React and Node.
+	Start-up experience.
+	Comfortable working with AWS or other cloud platforms.
+	-------------------------------------------------------

@@ -1,0 +1,7 @@
+- 2024-06-20 07:28:59; linkedIn
+	-----------------------------------------------
+	Profound experience with React and Typescript
+	Experience working in agile, cross functional teams
+	Strong English Communication skills.
+	Experience with backend Development would be nice to have (Go or Node)
+	-----------------------------------------------

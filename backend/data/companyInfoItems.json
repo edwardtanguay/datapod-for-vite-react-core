@@ -162,6 +162,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Denkwerk Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 213,
     "companyName": "Deutsche Welle",
     "contactKind": "company",
@@ -274,6 +280,12 @@
     "companyName": "Fact Finder",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Factor Eleven",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 272,
@@ -474,6 +486,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Keylight",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 307,
     "companyName": "Klarna Bank AB",
     "contactKind": "company",
@@ -625,6 +643,12 @@
   },
   {
     "id": 0,
+    "companyName": "Oliver Bernard",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Omnevo",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -668,6 +692,12 @@
   {
     "id": 0,
     "companyName": "Orange Logic France",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Orange Quarter",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -987,6 +1017,12 @@
     "id": 0,
     "companyName": "Verivox",
     "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Versterling Nnn",
+    "contactKind": "recruiter",
     "processStatus": "active"
   },
   {

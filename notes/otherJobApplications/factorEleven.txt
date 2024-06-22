@@ -1,0 +1,68 @@
+- 2024-06-20 06:58:55; signed up on their site
+	-----------------------------------------
+	answered these questions like this:
+
+	> Describe the principles of an event-driven architecture. Which approach would you use to communicate among decoupled services?
+
+	Event-driven architecture is a software design pattern in which decoupled services or components communicate by emitting and responding to events. To communicate with decoupled services one typically uses a message broker or an event bus, e.g. Apache Kafka, RabbitMG, Google Pub/Sub, etc.
+
+	> Describe what a Promise is in Node.js. Do you know at least two ways to wait for the completion of a Promise?
+
+	A promise in Node.js is an object representing the eventual completion or failure of an asynchronous operation and its resulting value. To wait for the completion of a promise, you can either use the then/catch or async/await syntax.
+
+	YOUR RESPONSIBILITIES
+
+		Developing and maintaining microservices and back-end components.
+		Ensuring optimal performance of databases and responsiveness to front-end requests.
+		Collaborating with developers, product owners and stakeholders on the design and integration of elements.
+		Developing high-performance applications by writing testable, reusable, and efficient code.
+		Implementing effective security protocols, data protection measures, and storage solutions.
+		Running diagnostic tests, repairing defects, and providing technical support.
+		Documenting server-side processes, including database schemas, message events and sagas, as well as preparing reports.
+		Recommending and implementing improvements to processes and technologies.
+		Keeping informed of advancements in the field of Node.js, AWS and related development.
+		Participate in code and technical design reviews
+		Write and review tasks and estimate workloads for yourself and others
+		Provide mentorship and technical supervision to team-members
+
+
+	YOUR PROFILE
+
+
+		5+ years experience as Backend Engineer or similar role..
+		Strong proficiency of NodeJS with TypeScript, web stacks, libraries, and frameworks.
+		Working knowledge of front-end technologies such as HTML5 and CSS3.
+		Experience with user authentication and authorization between multiple systems, servers, and environments.
+		High familiarity with fundamental design principles behind scalable applications.
+		Creating database schemas that represent and support business processes.
+		Good knowledge of event-driven architecture, message busses, and/or pub/sub-systems.
+		Proven expert knowledge Implementing automated testing platforms and unit tests.
+		Superb interpersonal, communication, and collaboration skills.
+		Exceptional analytical and problem-solving aptitude.
+		Great organizational and time management skills.
+		Excellent familiarity with git, npm, docker and Jira
+		Great Troubleshooting skills
+		Good project management skills
+		Extensive experience in mentoring teammates in a respectful, educative manner
+
+
+	WHY US?
+
+
+	Factor Eleven's tech department is the inhouse tech scale-up responsible for our SaaS product suite offering localized digital advertising to enterprises of all sizes and shapes. We're powering the engine that Factor Eleven is successfully built upon and elevate the possibilities of our product on a daily basis. In 2022 we've scaled up, literally doubled in headcount and in 2023 we'll double again. We're working together to fulfill our ambitions as a top ad-tech provider by continuously leveling up the quality and expanding capabilities of the entire platform, as well as our engineering and product organization.
+
+	Join our amazing team in our mission to move digital localized advertisement forward and enjoy the freedom, camaraderie and perks of our fully remote operations.
+
+
+	OUR PERKS & BENEFITS
+
+
+		Transparent, above-market salaries
+		100% remote within Europe
+		Flexible work-hours and part-time models
+		Be part of a fast-growing, highly-skilled team
+		In person department and company events
+		Home office, co-working space and work-together allowance
+		Personal and professional development courses from Udemy
+		Case by case relocation and visa support
+	-----------------------------------------

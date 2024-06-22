@@ -1,0 +1,26 @@
+- 2024-06-21 07:39:57; Indeed
+	------------------------------------------
+	Telefon
+	+49 179 66 486 04
+	Ort
+	Berlin
+	Verfügbar ab
+	01.08.2024
+	Gehaltsvorstellung
+	zwischen 4.000,- € und 4.500,- € brutto monatlich
+	Link (Portfolio / GitHub / usw.)
+	https://tanguay-eu.vercel.app/howtos
+
+	Wer uns fehlt, bist du!
+
+	Wir suchen Entwickler:innen, die bestehende Legacy-Systeme in moderne Software-Architektur verwandeln
+	Du bringst fundierte Berufserfahrung von mindestens 4-5 Jahren im Agenturen- oder IT Umfeld mit
+	Du bist mit modernen Frontend-Frameworks (wie z.B. NextJS, NuxtJS, Vue, SvelteKit) vertraut
+	Dabei verfolgst du aktuelle Entwicklungen zu SSR (Server-Side Rendering) und CSR (Client-Side Rendering) und kennst die Vor- und Nachteile beider Ansätze
+	Du hast sowohl die Erfahrung mit klassischen CMS-Systemen (TYPO3 o.ä.), als auch mit modernen Headless-CMS (Storyblok, Contentful, Strapi o.ä.)
+	Du weißt, wie CI-/CD-Pipelines funktionieren und nutzt sie, um deinen Arbeitsalltag leichter zu machen
+	Du kennst dich mit der Entwicklung von APIs oder Backend-for-Frontends aus
+	Du bringst ein agiles Mindset mit und hast Spaß, mit anderen Entwickler:innen die beste Lösung zu finden
+	Du arbeitest gern in flachen Hierarchien und hast Freude daran, juniorige Kolleg:innen bei ihrer Weiterentwicklung zu unterstützen
+	Du hast sehr gute Deutsch- und Englischkenntnisse
+	------------------------------------------
