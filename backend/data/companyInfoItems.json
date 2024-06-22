@@ -193,6 +193,12 @@
   },
   {
     "id": 0,
+    "companyName": "Doctari Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Dots Gesellschaft",
     "contactKind": "company",
     "processStatus": "active"
@@ -314,6 +320,12 @@
   {
     "id": 0,
     "companyName": "Funded Club",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 308,
+    "companyName": "Funded.club",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -458,6 +470,12 @@
   {
     "id": 292,
     "companyName": "Keaz GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 307,
+    "companyName": "Klarna Bank AB",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -774,6 +792,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Reliant",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 245,
     "companyName": "Root Global GmbH",
     "contactKind": "company",
@@ -788,6 +812,12 @@
   {
     "id": 0,
     "companyName": "Salufast GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Secfix",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -973,6 +1003,12 @@
   },
   {
     "id": 0,
+    "companyName": "Visible",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "We Match",
     "contactKind": "recruiter",
     "processStatus": "active"
@@ -992,6 +1028,12 @@
   {
     "id": 0,
     "companyName": "Who Moves",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Why Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },

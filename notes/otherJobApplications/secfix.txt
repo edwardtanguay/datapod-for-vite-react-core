@@ -1,0 +1,34 @@
+- 2024-06-20 06:35:57; signed up on their site
+	----------------------------------------
+	https://jobs.ashbyhq.com/secfix/5fb6a5f1-7d19-4e39-b415-648e59049de9?utm_source=linkedinpaid
+
+	About you
+
+	You’re a technical expert, with strong JavaScript, TypeScript, and CSS fundamentals and extensive hands-on experience with Angular. You have experience designing and building scalable front-end architecture.
+
+	You have a proven track record of managing front-end teams and you’re moving your career in this direction, using your strong interpersonal skills and natural empathy to foster a collaborative, outcome-oriented engineering culture. You will collaborate with the CTO, CEO, CSMs, Sales, and Design daily.
+
+	You have an owner mindset, iterating and taking pride in owning customer-facing features from ideas to going live fast. You strive for great visuals and usability. You’ll always go the extra mile for customers and your teammates, coordinating across functions to cut through the noise and deliver the right solution to the right problem, without getting lost in the details. You are obsessive about the design and have high standards.
+
+	You thrive in the startup world, having gained experience in this fast paced, agile environment, ideally as an early engineer in a startup. You’ll recognise the need for flexibility and a hands-on approach. You don’t wait for a product manager to create a ticket, you pick it up yourself, fix it, test it, and then mentor others to do it better.
+
+	You’re passionate about sharing knowledge and championing new technologies.
+
+	Role responsibilities
+
+	As above, this role will be 90% individual contribution (IC) and 10% management. However, we anticipate the management aspect growing to 40% within approximately 6-12 months, with the potential for this to increase as we scale.
+
+	You'll be the go-to person for all things 'Front End,' taking full ownership and collaborating with the CTO to set technical direction. Working closely with product and design teams, you'll shape and design features for both new and existing products.
+
+	Your main responsibilities on the individual contributor side will include designing, developing, and maintaining user-facing features using Angular and TypeScript, with a focus on creating visually stunning and scalable UI components. Additionally, you'll improve the frontend architecture, prioritising pragmatic solutions suited to our current development stage.
+
+	On the management side, you'll spearhead hiring - working with our Head of People to scale a first-class engineering team. You’ll develop the existing team, conducting 1:1s, providing mentorship, and enabling a culture of continuous learning and collaboration. You’ll ensure clean code through extensive code reviews. You’ll establish and promote Secfix engineering culture.
+
+	At all times you’ll live by and champion, our values:
+	- We are obsessed with our customers. 
+	- We build smart. 
+	- We create trust.
+	- We are hacky. 
+	- We take ownership. 
+	- We are leaders of remote. 
+	----------------------------------------

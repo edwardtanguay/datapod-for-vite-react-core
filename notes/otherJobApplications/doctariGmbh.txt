@@ -1,0 +1,19 @@
+- 2024-06-22 06:21:55; signed up at their site: https://karriere.doctarigroup.com/offer/senior-software-engineer-f-m-d
+	-----------------------------------------
+	DEINE NEUE ROLLE
+
+		Develop a platform where doctors and nurses can search for jobs and manage their data such as documents and contracts.
+		You will work in a cross-functional team and focus on the development of our frontend and backend applications.
+		Help us to establish a DevOps Culture of monitoring, observability, security and continuous improvement.
+		Work with fellow engineers to refine our architecture, drive technical topics, and share knowledge across the tech organization.
+
+	DEINE ERFAHRUNG & PERSÖNLICHKEIT
+
+		You bring along fundamental experience in TypeScript.
+		You have 5+ years of experience architecting distributed systems with Node.js and React.
+		You understand the principles of AWS and Infrastructure as a Code. (CDK)
+		You have hands-on experience with CI/CD and automated testing. (github actions, Jest, Cypress)
+		You care about clean code and a clean architecture that is easy to change.
+		You have a hands-on mentality and a pragmatic mindset and are open to learn new things.
+		You are fluent in English.
+	-----------------------------------------

@@ -34,4 +34,7 @@
 	Have a nice day,
 	----------------------------------------------------------
 - their website: https://www.qubidu.com
-- 
+- job ad: https://www.linkedin.com/jobs/view/full-stack-developer-at-qubidu-gmbh-3946156761
+	- Next.js
+	- Go
+	- ArangoDB

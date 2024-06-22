@@ -112,7 +112,7 @@
 		"german": "In den 90er Jahren habe ich schon datenbankbasierte Websites für Universitätsprojekte erstellt. Seit meinem Einstieg bei Microsoft im Jahr 2001 habe ich als Fullstack Entwickler für verschiedene Unternehmen auf unterschiedlichen Technologieplattformen gearbeitet, u.a. .NET/C# und die LAMP- und MERN-Stacks."
 	},
 	"javascriptJava": {
-		"english": "I have been using JavaScript for application development since the early 2000s with the advent of AJAX which enabled websites to communicate directly with the server. I have taken university courses in Java in which we completed projects with Java using Eclipse. The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
+		"english": "I have been using JavaScript for application development since the early 2000s with the advent of AJAX which enabled websites to communicate directly with the server. I have taken university courses in Java in which we completed projects with Java using Eclipse. The syntax and OOP structure of Java is familiar to me through my knowledge and experience with C#.",
 		"german": "Seit Anfang der 2000er Jahre verwende ich JavaScript für die Anwendungsentwicklung. Ich habe an der Universität Java-Kurse belegt, in denen wir Projekte mit Java und Eclipse abgeschlossen haben. Die Syntax und OOP-Patterns von Java sind mir durch meine Kenntnisse und Erfahrungen mit C# vertraut."
 	},
 	"angularReact": {
@@ -409,7 +409,7 @@
 		"german": "nnn"
 	},
 	"java": {
-		"english": "The syntax and OOP structure of Java is familiar to me through my knowlege and experience with C#.",
+		"english": "The syntax and OOP structure of Java is familiar to me through my knowledge and experience with C#.",
 		"german": "nnn"
 	},
 	"aws": {

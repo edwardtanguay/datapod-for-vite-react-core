@@ -1,0 +1,20 @@
+- 2024-06-22 06:27:45; signed up on their site
+	------------------------------------------------------
+	https://www.visable.com/de_de/karriere/tech-product/1560410-senior-full-stack-engineer-m-f-x
+	Damit beeindruckst Du uns
+	Have at least 5 years of hands-on engineering experience (fullstack):
+	Frontend
+	JavaScript, HTML/CSS 
+	Modern web frameworks like Vue.js, Nuxtjs, NextJs or React 
+	Backend
+	Ruby, JavaScript, Kotlin, or Java 
+	Relational databases (Postgres, MySQL) and non-relational databases (Redis, MongoDB) 
+	You have a proof record on working on large complex projects over a long period of time 
+	You have a good understanding of lean and agile practices  
+	You blossom in working with others and having an active team around you 
+	You are eager to learn and not afraid of failure 
+	Have strong communication and social skills and the ability to work well within a team and with other stakeholders 
+	Nice to have
+	Have expertise in AWS technologies 
+	Have expertise in Infrastructure as Code 
+	------------------------------------------------------

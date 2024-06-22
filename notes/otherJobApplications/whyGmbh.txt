@@ -1,0 +1,19 @@
+- 2024-06-21 20:40:03; Indeed
+	--------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Über wie viele Jahre Erfahrung in Next.js verfügen Sie?
+		3
+	Über wie viele Jahre Erfahrung in React verfügen Sie?
+		5
+	Sprechen Sie Deutsch?
+		Ja
+	Sprechen Sie Englisch?
+		Ja
+
+	Relevante Berufserfahrung
+	Bearbeiten
+	Software Consultant
+	Microsoft GmbH
+	--------------------------------------

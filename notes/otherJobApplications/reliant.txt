@@ -1,0 +1,49 @@
+- 2024-06-20 06:41:31; applied on their page
+	--------------------------------------
+	job ad: https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3912515346
+
+	Our Stack:
+
+
+	- React / Next.js 14
+
+	- Tailwind
+
+	- Vercel
+
+	- Cypress
+
+	- Backend: Python / FastAPI
+
+
+	🎯 In this role you will be
+
+
+	- A leading role in developing our frontend applications, ensuring they deliver value to our users whilst being an absolute joy to use
+
+	- Collaborate closely with backend engineers to determine required APIs and backend functionality. Maintain clear communication channels to ensure smooth integration of frontend and backend components.
+
+	- Rapid prototyping of novel user interfaces
+
+	- Navigate swiftly in a dynamic environment, ensuring the prompt completion of projects by adapting to fast-paced scenarios
+
+	- Uphold and enhance application performance, security standards, and best practices, ensuring our software remains reliable and efficient
+
+
+	📋 About you
+
+
+	- 4+ years of proven experience as a Frontend Engineer, working on complex UI-heavy applications with great attention to UX
+
+	- Proficiency in frontend development technologies, latest features and best practices, as well as front-end development design patterns and techniques
+
+	- Hands-on experience with frontend testing approaches and libraries (i.e. Testing Library, visual snapshot testing)
+
+	- Proven track record of shipping innovative software products from conceptualizing and discovery all the way to launch and iterations
+
+	- Structured thinking and the ability to distil complex issues into a comprehensive strategy
+
+	- Excellent communication skills with the ability to articulate complex technical concepts to non-technical audiences
+
+	- A strong product sense, specifically an intuition for user flows and user experience
+	--------------------------------------
