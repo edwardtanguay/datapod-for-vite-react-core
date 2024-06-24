@@ -1273,6 +1273,7 @@ history::[[
 - 2024-06-10 14:47:32; created
 - 2024-06-10 15:36:32; submitted application on elopage.breezy.hr page: "Ihre Bewerbung wurde erfolgreich übermittelt. Viel Glück!"
 - 2024-06-10 15:37:44; received email confirmation: "sometimes our turnaround time can be a bit longer"
+- 2024-06-24 09:10:06; ~rejection: "we will not be proceeding with your application"
 ]]
 
 ==jobApplication
@@ -1470,6 +1471,7 @@ closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Posi
 history::[[
 - 2024-06-16 10:00:16; created
 - 2024-06-16 10:10:09; send via web form
+- 2024-06-24 09:07:28; ~rejection: "wir Dich nicht in die engere Wahl nehmen konnten"
 ]]
 
 ==jobApplication

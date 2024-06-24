@@ -8,3 +8,4 @@
 	Pluspunkte: Erfahrungen mit Svelte/SvelteKit
 	Du bist motiviert, dich in den Bereichen weiterzuentwickeln und hast Lust, dich auch in neue Themen und Frameworks einzuarbeiten
 	--------------------------------------
+- 2024-06-24 08:53:52; ~rejection: "entschieden haben, andere Kandidat*innen in die engere Auswahl zu nehmen und dir an dieser"

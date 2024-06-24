@@ -219,7 +219,7 @@
     "id": 0,
     "companyName": "Doinstruct Software Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -255,7 +255,7 @@
     "id": 278,
     "companyName": "elopage GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -603,7 +603,7 @@
     "id": 302,
     "companyName": "mgm technology partners GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -944,6 +944,12 @@
   {
     "id": 295,
     "companyName": "Smoobu GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Soda",
     "contactKind": "company",
     "processStatus": "active"
   },

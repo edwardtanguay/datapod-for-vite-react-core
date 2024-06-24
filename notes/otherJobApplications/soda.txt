@@ -1,0 +1,19 @@
+- 2024-06-24 06:38:56; via https://www.aplitrak.com
+	--------------------------------------------------------
+	https://www.linkedin.com/jobs/view/3957268169
+    Minimum 3 years of experience
+    Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model.
+    Thorough understanding of React.js and its core principles
+    Experience with popular React.js workflows (such as Flux or Redux)
+    Familiarity with newer specifications of EcmaScript
+    Experience with data structure libraries (e.g., Immutable.js)
+    Knowledge of isomorphic React is a plus.
+    Familiarity with RESTful APIs
+    Knowledge of modern authorization mechanisms, such as JSON Web Token
+    Familiarity with modern front-end build pipelines and tools
+    Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
+    Ability to understand business requirements and translate them into technical requirements.
+    A strong understanding of micro-frontend architecture design
+    A knack for benchmarking and optimization
+    Familiarity with code versioning tools (Git)
+	--------------------------------------------------------
