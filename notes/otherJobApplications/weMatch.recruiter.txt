@@ -10,7 +10,7 @@
 	Wie gut beherrschen Sie Englisch?Wie gut beherrschen Sie Englisch?
 				Muttersprache oder zweisprachig
 	----------------------------
-- 2024-06-17 10:15:23; call from Lenard
+- 2024-06-17 10:15:23; ~interviewing: call from Lenard
 	- he is responsible for MERN stack and PHP
 	- his colleague for .NET
 	- nice talk 

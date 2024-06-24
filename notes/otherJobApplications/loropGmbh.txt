@@ -1,0 +1,19 @@
+- 2024-06-21 08:14:18; Indeed
+	----------------------------------------
+	Deine Skills für uns
+
+	Technische Vorraussetzungen/ Erfahrung mit:
+	JavaScript/TypeScript
+	HTML, CSS (oder SCSS/SASS)
+	einem JavaScript Frontend Framework wie React, Angular, VueJS, Svelte o. ä.
+	im Umgang mit Git, npm, docker-compose
+	im Umgang mit Rest API’s und deren Anbindung
+
+	Ein Plus, aber kein Muss:
+
+	Erfahrung mit PHP Entwicklung (+ Framework wie Laravel)
+	Kenntnisse in Agiler Entwicklung mit Scrum, Kanban usw
+	Erfahrung im Umgang mit GraphQL Schnittstellen
+	Du hast schonmal etwas von Clean Coding, Pair Programming usw. gehört
+	Erfahrung in AppEntwicklung mit entsprechenden Frameworks wie Flutter, React Native o. ä.
+	----------------------------------------

@@ -1,0 +1,11 @@
+- 2024-06-21 08:10:13; applied on their site
+	-----------------------------------------
+	entwickelst und pflegst du Webanwendungen mit Fokus auf Svelte und SvelteKit.
+	setzt du UI/UX-Designs in performante und responsive Frontend-Lösungen um.
+	integrierst du APIs und externe Dienste.
+	arbeitest du im agilen Entwicklungsprozess inklusive Code-Reviews, Pair-Programming und Continuous Integration mit.
+	stellst du Cross-Browser-Kompatibilität und die Einhaltung von Webstandards sicher.
+	arbeitest du eng mit Backend-Entwicklern, Designern und Projektmanagern zusammen.
+
+	Du hast Leidenschaft für nachhaltige Software-Entwicklung und Clean-Code und verfügst über mindestens zwei Jahre Berufserfahrung in der Frontend-Entwicklung. Dazu bringst du tiefgreifende Kenntnisse und praktische Erfahrung mit Svelte und SvelteKit sowie Erfahrung mit modernen Entwicklungswerkzeugen wie Git, NPM/Yarn, Webpack/Rollup, Vite mit. Ebenso weist du ein Verständnis für RESTful APIs und asynchrones JavaScript auf und verfügst über Know-how in Responsive Web Design und CSS. Zudem kommunizierst du sicher auf Englisch (C1); Deutschkenntnisse sind ein Plus.
+	-----------------------------------------

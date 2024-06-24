@@ -90,10 +90,22 @@
     "processStatus": "rejected"
   },
   {
+    "id": 309,
+    "companyName": "Basilicom GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 0,
     "companyName": "Birdie",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Birkenbeul Communications",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -200,6 +212,12 @@
   {
     "id": 0,
     "companyName": "Doctari Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Doinstruct Software Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -343,6 +361,12 @@
   },
   {
     "id": 0,
+    "companyName": "G&H Bankensoftware AG",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Gazelle Global Sweden",
     "contactKind": "company",
     "processStatus": "active"
@@ -375,7 +399,7 @@
     "id": 0,
     "companyName": "Groenewold",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 253,
@@ -511,6 +535,12 @@
   },
   {
     "id": 0,
+    "companyName": "Lightspeed Commerce",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Lizardis",
     "contactKind": "company",
     "processStatus": "active"
@@ -530,6 +560,12 @@
   {
     "id": 0,
     "companyName": "Lokalleads",
+    "contactKind": "company",
+    "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Lorop Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -609,7 +645,7 @@
     "id": 0,
     "companyName": "Neunen",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -835,6 +871,12 @@
   },
   {
     "id": 0,
+    "companyName": "Rsm Ebner Stolz",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Ruby Play",
     "contactKind": "company",
     "processStatus": "active"
@@ -1021,7 +1063,7 @@
   },
   {
     "id": 0,
-    "companyName": "Versterling Nnn",
+    "companyName": "Versterling",
     "contactKind": "recruiter",
     "processStatus": "active"
   },
@@ -1047,7 +1089,7 @@
     "id": 0,
     "companyName": "We Match",
     "contactKind": "recruiter",
-    "processStatus": "active"
+    "processStatus": "interviewing"
   },
   {
     "id": 0,
@@ -1089,7 +1131,7 @@
     "id": 0,
     "companyName": "Xcede Group",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 246,

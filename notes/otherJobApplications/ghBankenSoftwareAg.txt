@@ -1,0 +1,35 @@
+- 2024-06-21 08:17:34; Indeed
+	--------------------------------------
+	Das erwartet dich bei uns
+
+		Du wirst ein wichtiger Teil des Teams, das für Funktionalität und Weiterentwicklung unserer BANCOS Online Banking-Lösung verantwortlich ist
+		Wir bieten dir ein abwechslungsreiches Arbeitsumfeld in einer zentralen Position innerhalb eines etablierten, mittelständischen Unternehmens, so dass du dieses samt seiner Kultur aktiv mitgestalten kannst
+
+	Das ist unser Tech Stack
+
+		Programmiersprachen: Javascript, Typescript, PHP, HTML, CSS
+		Framework: Vue, React, Svelte
+		API-Konzepte: REST, SOAP, GraphQL
+		Package Manager: webpack, npm, yarn, composer
+		CI/CD Pipelines: Jenkins, Gitlab
+
+	Diese Aufgaben kommen auf dich zu
+
+		Du entwirfst und implementierst qualitativ hochwertige und leistungsfähige Lösungen für unser BANCOS Online Banking
+		Du arbeitest eng mit unseren Produktmanagern, Entwicklern und Testern in einer agilen Arbeitsumgebung zusammen
+		Du konsolidierst und erweiterst die bestehende Codebasis
+		Du erstellst Web Anwendungen und integrierst diese mit REST und/oder GraphQL APIs
+
+
+	Das bringst du mit
+
+		Du bist bereits 5+ Jahre als Frontend Engineer tätig, vorzugsweise mit Technologien wie Javascript, Typescript, PHP, HTML, CSS
+		Du bringst idealerweise Branchenkenntnisse im Bereich Banking / Financial Services/ Online Payment mit
+		Du kennst dich gut mit Softwareentwicklungsprozessen, Softwarearchitektur und Softwaredesign aus, u. a. im Bereich Single Page Apps, Web Components
+		Du kennst dich gut mit Frameworks (z. B. Vue, React, Swelte), API-Konzepten (REST, SOAP, GraphQL), Package Managern (z. B. webpack, npm, yarn, composer) sowie CI/CD Pipelines (z. B. Jenkins, Gitlab) und Containerisierung aus.
+		Du hast idealerweise bereits erste Erfahrungen mit relationalen Datenbanken gemacht
+		Du bist kommunikativ, kannst dich in Teams einbringen, jedoch auch sehr gut selbstständig arbeiten
+		Eine proaktive und eine sehr strukturierte Arbeitsweise
+		Gute Deutsch- und Englischkenntnisse
+	--------------------------------------
+- ~companyName: G&H Bankensoftware AG

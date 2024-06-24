@@ -1745,3 +1745,30 @@ history::[[
 - 2024-06-22 06:04:30; created
 	- 2024-06-22 06:10:55; sent via LinkedIn
 ]]
+
+==jobApplication
+dpodId::E74lfk
+baseJobId::309
+referenceId::
+contactKind::company
+language::german
+letterDate::2024-06-22 07:58:06
+skillTextsBlock::[[
+Mehrjährige Erfahrung in der Frontend-Entwicklung;computerScienceDegreeOrSimilar
+Sehr gute Expertise in HTML/CSS/TypeScript und den entsprechenden Frameworks;typescript
+Erfahrung mit React & Vue;frameworksLikeReact
+]]
+customText::
+customOutlineText::
+contactFullName::
+contactGender::
+contactEmail::
+contactAddress::
+salaryFrom::0
+salaryTo::0
+earliestStartDate::
+closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei Basilicom erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
+history::[[
+- 2024-06-22 07:58:06; created
+	- 2024-06-22 08:03:55; sent via Indeed
+]]

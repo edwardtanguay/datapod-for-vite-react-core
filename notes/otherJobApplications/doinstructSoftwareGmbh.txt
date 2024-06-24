@@ -1,0 +1,10 @@
+- 2024-06-21 08:21:29;Indeed
+	--------------------------------------
+	Du übernimmst die Konzeption, Mitgestaltung, Dokumentation und Entwicklung unserer Anwendungen mittels HTML/CSS
+	Du arbeitest eng mit dem UI/UX-Team zusammen
+	Unser Fokus liegt aktuell auf Svelte bzw. SvelteKit / TypeScript
+
+	Du hast mindestens sechs Jahre Projekterfahrung als UI Developer und sehr gute Kenntnisse in der Entwicklung von UI Komponenten mit HTML und CSS, sowie Erfahrung in der Entwicklung mit Vue.js, React oder einem anderen vergleichbaren Framework
+	Pluspunkte: Erfahrungen mit Svelte/SvelteKit
+	Du bist motiviert, dich in den Bereichen weiterzuentwickeln und hast Lust, dich auch in neue Themen und Frameworks einzuarbeiten
+	--------------------------------------

@@ -1,0 +1,18 @@
+- 2024-06-21 08:32:22; Indeed
+	------------------------------------------------
+	What you'll be bringing to the team:
+
+	Strong knowledge of modern HTML and JavaScript (ES6+), TypeScript, CSS
+	Experience and in-depth knowledge of developing web applications with the Svelte framework
+	Knowledge of React.js, Next.js, or similar technologies
+	Excellent problem-solving and debugging skills in the context of Web applications
+	Solid understanding of Web application concerns
+		Authentication, OAuth2, JWT
+		API design, REST, GraphQL
+		Performance optimizations
+		Security best practices, OWASP
+	Experience developing in a back-end for frontend layer
+	Hands on experience with WebSockets
+	Familiarity with writing tests (e2e using Cypress) and ensuring the highest coding standards
+	Communication skills in English
+	------------------------------------------------l

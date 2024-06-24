@@ -7,3 +7,4 @@
 	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
 				Native or bilingual
 	----------------------------------------
+- 2024-06-23 14:49:06; ~rejection: "we will not be moving forward with your application"

@@ -1,0 +1,36 @@
+- 2024-06-21 07:53:05; Indeed
+	--------------------------------------------------
+	Was dich bei uns erwartet:
+
+	- Programmieren von Webseiten und Webanwendungen.
+
+	- Realisieren responsiver Designs in HTML / CSS.
+
+	- Entwickeln mit modernen Frontend-Frameworks (Vue.js, Svelte).
+
+	- Backend entwickeln mit modernen Frameworks (Directus, FeathersJS).
+
+	- Entwickeln und arbeiten mit bewährten Technologien wie z.B. WordPress.
+
+	Was du mitbringst:
+
+	- Gute bis sehr gute Kenntnisse mit HTML / CSS und JavaScript.
+
+	- Erfahrung mit Node.js als Backend (z.B. Express, Fastify, Koa, FeathersJS, Directus).
+
+	- Erfahrung im Umgang mit WordPress, PHP und relationalen Datenbanken (z.B. MySQL).
+
+	- Gutes Händchen für UI/UX.
+
+	Welche Skills zusätzlich von Vorteil sind:
+
+	- Umgang mit Plesk, Server-Root- und Cloud-Umgebungen wie AWS und Scaleway.
+
+	- Umgang mit Tailwind, Vuetify, Excel, Figma und Typescript.
+
+	- Kenntnisse mit PWA und im Bereich der Testautomatisierung, einschließlich Unit- und Integrationstests.
+
+	- Sicherheit der Webanwendungen: Cross-Site-Scripting (XSS), Cross-Site-Request-Forgery (CSRF) und SQL-Injection.
+
+	- Ausgeprägtes Sicherheitsbewusstsein, da du mit sensiblen Daten arbeitest.
+	--------------------------------------------------

@@ -16,3 +16,4 @@
 	Are you currently located in Germany?Are you currently located in Germany?
 				Yes
 	----------------------------------------
+- 2024-06-23 10:02:38; ~rejection: "we will not be moving forward with your application"

@@ -7,3 +7,4 @@
 	Are you located in Greece?Are you located in Greece?
 				No
 	---------------------------------------------
+- 2024-06-23 09:55:11; ~rejection: "we will not be moving forward with your application"
