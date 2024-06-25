@@ -21,7 +21,7 @@ export const FullApplicationOverview = () => {
 					<p>{fullReport.numberActive} waiting for response</p>
 					<p>
 						<span className="text-green-900 font-semibold">
-							{fullReport.numberOfInterviewing} interviewing
+							{fullReport.numberOfInterviewing} in interview process
 						</span>
 						<span>
 							{" "}
