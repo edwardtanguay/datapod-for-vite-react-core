@@ -209,6 +209,7 @@ history::[[
 	Edward
 	-----------------------------------------
 - 2024-06-03 09:26:19; waiting for Steffi to write back after sending salary and start date
+- 2024-06-24 13:18:02; ~rejection: "Leider mussten wir feststellen, dass wir Dir momentan keine passende Position, die zu Deinen Qualifikationen und unseren aktuellen Projektsituationen passt, anbieten können"
 ]]
 
 ==jobApplication
@@ -1445,6 +1446,7 @@ closingParagraph::It would be my pleasure to learn more about the specific tasks
 history::[[
 - 2024-06-13 11:29:41; created
 - 2024-06-13 11:42:20; posted on online form, "Our People Experience Team is doing its best to send you a feedback on your application as fast as possible, which could take a few working days.", received confirmation mail
+- 2024-06-25 10:29:44; ~rejection: "we have decided to move forward with other candidates who align more closely with our current needs"
 ]]
 
 ==jobApplication

@@ -17,3 +17,4 @@
     A knack for benchmarking and optimization
     Familiarity with code versioning tools (Git)
 	--------------------------------------------------------
+- 2024-06-24 16:43:53; ~rejection: "did not choose to proceed with your application as your experience and skills do not match our client requirements"

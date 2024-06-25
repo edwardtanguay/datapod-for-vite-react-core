@@ -171,7 +171,7 @@
     "id": 0,
     "companyName": "Delivery Hero",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -441,7 +441,7 @@
     "id": 0,
     "companyName": "Immoscout24 Indeed",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -951,7 +951,7 @@
     "id": 0,
     "companyName": "Soda",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -963,7 +963,7 @@
     "id": 249,
     "companyName": "Sopra Steria SE",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 299,
@@ -981,7 +981,7 @@
     "id": 286,
     "companyName": "Staffbase GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 199,

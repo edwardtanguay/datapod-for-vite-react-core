@@ -11,4 +11,5 @@
 		No
 	Gender, checked three boxes
 	---------------------------------
+- 2024-06-25 10:07:22; ~rejection: "we decided not to proceed with your application"
 	

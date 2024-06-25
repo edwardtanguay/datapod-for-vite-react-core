@@ -8,3 +8,57 @@
 	- Thank you for your informative application as a Sr. Full-Stack Engineer at Locoia :)
 	- job ad is here: https://join.com/companies/locoia/11634650-senior-full-stack-engineer-7-f-m-d-remote-germany-based
 - 2024-06-17 14:34:56; ~interviewing: Monday, Jun 24th, 16:00
+- 2024-06-24 16:00:00
+	- Marcel Reinhardt - HR
+		- will work for Aareon as well
+			- bought by Aareon (real estate)
+				- 2400 employees
+			- competition: zapia
+			- so backed by large company
+			- "good for a startup"
+			- settled 2023
+			- Aareon wanted to buy Locoia
+				- they had ERP
+				- Locoia became Aareon Connect
+		- automation
+			- small automations
+				- read in a file every monday
+				- 3 steps
+			- large automations
+				- part of ecommmerce site
+		- 2019-2023
+			- organically
+		- language
+			- English
+		- 2nd interview: coding challenge
+			- backend or frontend
+			- Python, Flask, SQLAlchemy, PostgreSQL + Vue 3	
+		- team
+			- four people
+				- 2 seniors backend, one teamlead
+				- frontend engineer
+				- Q/A engineer
+				- product manager
+		- 70.000 € to 105.000 € / year
+		- remote position
+			- Hamburg is central but not used
+			- weekly all-hands calls
+			- summer festivals through Aareon
+			- team-building
+			- inside the EU
+			- have to be in Germany 183 days a year for tax base
+		- Hr
+		- whiteboard with drag and drop options
+		- low-code
+		- customers pay more if we set them up
+		- two main teams
+			- development team
+			- solution architects
+				- technical background, but not developers
+				- drag and drop feature
+				- automation processes
+- 2024-06-24 17:08:44; received coding-challenge
+	- FRONTEND: https://github.com/edwardtanguay/locoia-frontend-coding-challenge
+	- BACKEND: https://github.com/edwardtanguay/locoia-backend-coding-challenge
+
+
