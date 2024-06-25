@@ -38,3 +38,12 @@
 	- Next.js
 	- Go
 	- ArangoDB
+- company 
+	- what they do
+		- "verwandle Besucher in Käufer"
+		- Softwarelösungen
+		- Koniguratoren
+	- Gründer und Geschäftsführer
+		- Ingolf Ernst
+		- Martin Friedel
+			- has Blog Site like my Howto Site: https://www.qubidu.com/blog/post/2019-11-28-starting-react-project-open-url-with-parameters/
