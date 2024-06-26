@@ -76,13 +76,30 @@ export const FullApplicationOverview = () => {
 																	: ""
 															}
 														>
-															<span className="font-semibold text-black">
+															{/* <span className="font-semibold text-black">
 																{
 																	application.title
 																}
-															</span>{" "}
-															<span className="italic text-slate-700">
-																-{" "}
+															</span>{" "} */}
+
+																
+
+															<span
+																className={`${
+																	application.processStatus ===
+																	"interviewing"
+																		? "bg-green-900"
+																		: "bg-gray-700"
+																}  text-gray-100 px-1 text-sm italic rounded`}
+																>{application.title}</span>
+
+
+																<span className={`italic ${application.processStatus ===
+																	"interviewing"
+																	? "text-green-900 font-semibold"
+																	: "text-slate-700"}`}
+																>
+																{" "}
 																{
 																	application.company
 																}

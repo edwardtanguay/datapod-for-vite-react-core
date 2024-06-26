@@ -1721,6 +1721,7 @@ closingParagraph::It would be my pleasure to learn more about the specific tasks
 history::[[
 - 2024-06-22 05:51:07; created
 - 2024-06-22 05:57:37; sent via form on their site, they will get back in 2 weeks
+- 2024-06-26 13:35:55; ~interviewing: "Full Stack Engineer - JavaScript position, invite you to an informal chat, Erik Souza - Technical Talent Acquisition "
 ]]
 
 ==jobApplication

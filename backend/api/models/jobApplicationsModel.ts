@@ -242,6 +242,10 @@ export const getFullReport = (): FullReport => {
 				processStatus = "doing";
 				numberDoing++;
 			}
+			if (overviewJobApplication.lastStatus.includes("~interviewing")) {
+				processStatus = "interviewing";
+				numberOfInterviewing++;
+			}
 			const day: ApplicationDay = {
 				title: overviewJobApplication.job.title,
 				company: normalizeCompanyName(
