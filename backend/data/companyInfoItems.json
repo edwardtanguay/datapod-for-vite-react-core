@@ -67,6 +67,12 @@
   },
   {
     "id": 0,
+    "companyName": "Andavis Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Andela",
     "contactKind": "company",
     "processStatus": "active"
