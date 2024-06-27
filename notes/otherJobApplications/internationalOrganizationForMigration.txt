@@ -1,0 +1,32 @@
+- 2024-06-27 09:16:30; Indeed
+	-----------------------------------------------------------
+	Microsoft Developer at Microsoft GmbH
+
+	https://de.indeed.com/?r=us&vjk=569858d623a076c2&advn=2367960032646381
+
+	Experience
+
+	JavaScript: Strong understanding of JavaScript is essenti al.
+	React.js and Next.js: In-depth knowledge of React.js and Next.js. , including understanding React components, JSX syntax, state management, and Next.js Router for navigati on.
+	Node.js: Competence in Node.js. This involves understanding asynchronous programming, event-driven architecture, and familiarity with Node Package Manager.
+	Express.js: Excellent knowledge of Express.js, including routi ng, middleware confi gurati on, and handling HTTP requests and responses.
+	MongoDB: Profi ciency in MongoDB, a NoSQL database. Knowledge of CRUD operati ons, indexing, schema design and aggregati on framework.
+	RESTful APIs: Understanding of RESTful API design principles for building scalable and maintainable APIs to interact with the backend.
+	Git and Version Control: Experience with Git for version control, including branching, merging, and resolving conflicts.
+	HTML/CSS: Good knowledge of HTML and CSS for front-end development and styling web applications built with React.js and CSS preprocessors (Sass, Less).
+	Elasti csearch: Experience with Elasti csearch.
+	Webpack/Babel: Familiarity with build tools like Webpack and transpilers like Babel.
+	Testing and Debugging: Skills in unit testing frameworks like Jest for testing React.js components and debugging tools for identifying and resolving issues in code.
+	Deployment and DevOps: Understanding of deployment processes and DevOps practices, including containerization with Docker, CI/CD pipelines, and cloud platforms like AWS or Azure.
+	Soft Skills: Strong problem-solving abilities, communication skills, teamwork, and adaptability
+
+	SKILLS
+
+	Good understanding of relational database and NoSQL concepts.
+	Good understanding of SOAP/REST web services and their payload schema.
+	Working knowledge in Power Platform (Power Apps, Power BI, Power Automate).
+	Working knowledge of SharePoint.
+	Familiarity with CI/CD Tools such as Azure DevOps.
+	Knowledge of SQL Server administration and programming, Keystone.js., ASP.NET, C#, Drupal, PHP, or Bootstrap would be an advantage.
+	Ability to work effectively and harmoniously in a team of colleagues of varied cultural and professional backgrounds.
+	-----------------------------------------------------------

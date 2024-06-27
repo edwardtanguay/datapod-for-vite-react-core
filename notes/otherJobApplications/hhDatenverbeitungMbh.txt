@@ -1,0 +1,17 @@
+- 2024-06-27 09:24:20; Indeed
+	-------------------------------------------------- 
+	https://hh-berlin.dvinci-hr.com/de/jobs/12/form
+	https://de.indeed.com/?r=us&vjk=dd5dcbc898d91b5d&advn=7969663400498643
+
+	Dein Profil
+
+	Ausbildung oder Studium im Bereich Informatik, Anwendungsentwicklung oder eine vergleichbare Qualifikation
+	Mind. fünfjährige Berufserfahrung im Frontend Development
+	Sehr gute Kenntnisse in HTML5, CSS / SCSS, JavaScript / TypeScript
+	Sehr sicherer, mehrjähriger Umgang mit Angular und AngularMaterial
+	Erfahrung mit objektorientierten und funktionalen Programmiermethoden
+	Gespür für intuitive Bedienbarkeit und visuelle Ästhetik
+	Teamgeist, Lernbereitschaft und selbstständige Arbeitsweise
+	Sehr gute Deutschkenntnisse (mind. C1)
+	-------------------------------------------------- 
+- ~companyName: H+H Datenverarbeitungs- und Beratungsgesellschaft mbH

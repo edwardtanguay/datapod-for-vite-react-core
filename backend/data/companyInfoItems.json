@@ -408,6 +408,12 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "H+H Datenverarbeitungs- und Beratungsgesellschaft mbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 253,
     "companyName": "Hays AG",
     "contactKind": "recruiter",
@@ -476,6 +482,12 @@
   {
     "id": 0,
     "companyName": "International Organization For Migration",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "International Organization for Migration",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -1101,7 +1113,7 @@
     "id": 0,
     "companyName": "Verivox",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
