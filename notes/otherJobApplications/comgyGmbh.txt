@@ -1,0 +1,39 @@
+- 2024-06-27 09:52:11; Indeed
+	---------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Portfolio
+		https://tanguay-eu.vercel.app/howtos
+	Phone
+		+49 179 66 486 04
+	Available from
+		August 1, 2024
+	Expected salary
+		between 4,000 € and 4,500 € per month gross
+	Wie bist du auf uns aufmerksam geworden? (z.B. LinkedIn, Xing, usw.)
+		Indeed
+	Gender
+		Male
+
+    YOUR ROLE
+
+    Frontend Development: Extend, improve, and maintain the frontend of our meter-, tenant-, and gateway management web application using Vue and Vuetify.
+    API Expertise: Become an expert on our GraphQL and JSON API-compliant REST API on the consumer side.
+    Data Visualisation: Implement visualisations for real time IoT data including meter heartbeats, meter data, gateway data, and decryption/decoding queues.
+    User Experience Ownership: Take ownership of the UX and usability of the interfaces you build.
+    Technology Decision-Making: Make informed decisions about technologies, architecture, and processes for the frontend of platform.
+
+    OUR PERFECT MATCH
+
+    Problem-Solving Skills: Strong logical thinking skills and proven persistence in problem-solving.
+    Professional Experience: 3+ years professional work experience in frontend web development.
+    Technical Expertise: Experience with component-based frontend technologies like Vue or React and extensive knowledge of utility-first CSS libraries like Tailwind.
+    Communication Skills: Excellent communication skills and comfort working in an English-speaking team.
+    Autonomy: Able to effectively interpret low fidelity designs and independently drive projects to completion without direct oversight from a designer.
+
+    Nice To Have
+
+    Exposure to and interest in Agile development methods/practices (Scrum, Kanban, Lean, etc.).
+    Generalist background with exposure to adjacent areas such as UI/UX design, QA, data science, design thinking, or backend technologies like Ruby on Rails.
+	---------------------------------------

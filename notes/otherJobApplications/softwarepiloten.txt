@@ -18,3 +18,41 @@
 
 	Leider laut Calendly scheint es, dass Henning bis Ende Juli keine 15-Minuten zum Treffen hat. 
 	------------------------------------------------------
+- 2024-06-27 12:50:59 Henning called
+	- Softwarepiloten GmbH
+		- website
+			- https://www.kanzleipilot.de
+		- company
+			- product
+				- one application that they continually improve
+				- MERN stack
+					- React
+					- Node/Express
+					- GraphQL/Apollo
+					- MongoDB
+				- hosting
+					- uses Scalingo (like Heroku, Render, etc.)
+			- 3 people
+				- Henning Zacher
+				- 1 full time
+				- 2 part time
+				- he's "planning mit Manuel"
+		- position
+			- "ich will ein Macher"
+				- it's not a large company
+				- someone who 
+					- can oversee the whole project
+					- can write their own tickets
+					- solve complex problems
+			- 100% remote
+				- Henning is in Düsseldorf
+				- 3 others in Germany
+		- coding challenge
+			- fullstack site
+			- frontend is not that important
+				- "React is boring"
+			- Node/Express backend
+			- MongoDB 
+				- wants "something complex, with services"
+				- it seems they are looking for someone who knows MongoDB well
+			- GraphQL is a nice-to-have

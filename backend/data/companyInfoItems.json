@@ -168,6 +168,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Comgy Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 306,
     "companyName": "DATATRONiQ GmbH",
     "contactKind": "company",
@@ -194,6 +200,12 @@
   {
     "id": 0,
     "companyName": "Developrec",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Devire",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -1052,6 +1064,12 @@
   {
     "id": 0,
     "companyName": "Taylorhall",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Teccle Group Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },

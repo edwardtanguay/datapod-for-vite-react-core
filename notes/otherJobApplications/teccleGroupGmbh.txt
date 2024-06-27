@@ -1,0 +1,40 @@
+- 2024-06-27 09:55:38; Indeed
+	--------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Sprechen Sie Deutsch?
+		Ja
+	Sprechen Sie Englisch?
+		Ja
+
+	Relevante Berufserfahrung
+	Bearbeiten
+	Microsoft Developer Consultant
+	Microsoft GmbH
+
+	45.000 € - 85.000 € pro Jahr
+
+	Fullstack Developer (all genders)
+
+	Deine Rolle
+
+	Entwicklung und Integration einer Plattform zur effizienten Beschaffung und Verwaltung von Hardware.
+	Anbindung verschiedener interner und externer Systeme zur Optimierung der Hardware-Beschaffungsprozesse.
+	Umsetzung von Automatisierungsprozessen zur Beschleunigung der Hardware-Beschaffung.
+
+	Dein Profil
+
+	Backend / Full Stack Entwicklung:
+
+	Objektorientierte Programmierung: Vertiefte Kenntnisse in C# und idealerweise auch in anderen objektorientierten Programmiersprachen.
+	Azure Cloud Services: Erfahrung in der Entwicklung und Verwaltung von Azure-basierten Services, insbesondere Azure Functions, Message Queues, CosmosDB und SQL-Datenbanken.
+	Software-Entwicklungsprinzipien: Beherrschung von Clean Code, Design Patterns und Test-Driven Development (TDD).
+
+	Front-End Entwicklung:
+
+	React: Fundierte Kenntnisse in der Entwicklung von Benutzeroberflächen mit React.
+	TypeScript: Sicherer Umgang mit TypeScript zur Entwicklung von robustem und typensicherem JavaScript.
+	CSS / HTML: Starke Fähigkeiten in der Gestaltung und Umsetzung von Weboberflächen mittels CSS und HTML.
+	Server-Side Rendering: Erfahrung mit serverseitigem Rendering, insbesondere mit React Server Components und Remix.
+	--------------------------------------

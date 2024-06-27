@@ -1,0 +1,27 @@
+- 2024-06-27 10:00:02; LinkedIn
+	-----------------------------------------------------
+	Additional Questions
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+				5
+			
+	How many years of work experience do you have with TypeScript?How many years of work experience do you have with TypeScript?
+				4
+			
+	How many years of work experience do you have with Google Cloud Platform (GCP)?How many years of work experience do you have with Google Cloud Platform (GCP)?
+				0
+	Senior Frontend or Full Stack (FE: Typescript/React; BE: Python)
+
+	Technical requirements:
+
+	Frontend: Typescript/React
+
+	Backend: Python
+
+	Cloud: Google Cloud Platform
+
+	Experience within the Healthcare/Life Sciences sector is a must.
+
+	must have: TypeScript, React, Unit Testing
+
+	could have: Python, GCP
+	-----------------------------------------------------
