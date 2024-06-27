@@ -588,6 +588,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Markant",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 298,
     "companyName": "Maximago GmbH",
     "contactKind": "company",
@@ -676,6 +682,12 @@
     "companyName": "Noir Consulting",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "Nutrio Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -776,6 +788,12 @@
   {
     "id": 0,
     "companyName": "Permtech",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Pharma Mall Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -961,6 +979,12 @@
   },
   {
     "id": 0,
+    "companyName": "Softwarepiloten",
+    "contactKind": "company",
+    "processStatus": "interviewing"
+  },
+  {
+    "id": 0,
     "companyName": "Solutions Driven",
     "contactKind": "company",
     "processStatus": "active"
@@ -976,6 +1000,12 @@
     "companyName": "SoSafe GmbH",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Spiri Bo Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 264,
@@ -1094,6 +1124,12 @@
   {
     "id": 0,
     "companyName": "Visible",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Vp Verbund Pflegehilfe Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },

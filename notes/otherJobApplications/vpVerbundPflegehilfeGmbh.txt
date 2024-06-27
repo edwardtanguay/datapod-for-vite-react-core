@@ -1,0 +1,15 @@
+- 2024-06-27 09:02:40; Indeed
+	--------------------------------------------------
+	Hierauf kommt es an
+	Mit diesen Highlights hebst Du Dich ab:
+
+	Abgeschlossenes Studium der Informatik / Computer Sciences
+	Mehrjährige Erfahrung mit React JS / AngularJS / JavaScript / TypeScript / HTML5 / CSS3
+	Erfahrung mit CSS Präprozessoren wie Sass / Less / PostCSS
+	Gute Kenntnisse mit C# oder Java mit Interesse an C#
+	Sicherer Umgang mit modernen Buildtools z.B. Webpack / Npm / Rollup / Yarn
+	Fundierte Kenntnisse aktueller Testing Frameworks z.B. Mocha / Jasmine / Jest
+	Idealerweise Erfahrung mit UX und Responsive Design z.B. mit Figma
+	Gute Englischkenntnisse ab B2
+	https://de.indeed.com/cmp/VP-Verbund-Pflegehilfe-Gmbh/jobs?jk=21733036f0598b9b&start=0&clearPrefilter=1
+	--------------------------------------------------

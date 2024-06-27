@@ -1,0 +1,12 @@
+- 2024-06-27 07:45:31; signed up online
+	------------------------------------------------
+	Softwareentwickler mit Schwerpunkt Frontend (m/w/d) . 
+	https://de.indeed.com/?r=us&vjk=548e7cd6c2e555df&advn=7022856680230040
+
+
+    Du hast ein erfolgreich abgeschlossenes Studium der Informatik, eine abgeschlossene Ausbildung zum Fachinformatiker Anwendungsentwicklung oder einen vergleichbaren Abschluss.
+    Du hast gute Kenntnisse in TypeScript/JavaScript, HTML und CSS sowie idealerweise Kenntnisse im Umgang mit Angular, React, Stencil.js, Storybook und Webcomponents.
+    Du siehst Herausforderungen als Motivation an, um neue Lösungswege zu finden.
+    Du bist teamfähig und arbeitest proaktiv, Details sind für dich genauso wichtig wie das grosse Ganze.
+    Du hast Interesse daran, mit einem Produkt eine gute User-Experience zu schaffen.
+	------------------------------------------------

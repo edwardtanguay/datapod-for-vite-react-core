@@ -1,0 +1,20 @@
+- 2024-06-27 07:51:43; Indeed
+	-----------------------------------------------------------
+	Eine echte Passion für die Fullstack-Entwicklung moderner Web-Applikationen
+	Sehr gute Kenntnisse und Erfahrungen in mindestens 80% unserer Technologien (React, Apollo GraphQL, Node und MongoDB)
+	Du schreibst sauberen Code (Clean Code) und legst Wert auf Code-Qualität
+	Test-Driven-Development ist für dich selbstverständlich. Dabei setzt du Unit-Tests, Acceptance Tests, MochaJS, ChaiJS und andere Tools ein
+	Du zeichnest dich durch eine hohe Problemlösungskompetenz und ausgeprägte analytische Fähigkeiten aus
+	Es motiviert dich, dein Wissen kontinuierlich zu erweitern und jeden Tag dazuzulernen
+	Du verfügst über gute Deutsch- und Englischkenntnisse in Wort und Schrift
+	-----------------------------------------------------------
+- 2024-06-27 07:58:01; immediately got mail, "Es gibt gute Neuigkeiten: Henning, unser Geschäftsführer, und ich haben uns gerade Dein Profil angesehen und glauben, dass wir gut zueinander passen könnten!"
+	- https://softwarepilotengmbh.recruitee.com/o/fullstack-programmierer-javascript-react-graphql-node-100-remote-2/c/new
+- 2024-06-27 08:38:58; ~interviewing; got mail to sign up for 15-minute talk with Henning, the Geschäftsführer, where you should "show some code", but the Calendry signup showed he had no time
+	------------------------------------------------------
+	Hallo Nicole,
+
+	vielen Dank für die Einladung zum Kurz-Interview.
+
+	Leider laut Calendly scheint es, dass Henning bis Ende Juli keine 15-Minuten zum Treffen hat. 
+	------------------------------------------------------

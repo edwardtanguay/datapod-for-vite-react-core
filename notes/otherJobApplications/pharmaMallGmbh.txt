@@ -1,0 +1,28 @@
+- 2024-06-27 09:12:20; Indeed
+	-------------------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Telefon
+	+49 179 66 486 04
+	Verfügbar ab
+	01.08.2024
+	Geschlecht
+	Männlich
+	Gehaltsvorstellung
+	zwischen 4.000,- € und 4.500,- € brutto monatlich
+	XING
+	https://tanguay-eu.vercel.app/howtos
+	LinkedIn
+	https://www.linkedin.com/in/edward-tanguay
+
+	https://de.indeed.com/?r=us&vjk=6f3a79b1713c492c&advn=5949696555250667
+
+
+	Du hast ein naturwissenschaftliches Studium oder eine Ausbildung als Fachinformatiker (m/w/d) erfolgreich abgeschlossen oder hast Dir das benötigte Wissen anderweitig angeeignet
+	Du hast mind. drei Jahre relevante Berufserfahrung im Bereich der Web-Frontend-Entwicklung
+	Du hast Erfahrung im Arbeiten mit Frontend-Frameworks AngularJS, Angular und Vue.js sowie in Tools wie etwa Gitlab, Docker, Jira
+	Du bist geübt darin, Deine eigene CI/CD-Pipeline zu konfigurieren, um die Ergebnisse sofort sehen und testen zu können, und erstellst kontinuierlich automatisierte Tests
+	Dein Anspruch ist, erst aufzuhören, wenn Deine Frontends in bester Qualität den Kunden zur Verfügung stehen – dafür übernimmst Du Verantwortung
+	Gute Deutsch- und Englischkenntnisse mind. B2 Sprachniveau
+	-------------------------------------------------

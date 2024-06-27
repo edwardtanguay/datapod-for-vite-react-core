@@ -1,0 +1,29 @@
+- 2024-06-27 08:15:26; Indeed
+	---------------------------------------------
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Sprechen Sie Deutsch?
+	Ja
+	Über wie viele Jahre Erfahrung in Node.js verfügen Sie?
+	5
+	Über wie viele Jahre Erfahrung in Programmierung verfügen Sie?
+	20
+
+	Relevante Berufserfahrung
+	Bearbeiten
+	Microsoft Developer Consultant
+	Microsoft GmbH
+
+
+	Tiefgreifende Erfahrung mit Node.js und Typescript, sowie den jeweiligen Frameworks
+	Erfahrungen mit React und Next.js
+	Kenntnisse im Umgang mit Kubernetes oder die Motivation es zu lernen
+	Du hast die Erfahrung gemacht, dass automatisiertes Testing, Pair-Programming und Code Reviews tatsächlich Zeit sparen
+	Vielseitige Erfahrungen mit REST, Design Patterns und Cloud-basierten Applikationen.
+	Leidenschaft für „Clean Code“ und Qualitätsstandards
+	Erfahrung im Bereich moderner Softwarearchitekturen und Spaß an agilen Entwicklungsstrukturen
+	Erfahrung bei der Arbeit in einem Remote Team ist hilfreich aber keine Voraussetzung
+
+	https://de.indeed.com/?r=us&vjk=fea1555ab0645657&advn=321121844335215
+	---------------------------------------------
