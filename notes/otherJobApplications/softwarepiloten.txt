@@ -18,7 +18,7 @@
 
 	Leider laut Calendly scheint es, dass Henning bis Ende Juli keine 15-Minuten zum Treffen hat. 
 	------------------------------------------------------
-- 2024-06-27 12:50:59 Henning called
+- 2024-06-27 12:30:59 Henning called
 	- Softwarepiloten GmbH
 		- website
 			- https://www.kanzleipilot.de

@@ -33,3 +33,4 @@
 		Gute Deutsch- und Englischkenntnisse
 	--------------------------------------
 - ~companyName: G&H Bankensoftware AG
+- 2024-06-27 20:01:29; ~rejection: "we have decided not to move forward"
