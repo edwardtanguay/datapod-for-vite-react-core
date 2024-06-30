@@ -23,3 +23,4 @@
 	PHP Software Developer
 	Meteogroup Deutschland GmbH (Berlin)
 	-----------------------------------------
+- 2024-06-30 20:16:40; ~rejection: "your application was not selected at this time"

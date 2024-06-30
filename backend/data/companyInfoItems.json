@@ -189,7 +189,7 @@
     "id": 0,
     "companyName": "Denkwerk Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 213,
@@ -993,7 +993,7 @@
     "id": 295,
     "companyName": "Smoobu GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -1165,7 +1165,7 @@
   },
   {
     "id": 0,
-    "companyName": "We Match",
+    "companyName": "We Match Stroeer",
     "contactKind": "recruiter",
     "processStatus": "interviewing"
   },
@@ -1191,7 +1191,7 @@
     "id": 0,
     "companyName": "Why Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
