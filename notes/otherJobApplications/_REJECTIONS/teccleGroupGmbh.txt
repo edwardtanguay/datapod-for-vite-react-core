@@ -38,3 +38,4 @@
 	CSS / HTML: Starke Fähigkeiten in der Gestaltung und Umsetzung von Weboberflächen mittels CSS und HTML.
 	Server-Side Rendering: Erfahrung mit serverseitigem Rendering, insbesondere mit React Server Components und Remix.
 	--------------------------------------
+- 2024-07-01 00:16:34; ~rejection: "Leider konnte Ihre Bewerbung dieses Mal nicht berücksichtigt werden"
