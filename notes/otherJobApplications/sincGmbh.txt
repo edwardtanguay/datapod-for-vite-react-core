@@ -59,7 +59,7 @@
 	- in meeting
 		- 1. Najim Mallahi
 			- Wiesbaden
-		- 2. (Frau)
+		- 2. (Frau) perhapse "Diana Zitzer" (this was the person who sent the next meeting invitation)
 	- app dev
 	- akten
 		- e-akte
@@ -74,5 +74,68 @@
 	- there is a tech talk
 	- then if you pass that, you work at the company for a day
 - 2024-06-25 16:53:26; got call from Wiesbaden: +49 611 95013445
-
-	
+- 2024-07-01 16:00:00; interview
+	- fachlichen Austausch mit Andreas Müller 
+	- .NET Core
+	- Angular 15 oder höher
+	- MS SQL und Entity Framework 
+	- good-to-have: GraphQL, OData
+	- Andreas
+		- Unit Lead Nordost
+		- Buero in Berlin
+		- engineering
+			- shares with Andreas (same name)
+		- Fun Fact
+			- Informatiker am wenigsten Informatik
+			- Business
+				- 17 Kunden
+				- Projekte: never-ending
+		- Hard Fact
+			- öffentliche
+		- intelligent processing
+		- Wiesbaden
+		- Öffentlicher Dienst
+		- his area
+			- Bildungsbereich
+				- HKM - unterstützen
+					- Hessische...
+				- Schulportal
+					- Klausuren
+					- angepasste Windows
+					- Active Directory
+					- gehärter
+			- Bundesämter
+			- Delphi
+			- viele PHP und React
+		- Angular/Ionic
+			- Juniors
+		- React
+			- another project
+		- HZD
+			- Hessen ...Dienstleister
+		- Nordrhein
+			- ** PHP Entwickler
+				- Neugestaltung
+					- Gitlab
+					- PHP/Laravel
+					- Vue 3
+					- TypeScript/Tailwind
+				- SPA
+		- Angular/.NET
+			- nicht seine Stelle
+			- besetzt und nicht besetzt
+			- sucht Guru
+				- Angular
+		- teams
+			- 5 Teams + 3 Teams
+			- 40 Leute in Teams
+		- live-coding
+			- React/PHP
+			- Acute: Angular/Ionic
+		- Phali
+			- continuous delivery
+			- https://www.youtube.com/@ContinuousDelivery
+		- Freiberufler ersetzen
+			- https://www.svws.nrw.de/download/schild-nrw-tools-download
+		- https://kultus.hessen.de/Digitalisierung/Schulportal-Hessen
+2024-07-01 17:46:12; ~interviewing

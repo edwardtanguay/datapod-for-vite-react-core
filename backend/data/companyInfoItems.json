@@ -69,7 +69,7 @@
     "id": 0,
     "companyName": "Andavis Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -693,7 +693,7 @@
     "id": 0,
     "companyName": "Next Tuesday",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -819,7 +819,7 @@
     "id": 0,
     "companyName": "Pharma Mall Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 296,
@@ -1071,7 +1071,7 @@
     "id": 0,
     "companyName": "Teccle Group Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 254,
@@ -1137,7 +1137,7 @@
     "id": 0,
     "companyName": "Versterling",
     "contactKind": "recruiter",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,

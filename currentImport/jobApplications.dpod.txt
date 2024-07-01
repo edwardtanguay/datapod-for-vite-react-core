@@ -1664,9 +1664,106 @@ history::[[
 			- unique characteristic: funktioniert top-down als auch bottom-up
 				- companies meet to find out upcoming programs
 				- eine Tätigkeitskarte, jeden Abend wird überprüft
-- 2024-06-28 18:23:09 First Interview
+- 2024-07-01 14:00:00 First Interview
 	- Clemens Müller (HR)
 	- Willi Pasternak (CTO)
+		- 14:00-15:00 LCM Digital (1st)
+			- meeting
+				- https://mail.google.com/mail/u/0/#search/lcm/FMfcgzQVxRCkgbWPZMTwDpNXvXjdpfMM
+			- tech
+				- React
+				- Node APIs
+				- Cloud
+				- Mentorship
+				- HTML5 Canvas
+				- shadcn/ui
+				- Fluent UI
+					- https://react.fluentui.dev
+			- infos
+				- Clemens Müller (HR Manager) und Willi Pasternak  (CTO)
+					- his phone in email: +49 172 769 08 59, so sure it is the same person
+					- on their website (https://www.lcmd.io/company), it says "Unterstützt von Drees & Sommer"
+					- technology: "react, shadcn, fluentui, canvas, cloud, node, rest"
+					- job ad: https://www.stepstone.de/stellenangebote--Senior-Web-Developer-w-m-d-Stuttgart-Berlin-Drees-Sommer-SE--11039326-inline.html
+					- 5.100 employees
+					- https://www.youtube.com/watch?v=tk_FH_wt4ds
+						- Lean Construction Management
+						- Drees & Sommer haben LCM entwickelt
+						- 1. Gesamtprozessanalyse
+						- 2. Prozessplanung
+						- 3. Tafelplanung
+						- unique characteristic: funktioniert top-down als auch bottom-up
+							- companies meet to find out upcoming programs
+							- eine Tätigkeitskarte, jeden Abend wird überprüft	
+					- Willi
+						- Davio, rechter Hand
+						- leiderschafter Softwareentwickler, 15 started
+							- Stuttgart
+						- uebernommen worden
+						- Mobile App
+						- small: Java
+						- small: C++
+						- most: TypeScript
+					- 30 person
+						- 45 now
+						- 6 parts
+							- admin
+							- business stratt
+							- hr
+							- sales
+							- marketing
+							- software engineering
+								- 2 teams
+									- 10 full, 2 freelancer
+									- reduce meetings
+									- agile
+										- refinement
+										- complexitaet
+										- 3 Wochen Sprints
+									- GitLab
+										- code reviews
+										- 600 automatic test
+										- 300 manually test
+										- Vitest
+										- person built it who isn't there anymore
+									- Feature teams
+										- one feature A-Z
+										- platform teams
+									- React
+										- worker thread
+									- backend is thin
+										- auth
+										- storage
+										- Node.js
+										- no Express
+									- canvas
+										- most of app is canvas
+										- 1000 bis 300 aenderungen
+										- Chrome/Safari/Edge, not Firefox
+										- WebGPU - for speed
+										- Webworker
+									- database
+										- Tables, Cloud
+										- all in Azure
+									- React Native
+										- for mobile app
+									- shadcn/ui
+										- Tailwind
+								- looking for 2
+									- focus on canvas
+									- senior position React
+										- learn the software
+										- smaller tasks, pair programming
+										- Teamleiter
+								- next
+									- Philipp
+										- CEO
+									- test working: 3-4 hours
+								- 90% remote
+								- berlin, stuttgart
+								- team workshop per quarter
+									- Rosenheim event
+								- U7, U9 Berlinerstr.
 - 2024-06-28 19:14:55; ~interviewing
 ]]
 
