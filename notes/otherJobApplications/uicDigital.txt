@@ -1,0 +1,23 @@
+2024-07-03 20:13:47; LinkedIn
+	------------------------------------------------
+	Responsibilities
+
+		Define, communicate and delivery technical and design requirements
+		Develop pixel-perfect front-end UI for web applications
+		Troubleshoot and debug applications while diagnosing performance bottlenecks
+		Main focus on coding and debugging
+		Write testable and maintainable modular code
+		Experience of JavaScript and TypeScript and also of working with industry standard APIs
+		Have an opinion and be able to give direction on the architecture of the app
+		Experience using source control (Git)
+
+
+	Qualifications
+
+		Experience of building Single Page Applications
+		Relevant commercial experience as a React developer
+		Demonstrable experience in building front-end applications
+		Experience in writing unit, component, integration and e2e testing
+		Experience with component and unit testing is an advantage
+		Ability to build for browser as well as native iOS and Android
+	------------------------------------------------

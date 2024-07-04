@@ -1,0 +1,25 @@
+- 2024-07-03 20:22:42; LinkedIn
+	-----------------------------------------------
+	Front-end Developer
+
+	Location: Remote (or Hamburg office)
+
+	Level: Mid-Senior Level
+
+
+	Qualifications:
+
+		3 - 5 years of web development experience
+		Proficiency with headless CMS systems, Git, animations, data structures, REST APIs, and UI/UX design
+		HTML, SCSS, TailwindCSS, TypeScript, Nuxt/Next.js, React / Vue ,REST APIs, GitHub, Vercel, GSAP.
+		Fluent in German and English
+
+
+	Skills & Responsibilities:
+
+		Develop and manage websites and online shops
+		Collaborate with design teams
+		Good feel for design and UX
+		Speaking with clients / stakeholders
+		Autonomous working
+	-----------------------------------------------

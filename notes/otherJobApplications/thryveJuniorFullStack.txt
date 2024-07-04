@@ -1,0 +1,17 @@
+2024-07-03 20:09:49; LinkeIn
+	------------------------------------------
+	Additional Questions
+	Have you completed the following level of education: Bachelor's Degree?Have you completed the following level of education: Bachelor's Degree?
+	Yes
+
+	What is your level of proficiency in German?What is your level of proficiency in German?
+	Native or bilingual
+
+	🎓 Bachelor's or Master's Degree in (business) informatics or related field.
+
+	💪 Thrive under pressure and enjoy tackling challenges head-on.
+
+	💻 Proficient in TypeScript, Java and JavaScript.
+
+	🔧 Experience with SQL, JSON, Git and Maven.C
+	------------------------------------------

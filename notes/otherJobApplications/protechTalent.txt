@@ -1,0 +1,10 @@
+- 2024-07-03 20:24:59; LinkedIn
+	--------------------------------------------
+	Proven experience as a senior frontend engineer, with a strong portfolio of projects that demonstrate your expertise, ownership and impact.
+	Proficiency in TypeScript, React, Remix, Next.js, etc. Expertise with technologies like WebSockets is preferred.
+	Experience in building thoughtful and reasonable API calls, interfaces and schemas with a backend team. A keen eye for detail and design—you’ll be working closely with the product and design team.
+	Exceptional problem-solving skills, with the ability to make sound architectural decisions and rapidly iterate on prototypes.
+	Excellent leadership and communication skills, with the ability to inspire and guide a team towards achieving shared goals.
+	Flexibility to work remotely with a willingness to travel to Tallinn, Estonia for team meetings.
+	A driven, team player who takes ownership and pride in delivering exceptional products while fostering a vibrant culture.
+	--------------------------------------------

@@ -1,6 +1,18 @@
 [
   {
     "id": 0,
+    "companyName": "1inch Labs",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Abo Express",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Acefinder",
     "contactKind": "company",
     "processStatus": "active"
@@ -110,6 +122,12 @@
   {
     "id": 0,
     "companyName": "Birkenbeul Communications",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Bliq",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -324,6 +342,12 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Few and Far",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 272,
     "companyName": "Finanzguru GmbH",
     "contactKind": "company",
@@ -493,6 +517,12 @@
   },
   {
     "id": 0,
+    "companyName": "Interex Group",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "International Organization For Migration",
     "contactKind": "company",
     "processStatus": "active"
@@ -531,6 +561,12 @@
     "id": 0,
     "companyName": "JK Recruitment Bulgaria",
     "contactKind": "recruiter",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Job Academy",
+    "contactKind": "company",
     "processStatus": "active"
   },
   {
@@ -865,6 +901,12 @@
   },
   {
     "id": 0,
+    "companyName": "Protech Talent",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Purpose Green Real Estate GmbH",
     "contactKind": "company",
     "processStatus": "active"
@@ -964,6 +1006,12 @@
     "companyName": "Shopware AG",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Shyftplan",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -1111,7 +1159,25 @@
   },
   {
     "id": 0,
+    "companyName": "Thryve Junior Full Stack",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Trilogy",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Trust Wallet",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Uic Digital",
     "contactKind": "company",
     "processStatus": "active"
   },

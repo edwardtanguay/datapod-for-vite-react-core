@@ -1,0 +1,37 @@
+- 2024-07-04 07:44:04; Indeed
+	------------------------------------------------
+	Your playground
+
+	As a Lead Fullstack Engineer (f/m/d) at shyftplan, you will be leading one of our cross-functional teams, with a strong ambition for solving our customers’ problems. These are you task in more detail:
+
+		Be a great example in your coding for your team.
+		Mentor and lead a small, agile, and cross-functional engineering team, ensuring motivation, engagement, and skill development.
+		Collaborate with Product Manager and team to define and deliver achievable sprint commitments, considering technical feasibility and business priorities.
+		Give valuable feedback on implementation details.
+		Ensure the development of robust and scalable software solutions aligned with project goals.
+
+	Your profile
+
+		3+ years of experience in web development
+		Experience with Ruby on Rails (7)
+		Experience with a modern UI framework (Vue3 or React)
+		Strong SQL skills (MySQL, PostgreSQL, PSQL, Oracle, MSSQL)
+		Knowledge of continuous deployment and integration practices
+		Experience in identifying and resolving potential performance bottlenecks
+		Good understanding of modern API design practices and standards
+		Strong in SOLID and Clean Code principles
+		Proficient in reliable unit tests with RSpec
+		Fluency in English, both written and spoken
+
+	Our perks
+
+		A product with value added and a motivated, international team
+		The opportunity for personal development, as well as good internal promotion opportunities
+		A flexible home office day and a modern office in the heart of Kreuzberg
+		The latest technology and ergonomic workstations
+		Many perks such as a Job Bike, mobility budget, German classes and more
+		Regular team events (e.g. Go Kart, Escape Room) and company lunches
+
+
+	shytplan
+	------------------------------------------------

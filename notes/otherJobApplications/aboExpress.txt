@@ -1,0 +1,19 @@
+- 2024-07-03 20:04:00; Indeed
+	-----------------------------------------------------
+	Telefon
+	+49 179 66 486 04
+	Verfügbar ab
+	August 1, 2024
+	Gehaltsvorstellung
+	zwischen 4.000,- € und 4.500,- € brutto monatlich
+
+
+	Du hast ein abgeschlossenes Studium der Informatik oder vergleichbare Qualifikationen
+	Du besitzt starke PHP-Programmierfähigkeiten und hast Erfahrung mit Symfony sowie mit relationalen Datenbanken
+	Du sprichst HTML5, CSS3, JS sowie JQuery genauso flüssig wie Deutsch und Englisch
+	Grundlegende Kenntnisse in Container-Virtualisierung mit Docker und CI/CD sind von Vorteil
+	Der sichere Umgang mit den gängigen Entwicklungstools z. B. PHPStorm, AzureDevOPS oder ähnlichem sind dir bestens bekannt
+	Ausgeprägte Kommunikationsstärke und Organisationsfähigkeit sowie eine hohe Auffassungsgabe und Analysevermögen zeichnen dich aus
+	Du besitzt ein hohes Maß an Start-up Mentalität, d. h. Eigeninitiative, Selbstmotivation und Eigenverantwortung
+	Du besitzt sehr gute Deutsch- sowie gute Englischkenntnisse in Wort und Schrift
+	-----------------------------------------------------

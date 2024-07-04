@@ -1,0 +1,13 @@
+- 2024-07-03 20:27:59; LinkedIn
+	------------------------------------------
+	At least 5 years of professional experience in TypeScript
+	Strong expertise in Angular
+	Solid experience with NestJS, including building RESTful services and integrating with databases
+	Proficient in using tools like Git, Webpack, and continuous integration/continuous deployment pipelines
+	Firm grasp of the core principles of web development, inclusive of HTTP, HTML, CSS, and JavaScript
+	Familiarity with database technologies, both SQL (e.g., PostgreSQL, MySQL) and NoSQL (e.g., MongoDB)
+	Strong problem-solving skills, attention to detail, and a team-player attitude
+	Excellent verbal and written communication skills in English
+	Knowledge/working experience of Go (Golang)
+	Knowledge of Docker, Kubernetes, or other container orchestration tools is a plus.
+	------------------------------------------

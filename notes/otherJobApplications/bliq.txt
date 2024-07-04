@@ -1,0 +1,31 @@
+2024-07-04 07:33:48; Indeed
+	--------------------------------------------------
+	Your profile
+
+	You are right for this role if you are an entrepreneur at heart and always build with the bigger picture in mind. You are right if you embrace the opportunity of joining a company at an early stage. You should apply immediately if you are not afraid to work hands-on and deeply involve yourself in every single aspect of building a successful product.
+
+	In particular, we look for:
+
+		A proven track record of at least 3 years of post-degree professional software delivery using JavaScript/TypeScript and as part of an engineering team
+		Extensive experience with NodeJS
+		Experience with frontend frameworks such as React
+		Familiarity with NoSQL database technology like MongoDB
+		Ideally previous experience in a startup-like environment
+		Self-motivated attitude, energetic & entrepreneurial
+		Focused on getting things done rather than perfecting them
+		Degree-level education in a technical major, preferably Computer Science
+		Excellent communication skills in the English language, both verbal and written
+		You are preferably in Berlin and can occasionally work from the office.
+
+	Why us?
+
+	As a member of the Bliq team, you’ll have access to:
+
+		Working with a team of motivated entrepreneurial colleagues, helping you achieve the best you can.
+		A culture that celebrates success, reliability, and building a great community.
+		An open-minded and fun work environment.
+		Possibility to quickly take over responsibility for your own projects.
+		A remote-first work policy, a flexible work schedule, and the option to work freelance
+		Work equipment according to your preferences
+		A 1,000 EUR training budget per year, entirely at your disposal
+	--------------------------------------------------

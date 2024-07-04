@@ -1,0 +1,8 @@
+- 2024-07-03 19:59:27; LinkedIn
+	--------------------------------------------------
+	3-5+ years full-time experience as a front-end developer
+	1+ years full-time experience in a blockchain based project
+	Strong ReactJS experience with TypeScript
+	Deep understanding of state management and routing with Redux
+	Experience with QA automation with Cypress and Unit tests with Jest
+	--------------------------------------------------
