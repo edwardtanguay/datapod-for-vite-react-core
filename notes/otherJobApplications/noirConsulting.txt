@@ -1,0 +1,28 @@
+- 2024-07-05 09:26:37; Indeed
+	---------------------------------------------------
+	Frontend Developer – Global Fitness Movement – Berlin
+
+	(Tech stack: Front End Developer, JavaScript, HTML5, CSS3, Angular, KnockoutJS, BackboneJS, React, VueJS, jQuery Typescript, Web, UI, UX, User Interface, User Experience, Front End Developer)
+
+	Established in 2012 in California, our client embarked on developing an app and website that streamlined the process of finding and booking fitness classes for enthusiasts across the state. Today, the company is transforming how people lead their lives, fostering a community of fitness enthusiasts, helping individuals discover activities that bring their true selves to life, and supporting small businesses and studios globally. They firmly believe that an active lifestyle is the key to a happy and healthy life. Currently active in over 15 countries, our client is experiencing rapid annual growth.
+
+	Achieving greatness requires a collaborative effort, and this team boasts some of the most talented Front End Developers (JavaScript, jQuery, Angular) in the industry. Beyond being exceptional developers, they are also accomplished karaoke stars, community activists, and amateur chefs. Together, they are actively shaping a world that prioritizes physical activity, making each day incredibly fulfilling.
+
+	They are seeking a Front End Developer with experience in some or all of the following technologies (full training will be provided to fill any gaps in your skill set): JavaScript, LESS, SASS, ES6, HTML5, CSS3, Angular, KnockoutJS, BackboneJS, React, VueJS, jQuery, Typescript, and AJAX.
+
+	All positions come with the following benefits:
+
+		Annual bonus.
+		Free medical, dental, and vision coverage.
+		Flexible work hours.
+		€5,000 training allowance.
+		Healthy (and unhealthy) snacks.
+		Charitable giving programs.
+		Virtual team classes, events, and happy hours.
+
+	Success is a team effort, driven by collaboration with talented individuals and the development of innovative ideas. As part of a global movement with ambitious plans for the future, this is an incredible opportunity. If you’re interested, take action and apply today!
+
+	Location: Berlin, Germany / Remote Working
+
+	Salary: €80,000 – €110,000 + Bonus + Pension + Benefits
+	---------------------------------------------------

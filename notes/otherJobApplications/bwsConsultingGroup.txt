@@ -1,0 +1,21 @@
+- 2024-07-05 09:37:02; Indeed
+	---------------------------------------------
+	FRONTEND-ENTWICKLER (M/W/D)
+
+	für die Entwicklung komplexer Anwendungssysteme in Projekten bei Großkunden in unterschiedlichen Branchen
+
+	DEIN AUFGABENGEBIET
+
+		Mitarbeit an der Neu- und Weiterentwicklung von Software-Systemen mit Schwerpunkt Frontend unter Anwendung moderner Web-Technologien
+		Analyse fachlicher und/oder technischer Anforderungen sowie Erstellen von technischen Kompetenzen
+		Implementierung der Anforderungen in agilen Entwickler-Teams nach SCRUM
+		Testen und Inbetriebnahme der erstellten Lösungen
+
+	DEIN PROFIL
+
+		Abgeschlossenes Studium der Informatik, Wirtschaftsinformatik oder erfolgreich abgeschlossene Ausbildung zum Fachinformatiker
+		Gute Kenntnisse in der Frontend-Entwicklung in TypeScript/JavaScript, z.B. mit Angular und/oder React
+		Kenntnisse im Umgang mit REST und / oder SOAP, HTML sowie CSS
+		Strukturiertes, selbständiges Arbeiten sowie Bereitschaft zur stetigen Weiterbildung
+		Sehr gute Deutschkenntnisse in Wort und Schrift
+	---------------------------------------------

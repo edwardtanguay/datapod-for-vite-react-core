@@ -1,0 +1,50 @@
+- 2024-07-05 09:12:34; Indeed
+	----------------------------------------------------
+	Tasks
+
+	Develop new user-facing features using Next.js and React.
+
+	Build reusable components and front-end libraries.
+
+	Integrate and interact with RESTful APIs.
+
+	Ensure the application is responsive and optimized for performance.
+
+	Maintain and improve the CI/CD pipelines using GitHub Actions.
+
+	Participate in code reviews and collaborate with other team members.
+
+	Requirements
+
+	2-4 years of professional experience in front-end development.
+
+	Strong proficiency in Next.js, React, and Tailwind CSS.
+
+	Experience with REST API integration.
+
+	Familiarity with GitHub, Git, and GitHub Actions.
+
+	Excellent debugging and troubleshooting skills.
+
+	Strong communication and collaboration skills.
+
+	Ability to write clean, maintainable, and well-documented code.
+
+	Nice to Have:
+
+	Experience with automated testing frameworks (cypress, or Playwright)
+
+	Basic understanding of backend development.
+
+	Familiarity with other modern front-end frameworks and libraries.
+
+	Benefits
+
+	Small team, flat hierarchy, mission-driven. The usual buzzwords here, except we actually mean them. We’re small, lean, and we love what we’re doing.
+
+	A modern tech stack to work with. We use Java mainly but are open to implementing a new framework for our next MVP. Our CI/CD is built with GitHub Actions, and we use AWS for our infrastructure.
+
+	You have an impact - you’ll be building a product that people need and are grateful for. Our excellent NPS reviews speak for themselves. We are building our products around people, and they love it!
+
+	You’ll have the freedom to experiment. We do hack days/hack weeks where you can experiment with new technologies and new ways of working.
+	----------------------------------------------------

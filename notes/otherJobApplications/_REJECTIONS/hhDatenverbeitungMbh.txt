@@ -15,3 +15,4 @@
 	Sehr gute Deutschkenntnisse (mind. C1)
 	-------------------------------------------------- 
 - ~companyName: H+H Datenverarbeitungs- und Beratungsgesellschaft mbH
+- 2024-07-04 12:07:03; ~rejection: "Deine Bewerbung nicht weiter berücksichtigen können"

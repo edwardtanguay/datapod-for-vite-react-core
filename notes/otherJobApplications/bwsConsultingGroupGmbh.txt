@@ -1,0 +1,18 @@
+2024-07-05 09:08:49; Indeed
+	--------------------------------------------------------
+	DEIN AUFGABENGEBIET
+
+		Mitarbeit an der Neu- und Weiterentwicklung von Software-Systemen mit Schwerpunkt Frontend unter Anwendung moderner Web-Technologien
+		Analyse fachlicher und/oder technischer Anforderungen sowie Erstellen von technischen Kompetenzen
+		Implementierung der Anforderungen in agilen Entwickler-Teams nach SCRUM
+		Testen und Inbetriebnahme der erstellten Lösungen
+
+	DEIN PROFIL
+
+		Abgeschlossenes Studium der Informatik, Wirtschaftsinformatik bzw. vergleichbares Studium oder erfolgreich abgeschlossene Ausbildung zum Fachinformatiker
+		Gute Kenntnisse in der Software-Entwicklung im Backend unter Java oder .NET
+		Gute Kenntnisse in der Frontend-Entwicklung, z.B. mit Angular oder React
+		Kenntnisse im Umgang mit Webservices (REST und / oder SOAP)
+		Strukturiertes, selbständiges Arbeiten sowie Bereitschaft zur stetigen Weiterbildung
+		Sehr gute Deutschkenntnisse in Wort und Schrift
+	--------------------------------------------------------

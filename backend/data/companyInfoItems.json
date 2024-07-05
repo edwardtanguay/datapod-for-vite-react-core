@@ -151,6 +151,18 @@
   },
   {
     "id": 0,
+    "companyName": "Bws Consulting Group",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Bws Consulting Group Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Bytebrew",
     "contactKind": "company",
     "processStatus": "active"
@@ -192,6 +204,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Core Tylynt",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 306,
     "companyName": "DATATRONiQ GmbH",
     "contactKind": "company",
@@ -202,6 +220,12 @@
     "companyName": "Delivery Hero",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Delivery Hero Mid Level",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -244,6 +268,12 @@
     "companyName": "DINA Elektronik GmbH",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Dl Remot",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
@@ -447,7 +477,7 @@
     "id": 0,
     "companyName": "H+H Datenverarbeitungs- und Beratungsgesellschaft mbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 253,
@@ -734,6 +764,12 @@
   {
     "id": 0,
     "companyName": "Next Ventures",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Noir Consulting",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -1263,7 +1299,7 @@
     "id": 0,
     "companyName": "Wir Winzer",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,

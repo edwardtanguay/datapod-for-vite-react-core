@@ -1,0 +1,58 @@
+2024-07-05 09:31:01; Indeed
+	------------------------------------------------------
+	We are looking for a Software Engineer ( Javascript / React) (Global Service Tech) (all genders) to join the Help Center domain on our journey to always deliver amazing experiences.
+
+	As Delivery Hero grows, addressing our customer’s, rider’s, or restaurant’s support issues quickly and with as little friction as possible is crucial to our ability to create an amazing experience for our users.
+
+	In order to achieve this goal, we are building our own Customer Service Tools that will address all the cases, chats and issues for customers, riders and vendors. It’s an unique and global platform with impact in all Delivery hero platforms.
+
+	About the opportunity:
+
+		Contributing to designing and building the unified chat solution and/or the help center that transforms the ordering experience of our global customer base as well as the experience of all our other stakeholders (restaurants, riders, shoppers, restaurant chain managers)
+
+		Deliver scalable solutions to our server-driven UI product, serving 100k+ users per day in more than 100 locales and 50 countries, where ensuring quality and reliability by employing high observability practices is a must.
+
+		Practicing modern software development methodologies such as Continuous Delivery, TDD and Scrum.
+
+		Be an active partner for Product management in order to provide the best value for our stakeholders and customers.
+
+		Collaborating with cross-functional and international agile teams
+
+		Working in a fast-paced and multicultural environment
+
+		Building products used by millions of customers globally
+
+
+	Qualifications
+
+
+	What you need to be successful:
+
+		3+ years professional experience as Frontend Developer: JavaScript/Typescript.
+
+		2+ years Experience with React or React like Frameworks (Preact, Inferno, etc.)
+
+		Deep knowledge and understanding of HTML5, CSS, JS Engine
+
+		Deep understanding of Frontend security, APIs integrations, Browser security policy and related API
+
+		Experience with Testing (unit, functional, integration and e2e testing) with tools like Playwright, Jest, React-Testing-Library or similar
+
+		Experience with frontend optimization techniques, code splitting, data and state management, asset bundling and cache optimizations
+
+		Takes proactive initiatives to improve the code base, product and contribute to the development workflow and able to document and lead discussion on those initiatives
+
+		Having hands-on experience with frontend related CI/CD processes; such as building/bundling and deployment of code with technologies like Webpack, Babel, Docker, Travis/Github Actions/CircleCI etc.
+
+		Experience with Error Reporting, Monitoring tools like Sentry, Datadog or New Relic.
+
+	Nice to have:
+
+		Google Cloud Platform or AWS Experience.
+
+		Experience with splitting monolithic frontend codebase (micro-frontend, etc).
+
+		SDK development / library authoring
+
+		Experience with server side rendering (Gatsby, NextJs, etc).
+	------------------------------------------------------
