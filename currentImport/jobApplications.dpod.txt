@@ -1902,5 +1902,6 @@ earliestStartDate::
 closingParagraph::Gerne würde ich mehr über die konkreten Aufgaben dieser Position, aktuelle Projekte, Ihre Unternehmensziele und die Teamkultur bei Basilicom erfahren. Ich freue mich auf ein baldiges persönliches Treffen. Ich freue mich auf die Gelegenheit, Sie bald in einem persönlichen Gespräch kennenzulernen.
 history::[[
 - 2024-06-22 07:58:06; created
-	- 2024-06-22 08:03:55; sent via Indeed
+- 2024-06-22 08:03:55; sent via Indeed
+- 2024-07-05 10:14:44; ~rejection: "we are not able to move forward in the recruiting process with you"
 ]]

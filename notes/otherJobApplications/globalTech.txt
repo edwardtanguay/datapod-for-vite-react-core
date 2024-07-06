@@ -1,0 +1,18 @@
+- 2024-07-06 13:02:00; LinkedIn
+	-------------------------------------------
+	Additional Questions
+	How many years of work experience do you have with React.js?How many years of work experience do you have with React.js?
+	5
+
+	How many years of work experience do you have with JavaScript?How many years of work experience do you have with JavaScript?
+	25
+
+
+
+	Proficient in JavaScript / ES6, HTML5, CSS, React and SQL
+	Hands-on experience with a variety of web back-end frameworks, ideally Python, Django
+	Experience with GraphQL and REST APIs
+	Qualifications in web design, development, and/or graphic design
+	Knowledge of test-driven development, user testing, analytics, or packaging apps/APIs for external partners
+	A strong portfolio of high-performance websites with outstanding UX, connected to various back-end technology
+	-------------------------------------------

@@ -1,0 +1,30 @@
+- 2024-07-05 13:45:06; LinkedIn
+	---------------------------------------------------
+	You will
+
+		Work closely with our Design, Product, AI and Engineering teams to develop and implement complex financial features and systems. 
+		Develop both frontend and backend functionality
+		Continuously research and evaluate new technologies to improve the performance, reliability, and scalability of our systems. 
+
+	We're Looking For Someone Who
+
+		Has 3-10+ years of software engineering experience
+		Has past experience leading the development of complex financial or accounting features
+		Worked on products with great UI & UX and have an opinion on the difference between great & mediocre design
+		Has a strong understanding of software architecture and design patterns
+		Has strong written and verbal communication skills and enjoys solving user problems
+
+	Bonus if you
+
+		Have experience of building their own startup or working as a founding engineer
+		Has experience with modern infrastructure (AWS, Kubernetes, GCP, Terraform, etc)
+
+	Tech
+
+		TypeScript, React, NestJS (If you're familiar with different stack don't hesitate to apply)
+		Postgres, Redis
+		AWS, Terraform
+		OpenAI, Azure AI
+		TypeORM, React Query 
+		Github, Slack, Linear, Figma
+	---------------------------------------------------

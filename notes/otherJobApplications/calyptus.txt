@@ -1,0 +1,26 @@
+- 2024-07-06 12:52:07; LinkedIn
+	--------------------------------------------------------
+	How many years of work experience do you have with Typescript?How many years of work experience do you have with Typescript?
+	5
+
+	How many years of work experience do you have with Solidity?How many years of work experience do you have with Solidity?
+	0
+
+	How many years of professional experience do you have in Web3/Crypto?How many years of professional experience do you have in Web3/Crypto?
+	0
+
+	Do you have experience working in an early-stage Startup?Do you have experience working in an early-stage Startup?
+	Yes
+
+
+
+	𝕐𝕆𝕌 𝕎𝔸ℕ𝕋 𝕋𝕆 𝔹𝔼 #1-5 𝔸𝕋 ℙ𝔼𝔸ℕ𝕌𝕋 ℙℝ𝕆𝕋𝕆ℂ𝕆𝕃
+	You’re scrappy and fast, with lots of LFG energy*.* 
+	You actually like coding. show us your side projects, no matter how dumb!
+	Tech
+	You’re a pro at TypeScript
+	You know what these all mean and use them on a daily basis: ethers, viem, walletconnect, rpcs
+	You’re mostly on the backend of the stack, but have no problem moving from Express.js to React
+	Bonus: you have worked with payments, wallets, x-chain or privacy
+	Bonus: you’ve written smart contracts & know how the solidity side of things works
+	--------------------------------------------------------

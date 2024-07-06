@@ -111,7 +111,7 @@
     "id": 309,
     "companyName": "Basilicom GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -172,6 +172,12 @@
     "companyName": "Calimoto",
     "contactKind": "company",
     "processStatus": "interviewing"
+  },
+  {
+    "id": 0,
+    "companyName": "Calyptus",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 233,
@@ -271,7 +277,7 @@
   },
   {
     "id": 0,
-    "companyName": "Dl Remot",
+    "companyName": "Dl Remote",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -445,6 +451,12 @@
   },
   {
     "id": 0,
+    "companyName": "Global Tech",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Go Tek",
     "contactKind": "company",
     "processStatus": "active"
@@ -600,6 +612,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Job Academy2",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 292,
     "companyName": "Keaz GmbH",
     "contactKind": "company",
@@ -608,6 +626,12 @@
   {
     "id": 0,
     "companyName": "Keylight",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Kick",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -928,6 +952,12 @@
     "companyName": "Proactivity",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Profitap",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 279,
