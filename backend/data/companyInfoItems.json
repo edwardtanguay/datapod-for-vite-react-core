@@ -487,6 +487,12 @@
   },
   {
     "id": 0,
+    "companyName": "Gs Company Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "H+H Datenverarbeitungs- und Beratungsgesellschaft mbH",
     "contactKind": "company",
     "processStatus": "rejected"
