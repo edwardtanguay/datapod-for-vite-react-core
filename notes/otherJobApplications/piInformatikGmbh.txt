@@ -1,0 +1,67 @@
+- 2024-07-07 14:34:00; LinkedIn
+	-------------------------------------------------------
+	Einleitung
+
+		NET-Gruppe sucht .NET-Nerd
+
+	Schere, Stein, Papier, Echse, Spok und endlich ein eigenes Projekt, für das Du verantwortlich bist? Du bist genauso begeistert von individueller Software wie wir? Die Kombination aus Beratung, Softwareentwicklung, Berlin und ausreichend Platz für Nerd-Gedöns fühlt sich stimmig an?
+
+	Dazu ein familiäres Umfeld, flexible Arbeitszeiten und viel Freiraum für Dein kreatives Ventil? Bio-Obst und individuelles Yoga für IT-Experten? Das gibt es nicht in einem Paket? Doch! Bei uns, bei der PI Informatik.
+
+		NET ist für Dich die coolste Programmier-Plattform der Welt? Willkommen an Board! Unser Team Softwareentwicklung in Berlin freut sich über Deine Unterstützung.
+
+	Wenn Du mindestens 32 Stunden pro Woche arbeiten kannst, dann schau dir unser Stellennangebot an. Bei uns gibt es nicht nur die Möglichkeit für Homeoffice, sondern auch das Home im Office.
+
+	Was erwartet Dich als .NET-Entwickler bei der PI Informatik?
+
+	Deine Aufgaben Bei Uns
+
+		Konzeption, Planung und Umsetzung von Softwareentwicklungsprojekten mit viel Gestaltungsspielraum
+		Softwareentwicklung für eine bunte Schar an Kunden, vor allem im Bereich Industrie und Logistik
+		Arbeiten in kleinen agilen Teams
+		Wartung und Erweiterung von Legacy-Software (auf alten Schiffen lernt man Segeln)
+		Du verfolgst Innovationen rund um neue Technologien und bringst sie im Team ein
+		Hin und wieder ein Forschungsprojekt (etwas Kreatives für zwischendurch)
+		Direkte Zusammenarbeit mit Kunden (persönliche Betreuung)
+
+	Die Aufgaben sprechen Dich an? Dann schau Dir an, was wir von Dir erwarten
+
+	Softwareentwicklung ist nur mit .NET so richtig cool? Willkommen an Board!
+
+	Was Wir Erwarten
+
+		Abgeschlossenes Hochschulstudium in Mathematik, Chemie, Physik, Informatik oder einer ähnlichen Fachrichtung
+		zwei bis drei Jahre Berufserfahrung als Softwareentwickler im .NET-Umfeld oder einer ähnlichen Plattform (z.B. Java)
+		Du hast sehr gute analytische Fähigkeiten und gehst gerne mal abstrakt an die Dinge ran (keine Angst, Du brauchst keinen Doktor-Titel in Mathematik)
+		Du hast bereits Kenntnisse in C#, dem .Net-Framework, Net Core, .NET 5.0, ASP.NET MVC und möchtest ein Profi auf diesem Gebiet werden
+		Du treibst dich gerne mal im Java Script-Umfeld herum (z.B. jQuery, Angular, React)
+		HTML ist für Dich erst mit CSS so richtig sexy? Perfekt! Kennst Du vielleicht Bootstrap, Ant Design oder Kendo UI?
+		Softwareentwicklung geht für Dich erst mit dem Deployment über CI-Pipelines (GitLab, GitHub, AzureDevOps) richtig los
+		Du könntest stundenlang dem Debug-Pfeil in Visual Studio zuschauen – ja auch wir machen manchmal Fehler
+		Du schwebst auf Wolke Azure, wenn Du Cloud Computing hörst
+		Mittlere bis gute Deutschkenntnisse (mind. B2) – Du musst nicht die größte Quasselstrippe sein, aber Kundenkommunikation sollte Dir Spaß machen und die findet bei uns immer auf Deutsch statt
+		Du solltest uns mindestens einmal in der Woche einen Besuch abstatten, alles andere geht meistens auch remote!
+
+	Softwareentwicklung bei der PI Informatik, das ist mehr als einfach nur ein Job!
+
+	Was Wir Dir Bieten
+
+		Ein innovatives Unternehmen mit hochqualifizierten Mitarbeiterinnen und Mitarbeitern und wir entwickeln uns immer weiter
+		Richtig viel Raum für die Entwicklung von eigenen Ideen und Kreativität
+		Flache Hierarchien sowie effiziente Kommunikations- und Entscheidungswege
+		Agiles Arbeiten in kleinen Teams
+		Flexible Arbeitszeiten, unbefristetes Arbeitsverhältnis, langfristige Perspektiven
+		Möglichkeit für Homeoffice
+		Ein familiäres Umfeld mit Kollegen und Kolleginnen, auf die Du Dich verlassen kannst
+		Viele Möglichkeiten zur persönlichen und fachlichen Weiterbildung
+		Regelmäßiger Austausch, respektvoller Umgang, Teamevents, Sportangebote, individuelles Yoga für IT-Experten, und Bio-Obst
+		Nerd-Gedöns und sehr viel Humor
+
+	Kontaktinformationen
+
+	Bist Du interessiert?
+
+	Dann schicke uns Deinen Lebenslauf und Deine Gehaltsvorstellungen an folgende Adresse: jobs@pi-informatik.de
+
+	Wenn Du noch Fragen hast, kannst du dich gerne an unsere Ansprechpartnerin Sandra Mertens wenden.
+	-------------------------------------------------------

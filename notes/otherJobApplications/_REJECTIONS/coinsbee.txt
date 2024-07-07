@@ -19,3 +19,4 @@
 	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
 				Muttersprache oder zweisprachig
 	-------------------------------------------
+- 2024-07-07 18:07:52; ~rejection: "Ihre Bewerbung nicht in die engere Auswahl gekommen ist"

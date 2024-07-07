@@ -153,13 +153,13 @@
     "id": 0,
     "companyName": "Bws Consulting Group",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
     "companyName": "Bws Consulting Group Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -201,7 +201,7 @@
     "id": 0,
     "companyName": "Coinsbee",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -922,6 +922,12 @@
     "companyName": "Pharma Mall Gmbh",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Pi Informatik Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 296,
