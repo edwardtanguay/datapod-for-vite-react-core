@@ -56,3 +56,4 @@
 
 		Experience with server side rendering (Gatsby, NextJs, etc).
 	------------------------------------------------------
+- 2024-07-07 23:25:08: ~rejection: "decided not to proceed with your application"
