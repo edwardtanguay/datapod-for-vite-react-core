@@ -1,0 +1,34 @@
+- 2024-07-08 08:31:11; LinkedIn
+	---------------------------------------------------
+		Responsibilities:
+
+			Plan and take responsibility for frontend development
+			Work closely with other frontend developers
+			Translate functional requirements into efficient, maintainable, tested, and scalable code
+			Participate in the design and development of UI and UX scenarios
+			Coordinate activities within the self-organized, agile project team and with other disciplines
+			Drive and professionalize technical structures in apps/web apps independently
+
+
+		Requirements
+
+			5 years of experience in React or React Native
+			At least one year of professional experience in app development
+			Degree in computer science or relevant training is desirable
+			High level of quality awareness, structured way of working, good communication skills, and team spirit
+			Ideally, previous personnel responsibility
+			Fluent in English & German
+
+			Additional Questions
+	Do you have German C1 language level?Do you have German C1 language level?
+				Yes
+			
+	Why do want to change your job?Why do want to change your job?
+				I currently teach web development, want to work as a developer again.
+			
+	What is your annual salary expectation?What is your annual salary expectation?
+				My salary expectations are between 4,000 € and 4,500 € per month gross.
+			
+	What is your notice period?What is your notice period?
+				August 1, 2024
+	---------------------------------------------------

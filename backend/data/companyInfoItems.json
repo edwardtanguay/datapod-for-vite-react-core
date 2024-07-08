@@ -1225,6 +1225,12 @@
   },
   {
     "id": 0,
+    "companyName": "Talen Tailors",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Talent",
     "contactKind": "company",
     "processStatus": "active"

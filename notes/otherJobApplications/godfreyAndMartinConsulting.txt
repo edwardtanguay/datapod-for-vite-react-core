@@ -1,0 +1,40 @@
+- 2024-07-08 08:34:21; LinkedIn
+	----------------------------------------------
+	Key Responsibilities
+
+		Developing new user-facing features using React.js
+		Building reusable components and front-end libraries for future use
+		Translating designs and wireframes into high-quality code
+		Optimizing components for maximum performance across a vast array of web-capable devices and browsers
+		Collaborating with the design team to ensure the technical feasibility of UI/UX designs
+		Ensuring the technical feasibility of UI/UX designs
+		Assisting and guiding backend developers in integrating front-end components with server-side logic
+		Implementing modern, responsive design principles
+		Maintaining high code quality through automated testing and code reviews
+		Staying updated on emerging technologies and industry trends
+		Designing and implementing user interactions on web pages
+		Creating tools that enhance the user experience
+		Conducting performance tests
+		Coordinating with the back-end developers to integrate user-facing elements with server-side logic
+		Collaborating with the design team to improve usability and accessibility
+
+	Required Qualifications
+
+		Bachelor’s degree in Computer Science, Engineering, or a related field
+		Proven work experience as a Frontend Developer
+		Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
+		Thorough understanding of React.js and its core principles
+		Experience with popular React.js workflows (such as Flux or Redux)
+		Familiarity with modern front-end build pipelines and tools
+		Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
+		Familiarity with RESTful APIs
+		Proficient understanding of code versioning tools (e.g., Git, SVN, Mercurial)
+		Experience in UI/UX design principles and best practices
+		Basic understanding of server-side CSS pre-processing platforms, such as LESS and SASS
+		Knowledge of performance testing frameworks and optimization techniques
+		Good understanding of SEO principles and ensuring that application will adhere to them
+		Excellent problem-solving skills and a strong attention to detail
+		Ability to work in a fast-paced, dynamic environment and manage multiple tasks simultaneously
+
+	Skills: javascript,html,css,react.js
+	----------------------------------------------
