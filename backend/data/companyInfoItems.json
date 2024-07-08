@@ -231,7 +231,7 @@
     "id": 0,
     "companyName": "Delivery Hero Mid Level",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -434,6 +434,12 @@
   {
     "id": 308,
     "companyName": "Funded.club",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Future Demand Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -752,6 +758,12 @@
   {
     "id": 0,
     "companyName": "Morhane",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Move Elevator Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },

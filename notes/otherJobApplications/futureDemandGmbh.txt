@@ -1,0 +1,28 @@
+- 2024-07-08 07:41:20; Indeed
+	---------------------------------------------
+	What you will be doing:
+
+	Writing reusable React components and modules that work on all devices
+	Designing and implementing quality features that are covered by unit tests
+	Participating in the entire product development process from brainstorming to designing to implementing, testing and finally deploying.
+
+	What we are looking for in you:
+
+	A strong background in developing React user interfaces is required
+	Good knowledge of React library and methodology such as Redux, Hooks
+	Good knowledge of HTML, CSS, Javascript, Typescript
+	Experience of Micro Front End design patterns and UX best practices is advantageous.
+	Frontend testing with e2e test
+	Very good proficiency with the English language (german a plus)
+
+	Bonus points if you also know:
+
+	Python and Backend Framework such as Flask, FastApi
+	Query language GraphQL
+	Experience developing RESTful services
+	Familiar with code versioning tool (Git)
+	Experience with relational database ( preferably PostgresSQL) , ORM (such as SQLAlchemy)
+	Familiar with Cloud development (AWS preferable)
+	Infrastructure as code (Terraform) and CI/CD Methodology
+	Familiar with Docker
+	---------------------------------------------

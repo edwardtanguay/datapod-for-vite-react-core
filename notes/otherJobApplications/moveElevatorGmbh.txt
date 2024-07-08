@@ -1,0 +1,21 @@
+- 2024-07-08 07:43:52; Indeed
+	------------------------------------------
+	Deine Aufgaben:
+
+		Mitgestaltung und Umsetzung von Konzepten, Anforderungen und Designs in moderne Anwendungen
+		Implementierung von Anwendungen mit JavaScript (ES6+), HTML5 und CSS3
+		Entwicklung von Single-Page-Webanwendungen mit modernen JS-Frameworks wie Vue.js und React.js
+		Entwicklung von Projekten für jedes Device, ob mithilfe von mobilen Internetseiten, Progressive Web Apps, Responsive Webdesign oder Adaptive Design
+		Erstellung und Verwaltung von NPM Build Prozessen unter Verwendung aktueller Tools
+		Aktive Weiterbildung in Frontend-Technologien und die Möglichkeit, selbständig über den Einsatz neuer Techniken bei unseren Kund:innen zu entscheiden
+
+	Dein Know-how:
+
+		Ein abgeschlossenes Studium im Bereich Informatik, eine Ausbildung als Fachinformatiker oder im Bereich Softwaretechnologie mit Schwerpunkt Multimedia, Anwendungsentwicklung oder reichlich Berufserfahrung
+		Erfahrungen mit HTML5, CSS / SCSS und JavaScript
+		Erfahrungen mit modernen JS-Frameworks, vorzugsweise Vue.js
+		Mobile und Responsive sollten für dich zum täglichen Workflow gehören
+		Versionierung von Quellcode via Git
+		Eigenverantwortliche und strukturierte Arbeitsweise in Sprints und kleinen Teams mit agilen Strukturen
+	https://de.indeed.com/viewjob?jk=d2812933c5e47754
+	------------------------------------------
