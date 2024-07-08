@@ -1,0 +1,42 @@
+- 2024-07-08 08:21:41; LinkedIn
+	----------------------------------------------
+	Deine Aufgaben bei POLYAS:
+
+		Du entwickelst und implementierst ansprechende und benutzerfreundliche Webanwendungen (Single Page Applications, Mobile Apps, Templating und Theming auf Basis von z. B. Bootstrap).
+		Du gestaltest den Software-Lebenszyklus agil: von der Planung und (Schnittstellen-) Architektur über die Entwicklung bis zum Testing und Betrieb. Deine Frontends entwickelst du komponentenorientiert, erstellst und pflegst Pattern Libraries.
+		Du behältst aktuelle Webtechnologien und -trends im Blick, stehst im projektübergreifenden Austausch mit anderen Entwickler:innen und teilst dein Wissen gerne in Blogbeiträgen, Meetups etc.
+
+
+	Was Dich auszeichnet:
+
+		Du bist neugierig und pragmatisch mit Spaß am Wissensaustausch. Egal ob mit oder ohne Studium – für uns zählt deine Einstellung und deine Persönlichkeit.
+		Du kennst dich mit der Entwicklung von Single Page Apps (z. B. React) und mit gängigen Frontend-Tools (wie CSS- Präprozessoren, Paketmanagern und Module Bundlern) aus und hast vielleicht schon Berufserfahrung als Frontend-Engineer*, Frontend-Developer*, Webentwickler* o. ä. gesammelt.
+		Das Schreiben semantischer und wartbarer Markups, CSS und JavaScript/TypeScript (ES6+) gehört genauso zu deinem Handwerkszeug wie State Management (z. B. Redux) und Schnittstellenarchitektur (Rest/GraphQL).
+
+
+	Was wir bieten:
+
+		Ein exzellentes und innovatives Produkt, das die Partizipation in unserer Gesellschaft fördert und die Demokratie stärkt, sowie ein hochmotiviertes Team, dem unsere gemeinsame Vision am Herzen liegt.
+		Eine langfristige Perspektive in einem innovativen, gesund wachsenden und sich internationalisierenden Unternehmen.
+		Ein erfahrenes Team von Kolleg:innen, das dich in deiner Weiterentwicklung begleiten wird.
+		Eine attraktive und leistungsgerechte Bezahlung, eine ausgewogene Work-Life-Balance mit 30 Tagen Urlaub, flexiblen Arbeitszeiten und Arbeiten von zu Hause oder für eine bestimmte Zeit aus dem EU-Ausland.
+		Eine Führungskultur, in der Leadership bedeutet, auf den Stärken der Mitarbeiter:innen aufzubauen sowie Eigenverantwortung und eine positive Fehlerkultur zu fördern.
+		Eine Unternehmenskultur, die den Geist von Ownership und Accountability lebt und gleichzeitig den Menschen wertschätzt.
+		Als Frontend-Entwickler* benötigst du immer die beste technische Ausstattung. Die kriegst du. Und du suchst dir deine Hard- und Software selbst aus.
+
+	Weitere Fragen
+	Können Sie sich vorstellen, remote zu arbeiten?Können Sie sich vorstellen, remote zu arbeiten?
+				Ja
+			
+	Wie gut beherrschen Sie Deutsch?Wie gut beherrschen Sie Deutsch?
+				Muttersprache oder zweisprachig
+			
+	Wie gut beherrschen Sie Englisch?Wie gut beherrschen Sie Englisch?
+				Muttersprache oder zweisprachig
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Frontend-Entwicklung?Wie viele Jahre Erfahrung haben Sie mit: Frontend-Entwicklung?
+				20
+			
+	Du kennst dich mit der Entwicklung von Single Page Apps (z. B. React) und mit gängigen Frontend-Tools (wie CSS- Präprozessoren, Paketmanagern und Module Bundlern) aus?Du kennst dich mit der Entwicklung von Single Page Apps (z. B. React) und mit gängigen Frontend-Tools (wie CSS- Präprozessoren, Paketmanagern und Module Bundlern) aus?
+				Yes
+	----------------------------------------------

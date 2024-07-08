@@ -972,6 +972,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Polyas Digital Democracy",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 261,
     "companyName": "Prezi Inc.",
     "contactKind": "company",
