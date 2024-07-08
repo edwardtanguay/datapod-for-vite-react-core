@@ -9,7 +9,6 @@
 			Coordinate activities within the self-organized, agile project team and with other disciplines
 			Drive and professionalize technical structures in apps/web apps independently
 
-
 		Requirements
 
 			5 years of experience in React or React Native
@@ -32,3 +31,9 @@
 	What is your notice period?What is your notice period?
 				August 1, 2024
 	---------------------------------------------------
+- 2024-07-08 13:58:04: call
+	- React, React Native
+	- looking for: 
+		- Expo 
+- 2024-07-08 14:06:05 ~interviewing: "woman called"
+	- she said to put Expo and Laravel in my CV because most companies are using AI to scan CVs

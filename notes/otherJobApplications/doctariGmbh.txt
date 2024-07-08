@@ -29,3 +29,27 @@
 	My salary expectations are between 4,000 € and 4,500 € per month gross.
 	-----------------------------------------------------
 - 2024-07-03 18:29:56; ~interviewing
+- 2024-07-08 15:00:00
+	- candidates
+	- customers - clinics
+	- products
+		- Santosh (Head of Engineering)
+			- sprint
+			- tue/thu
+		- new person	
+			- understand domain first
+			- pair
+		- user-based
+			- my doctari
+			- find match
+			- 60,000 doctors
+			- Arbeitnehmerueberlassung
+				- Doctori employees
+		- Andreas Moeller (Tech Lead of the team)
+			- tech lead
+			- self-manage platforms
+		- five years ago started
+			- recommendation engine
+			- third-party services
+			- AWS
+				- React, Redux
