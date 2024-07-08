@@ -22,6 +22,59 @@
 	Leben Sie in Deutschland oder Spanien?Leben Sie in Deutschland oder Spanien?
 				Yes
 	---------------------------------------
+	About the job
+
+	Position:
+
+	We are looking for a professional or senior frontend or full stack developer who enjoys being in contact with the customer.
+
+
+	What will you be doing:
+
+		Working on complicated B2B or internal applications.
+		But also on interesting and stylish B2C projects using Next.js.
+		Quick startup style product runs from concept to deployment in a few weeks.
+		But also extending and maintaining projects with years of development time.
+		Full stack development using an amazing tech stack with React, Typescript, Go, ArangoDB, and GraphQL.
+		Working closely with the customer, receiving or suggesting new features, capturing these requirements, and delivering them successfully.
+		Helping to continuously refine our best practices in clean code structure and code reuse.
+		Collaborating in powerful teams to create outstanding solutions quickly and cleanly.
+		Breaking down proposed features into plans and estimations.
+		Reviewing code and features with colleagues to ensure top-notch delivery.
+
+
+	What we think you should bring:
+
+		We value loyalty, caring and supporting your team members, diligence, the ability to admit mistakes and learn from them, and patience with others making mistakes.
+		A passion for software in three dimensions:
+		A passion for building clean, maintainable software using efficient and cool technology in a team. You should bring special areas of expertise in coding, but be happy to collaborate with other amazing people and their strengths.
+		Understanding that software is made to help someone get something done. You must understand who our clients are, what they need, and help build exactly that. We value creativity and insights to shape each project to its best possible outcome.
+		Awareness of transparent budgets. Software is a business transaction; someone invests to have software built to serve a purpose and expects a return on their investment through saved time, increased sales, etc. You should feel confident in balancing user requirements and technical possibilities within what a customer can afford.
+		We do not care about your certificates or academic background, only your passion. Do you code in your spare time? Do you notice when an app does something new and realize they solved something in a new and better way?
+		Beyond the technical, you must be curious and interested in businesses. We serve a number of different industries, each with its own microcosm and rules. We love understanding what problems our software solves.
+		Fluency in German and enjoyment in verbal and written communication with customers or other stakeholders.
+		Your residence is in Germany or Spain.
+
+
+	What the modalities are at Qubidu:
+
+		We prefer full-time team members, but part-time models are possible.
+		We have flexible, trust-based working hours. As long as you are a valuable team member delivering outstanding results, you can shape your workday in different ways.
+		We are an international team, so English is our team language.
+		Fully remote company with a 12-year history and solid company culture. Our suite of online tools provide an office-like feel despite the distance .
+		Financially transparent company. You will see estimates turn into budgets and then into software.
+		We are a learning and teaching company. We regularly take in fresh talent and support them in their journey into coding, sharing knowledge, best practices, and directly supporting more junior members. We have our own internal learning management system to navigate the complex space of what to know and learn next.
+		We supply everyone with company hardware and gear to make your personal working space awesome.
+		Free choice between Mac, Linux, or Windows, respecting each team member's expertise with different operating systems.
+		We value humor, personal passions, gaming in the team, or even virtual pen and paper RPGs.
+
+
+	Application: At Qubidu, we place great importance on respect, friendship, and mutual appreciation. Our mission is to create excellent value for customers, employees, and society. If this sounds like the right environment for you, we are eager to hear from you!
+
+
+	Are you ready to join our professional and friendly team? We look forward to receiving your application and salary expectations at jobs@qubidu.com.
+	---------------------------------------
+	
 - ~companyName: Qubidu GmbH
 - 2024-06-20 07:43:13; ~interviewing: received email from Kati Muth - kati.muth@qubidu.com
 	----------------------------------------------------------
