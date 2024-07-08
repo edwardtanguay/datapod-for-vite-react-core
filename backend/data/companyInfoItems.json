@@ -757,6 +757,12 @@
   },
   {
     "id": 0,
+    "companyName": "Moonfare Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Morhane",
     "contactKind": "company",
     "processStatus": "active"

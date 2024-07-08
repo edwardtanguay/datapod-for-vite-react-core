@@ -1,0 +1,25 @@
+- 2024-07-08 07:49:01; Indeed
+	--------------------------------------------
+	You will:
+	Build and maintain customer-facing features.
+	Set engineering standards and implement best practices within the feature team.
+	Take ownership of the implementation and support of various features.
+	Write tests and ensure code quality, adhering to and developing best practices.
+	Craft elegant and readable code that is praised by your peers, while leveraging current trends in software design, architecture, and technology.
+	Use world-class development techniques to deliver a high-performance, stable, and auto-scalable production system that provides business value in weeks, not quarters or years.
+
+	The next Moonfarian:
+	Minimum 5 years of Frontend Engineering experience
+	Fluency in Typescript and extensive experience with React
+	Ideally has experience with React Native (or willing to learn it)
+	Strong awareness of the interplay between JavaScript, HTML & CSS. You can dynamically build, modify and style elements on a page confidently
+	Familiarity with Single-Page Applications. Ideally, you have developed internal systems or Web Applications for complex business domains
+	You are adaptable and have experience in the design, development, deployment, maintenance and improvement of our software solutions with a DevOps mindset
+	Work effectively in diverse teams within an inclusive team culture where people are recognised for their contribution
+	Collaboratively working as part of a multi-disciplined feature team to design and implement best in class software solutions
+	Contribute to a culture of learning and growth through mentoring and knowledge sharing
+	Strong communication skills in English with the ability to lead team meetings and find creative solutions to complex problems
+	You enjoy driving continuous improvement and innovation
+
+	If you feel you do not meet all of the requirements, we still encourage you to apply! 
+	--------------------------------------------
