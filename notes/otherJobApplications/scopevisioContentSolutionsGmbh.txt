@@ -1,0 +1,40 @@
+- 2024-07-08 09:29:24; Indeed
+	---------------------------------------------
+	50000-70000 per year
+	Wir entwickeln eine Webservice-Applikation für Workflow-Management und Archivierung. Diese Anwendung verwendet im Frontend das JavaScript-Framework Ext JS und kommuniziert über eine JSON-API mit unserem Backend.
+
+	Unser Team von 5 Entwicklern sorgt für die Weiterentwicklung und Wartung der Gesamtanwendung, für dieses Team suchen wir ab sofort eine/n Softwareentwicker/in zur Verstärkung für folgende Aufgaben:
+
+		Frontend-Webentwicklung in JavaScript auf Basis des Frameworks Ext JS.
+		Entwicklung von neuen Software-Features.
+		Wartung der bestehenden Software-Versionen.
+		Durchführung von Dokumentationen und Code Reviews.
+
+	Das bieten wir Dir:
+
+		Professionelle Einarbeitung & wertschätzender Umgang auf Augenhöhe
+		Platz für deine kreativen Ideen
+		Ein dynamisch wachsendes Unternehmen
+		30 Tage Urlaub
+		Remote Work in Abstimmung mit deinem Team (aktuell 2 Tage vor Ort/Woche)
+		Teamgeist & Duz-Kultur
+		Obstkorb, Jobrad, Zuschuss zum ÖPNV & Firmenfitness sind natürlich auch bei uns Standard
+
+	Idealerweise bringst du mit:
+
+		Ein abgeschlossenes Studium der Informatik oder über eine vergleichbare Ausbildung.
+		Fundierte Kenntnisse und praktische Erfahrung in JavaScript, HTML, CSS sowie modernen Web-Technologien.
+		Kenntnisse von Node JS und Ext JS sind von Vorteil.
+		Du bist flexibel beim Einsatz von Technologien und Tools.
+		Du sprichst fließend Deutsch und verfügst über gute Englischkenntnisse.
+		Zielorientiertes und eigenverantwortliches Arbeiten sowie Freude an Teamarbeit runden Dein Profil ab.
+
+	Für deine Planung: zum 01.09.2024 werden wir neue Büroräume an der Uellendahler Straße in der Cotton Factory beziehen.
+	Fragen des Arbeitgebers
+	Bearbeiten
+
+	Sprechen Sie Deutsch (mind. C1 Level)?
+		Ja
+	Können Sie für diesen Job problemlos nach 42289 Wuppertal pendeln oder dorthin umziehen?
+		Nein
+	---------------------------------------------

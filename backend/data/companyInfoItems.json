@@ -9,7 +9,7 @@
     "id": 0,
     "companyName": "Abo Express",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -476,6 +476,12 @@
   {
     "id": 0,
     "companyName": "Go Tek",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Godfrey and Martin Consulting",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -1094,6 +1100,12 @@
   {
     "id": 0,
     "companyName": "Salufast GmbH",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Scopevisio Content Solutions Gmbh",
     "contactKind": "company",
     "processStatus": "active"
   },
