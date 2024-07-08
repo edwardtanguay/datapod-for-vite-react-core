@@ -1396,5 +1396,11 @@
     "companyName": "YO HR Consultancy",
     "contactKind": "company",
     "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Yum Gmbh",
+    "contactKind": "company",
+    "processStatus": "active"
   }
 ]

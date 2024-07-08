@@ -1,0 +1,25 @@
+- 2024-07-08 08:19:04; LinkedIn
+	---------------------------------------------------
+	Deine Aufgaben
+
+		Entwicklung qualitativ hochwertiger User Interfaces und Backends für serverless Websites und Applikationen unter Verwendung der neuesten Web-Technologien
+		Kontinuierliche Optimierung unserer Entwicklungsprozesse
+		Weiterentwicklung und Systematisierung der Frontend Architektur
+		Konzeption, Implementierung, Dokumentation und Wartung von Web-Anwendungen und Websites
+		Erstellen von Software-Design und -Architektur
+		Schnittstellenentwicklung zu Fremdsystemen
+
+
+	Deine Hard Skills
+
+		Ruby (expert)
+		JavaScript (expert)
+		Next.js (expert)
+		CSS 3 (expert)
+		HTML5 (expert)
+		React / JSX (professional)
+		Tailwind (rookie)
+
+	How many years with Ruby?
+	2
+	---------------------------------------------------
