@@ -1,0 +1,31 @@
+- 2024-07-08 08:28:02; LinkedIn
+	---------------------------------------------------
+	Requirements
+
+		You already have about 5 years of experience in React or React Native
+		You convince with at least one year of professional experience in app development
+		A degree in computer science or relevant training is desirable but not a prerequisite
+		A high level of quality awareness, a structured way of working and good communication skills and team spirit - Min; English B2, German C1 / C2
+		Ideally, you have already taken on personnel responsibility in the past
+
+	Tasks & Responsibilities
+
+		Plan and take responsibility for frontend development
+		Work closely with other frontend developers
+		Translate functional requirements into efficient, maintainable, tested, and scalable code
+		Participate in the design and development of UI and UX scenarios
+		Coordinate activities within the self-organized, agile project team and with other disciplines
+		Drive and professionalize technical structures in apps/web apps independently
+
+	Core Benefits
+
+		Flexible working hours & remote work possible
+		Continued education and training opportunities
+		Flat hierarchies
+		Employee discounts
+		Self-organization
+		Intensive onboarding process
+		Regular company events
+		30 vacation days + bridge days (37 in total in 2024)
+		Salary + VSOP
+	---------------------------------------------------
