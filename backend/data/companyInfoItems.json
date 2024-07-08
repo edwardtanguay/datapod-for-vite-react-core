@@ -291,7 +291,7 @@
     "id": 0,
     "companyName": "Dl Remote",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -885,7 +885,7 @@
     "id": 282,
     "companyName": "Onlineprinters GmbH",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -1060,6 +1060,12 @@
     "companyName": "Ratbacher GmbH",
     "contactKind": "recruiter",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Rebel Recruiting",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,

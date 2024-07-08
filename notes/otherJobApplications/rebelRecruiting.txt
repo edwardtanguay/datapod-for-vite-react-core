@@ -1,0 +1,54 @@
+- 2024-07-08 12:02:26; LinkedIn
+	-------------------------------------------------
+	Dein Arbeitsalltag:
+
+	Unterstütze dein Team in der ständigen Weiterentwicklung und Neu-Implementierung im Bereich Bestellungen, Preisberechnungen & Payment für das Online-Ticketing für Veranstaltungen. 
+
+	Konzipiere und entwickle neue Features: von der Analyse der Anforderungen bis zur Umsetzung der einzelnen Entwicklungsschritte. 
+
+	Wäge lösungsorientiert, pragmatisch und wirtschaftlich zwischen visionären Ideen und optimaler Softwarearchitektur ab. 
+
+	Übernimm die Prozessüberwachung (Monitoring) und berücksichtige dabei besonders die Skalierbarkeit. 
+
+	Ein wenig Operation (DevOps) kommt auf Dich zu, in Zusammenarbeit mit unseren beiden Administratoren. 
+
+	
+
+	Dein Profil:
+
+	Du arbeitest gerne eigenständig in agilen Teams und bringst frische Ideen ein 
+
+	Du bist offen, engagiert und traust Dich auch über den Tellerrand hinauszublicken 
+
+	Du besitzt mehrjährige Erfahrung mit Node.js, React und SQL und gehst sicher mit JavaScript um (idealerweise mit TypeScript) 
+
+	Du hast einen Blick für saubere Architekturen und Schnittstellen 
+
+	Du perfektionierst Deine Arbeit mit Hilfe von UnitTests & Co. und nutzt GIT, um mit Deinem Team in sync zu bleiben 
+
+	Deutsch mindestens B2 
+
+	
+
+	Benefits: 
+
+	remote möglich 
+
+	Kernarbeitszeit von 10 bis 15 Uhr 
+
+	Urban Sports Club Mitgliedschaft 
+
+	Morderne Apple Hardware 
+
+	30 Tage Urlaub + Weihnachten, Silvester & Rosenmontag 
+
+	JobRad 
+
+	Zuschüsse zur Altersvorsorge und Berufsunfähigkeit 
+
+	KVB-Ticket, wenn Du hybrid arbeitest 
+
+	Team-Events 
+
+	…und noch vieles mehr! 
+	-------------------------------------------------
