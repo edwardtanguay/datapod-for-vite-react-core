@@ -32,3 +32,4 @@
 - 2024-06-24 13:22:01; mail from Rosie The hiring manager has reviewed your CV and feels you could be better suited for one of our Senior Engineer positions instead. If you are happy to proceed we can arrange an interview for you.
 	- responded yes
 - 2024-06-24 18:45:17; signed up for July 4th, 16:30, in-person, will get address soon
+- 2024-07-08 18:47:58; ~declined: "we have decided not to proceed with your application for the vacancy of Senior Engineer"

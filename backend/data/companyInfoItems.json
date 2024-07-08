@@ -135,7 +135,7 @@
     "id": 0,
     "companyName": "Bliq",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -1018,6 +1018,12 @@
     "companyName": "Projektron GmbH",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Prospecter Ventures",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
