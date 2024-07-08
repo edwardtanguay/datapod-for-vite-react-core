@@ -211,6 +211,12 @@
   },
   {
     "id": 0,
+    "companyName": "Consullogik",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Core Tylynt",
     "contactKind": "company",
     "processStatus": "active"

@@ -1,0 +1,48 @@
+- 2024-07-08 08:14:56; LinkedIn
+	----------------------------------------------------------
+	Weitere Fragen
+	Wie viele Jahre Erfahrung haben Sie mit: JavaScript?Wie viele Jahre Erfahrung haben Sie mit: JavaScript?
+				25
+			
+	Wie viele Jahre Erfahrung haben Sie mit: PHP?Wie viele Jahre Erfahrung haben Sie mit: PHP?
+				15
+			
+	Wie viele Jahre Erfahrung haben Sie mit: Vue.js?Wie viele Jahre Erfahrung haben Sie mit: Vue.js?
+				4
+			
+	Resposibilities
+
+	As a Fullstack Enginner you will, 
+
+		Collaborate with the existing team to program and design the web applications.
+		Develop and enhance web-based software solutions.
+		Implement cutting-edge web applications.
+		Independently design and execute innovative ideas.
+		Create new interfaces to optimize system functionality.
+		Improve and expand a progressive web app to meet user needs.
+
+
+	Your Profile
+
+	The ideal candidate will possess:
+
+	- Proficiency in JavaScript, TypeScript, and PHP, with a strong preference for experience in Vue.js.
+
+	- Knowledge and experience with relational and non-relational databases (e.g., MySQL, MongoDB).
+
+	- Expertise in both monolithic systems and microservices architectures.
+
+	- Strong problem-solving abilities and the capacity to work independently.
+
+	- A collaborative mindset, enabling seamless teamwork.
+
+	- Creativity and a proactive approach to implementing innovative ideas.
+
+	- Flexibility and adaptability to changing project requirements.
+
+	- A Bachelor's or Master's degree in Computer Science or a related field.
+
+	- Experience with agile development methodologies (a plus).
+
+	- Fluency in English, with B1-level German language skills being highly advantageous.
+	----------------------------------------------------------
