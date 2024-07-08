@@ -102,6 +102,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Atlantic Adventures",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 260,
     "companyName": "autarc GmbH",
     "contactKind": "company",

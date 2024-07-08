@@ -1,0 +1,35 @@
+- 2024-07-08 08:16:59; LinkedIn
+	----------------------------------------------
+	Full-Stack Developer
+
+
+	Your daily tasks will include:
+
+
+		Daily work within a team to develop new functionality in the backend, micro services, APIs, and front-ends.
+		Code review & testing of existing code written by your peers.
+		Evaluation of new technologies and architectures around frontend/backend development, cloud, CI/CD and (test) automation.
+		Work on and manage all phases of agile projects, from the conceptualization to the development and finally the go-live, with modern tooling
+
+
+	These are the COMPETENCIES that you ideally bring to the table:
+
+
+		You are experienced with modern backend languages, technologies, coding, testing, debugging, and automation techniques.
+		You have at least three years of working experience with at least one object oriented language like TypeScript, Java, Kotlin or C# in combination with backend framework such as SpringBoot, NestJs, EntityFramework or ASP.NET Core
+		You have experience with frameworks for the development of SPA like Angular, React or Vue
+		You know how to work with relational databases and ORMs
+		You have a basic understanding of containerization ideally in combination with Kubernetes
+		Ideally you have working experience with any of the Hyperscalers (Azure, AWS, GCP)
+		Deliver testable, maintainable, and high-quality code
+		Fluent in English, German is a plus
+
+	Wie gut beherrschen Sie oficiency in German?Wie gut beherrschen Sie oficiency in German?
+				Native or bilingual
+			
+	Wie gut beherrschen Sie oficiency in English?Wie gut beherrschen Sie oficiency in English?
+				Native or bilingual
+			
+	Are you legally authorized to work in the EU? (EU citizen or BlueCard).Are you legally authorized to work in the EU? (EU citizen or BlueCard).
+				Yes
+	----------------------------------------------
