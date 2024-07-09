@@ -1,0 +1,10 @@
+- 2024-07-09 08:25:49; LinkedIn
+	----------------------------------------------------
+	Du hast ein abgeschlossenes Studium der (Wirtschafts-)Informatik oder eine vergleichbare Ausbildung
+	Du hast mindestens 3 Jahre Erfahrung in der Wirtschaft gemacht, und willst den nächsten Karriereschritt machen: Programmieren, beim gesamten Produktentwicklungszyklus mitwirken, Team Lead und die Entwicklung eines Startups live miterleben 
+	Echter Team­geist und eine offene, freund­liche und tole­rante Arbeits­atmosphäre motivieren dich zu Hochleistungen
+	Rasche Übernahme von Verantwortung bei Projekten als auch bei der Gestaltung von innovativen Themen sind Herausforderungen, die Deinen Namen tragen
+	Zusammen mit Deinem persönlichen Mentor entwickelst Du Deine Ziele und die Schritte dorthin. Auf diesem Weg unterstützen wir Dich umfassend
+	Du hast praktische Erfahrung mit einem oder mehreren der folgenden Themen: Typescript, Javascript , ReactJS, Node.js, Microsoft Azure, REST, SQL/NoSQL Datenbanken und Git 
+	Erfahrungen im Bereich DevOps mit Docker, Kubernetes, Microservice Architekturen sind ein Plus 
+	----------------------------------------------------

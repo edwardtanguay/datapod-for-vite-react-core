@@ -1,0 +1,12 @@
+- 2024-07-09 09:10:10; LinkedIn
+	------------------------------------------
+	It will be a match if you are or have:
+
+		Bachelor's or Master's degree in Computer Science, Engineering, or related field (or equivalent work experience).
+		8+ years of professional experience in software engineering, with a focus on frontend development using React.
+		Strong proficiency in JavaScript/TypeScript, HTML5, and CSS3, with a deep understanding of frontend frameworks and libraries.
+		Excellent leadership and communication skills, with the ability to inspire and motivate team members.
+		Strong problem-solving skills and ability to navigate complex technical challenges with creativity and pragmatism.
+		Experience working in an agile development environment, with a focus on iterative delivery and continuous improvement.
+		Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment
+	------------------------------------------

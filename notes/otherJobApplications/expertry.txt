@@ -1,0 +1,25 @@
+- 2024-07-09 09:13:02; Indeed
+	--------------------------------------------
+	About us
+
+	We are an innovative company in the HR industry, dedicated to shaping the future of workforce management. To strengthen our team, we are seeking an experienced React.js Developer (m/f/d) to collaborate closely with our Java Backend Developer in transforming our monolithic web application into a modern microservices-based architecture.
+
+	Qualifications
+
+	Must have
+
+	Strong knowledge of REST.
+	Experience in writing unit tests.
+	Ability to set up a web application from scratch.
+	Define code structures for efficient development.
+	Good English skills, as the team is internationally oriented.
+	Minimum of 3 years of experience as a React.js Developer.
+	Knowledge in HR (Human Resources).
+	Experience in restructuring monolithic applications into microservices.
+
+	Tasks
+
+	Collaborate closely with the Java Backend Developer to break down the monolith and build microservices using REST.
+	Refactor frontend components based on UX/UI requirements.
+	Implement test infrastructure and write tests.
+	--------------------------------------------

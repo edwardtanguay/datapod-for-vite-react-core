@@ -1,0 +1,19 @@
+- 2024-07-09 09:33:40; LinkedIn
+	------------------------------------------
+	What will you be working on?
+		Develop web products that support digital asset trading.
+		Participate in building up innovative tools to enrich the ecosystem of our products.
+		Optimize the process of development, performance and user experience continuously.
+	Who will you be working with?
+		Maintain close collaboration with UI designer, product manager, and backend team to produce products of high quality.
+	What challenges will you face?
+		We're looking for a React Developer who has been involved in blockchain projects. This is a full-time remote position (possibility to work remotely as fully as partially). We are seeking a determined and creative developer who is passionate about changing the world through technology, someone who will join a team responsible for implementation of various solutions in the Blockchain and Dapp domains where reliability and efficiency of software is crucial.
+		Fast-paced working environment.
+		Learning ability and communication skills.
+		Self-management ability and a team working with people from different countries.
+	What tech stacks/skills will you be using?
+		React architecture - frequently
+		JavaScript, CSS, HTML, ES6, ESNext - frequently
+		Performance-optimizing - frequently
+	asked for 2 references with e-mails/phone
+	------------------------------------------

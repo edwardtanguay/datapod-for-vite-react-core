@@ -1,0 +1,29 @@
+- 2024-07-09 08:35:41; Indeed
+	-------------------------------------------------
+	Additional Questions
+	Do you have professional working experience in NestJS or ExpressJS?Do you have professional working experience in NestJS or ExpressJS?
+				Yes
+			
+	Do you have professional working experience in ReactJS or VueJS?Do you have professional working experience in ReactJS or VueJS?
+				Yes
+			
+	Do you have a work permit to work in the European Union or Switzerland?Do you have a work permit to work in the European Union or Switzerland?
+				Yes
+			
+	Minimum yearly salary expectationsMinimum yearly salary expectations
+				50000
+			
+	Skills and experience
+
+	You are comfortable making technical decisions and maintaining web applications built with cutting edge technologies and best practices. You enjoy working as a JavaScript full stack engineer building from SDKs to beautiful and functional user interfaces and full stack web applications that serve end-users needs. You are willing to have ownership of what you build and you'd rather ship than over-engineer. You have good communication and collaboration skills and wish to work in a team with talented peers, teaming up to tackle new projects. You want to be a part of building something you can be proud of.
+
+		5+ years of proven experience in building and maintaining modern web applications
+		Proficiency in frontend technologies such as JavaScript & TypeScript and modern frontend frameworks like ReactJS & VueJS
+		Solid understanding of backend technologies and NodeJS frameworks including NestJS & ExpressJS
+		Experience with RESTful APIs and asynchronous programming
+		DevOps mentality and experience on technologies like Git, CI / CD, Docker & Kubernetes
+		Understanding of computer and network security concepts and best practices for securing software applications
+		Strong problem-solving skills and the ability to work effectively in a fast-paced environment
+		Excellent communication skills and the ability to collaborate effectively with cross-functional teams
+		Fluent in English 
+	-------------------------------------------------

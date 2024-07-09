@@ -1,0 +1,31 @@
+- 2024-07-09 08:37:02; Indeed
+	-----------------------------------------------
+	We are working exclusively with a pioneering Music Tech startup who is looking for a Senior/Lead Frontend Engineer.
+
+	Our client is revolutionising online music education with cutting-edge video conferencing technology. They are looking for an experienced Frontend Engineer who has seen the growth of a small startup before to join their innovative team.
+
+	Key Responsibilities
+
+		Develop advanced features for web-based applications
+		Participate in full development lifecycle
+		Collaborate on user experience optimisation
+		Write high-quality, performant code
+		Contribute to technical innovation culture
+		Mentor team members
+
+	Requirements
+
+		5+ years in software engineering, frontend focus
+		Expert in Angular and JavaScript/TypeScript
+		Experience with scalable web applications
+		Passion for emerging technologies
+		Self-driven with strong project management skills
+		WebRTC and full-stack JavaScript experience a plus
+
+	Benefits
+
+		High-impact role in a growing startup
+		Flexible work arrangements
+		Professional development opportunities
+		Exciting perks and team events
+	-----------------------------------------------

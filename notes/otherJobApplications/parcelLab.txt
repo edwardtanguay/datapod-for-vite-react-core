@@ -1,0 +1,22 @@
+- 2024-07-09 09:25:14; LinkedIn
+	--------------------------------------------------
+	What you can expect:
+
+	Enhance the user experience of our product suite by developing next-generation web applications
+	Lead the technical delivery and take responsibility for it, working collaboratively with your team
+	Ensure the development of high-quality production code and drive the improvement of engineering productivity through tooling and processes
+	Mentor mid-level engineers and contribute to their technical career growth
+	Promote good engineering practices within the team
+	Actively participate in technical decision-making within the team and represent them in discussions that impact the entire Engineering department
+	Take responsibility in shaping our product’s usability in a user centric way by finding intuitive solutions for complex UI tasks
+
+
+	What you need to succeed:
+
+	Bachelor's or Master's degree in Computer Science, Software Engineering or many years of working in a related field
+	Strong experience in modern front-end development is a must, previous experience in either back-end or full-stack development is a plus
+	Knowledge of modern frontend frameworks and tools, such as ReactJS, TailwindCSS, accessibility, automated testing (E2E/Unit), and TypeScript
+	Experience working with cross-functional stakeholders, helping them understand the trade-offs of different product and technical decisions
+	A knack for crafting intuitive user interfaces, paired with an agile mindset focused on consistent delivery without compromising on quality standards
+	The most important quality is a willingness to learn. As we are growing and constantly learning new things, we do not expect to find people with experience in all of the required technologies. If you are excited about our tech stack and believe you are a fast learner, do not hesitate to apply!
+	--------------------------------------------------

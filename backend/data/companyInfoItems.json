@@ -91,6 +91,12 @@
   },
   {
     "id": 0,
+    "companyName": "Apaleo",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Asbis",
     "contactKind": "company",
     "processStatus": "active"
@@ -373,6 +379,12 @@
   },
   {
     "id": 0,
+    "companyName": "Expertry",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Explore Group",
     "contactKind": "company",
     "processStatus": "rejected"
@@ -392,6 +404,12 @@
   {
     "id": 0,
     "companyName": "Few and Far",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Fieldfisher",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -446,6 +464,12 @@
   {
     "id": 308,
     "companyName": "Funded.club",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Futurae Technologies Ag",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -520,6 +544,12 @@
     "companyName": "H+H Datenverarbeitungs- und Beratungsgesellschaft mbH",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Halian",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 253,
@@ -674,6 +704,12 @@
   {
     "id": 0,
     "companyName": "Kore",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Kpler",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -919,7 +955,19 @@
   },
   {
     "id": 0,
+    "companyName": "Orderly Network",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Palabra Praxisgruppe",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Parcel Lab",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -1092,6 +1140,12 @@
     "processStatus": "active"
   },
   {
+    "id": 0,
+    "companyName": "Rocketscout",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 245,
     "companyName": "Root Global GmbH",
     "contactKind": "company",
@@ -1174,6 +1228,12 @@
     "companyName": "SINC GmbH",
     "contactKind": "company",
     "processStatus": "interviewing"
+  },
+  {
+    "id": 0,
+    "companyName": "Smart Iot",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 259,
@@ -1262,6 +1322,12 @@
   {
     "id": 0,
     "companyName": "Taylorhall",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Team Viewer",
     "contactKind": "company",
     "processStatus": "active"
   },

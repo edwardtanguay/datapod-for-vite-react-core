@@ -1,0 +1,36 @@
+- 2024-07-09 09:29:19; LinkedIn
+	------------------------------------
+	Die smart IoT group ist ein dynamisches IT Unternehmen mit agilen Teams und Hauptsitz in Essen. Wir entwickeln professionelle Internet-of-Things Lösungen in den Bereichen verbundene Medizintechnik, Gebäudeautomatisierung, moderne Mobilitätskonzepte, sowie weiteren Branchen. Als zukunftsorientiertes Dienstleistungsunternehmen unterstützen wir unsere Kunden umfassend, individuell, kompetent und leistungsstark bei der Planung, Entwicklung und Implementierung innovativer Produkte.
+
+	Tasks
+
+		Unterstützung unserer Kunden bei der Erstellung innovativer Web-Applikationen
+		Selbstständige und technische Pflege sowie Entwicklung von Webplattformen im Frontend und Backend
+		Eigenverantwortliches und teamorientiertes Arbeiten in agilen Projekten
+		Erarbeitung von Konzepten und Lösungen in interdisziplinären Teams und Begleitung des gesamten Projektzyklus
+		Professionelle und kundenorientierte Zusammenarbeit mit angrenzenden Fachbereichen
+
+
+	Requirements
+
+		Fundierte Kenntnisse in JavaScript, und APIs
+		Vorteilhaft: Kenntnisse in TypeScript
+		Kenntnisse in der Anwendung von Frameworks (React, Angular,…)
+		Kenntnisse in Deutsch oder Englisch, mindestens C1
+		Wohnsitz und Arbeitserlaubnis in der EU
+		Kreativität, logisch-strukturiertes Denken und eine große Portion technische Neugier
+		Du arbeitest selbständig, bist teamorientiert und verfügst über eine zielorientierte, pragmatische und proaktive Arbeitsweise
+
+
+	Benefits
+
+		Attraktives Gehalt
+		Büro in Essen-Südviertel, nahe Hauptbahnhof
+		Flexible Arbeitszeiten & Arbeitsort
+		persönliche Weiterentwicklung (FOM Studium, externe Schulungen, interne Workshops)
+		Angenehmes & familiäres Arbeitsklima
+		Freie Getränke, Obst und Snacks im Büro
+		Team-Events
+		optional Job-Fahrrad, oder Firmen-PKW auch zur privaten Nutzung möglich
+		Laptop nach Wunsch: Mac / Win / Lin
+	------------------------------------

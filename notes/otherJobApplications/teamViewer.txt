@@ -1,0 +1,20 @@
+- 2024-07-09 09:19:03; LinkedIn
+	--------------------------------------------------------
+	We are looking for a Frontend Software Engineer (all genders) to actively contribute to the development of new features for our remote access, control and support solution using React and TypeScript. The position will report to the Team Manager Software Development and provides an excellent opportunity to create impact and add value in an agile, modern environment.
+
+	Design and develop frontends using TypeScript, JavaScript, C#, React, HTML and CSS 
+	Be responsible for development of prototypes, new frontend features and React components 
+	Optimize and enhance our software using new technologies, efficient algorithms and frameworks 
+	Introduce improvements to further enhance our systems and codebase when it comes to quality, reliability, maintainability, scalability and performance
+	Act as an advisor to the Product Owner (feasibility studies and time estimates) 
+	Work collaboratively in an agile development team (Scrum) within a Continuous Integration environment
+
+	Requirements
+
+	University or college degree in the field of Computer Science, Media Design, Information Technology, or related subject
+	More than 3 years of professional work experience in frontend development and UI design
+	Proven expertise in creating and designing digital products
+	Solid background in working with HTML, CSS, C#, JavaScript, TypeScript, and frameworks such as React, Angular or Vue.js
+	Knowledge about automated frontend testing tools (e.g. Cypress, Playwright) is a plus
+	Fluency in English is mandatory, German is a plus
+	--------------------------------------------------------

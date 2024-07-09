@@ -1,0 +1,25 @@
+- 2024-07-09 09:00:58; LinkedIn
+	-----------------------------------------
+	Your mission:
+
+		Design, build-out, and maintain the Extension Hub — a new website where developers will be able to publish low-code / no-code and AI extensions for hotels.
+		Maintain and further develop the Apaleo Store — a marketplace for 3rd party applications which are integrated into the Apaleo platform.
+		Evaluate and make strategic decisions for AI and low-code/no-code technologies we should support. This includes: testing these technologies; building example hospitality use cases; and writing technical documentation.
+		Act as an internal subject matter expert on Apaleo APIs, low-code/no-code and AI technologies, and use cases. Provide the technical knowledge for educational content and Community events for our clients.
+		Build and maintain internal solutions for Apaleo's Platform Success Team. Examples: AI tools for onboarding hotels and developers, productized Google Sheets reports for hotels, etc.
+		Be part of our cross-team Frontend Guild
+
+	You would be perfect for this role if you have/are:
+
+		3+ years of experience in HTML, CSS/SCSS, JavaScript (ES6+), TypeScript
+		3+ years of experience in React and Next.js
+		Experience with State management libraries and Contentful API is highly appreciated
+		Experience with Tailwind CSS would be a plus
+		Experience in low-code/no-code tools like Make.com, Retool, and Zapier and curiosity to explore new technologies
+		Understanding of applying LLMs like ChatGPT and others
+		Ability to write clean, scalable and maintainable code
+		Passionate about bringing the latest technologies to the hospitality industry
+		Excellent communication skills with the ability to communicate cross-team successfully
+
+		thy/thou
+	-----------------------------------------
