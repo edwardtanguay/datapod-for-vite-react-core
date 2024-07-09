@@ -70,3 +70,5 @@
 	-  meeting lasted from 13:30 - 15:15
 - 2024-07-09 13:30:00 Coding Challenge Meeting
 	- https://github.com/edwardtanguay/coding-challenge-react-blogsite-calimoto
+	- Martin Strauberger, Vincent Semrau
+	- https://legacy.reactjs.org/docs/reconciliation.html

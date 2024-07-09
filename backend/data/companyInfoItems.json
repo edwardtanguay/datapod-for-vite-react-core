@@ -871,6 +871,12 @@
   },
   {
     "id": 0,
+    "companyName": "Nine Dots",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Noir Consulting",
     "contactKind": "company",
     "processStatus": "active"
@@ -1059,7 +1065,7 @@
     "id": 0,
     "companyName": "Profitap",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 279,

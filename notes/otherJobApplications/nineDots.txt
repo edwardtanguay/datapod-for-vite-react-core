@@ -1,0 +1,43 @@
+- 2024-07-09 14:53:14; Indeed
+	---------------------------------------------
+	Additional Questions
+	Do you require visa assistance? Do you require visa assistance? 
+				No
+			
+	Do you have experience with GraphQL based APIs? Do you have experience with GraphQL based APIs? 
+				Yes
+			
+	What is your notice period?What is your notice period?
+				0
+
+	Want to work on a platform that will transform eCommerce and how we shop online? Do you want to work with a company that is very high pace and ships constantly. Then perhaps this will be a perfect match for you. (Prior experience with a start-up is a must)
+
+
+	From speaking with the Co-Founder, it is clear he has very lofty ambitions, to turn their current user base of 500,000, to world domination. To democratise how eCommerce is done and introduce different types and sizes of sellers and make it a more immersive experience for everyone.
+
+
+	They require a full stack engineer, someone who is backend leaning.
+
+
+	What their system looks like now? Majority of the APIs are GraphQL based and their platform is built on AWS.
+
+
+	Ideal candidate will have:
+
+
+	Node/TypeScript
+
+	AWS experience - Across the majority of suite including Lambdas
+
+	Isn't afraid of a tiny bit of UI work (can come from any UI framework)
+
+	Has decent database skills, is comfortable with some complex queries.
+
+
+	This role can be based anywhere in the EU, as long as it is within an hour or two of GMT.
+
+
+	The role pays €80-€100k
+
+	Spain, remote
+	---------------------------------------------
