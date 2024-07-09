@@ -59,3 +59,4 @@
 
 	• Discount on a health insurance
 	------------------------------------------
+- 2024-07-09 13:08:00; ~rejection: "chosen to move forward with a different candidate for the Front-End Software Engineer"
