@@ -1,0 +1,51 @@
+- 2024-07-10 00:11:05; LinkedIn
+	----------------------------------------------
+	The Role
+
+	Senior Engineers at Whitespectre are sharp technical experts who can think like product owners. They're a driving force within our multidisciplinary teams, collaborating with product managers & designers. They follow our agile 2-week sprint methodology incrementally build and release new functionality, while maintaining close alignment with all stakeholders. They stay up to date with the latest technology trends as part of the collective. The majority of our projects involve building greenfield applications and our delivery teams typically own products end to end - your thinking and contribution make a big impact!
+
+	You can read more about life in our JavaScript engineering team in the posts by our Senior Engineer, Eneko
+
+
+	Key Responsibilities
+
+		Work with senior technical stakeholders to design and implement robust backend and frontend solutions.
+		Advocate for code quality and rapid business value, while creating exceptional software and user experiences.
+		Drive architecture and implementation decisions, getting hands-on with code to bring features to life, squash bugs, while consistently keeping tech debt in check.
+		Mentor and guide other engineers to develop & grow.
+		Go outside core expertise, strengthen skills with other technologies and learn more by solving problems that AI coding tools don't immediately solve.
+		Work with CI/CD, AWS, and Github workflows for automated and efficient releases.
+		Demonstrate excellent written and verbal communications skills to guide stakeholders through architecture decisions and demonstrate the value of the technical work that's been completed by the team.
+		Work with a significant crossover with our core hours: 11am - 7pm Central European Time.
+
+
+	Tech Stack
+
+		Backend: Node.js, Next.js, Nest.js
+		Frontend: React.js, TypeScript
+		APIs: REST, GraphQL
+		Tools: CI/CD, AWS, Github workflows
+
+
+	Technical experience for this position
+
+		6+ years of experience with TypeScript/JavaScript
+		4+ years with React.js
+		2+ years with Node.js/Next.js/Nest.js
+
+
+	Benefits of working at Whitespectre
+
+	We foster an inclusive working environment that provides:
+
+		Competitive salaries, with payment in USD
+		Annual Performance & Salary Reviews, with proactive career management
+		20 Days PTO & 3 Charity Days annually
+		Great company environment - check out our 4.8 employee rating on Glassdoor
+		An emphasis on Work-life balance - flexible working hours for efficient teaming in a 100% remote environment (proudly remote first for 10 years!)
+		Funded face-to-face meet ups in Barcelona, as well as, South America and AsiaAssisted Relocation package
+		Cross-company knowledge groups - improve your expertise, share your learnings and work with different technologies and tools
+		Free English classes & educational expenses support
+		Generous Employee Referral Plan
+		Team Fitness and Charity Initiatives
+	----------------------------------------------

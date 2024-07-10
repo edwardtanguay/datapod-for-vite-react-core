@@ -1,0 +1,26 @@
+- 2024-07-10 02:09:45; Indeed
+	-----------------------------------------------------------
+	Your mission
+
+		Develop and maintain our applications using JavaScript/TypeScript
+		Collaborate with cross-functional teams to design and implement new features
+		Optimize application performance and user experience
+		Troubleshoot and debug technical issues
+		Contribute to the overall technical architecture and code quality of the product
+
+	What is our tech stack?
+
+		ReactJS for our web client
+		NodeJS & Express for our API
+		Postgres for relational DB & Sequelize ORM
+		AWS and related services for our infrastructure
+		Atlassian software (Jira, BitBucket, etc)
+
+	Your profile
+
+		3+ years of experience in software development with Javascript/Typescript in a production environment
+		Experience working in a startup environment is a plus
+		Strong problem-solving skills and ability to work independently
+		Passionate about sustainability and making a positive impact on the environment and enthusiasm for doing something positive
+		Fluent English
+	-----------------------------------------------------------

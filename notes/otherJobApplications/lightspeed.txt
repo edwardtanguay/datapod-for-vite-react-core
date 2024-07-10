@@ -1,0 +1,16 @@
+- 2024-07-10 00:05:17; Indeed
+	-----------------------------------------------
+	What you'll be bringing to the team:
+
+	Strong knowledge of modern HTML and JavaScript (ES6+), TypeScript, CSS(-in-JS)
+	Knowledge of React.js, Next.js, or similar technologies
+	Excellent problem-solving and debugging skills in the context of Web applications
+	Solid understanding of Web application concerns
+		Authentication, OAuth2, JWT
+		API design, REST, GraphQL
+		Performance optimizations
+		Security best practices, OWASP
+	Experience developing in a back-end for frontend layer
+	Familiarity with writing tests (e2e using Cypress) and ensuring the highest coding standards
+	Communication skills in English
+	-----------------------------------------------

@@ -703,6 +703,12 @@
   },
   {
     "id": 0,
+    "companyName": "Klim",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
     "companyName": "Kore",
     "contactKind": "company",
     "processStatus": "active"
@@ -716,6 +722,12 @@
   {
     "id": 0,
     "companyName": "Leafcloud",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
+    "id": 0,
+    "companyName": "Lightspeed",
     "contactKind": "company",
     "processStatus": "active"
   },
@@ -1468,6 +1480,12 @@
     "companyName": "wefox Germany GmbH",
     "contactKind": "company",
     "processStatus": "closed"
+  },
+  {
+    "id": 0,
+    "companyName": "White Spectre",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 0,
