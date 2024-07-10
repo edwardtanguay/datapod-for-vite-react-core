@@ -1,0 +1,33 @@
+- 2024-07-10 02:11:57; Indeed
+	-------------------------------------------
+	How many years of work experience do you have with JavaScript?How many years of work experience do you have with JavaScript?
+				25
+			
+	How many years of work experience do you have with Open-Source Software?How many years of work experience do you have with Open-Source Software?
+				20
+			
+	How many years of work experience do you have with Developer Tools?How many years of work experience do you have with Developer Tools?
+				20
+			Responsibilities:
+
+		Design, develop, and enhance our developer tools, including Sats Connect, SDKs and APIs.
+		Optimize APIs and infrastructure components, ensuring scalability, security, and efficiency.
+		Versatile in fullstack development, from sophisticated backend logic to engaging front-end interfaces.
+		Create and maintain detailed developer documentation, guides, and possible tutorials, helping other developers in utilizing our tools effectively.
+		Implement robust version control practices and maintain a keen focus on backward compatibility, advocating for standards that support long-term project sustainability.
+		Leverage experience with wallet API tools and SDKs in the crypto/web3 sphere, such as Web3.js, EVM, or other Web 3 SDKs.
+		Engage in the development of our whole product which includes the mobile application, web application, extension and more.
+
+
+	Qualifications:
+
+		5+ years of full-stack development, with 3+ years of Web3 experience with a significant focus on developer tools and/or infrastructure projects.
+		Demonstrated contribution to open source projects, developer communities or other developer collaboration projects.
+		Proficiency in JavaScript/TypeScript, Node.js and modern frameworks.
+		Passionate about Web3 technologies, curious about Bitcoin ecosystem.
+		Extensive experience with API, SDK development, version control systems, and a strong stance on backward compatibility.
+		Creative problem-solving skills, with a history of working on innovative projects, especially in new technology or Web 3 domain.
+		Experience development of applications utilizing Web3 SDKs.
+		Comfortable to work with loose requirements.
+		Excellent and effective verbal and written communication skills, capable of producing high-quality developer documentation and guides.
+	-------------------------------------------

@@ -1518,6 +1518,12 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Xverse",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 246,
     "companyName": "xymatic GmbH",
     "contactKind": "company",
