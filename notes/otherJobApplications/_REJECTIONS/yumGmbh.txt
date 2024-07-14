@@ -23,3 +23,4 @@
 	How many years with Ruby?
 	2
 	---------------------------------------------------
+- 2024-07-11 11:59:22; ~rejection: "we will not be moving forward with your application"

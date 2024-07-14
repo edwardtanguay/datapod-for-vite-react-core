@@ -100,3 +100,177 @@
 		- Ingolf Ernst
 		- Martin Friedel
 			- has Blog Site like my Howto Site: https://www.qubidu.com/blog/post/2019-11-28-starting-react-project-open-url-with-parameters/
+``2024-07-04 
+
+- Qubidu
+	- people
+		- Martin
+		- Eoin
+		- Otto-Johannes, Ryan
+		- Alejandro
+		- Kati
+		- Ingolf
+	- company
+		- the connection with Spain
+		- sep 2019
+			- React frontend
+				- React itself has about 80 dependencies 
+				- a lot of complexity in the basic foundation
+				- JavaScript
+					- npm, the largest collection of building blocks 
+				- we rely on our fellow programmers, this blog is our vehicle for giving back: for sharing our experiences, bug fixes, discoveries, for explaining some of our reasonings, some of our findings
+			- Go backend
+				- is about as minimalistic as you can get and we love that
+				- a project that consists of one source file
+		- feb 2021
+			- when Covid-19 struck, not much changed for us really
+			- suddenly we are a global company, working for customers from overseas or from parts of Germany we would previously not have considered
+			- only our competence and our personality count and customers suddenly do not care anymore where we come from
+			- we were forced to hire new empoyees who we had never met in person before
+			- lunchclub.com
+			- You install Go and it comes with everything you need
+	- questions
+		- what does the day-to-day work look like
+		- what tools
+		- ci/cd
+		- teams/projects
+			- "transform visitors into buyers"
+			- how often are there new projects
+			- are these projects that are continually developed
+			- how to make projects efficient: 
+				- internal framework
+			- do specific people have specific skills
+				- or everyone a generalist
+			- Auszubildender
+		- values
+			- Kultur des Helfens, Feierns, kontinuierlichen Lernens
+			- Wachstum
+			- 22 people
+		- reason to hire a new person
+			- new customers
+			- developing new projects
+			- expanding globally
+			- what should one know technically
+		- projects
+			- old project
+				- excel tabellen
+				- ERP 
+				- bestandnnn alle processe
+				- not fibu
+				- only the things that are unique
+				- 80% / 20%
+					- React 
+					- Go 
+					- packages
+					- heraus holen und ändern
+				- not many microservices
+					- customers not big enough
+				- easy-peasy redux
+				- materialUI
+					- nesting
+					- variables
+		- Alejando
+			- Malaga
+			- 2017
+			- Rockboard / Warwick
+				- bases and guitar 
+				- configurators
+				- React/Go/Arango
+			- https://www.netcup.de/
+			- leanspace
+			- Next.js
+				- SEO
+			- 3D configurator of guitars
+				- React/TypeScript
+				- GraphQL
+					- moving to fetch
+				- ArangoDB
+			- Ivan
+			- Dimi
+			- Clickup
+				- all the tasks
+		- Eoin
+			- OH-in
+			- 2014 came to Germany
+			- development since 2004
+			- .NET/C#
+			- Java
+			- Go
+			- PHP
+			- backend focused
+			- tracking
+				- clickup
+			- customers
+				- no production support afterward
+				- pass of projects
+				- moving to virtualized machines
+				- project manager
+					- left company
+			- client
+				- Pflanzmich.de
+				- 20 year old company
+				- Excel Macro
+				- not a lot of expertise
+				- no project managers
+				- weekly video calls
+				- sleeping giants
+					- founder-driven companies
+					- need support and advice
+				- "this is the first learning company I've worked for"
+				- huge database
+					- web shop
+					- we talk to backend database
+					- staging server
+		- Otto
+			- Martin since 2008
+				- Morgenrot Wolf
+			- graphql codegen
+		- Ryan
+			- American
+			- Junior
+			- two years
+			- 2008 moved to Germany
+			- 
+		- product
+			- Produktkonfiguratoren
+			- 3D-Konfiguratoren
+			- Workshops?
+			- Verwaltungssoftware - Riedl
+			- Project Management software
+			- Überbau
+		- no mobile applications
+		- tech
+			- site: 
+				- Es gibt unglaublich viel zu lernen.
+				- dein Wille, viel zu lernen
+				- wir setzen zukunftsweisende Technologien und Prozesse ein um exzellente Software zu erstellen
+			- ArangoDB	
+				- ORM?
+			- GraphQL
+				- what kinds of data sources
+				- Microservices
+			- cloud?
+			- TypeScript
+			- main
+				- React
+				- React Native / Expo
+				- Go
+				- GraphQL/Apollo
+				- UX
+			- other
+				- Git
+				- TypeScript
+				- Node
+				- VSCode
+				- Postgres, MongoDB, dgraph, ArangoDB?
+					- why graph databases?
+						- nodes, edges, and properties
+						- representing complex relationships and networks, such as social connections, transportation systems, or organizational hierarchies
+				- Redux
+				- MaterialUI, Tailwind?, shadcn/ui?
+				- Cypress, Jest
+				- Gitlab, self-hosted?
+				- Docker/Kubernetes
+				- Storybook
+				- Arch Linux?
+				- easy-peasy (AI?)

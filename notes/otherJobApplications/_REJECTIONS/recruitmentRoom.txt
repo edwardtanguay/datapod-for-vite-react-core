@@ -29,3 +29,4 @@
 		30 vacation days + bridge days (37 in total in 2024)
 		Salary + VSOP
 	---------------------------------------------------
+- 2024-07-10 11:02:37; ~rejection: "has chosen to proceed with another candidate for the Frontend Developer role"

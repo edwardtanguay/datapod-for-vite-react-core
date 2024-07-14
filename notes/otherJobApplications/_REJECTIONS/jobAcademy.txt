@@ -35,3 +35,4 @@
 
 	Arbeitsort: Vor Ort
 	--------------------------------------------------
+- 2024-07-12 08:09:51; ~rejection: "Leider konnten wir Dich in der engeren Auswahl nicht berücksichtigen"

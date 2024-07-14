@@ -72,3 +72,4 @@
 	- https://github.com/edwardtanguay/coding-challenge-react-blogsite-calimoto
 	- Martin Strauberger, Vincent Semrau
 	- https://legacy.reactjs.org/docs/reconciliation.html
+- 2024-07-12 15:05:05 Meeting with Luca and Sebastian, "du warst der Favorit"

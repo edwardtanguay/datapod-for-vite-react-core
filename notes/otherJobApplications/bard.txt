@@ -1,0 +1,66 @@
+- 2024-07-10 07:22:42; LinkedIn
+	-------------------------------------------------
+	Key Responsibilities:
+
+		Develop and maintain user-facing features using React.js
+
+		Build reusable components and front-end libraries for future use
+
+		Translate designs and wireframes into high-quality code
+
+		Optimize components for maximum performance across a vast array of web-capable devices and browsers
+
+		Collaborate with designers, product managers, and backend developers to create seamless user experiences
+
+		Participate in code reviews to ensure code quality and share best practices with team members
+
+		Troubleshoot and debug application issues, identifying and implementing solutions in a timely manner
+
+		Stay updated with emerging trends and technologies in front-end development
+
+	Qualifications:
+
+		3+ years of professional experience in front-end development
+
+		Proficiency in JavaScript, HTML5, CSS3, and ES6+
+
+		Strong experience with React.js and state management libraries such as Redux or MobX
+
+		Familiarity with RESTful APIs and integrating front-end interfaces with backend services
+
+		Knowledge of modern front-end build pipelines and tools such as Webpack, Babel, NPM, etc.
+
+		Experience with version control systems, preferably Git
+
+		Understanding of responsive design principles and cross-browser compatibility
+
+		Strong problem-solving skills and attention to detail
+
+		Excellent communication skills and ability to work effectively in a team environment
+
+	Preferred Qualifications:
+
+		Experience with TypeScript
+
+		Knowledge of testing frameworks and tools such as Jest, Enzyme, or Cypress
+
+		Familiarity with agile development methodologies and practices
+
+		Experience with performance optimization techniques
+
+		Understanding of user authentication and authorization between multiple systems, servers, and environments
+
+	What We Offer:
+
+		100% remote work
+
+		Competitive salary and benefits package
+
+		Opportunities for professional growth and development
+
+		A collaborative and inclusive work environment
+
+		Flexible working hours and remote work options
+
+		Engaging and challenging projects that push the boundaries of technology
+	-------------------------------------------------

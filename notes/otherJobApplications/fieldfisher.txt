@@ -8,3 +8,4 @@
 	Du hast praktische Erfahrung mit einem oder mehreren der folgenden Themen: Typescript, Javascript , ReactJS, Node.js, Microsoft Azure, REST, SQL/NoSQL Datenbanken und Git 
 	Erfahrungen im Bereich DevOps mit Docker, Kubernetes, Microservice Architekturen sind ein Plus 
 	----------------------------------------------------
+- 2024-07-10 11:07:58; ~interviewing: "Montag, den 15.07.2024, um 16.00 Uhr" ("legal tech startup")

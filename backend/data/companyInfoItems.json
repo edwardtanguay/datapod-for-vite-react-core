@@ -120,6 +120,12 @@
     "processStatus": "rejected"
   },
   {
+    "id": 0,
+    "companyName": "Bard",
+    "contactKind": "company",
+    "processStatus": "active"
+  },
+  {
     "id": 309,
     "companyName": "Basilicom GmbH",
     "contactKind": "company",
@@ -411,7 +417,7 @@
     "id": 0,
     "companyName": "Fieldfisher",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "interviewing"
   },
   {
     "id": 272,
@@ -436,6 +442,12 @@
     "companyName": "Flix",
     "contactKind": "company",
     "processStatus": "rejected"
+  },
+  {
+    "id": 0,
+    "companyName": "Flowout",
+    "contactKind": "company",
+    "processStatus": "active"
   },
   {
     "id": 262,
@@ -669,7 +681,7 @@
     "id": 0,
     "companyName": "Job Academy",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -1149,7 +1161,7 @@
     "id": 0,
     "companyName": "Recruitment Room",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -1209,7 +1221,7 @@
     "id": 0,
     "companyName": "Sennder",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 0,
@@ -1539,6 +1551,6 @@
     "id": 0,
     "companyName": "Yum Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   }
 ]
