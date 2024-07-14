@@ -22,5 +22,9 @@
 	{
 		"itemType": "topics",
 		"jsonFilePathAndFileName": "/edward/learn2024/etnotes/src/data/itemtype_topics.json"
+	},
+	{
+		"itemType": "bookNotes",
+		"jsonFilePathAndFileName": "/edward/qubiduTech/booknotes/booknotes/src/data/bookNotes.json"
 	}
 ]
