@@ -31,3 +31,4 @@
 		Comfortable to work with loose requirements.
 		Excellent and effective verbal and written communication skills, capable of producing high-quality developer documentation and guides.
 	-------------------------------------------
+- 2024-07-15 09:11:28; ~rejection: "we will not be moving forward with your application"

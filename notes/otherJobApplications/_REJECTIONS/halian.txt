@@ -10,3 +10,4 @@
 	Wie viele Jahre Erfahrung haben Sie mit: Vue.js?Wie viele Jahre Erfahrung haben Sie mit: Vue.js?
 				4
 	---------------------------------------------------
+- 2024-07-15 16:26:02; ~rejection: "we will not be moving forward with your application, but we appreciate your time and interest in Halian"

@@ -53,3 +53,4 @@
 			- third-party services
 			- AWS
 				- React, Redux
+- 2024-07-15 14:53:56; ~interviewRejection: "we have decided to take further steps with other candidates who fit our requirements for the position slightly better. If you are ok with it, we would like to keep your contact for future open roles"
