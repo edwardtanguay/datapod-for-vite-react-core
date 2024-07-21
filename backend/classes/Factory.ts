@@ -11,6 +11,7 @@ import { DataTypeDpodId } from './DataTypeDpodId';
 import { DataTypeParagraph } from './DataTypeParagraph';
 import { DataTypeDecimal } from './DataTypeDecimal';
 import { DataTypeYesNo } from './DataTypeYesNo';
+import { DataTypeDpodWhenCreated } from './DataTypeDpodWhenCreated';
 
 export class Factory {
 
@@ -19,6 +20,9 @@ export class Factory {
 			switch (dataTypeDefinitionLine) {
 				case 'dpodId':
 					dataTypeDefinitionLine = 'DpodId;dpodId';
+					break;
+				case 'dpodWhenCreated':
+					dataTypeDefinitionLine = 'DpodWhenCreated;dpodWhenCreated';
 					break;
 				case 'Date':
 					dataTypeDefinitionLine += ';date';
@@ -54,6 +58,8 @@ export class Factory {
 				return new DataTypeDate(idCode);
 			case 'dpodId':
 				return new DataTypeDpodId(idCode);
+			case 'dpodWhenCreated':
+				return new DataTypeDpodWhenCreated(idCode);
 			case 'wn':
 			case 'wholeNumber':
 				return new DataTypeWholeNumber(idCode);
