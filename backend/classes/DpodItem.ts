@@ -1,5 +1,6 @@
 import { LineBlock } from "./LineBlock";
 import * as qstr from "../../share/qtools/qstr";
+import * as qdat from "../../share/qtools/qdat";
 import { DpodDataLoader } from "./DpodDataLoader";
 import { DpodSchema } from "./DpodSchema";
 import { DataType } from "./DataType";
@@ -65,6 +66,14 @@ export class DpodItem {
 		return dpodId;
 	}
 
+	private getDpodWhenCreatedFromVerboseItem() {
+		const fieldLines = this.lineBlock.getAllLinesButFirst();
+		const firstLine = fieldLines[1]; // "dpodWhenCreated::2024-07-21 23:32:20"
+		const parts = qstr.breakIntoParts(firstLine, "::");
+		const dpodWhenCreated = parts[1];
+		return dpodWhenCreated;
+	}
+
 	private removeDpodIdLineFromFieldLinesAndStripPrefixes(
 		fieldLines: string[]
 	): string[] {
@@ -87,36 +96,48 @@ export class DpodItem {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		let fieldLines = this.lineBlock.getAllLinesButFirst();
 		const dpodId = this.getDpodIdFromVerboseItem();
+		const dpodWhenCreated = this.getDpodWhenCreatedFromVerboseItem();
 		fieldLines =
 			this.removeDpodIdLineFromFieldLinesAndStripPrefixes(fieldLines);
+			console.log(444, 'verbose');
 		if (this.dpodSchema) {
-			let index = -1;
+			let index = -2;
 			for (const _dataType of _dataTypes) {
 				const creationLine =
 					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
+					console.log(777, 'INSIDE');
 					let fieldLine = fieldLines[index];
-					if (fieldLine.endsWith("[[")) {
-						let innerContent = "";
-						let innerFieldLine = "";
-						while (innerFieldLine !== "]]") {
-							innerContent += innerFieldLine + "\n";
-							index++;
-							innerFieldLine = fieldLines[index];
+					if (fieldLine) {
+						if (fieldLine.endsWith("[[")) {
+							let innerContent = "";
+							let innerFieldLine = "";
+							while (innerFieldLine !== "]]") {
+								innerContent += innerFieldLine + "\n";
+								index++;
+								innerFieldLine = fieldLines[index];
+							}
+							fieldLine = innerContent.trim();
 						}
-						fieldLine = innerContent.trim();
-					}
-					if (fieldLine === appConfig.blankLineMarker()) {
-						__dataType.setValue("");
+						if (fieldLine === appConfig.blankLineMarker()) {
+							__dataType.setValue("");
+						} else {
+							__dataType.setValue(fieldLine);
+							console.log(999, `wrote ${fieldLine}`);
+						}
 					} else {
-						__dataType.setValue(fieldLine);
+						console.log('ERROR: fieldLine is empty in DpodItem.ts');
 					}
-				} else {
+				} else if (index === -2) {
 					__dataType.setValue(dpodId);
+				} else {
+					__dataType.setValue(dpodWhenCreated);
+					console.log(888, `setting whencreated on index ${index}`);
 				}
 				this.dataTypes.push(__dataType);
 				index++;
+				console.log(666, index);
 			}
 		}
 	}
@@ -125,7 +146,7 @@ export class DpodItem {
 		const _dataTypes = this.dpodSchema.getDataTypes();
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
 		if (this.dpodSchema) {
-			let index = -1;
+			let index = -2;
 			for (const _dataType of _dataTypes) {
 				const creationLine =
 					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
@@ -149,8 +170,10 @@ export class DpodItem {
 							__dataType.setValue(fieldLine);
 						}
 					}
-				} else {
+				} else if (index === -2) {
 					__dataType.setValue(qstr.generateShortUUID());
+				} else {
+					__dataType.setValue(qdat.getCurrentIsoDateTime())
 				}
 				this.dataTypes.push(__dataType);
 				index++;

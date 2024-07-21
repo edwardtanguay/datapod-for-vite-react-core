@@ -1,16 +1,11 @@
 ** Test Books
 Title
-Price;wn
-Description;p
+Subtitle
+Notes
 
 ==testBook
-dpodId::tMeXUS
-title::Sapiens
-price::24.99
-description::This is a good book.
-
-==testBook
-dpodId::0CQ3MC
-title::To Kill a Mockingbird
-price::
-description::
+dpodId::IUIdSS
+dpodWhenCreated::2024-07-21 23:44:12
+title::2024-07-21 23:44:12
+subtitle::2024-07-21 23:44:12
+notes::ttt
