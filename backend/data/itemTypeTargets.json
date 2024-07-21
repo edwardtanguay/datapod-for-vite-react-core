@@ -26,5 +26,9 @@
 	{
 		"itemType": "bookNotes",
 		"jsonFilePathAndFileName": "/edward/qubiduTech/booknotes/booknotes/src/data/bookNotes.json"
+	},
+	{
+		"itemType": "skills",
+		"jsonFilePathAndFileName": "/edward/datapod2023/tanguay-eu/src/data/itemtype_skills.json"
 	}
 ]
