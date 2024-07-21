@@ -561,7 +561,7 @@
     "id": 0,
     "companyName": "Halian",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 253,
@@ -1041,7 +1041,7 @@
     "id": 0,
     "companyName": "Pi Informatik Gmbh",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 296,
@@ -1533,7 +1533,7 @@
     "id": 0,
     "companyName": "Xverse",
     "contactKind": "company",
-    "processStatus": "active"
+    "processStatus": "rejected"
   },
   {
     "id": 246,
