@@ -99,7 +99,6 @@ export class DpodItem {
 		const dpodWhenCreated = this.getDpodWhenCreatedFromVerboseItem();
 		fieldLines =
 			this.removeSystemFieldsFromFieldLinesAndStripPrefixes(fieldLines);
-			console.log(444, 'verbose');
 		if (this.dpodSchema) {
 			let index = -2;
 			for (const _dataType of _dataTypes) {
@@ -107,7 +106,6 @@ export class DpodItem {
 					_dataType.getLabel() + ";" + _dataType.getDataTypeIdCode();
 				const __dataType = Factory.instantiateDataType(creationLine);
 				if (index >= 0) {
-					console.log(777, 'INSIDE');
 					let fieldLine = fieldLines[index];
 					if (fieldLine) {
 						if (fieldLine.endsWith("[[")) {
@@ -124,7 +122,6 @@ export class DpodItem {
 							__dataType.setValue("");
 						} else {
 							__dataType.setValue(fieldLine);
-							console.log(999, `wrote ${fieldLine}`);
 						}
 					} else {
 						console.log('ERROR: fieldLine is empty in DpodItem.ts');
@@ -133,11 +130,9 @@ export class DpodItem {
 					__dataType.setValue(dpodId);
 				} else {
 					__dataType.setValue(dpodWhenCreated);
-					console.log(888, `setting whencreated on index ${index}`);
 				}
 				this.dataTypes.push(__dataType);
 				index++;
-				console.log(666, index);
 			}
 		}
 	}

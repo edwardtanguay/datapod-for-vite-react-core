@@ -168,13 +168,10 @@ export class DpodDataLoader {
 	}
 
 	private createItems() {
-		console.log(111, 'createItems');
 		for (const lineBlock of this.lineBlocks) {
 			const lineBlockKind = lineBlock.getKind();
-			console.log(222, lineBlockKind);
 			if (lineBlockKind === "item") {
 				const dpodItem = new DpodItem(lineBlock, this);
-				console.log(333, dpodItem.debug());
 				if (dpodItem.dataTypes.length > 0) {
 					this.dpodItems.push(dpodItem);
 				}
