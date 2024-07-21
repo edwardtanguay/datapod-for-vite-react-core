@@ -1,0 +1,21 @@
+** Skills
+Categories
+Title
+Body;p
+Extras
+
+==skill
+dpodId::AiqPOa
+dpodWhenCreated::2024-07-21 23:57:41
+categories::go setup
+title::Install Go on Windows
+body::- see: [Install Go on Windows and create and compile program](https://tanguay-eu.vercel.app/howtos/349)
+extras::$order=1
+
+==skill
+dpodId::NJt9VP
+dpodWhenCreated::2024-07-21 23:58:23
+categories::go setup
+title::Install Go on Linux
+body::- see: [Install Go on a new Hetzner Debian machine and make universal executable Go program](https://tanguay-eu.vercel.app/howtos/865)
+extras::$order=1
