@@ -66,9 +66,8 @@ ${this.getSchemaBlockDataTypeLines()}
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
 		const dataTypeDpodId = Factory.instantiateDataType("dpodId");
 		const dataTypeDpodWhenCreated = Factory.instantiateDataType("dpodWhenCreated");
-		console.log(111, dataTypeDpodId);
-		console.log(222, dataTypeDpodWhenCreated);
 		this.dataTypes.push(dataTypeDpodId);
+		this.dataTypes.push(dataTypeDpodWhenCreated);
 		for (const fieldLine of fieldLines) {
 			const dataType = Factory.instantiateDataType(fieldLine);
 			if (dataType) {
