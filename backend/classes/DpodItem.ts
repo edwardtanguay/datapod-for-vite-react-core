@@ -74,12 +74,12 @@ export class DpodItem {
 		return dpodWhenCreated;
 	}
 
-	private removeDpodIdLineFromFieldLinesAndStripPrefixes(
+	private removeSystemFieldsFromFieldLinesAndStripPrefixes(
 		fieldLines: string[]
 	): string[] {
 		const newFieldLines: string[] = [];
 		for (const fieldLine of fieldLines) {
-			if (!fieldLine.startsWith("dpodId::")) {
+			if (!fieldLine.startsWith("dpodId::") && !fieldLine.startsWith("dpodWhenCreated::")) {
 				const parts = qstr.breakIntoParts(fieldLine, "::");
 				if (parts.length !== 2) {
 					newFieldLines.push(fieldLine);
@@ -98,7 +98,7 @@ export class DpodItem {
 		const dpodId = this.getDpodIdFromVerboseItem();
 		const dpodWhenCreated = this.getDpodWhenCreatedFromVerboseItem();
 		fieldLines =
-			this.removeDpodIdLineFromFieldLinesAndStripPrefixes(fieldLines);
+			this.removeSystemFieldsFromFieldLinesAndStripPrefixes(fieldLines);
 			console.log(444, 'verbose');
 		if (this.dpodSchema) {
 			let index = -2;
