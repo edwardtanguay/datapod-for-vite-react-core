@@ -1,0 +1,15 @@
+** Weights
+Date;date
+Kilograms;dec
+
+==weight
+dpodId::6zNcqM
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-03
+kilograms::88
+
+==weight
+dpodId::YIVULR
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-22
+kilograms::87.6
