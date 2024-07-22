@@ -19,3 +19,24 @@ categories::go setup
 title::Install Go on Linux
 body::- see: [Install Go on a new Hetzner Debian machine and make universal executable Go program](https://tanguay-eu.vercel.app/howtos/865)
 extras::$order=1
+
+==skill
+dpodId::9vDYEi
+dpodWhenCreated::2024-07-22 00:04:33
+categories::go setup
+title::Create, run and compile a hello world
+body::[[
+- **main.go**
+	-----------------------------------
+	package main
+
+	import "fmt"
+
+	func main() {
+		fmt.Println("Hello, World!")
+	}
+	-----------------------------------
+- `go run main.go`
+- `go build main.go`
+]]
+extras::$order=1.4
