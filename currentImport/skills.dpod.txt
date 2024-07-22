@@ -176,7 +176,7 @@ extras::
 dpodId::98CxfD
 dpodWhenCreated::2024-07-22 09:30:48
 categories::go structs
-title::Create a struct called Framework with name/yearCreate, then a method "display" to display it, use it twice
+title::Create a struct called Framework with name/yearCreated, then a method "display" to display it, use it twice
 body::- note line 16, 17, instances are created with braces and properties in order##structmethodsoij
 extras::
 
@@ -280,6 +280,26 @@ extras::
 dpodId::X3Jeds
 dpodWhenCreated::2024-07-22 16:51:56
 categories::go api
-title::Create an API that outputs a HTML page at the "/" route
+title::Create an API that outputs an HTML page at the "/" route
 body::- note that the order of response/request is backwards from Node/Express##theinfosonj
+extras::
+
+==skill
+dpodId::3Oaygc
+dpodWhenCreated::2024-07-22 23:36:49
+categories::go api
+title::Create an API with an HTML info router at "/" and a FrameworkRouteHandler function that serves a JSON array of JavaScript frameworks
+body::- note that if you send JSON, you need to sent the content type as well, see line 11##apiahandleriroute
+extras::
+
+==skill
+dpodId::mKjcCg
+dpodWhenCreated::2024-07-23 00:14:12
+categories::go api
+title::Create an API route handling function and then a unit test to test it
+body::[[
+- to run the test, simply click on the "run test" text above the test function
+- uncomment the code on the left in line 11 to emulate a status that is not 200 OK
+- full code is here: https://github.com/edwardtanguay/go-showcase-examples/tree/dev/01620-api-handler##apitestinggo
+]]
 extras::
