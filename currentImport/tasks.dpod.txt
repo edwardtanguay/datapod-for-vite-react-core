@@ -7,6 +7,7 @@ Status
 
 ==task
 dpodId::pyFHYz
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::enable user to delete dpod in a dpod text block and get a new one, for easy adding by copying and changing
 description::
@@ -15,6 +16,7 @@ status::status:todo
 
 ==task
 dpodId::7f797q
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::make admin page with button "Create CRUD page for item type"
 description::
@@ -23,6 +25,7 @@ status::todo
 
 ==task
 dpodId::7hK2Mm
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::enable default values to be defined in schema
 description::if you just type the item type marker, then all defaults values are filled in
@@ -31,6 +34,7 @@ status::
 
 ==task
 dpodId::7sslHI
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::enable namespaces for dpod text files
 description::
@@ -39,6 +43,7 @@ status::todo
 
 ==task
 dpodId::gRiGZ5
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::make DataType Rank
 description::
@@ -47,6 +52,7 @@ status::todo
 
 ==task
 dpodId::5VwOUM
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::update datasource after reading (and keep dpodId constant), also one file per itemType
 description::
@@ -55,6 +61,7 @@ status::completed
 
 ==task
 dpodId::mD0Duj
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::define types for all appData properties and solve the recursive error when doing a json.stringify on it
 description::
@@ -63,6 +70,7 @@ status::todo
 
 ==task
 dpodId::x6VLry
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::refactor qdev.log to handle multiple line outputs or one-liners
 description::[[
@@ -74,6 +82,7 @@ status::todo
 
 ==task
 dpodId::z4bHpV
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::escape double quotes (test with notes items)
 description::
@@ -82,6 +91,7 @@ status::completed
 
 ==task
 dpodId::lHvCkQ
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::in DpodDataLoader, define types for all any types, e.g. dpodItemGroups
 description::
@@ -90,6 +100,7 @@ status::todo
 
 ==task
 dpodId::7wnFXU
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::replace all validation with Zod
 description::
@@ -98,6 +109,7 @@ status::todo
 
 ==task
 dpodId::GLVQ0t
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::enable each itemType to be copied to the target file
 description::
@@ -106,6 +118,7 @@ status::completed
 
 ==task
 dpodId::YtNwbT
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::create tests for all qtools functions
 description::
@@ -114,6 +127,7 @@ status::todo
 
 ==task
 dpodId::QwRQF4
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::display the JSON on site as indented, use wrap function in qstr
 description::
@@ -122,6 +136,7 @@ status::completed
 
 ==task
 dpodId::UnqBUQ
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::allow trailing properties to be empty
 description::
@@ -130,6 +145,7 @@ status::completed
 
 ==task
 dpodId::KZsdRR
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::split API up into index.ts and server.ts and implement basic testing
 description::
@@ -138,6 +154,7 @@ status::todo
 
 ==task
 dpodId::fiwb7i
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::allow trailing NUMBER properties to be empty (currently only works with LINES)
 description::
@@ -146,6 +163,7 @@ status::todo
 
 ==task
 dpodId::XXJ9yF
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::create dpodWhenCreated and dpodWhatCreated fields
 description::
@@ -154,6 +172,7 @@ status::todo
 
 ==task
 dpodId::hRVB0g
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::in appConfig allow developer to define paths to dpodBatch files to import any item
 description::
@@ -162,6 +181,7 @@ status::todo
 
 ==task
 dpodId::AUyTkU
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::fix issue that not all files are being watched
 description::you have to change DpodDataLoader for changes in e.g. qstr to take effect
@@ -170,6 +190,7 @@ status::todo
 
 ==task
 dpodId::hMfFZV
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::enable one-liner imports which can be in dpod data files or dpodBatch files
 description::
@@ -178,6 +199,7 @@ status::todo
 
 ==task
 dpodId::5BnKYY
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::fix table and Datapod view to show tabs
 description::
@@ -186,6 +208,7 @@ status::complete
 
 ==task
 dpodId::5SgBRt
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodForViteReact
 title::copy over the documentation from the old Node/Express datapod
 description::
@@ -194,6 +217,7 @@ status::todo
 
 ==task
 dpodId::HZL1Dp
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodCentral
 title::display overview (siteAndGoalOverview) in Outline mode with images and markdown
 description::
@@ -202,6 +226,7 @@ status::completed
 
 ==task
 dpodId::H69xIT
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodCentral
 title::show "Open Tasks" and "completed Tasks"
 description::
@@ -210,6 +235,7 @@ status::completed
 
 ==task
 dpodId::bKqsD7
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodCentral
 title::get central task management working
 description::
@@ -218,6 +244,7 @@ status::todo
 
 ==task
 dpodId::kwvM3j
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodCentral
 title::generate navbar from array
 description::
@@ -226,6 +253,7 @@ status::completed
 
 ==task
 dpodId::IInb6Q
+dpodWhenCreated::2024-07-22 07:53:59
 project::datapodCentral
 title::replan and restructure starter page to reflect new strategy: open-source datapod projects
 description::
@@ -234,6 +262,7 @@ status::todo
 
 ==task
 dpodId::T0sJoV
+dpodWhenCreated::2024-07-22 07:53:59
 project::goCli
 title::scan all frontend masters notes howtos and create JSON when which videos were watched
 description::
@@ -242,6 +271,7 @@ status::todo
 
 ==task
 dpodId::t9W54m
+dpodWhenCreated::2024-07-22 07:53:59
 project::phoenixDatapod
 title::make a hello world website, host at Render.com
 description::
@@ -250,6 +280,7 @@ status::todo
 
 ==task
 dpodId::CyysO3
+dpodWhenCreated::2024-07-22 07:53:59
 project::t3Datapod
 title::make a hello world website, host at Vercel
 description::- see: https://create.t3.gg/en/deployment/vercel
@@ -258,6 +289,7 @@ status::todo
 
 ==task
 dpodId::Y2XmUY
+dpodWhenCreated::2024-07-22 07:53:59
 project::techItemsGame
 title::techItemsGame; as you play, star items to look up later
 description::
@@ -266,6 +298,7 @@ status::todo
 
 ==task
 dpodId::jq7iPC
+dpodWhenCreated::2024-07-22 07:53:59
 project::techsite
 title::add tech flashcards with 30 of the most useful, with search
 description::
@@ -274,6 +307,7 @@ status::todo
 
 ==task
 dpodId::6nOqGz
+dpodWhenCreated::2024-07-22 07:53:59
 project::allSites
 title::make all sites responsive-first
 description::
@@ -282,6 +316,7 @@ status::todo
 
 ==task
 dpodId::V55AYX
+dpodWhenCreated::2024-07-22 07:53:59
 project::tanguayInfo
 title::make responsive landing page for Video2Brain videos, with explanation
 description::
