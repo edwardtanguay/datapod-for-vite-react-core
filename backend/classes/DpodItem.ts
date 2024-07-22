@@ -124,7 +124,8 @@ export class DpodItem {
 							__dataType.setValue(fieldLine);
 						}
 					} else {
-						console.log('ERROR: fieldLine is empty in DpodItem.ts');
+						// console.log('ERROR: fieldLine is empty in DpodItem.ts');
+						// this is intentional, i.e. blank line at end of item
 					}
 				} else if (index === -2) {
 					__dataType.setValue(dpodId);
