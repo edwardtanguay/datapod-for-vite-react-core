@@ -6,6 +6,7 @@ Extras
 
 ==topic
 dpodId::UGuuAh
+dpodWhenCreated::2024-07-22 07:51:03
 category::Copenhagen
 title::Danish
 body::[[
@@ -17,6 +18,7 @@ extras::
 
 ==topic
 dpodId::uVKodw
+dpodWhenCreated::2024-07-22 07:51:03
 category::Copenhagen
 title::Copenhagen City
 body::[[
@@ -84,6 +86,7 @@ extras::
 
 ==topic
 dpodId::DBgysZ
+dpodWhenCreated::2024-07-22 07:51:03
 category::Copenhagen
 title::Kierkegaard
 body::[[
@@ -153,6 +156,7 @@ extras::
 
 ==topic
 dpodId::ZeKrqM
+dpodWhenCreated::2024-07-22 07:51:03
 category::Podcasts
 title::Discussion on AI between Tom Bilyeu and Salim Ismail - May 2024
 body::[[
@@ -293,6 +297,7 @@ extras::
 
 ==topic
 dpodId::LN0S2w
+dpodWhenCreated::2024-07-22 07:51:03
 category::Copenhagen
 title::Copenhagen Marathon Trip 2024
 body::[[
