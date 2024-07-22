@@ -70,7 +70,15 @@ export class DpodItem {
 		const fieldLines = this.lineBlock.getAllLinesButFirst();
 		const firstLine = fieldLines[1]; // "dpodWhenCreated::2024-07-21 23:32:20"
 		const parts = qstr.breakIntoParts(firstLine, "::");
-		const dpodWhenCreated = parts[1];
+		const fieldIdCode = parts[0]; // dpodWhenCreated might not be present (during version upgrade), so this will be the first custom field
+		let dpodWhenCreated = '';
+		if (fieldIdCode !== 'dpodWhenCreated') {
+			dpodWhenCreated = '(TIMESTAMP)'; // dpodWhenCreated is not present, so give it a timestamp
+		} else {
+			dpodWhenCreated = parts[1]; // dpodWhenCreated is already present
+		}
+		console.log(11111, fieldIdCode);
+		console.log(22222, dpodWhenCreated);
 		return dpodWhenCreated;
 	}
 

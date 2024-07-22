@@ -1,0 +1,9 @@
+** Weights
+Date;date
+Kilograms;dec
+
+==weight
+dpodId::6zNcqM
+dpodWhenCreated::(TIMESTAMP222222)
+date::whatever
+kilograms::88
