@@ -96,7 +96,7 @@ extras::$idCode=thewritetofile222
 dpodId::DO8HBo
 dpodWhenCreated::2024-07-22 09:30:39
 categories::go files
-title::- Create functions to create and delete directories
+title::Create functions to create and delete directories
 body::\t- createNestedDirectories("output/images")
 extras::- createNestedDirectories("output/data")
 
@@ -141,7 +141,7 @@ extras::$idCode=theecnodingjson
 dpodId::V9mk81
 dpodWhenCreated::2024-07-22 09:30:44
 categories::linux find
-title::find all files in current directory that have "string" in the name
+title::Find all files in current directory that have "string" in the name
 body::- `find . -maxdepth 1 -name "*string*" -exec ls -ld {} +`##themaxdepthsdkf
 extras::
 
@@ -149,7 +149,7 @@ extras::
 dpodId::glirMI
 dpodWhenCreated::2024-07-22 09:30:45
 categories::go documentation
-title::find quick documentation on packages and functions
+title::Find quick documentation on packages and functions
 body::[[
 - use **go fmt**
 - note you have to have a module (go.mod)##tthebothsidfearfind
@@ -160,7 +160,7 @@ extras::
 dpodId::8SanFZ
 dpodWhenCreated::2024-07-22 09:30:46
 categories::go functions
-title::create a function with a naked return
+title::Create a function with a naked return
 body::- naked return is best used in short functions to improve readability##nakedruetrnsgo
 extras::
 
@@ -168,7 +168,7 @@ extras::
 dpodId::6Cqo4l
 dpodWhenCreated::2024-07-22 09:30:47
 categories::go testing
-title::write a test for simple function
+title::Write a test for simple function
 body::- you can either click on "run test" or type `go test`##thetestingokok
 extras::
 
@@ -176,7 +176,7 @@ extras::
 dpodId::98CxfD
 dpodWhenCreated::2024-07-22 09:30:48
 categories::go structs
-title::create a struct Framework with name/yearCreate, then a method "display" to display it, use it twice
+title::Create a struct Framework with name/yearCreate, then a method "display" to display it, use it twice
 body::- note line 16, 17, instances are created with braces and properties in order##structmethodsoij
 extras::
 
@@ -184,7 +184,7 @@ extras::
 dpodId::c9HenL
 dpodWhenCreated::2024-07-22 09:30:49
 categories::go errorHandling
-title::create a struct with method to change a property and handle errors on it: Employee with name/department/conferences and method registerForSalesConference
+title::Create a struct with method to change a property and handle errors on it: Employee with name/department/conferences and method registerForSalesConference
 body::- note the use of a pointer in line 11##errohandlisnginstruc
 extras::
 
@@ -192,7 +192,7 @@ extras::
 dpodId::dhfBXP
 dpodWhenCreated::2024-07-22 09:30:50
 categories::go generics
-title::create a function that takes a dog age and returns the human age, make the function be able to accept an int or float64
+title::Create a function that takes a dog age and returns the human age, make the function be able to accept an int or float64
 body::- note you don't need to specify the type that is being sent, it will be recognized by the function##thecodeforgen
 extras::
 
@@ -200,7 +200,7 @@ extras::
 dpodId::EgvC6D
 dpodWhenCreated::2024-07-22 09:30:51
 categories::go functions
-title::create a function called StringFilter that accepts a string slice and a filter function that is performed on each string
+title::Create a function called StringFilter that accepts a string slice and a filter function that is performed on each string
 body::- notice that you send an anonymous function to the function that takes a function as a parameter##thefuncaspaam
 extras::
 
@@ -208,7 +208,7 @@ extras::
 dpodId::Mi02QZ
 dpodWhenCreated::2024-07-22 09:30:52
 categories::go defer
-title::write a function CreateFile(fileName, content) that creates and writes content to a file
+title::Write a function CreateFile(fileName, content) that creates and writes content to a file
 body::- the defer statement forces the statement to be executed after the surrounding function returns, either on normal return or by an panic##dothedefer
 extras::
 
