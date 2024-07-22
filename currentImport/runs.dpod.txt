@@ -1416,7 +1416,7 @@ date::2024-06-05
 kilometers::6
 duration::00:40:00
 body::[[
-nnn Tairo and I met about 10 minutes before the run, talked to a number of the members, none of which I remember from 3 years ago, even Martin wasn't there. But even though it had rained, there were still about 12 runners and all of a sudden in mid-conversation, some of them started running off and that was the official start. The route is the same as it was 3 years ago: out 3 kilometers along the canal, rest for about 10 minutes talking with everyone, and then run back. Had some nice conversations and look forward to running with this group again.
+Tairo and I met about 10 minutes before the run, talked to a number of the members, none of which I remember from 3 years ago, even Martin wasn't there. But even though it had rained, there were still about 12 runners and all of a sudden in mid-conversation, some of them started running off and that was the official start. The route is the same as it was 3 years ago: out 3 kilometers along the canal, rest for about 10 minutes talking with everyone, and then run back. Had some nice conversations and look forward to running with this group again.
 
 ##cluborange
 
@@ -1447,3 +1447,62 @@ nnn Tairo and I met about 10 minutes before the run, talked to a number of the m
 ##clubred
 ]]
 extras::finished
+
+==run
+dpodId::WepogK
+dpodWhenCreated::2024-07-22 07:25:58
+idCode::run20240710
+title::10K Start of Eindhoven Training Run
+date::2024-07-10
+kilometers::10
+duration::00:00:00
+body::[[
+After taking a break from running during my job-search process, and after getting a job, I decided to start up my running again with a 10K on a quite hot day. It was one of those runs that are not enjoyable but necessary to get back into running. Lots of construction along the canal, so much that the time on my watch made no more sense, so didn't have a time for this run, but was very slow compared to the last few runs on this route. It rained pretty hard during the day, but when I got out, the sun was also back out.
+
+##backraindday
+
+##backsthstop
+
+##backturnsdfkj
+
+##backdownintojsdf
+
+##backfolllso
+
+##backoutonjs
+
+##backtops2
+
+##backgototot
+
+##backingaetesdf
+
+##backwithftruou
+
+##backoutous
+
+##backbehinsdfjsdkf
+
+##backonjthefi
+
+##backgoinssi
+
+##backhotsji
+
+##backcampskjd
+
+##backgthrough
+
+##backgplayjsi
+
+##backfiniinin
+
+##backtongysdkfj
+
+##backunderspotjksd
+
+##backbrid
+
+##backhtiwhang
+]]
+extras::
