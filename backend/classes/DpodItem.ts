@@ -73,7 +73,7 @@ export class DpodItem {
 		const fieldIdCode = parts[0]; // dpodWhenCreated might not be present (during version upgrade), so this will be the first custom field
 		let dpodWhenCreated = '';
 		if (fieldIdCode !== 'dpodWhenCreated') {
-			dpodWhenCreated = '(TIMESTAMP)'; // dpodWhenCreated is not present, so give it a timestamp
+			dpodWhenCreated = qdat.getCurrentIsoDateTime(); // dpodWhenCreated is not present, so give it a timestamp
 		} else {
 			dpodWhenCreated = parts[1]; // dpodWhenCreated is already present
 		}
