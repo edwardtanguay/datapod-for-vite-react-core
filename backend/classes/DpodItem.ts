@@ -77,8 +77,6 @@ export class DpodItem {
 		} else {
 			dpodWhenCreated = parts[1]; // dpodWhenCreated is already present
 		}
-		console.log(11111, fieldIdCode);
-		console.log(22222, dpodWhenCreated);
 		return dpodWhenCreated;
 	}
 

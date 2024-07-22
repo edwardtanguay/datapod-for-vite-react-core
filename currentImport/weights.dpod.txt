@@ -4,6 +4,42 @@ Kilograms;dec
 
 ==weight
 dpodId::6zNcqM
-dpodWhenCreated::2024-07-22 07:07:40
-date::whatever
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-03
 kilograms::88
+
+==weight
+dpodId::YIVULR
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-22
+kilograms::87.6
+
+==weight
+dpodId::RX4W0S
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-23
+kilograms::86.2
+
+==weight
+dpodId::jQ6M0l
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-24
+kilograms::86.1
+
+==weight
+dpodId::2PyKo8
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-25
+kilograms::86.9
+
+==weight
+dpodId::jko24X
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-26
+kilograms::85.9
+
+==weight
+dpodId::3TQAan
+dpodWhenCreated::2024-07-22 07:09:13
+date::2024-01-27
+kilograms::86.7
