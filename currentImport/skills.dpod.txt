@@ -232,8 +232,11 @@ extras::
 dpodId::wCIzfw
 dpodWhenCreated::2024-07-22 09:30:55
 categories::go interfaces
-title::Make a function called PrintAnything that accepts any parameter type and prints informationa about it
-body::- you have to use the empty interface##ttheemptysexample
+title::Make a function called PrintAnything that accepts any parameter type and prints information about it
+body::[[
+- you have to use the empty interface##ttheemptysexample
+- in this case, interface{} is like TypeScript's any
+]]
 extras::
 
 ==skill
@@ -272,7 +275,7 @@ extras::
 dpodId::kIbJr7
 dpodWhenCreated::2024-07-22 09:31:00
 categories::go concurrency
-title::Create a debate example using concurrency which emulates two speakers taking turns using a microphone to speak random phrases
+title::Create a conversation emulation example using concurrency which emulates two speakers taking turns using a microphone to speak random phrases
 body::- note that you can add as many speakers as you like##thedeabuexamplskd
 extras::
 
@@ -301,5 +304,58 @@ body::[[
 - to run the test, simply click on the "run test" text above the test function
 - uncomment the code on the left in line 11 to emulate a status that is not 200 OK
 - full code is here: https://github.com/edwardtanguay/go-showcase-examples/tree/dev/01620-api-handler##apitestinggo
+]]
+extras::
+
+==skill
+dpodId::3ytqu2
+dpodWhenCreated::2024-07-23 00:56:35
+categories::go website
+title::Use the Go standard library template to create a website with variables from a struct
+body::- you have to create a data object, then in the HTML, you have access to all of the properties##gowevtemplate
+extras::
+
+==skill
+dpodId::oQmjRu
+dpodWhenCreated::2024-07-23 01:31:23
+categories::go makefile
+title::Create make file to more easily build a Go executable
+body::[[
+- "make build" will create the executable, "make clean" will delete it
+- this worked on my Ubuntu without installing anything
+- on Windows, even in Git Bash, make can't be found, installation is involved##createstheexecmake
+]]
+extras::
+
+==skill
+dpodId::JjEzhZ
+dpodWhenCreated::2024-07-23 12:19:56
+categories::go modules
+title::Make a custom Go module on your GitHub which you can import into other projects
+body::[[
+- create a local Go project that has Go functions organized into files and publish it to a repository, e.g.
+	- https://github.com/edwardtanguay/gotools##firstfunction
+- set the project up up module with the name of the repository:
+	- `go mod init github.com/edwardtanguay/gotools`
+- create a new release on GitHub
+	- "Releases"
+	- "Created a new release"
+	- enter tag version e.g. "v1.0.0"
+	- enter title and description
+	- "Publish release"
+- create another project
+	- create it as a module
+		- `go mod init tanguay.info/02300-use-custom-module`
+	- import and use a function in your custom module##importansdfususe
+	- record the current version in your module file
+		- `go mod tidy`##gotidsjdsy
+- to upgrade to a new version
+	- make change
+	- on GitHub make a new release (must begin with "v", e.g. "v1.1.0")
+	- go to new version URL at pkg.go.dev e.g. https://pkg.go.dev/github.com/edwardtanguay/gotools@v1.1.0
+		- click button to upgrade, this make take a few minutes
+	- in projects where you want to upgrade to the new version
+		- `go mod tidy`
+		- click and upgrade##theclickandup
 ]]
 extras::
