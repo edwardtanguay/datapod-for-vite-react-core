@@ -1821,4 +1821,28 @@ I had to deliver some mash potatoes to Karla in Kreuzberg so took it as a green 
 extras::
 
 ==run
-20240727
+dpodId::1wEZDu
+dpodWhenCreated::2024-07-28 20:54:59
+idCode::20240727
+title::5K Berlin Night Run with Hannah
+date::2024-07-27
+kilometers::5
+duration::00:33:26
+body::[[
+ksdfjsdf
+
+##annready
+
+##annvic
+
+##annwait
+
+##annsportst
+
+##anndog
+
+##anntop
+
+##annwalkdinto
+]]
+extras::
