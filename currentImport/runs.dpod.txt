@@ -1702,13 +1702,15 @@ Had to take my laptop back to DCI so made a run out of it. Arriving about 9:10, 
 extras::
 
 ==run
-run20240725
-21K Night run through Berlin
-2024-07-25
-21
-02:45:00
-[[
-I had to deliver some mash potatoes to Karla in Kreuzberg so took it as a green arrow to do another training run, as my next marathon is coming up quickly in October. I had recently run 19K so for tonight picked out a 23K run from Kreuzberg to Steglitz and cut it down to a 21K. Lots of nice urban shadow scenes tonight, a nice, late run. 
+dpodId::bztiUa
+dpodWhenCreated::2024-07-28 04:02:14
+idCode::run20240725
+title::21K Night run through Berlin
+date::2024-07-25
+kilometers::21
+duration::02:45:00
+body::[[
+I had to deliver some mash potatoes to Karla in Kreuzberg so took it as a green arrow to do another training run, as my next marathon is coming up quickly in October. I had recently run 19K so for tonight picked out a 23K run from Kreuzberg to Steglitz and cut it down to a 21K. Lots of nice urban shadow scenes tonight, a nice, late run.
 
 ##schbox
 
@@ -1816,3 +1818,4 @@ I had to deliver some mash potatoes to Karla in Kreuzberg so took it as a green 
 
 ##schlackner
 ]]
+extras::
