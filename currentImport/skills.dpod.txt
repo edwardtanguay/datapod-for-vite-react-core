@@ -389,3 +389,28 @@ body::[[
 	- search for "sqlite"##thesqlisjworking
 ]]
 extras::
+
+==skill
+linux
+Create a script command that allows the user to guess a number
+[[
+- **~/scripts/guess.sh**
+	--------------------------------------
+	#!/usr/bin/zsh
+
+	r=$(( ($RANDOM % 3) + 1 ))
+	echo "Guess a number between 1 and 3"
+	vared -p "guess> " -c g
+	if [[ $g -eq $r ]]; then;
+	echo "Yes, $g is correct."
+	else;
+	echo "Sorry, the number was $r."
+	fi
+	--------------------------------------
+- add to **~/.bashrc**
+	-----------------------------------------
+	export PATH=$PATH:/home/edward/scripts
+	-----------------------------------------
+- reload: `source ~/.bashrc`
+- anywhere you can now type `guess.sh` and it will run
+]]
