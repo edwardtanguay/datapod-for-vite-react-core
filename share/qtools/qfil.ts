@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import fs from "fs";
 import path from "path";
+import * as https from "https";
 
 export const readJsonFile = (filePath: string) => {
 	const jsonData = fs.readFileSync(filePath, "utf8");
@@ -72,4 +74,41 @@ export const getFileNameFromPathAndFileName = (
 	pathAndFileName: string
 ): string => {
 	return path.basename(pathAndFileName);
+};
+
+export const downloadImageFile = (
+	sourcePathAndFileName: string,
+	targetPathAndFileName: string
+): Promise<void> => {
+	return new Promise((resolve, reject) => {
+		if (!/^https?:/.test(sourcePathAndFileName)) {
+			return reject(
+				new Error("Invalid URL. Must start with http or https.")
+			);
+		}
+
+		const file = fs.createWriteStream(targetPathAndFileName);
+
+		https
+			.get(sourcePathAndFileName, (response: any) => {
+				if (response.statusCode !== 200) {
+					return reject(
+						new Error(
+							`Failed to get '${sourcePathAndFileName}' (${response.statusCode})`
+						)
+					);
+				}
+				response.pipe(file);
+				file.on("finish", () => {
+					file.close(() => resolve());
+				});
+			})
+			.on("error", (err) => {
+				fs.unlink(targetPathAndFileName, () => reject(err));
+			});
+
+		file.on("error", (err) => {
+			fs.unlink(targetPathAndFileName, () => reject(err));
+		});
+	});
 };
