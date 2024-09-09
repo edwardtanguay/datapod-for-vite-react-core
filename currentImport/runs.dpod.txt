@@ -2668,3 +2668,61 @@ Hannah and I signed up for the Viertelmarathon in Steglitz and I needed to do a 
 ##vierfamvac
 ]]
 extras::
+
+==run
+dpodId::VpIYiX
+dpodWhenCreated::2024-09-10 00:39:03
+idCode::20240827
+title::7K after-work run Südende Loop
+date::2024-08-27
+kilometers::7
+duration::00:42:22
+body::[[
+Another after-work run, quite a bit of sun but almost got down under a 6-minute kilometer pace, in any case, always a nice way to unwind at the end of the day.
+
+##aginstart
+
+##aginbrid
+
+##agincars
+
+##aginbrick
+
+##agintwo
+
+##agingraf
+
+##aginlong
+
+##aginpath
+
+##aginbus
+
+##aginconst
+
+##aginattil
+
+##aginlights
+
+##aginshort
+
+##aginman
+
+##agintime
+]]
+extras::
+
+==run
+dpodId::D0cruQ
+dpodWhenCreated::2024-09-10 01:35:29
+idCode::20240831
+title::31K Steglitz-Teltow-Brandenburg-Marienfelde
+date::2024-08-31
+kilometers::31
+duration::04:10:00
+body::[[
+Needed to do my weekly long run for October's marathon in Eindhoven, and 31K was this week's distance, so charted out a fun run down to Teltow across the area where the two railroad tracks split, one to Teltow and the other towards Jüterbog, and after a few kilometers through a part of Teltow I have never been in, back out to Brandenburg along the outskirts of Berlin reentering at Gustav-Heinemann Schule and then back home.
+
+##teltmap
+]]
+extras::
