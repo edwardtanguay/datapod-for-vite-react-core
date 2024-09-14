@@ -2963,49 +2963,6 @@ Another after-work 7K, finally got under a 6-minute kilometer pace, one month to
 extras::
 
 ==run
-dpodId::AmjwSh
-dpodWhenCreated::2024-09-14 00:48:13
-idCode::20240904
-title::7K after-work run Südende Loop
-date::2024-09-04
-kilometers::7
-duration::00:41:05
-body::[[
-Another after-work 7K, finally got under a 6-minute kilometer pace, one month to marathon.
-
-##startsun
-
-##startgreen
-
-##startgrate
-
-##startdoors
-
-##startnota
-
-##startout
-
-##startthrough
-
-##startsundown
-
-##startgoing
-
-##startgraf
-
-##startgcurcve
-
-##startgbikes
-
-##startright
-
-##startfoll
-
-##startvalend
-]]
-extras::
-
-==run
 dpodId::wEPRyK
 dpodWhenCreated::2024-09-14 01:34:15
 idCode::20240908
