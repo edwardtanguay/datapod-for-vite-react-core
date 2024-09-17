@@ -1,63 +1,81 @@
-** Dutch Verb
+** Dutch Verbs
 English
 Infinitive
 Present
 Imperfect Singular
 Imperfect Plural
 Participle
-Rank;
+Rank;UNKNOWN
 Extras
 
 ==dutchVerb
-to bake
-bakken
-bak
-bakte
-bakten
-heb gebakken
-3.8
+dpodId::mvFL7v
+dpodWhenCreated::2024-09-17 09:03:45
+english::to bake
+infinitive::bakken
+present::bak
+imperfectSingular::bakte
+imperfectPlural::bakten
+participle::heb gebakken
+rank::3.8
+extras::
 
 ==dutchVerb
-to begin
-beginnen
-begin
-begon
-begonnen
-ben begonnen
-4.9
+dpodId::QkrYyM
+dpodWhenCreated::2024-09-17 09:03:45
+english::to begin
+infinitive::beginnen
+present::begin
+imperfectSingular::begon
+imperfectPlural::begonnen
+participle::ben begonnen
+rank::4.9
+extras::
 
 ==dutchVerb
-to understand
-begrijpen
-begrijp
-begreep
-begrepen
-heb begrepen
-4.93
+dpodId::ABF6yB
+dpodWhenCreated::2024-09-17 09:03:45
+english::to understand
+infinitive::begrijpen
+present::begrijp
+imperfectSingular::begreep
+imperfectPlural::begrepen
+participle::heb begrepen
+rank::4.93
+extras::
 
 ==dutchVerb
-to pay
-betalen
-betaal
-betaalde
-betaalden
-heb betaald
-4.6
+dpodId::dTX5Nf
+dpodWhenCreated::2024-09-17 09:03:45
+english::to pay
+infinitive::betalen
+present::betaal
+imperfectSingular::betaalde
+imperfectPlural::betaalden
+participle::heb betaald
+rank::4.6
+extras::
 
 ==dutchVerb
-to mean
-bedoelen
-bedoel
-bedoelde
-bedoelden
-heb bedoeld
-4.7
+dpodId::KtFyR6
+dpodWhenCreated::2024-09-17 09:03:45
+english::to mean
+infinitive::bedoelen
+present::bedoel
+imperfectSingular::bedoelde
+imperfectPlural::bedoelden
+participle::heb bedoeld
+rank::4.7
+extras::
 
 ==dutchVerb
-to pray
-bidden
-bid
-bad
-baden
-gebeden
-4.4
+dpodId::qoPypd
+dpodWhenCreated::2024-09-17 09:03:45
+english::to pray
+infinitive::bidden
+present::bid
+imperfectSingular::bad
+imperfectPlural::baden
+participle::gebeden
+rank::4.4
+extras::
