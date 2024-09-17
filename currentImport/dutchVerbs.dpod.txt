@@ -1,0 +1,63 @@
+** Dutch Verb
+English
+Infinitive
+Present
+Imperfect Singular
+Imperfect Plural
+Participle
+Rank;
+Extras
+
+==dutchVerb
+to bake
+bakken
+bak
+bakte
+bakten
+heb gebakken
+3.8
+
+==dutchVerb
+to begin
+beginnen
+begin
+begon
+begonnen
+ben begonnen
+4.9
+
+==dutchVerb
+to understand
+begrijpen
+begrijp
+begreep
+begrepen
+heb begrepen
+4.93
+
+==dutchVerb
+to pay
+betalen
+betaal
+betaalde
+betaalden
+heb betaald
+4.6
+
+==dutchVerb
+to mean
+bedoelen
+bedoel
+bedoelde
+bedoelden
+heb bedoeld
+4.7
+
+==dutchVerb
+to pray
+bidden
+bid
+bad
+baden
+gebeden
+4.4
