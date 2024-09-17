@@ -79,3 +79,24 @@ imperfectPlural::baden
 participle::heb gebeden
 rank::4.4
 extras::
+
+==dutchVerb
+dpodId::wTUhLR
+dpodWhenCreated::2024-09-17 11:59:29
+english::to offer
+infinitive::bieden
+present::bied
+imperfectSingular::bood
+imperfectPlural::boden
+participle::heb geboden
+rank::4.6
+extras::
+
+==dutchVerb
+to move
+bewegen
+beweeg
+bewoog
+bewogen
+heb bewogen
+4.5
