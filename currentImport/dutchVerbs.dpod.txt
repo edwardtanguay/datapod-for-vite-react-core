@@ -76,6 +76,6 @@ infinitive::bidden
 present::bid
 imperfectSingular::bad
 imperfectPlural::baden
-participle::gebeden
+participle::heb gebeden
 rank::4.4
 extras::
