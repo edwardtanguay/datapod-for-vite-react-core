@@ -221,7 +221,7 @@ present::doe
 imperfectSingular::deed
 imperfectPlural::deden
 participle::heb gedaan
-rank::4.87
+rank::4.94
 extras::
 
 ==dutchVerb
