@@ -259,3 +259,12 @@ imperfectPlural::dwongen
 participle::heb gedwongen
 rank::3.7
 extras::
+
+==dutchVerb
+to teach
+eten
+eet
+at
+aten
+heb gegeten
+4.92
