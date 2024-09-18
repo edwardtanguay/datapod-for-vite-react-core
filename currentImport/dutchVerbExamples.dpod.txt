@@ -557,5 +557,58 @@ dutch::De postbode werd door die hond gebeten.
 extras::
 
 ==dutchVerbExample
+bidden
 Sometimes our prayers aren't answered the way we want them to be.
 Soms worden onze gebeden niet verhoord zoals we willen dat ze verhoord zouden worden.
+
+==dutchVerbExample
+bakken
+I am baking bread.
+Ik bak brood.
+
+==dutchVerbExample
+bakken
+She made me a cake.
+Ze bakte een cake voor mij.
+
+==dutchVerbExample
+bakken
+My mom baked cookies for me.
+Mijn moeder heeft koekjes voor me gebakken.
+
+==dutchVerbExample
+binden
+She combed her hair and bound it with a ribbon.
+Ze kamde haar haar en bond het vast met een strik.
+
+==dutchVerbExample
+binden
+They bound the thief to a tree.
+Ze bonden de dief vast aan een boom.
+
+==dutchVerbExample
+binden
+Her illness kept her at home yesterday.
+Door haar ziekte was ze gisteren aan huis gebonden.
+
+==dutchVerbExample
+blazen
+I'll blow up my balloon.
+Ik blaas mijn ballon op.
+
+==dutchVerbExample
+blazen
+There's a very strong wind blowing.
+Er is een hele sterke wind aan het blazen.
+
+==dutchVerbExample
+blazen
+The cold wind blew in her face.
+De koude wind blies in haar gezicht.
+
+==dutchVerbExample
+blazen
+He blew out the candles on the cake.
+Hij blies de kaarsen op de taart uit.
+
+
