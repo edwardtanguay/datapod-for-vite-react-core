@@ -247,3 +247,12 @@ imperfectPlural::dronken
 participle::heb gedronken
 rank::4.82
 extras::
+
+==dutchVerb
+to force
+dwingen
+dwing
+dwong
+dwongen
+heb gedwongen
+3.7
