@@ -5,212 +5,338 @@ Dutch
 Extras
 
 ==dutchVerbExample
-blijken
-The show turned out to be a success.
-De show bleek een succes.
+dpodId::hMoyTP
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijken
+english::The show turned out to be a success.
+dutch::De show bleek een succes.
+extras::
 
 ==dutchVerbExample
-blijken
-What did the analysis show?
-Wat bleek uit de analyse?
+dpodId::06suJU
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijken
+english::What did the analysis show?
+dutch::Wat bleek uit de analyse?
+extras::
 
 ==dutchVerbExample
-blijken
-The rumor proved to be true.
-Het gerucht bleek waar te zijn.
+dpodId::k1s4kt
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijken
+english::The rumor proved to be true.
+dutch::Het gerucht bleek waar te zijn.
+extras::
 
 ==dutchVerbExample
-blijken
-What do his words imply?
-Wat zou er uit zijn woorden moeten blijken?
+dpodId::0OzrLd
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijken
+english::What do his words imply?
+dutch::Wat zou er uit zijn woorden moeten blijken?
+extras::
 
 ==dutchVerbExample
-blijken
-But it can prove to be very hazardous.
-Maar het kan heel gevaarlijk blijken te zijn.
+dpodId::FNO0dq
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijken
+english::But it can prove to be very hazardous.
+dutch::Maar het kan heel gevaarlijk blijken te zijn.
+extras::
 
 ==dutchVerbExample
-blijven
-She continued sobbing without looking up.
-Ze bleef snikken zonder op te kijken.
+dpodId::z06hsC
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijven
+english::She continued sobbing without looking up.
+dutch::Ze bleef snikken zonder op te kijken.
+extras::
 
 ==dutchVerbExample
-blijven
-We stayed up all night.
-We bleven de hele nacht op.
+dpodId::TxSged
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijven
+english::We stayed up all night.
+dutch::We bleven de hele nacht op.
+extras::
 
 ==dutchVerbExample
-blijven
-The snowstorm continued.
-De sneeuwstorm bleef doorgaan.
+dpodId::CeMfWf
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijven
+english::The snowstorm continued.
+dutch::De sneeuwstorm bleef doorgaan.
+extras::
 
 ==dutchVerbExample
-blijven
-They continued looking at each other.
-Ze bleven elkaar aankijken.
+dpodId::KInzzS
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijven
+english::They continued looking at each other.
+dutch::Ze bleven elkaar aankijken.
+extras::
 
 ==dutchVerbExample
-blijven
-Let's continue where we left off yesterday.
-Laten we verdergaan waar we gisteren waren gebleven.
+dpodId::Jy196o
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijven
+english::Let's continue where we left off yesterday.
+dutch::Laten we verdergaan waar we gisteren waren gebleven.
+extras::
 
 ==dutchVerbExample
-blijven
-I kept focused.
-Ik bleef geconcentreerd.
+dpodId::M88VJa
+dpodWhenCreated::2024-09-18 23:49:00
+verb::blijven
+english::I kept focused.
+dutch::Ik bleef geconcentreerd.
+extras::
 
 ==dutchVerbExample
-breken
-You can't make omelets without breaking eggs.
-Je kan geen omelet maken zonder eieren te breken.
+dpodId::fMQ2O3
+dpodWhenCreated::2024-09-18 23:49:00
+verb::breken
+english::You can't make omelets without breaking eggs.
+dutch::Je kan geen omelet maken zonder eieren te breken.
+extras::
 
 ==dutchVerbExample
-breken
-Who broke the plate?
-Wie heeft het bord gebroken?
-
-
-==dutchVerbExample
-breken
-If I break my hand, it's because I slapped him with all my might.
-Als ik mijn hand breek, is het omdat ik hem met al mijn kracht een klap verkoop.
+dpodId::o3rDO1
+dpodWhenCreated::2024-09-18 23:49:00
+verb::breken
+english::Who broke the plate?
+dutch::Wie heeft het bord gebroken?
+extras::
 
 ==dutchVerbExample
-brengen
-I spend a lot of time with them.
-Ik bracht veel tijd met hen door.
+dpodId::ViRjGJ
+dpodWhenCreated::2024-09-18 23:49:00
+verb::breken
+english::If I break my hand, it's because I slapped him with all my might.
+dutch::Als ik mijn hand breek, is het omdat ik hem met al mijn kracht een klap verkoop.
+extras::
 
 ==dutchVerbExample
-brengen
-Am I confusing you?
-Breng ik je in de war?
+dpodId::G7G8AG
+dpodWhenCreated::2024-09-18 23:49:00
+verb::brengen
+english::I spend a lot of time with them.
+dutch::Ik bracht veel tijd met hen door.
+extras::
 
 ==dutchVerbExample
-buigen
-He bowed to me as he passed by.
-Hij boog naar mij terwijl hij voorbij kwam.
-
-
-==dutchVerbExample
-buigen
-I can't bend my right arm.
-Ik kan mijn rechterarm niet buigen.
+dpodId::pcFtkH
+dpodWhenCreated::2024-09-18 23:49:00
+verb::brengen
+english::Am I confusing you?
+dutch::Breng ik je in de war?
+extras::
 
 ==dutchVerbExample
-denken
-We think that he will come.
-We denken dat hij zal komen.
-
-
-==dutchVerbExample
-denken
-I thought it was possible.
-Ik dacht dat het kon.
-
+dpodId::ME0zsv
+dpodWhenCreated::2024-09-18 23:49:00
+verb::buigen
+english::He bowed to me as he passed by.
+dutch::Hij boog naar mij terwijl hij voorbij kwam.
+extras::
 
 ==dutchVerbExample
-doen
-It's not us who did it.
-Wij waren niet diegenen die dat deden.
-
-
-==dutchVerbExample
-doen
-Nobody hurt me.
-Niemand deed me pijn.
-
+dpodId::j6hHA6
+dpodWhenCreated::2024-09-18 23:49:00
+verb::buigen
+english::I can't bend my right arm.
+dutch::Ik kan mijn rechterarm niet buigen.
+extras::
 
 ==dutchVerbExample
-doen
-Did you do that purposely?
-Deed je dat expres?
+dpodId::gEL1my
+dpodWhenCreated::2024-09-18 23:49:00
+verb::denken
+english::We think that he will come.
+dutch::We denken dat hij zal komen.
+extras::
 
 ==dutchVerbExample
-dragen
-I can't wear these shoes.
-Deze schoenen kan ik niet dragen.
-
-
-==dutchVerbExample
-dragen
-He must be crazy to behave like that.
-Hij moet wel gek zijn om zich zo te gedragen.
-
+dpodId::j4wgFM
+dpodWhenCreated::2024-09-18 23:49:00
+verb::denken
+english::I thought it was possible.
+dutch::Ik dacht dat het kon.
+extras::
 
 ==dutchVerbExample
-dragen
-He wore glasses.
-Hij droeg een bril.
+dpodId::RYcnTw
+dpodWhenCreated::2024-09-18 23:49:00
+verb::doen
+english::It's not us who did it.
+dutch::Wij waren niet diegenen die dat deden.
+extras::
 
 ==dutchVerbExample
-drinken
-I can't remember the last time I had a martini.
-Ik kan me niet herinneren wanneer ik voor de laatste keer een martini heb gedronken.
+dpodId::vJXOGY
+dpodWhenCreated::2024-09-18 23:49:00
+verb::doen
+english::Nobody hurt me.
+dutch::Niemand deed me pijn.
+extras::
 
 ==dutchVerbExample
-drinken
-He was drinking chocolate milk through a straw.
-Hij dronk chocolademelk door een rietje.
-
-
-==dutchVerbExample
-dwingen
-Don't make me answer that question.
-Dwing me niet deze vraag te beantwoorden.
-
+dpodId::WWi81M
+dpodWhenCreated::2024-09-18 23:49:00
+verb::doen
+english::Did you do that purposely?
+dutch::Deed je dat expres?
+extras::
 
 ==dutchVerbExample
-dwingen
-They made me learn Spanish.
-Ze hebben me gedwongen Spaans te leren.
-
-
-==dutchVerbExample
-dwingen
-She forced him to eat his vegetables.
-Zij dwong hem zijn groenten te eten.
+dpodId::VCcRU5
+dpodWhenCreated::2024-09-18 23:49:00
+verb::dragen
+english::I can't wear these shoes.
+dutch::Deze schoenen kan ik niet dragen.
+extras::
 
 ==dutchVerbExample
-eten
-She's vegetarian, so she ate tofu instead of turkey.
-Omdat ze vegetariër is, at ze tofoe in plaats van kalkoen.
+dpodId::nHAkeB
+dpodWhenCreated::2024-09-18 23:49:00
+verb::dragen
+english::He must be crazy to behave like that.
+dutch::Hij moet wel gek zijn om zich zo te gedragen.
+extras::
 
 ==dutchVerbExample
-eten
-They both ate lunch with us.
-Ze aten allebei lunch met ons.
-
-
-==dutchVerbExample
-eten
-He eats eggs for breakfast almost every day.
-Hij eet bijna elke dag eieren als ontbijt.
-
+dpodId::9EA0dd
+dpodWhenCreated::2024-09-18 23:49:00
+verb::dragen
+english::He wore glasses.
+dutch::Hij droeg een bril.
+extras::
 
 ==dutchVerbExample
-eten
-I asked her what kind of food she liked to eat.
-Ik vroeg haar wat ze graag at.
+dpodId::F6iONg
+dpodWhenCreated::2024-09-18 23:49:00
+verb::drinken
+english::I can't remember the last time I had a martini.
+dutch::Ik kan me niet herinneren wanneer ik voor de laatste keer een martini heb gedronken.
+extras::
 
 ==dutchVerbExample
-gaan
-Go straight ahead on this street.
-Ga op deze straat rechtdoor.
-
-
-
-==dutchVerbExample
-gaan
-Continue your story.
-Ga door met je verhaal.
+dpodId::2m2uOO
+dpodWhenCreated::2024-09-18 23:49:00
+verb::drinken
+english::He was drinking chocolate milk through a straw.
+dutch::Hij dronk chocolademelk door een rietje.
+extras::
 
 ==dutchVerbExample
-gaan
-We went to Amsterdam, where we stayed three weeks.
-We zijn naar Amsterdam gegaan, waar we drie weken verbleven.
-
+dpodId::QDLpIl
+dpodWhenCreated::2024-09-18 23:49:00
+verb::dwingen
+english::Don't make me answer that question.
+dutch::Dwing me niet deze vraag te beantwoorden.
+extras::
 
 ==dutchVerbExample
-gaan
-Let's sit on the grass.
-Laten we op het gras gaan zitten.
+dpodId::b7ZGdS
+dpodWhenCreated::2024-09-18 23:49:00
+verb::dwingen
+english::They made me learn Spanish.
+dutch::Ze hebben me gedwongen Spaans te leren.
+extras::
+
+==dutchVerbExample
+dpodId::vSjy9P
+dpodWhenCreated::2024-09-18 23:49:00
+verb::dwingen
+english::She forced him to eat his vegetables.
+dutch::Zij dwong hem zijn groenten te eten.
+extras::
+
+==dutchVerbExample
+dpodId::vLLyDa
+dpodWhenCreated::2024-09-18 23:49:00
+verb::eten
+english::She's vegetarian, so she ate tofu instead of turkey.
+dutch::Omdat ze vegetariër is, at ze tofoe in plaats van kalkoen.
+extras::
+
+==dutchVerbExample
+dpodId::sYIwsn
+dpodWhenCreated::2024-09-18 23:49:00
+verb::eten
+english::They both ate lunch with us.
+dutch::Ze aten allebei lunch met ons.
+extras::
+
+==dutchVerbExample
+dpodId::MOl0ee
+dpodWhenCreated::2024-09-18 23:49:00
+verb::eten
+english::He eats eggs for breakfast almost every day.
+dutch::Hij eet bijna elke dag eieren als ontbijt.
+extras::
+
+==dutchVerbExample
+dpodId::hVQ0Yu
+dpodWhenCreated::2024-09-18 23:49:00
+verb::eten
+english::I asked her what kind of food she liked to eat.
+dutch::Ik vroeg haar wat ze graag at.
+extras::
+
+==dutchVerbExample
+dpodId::ab6l9g
+dpodWhenCreated::2024-09-18 23:49:00
+verb::gaan
+english::Go straight ahead on this street.
+dutch::Ga op deze straat rechtdoor.
+extras::
+
+==dutchVerbExample
+dpodId::MKOMge
+dpodWhenCreated::2024-09-18 23:49:00
+verb::gaan
+english::Continue your story.
+dutch::Ga door met je verhaal.
+extras::
+
+==dutchVerbExample
+dpodId::M9zt9W
+dpodWhenCreated::2024-09-18 23:49:00
+verb::gaan
+english::We went to Amsterdam, where we stayed three weeks.
+dutch::We zijn naar Amsterdam gegaan, waar we drie weken verbleven.
+extras::
+
+==dutchVerbExample
+dpodId::UYfIkV
+dpodWhenCreated::2024-09-18 23:49:00
+verb::gaan
+english::Let's sit on the grass.
+dutch::Laten we op het gras gaan zitten.
+extras::
+
+==dutchVerbExample
+begrijpen
+Do you understand what I am saying?
+Begrijp je wat ik zeg?
+
+==dutchVerbExample
+begrijpen
+I don't understand this sentence.
+Ik begrijp die zin niet.
+
+==dutchVerbExample
+begrijpen
+I didn't understand what the professor said.
+Ik begreep niet wat de professor zei.
+
+==dutchVerbExample
+begrijpen
+He pretended that he understood, even though he didn't.
+Hij deed alsof hij het had begrepen, ook al was dat niet zo.
+
+==dutchVerbExample
+begrijpen
+Hij begreep dat ze geen grap maakte.
+He realized she wasn't kidding.
