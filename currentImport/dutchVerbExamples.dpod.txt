@@ -355,3 +355,23 @@ verb::begrijpen
 english::Hij begreep dat ze geen grap maakte.
 dutch::He realized she wasn't kidding.
 extras::
+
+==dutchVerbExample
+denken
+They told me that they thought they could win.
+Ze vertelden me dat ze dachten dat ze konden winnen.
+
+==dutchVerbExample
+beginnen
+I've started learning Italian.
+Ik ben begonnen Italiaans te leren.
+
+==dutchVerbExample
+beginnen
+I'm getting pretty thirsty.
+Ik begin best wel dorst te krijgen.
+
+==dutchVerbExample
+beginnen
+They asked us if we knew when the movie started.
+Zij vroegen ons of we wisten wanneer de film begon.
