@@ -225,10 +225,13 @@ rank::4.87
 extras::
 
 ==dutchVerb
-to carry
-dragen
-draag
-droeg
-droegen
-het gedragen
-4.55
+dpodId::u5Tm9F
+dpodWhenCreated::2024-09-18 22:05:47
+english::to carry
+infinitive::dragen
+present::draag
+imperfectSingular::droeg
+imperfectPlural::droegen
+participle::het gedragen
+rank::4.55
+extras::
