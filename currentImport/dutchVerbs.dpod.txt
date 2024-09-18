@@ -235,3 +235,12 @@ imperfectPlural::droegen
 participle::het gedragen
 rank::4.55
 extras::
+
+==dutchVerb
+to drink
+drinken
+drink
+dronk
+dronken
+heb gedronken
+4.82
