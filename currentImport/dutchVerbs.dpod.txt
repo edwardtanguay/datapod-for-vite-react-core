@@ -249,10 +249,13 @@ rank::4.82
 extras::
 
 ==dutchVerb
-to force
-dwingen
-dwing
-dwong
-dwongen
-heb gedwongen
-3.7
+dpodId::nfK4Ub
+dpodWhenCreated::2024-09-18 22:19:17
+english::to force
+infinitive::dwingen
+present::dwing
+imperfectSingular::dwong
+imperfectPlural::dwongen
+participle::heb gedwongen
+rank::3.7
+extras::
