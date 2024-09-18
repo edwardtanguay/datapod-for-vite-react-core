@@ -237,10 +237,13 @@ rank::4.55
 extras::
 
 ==dutchVerb
-to drink
-drinken
-drink
-dronk
-dronken
-heb gedronken
-4.82
+dpodId::kaxFg8
+dpodWhenCreated::2024-09-18 22:11:35
+english::to drink
+infinitive::drinken
+present::drink
+imperfectSingular::dronk
+imperfectPlural::dronken
+participle::heb gedronken
+rank::4.82
+extras::
