@@ -137,5 +137,14 @@ present::blaas
 imperfectSingular::blies
 imperfectPlural::bliezen
 participle::heb geblazen
-rank::
+rank::3.7
 extras::
+
+==dutchVerb
+to turn out that
+blijken
+blijk
+bleek
+bleken
+ben gebleken
+4.0
