@@ -163,3 +163,12 @@ imperfectPlural::bleven
 participle::ben gebleven
 rank::4.9
 extras::
+
+==dutchVerb
+to break
+breken
+breek
+brak
+braken
+gebroken
+4.6
