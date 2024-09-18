@@ -223,3 +223,12 @@ imperfectPlural::deden
 participle::heb gedaan
 rank::4.87
 extras::
+
+==dutchVerb
+to carry
+dragen
+draag
+droeg
+droegen
+het gedragen
+4.55
