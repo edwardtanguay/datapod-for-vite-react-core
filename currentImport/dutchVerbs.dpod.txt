@@ -211,3 +211,12 @@ imperfectPlural::dachten
 participle::heb gedacht
 rank::4.93
 extras::
+
+==dutchVerb
+to do
+doen
+doe
+deed
+deden
+heb gedaan
+4.8
