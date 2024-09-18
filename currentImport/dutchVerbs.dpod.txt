@@ -189,10 +189,22 @@ rank::4.85
 extras::
 
 ==dutchVerb
-to bend
-buigen
-buig
-boog
-bogen
-heb gebogen
-4.1
+dpodId::7xcWxJ
+dpodWhenCreated::2024-09-18 21:48:25
+english::to bend
+infinitive::buigen
+present::buig
+imperfectSingular::boog
+imperfectPlural::bogen
+participle::heb gebogen
+rank::4.1
+extras::
+
+==dutchVerb
+to think
+denken
+denk
+dachte
+dachten
+heb gedacht
+4.93
