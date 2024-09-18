@@ -105,10 +105,37 @@ rank::4.5
 extras::
 
 ==dutchVerb
-to bite
-bijten
-bijt
-beet
-beten
-gebeten
-4.1
+dpodId::CecEXl
+dpodWhenCreated::2024-09-18 07:55:30
+english::to bite
+infinitive::bijten
+present::bijt
+imperfectSingular::beet
+imperfectPlural::beten
+participle::heb gebeten
+rank::4.1
+extras::
+
+==dutchVerb
+dpodId::gidwKK
+dpodWhenCreated::2024-09-18 07:58:40
+english::to bind
+infinitive::binden
+present::bind
+imperfectSingular::bond
+imperfectPlural::bonden
+participle::heb gebonden
+rank::3.8
+extras::
+
+==dutchVerb
+dpodId::Vo6Y35
+dpodWhenCreated::2024-09-18 10:26:36
+english::to blow
+infinitive::blazen
+present::blaas
+imperfectSingular::blies
+imperfectPlural::bliezen
+participle::heb geblazen
+rank::
+extras::
