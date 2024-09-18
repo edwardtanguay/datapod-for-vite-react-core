@@ -357,21 +357,33 @@ dutch::He realized she wasn't kidding.
 extras::
 
 ==dutchVerbExample
-denken
-They told me that they thought they could win.
-Ze vertelden me dat ze dachten dat ze konden winnen.
+dpodId::InNb0g
+dpodWhenCreated::2024-09-19 00:56:06
+verb::denken
+english::They told me that they thought they could win.
+dutch::Ze vertelden me dat ze dachten dat ze konden winnen.
+extras::
 
 ==dutchVerbExample
-beginnen
-I've started learning Italian.
-Ik ben begonnen Italiaans te leren.
+dpodId::JXEh9V
+dpodWhenCreated::2024-09-19 00:56:06
+verb::beginnen
+english::I've started learning Italian.
+dutch::Ik ben begonnen Italiaans te leren.
+extras::
 
 ==dutchVerbExample
-beginnen
-I'm getting pretty thirsty.
-Ik begin best wel dorst te krijgen.
+dpodId::PydNCK
+dpodWhenCreated::2024-09-19 00:56:06
+verb::beginnen
+english::I'm getting pretty thirsty.
+dutch::Ik begin best wel dorst te krijgen.
+extras::
 
 ==dutchVerbExample
-beginnen
-They asked us if we knew when the movie started.
-Zij vroegen ons of we wisten wanneer de film begon.
+dpodId::c5cmaM
+dpodWhenCreated::2024-09-19 00:56:06
+verb::beginnen
+english::They asked us if we knew when the movie started.
+dutch::Zij vroegen ons of we wisten wanneer de film begon.
+extras::
