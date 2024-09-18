@@ -271,3 +271,12 @@ imperfectPlural::aten
 participle::heb gegeten
 rank::4.92
 extras::
+
+==dutchVerb
+to go
+gaan
+ga
+ging
+gingen
+ben gegaan
+4.935
