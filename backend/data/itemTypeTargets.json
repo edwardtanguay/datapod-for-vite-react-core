@@ -34,5 +34,9 @@
 	{
 		"itemType": "dutchVerbs",
 		"jsonFilePathAndFileName": "/edward/learn2024/langcore/src/data/dutchVerbs.json"
+	},
+	{
+		"itemType": "dutchVerbExamples",
+		"jsonFilePathAndFileName": "/edward/learn2024/langcore/src/data/dutchVerbExamples.json"
 	}
 ]
