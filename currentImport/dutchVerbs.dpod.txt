@@ -93,10 +93,22 @@ rank::4.6
 extras::
 
 ==dutchVerb
-to move
-bewegen
-beweeg
-bewoog
-bewogen
-heb bewogen
-4.5
+dpodId::ySsWBQ
+dpodWhenCreated::2024-09-17 12:09:32
+english::to move
+infinitive::bewegen
+present::beweeg
+imperfectSingular::bewoog
+imperfectPlural::bewogen
+participle::heb bewogen
+rank::4.5
+extras::
+
+==dutchVerb
+to bite
+bijten
+bijt
+beet
+beten
+gebeten
+4.1
