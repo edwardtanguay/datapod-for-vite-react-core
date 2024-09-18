@@ -177,10 +177,13 @@ rank::4.6
 extras::
 
 ==dutchVerb
-to bring
-brengen
-breng
-bracht
-brachten
-heb gebracht
-4.85
+dpodId::wUNjzb
+dpodWhenCreated::2024-09-18 21:38:36
+english::to bring
+infinitive::brengen
+present::breng
+imperfectSingular::bracht
+imperfectPlural::brachten
+participle::heb gebracht
+rank::4.85
+extras::
