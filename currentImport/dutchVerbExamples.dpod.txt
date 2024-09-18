@@ -555,3 +555,7 @@ verb::bijten
 english::The postman was bitten by that dog.
 dutch::De postbode werd door die hond gebeten.
 extras::
+
+==dutchVerbExample
+Sometimes our prayers aren't answered the way we want them to be.
+Soms worden onze gebeden niet verhoord zoals we willen dat ze verhoord zouden worden.
