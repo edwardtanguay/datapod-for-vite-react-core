@@ -201,10 +201,13 @@ rank::4.1
 extras::
 
 ==dutchVerb
-to think
-denken
-denk
-dachte
-dachten
-heb gedacht
-4.93
+dpodId::auhVLa
+dpodWhenCreated::2024-09-18 21:52:52
+english::to think
+infinitive::denken
+present::denk
+imperfectSingular::dacht
+imperfectPlural::dachten
+participle::heb gedacht
+rank::4.93
+extras::
