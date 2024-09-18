@@ -317,26 +317,41 @@ dutch::Laten we op het gras gaan zitten.
 extras::
 
 ==dutchVerbExample
-begrijpen
-Do you understand what I am saying?
-Begrijp je wat ik zeg?
+dpodId::onfK0k
+dpodWhenCreated::2024-09-19 00:43:58
+verb::begrijpen
+english::Do you understand what I am saying?
+dutch::Begrijp je wat ik zeg?
+extras::
 
 ==dutchVerbExample
-begrijpen
-I don't understand this sentence.
-Ik begrijp die zin niet.
+dpodId::oUASqC
+dpodWhenCreated::2024-09-19 00:43:58
+verb::begrijpen
+english::I don't understand this sentence.
+dutch::Ik begrijp die zin niet.
+extras::
 
 ==dutchVerbExample
-begrijpen
-I didn't understand what the professor said.
-Ik begreep niet wat de professor zei.
+dpodId::ae8IcQ
+dpodWhenCreated::2024-09-19 00:43:58
+verb::begrijpen
+english::I didn't understand what the professor said.
+dutch::Ik begreep niet wat de professor zei.
+extras::
 
 ==dutchVerbExample
-begrijpen
-He pretended that he understood, even though he didn't.
-Hij deed alsof hij het had begrepen, ook al was dat niet zo.
+dpodId::C6VzTz
+dpodWhenCreated::2024-09-19 00:43:58
+verb::begrijpen
+english::He pretended that he understood, even though he didn't.
+dutch::Hij deed alsof hij het had begrepen, ook al was dat niet zo.
+extras::
 
 ==dutchVerbExample
-begrijpen
-Hij begreep dat ze geen grap maakte.
-He realized she wasn't kidding.
+dpodId::ie07kV
+dpodWhenCreated::2024-09-19 00:43:58
+verb::begrijpen
+english::Hij begreep dat ze geen grap maakte.
+dutch::He realized she wasn't kidding.
+extras::
