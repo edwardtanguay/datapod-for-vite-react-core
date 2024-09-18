@@ -509,33 +509,49 @@ dutch::In de verte bewoog iets.
 extras::
 
 ==dutchVerbExample
-bidden
-They pray five times a day.
-Ze bidden vijf keer per dag.
+dpodId::4NcHOg
+dpodWhenCreated::2024-09-19 01:20:28
+verb::bidden
+english::They pray five times a day.
+dutch::Ze bidden vijf keer per dag.
+extras::
 
 ==dutchVerbExample
-bidden
-Het enige wat we kunnen doen is bidden.
-All we can do is pray.
+dpodId::NBoZz5
+dpodWhenCreated::2024-09-19 01:20:28
+verb::bidden
+english::All we can do is pray.
+dutch::Het enige wat we kunnen doen is bidden.
+extras::
 
 ==dutchVerbExample
-bidden
-Wanneer bid je?
-When do you pray?
+dpodId::CumsbC
+dpodWhenCreated::2024-09-19 01:20:28
+verb::bidden
+english::When do you pray?
+dutch::Wanneer bid je?
+extras::
 
 ==dutchVerbExample
-bijten
-A barking dog does not bite.
-Een blaffende hond bijt niet.
+dpodId::zqpNTp
+dpodWhenCreated::2024-09-19 01:20:28
+verb::bijten
+english::A barking dog does not bite.
+dutch::Een blaffende hond bijt niet.
+extras::
 
 ==dutchVerbExample
-bijten
-The dog bit my hand.
-De hond beet in mijn hand.
+dpodId::CGhC60
+dpodWhenCreated::2024-09-19 01:20:28
+verb::bijten
+english::The dog bit my hand.
+dutch::De hond beet in mijn hand.
+extras::
 
 ==dutchVerbExample
-bijten
-The postman was bitten by that dog.
-De postbode werd door die hond gebeten.
-
-
+dpodId::PTHn8l
+dpodWhenCreated::2024-09-19 01:20:28
+verb::bijten
+english::The postman was bitten by that dog.
+dutch::De postbode werd door die hond gebeten.
+extras::
