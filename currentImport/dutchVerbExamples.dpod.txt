@@ -389,46 +389,103 @@ dutch::Zij vroegen ons of we wisten wanneer de film begon.
 extras::
 
 ==dutchVerbExample
-bedoelen
-I hoped you would understand what I meant.
-Ik hoopte dat je zou begrijpen wat ik bedoelde.
+dpodId::s5wo1Q
+dpodWhenCreated::2024-09-19 01:05:48
+verb::bedoelen
+english::I hoped you would understand what I meant.
+dutch::Ik hoopte dat je zou begrijpen wat ik bedoelde.
+extras::
 
 ==dutchVerbExample
-bedoelen
-You know that wasn't what I meant.
-Je weet dat dat niet was wat ik bedoelde.
+dpodId::npQdtY
+dpodWhenCreated::2024-09-19 01:05:48
+verb::bedoelen
+english::You know that wasn't what I meant.
+dutch::Je weet dat dat niet was wat ik bedoelde.
+extras::
 
 ==dutchVerbExample
-bedoelen
-Do you mean all this was for nothing?
-Bedoel je dat dit allemaal voor niets was?
+dpodId::TsNLah
+dpodWhenCreated::2024-09-19 01:05:48
+verb::bedoelen
+english::Do you mean all this was for nothing?
+dutch::Bedoel je dat dit allemaal voor niets was?
+extras::
 
 ==dutchVerbExample
-bedoelen
-I'm sure you meant well.
-Ik ben er zeker van dat je het goed bedoelde.
+dpodId::VJnhOp
+dpodWhenCreated::2024-09-19 01:05:48
+verb::bedoelen
+english::I'm sure you meant well.
+dutch::Ik ben er zeker van dat je het goed bedoelde.
+extras::
 
 ==dutchVerbExample
-betalen
-I'm not paying for that.
-Daar betaal ik niet voor.
+dpodId::jWI4om
+dpodWhenCreated::2024-09-19 01:05:48
+verb::betalen
+english::I'm not paying for that.
+dutch::Daar betaal ik niet voor.
+extras::
 
 ==dutchVerbExample
-betalen
-Do you want me to pay in advance?
-Wil je dat ik vooruit betaal?
+dpodId::wjhFR0
+dpodWhenCreated::2024-09-19 01:05:48
+verb::betalen
+english::Do you want me to pay in advance?
+dutch::Wil je dat ik vooruit betaal?
+extras::
 
 ==dutchVerbExample
-betalen
-He only paid ten dollars for that shirt.
-Hij betaalde maar tien dollar voor het hemd.
+dpodId::PKzwHJ
+dpodWhenCreated::2024-09-19 01:05:48
+verb::betalen
+english::He only paid ten dollars for that shirt.
+dutch::Hij betaalde maar tien dollar voor het hemd.
+extras::
 
 ==dutchVerbExample
-betalen
-The hotel room was rented for a week.
-De hotelkamer is betaald voor een week.
+dpodId::juV6iD
+dpodWhenCreated::2024-09-19 01:05:48
+verb::betalen
+english::The hotel room was rented for a week.
+dutch::De hotelkamer is betaald voor een week.
+extras::
 
 ==dutchVerbExample
-betalen
-I paid thirty dollars for these shoes.
-Ik heb dertig dollar betaald voor deze schoenen.
+dpodId::wMcNUy
+dpodWhenCreated::2024-09-19 01:05:48
+verb::betalen
+english::I paid thirty dollars for these shoes.
+dutch::Ik heb dertig dollar betaald voor deze schoenen.
+extras::
+
+==dutchVerbExample
+bieden
+Are you offering to help?
+Bied je aan om te helpen?
+
+==dutchVerbExample
+bieden
+He offered me a cookie, but I refused.
+Hij bood me een koekje aan, maar ik sloeg het af.
+
+==dutchVerbExample
+bieden
+They offered assistance.
+Ze boden hulp aan.
+
+==dutchVerbExample
+bewegen
+The fingers moved quickly over the piano.
+De vingers bewogen snel over het klavier.
+
+==dutchVerbExample
+bewegen
+When the alarm clock goes off, I don't move.
+Als de wekker afgaat, beweeg ik niet.
+
+==dutchVerbExample
+bewegen
+There was something moving in the distance.
+In de verte bewoog iets.
