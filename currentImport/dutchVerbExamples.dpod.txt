@@ -387,3 +387,48 @@ verb::beginnen
 english::They asked us if we knew when the movie started.
 dutch::Zij vroegen ons of we wisten wanneer de film begon.
 extras::
+
+==dutchVerbExample
+bedoelen
+I hoped you would understand what I meant.
+Ik hoopte dat je zou begrijpen wat ik bedoelde.
+
+==dutchVerbExample
+bedoelen
+You know that wasn't what I meant.
+Je weet dat dat niet was wat ik bedoelde.
+
+==dutchVerbExample
+bedoelen
+Do you mean all this was for nothing?
+Bedoel je dat dit allemaal voor niets was?
+
+==dutchVerbExample
+bedoelen
+I'm sure you meant well.
+Ik ben er zeker van dat je het goed bedoelde.
+
+==dutchVerbExample
+betalen
+I'm not paying for that.
+Daar betaal ik niet voor.
+
+==dutchVerbExample
+betalen
+Do you want me to pay in advance?
+Wil je dat ik vooruit betaal?
+
+==dutchVerbExample
+betalen
+He only paid ten dollars for that shirt.
+Hij betaalde maar tien dollar voor het hemd.
+
+==dutchVerbExample
+betalen
+The hotel room was rented for a week.
+De hotelkamer is betaald voor een week.
+
+==dutchVerbExample
+betalen
+I paid thirty dollars for these shoes.
+Ik heb dertig dollar betaald voor deze schoenen.
