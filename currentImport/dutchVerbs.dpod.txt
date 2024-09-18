@@ -187,3 +187,12 @@ imperfectPlural::brachten
 participle::heb gebracht
 rank::4.85
 extras::
+
+==dutchVerb
+to bend
+buigen
+buig
+boog
+bogen
+heb gebogen
+4.1
