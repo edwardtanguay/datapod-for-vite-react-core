@@ -151,3 +151,15 @@ imperfectPlural::bleken
 participle::ben gebleken
 rank::4.0
 extras::
+
+==dutchVerb
+dpodId::i5dnJi
+dpodWhenCreated::2024-09-18 21:06:58
+english::to stay
+infinitive::blijven
+present::blijf
+imperfectSingular::bleef
+imperfectPlural::bleven
+participle::ben gebleven
+rank::4.9
+extras::
