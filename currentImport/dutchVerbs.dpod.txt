@@ -175,3 +175,12 @@ imperfectPlural::braken
 participle::heb gebroken
 rank::4.6
 extras::
+
+==dutchVerb
+to bring
+brengen
+breng
+bracht
+brachten
+heb gebracht
+4.85
