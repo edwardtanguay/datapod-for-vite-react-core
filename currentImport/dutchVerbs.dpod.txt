@@ -261,10 +261,13 @@ rank::3.7
 extras::
 
 ==dutchVerb
-to teach
-eten
-eet
-at
-aten
-heb gegeten
-4.92
+dpodId::GaOT1u
+dpodWhenCreated::2024-09-18 22:26:22
+english::to eat
+infinitive::eten
+present::eet
+imperfectSingular::at
+imperfectPlural::aten
+participle::heb gegeten
+rank::4.92
+extras::
