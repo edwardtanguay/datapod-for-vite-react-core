@@ -141,10 +141,13 @@ rank::3.7
 extras::
 
 ==dutchVerb
-to turn out that
-blijken
-blijk
-bleek
-bleken
-ben gebleken
-4.0
+dpodId::NNBWyk
+dpodWhenCreated::2024-09-18 11:04:42
+english::to turn out that
+infinitive::blijken
+present::blijk
+imperfectSingular::bleek
+imperfectPlural::bleken
+participle::ben gebleken
+rank::4.0
+extras::
