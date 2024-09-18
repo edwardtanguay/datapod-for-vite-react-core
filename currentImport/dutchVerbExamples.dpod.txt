@@ -461,31 +461,81 @@ dutch::Ik heb dertig dollar betaald voor deze schoenen.
 extras::
 
 ==dutchVerbExample
-bieden
-Are you offering to help?
-Bied je aan om te helpen?
+dpodId::HHS3yO
+dpodWhenCreated::2024-09-19 01:14:15
+verb::bieden
+english::Are you offering to help?
+dutch::Bied je aan om te helpen?
+extras::
 
 ==dutchVerbExample
-bieden
-He offered me a cookie, but I refused.
-Hij bood me een koekje aan, maar ik sloeg het af.
+dpodId::3WAwsC
+dpodWhenCreated::2024-09-19 01:14:15
+verb::bieden
+english::He offered me a cookie, but I refused.
+dutch::Hij bood me een koekje aan, maar ik sloeg het af.
+extras::
 
 ==dutchVerbExample
-bieden
-They offered assistance.
-Ze boden hulp aan.
+dpodId::zAx4vt
+dpodWhenCreated::2024-09-19 01:14:15
+verb::bieden
+english::They offered assistance.
+dutch::Ze boden hulp aan.
+extras::
 
 ==dutchVerbExample
-bewegen
-The fingers moved quickly over the piano.
-De vingers bewogen snel over het klavier.
+dpodId::gP2HpZ
+dpodWhenCreated::2024-09-19 01:14:15
+verb::bewegen
+english::The fingers moved quickly over the piano.
+dutch::De vingers bewogen snel over het klavier.
+extras::
 
 ==dutchVerbExample
-bewegen
-When the alarm clock goes off, I don't move.
-Als de wekker afgaat, beweeg ik niet.
+dpodId::RE7ySn
+dpodWhenCreated::2024-09-19 01:14:15
+verb::bewegen
+english::When the alarm clock goes off, I don't move.
+dutch::Als de wekker afgaat, beweeg ik niet.
+extras::
 
 ==dutchVerbExample
-bewegen
-There was something moving in the distance.
-In de verte bewoog iets.
+dpodId::G6n0iA
+dpodWhenCreated::2024-09-19 01:14:15
+verb::bewegen
+english::There was something moving in the distance.
+dutch::In de verte bewoog iets.
+extras::
+
+==dutchVerbExample
+bidden
+They pray five times a day.
+Ze bidden vijf keer per dag.
+
+==dutchVerbExample
+bidden
+Het enige wat we kunnen doen is bidden.
+All we can do is pray.
+
+==dutchVerbExample
+bidden
+Wanneer bid je?
+When do you pray?
+
+==dutchVerbExample
+bijten
+A barking dog does not bite.
+Een blaffende hond bijt niet.
+
+==dutchVerbExample
+bijten
+The dog bit my hand.
+De hond beet in mijn hand.
+
+==dutchVerbExample
+bijten
+The postman was bitten by that dog.
+De postbode werd door die hond gebeten.
+
+
