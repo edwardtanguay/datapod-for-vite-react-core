@@ -273,10 +273,13 @@ rank::4.92
 extras::
 
 ==dutchVerb
-to go
-gaan
-ga
-ging
-gingen
-ben gegaan
-4.935
+dpodId::DFzhQp
+dpodWhenCreated::2024-09-18 22:51:28
+english::to go
+infinitive::gaan
+present::ga
+imperfectSingular::ging
+imperfectPlural::gingen
+participle::ben gegaan
+rank::4.935
+extras::
