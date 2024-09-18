@@ -165,10 +165,13 @@ rank::4.9
 extras::
 
 ==dutchVerb
-to break
-breken
-breek
-brak
-braken
-gebroken
-4.6
+dpodId::ZZ9Wtm
+dpodWhenCreated::2024-09-18 21:25:50
+english::to break
+infinitive::breken
+present::breek
+imperfectSingular::brak
+imperfectPlural::braken
+participle::heb gebroken
+rank::4.6
+extras::
