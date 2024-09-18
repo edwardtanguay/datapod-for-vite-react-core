@@ -213,10 +213,13 @@ rank::4.93
 extras::
 
 ==dutchVerb
-to do
-doen
-doe
-deed
-deden
-heb gedaan
-4.8
+dpodId::XinMyX
+dpodWhenCreated::2024-09-18 21:58:21
+english::to do
+infinitive::doen
+present::doe
+imperfectSingular::deed
+imperfectPlural::deden
+participle::heb gedaan
+rank::4.87
+extras::
