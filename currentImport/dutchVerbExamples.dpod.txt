@@ -683,3 +683,23 @@ verb::genieten
 english::Wij hebben genoten van ons verblijf in Spanje.
 dutch::We enjoyed our stay in Spain.
 extras::
+
+==dutchVerbExample
+hebben
+They have different priorities.
+Ze hebben verschillende prioriteiten.
+
+==dutchVerbExample
+hebben
+We spent hours talking.
+We hebben urenlang gepraat.
+
+==dutchVerbExample
+hebben
+They said that they had three dogs at home.
+Ze hebben gezegd dat ze thuis drie honden hadden.
+
+==dutchVerbExample
+hebben
+You guys were lucky.
+Jullie hebben geluk gehad.
