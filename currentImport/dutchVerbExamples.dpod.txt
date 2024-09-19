@@ -557,58 +557,89 @@ dutch::De postbode werd door die hond gebeten.
 extras::
 
 ==dutchVerbExample
-bidden
-Sometimes our prayers aren't answered the way we want them to be.
-Soms worden onze gebeden niet verhoord zoals we willen dat ze verhoord zouden worden.
+dpodId::Cbglas
+dpodWhenCreated::2024-09-19 01:48:06
+verb::bidden
+english::Sometimes our prayers aren't answered the way we want them to be.
+dutch::Soms worden onze gebeden niet verhoord zoals we willen dat ze verhoord zouden worden.
+extras::
 
 ==dutchVerbExample
-bakken
-I am baking bread.
-Ik bak brood.
+dpodId::gFCW7M
+dpodWhenCreated::2024-09-19 01:48:06
+verb::bakken
+english::I am baking bread.
+dutch::Ik bak brood.
+extras::
 
 ==dutchVerbExample
-bakken
-She made me a cake.
-Ze bakte een cake voor mij.
+dpodId::GN8F9T
+dpodWhenCreated::2024-09-19 01:48:06
+verb::bakken
+english::She made me a cake.
+dutch::Ze bakte een cake voor mij.
+extras::
 
 ==dutchVerbExample
-bakken
-My mom baked cookies for me.
-Mijn moeder heeft koekjes voor me gebakken.
+dpodId::qALMzr
+dpodWhenCreated::2024-09-19 01:48:06
+verb::bakken
+english::My mom baked cookies for me.
+dutch::Mijn moeder heeft koekjes voor me gebakken.
+extras::
 
 ==dutchVerbExample
-binden
-She combed her hair and bound it with a ribbon.
-Ze kamde haar haar en bond het vast met een strik.
+dpodId::yjGapp
+dpodWhenCreated::2024-09-19 01:48:06
+verb::binden
+english::She combed her hair and bound it with a ribbon.
+dutch::Ze kamde haar haar en bond het vast met een strik.
+extras::
 
 ==dutchVerbExample
-binden
-They bound the thief to a tree.
-Ze bonden de dief vast aan een boom.
+dpodId::jykIDW
+dpodWhenCreated::2024-09-19 01:48:06
+verb::binden
+english::They bound the thief to a tree.
+dutch::Ze bonden de dief vast aan een boom.
+extras::
 
 ==dutchVerbExample
-binden
-Her illness kept her at home yesterday.
-Door haar ziekte was ze gisteren aan huis gebonden.
+dpodId::xqSJEe
+dpodWhenCreated::2024-09-19 01:48:06
+verb::binden
+english::Her illness kept her at home yesterday.
+dutch::Door haar ziekte was ze gisteren aan huis gebonden.
+extras::
 
 ==dutchVerbExample
-blazen
-I'll blow up my balloon.
-Ik blaas mijn ballon op.
+dpodId::tyC9zV
+dpodWhenCreated::2024-09-19 01:48:06
+verb::blazen
+english::I'll blow up my balloon.
+dutch::Ik blaas mijn ballon op.
+extras::
 
 ==dutchVerbExample
-blazen
-There's a very strong wind blowing.
-Er is een hele sterke wind aan het blazen.
+dpodId::GcruhO
+dpodWhenCreated::2024-09-19 01:48:06
+verb::blazen
+english::There's a very strong wind blowing.
+dutch::Er is een hele sterke wind aan het blazen.
+extras::
 
 ==dutchVerbExample
-blazen
-The cold wind blew in her face.
-De koude wind blies in haar gezicht.
+dpodId::UgNh0x
+dpodWhenCreated::2024-09-19 01:48:06
+verb::blazen
+english::The cold wind blew in her face.
+dutch::De koude wind blies in haar gezicht.
+extras::
 
 ==dutchVerbExample
-blazen
-He blew out the candles on the cake.
-Hij blies de kaarsen op de taart uit.
-
-
+dpodId::0Xppqq
+dpodWhenCreated::2024-09-19 01:48:06
+verb::blazen
+english::He blew out the candles on the cake.
+dutch::Hij blies de kaarsen op de taart uit.
+extras::
