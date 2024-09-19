@@ -285,10 +285,13 @@ rank::4.935
 extras::
 
 ==dutchVerb
-to enjoy
-genieten
-geniet
-genoot
-genoten
-heb genoten
-4.4
+dpodId::DFD5uA
+dpodWhenCreated::2024-09-19 08:21:35
+english::to enjoy
+infinitive::genieten
+present::geniet
+imperfectSingular::genoot
+imperfectPlural::genoten
+participle::heb genoten
+rank::4.4
+extras::

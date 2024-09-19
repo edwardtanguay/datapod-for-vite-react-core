@@ -643,3 +643,28 @@ verb::blazen
 english::He blew out the candles on the cake.
 dutch::Hij blies de kaarsen op de taart uit.
 extras::
+
+==dutchVerbExample
+genieten
+I do hope you enjoy the rest of your day.
+Ik hoop wel dat je van de rest van de dag geniet.
+
+==dutchVerbExample
+genieten
+I enjoyed swimming.
+Ik genoot van het zwemmen.
+
+==dutchVerbExample
+genieten
+I loved every second.
+Ik genoot van elke seconde.
+
+==dutchVerbExample
+genieten
+I really enjoyed your company.
+Ik genoot echt van je gezelschap.
+
+==dutchVerbExample
+genieten
+Wij hebben genoten van ons verblijf in Spanje.
+We enjoyed our stay in Spain.
