@@ -685,21 +685,33 @@ dutch::We enjoyed our stay in Spain.
 extras::
 
 ==dutchVerbExample
-hebben
-They have different priorities.
-Ze hebben verschillende prioriteiten.
+dpodId::RjgLFf
+dpodWhenCreated::2024-09-19 09:34:42
+verb::hebben
+english::They have different priorities.
+dutch::Ze hebben verschillende prioriteiten.
+extras::
 
 ==dutchVerbExample
-hebben
-We spent hours talking.
-We hebben urenlang gepraat.
+dpodId::JtUnTS
+dpodWhenCreated::2024-09-19 09:34:42
+verb::hebben
+english::We spent hours talking.
+dutch::We hebben urenlang gepraat.
+extras::
 
 ==dutchVerbExample
-hebben
-They said that they had three dogs at home.
-Ze hebben gezegd dat ze thuis drie honden hadden.
+dpodId::VQdFTw
+dpodWhenCreated::2024-09-19 09:34:42
+verb::hebben
+english::They said that they had three dogs at home.
+dutch::Ze hebben gezegd dat ze thuis drie honden hadden.
+extras::
 
 ==dutchVerbExample
-hebben
-You guys were lucky.
-Jullie hebben geluk gehad.
+dpodId::utRRT6
+dpodWhenCreated::2024-09-19 09:34:42
+verb::hebben
+english::You guys were lucky.
+dutch::Jullie hebben geluk gehad.
+extras::
