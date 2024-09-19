@@ -232,7 +232,7 @@ infinitive::dragen
 present::draag
 imperfectSingular::droeg
 imperfectPlural::droegen
-participle::het gedragen
+participle::heb gedragen
 rank::4.55
 extras::
 
@@ -283,3 +283,12 @@ imperfectPlural::gingen
 participle::ben gegaan
 rank::4.935
 extras::
+
+==dutchVerb
+to enjoy
+genieten
+geniet
+genoot
+genoten
+heb genoten
+4.4

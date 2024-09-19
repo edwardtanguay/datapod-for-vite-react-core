@@ -352,8 +352,8 @@ extras::
 dpodId::ie07kV
 dpodWhenCreated::2024-09-19 00:43:58
 verb::begrijpen
-english::Hij begreep dat ze geen grap maakte.
-dutch::He realized she wasn't kidding.
+english::He realized she wasn't kidding.
+dutch::Hij begreep dat ze geen grap maakte.
 extras::
 
 ==dutchVerbExample
