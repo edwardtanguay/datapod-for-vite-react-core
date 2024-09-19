@@ -295,3 +295,12 @@ imperfectPlural::genoten
 participle::heb genoten
 rank::4.4
 extras::
+
+==dutchVerb
+to have
+hebben
+heb
+had
+hadden
+heb gehad
+4.99
