@@ -393,10 +393,13 @@ rank::4.8
 extras::
 
 ==dutchVerb
-to come
-komen
-kom
-kwam
-kwamen
-ben gekomen
-4.88
+dpodId::sx6xTX
+dpodWhenCreated::2024-09-20 13:13:30
+english::to come
+infinitive::komen
+present::kom
+imperfectSingular::kwam
+imperfectPlural::kwamen
+participle::ben gekomen
+rank::4.88
+extras::
