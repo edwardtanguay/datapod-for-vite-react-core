@@ -717,16 +717,25 @@ dutch::Jullie hebben geluk gehad.
 extras::
 
 ==dutchVerbExample
-kijken
-He sat down and looked at his eggs and bacon.
-Hij ging zitten en keek naar zijn spek en eieren.
+dpodId::xdlN7r
+dpodWhenCreated::2024-09-20 09:54:17
+verb::kijken
+english::He sat down and looked at his eggs and bacon.
+dutch::Hij ging zitten en keek naar zijn spek en eieren.
+extras::
 
 ==dutchVerbExample
-kijken
-They were watching YouTube together.
-Ze keken samen naar YouTube.
+dpodId::zhVFef
+dpodWhenCreated::2024-09-20 09:54:17
+verb::kijken
+english::They were watching YouTube together.
+dutch::Ze keken samen naar YouTube.
+extras::
 
 ==dutchVerbExample
-kijken
-He was always watching TV when he was a child.
-Als kind heeft hij altijd televisie gekeken.
+dpodId::lusPPS
+dpodWhenCreated::2024-09-20 09:54:17
+verb::kijken
+english::He was always watching TV when he was a child.
+dutch::Als kind heeft hij altijd televisie gekeken.
+extras::
