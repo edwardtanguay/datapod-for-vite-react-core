@@ -3297,20 +3297,44 @@ Another long training run for the Eindoven Marathon coming up on October 13th. T
 ]]
 extras::
 
-
 ==run
-20240912
-7K morning run with Hannah Königsbergerstraße route
-2024-09-12
-7
-
-idCode::20240908
-title::33K Spandau-Gatow-Kladow-Wannsee-Dreilinden run
-date::2024-09-08
-kilometers::33
-duration::52:09:00
+dpodId::KRfG0F
+dpodWhenCreated::2024-09-20 22:59:54
+idCode::20240912
+title::7K morning run with Hannah Königsbergerstraße route
+date::2024-09-12
+kilometers::7
+duration::
 body::[[
-kdjfdkfjdf
+It's been at least over two years that Hannah and I have done our morning runs, but a she asked me the other day if "willst du wieder morgens laufen" to which I couldn't say no. We did the canal route down to Königsbergerstraße and back with lots of Baustelle interruption but it was the early morning darkness and fresh, cool air before you even have woken up that was memorable. Nice to be doing these together again.
 
 ##firstandup
+
+##firstlight
+
+##firstumleit
+
+##firstrun
+
+##firstleft
+
+##firstgoing
+
+##firstoutright
+
+##firstbleive
+
+##firstwoma
+
+##firsttomasa
+
+##firstfox
+
+##firstlightsji
+
+##firstfind
+
+##firstt52time
+
 ]]
+extras::
