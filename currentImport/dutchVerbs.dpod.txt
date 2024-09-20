@@ -309,64 +309,85 @@ rank::4.99
 extras::
 
 ==dutchVerb
-to help
-helpen
-help
-hielp
-hielpen
-heb geholpen
-4.72
+dpodId::fVMwZ8
+dpodWhenCreated::2024-09-20 09:36:32
+english::to help
+infinitive::helpen
+present::help
+imperfectSingular::hielp
+imperfectPlural::hielpen
+participle::heb geholpen
+rank::4.72
+extras::
 
 ==dutchVerb
-to remember
-herinneren
-herinner
-herinnerde
-herinnerden 
-heb herinnerd
-4.62
+dpodId::rCJ2Hu
+dpodWhenCreated::2024-09-20 09:36:32
+english::to remember
+infinitive::herinneren
+present::herinner
+imperfectSingular::herinnerde
+imperfectPlural::herinnerden
+participle::heb herinnerd
+rank::4.62
+extras::
 
 ==dutchVerb
-to hear
-horen
-hoor
-hoorde
-hoorden
-heb gehoord
-4.4
+dpodId::DpJGaa
+dpodWhenCreated::2024-09-20 09:36:32
+english::to hear
+infinitive::horen
+present::hoor
+imperfectSingular::hoorde
+imperfectPlural::hoorden
+participle::heb gehoord
+rank::4.4
+extras::
 
 ==dutchVerb
-to be fond of
-houden
-hou
-hield
-hielden
-heb gehouden
-4.45
+dpodId::OkszSH
+dpodWhenCreated::2024-09-20 09:36:32
+english::to be fond of
+infinitive::houden
+present::hou
+imperfectSingular::hield
+imperfectPlural::hielden
+participle::heb gehouden
+rank::4.45
+extras::
 
 ==dutchVerb
-to be aquainted with
-kennen
-ken
-kende
-kenden
-heb gekend
-4.5
+dpodId::zCQgAf
+dpodWhenCreated::2024-09-20 09:36:32
+english::to be aquainted with
+infinitive::kennen
+present::ken
+imperfectSingular::kende
+imperfectPlural::kenden
+participle::heb gekend
+rank::4.5
+extras::
 
 ==dutchVerb
-to choose
-kiezen
-kis
-koos
-kozen
-heb gekozen
-4.53
+dpodId::8Lho9c
+dpodWhenCreated::2024-09-20 09:36:32
+english::to choose
+infinitive::kiezen
+present::kis
+imperfectSingular::koos
+imperfectPlural::kozen
+participle::heb gekozen
+rank::4.53
+extras::
 
 ==dutchVerb
-to view
-kijken
-kijk
-keek
-keken
-heb gekeken
-4.8
+dpodId::cS3rf1
+dpodWhenCreated::2024-09-20 09:36:32
+english::to view
+infinitive::kijken
+present::kijk
+imperfectSingular::keek
+imperfectPlural::keken
+participle::heb gekeken
+rank::4.8
+extras::
