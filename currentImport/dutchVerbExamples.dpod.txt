@@ -739,3 +739,18 @@ verb::kijken
 english::He was always watching TV when he was a child.
 dutch::Als kind heeft hij altijd televisie gekeken.
 extras::
+
+==dutchVerbExample
+komen
+The discussion came to a conclusion.
+De discussie kwam tot een einde.
+
+==dutchVerbExample
+komen
+We ran into each other at the airport.
+We kwamen elkaar tegen aan de luchthaven.
+
+==dutchVerbExample
+komen
+Her predictions have come true.
+Haar voorspellingen zijn waar gekomen.
