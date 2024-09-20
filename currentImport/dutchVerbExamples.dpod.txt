@@ -741,16 +741,25 @@ dutch::Als kind heeft hij altijd televisie gekeken.
 extras::
 
 ==dutchVerbExample
-komen
-The discussion came to a conclusion.
-De discussie kwam tot een einde.
+dpodId::O0Aj7O
+dpodWhenCreated::2024-09-20 13:17:51
+verb::komen
+english::The discussion came to a conclusion.
+dutch::De discussie kwam tot een einde.
+extras::
 
 ==dutchVerbExample
-komen
-We ran into each other at the airport.
-We kwamen elkaar tegen aan de luchthaven.
+dpodId::E6cgY0
+dpodWhenCreated::2024-09-20 13:17:51
+verb::komen
+english::We ran into each other at the airport.
+dutch::We kwamen elkaar tegen aan de luchthaven.
+extras::
 
 ==dutchVerbExample
-komen
-Her predictions have come true.
-Haar voorspellingen zijn waar gekomen.
+dpodId::PHrGOd
+dpodWhenCreated::2024-09-20 13:17:51
+verb::komen
+english::Her predictions have come true.
+dutch::Haar voorspellingen zijn waar gekomen.
+extras::
