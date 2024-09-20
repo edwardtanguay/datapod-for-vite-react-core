@@ -715,3 +715,18 @@ verb::hebben
 english::You guys were lucky.
 dutch::Jullie hebben geluk gehad.
 extras::
+
+==dutchVerbExample
+kijken
+He sat down and looked at his eggs and bacon.
+Hij ging zitten en keek naar zijn spek en eieren.
+
+==dutchVerbExample
+kijken
+They were watching YouTube together.
+Ze keken samen naar YouTube.
+
+==dutchVerbExample
+kijken
+He was always watching TV when he was a child.
+Als kind heeft hij altijd televisie gekeken.
