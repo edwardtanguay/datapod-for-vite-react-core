@@ -373,7 +373,7 @@ dpodId::8Lho9c
 dpodWhenCreated::2024-09-20 09:36:32
 english::to choose
 infinitive::kiezen
-present::kis
+present::kies
 imperfectSingular::koos
 imperfectPlural::kozen
 participle::heb gekozen

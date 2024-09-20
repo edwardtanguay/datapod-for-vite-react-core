@@ -763,3 +763,34 @@ verb::komen
 english::Her predictions have come true.
 dutch::Haar voorspellingen zijn waar gekomen.
 extras::
+
+==dutchVerbExample
+helpen
+She helped me pack my suitcase.
+Ze hielp mij mijn valies inpakken.
+
+==dutchVerbExample
+helpen
+The man and his wife helped each other.
+De man en zijn vrouw hielpen elkaar.
+
+==dutchVerbExample
+helpen
+I know what helped her.
+Ik weet wat haar geholpen heeft.
+
+==dutchVerbExample
+herinneren
+I remember it as if it were yesterday.
+Ik herinner het me alsof het gisteren was.
+
+==dutchVerbExample
+herinneren
+The picture reminded me of Spain.
+De foto herinnerde me aan Spanje.
+
+==dutchVerbExample
+herinneren
+Good that you told me, otherwise I would never have remembered it.
+Goed dat je het me vertelde, anders had ik het me nooit herinnerd.
+
