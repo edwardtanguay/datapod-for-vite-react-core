@@ -391,3 +391,12 @@ imperfectPlural::keken
 participle::heb gekeken
 rank::4.8
 extras::
+
+==dutchVerb
+to come
+komen
+kom
+kwam
+kwamen
+ben gekomen
+4.88
