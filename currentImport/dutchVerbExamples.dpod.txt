@@ -811,3 +811,32 @@ verb::herinneren
 english::Good that you told me, otherwise I would never have remembered it.
 dutch::Goed dat je het me vertelde, anders had ik het me nooit herinnerd.
 extras::
+
+==dutchVerbExample
+kiezen
+I'll take the cheaper one.
+Ik kies de goedkopere.
+
+
+==dutchVerbExample
+kiezen
+Choose whichever one you like.
+Kies maar welke je bevalt.
+
+
+==dutchVerbExample
+kiezen
+Why did you decide not to go to France?
+Waarom koos je niet naar Frankrijk te gaan?
+
+
+==dutchVerbExample
+kiezen
+We decided to use your idea.
+We kozen voor jouw idee.
+
+
+==dutchVerbExample
+kiezen
+His chances of being elected are good.
+Hij heeft een goede kans om gekozen te worden.
