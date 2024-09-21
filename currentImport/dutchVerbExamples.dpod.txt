@@ -853,67 +853,89 @@ dutch::Hij heeft een goede kans om gekozen te worden.
 extras::
 
 ==dutchVerbExample
-kennen
-Where do you know it from?
-Vanwaar ken je dat?
+dpodId::GFKn9L
+dpodWhenCreated::2024-09-21 02:27:44
+verb::kennen
+english::Where do you know it from?
+dutch::Vanwaar ken je dat?
+extras::
 
 ==dutchVerbExample
-kennen
-I didn't know that trick.
-Die truc kende ik niet.
+dpodId::t47FIJ
+dpodWhenCreated::2024-09-21 02:27:44
+verb::kennen
+english::I didn't know that trick.
+dutch::Die truc kende ik niet.
+extras::
 
 ==dutchVerbExample
-kennen
-Everybody in the village knew him.
-Iedereen in het dorp kende hem.
-
-
-==dutchVerbExample
-kennen
-Hij zei dat hij ze gekend had.
-He said he used to know them.
-
+dpodId::kyuJd6
+dpodWhenCreated::2024-09-21 02:27:44
+verb::kennen
+english::Everybody in the village knew him.
+dutch::Iedereen in het dorp kende hem.
+extras::
 
 ==dutchVerbExample
-houden
-I like to run.
-Ik hou von hardlopen.
+dpodId::34lznZ
+dpodWhenCreated::2024-09-21 02:27:44
+verb::kennen
+english::Hij zei dat hij ze gekend had.
+dutch::He said he used to know them.
+extras::
 
 ==dutchVerbExample
-houden
-She didn't like this game.
-Zij hield niet van dat spel.
-
-
-==dutchVerbExample
-houden
-As for myself, I like spring very much. I never liked summer.
-Ik zelf hou erg van de lente, ik heb nooit van de zomer gehouden.
-
-
+dpodId::B45wzx
+dpodWhenCreated::2024-09-21 02:27:44
+verb::houden
+english::I like to run.
+dutch::Ik hou von hardlopen.
+extras::
 
 ==dutchVerbExample
-horen
-I hear that a lot.
-Dat hoor ik vaker.
-
-
-==dutchVerbExample
-horen
-She pretended not to hear me.
-Ze deed alsof ze me niet hoorde.
-
-
+dpodId::RMaR8a
+dpodWhenCreated::2024-09-21 02:27:44
+verb::houden
+english::She didn't like this game.
+dutch::Zij hield niet van dat spel.
+extras::
 
 ==dutchVerbExample
-horen
-I never heard of it.
-Ik heb er nooit van gehoord.
-
-
+dpodId::CRQb7M
+dpodWhenCreated::2024-09-21 02:27:44
+verb::houden
+english::As for myself, I like spring very much. I never liked summer.
+dutch::Ik zelf hou erg van de lente, ik heb nooit van de zomer gehouden.
+extras::
 
 ==dutchVerbExample
-horen
-Did you guys hear what he said?
-Hoorden jullie wat hij zei?
+dpodId::SMQpUP
+dpodWhenCreated::2024-09-21 02:27:44
+verb::horen
+english::I hear that a lot.
+dutch::Dat hoor ik vaker.
+extras::
 
+==dutchVerbExample
+dpodId::xojm8Q
+dpodWhenCreated::2024-09-21 02:27:44
+verb::horen
+english::She pretended not to hear me.
+dutch::Ze deed alsof ze me niet hoorde.
+extras::
+
+==dutchVerbExample
+dpodId::8IlW46
+dpodWhenCreated::2024-09-21 02:27:44
+verb::horen
+english::I never heard of it.
+dutch::Ik heb er nooit van gehoord.
+extras::
+
+==dutchVerbExample
+dpodId::T3S2qV
+dpodWhenCreated::2024-09-21 02:27:44
+verb::horen
+english::Did you guys hear what he said?
+dutch::Hoorden jullie wat hij zei?
+extras::
