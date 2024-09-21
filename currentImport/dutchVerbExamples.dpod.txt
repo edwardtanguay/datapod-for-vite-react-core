@@ -813,30 +813,107 @@ dutch::Goed dat je het me vertelde, anders had ik het me nooit herinnerd.
 extras::
 
 ==dutchVerbExample
-kiezen
-I'll take the cheaper one.
-Ik kies de goedkopere.
+dpodId::An6jBn
+dpodWhenCreated::2024-09-21 02:08:43
+verb::kiezen
+english::I'll take the cheaper one.
+dutch::Ik kies de goedkopere.
+extras::
+
+==dutchVerbExample
+dpodId::xl69Ii
+dpodWhenCreated::2024-09-21 02:08:43
+verb::kiezen
+english::Choose whichever one you like.
+dutch::Kies maar welke je bevalt.
+extras::
+
+==dutchVerbExample
+dpodId::ogehty
+dpodWhenCreated::2024-09-21 02:08:43
+verb::kiezen
+english::Why did you decide not to go to France?
+dutch::Waarom koos je niet naar Frankrijk te gaan?
+extras::
+
+==dutchVerbExample
+dpodId::l4eADJ
+dpodWhenCreated::2024-09-21 02:08:43
+verb::kiezen
+english::We decided to use your idea.
+dutch::We kozen voor jouw idee.
+extras::
+
+==dutchVerbExample
+dpodId::7ILtud
+dpodWhenCreated::2024-09-21 02:08:43
+verb::kiezen
+english::His chances of being elected are good.
+dutch::Hij heeft een goede kans om gekozen te worden.
+extras::
+
+==dutchVerbExample
+kennen
+Where do you know it from?
+Vanwaar ken je dat?
+
+==dutchVerbExample
+kennen
+I didn't know that trick.
+Die truc kende ik niet.
+
+==dutchVerbExample
+kennen
+Everybody in the village knew him.
+Iedereen in het dorp kende hem.
 
 
 ==dutchVerbExample
-kiezen
-Choose whichever one you like.
-Kies maar welke je bevalt.
+kennen
+Hij zei dat hij ze gekend had.
+He said he used to know them.
 
 
 ==dutchVerbExample
-kiezen
-Why did you decide not to go to France?
-Waarom koos je niet naar Frankrijk te gaan?
+houden
+I like to run.
+Ik hou von hardlopen.
+
+==dutchVerbExample
+houden
+She didn't like this game.
+Zij hield niet van dat spel.
 
 
 ==dutchVerbExample
-kiezen
-We decided to use your idea.
-We kozen voor jouw idee.
+houden
+As for myself, I like spring very much. I never liked summer.
+Ik zelf hou erg van de lente, ik heb nooit van de zomer gehouden.
+
 
 
 ==dutchVerbExample
-kiezen
-His chances of being elected are good.
-Hij heeft een goede kans om gekozen te worden.
+horen
+I hear that a lot.
+Dat hoor ik vaker.
+
+
+==dutchVerbExample
+horen
+She pretended not to hear me.
+Ze deed alsof ze me niet hoorde.
+
+
+
+==dutchVerbExample
+horen
+I never heard of it.
+Ik heb er nooit van gehoord.
+
+
+
+==dutchVerbExample
+horen
+Did you guys hear what he said?
+Hoorden jullie wat hij zei?
+
