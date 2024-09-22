@@ -551,7 +551,7 @@ extras::
 ==dutchVerb
 dpodId::gTEeNv
 dpodWhenCreated::2024-09-22 17:10:58
-english::to ride
+english::to ride/drive
 infinitive::rijden
 present::rijd
 imperfectSingular::reed

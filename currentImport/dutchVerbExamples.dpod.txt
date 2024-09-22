@@ -939,3 +939,395 @@ verb::horen
 english::Did you guys hear what he said?
 dutch::Hoorden jullie wat hij zei?
 extras::
+
+==dutchVerbExample
+dpodId::SHT7P8
+dpodWhenCreated::2024-09-22 18:51:19
+verb::kunnen
+english::The door wouldn't shut.
+dutch::De deur kon niet dicht.
+extras::
+
+==dutchVerbExample
+dpodId::JheFVb
+dpodWhenCreated::2024-09-22 18:51:19
+verb::kunnen
+english::They told me that they can't eat peanuts.
+dutch::Ze zeiden mij dat ze geen pindanoten konden eten.
+extras::
+
+==dutchVerbExample
+dpodId::87MQ8E
+dpodWhenCreated::2024-09-22 18:51:19
+verb::kunnen
+english::I couldn't have done it without your help.
+dutch::Ik had het, zonder je hulp, niet gekund.
+extras::
+
+==dutchVerbExample
+dpodId::OfOiIG
+dpodWhenCreated::2024-09-22 18:59:21
+verb::moeten
+english::I had to give up my plan.
+dutch::Ik moest mijn plan opgeven.
+extras::
+
+==dutchVerbExample
+dpodId::90Skqc
+dpodWhenCreated::2024-09-22 18:59:21
+verb::moeten
+english::They said that they knew how to win.
+dutch::Ze zeiden dat ze wisten hoe ze moesten winnen.
+extras::
+
+==dutchVerbExample
+dpodId::DEp4zk
+dpodWhenCreated::2024-09-22 18:59:21
+verb::moeten
+english::A complaint concerns matters that you believe should or could have been done differently.
+dutch::Bij een klacht gaat het om zaken die volgens u anders hadden gemoeten of anders hadden gekund.
+extras::
+
+==dutchVerbExample
+dpodId::JAJNuk
+dpodWhenCreated::2024-09-22 19:07:26
+verb::mogen
+english::He didn't even ask me if he could borrow my bicycle.
+dutch::Hij vroeg me niet eens of hij mijn fiets mocht lenen.
+extras::
+
+==dutchVerbExample
+dpodId::2j1Anx
+dpodWhenCreated::2024-09-22 19:07:26
+verb::mogen
+english::The children shouldn't have played outside; the storm was too heavy.
+dutch::De kinderen mochten niet buiten spelen; de storm was te hevig.
+extras::
+
+==dutchVerbExample
+dpodId::8TDtTh
+dpodWhenCreated::2024-09-22 19:07:26
+verb::mogen
+english::I never really liked it.
+dutch::Ik heb het nooit echt gemogen.
+extras::
+
+==dutchVerbExample
+dpodId::CdHr64
+dpodWhenCreated::2024-09-22 19:07:26
+verb::kopen
+english::I bought a book yesterday.
+dutch::Gisteren kocht ik een boek.
+extras::
+
+==dutchVerbExample
+dpodId::UuSmCB
+dpodWhenCreated::2024-09-22 19:07:26
+verb::kopen
+english::They bought their grandson a bike for Christmas.
+dutch::Ze kochten hun kleinzoon een fiets voor Kerstmis.
+extras::
+
+==dutchVerbExample
+dpodId::Qlf3Zt
+dpodWhenCreated::2024-09-22 19:07:26
+verb::kopen
+english::Take a look at the books I bought.
+dutch::Kijk eens naar de boeken die ik heb gekocht.
+extras::
+
+==dutchVerbExample
+dpodId::R9FaU3
+dpodWhenCreated::2024-09-22 19:14:59
+verb::lezen
+english::He finished reading the book in a single day.
+dutch::Hij las het boek in één dag uit.
+extras::
+
+==dutchVerbExample
+dpodId::xjYasm
+dpodWhenCreated::2024-09-22 19:14:59
+verb::lezen
+english::We read the letter again and again.
+dutch::We lazen de brief telkens opnieuw.
+extras::
+
+==dutchVerbExample
+dpodId::5rRGsL
+dpodWhenCreated::2024-09-22 19:14:59
+verb::lezen
+english::This is the best book that I've ever read.
+dutch::Dat is het beste boek dat ik ooit gelezen heb.
+extras::
+
+==dutchVerbExample
+dpodId::uTWP4e
+dpodWhenCreated::2024-09-22 19:14:59
+verb::krijgen
+english::She got a present from her boyfriend.
+dutch::Ze kreeg een cadeau van haar vriend.
+extras::
+
+==dutchVerbExample
+dpodId::G6Uiyn
+dpodWhenCreated::2024-09-22 19:14:59
+verb::krijgen
+english::They spent the money their father gave them on beer.
+dutch::Ze gaven het geld dat ze van hun vader kregen aan bier uit.
+extras::
+
+==dutchVerbExample
+dpodId::hZKyXO
+dpodWhenCreated::2024-09-22 19:14:59
+verb::krijgen
+english::That's the most beautiful gift I've ever received.
+dutch::Dat is het mooiste cadeautje dat ik ooit gekregen heb.
+extras::
+
+==dutchVerbExample
+dpodId::yO2BcR
+dpodWhenCreated::2024-09-22 19:23:15
+verb::lopen
+english::A tall man in a silver robe walked by.
+dutch::Een lange man in een zilveren gewaad liep voorbij.
+extras::
+
+==dutchVerbExample
+dpodId::iffqaj
+dpodWhenCreated::2024-09-22 19:23:15
+verb::lopen
+english::We ran after the cat.
+dutch::We liepen achter de kat aan.
+extras::
+
+==dutchVerbExample
+dpodId::JNXoXy
+dpodWhenCreated::2024-09-22 19:23:15
+verb::lopen
+english::You guys look lost.
+dutch::Het lijkt alsof jullie verloren gelopen zijn.
+extras::
+
+==dutchVerbExample
+dpodId::JULjtS
+dpodWhenCreated::2024-09-22 19:23:15
+verb::lopen
+english::The riot was completely out of control.
+dutch::De rel was volledig uit de hand gelopen.
+extras::
+
+==dutchVerbExample
+dpodId::jYXfFy
+dpodWhenCreated::2024-09-22 19:23:15
+verb::spreken
+english::I spoke loudly so that everyone could hear me.
+dutch::Ik sprak luid, zodat iedereen me kon verstaan.
+extras::
+
+==dutchVerbExample
+dpodId::6tYdwx
+dpodWhenCreated::2024-09-22 19:23:15
+verb::spreken
+english::We usually talked in English.
+dutch::Meestal spraken we in het Engels.
+extras::
+
+==dutchVerbExample
+dpodId::s6Jpzu
+dpodWhenCreated::2024-09-22 19:23:15
+verb::spreken
+english::Have they talked to you recently?
+dutch::Hebben ze onlangs nog met je gesproken?
+extras::
+
+==dutchVerbExample
+dpodId::WqdH7I
+dpodWhenCreated::2024-09-22 19:23:15
+verb::nemen
+english::He said goodbye and then got on the train.
+dutch::Hij nam afscheid en stapte vervolgens op de trein.
+extras::
+
+==dutchVerbExample
+dpodId::wc2YDQ
+dpodWhenCreated::2024-09-22 19:23:15
+verb::nemen
+english::They took part in the assembly.
+dutch::Ze namen deel aan de vergadering.
+extras::
+
+==dutchVerbExample
+dpodId::frEYc8
+dpodWhenCreated::2024-09-22 19:23:15
+verb::nemen
+english::On the whole, the event was successful.
+dutch::Over het geheel genomen was het evenement succesvol.
+extras::
+
+==dutchVerbExample
+dpodId::Kuztcb
+dpodWhenCreated::2024-09-22 19:28:33
+verb::laten
+english::The driver left his car on the sidewalk.
+dutch::De bestuurder liet zijn auto op de stoep staan.
+extras::
+
+==dutchVerbExample
+dpodId::kpSSN3
+dpodWhenCreated::2024-09-22 19:28:33
+verb::laten
+english::We showed him some pictures of the Alps.
+dutch::We lieten hem een paar foto's van de Alpen zien.
+extras::
+
+==dutchVerbExample
+dpodId::0lUvPu
+dpodWhenCreated::2024-09-22 19:28:33
+verb::laten
+english::Someone has probably left the door open.
+dutch::Iemand heeft waarschijnlijk de deur open gelaten.
+extras::
+
+==dutchVerbExample
+dpodId::2ljFi5
+dpodWhenCreated::2024-09-22 19:32:36
+verb::rijden
+english::She got on her bike and rode away.
+dutch::Ze stapte op haar fiets en reed weg.
+extras::
+
+==dutchVerbExample
+dpodId::did31U
+dpodWhenCreated::2024-09-22 19:32:36
+verb::rijden
+english::The drove away in the car.
+dutch::Ze reden weg in de auto.
+extras::
+
+==dutchVerbExample
+dpodId::7mw3I6
+dpodWhenCreated::2024-09-22 19:32:36
+verb::rijden
+english::We drove to Leiden last Sunday.
+dutch::Vorige zondag zijn we naar Leiden gereden.
+extras::
+
+==dutchVerbExample
+dpodId::sagQ2S
+dpodWhenCreated::2024-09-22 19:36:41
+verb::liggen
+english::The tiger laid in the middle of the cage.
+dutch::De tijger lag in het midden van de kooi.
+extras::
+
+==dutchVerbExample
+dpodId::zDbZ5n
+dpodWhenCreated::2024-09-22 19:36:41
+verb::liggen
+english::There were four pieces of cheese on the table.
+dutch::Er lagen vier stukken kaas op de tafel.
+extras::
+
+==dutchVerbExample
+dpodId::Jc0VpT
+dpodWhenCreated::2024-09-22 19:36:41
+verb::liggen
+english::This restaurant is located on the riverbed.
+dutch::Dit restaurant is aan een rivierbedding gelegen.
+extras::
+
+==dutchVerbExample
+dpodId::LtIJ96
+dpodWhenCreated::2024-09-22 19:42:20
+verb::lijken
+english::He didn't look at all convinced.
+dutch::Hij leek helemaal niet overtuigd.
+extras::
+
+==dutchVerbExample
+dpodId::asyUqR
+dpodWhenCreated::2024-09-22 19:42:20
+verb::lijken
+english::The stars twinkling in the night sky looked like jewels.
+dutch::De glinsterende sterren in de avondhemel leken op edelstenen.
+extras::
+
+==dutchVerbExample
+dpodId::kBBiMR
+dpodWhenCreated::2024-09-22 19:42:20
+verb::lijken
+english::The situation seemed more dangerous than it actually was.
+dutch::De situatie heeft gevaarlijker geleken dan het werkelijk was.
+extras::
+
+==dutchVerbExample
+dpodId::uD6oGi
+dpodWhenCreated::2024-09-22 19:48:48
+verb::staan
+english::There was an old bicycle leaning against the wall of the garage.
+dutch::Er stond een oude fiets tegen de muur van de garage.
+extras::
+
+==dutchVerbExample
+dpodId::gpMfwj
+dpodWhenCreated::2024-09-22 19:48:48
+verb::staan
+english::They stood in line, waiting their turn.
+dutch::Ze stonden in de rij te wachten op hun beurt.
+extras::
+
+==dutchVerbExample
+dpodId::cAzp2R
+dpodWhenCreated::2024-09-22 19:48:48
+verb::staan
+english::Has this been sitting out on the dinner table all day? It has to go in the refrigerator or it'll go bad.
+dutch::Heeft dit de hele dag buiten op de eettafel gestaan? Dit moet in de koelkast om niet te bederven.
+extras::
+
+==dutchVerbExample
+dpodId::jrLsV4
+dpodWhenCreated::2024-09-22 19:48:48
+verb::schrijven
+english::The author wrote another best-selling book.
+dutch::De auteur schreef nog een goed verkocht boek.
+extras::
+
+==dutchVerbExample
+dpodId::euNjiU
+dpodWhenCreated::2024-09-22 19:48:48
+verb::schrijven
+english::A surprising number of people registered for this course.
+dutch::Er schreven zich verrassend veel mensen in voor deze cursus.
+extras::
+
+==dutchVerbExample
+dpodId::GHey1p
+dpodWhenCreated::2024-09-22 19:48:48
+verb::schrijven
+english::If she didn't write this, then who did?
+dutch::Als ze dit niet heeft geschreven, wie dan wel?
+extras::
+
+==dutchVerbExample
+dpodId::xQ1EzU
+dpodWhenCreated::2024-09-22 19:51:15
+verb::sluiten
+english::He shut the door and went upstairs.
+dutch::Hij sloot de deur en ging naar boven.
+extras::
+
+==dutchVerbExample
+dpodId::HNdi4j
+dpodWhenCreated::2024-09-22 19:51:15
+verb::sluiten
+english::They shut the door and went up to the first floor.
+dutch::Ze sloten de deur en gingen naar de eerste verdieping.
+extras::
+
+==dutchVerbExample
+dpodId::EMqDbD
+dpodWhenCreated::2024-09-22 19:51:15
+verb::sluiten
+english::The shops in the street were for the most part closed.
+dutch::In de straat waren de meeste winkels gesloten.
+extras::
