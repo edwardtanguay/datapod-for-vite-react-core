@@ -403,3 +403,255 @@ imperfectPlural::kwamen
 participle::ben gekomen
 rank::4.88
 extras::
+
+==dutchVerb
+dpodId::mMAxml
+dpodWhenCreated::2024-09-22 15:17:01
+english::to buy
+infinitive::kopen
+present::koop
+imperfectSingular::kocht
+imperfectPlural::kochten
+participle::heb gekocht
+rank::4.89
+extras::
+
+==dutchVerb
+dpodId::oTFkyg
+dpodWhenCreated::2024-09-22 15:20:19
+english::to get
+infinitive::krijgen
+present::krijg
+imperfectSingular::kreeg
+imperfectPlural::kregen
+participle::heb gekregen
+rank::4.83
+extras::
+
+==dutchVerb
+dpodId::bbcDMn
+dpodWhenCreated::2024-09-22 15:26:18
+english::to be able to
+infinitive::kunnen
+present::kan
+imperfectSingular::kon
+imperfectPlural::konden
+participle::heb gekund
+rank::4.95
+extras::
+
+==dutchVerb
+dpodId::3mgXdZ
+dpodWhenCreated::2024-09-22 15:30:51
+english::to let
+infinitive::laten
+present::laat
+imperfectSingular::liet
+imperfectPlural::lieten
+participle::heb gelaten
+rank::4.73
+extras::
+
+==dutchVerb
+dpodId::AjpcEW
+dpodWhenCreated::2024-09-22 15:36:48
+english::to read
+infinitive::lezen
+present::lees
+imperfectSingular::las
+imperfectPlural::lazen
+participle::heb gelezen
+rank::4.84
+extras::
+
+==dutchVerb
+dpodId::6pQOfh
+dpodWhenCreated::2024-09-22 15:45:10
+english::to lie (to fib)
+infinitive::liegen
+present::lieg
+imperfectSingular::loog
+imperfectPlural::logen
+participle::heb gelogen
+rank::3.9
+extras::
+
+==dutchVerb
+dpodId::MmzLkw
+dpodWhenCreated::2024-09-22 16:36:34
+english::to lie (down)
+infinitive::liggen
+present::lig
+imperfectSingular::lag
+imperfectPlural::lagen
+participle::heb gelegen
+rank::4.62
+extras::
+
+==dutchVerb
+dpodId::crE7Cv
+dpodWhenCreated::2024-09-22 16:36:34
+english::to seem
+infinitive::lijken
+present::lijk
+imperfectSingular::leek
+imperfectPlural::leken
+participle::heb geleken
+rank::4.58
+extras::
+
+==dutchVerb
+dpodId::EsDFat
+dpodWhenCreated::2024-09-22 16:36:34
+english::to walk/run
+infinitive::lopen
+present::loop
+imperfectSingular::liep
+imperfectPlural::liepen
+participle::ben gelopen
+rank::4.82
+extras::
+
+==dutchVerb
+dpodId::caWs14
+dpodWhenCreated::2024-09-22 16:45:13
+english::to have to (must)
+infinitive::moeten
+present::moet
+imperfectSingular::moest
+imperfectPlural::moesten
+participle::heb gemoeten
+rank::4.95
+extras::
+
+==dutchVerb
+dpodId::zR5tFX
+dpodWhenCreated::2024-09-22 16:56:34
+english::to be allowed to
+infinitive::mogen
+present::mag
+imperfectSingular::mocht
+imperfectPlural::mochten
+participle::heb gemogen
+rank::4.95
+extras::
+
+==dutchVerb
+dpodId::0uE3VX
+dpodWhenCreated::2024-09-22 17:10:58
+english::to take
+infinitive::nemen
+present::neem
+imperfectSingular::nam
+imperfectPlural::namen
+participle::heb genomen
+rank::4.77
+extras::
+
+==dutchVerb
+dpodId::gTEeNv
+dpodWhenCreated::2024-09-22 17:10:58
+english::to ride
+infinitive::rijden
+present::rijd
+imperfectSingular::reed
+imperfectPlural::reden
+participle::heb gereden
+rank::4.69
+extras::
+
+==dutchVerb
+dpodId::aML9KU
+dpodWhenCreated::2024-09-22 17:30:26
+english::to shine
+infinitive::schijnen
+present::schijn
+imperfectSingular::scheen
+imperfectPlural::schenen
+participle::heb geschenen
+rank::4.2
+extras::
+
+==dutchVerb
+dpodId::dFmvSa
+dpodWhenCreated::2024-09-22 17:30:26
+english::to write
+infinitive::schrijven
+present::schrijf
+imperfectSingular::schreef
+imperfectPlural::schreven
+participle::heb geschreven
+rank::4.49
+extras::
+
+==dutchVerb
+dpodId::dvPg3G
+dpodWhenCreated::2024-09-22 18:26:00
+english::to push
+infinitive::schuiven
+present::schuif
+imperfectSingular::schoof
+imperfectPlural::schoven
+participle::heb geschoven
+rank::3.88
+extras::
+
+==dutchVerb
+dpodId::yHMv7O
+dpodWhenCreated::2024-09-22 18:26:00
+english::to sleep
+infinitive::slapen
+present::slaap
+imperfectSingular::sliep
+imperfectPlural::sliepen
+participle::heb geslapen
+rank::4.1
+extras::
+
+==dutchVerb
+dpodId::7oUrs4
+dpodWhenCreated::2024-09-22 18:26:00
+english::to close
+infinitive::sluiten
+present::sluit
+imperfectSingular::sloot
+imperfectPlural::sloten
+participle::heb gesloten
+rank::4.45
+extras::
+
+==dutchVerb
+dpodId::4BJZqw
+dpodWhenCreated::2024-09-22 18:34:41
+english::to cut
+infinitive::snijden
+present::snijd
+imperfectSingular::sneed
+imperfectPlural::sneden
+participle::heb gesneden
+rank::4.1
+extras::
+
+==dutchVerb
+dpodId::MyRxjp
+dpodWhenCreated::2024-09-22 18:34:41
+english::to speak
+infinitive::spreken
+present::spreek
+imperfectSingular::sprak
+imperfectPlural::spraken
+participle::heb gesproken
+rank::4.79
+extras::
+
+==dutchVerb
+dpodId::5l3NhS
+dpodWhenCreated::2024-09-22 18:34:41
+english::to stand
+infinitive::staan
+present::sta
+imperfectSingular::stond
+imperfectPlural::stonden
+participle::heb gestaan
+rank::4.5
+extras::
