@@ -48,6 +48,7 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 
 	useEffect(() => {
 		(async () => {
+			console.log(Math.random(), 'calling appdata');
 			const _appData = await AppModel.getAppData();
 			setAppData(_appData);
 		})();
@@ -98,13 +99,15 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 
 	useEffect(() => {
 		setTimeout(() => {
-			loadFullReport();
+			// TODO: commented out since this was causing unnecessary loading and overwrite errors
+			// loadFullReport();
 		}, 100);
 	}, []);
 
 	useEffect(() => {
 		setTimeout(() => {
-			loadOverviewJobApplications();
+			// TODO: commented out since this was causing unnecessary loading and overwrite errors
+			// loadOverviewJobApplications();
 		}, 1400);
 	}, []);
 

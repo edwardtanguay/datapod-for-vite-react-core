@@ -25,6 +25,7 @@ export class DpodDataLoader {
 	private datapodData: any = {};
 
 	constructor(content: string) {
+		console.log(900, 'in dpoddataloader constructor');
 		this.content = content;  
 		this.createLines();
 		this.createLineBlocks();

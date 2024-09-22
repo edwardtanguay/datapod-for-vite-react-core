@@ -45,24 +45,24 @@ export const getJobs = (): Job[] => {
 
 // jobApplications (Datapod type)
 export const getJobApplications = (): JobApplication[] => {
-	const pathAndFileNames = qfil.getFileNamesInDirectory(
-		appconfig.importDirectory()
-	);
-	const fileObjects = apptools.getFileObjects(pathAndFileNames);
-	const entireContent = apptools.getEntireContent(fileObjects);
-	const dpodDataLoader = new DpodDataLoader(entireContent);
-	const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
+	// const pathAndFileNames = qfil.getFileNamesInDirectory(
+	// 	appconfig.importDirectory()
+	// );
+	// const fileObjects = apptools.getFileObjects(pathAndFileNames);
+	// const entireContent = apptools.getEntireContent(fileObjects);
+	// const dpodDataLoader = new DpodDataLoader(entireContent);
+	// const dpodItemGroupDataItems = dpodDataLoader.getDpodItemGroupDataItems();
 
-	const jobApplicationsGroup = dpodItemGroupDataItems.find(
-		(m) => m.idCode === "jobApplications"
-	);
-	if (jobApplicationsGroup) {
-		const jsonData = jobApplicationsGroup.jsonData;
-		const jobApplications: JobApplication[] = JSON.parse(jsonData);
-		return jobApplications;
-	} else {
-		return [] as JobApplication[];
-	}
+	// const jobApplicationsGroup = dpodItemGroupDataItems.find(
+	// 	(m) => m.idCode === "jobApplications"
+	// );
+	// if (jobApplicationsGroup) {
+	// 	const jsonData = jobApplicationsGroup.jsonData;
+	// 	const jobApplications: JobApplication[] = JSON.parse(jsonData);
+	// 	return jobApplications;
+	// } else {
+	// 	return [] as JobApplication[];
+	// }
 };
 
 // remove parentheses at then end, e.g. "Tech Punk GmbH (Recruiter)"
