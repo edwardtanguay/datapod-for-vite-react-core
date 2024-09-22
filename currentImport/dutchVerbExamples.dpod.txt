@@ -1331,3 +1331,123 @@ verb::sluiten
 english::The shops in the street were for the most part closed.
 dutch::In de straat waren de meeste winkels gesloten.
 extras::
+
+==dutchVerbExample
+dpodId::ptSDjt
+dpodWhenCreated::2024-09-22 20:34:25
+verb::schijnen
+english::The policeman shone his flashlight into the house.
+dutch::De politieagent scheen met zijn zaklantaarn in het huis.
+extras::
+
+==dutchVerbExample
+dpodId::DkhZas
+dpodWhenCreated::2024-09-22 20:34:25
+verb::schijnen
+english::The stars shone brightly in the sky.
+dutch::De sterren schenen helder aan de hemel.
+extras::
+
+==dutchVerbExample
+dpodId::IA2Wu8
+dpodWhenCreated::2024-09-22 20:34:25
+verb::schijnen
+english::The sun has shone brightly all day.
+dutch::De zon heeft de hele dag fel geschenen.
+extras::
+
+==dutchVerbExample
+dpodId::PGf2mV
+dpodWhenCreated::2024-09-22 21:00:45
+verb::slapen
+english::The cat slept on the table.
+dutch::De kat sliep op de tafel.
+extras::
+
+==dutchVerbExample
+dpodId::87pjb4
+dpodWhenCreated::2024-09-22 21:00:45
+verb::slapen
+english::We slept in the same house.
+dutch::Wij sliepen in hetzelfde huis.
+extras::
+
+==dutchVerbExample
+dpodId::4oJdZi
+dpodWhenCreated::2024-09-22 21:00:45
+verb::slapen
+english::He asked me if I had slept well the night before.
+dutch::Hij vroeg me of ik goed geslapen had de nacht voordien.
+extras::
+
+==dutchVerbExample
+dpodId::Oj4Yp5
+dpodWhenCreated::2024-09-22 21:06:15
+verb::snijden
+english::He cut the apple into two halves.
+dutch::Hij sneed de appel in twee helften.
+extras::
+
+==dutchVerbExample
+dpodId::3gdmso
+dpodWhenCreated::2024-09-22 21:06:15
+verb::snijden
+english::We cut the pie in two.
+dutch::We sneden de taart in tweeën.
+extras::
+
+==dutchVerbExample
+dpodId::DCKGHi
+dpodWhenCreated::2024-09-22 21:06:15
+verb::snijden
+english::I cut my finger with a knife.
+dutch::Ik heb me met het mes in mijn vinger gesneden.
+extras::
+
+==dutchVerbExample
+dpodId::kA61W7
+dpodWhenCreated::2024-09-22 21:11:11
+verb::liegen
+english::It was obvious that he was lying.
+dutch::Het was duidelijk dat hij loog.
+extras::
+
+==dutchVerbExample
+dpodId::BJaMYA
+dpodWhenCreated::2024-09-22 21:11:11
+verb::liegen
+english::We now know that they were lying.
+dutch::We weten nu dat ze logen.
+extras::
+
+==dutchVerbExample
+dpodId::aRxS9v
+dpodWhenCreated::2024-09-22 21:11:11
+verb::liegen
+english::He made an admission that he had lied.
+dutch::Hij bekende dat hij gelogen had.
+extras::
+
+==dutchVerbExample
+dpodId::p9Mgzu
+dpodWhenCreated::2024-09-22 21:15:19
+verb::schuiven
+english::He put the blame upon me.
+dutch::Hij schoof de schuld op mij.
+extras::
+
+==dutchVerbExample
+dpodId::KjAfr0
+dpodWhenCreated::2024-09-22 21:15:19
+verb::schuiven
+english::They slid the table to the other side of the room.
+dutch::Ze schoven de tafel naar de andere kant van de kamer.
+extras::
+
+==dutchVerbExample
+dpodId::eDbnhc
+dpodWhenCreated::2024-09-22 21:15:19
+verb::schuiven
+english::She got brushed aside.
+dutch::Ze werd terzijde geschoven.
+extras::
