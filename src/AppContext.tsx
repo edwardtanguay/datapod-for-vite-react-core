@@ -29,7 +29,7 @@ interface IAppProvider {
 export const AppContext = createContext<IAppContext>({} as IAppContext);
 
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
-	const [appData, setAppData] = useState<IAppData>(blankAppData);
+	const [appData, setAppData] = useState<IAppData>(blankAppData); // TODO: fix typescript error
 	const [overviewJobApplications, setOverviewJobApplications] = useState<
 		OverviewJobApplication[]
 	>([]);

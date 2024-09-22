@@ -44,27 +44,28 @@ app.get("/appdata", (_req, res) => {
 });
 
 app.get("/parse-etsite-data", (req, res) => {
-	const etSiteBase = appconfig.etsiteDataRelativePathAndFileName();
-	const pathAndFileNames = qfil.getFileNamesInDirectory(
-		appconfig.importDirectory()
-	);
-	const fileObjects = apptools.getFileObjects(pathAndFileNames);
-	const entireContent = apptools.getEntireContent(fileObjects);
-	const dpodDataLoader = new DpodDataLoader(entireContent);
-	const dataItems = dpodDataLoader.getDpodItemGroupDataItems();
-	qfil.createFile(
-		`${etSiteBase}/itemType-runs.json`,
-		qfil.wrapAsArrayForJson((dataItems[0] as any).jsonData)
-	);
-	qfil.createFile(
-		`${etSiteBase}/itemType-swims.json`,
-		qfil.wrapAsArrayForJson((dataItems[1] as any).jsonData)
-	);
-	qfil.createFile(
-		`${etSiteBase}/itemType-weights.json`,
-		qfil.wrapAsArrayForJson((dataItems[2] as any).jsonData)
-	);
+	console.log('code commented out, not needed anymore'); // TODO: resolve if actually not needed
+	// const etSiteBase = appconfig.etsiteDataRelativePathAndFileName();
+	// const pathAndFileNames = qfil.getFileNamesInDirectory(
+	// 	appconfig.importDirectory()
+	// );
+	// const fileObjects = apptools.getFileObjects(pathAndFileNames);
+	// const entireContent = apptools.getEntireContent(fileObjects);
+	// const dpodDataLoader = new DpodDataLoader(entireContent);
+	// const dataItems = dpodDataLoader.getDpodItemGroupDataItems();
+	// qfil.createFile(
+	// 	`${etSiteBase}/itemType-runs.json`,
+	// 	qfil.wrapAsArrayForJson((dataItems[0] as any).jsonData)
+	// );
+	// qfil.createFile(
+	// 	`${etSiteBase}/itemType-swims.json`,
+	// 	qfil.wrapAsArrayForJson((dataItems[1] as any).jsonData)
+	// );
+	// qfil.createFile(
+	// 	`${etSiteBase}/itemType-weights.json`,
+	// 	qfil.wrapAsArrayForJson((dataItems[2] as any).jsonData)
+	// );
 
-	res.status(200);
+	// res.status(200);
 });
 

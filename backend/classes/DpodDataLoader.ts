@@ -42,6 +42,7 @@ export class DpodDataLoader {
 	private overwriteOriginalDpodFiles() {
 		for (const dpodItems of Object.values(this.dpodItemGroups)) {
 			const dpodItem = (dpodItems as DpodItem[])[0];
+			console.log(111, dpodItem.getSchemaIdCode());
 			qfil.writeToFile(
 				dpodItem.getDatapodTextPathAndFileName(),
 				this.getDatapodContentForItemType(dpodItem.getSchemaIdCode())
