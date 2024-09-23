@@ -655,3 +655,53 @@ imperfectPlural::stonden
 participle::heb gestaan
 rank::4.5
 extras::
+
+==dutchVerb
+dpodId::3EvtE4
+dpodWhenCreated::2024-09-23 01:40:54
+english::to climb/rise
+infinitive::stijgen
+present::stijg
+imperfectSingular::steeg
+imperfectPlural::stegen
+participle::ben gestegen
+rank::4.6
+extras::
+
+==dutchVerb
+dpodId::qQD1jN
+dpodWhenCreated::2024-09-23 01:40:54
+english::to meet
+infinitive::treffen
+present::tref
+imperfectSingular::trof
+imperfectPlural::troffen
+participle::heb getroffen
+rank::4.3
+extras::
+
+==dutchVerb
+dpodId::60KlWA
+dpodWhenCreated::2024-09-23 01:40:54
+english::to catch
+infinitive::vangen
+present::vang
+imperfectSingular::ving
+imperfectPlural::vingen
+participle::heb gevangen
+rank::4.45
+extras::
+
+==dutchVerb
+dpodId::ABIjA0
+dpodWhenCreated::2024-09-23 01:45:38
+english::to forbid
+infinitive::verbieden
+present::verbied
+imperfectSingular::verbood
+imperfectPlural::verboden
+participle::heb verboden
+rank::4.23
+extras::
+
+==dutchVerb

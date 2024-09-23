@@ -1451,3 +1451,99 @@ verb::schuiven
 english::She got brushed aside.
 dutch::Ze werd terzijde geschoven.
 extras::
+
+==dutchVerbExample
+dpodId::EFIsw8
+dpodWhenCreated::2024-09-23 01:49:13
+verb::stijgen
+english::That drink went right to my head.
+dutch::Dat drankje steeg onmiddellijk naar mijn hoofd.
+extras::
+
+==dutchVerbExample
+dpodId::lY6hVD
+dpodWhenCreated::2024-09-23 01:49:13
+verb::stijgen
+english::Commodity prices were rising.
+dutch::De prijzen van de grondstoffen stegen.
+extras::
+
+==dutchVerbExample
+dpodId::nQVfSY
+dpodWhenCreated::2024-09-23 01:49:13
+verb::stijgen
+english::He moved up to first place.
+dutch::Hij is naar de eerste plaats gestegen.
+extras::
+
+==dutchVerbExample
+dpodId::BBFLuX
+dpodWhenCreated::2024-09-23 01:53:15
+verb::vangen
+english::She glimpsed him running through the crowd.
+dutch::Ze ving een glimp van hem op terwijl hij door de menigte liep.
+extras::
+
+==dutchVerbExample
+dpodId::fQsrxS
+dpodWhenCreated::2024-09-23 01:53:15
+verb::vangen
+english::The children caught the ball in the park.
+dutch::De kinderen vingen de bal in het park.
+extras::
+
+==dutchVerbExample
+dpodId::soF51h
+dpodWhenCreated::2024-09-23 01:53:15
+verb::vangen
+english::The dog caught the ball.
+dutch::De hond heeft de bal gevangen.
+extras::
+
+==dutchVerbExample
+dpodId::TUBxsX
+dpodWhenCreated::2024-09-23 01:57:26
+verb::treffen
+english::I met him by pure chance.
+dutch::Ik trof hem puur toevallig.
+extras::
+
+==dutchVerbExample
+dpodId::pFJvrG
+dpodWhenCreated::2024-09-23 01:57:26
+verb::treffen
+english::They met each other at the station.
+dutch::Ze troffen elkaar bij het station.
+extras::
+
+==dutchVerbExample
+dpodId::BjoRWH
+dpodWhenCreated::2024-09-23 01:57:26
+verb::treffen
+english::I made my decision.
+dutch::Ik heb een beslissing getroffen.
+extras::
+
+==dutchVerbExample
+dpodId::mKIxQn
+dpodWhenCreated::2024-09-23 02:01:48
+verb::verbieden
+english::The government prohibited the use of plastic bags in stores.
+dutch::De regering verbood het gebruik van plastic zakken in winkels.
+extras::
+
+==dutchVerbExample
+dpodId::uNJdc4
+dpodWhenCreated::2024-09-23 02:01:48
+verb::verbieden
+english::Single-use cups are banned at school.
+dutch::Wegwerpbekers zijn in de school verboden.
+extras::
+
+==dutchVerbExample
+dpodId::v0j6E0
+dpodWhenCreated::2024-09-23 02:01:48
+verb::verbieden
+english::Many countries have laws prohibiting smoking.
+dutch::Heel wat landen hebben wetten die het roken verbieden.
+extras::
