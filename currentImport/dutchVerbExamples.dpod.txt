@@ -1547,3 +1547,107 @@ verb::verbieden
 english::Many countries have laws prohibiting smoking.
 dutch::Heel wat landen hebben wetten die het roken verbieden.
 extras::
+
+==dutchVerbExample
+dpodId::dUSXKc
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::I forgot to close the curtains.
+dutch::Ik vergat de gordijnen dicht te doen.
+extras::
+
+==dutchVerbExample
+dpodId::TOf3sm
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::Below the starry sky, we forgot about time, recounting our dreams to each other.
+dutch::Onder de wijde sterrenhemel vergaten we de tijd terwijl we elkaar vertelden over ons dromen.
+extras::
+
+==dutchVerbExample
+dpodId::37cGs5
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::Tom said he thought he'd forgotten something.
+dutch::Tom zei dat hij dacht dat hij iets vergeten had.
+extras::
+
+==dutchVerbExample
+dpodId::DFknCz
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::For a moment I forgot what her name was.
+dutch::Een moment was ik vergeten wat haar naam was.
+extras::
+
+==dutchVerbExample
+dpodId::aIhjOS
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::He forgot to bring clothes.
+dutch::Hij is vergeten kleren mee te nemen.
+extras::
+
+==dutchVerbExample
+dpodId::pkVdJy
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::I've forgotten his name.
+dutch::Ik ben zijn naam vergeten.
+extras::
+
+==dutchVerbExample
+dpodId::3uIE2x
+dpodWhenCreated::2024-09-23 09:15:59
+verb::vergeten
+english::I've forgotten my keys.
+dutch::Ik heb mijn sleutels vergeten.
+extras::
+
+==dutchVerbExample
+dpodId::osTmhZ
+dpodWhenCreated::2024-09-23 09:21:17
+verb::vergelijken
+english::He compared the copy with the original.
+dutch::Hij vergeleek de kopie met het origineel.
+extras::
+
+==dutchVerbExample
+dpodId::17vbFK
+dpodWhenCreated::2024-09-23 09:21:17
+verb::vergelijken
+english::The village is now very different from what it was ten years ago.
+dutch::Het dorp is vergeleken met tien jaar geleden, erg veranderd.
+extras::
+
+==dutchVerbExample
+dpodId::eD5Bov
+dpodWhenCreated::2024-09-23 09:21:17
+verb::vergelijken
+english::Compare your sentence with the one on the blackboard.
+dutch::Vergelijk je zin met die op het bord.
+extras::
+
+==dutchVerbExample
+dpodId::Wewu4J
+dpodWhenCreated::2024-09-23 09:21:17
+verb::verdwijnen
+english::The sun disappeared behind a cloud.
+dutch::De zon verdween achter een wolk.
+extras::
+
+==dutchVerbExample
+dpodId::PvhEqg
+dpodWhenCreated::2024-09-23 09:21:17
+verb::verdwijnen
+english::He disappeared without a trace.
+dutch::Hij is zonder enig spoor verdwenen.
+extras::
+
+==dutchVerbExample
+dpodId::hbOT6a
+dpodWhenCreated::2024-09-23 09:21:17
+verb::verdwijnen
+english::My bike disappeared.
+dutch::Mijn fiets is verdwenen.
+extras::
