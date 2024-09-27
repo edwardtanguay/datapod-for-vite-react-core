@@ -3337,3 +3337,16 @@ It's been at least over two years that Hannah and I have done our morning runs, 
 ##firstt52time
 ]]
 extras::
+
+
+==run
+20240915
+35K Steglitz-Grunewald-Westend-Schoeneberg-Steglitz + 500m swim
+2024-09-15
+35
+05:00:00
+[[
+ksjdfksdjfksdjfksdjf
+
+##theemap
+]]
