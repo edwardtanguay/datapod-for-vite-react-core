@@ -859,6 +859,3 @@ imperfectPlural::zeiden
 participle::heb gezegd
 rank::4.94
 extras::
-
-==dutchVerb
-to send 
