@@ -1651,3 +1651,75 @@ verb::verdwijnen
 english::My bike disappeared.
 dutch::Mijn fiets is verdwenen.
 extras::
+
+==dutchVerbExample
+dpodId::rOfAz8
+dpodWhenCreated::2024-09-24 08:06:36
+verb::verliezen
+english::I lost track of time.
+dutch::Ik verloor de tijd uit het oog.
+extras::
+
+==dutchVerbExample
+dpodId::Wi3UV5
+dpodWhenCreated::2024-09-24 08:06:36
+verb::verliezen
+english::I lost my watch.
+dutch::Ik ben mijn horloge verloren.
+extras::
+
+==dutchVerbExample
+dpodId::3k4bmv
+dpodWhenCreated::2024-09-24 08:06:36
+verb::verliezen
+english::I have lost my key.
+dutch::Ik heb mijn sleutel verloren.
+extras::
+
+==dutchVerbExample
+dpodId::q4F9Jd
+dpodWhenCreated::2024-09-24 08:06:36
+verb::vermijden
+english::He avoided answering my question.
+dutch::Hij vermeed te antwoorden op mijn vraag.
+extras::
+
+==dutchVerbExample
+dpodId::1eURc0
+dpodWhenCreated::2024-09-24 08:06:36
+verb::vermijden
+english::A danger foreseen is a danger avoided.
+dutch::Gevaar gezien, gevaar vermeden.
+extras::
+
+==dutchVerbExample
+dpodId::2C7YnJ
+dpodWhenCreated::2024-09-24 08:06:36
+verb::vermijden
+english::It can be avoided.
+dutch::Dat kan worden vermeden.
+extras::
+
+==dutchVerbExample
+dpodId::EhJm7p
+dpodWhenCreated::2024-09-26 14:25:21
+verb::vinden
+english::I found the key underneath the mat.
+dutch::Ik vond de sleutel onder de mat.
+extras::
+
+==dutchVerbExample
+dpodId::KIQMfW
+dpodWhenCreated::2024-09-26 14:25:21
+verb::vinden
+english::We thought it wise not to continue our trip.
+dutch::Wij vonden het verstandig om onze reis niet voort te zetten.
+extras::
+
+==dutchVerbExample
+dpodId::dKVSwO
+dpodWhenCreated::2024-09-26 14:25:21
+verb::vinden
+english::Did you find your book?
+dutch::Heb je je boek gevonden?
+extras::

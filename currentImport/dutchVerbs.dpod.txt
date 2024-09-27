@@ -739,3 +739,126 @@ imperfectPlural::vergaten
 participle::ben vergeten
 rank::4.51
 extras::
+
+==dutchVerb
+dpodId::KpQ4wK
+dpodWhenCreated::2024-09-24 07:51:50
+english::to lose
+infinitive::verliezen
+present::verlies
+imperfectSingular::verloor
+imperfectPlural::verloren
+participle::ben verloren
+rank::4.3
+extras::
+
+==dutchVerb
+dpodId::6ZfbzU
+dpodWhenCreated::2024-09-24 07:53:51
+english::to avoid
+infinitive::vermijden
+present::vermijd
+imperfectSingular::vermeed
+imperfectPlural::vermeden
+participle::heb vermeden
+rank::4.2
+extras::
+
+==dutchVerb
+dpodId::jnLWfM
+dpodWhenCreated::2024-09-26 14:18:43
+english::to find
+infinitive::vinden
+present::vind
+imperfectSingular::vond
+imperfectPlural::vonden
+participle::heb gevonden
+rank::4.79
+extras::
+
+==dutchVerb
+dpodId::RCKfXG
+dpodWhenCreated::2024-09-26 23:12:05
+english::to fly
+infinitive::vliegen
+present::vlieg
+imperfectSingular::vloog
+imperfectPlural::vlogen
+participle::heb gevlogen
+rank::4.49
+extras::
+
+==dutchVerb
+dpodId::SYRwuP
+dpodWhenCreated::2024-09-26 23:35:19
+english::to ask
+infinitive::vragen
+present::vraag
+imperfectSingular::vroeg
+imperfectPlural::vroegen
+participle::heb gevraagd
+rank::4.88
+extras::
+
+==dutchVerb
+dpodId::r86Dfy
+dpodWhenCreated::2024-09-26 23:35:19
+english::to wash
+infinitive::wassen
+present::was
+imperfectSingular::waste
+imperfectPlural::wasten
+participle::heb gewassen
+rank::4.3
+extras::
+
+==dutchVerb
+dpodId::0A27Fl
+dpodWhenCreated::2024-09-26 23:35:19
+english::to know
+infinitive::weten
+present::weet
+imperfectSingular::wist
+imperfectPlural::wisten
+participle::heb geweten
+rank::4.95
+extras::
+
+==dutchVerb
+dpodId::8oBMBK
+dpodWhenCreated::2024-09-26 23:35:19
+english::to show
+infinitive::wijzen
+present::wijs
+imperfectSingular::wees
+imperfectPlural::wezen
+participle::heb gewezen
+rank::4.78
+extras::
+
+==dutchVerb
+dpodId::XfKppG
+dpodWhenCreated::2024-09-26 23:35:19
+english::to become
+infinitive::worden
+present::word
+imperfectSingular::werd
+imperfectPlural::werden
+participle::ben geworden
+rank::4.89
+extras::
+
+==dutchVerb
+dpodId::Kd6lgL
+dpodWhenCreated::2024-09-26 23:39:38
+english::to say
+infinitive::zeggen
+present::zeg
+imperfectSingular::zei
+imperfectPlural::zeiden
+participle::heb gezegd
+rank::4.94
+extras::
+
+==dutchVerb
+to send 
