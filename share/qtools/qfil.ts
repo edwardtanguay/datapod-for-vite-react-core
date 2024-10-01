@@ -2,6 +2,7 @@
 import fs from "fs";
 import path from "path";
 import * as https from "https";
+import * as qfil from './qfil';
 
 export const readJsonFile = (filePath: string) => {
 	const jsonData = fs.readFileSync(filePath, "utf8");
@@ -118,4 +119,5 @@ export const appendTextToFile = (
 	pathAndFileName2: string
 ): void => {
 	console.log(`appending ${text.length} chars to ${pathAndFileName2}`);
+		
 };
