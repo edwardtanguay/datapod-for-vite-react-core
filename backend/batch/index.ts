@@ -7,4 +7,3 @@ const lines = qstr.convertStringBlockToLines(content);
 const dpodText = tools.createDpodText(lines); 
 
 console.log(dpodText);
-
