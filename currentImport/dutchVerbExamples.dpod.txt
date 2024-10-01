@@ -1892,19 +1892,26 @@ english::I have put on a bit of weight since last year.
 dutch::Ik bin sinds vorig jaar iets zwaarder geworden.
 extras::
 
-==dutchVerbExample 
-vragen 
-I asked him to come at eight, but he turned up at nine.
-Ik vroeg hem om acht uur te komen, maar hij kwam pas om negen uur.
+==dutchVerbExample
+dpodId::lYMZis
+dpodWhenCreated::2024-10-01 18:46:22
+verb::vragen
+english::I asked him to come at eight, but he turned up at nine.
+dutch::Ik vroeg hem om acht uur te komen, maar hij kwam pas om negen uur.
+extras::
 
- 
-==dutchVerbExample 
-vragen 
-They asked us if we knew when the movie started.
-Zij vroegen ons of we wisten wanneer de film begon.
+==dutchVerbExample
+dpodId::u9qrGI
+dpodWhenCreated::2024-10-01 18:46:22
+verb::vragen
+english::They asked us if we knew when the movie started.
+dutch::Zij vroegen ons of we wisten wanneer de film begon.
+extras::
 
-
-==dutchVerbExample 
-vragen 
-Yeah, I asked about six times.
-Ja, ik heb het zes keer gevraagd.
+==dutchVerbExample
+dpodId::pU5Kzq
+dpodWhenCreated::2024-10-01 18:46:22
+verb::vragen
+english::Yeah, I asked about six times.
+dutch::Ja, ik heb het zes keer gevraagd.
+extras::
