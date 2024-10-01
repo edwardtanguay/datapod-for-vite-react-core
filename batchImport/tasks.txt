@@ -1,0 +1,14 @@
+general;foray: get a react site with workspaces working, run "task development" to start backend and frontend;4.9
+persman;find name for local task app, e.g. ptm personal task management;4.999
+persman;create and get running, then create Qubidu section for howtos, automate between both computers, e.g. images e.g from screenshots, upload with cronjobs, etc.;4.8
+general;howto: create quick server with (see ./serve.sh);4.9999
+dutchVerbs;integrate this verb page: https://www.dutchpod101.com/blog/2020/10/05/dutch-conjugations; 4.4
+dutchVerbs;enable notes, e.g. zwemmen can be hebben/zijn;4.2
+dutchVerbs;entry: second group of verbs;4.9
+dutchVerbs;various tests: show infinitive, ask for single-person past, etc.;4.98
+dutchVerbs;feature: verb groups e.g. zeggen, zien;4.88
+dutchVerbs;techFeature: double-layer menu;4.6
+dutchVerbs;feature: search, e.g. "werden"
+dutchVerbs;feature: images, read in e.g. ##dutchworden;4.2
+dutchVerbs;feature: audio pronunciation;4.96
+dutchVerbs;feature: show how many times verb was looked at;4.999
