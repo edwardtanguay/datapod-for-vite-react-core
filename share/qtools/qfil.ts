@@ -2,7 +2,8 @@
 import fs from "fs";
 import path from "path";
 import * as https from "https";
-import * as qfil from './qfil';
+import * as qfil from "./qfil";
+import * as qstr from "./qstr";
 
 export const readJsonFile = (filePath: string) => {
 	const jsonData = fs.readFileSync(filePath, "utf8");
@@ -114,10 +115,32 @@ export const downloadImageFile = (
 	});
 };
 
+export const getLinesFromPathAndFileName = (
+	pathAndFileName: string
+): string[] => {
+	const content = qfil.readTextFile(pathAndFileName);
+	const lines = qstr.convertStringBlockToLines(content);
+	return lines;
+};
+
 export const appendTextToFile = (
 	text: string,
-	pathAndFileName2: string
+	pathAndFileName: string
 ): void => {
-	console.log(`appending ${text.length} chars to ${pathAndFileName2}`);
-		
+	const lines: string[] = [];
+	const fileLines = qfil.getLinesFromPathAndFileName(pathAndFileName);
+	const textLines = qstr.convertStringBlockToLines(text);
+
+	for (const fileLine of fileLines) {
+		lines.push(fileLine);
+	}
+
+	lines.push('');
+
+	for (const textLine of textLines) {
+		lines.push(textLine);
+	}
+
+	const content = qstr.convertLinesToStringBlock(lines);
+	qfil.createFile(pathAndFileName, content);
 };
