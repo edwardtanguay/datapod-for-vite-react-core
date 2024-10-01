@@ -1891,3 +1891,20 @@ verb::worden
 english::I have put on a bit of weight since last year.
 dutch::Ik bin sinds vorig jaar iets zwaarder geworden.
 extras::
+
+==dutchVerbExample 
+vragen 
+I asked him to come at eight, but he turned up at nine.
+Ik vroeg hem om acht uur te komen, maar hij kwam pas om negen uur.
+
+ 
+==dutchVerbExample 
+vragen 
+They asked us if we knew when the movie started.
+Zij vroegen ons of we wisten wanneer de film begon.
+
+
+==dutchVerbExample 
+vragen 
+Yeah, I asked about six times.
+Ja, ik heb het zes keer gevraagd.
