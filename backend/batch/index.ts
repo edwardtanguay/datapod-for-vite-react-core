@@ -1,5 +1,10 @@
 import * as qfil from '../../share/qtools/qfil'; 
-// import * as qstr from '../../share/qtools/qstr';
+import * as qstr from '../../share/qtools/qstr';
+import * as tools from './tools';
 
-const lines = qfil.readTextFile('./batchImport/tasks.txt');
-console.log(lines);
+const content = qfil.readTextFile('./batchImport/tasks.txt');
+const lines = qstr.convertStringBlockToLines(content);
+const dpodText = tools.createDpodText(lines); 
+
+console.log(dpodText);
+
