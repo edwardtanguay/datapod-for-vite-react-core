@@ -1,4 +1,9 @@
-
 export const createDpodText = (lines: string[]): string => {
-	return lines.length.toString();
-}
+	let r = "";
+
+	for (const line of lines) {
+		r += line + "nnn" + '\n';
+	}
+
+	return r;
+};
