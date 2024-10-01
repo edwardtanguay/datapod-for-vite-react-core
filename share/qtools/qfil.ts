@@ -112,3 +112,10 @@ export const downloadImageFile = (
 		});
 	});
 };
+
+export const appendTextToFile = (
+	text: string,
+	pathAndFileName2: string
+): void => {
+	console.log(`appending ${text.length} chars to ${pathAndFileName2}`);
+};
