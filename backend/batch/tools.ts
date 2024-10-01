@@ -1,8 +1,12 @@
+import * as qstr from '../../share/qtools/qstr';
+
 export const createDpodText = (lines: string[]): string => {
 	let r = "";
 
 	for (const line of lines) {
-		r += line + "nnn" + '\n';
+		const parts = qstr.breakIntoParts(line, ';');
+		const category = parts[0];
+		r += category + '\n';
 	}
 
 	return r;
