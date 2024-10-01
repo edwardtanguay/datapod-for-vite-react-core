@@ -1723,3 +1723,171 @@ verb::vinden
 english::Did you find your book?
 dutch::Heb je je boek gevonden?
 extras::
+
+==dutchVerbExample
+dpodId::EzcdRi
+dpodWhenCreated::2024-10-01 08:35:12
+verb::zijn
+english::How was the movie?
+dutch::Hoe was de film?
+extras::
+
+==dutchVerbExample
+dpodId::1ftNCn
+dpodWhenCreated::2024-10-01 08:35:12
+verb::zijn
+english::His daughter, as well as his son, were famous.
+dutch::Zijn dochter, ook wel zijn zoon, waren beroemd.
+extras::
+
+==dutchVerbExample
+dpodId::eWGA1H
+dpodWhenCreated::2024-10-01 08:35:12
+verb::zijn
+english::I'm afraid he hasn't been totally honest with you.
+dutch::Ik ben bang dat hij niet helemaal eerlijk met je is geweest.
+extras::
+
+==dutchVerbExample
+dpodId::4RN3Em
+dpodWhenCreated::2024-10-01 08:40:25
+verb::weten
+english::I didn't know you were still planning to do that.
+dutch::Ik wist niet dat je nog steeds van plan was dat te doen.
+extras::
+
+==dutchVerbExample
+dpodId::LuPBmg
+dpodWhenCreated::2024-10-01 08:40:25
+verb::weten
+english::They told her that they weren't sure what to do.
+dutch::Ze vertelden haar dat ze niet zeker wisten wat ze moesten doen.
+extras::
+
+==dutchVerbExample
+dpodId::CxgOTk
+dpodWhenCreated::2024-10-01 08:40:25
+verb::weten
+english::Seeing that you're not surprised, I think you must have known.
+dutch::Gezien je niet verbaasd bent, moet je het volgens mij geweten hebben.
+extras::
+
+==dutchVerbExample
+dpodId::304oSt
+dpodWhenCreated::2024-10-01 08:52:34
+verb::zeggen
+english::You probably don't understand a word I'm saying.
+dutch::Je begrijpt misschien wel geen woord van wat ik zeg.
+extras::
+
+==dutchVerbExample
+dpodId::2BaGoq
+dpodWhenCreated::2024-10-01 08:52:34
+verb::zeggen
+english::I'm sorry to say, but the service is not very good.
+dutch::Het spijt me om het te zeggen maar de service is niet zo goed.
+extras::
+
+==dutchVerbExample
+dpodId::3KwDd0
+dpodWhenCreated::2024-10-01 08:52:34
+verb::zeggen
+english::I told you you'd like it.
+dutch::Ik zei toch dat je het leuk zou vinden.
+extras::
+
+==dutchVerbExample
+dpodId::RLh5WM
+dpodWhenCreated::2024-10-01 08:52:34
+verb::zeggen
+english::They said they'll probably do that the day after tomorrow.
+dutch::Ze zeiden dat ze dat waarschijnlijk overmorgen zullen doen.
+extras::
+
+==dutchVerbExample
+dpodId::r9L365
+dpodWhenCreated::2024-10-01 08:52:34
+verb::zeggen
+english::She isn't doing that the way he told her to.
+dutch::Ze doet dat niet op de manier die er haar gezegd heeft.
+extras::
+
+==dutchVerbExample
+dpodId::Izc7dU
+dpodWhenCreated::2024-10-01 09:15:13
+verb::zien
+english::I see you got yourselves new bicycles.
+dutch::Ik zie dat jullie nieuwe fietsen hebben aangeschaft.
+extras::
+
+==dutchVerbExample
+dpodId::LDy4i3
+dpodWhenCreated::2024-10-01 09:15:13
+verb::zien
+english::Can you show me that on the map?
+dutch::Kun je me dat op de kaart laten zien?
+extras::
+
+==dutchVerbExample
+dpodId::VzWfGO
+dpodWhenCreated::2024-10-01 09:15:13
+verb::zien
+english::I was looking for a hotel when I saw you.
+dutch::Ik was op zoek naar een hotel toen ik jou zag.
+extras::
+
+==dutchVerbExample
+dpodId::0JwgM2
+dpodWhenCreated::2024-10-01 09:15:13
+verb::zien
+english::Even the experts took the painting for a genuine Rembrandt.
+dutch::Zelfs de specialisten zagen in het schilderij een echte Rembrandt.
+extras::
+
+==dutchVerbExample
+dpodId::NcuBMt
+dpodWhenCreated::2024-10-01 09:16:17
+verb::zien
+english::Sorry, I was dining and I didn't see the message.
+dutch::Excuseer, ik was aan het eten en heb de boodschap niet gezien.
+extras::
+
+==dutchVerbExample
+dpodId::CXM5IA
+dpodWhenCreated::2024-10-01 09:23:48
+verb::worden
+english::He whistles all the time. It drives me crazy.
+dutch::Hij fluit de hele tijd. Ik word er gek van.
+extras::
+
+==dutchVerbExample
+dpodId::w1GSO5
+dpodWhenCreated::2024-10-01 09:23:48
+verb::worden
+english::Anything that can be misunderstood will be.
+dutch::Alles wat verkeerd kan worden begrepen, zal verkeerd worden begrepen.
+extras::
+
+==dutchVerbExample
+dpodId::uPfvxc
+dpodWhenCreated::2024-10-01 09:23:48
+verb::worden
+english::He was sick from eating too much.
+dutch::Hij werd ziek van te veel eten.
+extras::
+
+==dutchVerbExample
+dpodId::lR2ANh
+dpodWhenCreated::2024-10-01 09:23:48
+verb::worden
+english::We were welcomed warmly.
+dutch::We werden hartelijk verwelkomd.
+extras::
+
+==dutchVerbExample
+dpodId::SWyqTO
+dpodWhenCreated::2024-10-01 09:23:48
+verb::worden
+english::I have put on a bit of weight since last year.
+dutch::Ik bin sinds vorig jaar iets zwaarder geworden.
+extras::

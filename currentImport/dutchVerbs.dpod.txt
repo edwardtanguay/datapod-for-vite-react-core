@@ -859,3 +859,63 @@ imperfectPlural::zeiden
 participle::heb gezegd
 rank::4.94
 extras::
+
+==dutchVerb
+dpodId::4DoOnJ
+dpodWhenCreated::2024-10-01 08:15:02
+english::to see
+infinitive::zien
+present::zie
+imperfectSingular::zag
+imperfectPlural::zagen
+participle::heb gezien
+rank::4.92
+extras::
+
+==dutchVerb
+dpodId::rHtI93
+dpodWhenCreated::2024-10-01 08:16:25
+english::to be
+infinitive::zijn
+present::ben
+imperfectSingular::was
+imperfectPlural::waren
+participle::ben geweest
+rank::4.98
+extras::
+
+==dutchVerb
+dpodId::L2qBJG
+dpodWhenCreated::2024-10-01 08:21:38
+english::to sit
+infinitive::zitten
+present::zit
+imperfectSingular::zat
+imperfectPlural::zaten
+participle::heb gezeten
+rank::4.83
+extras::
+
+==dutchVerb
+dpodId::qiFkFV
+dpodWhenCreated::2024-10-01 08:23:24
+english::to search
+infinitive::zoeken
+present::zoek
+imperfectSingular::zocht
+imperfectPlural::zochten
+participle::heb gezocht
+rank::4.78
+extras::
+
+==dutchVerb
+dpodId::iH43fK
+dpodWhenCreated::2024-10-01 08:27:28
+english::to swim
+infinitive::zwemmen
+present::zwem
+imperfectSingular::zwom
+imperfectPlural::zwommen
+participle::heb gezommen
+rank::3.82
+extras::
