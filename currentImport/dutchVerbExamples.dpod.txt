@@ -2267,3 +2267,43 @@ verb::hopen
 english::I was hoping you'd ask that.
 dutch::Ik had gehoopt dat je dat zou vragen.
 extras::
+
+==dutchVerbExample
+dpodId::zluply
+dpodWhenCreated::2024-10-02 11:29:01
+verb::maken
+english::Don't worry. I am well.
+dutch::Maak je geen zorgen; het gaat goed met mij.
+extras::
+
+==dutchVerbExample
+dpodId::vv1Vs5
+dpodWhenCreated::2024-10-02 11:29:01
+verb::maken
+english::Although communication and excommunication sound similar, they have absolutely nothing to do with one other.
+dutch::Hoewel communicatie en excommunicatie hetzelfde klinken, hebben ze absoluut niets met elkaar te maken.
+extras::
+
+==dutchVerbExample
+dpodId::RJ1hVJ
+dpodWhenCreated::2024-10-02 11:29:01
+verb::maken
+english::She took a walk before breakfast.
+dutch::Ze maakte een wandeling voor het ontbijt.
+extras::
+
+==dutchVerbExample
+dpodId::pFmciw
+dpodWhenCreated::2024-10-02 11:29:01
+verb::maken
+english::His comments made me laugh.
+dutch::Zijn opmerkingen maakten me aan het lachen.
+extras::
+
+==dutchVerbExample
+dpodId::bV7eVp
+dpodWhenCreated::2024-10-02 11:29:01
+verb::maken
+english::She said I made the wrong choice.
+dutch::Ze zei dat ik de verkeerde keuze had gemaakt.
+extras::

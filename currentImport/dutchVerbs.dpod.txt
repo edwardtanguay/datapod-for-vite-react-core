@@ -945,13 +945,13 @@ rank::4.73
 extras::
 
 ==dutchVerb
-dpodId::aTXzke
-dpodWhenCreated::2024-10-02 11:11:31
-english::maken
-infinitive::maak
-present::maakte
-imperfectSingular::maakten
-imperfectPlural::heb gemaakt
-participle::4.94
-rank::
+dpodId::GxdpLt
+dpodWhenCreated::2024-10-02 11:22:36
+english::to make
+infinitive::maken
+present::maak
+imperfectSingular::maakte
+imperfectPlural::maakten
+participle::heb gemaakt
+rank::4.94
 extras::
