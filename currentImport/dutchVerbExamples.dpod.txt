@@ -1915,3 +1915,251 @@ verb::vragen
 english::Yeah, I asked about six times.
 dutch::Ja, ik heb het zes keer gevraagd.
 extras::
+
+==dutchVerbExample
+dpodId::8luynx
+dpodWhenCreated::2024-10-02 09:19:54
+verb::zitten
+english::I've already been waiting for some time for more information.
+dutch::Ik zit al een tijdlang te wachten op meer informatie.
+extras::
+
+==dutchVerbExample
+dpodId::65RKXF
+dpodWhenCreated::2024-10-02 09:19:54
+verb::zitten
+english::We sat down to eat.
+dutch::We gingen zitten om te eten.
+extras::
+
+==dutchVerbExample
+dpodId::JequIp
+dpodWhenCreated::2024-10-02 09:19:54
+verb::zitten
+english::The train was so crowded that none of us could get a seat.
+dutch::De trein zat zo vol, dat niemand van ons kon zitten.
+extras::
+
+==dutchVerbExample
+dpodId::m9jfYI
+dpodWhenCreated::2024-10-02 09:19:54
+verb::zitten
+english::He said they were waiting for him.
+dutch::Hij zei dat ze op hem zaten te wachten.
+extras::
+
+==dutchVerbExample
+dpodId::P9yZrY
+dpodWhenCreated::2024-10-02 09:19:54
+verb::zitten
+english::Where have you been lately?
+dutch::Waar heb je de laatste tijd gezeten?
+extras::
+
+==dutchVerbExample
+dpodId::3tlRyS
+dpodWhenCreated::2024-10-02 09:31:30
+verb::wijzen
+english::Come with me. I'll show you the way.
+dutch::Kom met mij. Ik wijs je de weg wel.
+extras::
+
+==dutchVerbExample
+dpodId::haPWX8
+dpodWhenCreated::2024-10-02 09:31:30
+verb::wijzen
+english::Please, can you indicate this to me on the map?
+dutch::Zou u dat voor mij op de kaart aan kunnen wijzen?
+extras::
+
+==dutchVerbExample
+dpodId::HkoUgO
+dpodWhenCreated::2024-10-02 09:31:30
+verb::wijzen
+english::Don't be afraid to make mistakes when you speak French.
+dutch::Wees niet bang om fouten te maken als je Frans spreekt.
+extras::
+
+==dutchVerbExample
+dpodId::yqfe5E
+dpodWhenCreated::2024-10-02 09:31:30
+verb::wijzen
+english::She pointed at the open window.
+dutch::Ze wees naar het open raam.
+extras::
+
+==dutchVerbExample
+dpodId::cgUx73
+dpodWhenCreated::2024-10-02 09:31:30
+verb::wijzen
+english::We showed them the way.
+dutch::Wij wezen hen de weg.
+extras::
+
+==dutchVerbExample
+dpodId::kUBk93
+dpodWhenCreated::2024-10-02 09:31:30
+verb::wijzen
+english::It is often pointed out that smoking is a danger to health.
+dutch::Er wordt dikwijls op gewezen dat roken een gezondheidsrisico inhoudt.
+extras::
+
+==dutchVerbExample
+dpodId::MWv5NT
+dpodWhenCreated::2024-10-02 09:39:14
+verb::zoeken
+english::I'm looking for a power outlet.
+dutch::Ik zoek een stopcontact.
+extras::
+
+==dutchVerbExample
+dpodId::he1Xtf
+dpodWhenCreated::2024-10-02 09:39:14
+verb::zoeken
+english::You should look this word up.
+dutch::Je zou dit woord eens op moeten zoeken.
+extras::
+
+==dutchVerbExample
+dpodId::uN4fA3
+dpodWhenCreated::2024-10-02 09:39:14
+verb::zoeken
+english::You're the person I've been looking for.
+dutch::Je bent de persoon die ik zocht.
+extras::
+
+==dutchVerbExample
+dpodId::yzpFxE
+dpodWhenCreated::2024-10-02 09:39:14
+verb::zoeken
+english::We found what we were looking for.
+dutch::Wat we zochten, hebben we gevonden.
+extras::
+
+==dutchVerbExample
+dpodId::G7QGcm
+dpodWhenCreated::2024-10-02 09:39:14
+verb::zoeken
+english::I've been seeking an answer to your question.
+dutch::Ik heb naar een antwoord op je vraag gezocht.
+extras::
+
+==dutchVerbExample
+dpodId::J24OzM
+dpodWhenCreated::2024-10-02 10:13:13
+verb::vliegen
+english::I'm flying to Hanoi tomorrow.
+dutch::Ik vlieg morgen naar Hanoi.
+extras::
+
+==dutchVerbExample
+dpodId::8nUbqL
+dpodWhenCreated::2024-10-02 10:13:13
+verb::vliegen
+english::Are you ready to fly?
+dutch::Ben je klaar om te vliegen?
+extras::
+
+==dutchVerbExample
+dpodId::BQDyTS
+dpodWhenCreated::2024-10-02 10:13:13
+verb::vliegen
+english::Our plane was flying above the clouds.
+dutch::Ons vliegtuig vloog boven de wolken.
+extras::
+
+==dutchVerbExample
+dpodId::IkQYCG
+dpodWhenCreated::2024-10-02 10:13:13
+verb::vliegen
+english::Sparks were flying everywhere.
+dutch::Er vlogen overal vonken.
+extras::
+
+==dutchVerbExample
+dpodId::wRnvup
+dpodWhenCreated::2024-10-02 10:13:13
+verb::vliegen
+english::Have you ever ridden in a hot air balloon?
+dutch::Hebben jullie wel eens met een luchtballon gevlogen?
+extras::
+
+==dutchVerbExample
+dpodId::0qwE74
+dpodWhenCreated::2024-10-02 10:39:59
+verb::wassen
+english::I am washing my running clothes.
+dutch::Ik was mijn hardloopkleding.
+extras::
+
+==dutchVerbExample
+dpodId::zPcbNT
+dpodWhenCreated::2024-10-02 10:39:59
+verb::wassen
+english::I saw him wash the car.
+dutch::Ik heb hem zijn auto zien wassen.
+extras::
+
+==dutchVerbExample
+dpodId::Kkh1Jn
+dpodWhenCreated::2024-10-02 10:39:59
+verb::wassen
+english::I washed my hands before eating.
+dutch::Ik waste voor het eten mijn handen.
+extras::
+
+==dutchVerbExample
+dpodId::qrXr1M
+dpodWhenCreated::2024-10-02 10:39:59
+verb::wassen
+english::We washed our hands.
+dutch::We wasten onze handen.
+extras::
+
+==dutchVerbExample
+dpodId::gcuIJg
+dpodWhenCreated::2024-10-02 10:39:59
+verb::wassen
+english::We haven't yet washed our hands.
+dutch::We hebben onze handen nog niet gewassen.
+extras::
+
+==dutchVerbExample
+dpodId::JIEsFl
+dpodWhenCreated::2024-10-02 10:45:50
+verb::zwemmen
+english::I often go swimming at the outdoor pool in the summer.
+dutch::In de zomer zwem ik vaak bij het buitenzwembad.
+extras::
+
+==dutchVerbExample
+dpodId::KMALHx
+dpodWhenCreated::2024-10-02 10:45:50
+verb::zwemmen
+english::I think it's too cold to swim.
+dutch::Ik denk dat het te koud is om te zwemmen.
+extras::
+
+==dutchVerbExample
+dpodId::dCgoX3
+dpodWhenCreated::2024-10-02 10:45:50
+verb::zwemmen
+english::She swam until she was exhausted and then went back to the house.
+dutch::Ze zwom tot ze uitgeput was en ging toen naar huis.
+extras::
+
+==dutchVerbExample
+dpodId::lZ4Nc1
+dpodWhenCreated::2024-10-02 10:45:50
+verb::zwemmen
+english::You swam in the ocean?
+dutch::Jullie zwommen in de oceaan?
+extras::
+
+==dutchVerbExample
+dpodId::RMdKJ9
+dpodWhenCreated::2024-10-02 10:45:50
+verb::zwemmen
+english::We hebben dit jaar 10 keer gezwommen.
+dutch::We have swum 10 times this year.
+extras::
