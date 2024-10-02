@@ -919,3 +919,30 @@ imperfectPlural::zwommen
 participle::heb gezommen
 rank::3.82
 extras::
+
+==dutchVerb
+to happen
+gebeuren
+gebeur
+gebeurde
+gebeurden
+ben gebeurd
+4.78
+
+==dutchVerb
+to hope
+hopen
+hoop
+hoopte
+hoopten
+heb gehoopt
+4.73
+
+==dutchVerb
+maken
+maak
+maakte
+maakten
+heb gemaakt
+4.94
+
