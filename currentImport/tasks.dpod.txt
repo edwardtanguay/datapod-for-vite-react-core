@@ -333,15 +333,6 @@ rank::4.9
 status::todo
 
 ==task
-dpodId::xdluOx
-dpodWhenCreated::2024-10-01 21:44:56
-project::persman
-title::find name for local task app, e.g. ptm personal task management
-description::
-rank::4.999
-status::todo
-
-==task
 dpodId::Ts07Gr
 dpodWhenCreated::2024-10-01 21:44:56
 project::persman
@@ -447,4 +438,94 @@ project::dutchVerbs
 title::feature: show how many times verb was looked at
 description::
 rank::4.999
+status::completed
+
+==task
+dpodId::Z8abFE
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enter second batch of 30 verbs
+description::
+rank::4.9
+status::todo
+
+==task
+dpodId::Cz2Ukm
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enter examples for second batch of 30 verbs
+description::
+rank::4.85
+status::todo
+
+==task
+dpodId::Pgp9lv
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enable ranking of examples
+description::
+rank::4.7
+status::todo
+
+==task
+dpodId::aaAjvd
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enable marking examples learned or not
+description::
+rank::4.8
+status::todo
+
+==task
+dpodId::frP4HG
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enable groups: know/show, weten/wijzen
+description::
+rank::4.72
+status::todo
+
+==task
+dpodId::2fSyIw
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enable groups: wassen/zijn (was/was)
+description::
+rank::4.72
+status::todo
+
+==task
+dpodId::nDPxPC
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::enable groups: liggen/liegen
+description::
+rank::4.72
+status::todo
+
+==task
+dpodId::6O4jz7
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::deal with special verbs like gebeuren
+description::
+rank::4.52
+status::todo
+
+==task
+dpodId::Z1Lnox
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::put develop mode in env so it doesn't show on live site, and enable it to be locally toggeled
+description::
+rank::4.89
+status::todo
+
+==task
+dpodId::KCENP4
+dpodWhenCreated::2024-10-02 23:08:42
+project::dutchVerbs
+title::for each action, player receives points
+description::
+rank::4.91
 status::todo
