@@ -921,28 +921,37 @@ rank::3.82
 extras::
 
 ==dutchVerb
-to happen
-gebeuren
-gebeur
-gebeurde
-gebeurden
-ben gebeurd
-4.78
+dpodId::rlDkGx
+dpodWhenCreated::2024-10-02 11:11:31
+english::to happen
+infinitive::gebeuren
+present::gebeur
+imperfectSingular::gebeurde
+imperfectPlural::gebeurden
+participle::ben gebeurd
+rank::4.78
+extras::
 
 ==dutchVerb
-to hope
-hopen
-hoop
-hoopte
-hoopten
-heb gehoopt
-4.73
+dpodId::IHEqSm
+dpodWhenCreated::2024-10-02 11:11:31
+english::to hope
+infinitive::hopen
+present::hoop
+imperfectSingular::hoopte
+imperfectPlural::hoopten
+participle::heb gehoopt
+rank::4.73
+extras::
 
 ==dutchVerb
-maken
-maak
-maakte
-maakten
-heb gemaakt
-4.94
-
+dpodId::aTXzke
+dpodWhenCreated::2024-10-02 11:11:31
+english::maken
+infinitive::maak
+present::maakte
+imperfectSingular::maakten
+imperfectPlural::heb gemaakt
+participle::4.94
+rank::
+extras::

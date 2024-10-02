@@ -2163,3 +2163,107 @@ verb::zwemmen
 english::We hebben dit jaar 10 keer gezwommen.
 dutch::We have swum 10 times this year.
 extras::
+
+==dutchVerbExample
+dpodId::NVj4MO
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::Who knows what might happen tomorrow?
+dutch::Wie weet wat er morgen gebeurt.
+extras::
+
+==dutchVerbExample
+dpodId::buVt1o
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::I don't understand what's happening.
+dutch::Ik snap niet wat er gebeurt.
+extras::
+
+==dutchVerbExample
+dpodId::BBAU2O
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::Let's see what happens.
+dutch::Laten we kijken wat er gebeurt.
+extras::
+
+==dutchVerbExample
+dpodId::57TRWh
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::Someone else must've seen what happened.
+dutch::Iemand anders moet gezien hebben wat er gebeurde.
+extras::
+
+==dutchVerbExample
+dpodId::gb8Zbv
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::I'll tell you exactly what happened.
+dutch::Ik zal je precies vertellen wat er gebeurde.
+extras::
+
+==dutchVerbExample
+dpodId::ikO14P
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::A lot of accidents took place here.
+dutch::Er gebeurden hier veel ongelukken.
+extras::
+
+==dutchVerbExample
+dpodId::LqiiP8
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::Do you remember what happened that day?
+dutch::Weet je nog wat er op die dag is gebeurd?
+extras::
+
+==dutchVerbExample
+dpodId::dJIRlL
+dpodWhenCreated::2024-10-02 11:17:33
+verb::gebeuren
+english::What happened yesterday?
+dutch::Wat is er gisteren gebeurd?
+extras::
+
+==dutchVerbExample
+dpodId::OczWaB
+dpodWhenCreated::2024-10-02 11:21:11
+verb::hopen
+english::I hope he will come.
+dutch::Ik hoop dat hij komt.
+extras::
+
+==dutchVerbExample
+dpodId::ZN1PUB
+dpodWhenCreated::2024-10-02 11:21:11
+verb::hopen
+english::We hope to be finished by the end of the year.
+dutch::We hopen tegen het einde van het jaar klaar te zijn.
+extras::
+
+==dutchVerbExample
+dpodId::JzMKvm
+dpodWhenCreated::2024-10-02 11:21:11
+verb::hopen
+english::I hoped you would understand what I meant.
+dutch::Ik hoopte dat je zou begrijpen wat ik bedoelde.
+extras::
+
+==dutchVerbExample
+dpodId::9SX9db
+dpodWhenCreated::2024-10-02 11:21:11
+verb::hopen
+english::Our friends hoped that we would help them.
+dutch::Onze vrienden hoopten dat we hen zouden helpen.
+extras::
+
+==dutchVerbExample
+dpodId::rGGbz3
+dpodWhenCreated::2024-10-02 11:21:11
+verb::hopen
+english::I was hoping you'd ask that.
+dutch::Ik had gehoopt dat je dat zou vragen.
+extras::
