@@ -1,0 +1,10 @@
+dutchVerbs;enter second batch of 30 verbs;4.9
+dutchVerbs;enter examples for second batch of 30 verbs;4.85
+dutchVerbs;enable ranking of examples;4.7
+dutchVerbs;enable marking examples learned or not;4.8
+dutchVerbs;enable groups: know/show, weten/wijzen;4.72
+dutchVerbs;enable groups: wassen/zijn (was/was);4.72
+dutchVerbs;enable groups: liggen/liegen;4.72
+dutchVerbs;deal with special verbs like gebeuren;4.52
+dutchVerbs;put develop mode in env so it doesn't show on live site, and enable it to be locally toggeled;4.89
+dutchVerbs;for each action, player receives points;4.91 
