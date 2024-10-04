@@ -955,3 +955,303 @@ imperfectPlural::maakten
 participle::heb gemaakt
 rank::4.94
 extras::
+
+==dutchVerb
+dpodId::eHdau2
+dpodWhenCreated::2024-10-04 09:59:17
+english::to meet
+infinitive::ontmoeten
+present::ontmoet
+imperfectSingular::ontmoette
+imperfectPlural::ontmoetten
+participle::heb ontmoet
+rank::4.4
+extras::
+
+==dutchVerb
+dpodId::pTtD1f
+dpodWhenCreated::2024-10-04 09:59:17
+english::to talk
+infinitive::praten
+present::praat
+imperfectSingular::praatte
+imperfectPlural::praatten
+participle::heb gepraat
+rank::4.34
+extras::
+
+==dutchVerb
+dpodId::IZDN7e
+dpodWhenCreated::2024-10-04 09:59:17
+english::to play
+infinitive::spelen
+present::speel
+imperfectSingular::speelde
+imperfectPlural::speelden
+participle::heb gespeeld
+rank::4.32
+extras::
+
+==dutchVerb
+dpodId::ML8sFm
+dpodWhenCreated::2024-10-04 11:29:46
+english::to smell
+infinitive::ruiken
+present::ruik
+imperfectSingular::rook
+imperfectPlural::roken
+participle::heb geroken
+rank::4.1
+extras::
+
+==dutchVerb
+dpodId::49ixBE
+dpodWhenCreated::2024-10-04 11:29:46
+english::to travel
+infinitive::reizen
+present::reis
+imperfectSingular::reisde
+imperfectPlural::reisden
+participle::heb gereisd
+rank::4.78
+extras::
+
+==dutchVerb
+dpodId::Ca7Peg
+dpodWhenCreated::2024-10-04 11:29:46
+english::to try
+infinitive::proberen
+present::probeer
+imperfectSingular::probeerde
+imperfectPlural::probeerden
+participle::heb geprobeerd
+rank::4.59
+extras::
+
+==dutchVerb
+dpodId::CWRyPk
+dpodWhenCreated::2024-10-04 11:29:46
+english::to learn/teach
+infinitive::leren
+present::leer
+imperfectSingular::leerde
+imperfectPlural::leerden
+participle::heb geleerd
+rank::4.82
+extras::
+
+==dutchVerb
+dpodId::K6VJX6
+dpodWhenCreated::2024-10-04 11:29:46
+english::to live
+infinitive::leven
+present::leef
+imperfectSingular::leefde
+imperfectPlural::leefden
+participle::heb geleefd
+rank::4.728
+extras::
+
+==dutchVerb
+dpodId::fBRvYd
+dpodWhenCreated::2024-10-04 11:29:46
+english::to cook
+infinitive::koken
+present::kook
+imperfectSingular::kookte
+imperfectPlural::kookten
+participle::heb gekookt
+rank::4.62
+extras::
+
+==dutchVerb
+dpodId::a8wpVj
+dpodWhenCreated::2024-10-04 11:29:46
+english::to lay/place
+infinitive::leggen
+present::leg
+imperfectSingular::legde
+imperfectPlural::legden
+participle::heb gelegd
+rank::4.722
+extras::
+
+==dutchVerb
+dpodId::on8Oyu
+dpodWhenCreated::2024-10-04 11:29:46
+english::to listen
+infinitive::luisteren
+present::luister
+imperfectSingular::luisterde
+imperfectPlural::luisterden
+participle::heb geluisterd
+rank::4.7982
+extras::
+
+==dutchVerb
+dpodId::1IooMY
+dpodWhenCreated::2024-10-04 11:29:46
+english::to put, place, suppose
+infinitive::stellen
+present::stel
+imperfectSingular::stelde
+imperfectPlural::stelden
+participle::ik heb gesteld
+rank::4.232
+extras::
+
+==dutchVerb
+dpodId::rhoTqx
+dpodWhenCreated::2024-10-04 11:29:46
+english::to study
+infinitive::studeren
+present::studeer
+imperfectSingular::studeerde
+imperfectPlural::studeerden
+participle::heb gestudeerd
+rank::4.73
+extras::
+
+==dutchVerb
+dpodId::55xy3l
+dpodWhenCreated::2024-10-04 11:29:46
+english::to send
+infinitive::sturen
+present::stuur
+imperfectSingular::stuurde
+imperfectPlural::stuurden
+participle::heb gestuurd
+rank::4.63
+extras::
+
+==dutchVerb
+dpodId::g06ZzJ
+dpodWhenCreated::2024-10-04 11:29:46
+english::to fall
+infinitive::vallen
+present::val
+imperfectSingular::viel
+imperfectPlural::vielen
+participle::ben gevallen
+rank::4.72
+extras::
+
+==dutchVerb
+dpodId::4AhMXn
+dpodWhenCreated::2024-10-04 11:29:46
+english::to alter/change
+infinitive::veranderen
+present::verander
+imperfectSingular::veranderde
+imperfectPlural::veranderden
+participle::heb veranderd
+rank::4.69
+extras::
+
+==dutchVerb
+dpodId::eY2ZER
+dpodWhenCreated::2024-10-04 11:29:46
+english::to be mistaken
+infinitive::vergissen
+present::vergis
+imperfectSingular::vergiste
+imperfectPlural::vergisten
+participle::heb vergist
+rank::4.68
+extras::
+
+==dutchVerb
+dpodId::XccBTj
+dpodWhenCreated::2024-10-04 11:29:46
+english::to explain
+infinitive::verklaren
+present::verklaar
+imperfectSingular::verklaarde
+imperfectPlural::verklaarden
+participle::heb verklaard
+rank::4.783
+extras::
+
+==dutchVerb
+dpodId::OCBJ0e
+dpodWhenCreated::2024-10-04 11:29:46
+english::to wait
+infinitive::wachten
+present::wacht
+imperfectSingular::wachtte
+imperfectPlural::wachtten
+participle::heb gewacht
+rank::4.59
+extras::
+
+==dutchVerb
+dpodId::CBB5oR
+dpodWhenCreated::2024-10-04 11:29:46
+english::to work
+infinitive::werken
+present::werk
+imperfectSingular::werkte
+imperfectPlural::werkten
+participle::heb gewerkt
+rank::4.79
+extras::
+
+==dutchVerb
+dpodId::cvnZG3
+dpodWhenCreated::2024-10-04 11:29:46
+english::to throw
+infinitive::werpen
+present::werp
+imperfectSingular::wierp
+imperfectPlural::wierpen
+participle::heb geworpen
+rank::4.48
+extras::
+
+==dutchVerb
+dpodId::lIVPJx
+dpodWhenCreated::2024-10-04 11:29:46
+english::to want
+infinitive::willen
+present::wil
+imperfectSingular::wilde
+imperfectPlural::wilden
+participle::heb gewild
+rank::4.93
+extras::
+
+==dutchVerb
+dpodId::gW2SPQ
+dpodWhenCreated::2024-10-04 11:29:46
+english::to surprise
+infinitive::verrassen
+present::verras
+imperfectSingular::verraste
+imperfectPlural::verrasten
+participle::heb verrast
+rank::4.39
+extras::
+
+==dutchVerb
+dpodId::OKQXzy
+dpodWhenCreated::2024-10-04 11:29:46
+english::to differ
+infinitive::verschillen
+present::verschil
+imperfectSingular::verschilde
+imperfectPlural::verschilden
+participle::heb verschild
+rank::4.85
+extras::
+
+==dutchVerb
+dpodId::QSEfrJ
+dpodWhenCreated::2024-10-04 11:29:46
+english::to set/put
+infinitive::zetten
+present::zet
+imperfectSingular::zette
+imperfectPlural::zetten
+participle::heb gezet
+rank::4.52
+extras::

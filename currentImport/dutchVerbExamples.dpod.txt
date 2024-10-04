@@ -2307,3 +2307,34 @@ verb::maken
 english::She said I made the wrong choice.
 dutch::Ze zei dat ik de verkeerde keuze had gemaakt.
 extras::
+
+==dutchVerbExample 
+willen 
+I want to eat something good.
+Ik wil iets lekkers eten.
+
+ 
+==dutchVerbExample 
+willen 
+I can't express myself in Spanish as well as I'd like to.
+Ik kan mezelf niet zo goed in het Spans uitdrukken als ik zou willen.
+
+ 
+==dutchVerbExample 
+willen
+I think it happened because he wanted it to happen.
+Ik denk dat het is gebeurd omdat hij wilde dat het zou gebeuren.
+
+
+==dutchVerbExample 
+willen 
+They wouldn't let me do that.
+Zij wilden mij niet toestaan dat te doen.
+
+ 
+==dutchVerbExample 
+willen 
+I didn't want this to happen.
+Ik had niet gewild dat dit gebeurde.
+
+ 

@@ -1,0 +1,7 @@
+dutchVerbs;refactor: consolidate all Context into Easy-Peasy store;4.45
+dutchVerbs;refactor: consolidate all into Verbs: learned, numberOfTimesOpened, etc.;4.45
+newTech;foray: Get an app running that uses PubNub; 4.4
+newTech;foray: create an npm tool;3.9
+reactnative001; add Easy Peasy with AsyncStorage persistance (see Oki project);4.5
+dutchVerbs;enable user to mark verb tenses known or not;4.906
+dutchVerbs;show e.g. (5 of 9) and mark verb known only when (9 of 9);4.908
