@@ -2579,3 +2579,395 @@ verb::werken
 english::He worked until 2:30.
 dutch::Hij heeft tot twee uur dertig gewerkt.
 extras::
+
+==dutchVerbExample
+dpodId::7FELZk
+dpodWhenCreated::2024-10-08 20:02:10
+verb::verklaren
+english::Go figure.
+dutch::Verklaar dat maar eens!
+extras::
+
+==dutchVerbExample
+dpodId::CmVzC3
+dpodWhenCreated::2024-10-08 20:02:10
+verb::verklaren
+english::This phenomenon is very easy to explain.
+dutch::Dit fenomeen is erg makkelijk te verklaren.
+extras::
+
+==dutchVerbExample
+dpodId::WuwGZb
+dpodWhenCreated::2024-10-08 20:02:10
+verb::verklaren
+english::She explained the meaning of the word to us.
+dutch::Ze verklaarde ons de betekenis van dat woord.
+extras::
+
+==dutchVerbExample
+dpodId::JH9dmd
+dpodWhenCreated::2024-10-08 20:02:10
+verb::verklaren
+english::Not everything can be explained.
+dutch::Niet alles kan worden verklaard.
+extras::
+
+==dutchVerbExample
+dpodId::wDiFHH
+dpodWhenCreated::2024-10-08 20:02:10
+verb::leggen
+english::They explained it to me but I didn't understand.
+dutch::Ze hebben het mij uitgelegd, maar ik begreep het niet.
+extras::
+
+==dutchVerbExample
+dpodId::Cs1Ku4
+dpodWhenCreated::2024-10-08 20:29:41
+verb::reizen
+english::She told us about her trip.
+dutch::Ze vertelde ons over haar reis.
+extras::
+
+==dutchVerbExample
+dpodId::rlipX6
+dpodWhenCreated::2024-10-08 20:29:41
+verb::reizen
+english::I would really like to travel the world.
+dutch::Ik zou heel graag over de wereld willen reizen.
+extras::
+
+==dutchVerbExample
+dpodId::wlEmID
+dpodWhenCreated::2024-10-08 20:29:41
+verb::reizen
+english::I would like to travel all through the Netherlands on bike.
+dutch::Ik wil graag op de fiets door heel Nederland reizen.
+extras::
+
+==dutchVerbExample
+dpodId::hX4PZ4
+dpodWhenCreated::2024-10-08 20:29:41
+verb::reizen
+english::We traveled around the country by car.
+dutch::We reisden door het land met de auto.
+extras::
+
+==dutchVerbExample
+dpodId::GHkPOo
+dpodWhenCreated::2024-10-08 20:29:41
+verb::reizen
+english::When did you travel to Rome?
+dutch::Wanneer ben je naar Rome gereisd?
+extras::
+
+==dutchVerbExample
+dpodId::qmOFbQ
+dpodWhenCreated::2024-10-08 20:37:10
+verb::bellen
+english::I'll call you as soon as he gets here.
+dutch::Ik bel je zodra hij is aangekomen.
+extras::
+
+==dutchVerbExample
+dpodId::C092Ms
+dpodWhenCreated::2024-10-08 20:37:10
+verb::bellen
+english::She has been on the phone for over an hour.
+dutch::Ze is al meer dan een uur aan het bellen.
+extras::
+
+==dutchVerbExample
+dpodId::IZrMO7
+dpodWhenCreated::2024-10-08 20:37:10
+verb::bellen
+english::That's why I called.
+dutch::Dat is nu waarom ik belde.
+extras::
+
+==dutchVerbExample
+dpodId::7XEnm0
+dpodWhenCreated::2024-10-08 20:37:10
+verb::bellen
+english::They didn't call me back.
+dutch::Ze belden me niet terug.
+extras::
+
+==dutchVerbExample
+dpodId::CAgS9p
+dpodWhenCreated::2024-10-08 20:37:10
+verb::bellen
+english::He called to say that he'd be late.
+dutch::Hij heeft gebeld om te zeggen dat hij te laat zal zijn.
+extras::
+
+==dutchVerbExample
+dpodId::BLmzKi
+dpodWhenCreated::2024-10-08 20:48:00
+verb::studeren
+english::I like to study foreign languages.
+dutch::Ik studeer graag vreemde talen.
+extras::
+
+==dutchVerbExample
+dpodId::nSA1xE
+dpodWhenCreated::2024-10-08 20:48:00
+verb::studeren
+english::Have you begun studying French?
+dutch::Ben je begonnen Frans te studeren?
+extras::
+
+==dutchVerbExample
+dpodId::fQzAZp
+dpodWhenCreated::2024-10-08 20:48:00
+verb::studeren
+english::He told me he studied French.
+dutch::Hij vertelde me dat hij Frans studeerde.
+extras::
+
+==dutchVerbExample
+dpodId::30MAIO
+dpodWhenCreated::2024-10-08 20:48:00
+verb::studeren
+english::Did you know they were still studying French?
+dutch::Wist jij dat ze nog Frans studeerden?
+extras::
+
+==dutchVerbExample
+dpodId::ZjDuLi
+dpodWhenCreated::2024-10-08 20:48:00
+verb::studeren
+english::She asked me why I studied French.
+dutch::Ze vroeg me waarom ik Frans heb gestudeerd.
+extras::
+
+==dutchVerbExample
+dpodId::rldP07
+dpodWhenCreated::2024-10-08 20:54:54
+verb::leven
+english::Live in the moment, live in eternity!
+dutch::Leef in het moment, leef in de eeuwigheid!
+extras::
+
+==dutchVerbExample
+dpodId::I41E11
+dpodWhenCreated::2024-10-08 20:54:54
+verb::leven
+english::If it were not for the sun, there would be no life on the earth.
+dutch::Als de zon er niet was, zou er geen leven op aarde zijn.
+extras::
+
+==dutchVerbExample
+dpodId::Pk6lPj
+dpodWhenCreated::2024-10-08 20:54:54
+verb::leven
+english::This is the house I lived in when I was young.
+dutch::Dit is het huis waarin ik leefde toen ik klein was.
+extras::
+
+==dutchVerbExample
+dpodId::pMEAU2
+dpodWhenCreated::2024-10-08 20:54:54
+verb::leven
+english::They lived happily ever after.
+dutch::Ze leefden nog lang en gelukkig.
+extras::
+
+==dutchVerbExample
+dpodId::QQlfFT
+dpodWhenCreated::2024-10-08 20:54:54
+verb::leven
+english::Tom lived there about three years.
+dutch::Hij heeft daar ongeveer drie jaar geleefd.
+extras::
+
+==dutchVerbExample
+dpodId::VKzOVt
+dpodWhenCreated::2024-10-08 21:03:57
+verb::vallen
+english::I dream as soon as I fall asleep.
+dutch::Ik droom zodra ik in slaap val.
+extras::
+
+==dutchVerbExample
+dpodId::NF29D3
+dpodWhenCreated::2024-10-08 21:03:57
+verb::vallen
+english::I can't fall asleep.
+dutch::Ik kan niet in slaap vallen.
+extras::
+
+==dutchVerbExample
+dpodId::dj1RqQ
+dpodWhenCreated::2024-10-08 21:03:57
+verb::vallen
+english::
+dutch::
+extras::
+
+==dutchVerbExample
+dpodId::ccKnUK
+dpodWhenCreated::2024-10-08 21:03:57
+verb::vallen
+english::They attacked the enemy.
+dutch::Ze vielen de vijand aan.
+extras::
+
+==dutchVerbExample
+dpodId::iFpb5z
+dpodWhenCreated::2024-10-08 21:03:57
+verb::vallen
+english::I fell asleep while reading.
+dutch::Ik ben in slaap gevallen tijdens het lezen.
+extras::
+
+==dutchVerbExample
+dpodId::dJ3QbV
+dpodWhenCreated::2024-10-08 21:12:00
+verb::veranderen
+english::Change sentences that are not correct.
+dutch::Verander zinnen die niet correct zijn.
+extras::
+
+==dutchVerbExample
+dpodId::s3IM13
+dpodWhenCreated::2024-10-08 21:12:00
+verb::veranderen
+english::I want things to change.
+dutch::Ik wil dat dingen veranderen.
+extras::
+
+==dutchVerbExample
+dpodId::GOsqEz
+dpodWhenCreated::2024-10-08 21:12:00
+verb::veranderen
+english::I changed the English sentence.
+dutch::Ik veranderde de Engelse zin.
+extras::
+
+==dutchVerbExample
+dpodId::qTmwWi
+dpodWhenCreated::2024-10-08 21:12:00
+verb::veranderen
+english::Even there things changed.
+dutch::Zelfs daar veranderden de dingen.
+extras::
+
+==dutchVerbExample
+dpodId::XI0twm
+dpodWhenCreated::2024-10-08 21:12:00
+verb::veranderen
+english::The country has changed a lot since then.
+dutch::Het land is sindsdien erg veranderd.
+extras::
+
+==dutchVerbExample
+dpodId::BKWffJ
+dpodWhenCreated::2024-10-08 21:23:22
+verb::vergissen
+english::If I'm not mistaken, I think I've seen you once.
+dutch::Als ik me niet vergis, heb ik je al één keer gezien.
+extras::
+
+==dutchVerbExample
+dpodId::VMP7CX
+dpodWhenCreated::2024-10-08 21:23:22
+verb::vergissen
+english::Everyone said that he was wrong.
+dutch::Iedereen zei dat hij zich vergiste.
+extras::
+
+==dutchVerbExample
+dpodId::Ao8JSB
+dpodWhenCreated::2024-10-08 21:23:22
+verb::vergissen
+english::You're wrong. That's not the case.
+dutch::Je vergist je, dat is niet het geval.
+extras::
+
+==dutchVerbExample
+dpodId::xV3hMZ
+dpodWhenCreated::2024-10-08 21:23:22
+verb::vergissen
+english::I admit it. I was wrong.
+dutch::Ik geef het toe dat ik me vergist heb.
+extras::
+
+==dutchVerbExample
+dpodId::3YiLs9
+dpodWhenCreated::2024-10-08 21:30:35
+verb::sturen
+english::As soon as I have it, I'll forward it to you.
+dutch::Zodra ik het heb, stuur ik het naar je door.
+extras::
+
+==dutchVerbExample
+dpodId::79HtEL
+dpodWhenCreated::2024-10-08 21:30:35
+verb::sturen
+english::I will send you a copy of this picture as soon as I can.
+dutch::Ik zal je zo snel mogelijk een kopie van dit beeld sturen.
+extras::
+
+==dutchVerbExample
+dpodId::CpVFWv
+dpodWhenCreated::2024-10-08 21:30:35
+verb::sturen
+english::She sent him a long letter.
+dutch::Zij stuurde hem een lange brief.
+extras::
+
+==dutchVerbExample
+dpodId::K3pYN4
+dpodWhenCreated::2024-10-08 21:30:35
+verb::sturen
+english::You guys sent an email.
+dutch::Jullie stuurden een e-mail.
+extras::
+
+==dutchVerbExample
+dpodId::gOu18B
+dpodWhenCreated::2024-10-08 21:30:35
+verb::sturen
+english::He sent me over to get you.
+dutch::Hij heeft me gestuurd om je te komen halen.
+extras::
+
+==dutchVerbExample
+dpodId::TOe6m6
+dpodWhenCreated::2024-10-08 21:34:49
+verb::trekken
+english::Give it a pull.
+dutch::Trek eraan.
+extras::
+
+==dutchVerbExample
+dpodId::hOeeqk
+dpodWhenCreated::2024-10-08 21:34:49
+verb::trekken
+english::I like to walk in the mountains.
+dutch::Ik hou ervan om in de bergen rond te trekken.
+extras::
+
+==dutchVerbExample
+dpodId::k4npjP
+dpodWhenCreated::2024-10-08 21:34:49
+verb::trekken
+english::What attracted you to Christianity?
+dutch::Wat trok jou aan in het christendom?
+extras::
+
+==dutchVerbExample
+dpodId::FOGBIP
+dpodWhenCreated::2024-10-08 21:34:49
+verb::trekken
+english::They took their boots off.
+dutch::Ze trokken hun laarzen uit.
+extras::
+
+==dutchVerbExample
+dpodId::tyuAlL
+dpodWhenCreated::2024-10-08 21:34:49
+verb::trekken
+english::She took a picture of the flowers.
+dutch::Ze heeft een foto getrokken van de bloemen.
+extras::
