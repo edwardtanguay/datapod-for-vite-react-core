@@ -1568,8 +1568,8 @@ extras::
 dpodId::37cGs5
 dpodWhenCreated::2024-09-23 09:15:59
 verb::vergeten
-english::Tom said he thought he'd forgotten something.
-dutch::Tom zei dat hij dacht dat hij iets vergeten had.
+english::He said he thought he'd forgotten something.
+dutch::Hij zei dat hij dacht dat hij iets vergeten had.
 extras::
 
 ==dutchVerbExample
@@ -2776,7 +2776,7 @@ extras::
 dpodId::QQlfFT
 dpodWhenCreated::2024-10-08 20:54:54
 verb::leven
-english::Tom lived there about three years.
+english::He lived there about three years.
 dutch::Hij heeft daar ongeveer drie jaar geleefd.
 extras::
 
@@ -2970,4 +2970,604 @@ dpodWhenCreated::2024-10-08 21:34:49
 verb::trekken
 english::She took a picture of the flowers.
 dutch::Ze heeft een foto getrokken van de bloemen.
+extras::
+
+==dutchVerbExample
+dpodId::djFxnb
+dpodWhenCreated::2024-10-08 22:20:13
+verb::koken
+english::I like to cook on the weekend.
+dutch::Ik kook graag in het weekend.
+extras::
+
+==dutchVerbExample
+dpodId::qjqGI4
+dpodWhenCreated::2024-10-08 22:20:13
+verb::koken
+english::Who's going to cook?
+dutch::Wie gaat er koken?
+extras::
+
+==dutchVerbExample
+dpodId::exfWGz
+dpodWhenCreated::2024-10-08 22:20:13
+verb::koken
+english::He cooked spaghetti for dinner.
+dutch::Hij kookte spaghetti voor het avondeten.
+extras::
+
+==dutchVerbExample
+dpodId::TM6VQs
+dpodWhenCreated::2024-10-08 22:20:13
+verb::koken
+english::They cooked at least once a week.
+dutch::Ze kookten minstens één keer per week.
+extras::
+
+==dutchVerbExample
+dpodId::TMpOWV
+dpodWhenCreated::2024-10-08 22:20:13
+verb::koken
+english::The food is cooked over low heat.
+dutch::Het eten wordt gekookt op laag vuur.
+extras::
+
+==dutchVerbExample
+dpodId::fFyUKe
+dpodWhenCreated::2024-10-08 22:20:13
+verb::starten
+english::The computer won't start.
+dutch::De computer start niet op.
+extras::
+
+==dutchVerbExample
+dpodId::ndeqox
+dpodWhenCreated::2024-10-08 22:20:13
+verb::starten
+english::He can't get his car started.
+dutch::Het lukt hem niet de auto te starten.
+extras::
+
+==dutchVerbExample
+dpodId::wCGbdx
+dpodWhenCreated::2024-10-08 22:20:13
+verb::starten
+english::My car didn't start because of the cold.
+dutch::Mijn auto startte niet vanwege de kou.
+extras::
+
+==dutchVerbExample
+dpodId::vtkL5H
+dpodWhenCreated::2024-10-08 22:20:13
+verb::starten
+english::Registration began October 20th.
+dutch::De inschrijvingen startten op 20 oktober.
+extras::
+
+==dutchVerbExample
+dpodId::l5yUqz
+dpodWhenCreated::2024-10-08 22:20:13
+verb::starten
+english::What's wrong? I can't get my car started.
+dutch::Wat scheelt er? Ik krijg mijn auto niet gestart.
+extras::
+
+==dutchVerbExample
+dpodId::05xwtz
+dpodWhenCreated::2024-10-08 22:20:13
+verb::stoppen
+english::Stop beating about the bush and tell me what the problem is!
+dutch::Stop rond de pot te draaien en zeg me waar het probleem zit.
+extras::
+
+==dutchVerbExample
+dpodId::7KJgP7
+dpodWhenCreated::2024-10-08 22:20:13
+verb::stoppen
+english::Not all trains stop here.
+dutch::Niet alle treinen stoppen hier.
+extras::
+
+==dutchVerbExample
+dpodId::N8dyAp
+dpodWhenCreated::2024-10-08 22:20:13
+verb::stoppen
+english::I folded the newspaper and put it back into my backpack.
+dutch::Ik vouwde de krant dubbel en stopte hem terug in mijn ruckzag.
+extras::
+
+==dutchVerbExample
+dpodId::z5lgZT
+dpodWhenCreated::2024-10-08 22:20:13
+verb::stoppen
+english::They stopped talking.
+dutch::Ze stopten met praten.
+extras::
+
+==dutchVerbExample
+dpodId::Xms0NP
+dpodWhenCreated::2024-10-08 22:20:13
+verb::stoppen
+english::Has the rain stopped? No, it's still raining.
+dutch::Is het gestopt met regenen? Nee, het regent nog steeds.
+extras::
+
+==dutchVerbExample
+dpodId::MbS7Cr
+dpodWhenCreated::2024-10-08 22:35:23
+verb::proberen
+english::That's what I'm trying to explain.
+dutch::Dat is wat ik probeer uit te leggen.
+extras::
+
+==dutchVerbExample
+dpodId::q4OYHj
+dpodWhenCreated::2024-10-08 22:35:23
+verb::proberen
+english::I'll try to do that as fast as I can.
+dutch::Ik ga dat zo snel mogelijk proberen te doen.
+extras::
+
+==dutchVerbExample
+dpodId::gANqsn
+dpodWhenCreated::2024-10-08 22:35:23
+verb::proberen
+english::He tried opening the door, but it was locked.
+dutch::Hij probeerde de deur open te doen, maar hij zat op slot.
+extras::
+
+==dutchVerbExample
+dpodId::N7HTK4
+dpodWhenCreated::2024-10-08 22:35:23
+verb::proberen
+english::They said that they tried to win.
+dutch::Ze zeiden dat ze probeerden te winnen.
+extras::
+
+==dutchVerbExample
+dpodId::SQkmTD
+dpodWhenCreated::2024-10-08 22:35:23
+verb::proberen
+english::Thank you for trying.
+dutch::Dank je wel dat je het geprobeerd hebt.
+extras::
+
+==dutchVerbExample
+dpodId::04oNye
+dpodWhenCreated::2024-10-08 22:35:23
+verb::wachten
+english::She is waiting for us in her office.
+dutch::Ze wacht in haar kantoor op ons.
+extras::
+
+==dutchVerbExample
+dpodId::i1aJMg
+dpodWhenCreated::2024-10-08 22:35:23
+verb::wachten
+english::Should I wait for them here?
+dutch::Zou ik hier op ze moeten wachten?
+extras::
+
+==dutchVerbExample
+dpodId::XfDxlU
+dpodWhenCreated::2024-10-08 22:35:23
+verb::wachten
+english::He waited in line.
+dutch::Hij wachtte in de rij.
+extras::
+
+==dutchVerbExample
+dpodId::5eTRBp
+dpodWhenCreated::2024-10-08 22:35:23
+verb::wachten
+english::We waited a while, but he didn't come.
+dutch::We wachtten een tijdje, maar hij kwam niet.
+extras::
+
+==dutchVerbExample
+dpodId::vBdOxC
+dpodWhenCreated::2024-10-08 22:35:23
+verb::wachten
+english::He said he didn't wait very long.
+dutch::Hij zei dat hij niet heel lang gewacht had.
+extras::
+
+==dutchVerbExample
+dpodId::KE9RQb
+dpodWhenCreated::2024-10-08 22:35:23
+verb::vullen
+english::Please fill this bucket with water.
+dutch::Vul alsjeblieft deze emmer met water.
+extras::
+
+==dutchVerbExample
+dpodId::mKFZpr
+dpodWhenCreated::2024-10-08 22:35:23
+verb::vullen
+english::He is filling a bottle with water.
+dutch::Hij is een fles met water aan het vullen.
+extras::
+
+==dutchVerbExample
+dpodId::011wNf
+dpodWhenCreated::2024-10-08 22:35:23
+verb::vullen
+english::He filled the glasses with wine.
+dutch::Hij vulde de glazen met wijn.
+extras::
+
+==dutchVerbExample
+dpodId::OSyGNg
+dpodWhenCreated::2024-10-08 22:35:23
+verb::vullen
+english::They filled their pockets with coins.
+dutch::Ze vulden hun zakken met munten.
+extras::
+
+==dutchVerbExample
+dpodId::QKPCSF
+dpodWhenCreated::2024-10-08 22:35:23
+verb::vullen
+english::His garage is filled with things that he never uses.
+dutch::Zijn garage is gevuld met dingen die hij nooit gebruikt.
+extras::
+
+==dutchVerbExample
+dpodId::bFsXaw
+dpodWhenCreated::2024-10-08 22:43:52
+verb::zetten
+english::Oh, just put it anywhere.
+dutch::Ach, zet het gewoon ergens neer.
+extras::
+
+==dutchVerbExample
+dpodId::8u4bz8
+dpodWhenCreated::2024-10-08 22:43:52
+verb::zetten
+english::The neighbor asked us to turn the music down.
+dutch::De buurman heeft ons gevraagd de muziek zachter te zetten.
+extras::
+
+==dutchVerbExample
+dpodId::v9NkKx
+dpodWhenCreated::2024-10-08 22:43:52
+verb::zetten
+english::He put up his house for sale.
+dutch::Hij zette zijn huis in de verkoop.
+extras::
+
+==dutchVerbExample
+dpodId::XtgArP
+dpodWhenCreated::2024-10-08 22:43:52
+verb::zetten
+english::Hij vergat de melk terug de koelkast in te zetten.
+dutch::Hij forgot to put the milk back in the refrigerator.
+extras::
+
+==dutchVerbExample
+dpodId::tIzfAs
+dpodWhenCreated::2024-10-08 22:43:52
+verb::zetten
+english::Hij heeft de video op het internet gezet.
+dutch::He posted the video on the Internet.
+extras::
+
+==dutchVerbExample
+dpodId::gus2HG
+dpodWhenCreated::2024-10-08 22:43:52
+verb::werpen
+english::Do you want me to take a look at it?
+dutch::Wil je dat ik er een blik op werp?
+extras::
+
+==dutchVerbExample
+dpodId::hMKrzK
+dpodWhenCreated::2024-10-08 22:43:52
+verb::werpen
+english::May I have a look at it?
+dutch::Mag ik er even een blik op werpen?
+extras::
+
+==dutchVerbExample
+dpodId::imm96F
+dpodWhenCreated::2024-10-08 22:43:52
+verb::werpen
+english::I glanced at the clock and knew what time it was.
+dutch::Ik wierp een blik op de klok en wist hoe laat het was.
+extras::
+
+==dutchVerbExample
+dpodId::d8crmZ
+dpodWhenCreated::2024-10-08 22:43:52
+verb::werpen
+english::They made a barricade across the road.
+dutch::Ze wierpen een barricade over de weg op.
+extras::
+
+==dutchVerbExample
+dpodId::3BoFnI
+dpodWhenCreated::2024-10-08 22:43:52
+verb::werpen
+english::I took a look at the newspaper.
+dutch::Ik heb een blik op de krant geworpen.
+extras::
+
+==dutchVerbExample
+dpodId::ou4TxV
+dpodWhenCreated::2024-10-08 23:08:19
+verb::ontmoeten
+english::I met my wife there.
+dutch::Daar heb ik mijn vrouw ontmoet.
+extras::
+
+==dutchVerbExample
+dpodId::33oZhL
+dpodWhenCreated::2024-10-08 23:08:19
+verb::ontmoeten
+english::We meet again in three hours.
+dutch::Over drie uur ontmoeten we elkaar opnieuw.
+extras::
+
+==dutchVerbExample
+dpodId::vB6zvt
+dpodWhenCreated::2024-10-08 23:08:19
+verb::ontmoeten
+english::She was approaching thirty when I first met her.
+dutch::Toen ik haar voor het eerst ontmoette, was ze bijna dertig.
+extras::
+
+==dutchVerbExample
+dpodId::mfXLrq
+dpodWhenCreated::2024-10-08 23:08:19
+verb::ontmoeten
+english::We just met yesterday.
+dutch::We ontmoetten elkaar gisteren nog.
+extras::
+
+==dutchVerbExample
+dpodId::aleKo5
+dpodWhenCreated::2024-10-08 23:08:19
+verb::ontmoeten
+english::He met her there.
+dutch::Hier heeft hij haar ontmoet.
+extras::
+
+==dutchVerbExample
+dpodId::va1duH
+dpodWhenCreated::2024-10-08 23:08:19
+verb::verrassen
+english::Surprise me.
+dutch::Verras me.
+extras::
+
+==dutchVerbExample
+dpodId::sjcSSI
+dpodWhenCreated::2024-10-08 23:08:19
+verb::verrassen
+english::I'm going to surprise her.
+dutch::Ik ga haar verrassen.
+extras::
+
+==dutchVerbExample
+dpodId::mAPJMl
+dpodWhenCreated::2024-10-08 23:08:19
+verb::verrassen
+english::I was surprised at her immediate recognition of me.
+dutch::Het verraste mij, dat ze mij onmiddellijk herkende.
+extras::
+
+==dutchVerbExample
+dpodId::GpdXAt
+dpodWhenCreated::2024-10-08 23:08:19
+verb::verrassen
+english::We surprised my cousin with a birthday party.
+dutch::We verrasten mijn neef met een verjaardagsfeestje.
+extras::
+
+==dutchVerbExample
+dpodId::wqtn6b
+dpodWhenCreated::2024-10-08 23:08:19
+verb::verrassen
+english::I'm surprised to find you here.
+dutch::Ik ben verrast je hier tegen te komen.
+extras::
+
+==dutchVerbExample
+dpodId::svyWny
+dpodWhenCreated::2024-10-08 23:08:19
+verb::praten
+english::How come you know English so well?
+dutch::Hoe komt het dat je zo goed Engels praat?
+extras::
+
+==dutchVerbExample
+dpodId::aesuwr
+dpodWhenCreated::2024-10-08 23:08:19
+verb::praten
+english::I want to talk to all of them.
+dutch::Ik wil met ieder van hen praten.
+extras::
+
+==dutchVerbExample
+dpodId::gOnviv
+dpodWhenCreated::2024-10-08 23:08:19
+verb::praten
+english::He didn't understand what she was talking about.
+dutch::He verstond niet waarover ze praatte.
+extras::
+
+==dutchVerbExample
+dpodId::ZVieZN
+dpodWhenCreated::2024-10-08 23:08:19
+verb::praten
+english::They talked together like old friends.
+dutch::Ze praatten met elkaar als oude vrienden.
+extras::
+
+==dutchVerbExample
+dpodId::wCEK65
+dpodWhenCreated::2024-10-08 23:08:19
+verb::praten
+english::We talked about lots of things.
+dutch::We hebben over veel dingen gepraat.
+extras::
+
+==dutchVerbExample
+dpodId::YOOTI7
+dpodWhenCreated::2024-10-08 23:08:19
+verb::spelen
+english::I don't play golf.
+dutch::Ik speel geen golf.
+extras::
+
+==dutchVerbExample
+dpodId::UIHknu
+dpodWhenCreated::2024-10-08 23:08:19
+verb::spelen
+english::It's too dark to play tennis now.
+dutch::Het is nu te donker om tennis te spelen.
+extras::
+
+==dutchVerbExample
+dpodId::YYLVIP
+dpodWhenCreated::2024-10-08 23:08:19
+verb::spelen
+english::He used to play poker with us.
+dutch::Hij speelde altijd poker met ons.
+extras::
+
+==dutchVerbExample
+dpodId::YbxOMw
+dpodWhenCreated::2024-10-08 23:08:19
+verb::spelen
+english::Many children were playing in the park.
+dutch::Er speelden veel kinderen in het park.
+extras::
+
+==dutchVerbExample
+dpodId::BSR07e
+dpodWhenCreated::2024-10-08 23:08:19
+verb::spelen
+english::She played an important part in the drama.
+dutch::In het drama heeft ze een belangrijke rol gespeeld.
+extras::
+
+==dutchVerbExample
+dpodId::6rhyag
+dpodWhenCreated::2024-10-08 23:08:19
+verb::beseffen
+english::I realize it's hard to believe.
+dutch::Ik besef dat het moeilijk te geloven is.
+extras::
+
+==dutchVerbExample
+dpodId::IKYtkp
+dpodWhenCreated::2024-10-08 23:08:19
+verb::beseffen
+english::I'm beginning to see that it's going to be impossible.
+dutch::Ik begin te beseffen dat het onmogelijk zal zijn.
+extras::
+
+==dutchVerbExample
+dpodId::YSQoXF
+dpodWhenCreated::2024-10-08 23:08:19
+verb::beseffen
+english::I realized it was a mistake as soon as I did it.
+dutch::Ik besefte dat het een vergissing was zodra ik het deed.
+extras::
+
+==dutchVerbExample
+dpodId::IzcKsU
+dpodWhenCreated::2024-10-08 23:08:19
+verb::beseffen
+english::They realized they were in deep trouble.
+dutch::Ze beseften dat ze diep in de problemen zaten.
+extras::
+
+==dutchVerbExample
+dpodId::PUYwYa
+dpodWhenCreated::2024-10-08 23:08:19
+verb::beseffen
+english::How long will it take before he realizes he's made a mistake?
+dutch::Hoelang gaat het duren voordat hij beseft dat hij een fout gemaakt heeft?
+extras::
+
+==dutchVerbExample
+dpodId::H9NJKe
+dpodWhenCreated::2024-10-08 23:08:19
+verb::stellen
+english::I imagine a lot of beautiful things.
+dutch::Ik stel me veel mooie dingen voor.
+extras::
+
+==dutchVerbExample
+dpodId::mUOutN
+dpodWhenCreated::2024-10-08 23:08:19
+verb::stellen
+english::What do these dots represent on the map?
+dutch::Wat stellen deze punten op de kaart voor?
+extras::
+
+==dutchVerbExample
+dpodId::ZCxKjP
+dpodWhenCreated::2024-10-08 23:08:19
+verb::stellen
+english::When I got home, I realized one of my suitcases was missing.
+dutch::Toen ik thuiskwam, stelde ik vast dat een van mijn valiezen ontbrak.
+extras::
+
+==dutchVerbExample
+dpodId::aKOYYR
+dpodWhenCreated::2024-10-08 23:08:19
+verb::stellen
+english::They introduced themselves in French.
+dutch::Ze stelden zich voor in het Frans.
+extras::
+
+==dutchVerbExample
+dpodId::r7B22q
+dpodWhenCreated::2024-10-08 23:08:19
+verb::stellen
+english::This question has often been raised.
+dutch::Deze vraag werd vaak gesteld.
+extras::
+
+==dutchVerbExample
+dpodId::GxzU87
+dpodWhenCreated::2024-10-08 23:14:17
+verb::durven
+english::I bet nothing'll happen.
+dutch::Ik durf te wedden dat er niets gaat gebeuren.
+extras::
+
+==dutchVerbExample
+dpodId::VnBvAc
+dpodWhenCreated::2024-10-08 23:14:17
+verb::durven
+english::They are afraid to say it.
+dutch::Ze durven het niet te zeggen.
+extras::
+
+==dutchVerbExample
+dpodId::Yhy2ls
+dpodWhenCreated::2024-10-08 23:14:17
+verb::durven
+english::He didn't dare do that.
+dutch::Hij durfde dat niet te doen.
+extras::
+
+==dutchVerbExample
+dpodId::50OL0a
+dpodWhenCreated::2024-10-08 23:14:17
+verb::durven
+english::They dared to go alone.
+dutch::Ze durfden alleen te gaan.
+extras::
+
+==dutchVerbExample
+dpodId::a69dIR
+dpodWhenCreated::2024-10-08 23:14:17
+verb::durven
+english::Hij heeft het al vele malen gedurfd.
+dutch::He has dared to do it many times.
 extras::
