@@ -2347,3 +2347,235 @@ verb::willen
 english::I didn't want this to happen.
 dutch::Ik had niet gewild dat dit gebeurde.
 extras::
+
+==dutchVerbExample
+dpodId::v0jM6H
+dpodWhenCreated::2024-10-08 12:09:23
+verb::voelen
+english::I feel heaps better after a sound sleep.
+dutch::Ik voel me stukken beter na een goede nachtrust.
+extras::
+
+==dutchVerbExample
+dpodId::WVONGc
+dpodWhenCreated::2024-10-08 12:09:23
+verb::voelen
+english::The weather is so cold that I can't feel my hands.
+dutch::Het weer is zo koud dat ik mijn handen niet kan voelen.
+extras::
+
+==dutchVerbExample
+dpodId::ox4ltl
+dpodWhenCreated::2024-10-08 12:09:23
+verb::voelen
+english::He felt he owed her an explanation.
+dutch::Hij voelde dat hij haar een verklaring verschuldigd was.
+extras::
+
+==dutchVerbExample
+dpodId::kwXud5
+dpodWhenCreated::2024-10-08 12:09:23
+verb::voelen
+english::They reached into their coats pocket.
+dutch::Zij voelden in hun jaszakken.
+extras::
+
+==dutchVerbExample
+dpodId::2GJnFn
+dpodWhenCreated::2024-10-08 12:09:23
+verb::voelen
+english::I haven't felt like this for a long time.
+dutch::Ik heb me al heel lang niet meer zo gevoeld.
+extras::
+
+==dutchVerbExample
+dpodId::eYYdTp
+dpodWhenCreated::2024-10-08 12:41:00
+verb::geven
+english::I will give this book to whoever wants it.
+dutch::Ik geef dit boek aan iedereen die het wil.
+extras::
+
+==dutchVerbExample
+dpodId::xo2KPX
+dpodWhenCreated::2024-10-08 12:41:00
+verb::geven
+english::Shall I get you some water?
+dutch::Kan ik je wat water geven?
+extras::
+
+==dutchVerbExample
+dpodId::MCvXOl
+dpodWhenCreated::2024-10-08 12:41:00
+verb::geven
+english::She handed him his jacket.
+dutch::Ze gaf hem zijn jas.
+extras::
+
+==dutchVerbExample
+dpodId::CJ8X1c
+dpodWhenCreated::2024-10-08 12:41:00
+verb::geven
+english::They admitted that they didn't win.
+dutch::Ze gaven toe dat ze niet hebben gewonnen.
+extras::
+
+==dutchVerbExample
+dpodId::X0ZjtC
+dpodWhenCreated::2024-10-08 12:41:00
+verb::geven
+english::You gave me too much.
+dutch::Je hebt me te veel gegeven.
+extras::
+
+==dutchVerbExample
+dpodId::4qu8wQ
+dpodWhenCreated::2024-10-08 15:29:18
+verb::verschillen
+english::I can't explain the difference between those two.
+dutch::Ik kan het verschil tussen die twee niet uitleggen.
+extras::
+
+==dutchVerbExample
+dpodId::XlXXyG
+dpodWhenCreated::2024-10-08 15:29:18
+verb::verschillen
+english::We have more similarities than differences.
+dutch::We hebben meer overeenkomsten dan verschillen.
+extras::
+
+==dutchVerbExample
+dpodId::o6SBFv
+dpodWhenCreated::2024-10-08 15:29:18
+verb::verschillen
+english::It doesn't differ from the others that much.
+dutch::Het verschilt niet zoveel van de anderen.
+extras::
+
+==dutchVerbExample
+dpodId::4Hngiu
+dpodWhenCreated::2024-10-08 15:29:18
+verb::verschillen
+english::It differed by a matter of 3 centimeters.
+dutch::Het verschilde slechts 3 centimeter.
+extras::
+
+==dutchVerbExample
+dpodId::pNrp32
+dpodWhenCreated::2024-10-08 15:34:36
+verb::leren
+english::You learn most from your mistakes.
+dutch::Van je fouten leer je het meest.
+extras::
+
+==dutchVerbExample
+dpodId::pQxpYG
+dpodWhenCreated::2024-10-08 15:34:36
+verb::leren
+english::Any student of this school must learn one more foreign language besides English.
+dutch::Alle leerlingen van deze school moeten naast Engels nog een andere vreemde taal leren.
+extras::
+
+==dutchVerbExample
+dpodId::vzfbHD
+dpodWhenCreated::2024-10-08 15:34:36
+verb::leren
+english::I learned about Greek culture.
+dutch::Ik leerde over de Griekse cultuur.
+extras::
+
+==dutchVerbExample
+dpodId::1GuOGx
+dpodWhenCreated::2024-10-08 15:34:36
+verb::leren
+english::He wanted his children to learn French.
+dutch::Hij wilde dat zijn kinderen Frans leerden.
+extras::
+
+==dutchVerbExample
+dpodId::pQhBGa
+dpodWhenCreated::2024-10-08 15:34:36
+verb::leren
+english::What was the last word you learned?
+dutch::Wat was het laatste woord dat je geleerd hebt?
+extras::
+
+==dutchVerbExample
+dpodId::lma0XV
+dpodWhenCreated::2024-10-08 15:45:42
+verb::luisteren
+english::I often program while listening to music.
+dutch::Vaak programmeer ik terwijl ik naar muziek luister.
+extras::
+
+==dutchVerbExample
+dpodId::lhLb4F
+dpodWhenCreated::2024-10-08 15:45:42
+verb::luisteren
+english::It is important to listen attentively.
+dutch::Het is belangrijk met aandacht te luisteren.
+extras::
+
+==dutchVerbExample
+dpodId::eVMwJL
+dpodWhenCreated::2024-10-08 15:45:42
+verb::luisteren
+english::Yesterday I listened to a very beautiful song.
+dutch::Gisteren luisterde ik naar een heel mooi lied.
+extras::
+
+==dutchVerbExample
+dpodId::D4kH9J
+dpodWhenCreated::2024-10-08 15:45:42
+verb::luisteren
+english::They were listening to the radio.
+dutch::Ze luisterden naar de radio.
+extras::
+
+==dutchVerbExample
+dpodId::KcS6nA
+dpodWhenCreated::2024-10-08 15:45:42
+verb::luisteren
+english::Have you listened to the podcast?
+dutch::Heb je al naar de podcast geluisterd?
+extras::
+
+==dutchVerbExample
+dpodId::OXJg2A
+dpodWhenCreated::2024-10-08 16:07:00
+verb::werken
+english::I work at a company in Hamburg but I live in Berlin.
+dutch::Ik werk bij een bedrijf in Hamburg, maar ik woon in Berlijn.
+extras::
+
+==dutchVerbExample
+dpodId::TEKBsT
+dpodWhenCreated::2024-10-08 16:07:00
+verb::werken
+english::Most of the people working here are bilingual, trilingual and multilingual.
+dutch::De meeste mensen die hier werken zijn twee-, drie- of meertalig.
+extras::
+
+==dutchVerbExample
+dpodId::wmLaaQ
+dpodWhenCreated::2024-10-08 16:07:00
+verb::werken
+english::
+dutch::
+extras::
+
+==dutchVerbExample
+dpodId::JTWFjU
+dpodWhenCreated::2024-10-08 16:07:00
+verb::werken
+english::They worked jointly on this project.
+dutch::Ze werkten samen aan dit project.
+extras::
+
+==dutchVerbExample
+dpodId::BcLQMb
+dpodWhenCreated::2024-10-08 16:07:00
+verb::werken
+english::He worked until 2:30.
+dutch::Hij heeft tot twee uur dertig gewerkt.
+extras::
