@@ -1255,3 +1255,150 @@ imperfectPlural::zetten
 participle::heb gezet
 rank::4.52
 extras::
+
+==dutchVerb
+to fill
+vullen
+vul
+vulde
+vulden
+heb gevuld
+4.55
+
+
+==dutchVerb
+to feel
+voelen
+voel
+voelde
+voelden
+heb gevoeld
+4.9
+
+
+==dutchVerb
+to call (on the phone)
+bellen
+bel
+belde
+belden
+heb gebeld
+4.78
+
+
+==dutchVerb
+to carry
+dragen
+draag
+droeg
+droegen
+heb gedragen
+4.58
+
+==dutchVerb
+to mumble
+mompelen
+mompel
+mompelde
+mompelden
+heb gemompeld
+3.1
+
+==dutchVerb
+to dare
+durven
+durf
+durfde
+durfden
+heb gedurfd
+4.2
+
+==dutchVerb
+to stop
+stoppen
+stop
+stopte
+stopten
+heb gestopt
+4.61
+
+==dutchVerb
+to start
+starten
+start
+startte
+startten
+heb gestart
+4.62
+
+
+==dutchVerb
+to step
+stappen
+stap
+stapte
+stapten
+heb gestapt
+3.9
+
+
+
+==dutchVerb
+to turn
+draaien
+draai
+draaide
+draaiden
+heb gedraaid
+4.2
+
+
+==dutchVerb
+to shout
+roepen
+roep
+riep
+riepen
+heb geroepen
+3.8
+
+==dutchVerb
+to give
+geven
+geef
+gaf
+gaven
+had gegeven
+4.88
+
+
+==dutchVerb
+to climb
+klimmen
+klim
+klom
+klommen
+heb geklommen
+3.82
+
+
+
+==dutchVerb
+to realize
+beseffen
+besef
+besefte
+beseften
+heb beseft
+4.3
+
+
+==dutchVerb
+to pull
+trekken
+trek
+trok
+trokken
+heb getrokken
+4.63
+
