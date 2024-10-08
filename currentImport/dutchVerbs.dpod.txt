@@ -1257,148 +1257,193 @@ rank::4.52
 extras::
 
 ==dutchVerb
-to fill
-vullen
-vul
-vulde
-vulden
-heb gevuld
-4.55
-
-
-==dutchVerb
-to feel
-voelen
-voel
-voelde
-voelden
-heb gevoeld
-4.9
-
+dpodId::f72yLU
+dpodWhenCreated::2024-10-08 11:32:26
+english::to fill
+infinitive::vullen
+present::vul
+imperfectSingular::vulde
+imperfectPlural::vulden
+participle::heb gevuld
+rank::4.55
+extras::
 
 ==dutchVerb
-to call (on the phone)
-bellen
-bel
-belde
-belden
-heb gebeld
-4.78
-
-
-==dutchVerb
-to carry
-dragen
-draag
-droeg
-droegen
-heb gedragen
-4.58
+dpodId::VLISZh
+dpodWhenCreated::2024-10-08 11:32:26
+english::to feel
+infinitive::voelen
+present::voel
+imperfectSingular::voelde
+imperfectPlural::voelden
+participle::heb gevoeld
+rank::4.9
+extras::
 
 ==dutchVerb
-to mumble
-mompelen
-mompel
-mompelde
-mompelden
-heb gemompeld
-3.1
+dpodId::wTo0L8
+dpodWhenCreated::2024-10-08 11:32:26
+english::to call (on the phone)
+infinitive::bellen
+present::bel
+imperfectSingular::belde
+imperfectPlural::belden
+participle::heb gebeld
+rank::4.78
+extras::
 
 ==dutchVerb
-to dare
-durven
-durf
-durfde
-durfden
-heb gedurfd
-4.2
+dpodId::WNrfJG
+dpodWhenCreated::2024-10-08 11:32:26
+english::to carry
+infinitive::dragen
+present::draag
+imperfectSingular::droeg
+imperfectPlural::droegen
+participle::heb gedragen
+rank::4.58
+extras::
 
 ==dutchVerb
-to stop
-stoppen
-stop
-stopte
-stopten
-heb gestopt
-4.61
+dpodId::aEy1so
+dpodWhenCreated::2024-10-08 11:32:26
+english::to mumble
+infinitive::mompelen
+present::mompel
+imperfectSingular::mompelde
+imperfectPlural::mompelden
+participle::heb gemompeld
+rank::3.1
+extras::
 
 ==dutchVerb
-to start
-starten
-start
-startte
-startten
-heb gestart
-4.62
-
-
-==dutchVerb
-to step
-stappen
-stap
-stapte
-stapten
-heb gestapt
-3.9
-
-
+dpodId::4WD4dp
+dpodWhenCreated::2024-10-08 11:32:26
+english::to dare
+infinitive::durven
+present::durf
+imperfectSingular::durfde
+imperfectPlural::durfden
+participle::heb gedurfd
+rank::4.2
+extras::
 
 ==dutchVerb
-to turn
-draaien
-draai
-draaide
-draaiden
-heb gedraaid
-4.2
-
-
-==dutchVerb
-to shout
-roepen
-roep
-riep
-riepen
-heb geroepen
-3.8
+dpodId::XYD8mJ
+dpodWhenCreated::2024-10-08 11:32:26
+english::to stop
+infinitive::stoppen
+present::stop
+imperfectSingular::stopte
+imperfectPlural::stopten
+participle::heb gestopt
+rank::4.61
+extras::
 
 ==dutchVerb
-to give
-geven
-geef
-gaf
-gaven
-had gegeven
-4.88
-
-
-==dutchVerb
-to climb
-klimmen
-klim
-klom
-klommen
-heb geklommen
-3.82
-
-
+dpodId::uxF8ee
+dpodWhenCreated::2024-10-08 11:32:26
+english::to start
+infinitive::starten
+present::start
+imperfectSingular::startte
+imperfectPlural::startten
+participle::heb gestart
+rank::4.62
+extras::
 
 ==dutchVerb
-to realize
-beseffen
-besef
-besefte
-beseften
-heb beseft
-4.3
-
+dpodId::5qvGr9
+dpodWhenCreated::2024-10-08 11:32:26
+english::to step
+infinitive::stappen
+present::stap
+imperfectSingular::stapte
+imperfectPlural::stapten
+participle::heb gestapt
+rank::3.9
+extras::
 
 ==dutchVerb
-to pull
-trekken
-trek
-trok
-trokken
-heb getrokken
-4.63
+dpodId::fYQ1B2
+dpodWhenCreated::2024-10-08 11:32:26
+english::to turn
+infinitive::draaien
+present::draai
+imperfectSingular::draaide
+imperfectPlural::draaiden
+participle::heb gedraaid
+rank::4.2
+extras::
 
+==dutchVerb
+dpodId::kJ5LCn
+dpodWhenCreated::2024-10-08 11:32:26
+english::to shout
+infinitive::roepen
+present::roep
+imperfectSingular::riep
+imperfectPlural::riepen
+participle::heb geroepen
+rank::3.8
+extras::
+
+==dutchVerb
+dpodId::xZCV9p
+dpodWhenCreated::2024-10-08 11:32:26
+english::to give
+infinitive::geven
+present::geef
+imperfectSingular::gaf
+imperfectPlural::gaven
+participle::had gegeven
+rank::4.88
+extras::
+
+==dutchVerb
+dpodId::iN7wYx
+dpodWhenCreated::2024-10-08 11:32:26
+english::to climb
+infinitive::klimmen
+present::klim
+imperfectSingular::klom
+imperfectPlural::klommen
+participle::heb geklommen
+rank::3.82
+extras::
+
+==dutchVerb
+dpodId::gWMeHp
+dpodWhenCreated::2024-10-08 11:32:26
+english::to realize
+infinitive::beseffen
+present::besef
+imperfectSingular::besefte
+imperfectPlural::beseften
+participle::heb beseft
+rank::4.3
+extras::
+
+==dutchVerb
+dpodId::N9ORJr
+dpodWhenCreated::2024-10-08 11:32:26
+english::to pull
+infinitive::trekken
+present::trek
+imperfectSingular::trok
+imperfectPlural::trokken
+participle::heb getrokken
+rank::4.63
+extras::
+
+==dutchVerb
+dpodId::X8jDBi
+dpodWhenCreated::2024-10-08 11:35:43
+english::to fool
+infinitive::bedotten
+present::bedot
+imperfectSingular::bedotte
+imperfectPlural::bedotten
+participle::had bedot
+rank::3.6
+extras::
