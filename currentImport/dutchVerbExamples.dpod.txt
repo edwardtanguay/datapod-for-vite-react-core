@@ -3571,3 +3571,323 @@ verb::durven
 english::Hij heeft het al vele malen gedurfd.
 dutch::He has dared to do it many times.
 extras::
+
+==dutchVerbExample
+dpodId::Gxo6Gp
+dpodWhenCreated::2024-10-09 00:28:31
+verb::draaien
+english::Do I turn left at the first stoplight?
+dutch::Draai ik naar links aan het eerste verkeerslicht?
+extras::
+
+==dutchVerbExample
+dpodId::tOhLS7
+dpodWhenCreated::2024-10-09 00:28:31
+verb::draaien
+english::What would happen if the earth stopped turning?
+dutch::Wat zou er gebeuren als de aarde zou stoppen met draaien?
+extras::
+
+==dutchVerbExample
+dpodId::jjmpMA
+dpodWhenCreated::2024-10-09 00:28:31
+verb::draaien
+english::I put the key in the door and turned it.
+dutch::Ik stak de sleutel in de deur en draaide hem om.
+extras::
+
+==dutchVerbExample
+dpodId::cAU72g
+dpodWhenCreated::2024-10-09 00:28:31
+verb::draaien
+english::All our effort ended in failure.
+dutch::Al onze inspanningen draaiden op niets uit.
+extras::
+
+==dutchVerbExample
+dpodId::bmyQTo
+dpodWhenCreated::2024-10-09 00:28:31
+verb::draaien
+english::After all, the blade can be rotated to cut out corners.
+dutch::Het mes kan immers worden gedraaid voor het uitsnijden van hoeken.
+extras::
+
+==dutchVerbExample
+dpodId::jJFaLp
+dpodWhenCreated::2024-10-09 00:33:52
+verb::wensen
+english::Do you want anything?
+dutch::Wens je iets?
+extras::
+
+==dutchVerbExample
+dpodId::Z5HZLr
+dpodWhenCreated::2024-10-09 00:33:52
+verb::wensen
+english::This result leaves much to be desired.
+dutch::Dit resultaat laat veel te wensen over.
+extras::
+
+==dutchVerbExample
+dpodId::gPnjNr
+dpodWhenCreated::2024-10-09 00:33:52
+verb::wensen
+english::We wish you a very enjoyable weekend!
+dutch::We wensen jullie een heel fijn weekend!
+extras::
+
+==dutchVerbExample
+dpodId::sfSOsl
+dpodWhenCreated::2024-10-09 00:33:52
+verb::wensen
+english::I wish I could speak Russian.
+dutch::Ik wenste dat ik Russisch kon spreken.
+extras::
+
+==dutchVerbExample
+dpodId::y4XGKy
+dpodWhenCreated::2024-10-09 00:33:52
+verb::wensen
+english::Have a nice trip!
+dutch::Een goede reis gewenst!
+extras::
+
+==dutchVerbExample
+dpodId::obI2c3
+dpodWhenCreated::2024-10-09 00:53:05
+verb::ruiken
+english::Smell what's in this bottle.
+dutch::Ruik eens wat in deze fles zit.
+extras::
+
+==dutchVerbExample
+dpodId::IoQRt1
+dpodWhenCreated::2024-10-09 00:53:05
+verb::ruiken
+english::We smell with our noses.
+dutch::We ruiken met onze neuzen.
+extras::
+
+==dutchVerbExample
+dpodId::0Ax3S1
+dpodWhenCreated::2024-10-09 00:53:05
+verb::ruiken
+english::It smelled really good.
+dutch::Het rook echt goed.
+extras::
+
+==dutchVerbExample
+dpodId::l8uVjF
+dpodWhenCreated::2024-10-09 00:53:05
+verb::We smelled something cooking.
+english::We roken iets dat aan het koken was.
+dutch::
+extras::
+
+==dutchVerbExample
+dpodId::KKKTmr
+dpodWhenCreated::2024-10-09 00:53:05
+verb::ruiken
+english::Have you ever smelled this perfume?
+dutch::Heb je ooit dit parfum geroken?
+extras::
+
+==dutchVerbExample
+dpodId::B1idRv
+dpodWhenCreated::2024-10-09 00:53:05
+verb::stappen
+english::I am getting off at the next station.
+dutch::Ik stap uit in het volgende station.
+extras::
+
+==dutchVerbExample
+dpodId::iKdb5o
+dpodWhenCreated::2024-10-09 00:53:05
+verb::stappen
+english::You must buy a ticket to get on the bus.
+dutch::Om in de bus te stappen moet ge een kaartje kopen.
+extras::
+
+==dutchVerbExample
+dpodId::zCEOic
+dpodWhenCreated::2024-10-09 00:53:05
+verb::stappen
+english::He opened the door and stepped inside.
+dutch::Hij deed de deur open en stapte naar binnen.
+extras::
+
+==dutchVerbExample
+dpodId::qcSJlJ
+dpodWhenCreated::2024-10-09 00:53:05
+verb::stappen
+english::We got on the same bus.
+dutch::We stapten dezelfde bus in.
+extras::
+
+==dutchVerbExample
+dpodId::MMAqu4
+dpodWhenCreated::2024-10-09 00:53:05
+verb::stappen
+english::As I have walked all the day, I am very tired.
+dutch::Daar ik de hele dag gestapt heb, ben ik zeer moe.
+extras::
+
+==dutchVerbExample
+dpodId::p0soNo
+dpodWhenCreated::2024-10-09 00:53:05
+verb::klimmen
+english::Climb up.
+dutch::Klim omhoog.
+extras::
+
+==dutchVerbExample
+dpodId::SwZURN
+dpodWhenCreated::2024-10-09 00:53:05
+verb::klimmen
+english::How did the cat manage to climb on the roof?
+dutch::Hoe is het de kat gelukt om op het dak te klimmen?
+extras::
+
+==dutchVerbExample
+dpodId::uoSjJP
+dpodWhenCreated::2024-10-09 00:53:05
+verb::klimmen
+english::He climbed out of the pool.
+dutch::Hij klom uit het zwembad.
+extras::
+
+==dutchVerbExample
+dpodId::Sri9fz
+dpodWhenCreated::2024-10-09 00:53:05
+verb::klimmen
+english::I climbed through the window.
+dutch::Ik ben door het raam geklommen.
+extras::
+
+==dutchVerbExample
+dpodId::m3hl26
+dpodWhenCreated::2024-10-09 00:59:54
+verb::roepen
+english::Call me at six tomorrow morning.
+dutch::Roep me om zes uur morgenochtend.
+extras::
+
+==dutchVerbExample
+dpodId::vCWlWP
+dpodWhenCreated::2024-10-09 00:59:54
+verb::roepen
+english::I heard someone call my name.
+dutch::Ik hoorde iemand mijn naam roepen.
+extras::
+
+==dutchVerbExample
+dpodId::w4jDHN
+dpodWhenCreated::2024-10-09 00:59:54
+verb::roepen
+english::He called a taxi for me.
+dutch::Hij riep een taxi voor mij.
+extras::
+
+==dutchVerbExample
+dpodId::nbBaC9
+dpodWhenCreated::2024-10-09 00:59:54
+verb::roepen
+english::The US declared independence from Great Britain in 1776.
+dutch::In 1776 riepen de Verenigde Staten de onafhankelijkheid van Groot-Brittannië uit.
+extras::
+
+==dutchVerbExample
+dpodId::slaAYZ
+dpodWhenCreated::2024-10-09 00:59:54
+verb::roepen
+english::I called you in here to ask you a question.
+dutch::Ik heb je hierheen geroepen om je een vraag te stellen.
+extras::
+
+==dutchVerbExample
+dpodId::qCe40L
+dpodWhenCreated::2024-10-09 01:13:23
+verb::volgen
+english::Follow your heart, not your fears.
+dutch::Volg je hart, niet je angsten.
+extras::
+
+==dutchVerbExample
+dpodId::frDYUt
+dpodWhenCreated::2024-10-09 01:13:23
+verb::volgen
+english::I can't follow his logic.
+dutch::Het lukt me niet om zijn logica te volgen.
+extras::
+
+==dutchVerbExample
+dpodId::RkA1Nx
+dpodWhenCreated::2024-10-09 01:13:23
+verb::volgen
+english::He followed the group out the door.
+dutch::Hij volgde de groep de deur uit.
+extras::
+
+==dutchVerbExample
+dpodId::oeUd3J
+dpodWhenCreated::2024-10-09 01:13:23
+verb::volgen
+english::The hikers traced a convoluted route through the mountains.
+dutch::De wandelaars volgden een kronkelige route door de bergen.
+extras::
+
+==dutchVerbExample
+dpodId::xNH03E
+dpodWhenCreated::2024-10-09 01:13:23
+verb::volgen
+english::They say they followed the rules.
+dutch::Ze zeggen dat ze de regels gevolgd hebben.
+extras::
+
+==dutchVerbExample
+dpodId::M2MLwG
+dpodWhenCreated::2024-10-09 01:25:49
+verb::openen
+english::I was very surprised that the door was open.
+dutch::Ik was zeer verbaasd dat de deur open stond.
+extras::
+
+==dutchVerbExample
+dpodId::s6VwGn
+dpodWhenCreated::2024-10-09 01:25:49
+verb::openen
+english::Would you please open the window?
+dutch::Wilt ge zo goed zijn het venster open te doen?
+extras::
+
+==dutchVerbExample
+dpodId::RSb0rf
+dpodWhenCreated::2024-10-09 01:25:49
+verb::openen
+english::She got up to open a window.
+dutch::Ze stond op om een raam te openen.
+extras::
+
+==dutchVerbExample
+dpodId::psT6vg
+dpodWhenCreated::2024-10-09 01:25:49
+verb::openen
+english::I opened the window a crack.
+dutch::Ik opende het raam op een kiertje.
+extras::
+
+==dutchVerbExample
+dpodId::mTOl33
+dpodWhenCreated::2024-10-09 01:25:49
+verb::openen
+english::They are opening the store tomorrow.
+dutch::Morgen openen ze de winkel.
+extras::
+
+==dutchVerbExample
+dpodId::7HyGnA
+dpodWhenCreated::2024-10-09 01:25:49
+verb::openen
+english::I opened the windows to let in some fresh air.
+dutch::Ik heb de ramen geopend om wat frisse lucht binnen te laten.
+extras::
