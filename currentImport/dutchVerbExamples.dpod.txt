@@ -680,8 +680,8 @@ extras::
 dpodId::nQxy7q
 dpodWhenCreated::2024-09-19 08:27:55
 verb::genieten
-english::Wij hebben genoten van ons verblijf in Spanje.
-dutch::We enjoyed our stay in Spain.
+english::We enjoyed our stay in Spain.
+dutch::Wij hebben genoten van ons verblijf in Spanje.
 extras::
 
 ==dutchVerbExample
@@ -3845,49 +3845,49 @@ dutch::Ze zeggen dat ze de regels gevolgd hebben.
 extras::
 
 ==dutchVerbExample
-dpodId::M2MLwG
-dpodWhenCreated::2024-10-09 01:25:49
-verb::openen
+dpodId::ekknfO
+dpodWhenCreated::2024-10-09 03:11:01
+verb::openen 
 english::I was very surprised that the door was open.
 dutch::Ik was zeer verbaasd dat de deur open stond.
 extras::
 
 ==dutchVerbExample
-dpodId::s6VwGn
-dpodWhenCreated::2024-10-09 01:25:49
-verb::openen
+dpodId::R6YaKU
+dpodWhenCreated::2024-10-09 03:11:01
+verb::openen 
 english::Would you please open the window?
 dutch::Wilt ge zo goed zijn het venster open te doen?
 extras::
 
 ==dutchVerbExample
-dpodId::RSb0rf
-dpodWhenCreated::2024-10-09 01:25:49
-verb::openen
+dpodId::abamdK
+dpodWhenCreated::2024-10-09 03:11:01
+verb::openen 
 english::She got up to open a window.
 dutch::Ze stond op om een raam te openen.
 extras::
 
 ==dutchVerbExample
-dpodId::psT6vg
-dpodWhenCreated::2024-10-09 01:25:49
-verb::openen
+dpodId::2azc9K
+dpodWhenCreated::2024-10-09 03:11:01
+verb::openen 
 english::I opened the window a crack.
 dutch::Ik opende het raam op een kiertje.
 extras::
 
 ==dutchVerbExample
-dpodId::mTOl33
-dpodWhenCreated::2024-10-09 01:25:49
-verb::openen
+dpodId::8t2Emf
+dpodWhenCreated::2024-10-09 03:11:01
+verb::openen 
 english::They are opening the store tomorrow.
 dutch::Morgen openen ze de winkel.
 extras::
 
 ==dutchVerbExample
-dpodId::7HyGnA
-dpodWhenCreated::2024-10-09 01:25:49
-verb::openen
+dpodId::aPYgTC
+dpodWhenCreated::2024-10-09 03:11:01
+verb::openen 
 english::I opened the windows to let in some fresh air.
 dutch::Ik heb de ramen geopend om wat frisse lucht binnen te laten.
 extras::
