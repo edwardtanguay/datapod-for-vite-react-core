@@ -5,6 +5,43 @@ Body;p
 Extras
 
 ==topic
+dpodId::2EHGDd
+dpodWhenCreated::2024-11-30 01:39:42
+category::Hamburg
+title::Trip December 2024
+body::[[
+- areas
+	- Altstadt##altstadthamb
+	- Neustadt##neustadthamb
+	- St. Pauli & Schanzenviertel##stpaulietc
+	- Altona##altonahamb
+	- Ottensen##ottensen
+	- Grindelviertel##grindelviertel
+	- Eppendorf##eppendorfhamb
+	- Stadtpark & Alster##stadtparkhamb
+	- Hafencity##hafencitycity
+	- Langenhorn##langenhornhamb
+	- Ohlstedt##ohlstedthamb
+	- Blankenese##blankenesehamb
+	- Bergedorf##bergedorfhamb
+	- Wilhelmsburg##wilhelmsburghamb
+- seven districts
+	- Hamburg-Mitte##hamburgmitte
+	- Altona##altonahamb
+	- Eimsbüttel##eimsbuettelhamb
+	- Hamburg-Nord##hamburgnord
+	- Wandsbek##wandsbekhamb
+	- Bergedorf##bergedorfhamb
+	- Harburg##harsburghamb
+	- ALL 7 DISTRICTS##the7areas
+- other areas
+	- Speicherstadt##speicherstadtnnn
+- U-Bahn Hamburg##ubahnhamburg
+- Google Earth [kmz map](http://etnotes.vercel.app/maps/hamburg2024.kmz)
+]]
+extras::
+
+==topic
 dpodId::UGuuAh
 dpodWhenCreated::2024-07-22 07:51:03
 category::Copenhagen

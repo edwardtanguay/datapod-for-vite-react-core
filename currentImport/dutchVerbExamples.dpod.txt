@@ -3847,7 +3847,7 @@ extras::
 ==dutchVerbExample
 dpodId::ekknfO
 dpodWhenCreated::2024-10-09 03:11:01
-verb::openen 
+verb::openen
 english::I was very surprised that the door was open.
 dutch::Ik was zeer verbaasd dat de deur open stond.
 extras::
@@ -3855,7 +3855,7 @@ extras::
 ==dutchVerbExample
 dpodId::R6YaKU
 dpodWhenCreated::2024-10-09 03:11:01
-verb::openen 
+verb::openen
 english::Would you please open the window?
 dutch::Wilt ge zo goed zijn het venster open te doen?
 extras::
@@ -3863,7 +3863,7 @@ extras::
 ==dutchVerbExample
 dpodId::abamdK
 dpodWhenCreated::2024-10-09 03:11:01
-verb::openen 
+verb::openen
 english::She got up to open a window.
 dutch::Ze stond op om een raam te openen.
 extras::
@@ -3871,7 +3871,7 @@ extras::
 ==dutchVerbExample
 dpodId::2azc9K
 dpodWhenCreated::2024-10-09 03:11:01
-verb::openen 
+verb::openen
 english::I opened the window a crack.
 dutch::Ik opende het raam op een kiertje.
 extras::
@@ -3879,7 +3879,7 @@ extras::
 ==dutchVerbExample
 dpodId::8t2Emf
 dpodWhenCreated::2024-10-09 03:11:01
-verb::openen 
+verb::openen
 english::They are opening the store tomorrow.
 dutch::Morgen openen ze de winkel.
 extras::
@@ -3887,7 +3887,7 @@ extras::
 ==dutchVerbExample
 dpodId::aPYgTC
 dpodWhenCreated::2024-10-09 03:11:01
-verb::openen 
+verb::openen
 english::I opened the windows to let in some fresh air.
 dutch::Ik heb de ramen geopend om wat frisse lucht binnen te laten.
 extras::
