@@ -17,7 +17,10 @@ body::[[
 	- Altona##altonahamb
 	- Ottensen##ottensen
 	- Grindelviertel##grindelviertel
-	- Eppendorf##eppendorfhamb
+	- Eppendorf
+		- Szeneviertel##eppendorfhamb
+	- Eimsbüttel as Stadteil
+		- Szeneviertel##eims2
 	- Stadtpark & Alster##stadtparkhamb
 	- Hafencity##hafencitycity
 	- Langenhorn##langenhornhamb
@@ -25,6 +28,7 @@ body::[[
 	- Blankenese##blankenesehamb
 	- Bergedorf##bergedorfhamb
 	- Wilhelmsburg##wilhelmsburghamb
+	- Barmbek: residencial for workers, worker museum##barmbekind
 - seven districts
 	- Hamburg-Mitte##hamburgmitte
 	- Altona##altonahamb
@@ -37,7 +41,14 @@ body::[[
 - other areas
 	- Speicherstadt##speicherstadtnnn
 - U-Bahn Hamburg##ubahnhamburg
+- S-Bahn Hamburg##hamburgsbahnmap
+- where people want to / don't want to live##wherelivehamburg
 - Google Earth [kmz map](http://etnotes.vercel.app/maps/hamburg2024.kmz)
+- Google Earth [h001](http://etnotes.vercel.app/maps/h001.kmz)
+- Run
+	- Eppensdorf
+	- Niko
+	- Grindelviertel
 ]]
 extras::
 
