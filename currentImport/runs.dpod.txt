@@ -3584,3 +3584,37 @@ Another long training run for the Einhoven marathon, got up early, had to run wi
 ##theegisihann
 ]]
 extras::
+
+==run
+dpodId::XBcAEV
+dpodWhenCreated::2025-01-11 01:50:43
+idCode::20240916
+title::35K Steglitz-Grunewald-Westend-Schoeneberg-Steglitz + 500m swim
+date::2024-09-16
+kilometers::7
+duration::duration::duration::00:57:56
+body::[[
+Nice to get out for another morning run with Hannah, was a bit phased by my 35K yesterday but nice to have fresh air hitting your face before 7:00 in the morning.
+##han7start
+
+##han7go
+
+##han7dark
+
+##han7hos
+
+##han7stairs
+
+##han7blcok
+
+##han7bridg
+
+##han7anothbir
+
+##han7thehos
+
+##han757
+
+##han7duid
+]]
+extras::
