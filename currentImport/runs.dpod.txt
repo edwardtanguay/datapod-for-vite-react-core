@@ -3630,6 +3630,8 @@ duration::04:45:00
 body::[[
 Got S-Bahn to Fronau, had a beautiful run through the residential area of that suburb then down through Reinickendorf, through Berlin as it got dark, the goal was to meet Gisi and Hannah at the swimming pool, I started to get behind so took a bus for 2K so reduced the originally planned 37K to 35K and got there right on time, then had a very refreshing swim.
 
+##insw35
+
 ##inswready
 
 ##inswbutt
