@@ -3620,6 +3620,143 @@ Nice to get out for another morning run with Hannah, was a bit phased by my 35K 
 extras::
 
 ==run
+dpodId::fnRfG1
+dpodWhenCreated::2025-02-09 00:31:25
+idCode::20240921
+title::35k Frohnau to Steglitz plus 500m indoor swim
+date::2024-09-21
+kilometers::35
+duration::04:45:00
+body::[[
+Got S-Bahn to Fronau, had a beautiful run through the residential area of that suburb then down through Reinickendorf, through Berlin as it got dark, the goal was to meet Gisi and Hannah at the swimming pool, I started to get behind so took a bus for 2K so reduced the originally planned 37K to 35K and got there right on time, then had a very refreshing swim.
+
+##inswready
+
+##inswbutt
+
+##inswbus
+
+##inswgo
+
+##inswdutch
+
+##inswout
+
+##inswsbahn
+
+##inswgoand
+
+##inswlook
+
+##inswnice
+
+##inswthesign
+
+##inswnicesdf
+
+##inswneigh
+
+##inswpath
+
+##inswtor
+
+##inswtrees
+
+##inswpaths
+
+##inswbridg
+
+##inswrunning
+
+##inswpond
+
+##inswrein
+
+##inswlong
+
+##inswentere
+
+##inswthepath
+
+##inswsign
+
+##inswsun
+
+##inswspace
+
+##inswpark
+
+##insw208
+
+##inswoldviv
+
+##inswasynlum
+
+##inswgraf
+
+##inswfam
+
+##inswbestatt
+
+##inswphone
+
+##inswpathijis
+
+##inswthumbjs
+
+##inswtwo
+
+##inswliebe
+
+##inswman
+
+##inswssssun
+
+##inswcast
+
+##inswpower
+
+##inswdoener
+
+##inswfact
+
+##inswsahd
+
+##inswbrech
+
+##inswgreen
+
+##inswinside
+
+##inswthisj
+
+##inswcrowd
+
+##insweat
+
+##inswpres
+
+##inswsieg
+
+##inswclose
+
+##inswgraffff
+
+##inswstartni
+
+##inswrathh
+
+##inswgoingjs
+
+##inswcards
+
+##inswsimw
+
+##inswhangi
+]]
+extras::
+
+==run
 dpodId::i7s0my
 dpodWhenCreated::2025-01-13 22:50:56
 idCode::20250111
@@ -3628,7 +3765,7 @@ date::2025-01-12
 kilometers::20
 duration::02:19:00
 body::[[
-Created a new route up through Stadtpark and then back down Mozartstr. all the way to the edge of Berlin near GHO, then back into Berlin and out under the S2 S-Bahn to the industrial part of Mariendorf behind the Pferderennbahn, then back up Ringstr. and home. I took off a right at 2 hours before Moniko and Karl-Heinz were coming and made it back in about 02:20:00, so steady pace with stop lights, etc. 
+Created a new route up through Stadtpark and then back down Mozartstr. all the way to the edge of Berlin near GHO, then back into Berlin and out under the S2 S-Bahn to the industrial part of Mariendorf behind the Pferderennbahn, then back up Ringstr. and home. I took off a right at 2 hours before Moniko and Karl-Heinz were coming and made it back in about 02:20:00, so steady pace with stop lights, etc.
 
 ##twendown
 
@@ -3639,8 +3776,6 @@ Created a new route up through Stadtpark and then back down Mozartstr. all the w
 ##twenseconjd
 
 ##twenover
-
-##twentat
 
 ##twenbette
 
@@ -3668,6 +3803,6 @@ Created a new route up through Stadtpark and then back down Mozartstr. all the w
 
 ##twenbrand
 
-
+TODO: FINISH
 ]]
 extras::
