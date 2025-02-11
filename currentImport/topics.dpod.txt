@@ -383,8 +383,100 @@ dpodWhenCreated::2025-02-11 22:54:44
 category::Politics
 title::Deutsche Politik
 body::[[
-- testing
-	- test 1
-	- test 2
+- Parteien
+	- **CDU**
+		- Werte
+			- Wirtschaftswachstum
+			- innere Sicherheit
+			- eine starke europäische Integration
+		- Personen
+			- Friedrich Merz##fmerz
+				- Parteivorsitzender & Fraktionschef
+				- CDU-Vorsitzender seit 2022
+				- "Sozial ist, was Arbeit schafft"
+				- 2018 Rückkehr in die Politik
+			- Carsten Linnemann – Generalsekretär
+			- Hendrik Wüst - Ministerpräsident von NRW
+				- mögliche Zukunftshoffnung der CDU
+			- Kai Wegner – Regierender Bürgermeister von Berlin
+	- **SPD**
+		- Werte
+			- Soziale Gerechtigkeit
+			- Arbeitnehmerrechte
+			- eine start Sozialpolitik
+		- Personen
+			- Olaf Scholz
+			- Lars Klingbeil  – Parteivorsitzender
+			- Saskia Esken – Parteivorsitzende
+			- Kevin Kühnert – Generalsekretär
+			- Rolf Mützenich – Fraktionsvorsitzender im Bundestag
+	- **FDP**
+		- Werte
+			- individuelle Freiheit
+			- Marktwirtschaft
+			- Digitalisierung
+			- wenige staatliche Regulierung
+			- mehr Eigenverantwortung
+		- Personen
+			- Christian Lindner – Parteivorsitzender & Bundesfinanzminister##lindner
+			- Bijan Djir-Sarai – Generalsekretär
+			- Volker Wissing – Bundesverkehrsminister
+			- Johannes Vogel – Erster Parlamentarischer Geschäftsführer der FDP-Fraktion
+			- Marie-Agnes Strack-Zimmermann – Verteidigungspolitische Sprecherin
+	- **Die Grünen**
+		- Werte
+			- Umwelt- und Klimaschutz
+			- nachhaltige Entwicklung
+			- soziale Gerechtigkeit
+		- Personen
+			- Robert Habeck – Bundeswirtschaftsminister & Vizekanzler
+			- Annalena Baerbock – Bundesaußenministerin
+			- Ricarda Lang – Parteivorsitzende
+			- Omid Nouripour - Parteivorsitzender
+			- Katharina Dröge – Fraktionsvorsitzende im Bundestag
+	- **AfD**
+		- Werte
+			- kritisch gegenüber Einwanderung
+			- kritisch gegenüber der Europäische Union
+			- strebt danach, ihre Position durch Allianzen mit anderen europäischen Rechtsparteien zu stärken
+		- Personen
+			- Alice Weidel – Parteivorsitzende & Fraktionschefin
+				- lebt offen homosexuell mit ihrer Lebenspartnerin zusammen
+			- Björn Höcke – Parteichef in Thüringen & Spitzenfigur des rechten Flügels
+				- Gilt als einer der umstrittensten Politiker der Partei
+			- Tino Chrupalla – Parteivorsitzender
+			- Peter Boehringer – Bundesschatzmeister
+			- Stephan Brandner – Stellvertretender Bundesvorsitzender
+	- **Die Linke**
+		- Werte
+			- soziale Gerechtigkeit
+			- Umverteilung
+			- Friedenspolitik
+			- eine stärkere Regulierung der Wirtschaft
+		- Personen
+			- Janine Wissler – Parteivorsitzende
+			- Martin Schirdewan  – Parteivorsitzender
+			- Dietmar Bartsch – Fraktionsvorsitzender im Bundestag
+			- Gregor Gysi – Elder Statesman der Partei
+			- Sahra Wagenknecht (ehemals) – Ehemalige Spitzenpolitikerin
+				- Hat 2023 die Linke verlassen und ihre eigene Partei gegründet
+				- War lange eine der bekanntesten Figuren der Linken
+	- **Freie Wähler**
+		- Werte
+			- kommunale Selbstverwaltung
+			- pragmatische Politik ohne ideologische Bindung
+			- direkte Demokratie
+		- Personen
+			- Hubert Aiwanger - Vorsitzende der Freien Wähler
+	- **BSW**
+		- Bündnis Sahra Wagenknecht
+		- 2023 hat sie die Linke verlassen
+			- kritisierte die von der Linken vertretene pro-ukrainische Position und die damit verbundenen Sanktionen gegen Russland
+			- bei den Landtagswahlen in Thüringen im September 2024 bis zu 20 % der Stimmen gewinnen
+		- Werte
+			- soziale Gerechtigkeit
+			- Kritik an neoliberaler Wirtschaftspolitik
+		- Personen
+			- Sahra Wagenknecht##sahraw
 ]]
 extras::
