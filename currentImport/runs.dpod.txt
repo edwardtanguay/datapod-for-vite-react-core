@@ -4292,9 +4292,9 @@ extras::
 ==run
 dpodId::28u1H9
 dpodWhenCreated::2025-02-15 02:54:52
-idCode::20241118 
+idCode::20241118
 title::7K Lankwitz loop detour run
-date::2024-11-18 
+date::2024-11-18
 kilometers::7
 duration::00:45:00
 body::[[
@@ -4319,6 +4319,80 @@ Went out to do the 7K Landwizt loop, but was met with a major construction block
 ##okthruou
 
 ##okfins
+]]
+extras::
+
+==run
+dpodId::FyQPrP
+dpodWhenCreated::2025-02-15 03:00:57
+idCode::20241124
+title::2K of 15K run with second hamstring pull
+date::2024-11-24
+kilometers::2
+duration::00:20:00
+body::[[
+My leg felt ok for the 7K last run, so thought that my hamstring injury was over, so the plan today was to run a 15K out to Dahlem and back, but at 2K my left leg completely tightened up and would not let me run anymore, had to stop, was able to walk, but leg was very tight, had to be careful not to pull it too much, walked back home. Hope it heals soon, will take some time off running, not my original plan for this fall, but have to let it rest.
+
+##badout
+
+##badfins
+
+##badlast
+]]
+extras::
+
+==run
+dpodId::NmZSZj
+dpodWhenCreated::2025-02-15 03:42:44
+idCode::20241201
+title::15K from Friedrichshain
+date::2024-12-01
+kilometers::15
+duration::02:20:00
+body::[[
+I want to do a long run when I am in Hamburg next week and was worried about my hamstring pull. So decided to do a 15K run today very slow and paced, pampering my left leg as to not stress it in any way. I met Gisi in Friedrichshain at the theater that Karla will be acting in next week. She wanted to see how to get there on the U-Bahn, and I wanted to do a long run back home so we met, checked out the theater and then I took off back home. Leg was fine the whole way and really enjoyed being able to run again after last run's 2K hamstring pull again. The view of the setting sun on the urban landscape was beautiful. Looking forward to my Hamburg run next week.
+
+##backthe
+
+##backplane
+
+##backsign
+
+##backubah
+
+##backsun
+
+##backgraf
+
+##backbridgsd
+
+##backneu
+
+##backpara
+
+##backgray
+
+##backleine
+
+##backtabl
+
+##backsunnnn
+
+##backpower
+
+##backalaone
+
+##backrocket
+
+##backnice
+
+##backeck
+
+##backtun
+
+##backalm
+
+##backgoose
 ]]
 extras::
 
