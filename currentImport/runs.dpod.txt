@@ -4187,6 +4187,142 @@ This was my second run since the Eindhoven marathon, my goal is to not take a ru
 extras::
 
 ==run
+dpodId::S8dztL
+dpodWhenCreated::2025-02-15 02:16:19
+idCode::20241027
+title::11K with 5K Priesterweg weg
+date::2024-10-27
+kilometers::11
+duration::01:28:00
+body::[[
+Wanted to do my 11K with 5K sprint again at IKEA, nice to do the speed route again, got well under 30 minutes, nice run. Fall is gradually turning into winter.
+
+##againeg
+
+##againout
+
+##againgoing
+
+##againphan
+
+##againligh
+
+##againperm
+
+##againtuch
+
+##again28
+
+##againbuil
+
+##againgotodrk
+
+##againfall
+]]
+extras::
+
+==run
+dpodId::vXHACQ
+dpodWhenCreated::2025-02-15 02:31:19
+idCode::20241029
+title::7K Lankwitz City 7K loop
+date::2024-10-29
+kilometers::7
+duration::00:36:58
+body::[[
+Out for another Lankwitz City 7K loop, this one in the dark, realizing that winter is upon us.
+
+##befeat
+
+##beflight
+
+##befstar
+
+##befbus
+
+##befunder
+
+##befdrei
+
+##beffast
+
+##befbox
+
+##bef30
+]]
+extras::
+
+==run
+dpodId::RapQOt
+dpodWhenCreated::2025-02-15 02:42:38
+idCode::20241031
+title::7K left leg hamstring pull
+date::2024-10-31
+kilometers::7
+duration::00:38:22
+body::[[
+Went out for a 7K halloween run, was a cool run until at 4K my hamstring tightened up and reduced me to a very slow and careful pace. Was cool though to run through the halloween skating party, eventually made it home but only by being very careful how I much I move my left leg, hope it heals soon.
+
+##hurflow
+
+##hurout
+
+##hurdo
+
+##hurgoing
+
+##hurdark
+
+##hurbefor
+
+##hurthebg
+
+##hurabout
+
+##hurparty
+
+##hurand
+
+##hurgbrid
+
+##hur38
+]]
+extras::
+
+==run
+dpodId::28u1H9
+dpodWhenCreated::2025-02-15 02:54:52
+idCode::20241118 
+title::7K Lankwitz loop detour run
+date::2024-11-18 
+kilometers::7
+duration::00:45:00
+body::[[
+Went out to do the 7K Landwizt loop, but was met with a major construction block at Ben Franklin hospital, made it around the hospital and tried to get back to the canal, but to no avail, blocked again, so it became a longer run than usual. Also, it's November and night running again. Leg felt ok.
+
+##okthelack
+
+##okstairs
+
+##oklights
+
+##okfench
+
+##okbus
+
+##okblock
+
+##oktree
+
+##okno
+
+##okthruou
+
+##okfins
+]]
+extras::
+
+==run
 dpodId::i7s0my
 dpodWhenCreated::2025-01-13 22:50:56
 idCode::20250111
