@@ -4150,6 +4150,43 @@ I wanted to not take a break after my marathon this time so that I can stay in s
 extras::
 
 ==run
+dpodId::VHUcUs
+dpodWhenCreated::2025-02-15 01:55:04
+idCode::20241024
+title::7K Lankwitz city loop
+date::2024-10-24
+kilometers::7
+duration::00:37:28
+body::[[
+This was my second run since the Eindhoven marathon, my goal is to not take a running break after the marathon but to keep up my fitness more or less with 1 or 2 times a week smaller runs, so did a 7K Sunday and another today, felt good, was able to run strong, full stride, legs nicely sore the next day. This was my original 7K Lanwitz city loop and got a 37:28, which is around a nnnnn pace. Perhaps I'll go do my 5K timed-loop again to see if I can get down around 26 or 27 again.
+
+##mmotrash
+
+##mmocar
+
+##mmoout
+
+##mmoleav
+
+##mmostep
+
+##mmoshad
+
+##mmotruck
+
+##mmocafff
+
+##mmogass
+
+##mmoshdd
+
+##mmolight
+
+##mmotime
+]]
+extras::
+
+==run
 dpodId::i7s0my
 dpodWhenCreated::2025-01-13 22:50:56
 idCode::20250111
