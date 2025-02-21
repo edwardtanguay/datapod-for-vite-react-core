@@ -490,3 +490,23 @@ body::[[
 			- Sahra Wagenknecht##sahraw
 ]]
 extras::
+
+==topic
+dpodId::a4oijp
+dpodWhenCreated::2025-02-16 22:31:16
+category::Trips
+title::Alpenüberquerung 2025
+body::[[
+- Sep 1 - Sep 7
+- Überblick
+	- Tag 1 - in Garmisch-Partenkirchen ankommen
+	- Tag 2 - nach Mittenwald - 20 KM
+	- Tag 3 - nach Leutasch - 14 KM
+	- Tag 4 - nach Telfs/Nauders - 15 KM
+	- Tag 5 - nach Reschen - 14 KM
+	- Tag 6 - nach Naturns - 18 KM
+	- Tag 7 - nach Meran - 19 KM
+- Karte
+	- KMZ Datei: https://tanguay.info/run/kmz/alps2025.kmz##alpsoverview
+]]
+extras::
