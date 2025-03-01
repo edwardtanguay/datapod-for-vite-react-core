@@ -498,15 +498,22 @@ category::Trips
 title::Alpenüberquerung 2025
 body::[[
 - Sep 1 - Sep 7
-- Überblick
-	- Tag 1 - in Garmisch-Partenkirchen ankommen
-	- Tag 2 - nach Mittenwald - 20 KM
-	- Tag 3 - nach Leutasch - 14 KM
-	- Tag 4 - nach Telfs/Nauders - 15 KM
-	- Tag 5 - nach Reschen - 14 KM
-	- Tag 6 - nach Naturns - 18 KM
-	- Tag 7 - nach Meran - 19 KM
 - Karte
 	- KMZ Datei: https://tanguay.info/run/kmz/alps2025.kmz##alpsoverview
+- Überblick
+	- Tag 1 - in Garmisch-Partenkirchen ankommen
+		- Hotel##roomNotKnown
+	- Tag 2 - nach Mittenwald - 20 KM
+		- Hotel##roomNotKnown
+	- Tag 3 - nach Leutasch - 14 KM
+		- Hotel##roomNotKnown
+	- Tag 4 - nach Telfs/Nauders - 15 KM
+		- [Mein Almhof](https://www.meinalmhof.at/de/zimmer-suiten)##roomNauders
+	- Tag 5 - nach Reschen - 14 KM
+		- [Hotel Ortlerspitz](https://www.hotel-ortlerspitz.it/de/unsere-zimmer/21-0.html)##roomReschen
+	- Tag 6 - nach Naturns - 18 KM
+		- [Hotel Kleinkunst](https://www.kleinkunsthotel.com/de/wohnen-preise/kreative-zimmer/)##roomNaturns
+	- Tag 7 - nach Meran - 19 KM
+		- Hotel##roomNotKnown
 ]]
 extras::
