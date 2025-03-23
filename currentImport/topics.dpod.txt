@@ -517,3 +517,78 @@ body::[[
 		- Hotel##roomNotKnown
 ]]
 extras::
+
+==topic
+dpodId::w4bORK
+dpodWhenCreated::2025-03-13 00:24:58
+category::Trips
+title::Milano Marathon 2025
+body::[[
+- Training Run Lüneburg 34K
+	- Schließfächer am Bahnhof##lockbags
+	- [Airbnb](https://www.airbnb.de/rooms/954865334286087839?adults=2&check_in=2025-03-20&check_out=2025-03-21&location=L%C3%BCneburg%2C%20Deutschland&search_mode=regular_search&source_imp) - kitchen teilt mit anderen, not warm, two beds, good to try out with mattress
+- the marathon#gif#milanomarathon
+- links
+	- [trip map](http://etnotes.vercel.app/maps/milano2025-v003.kmz)
+	- marathon site: https://www.milanomarathon.it/
+	- Hannah's video: https://www.youtube.com/shorts/8_ujBY0rFKw
+	- 10 Sehenswürdigkeiten von Mailand: https://www.youtube.com/watch?v=LlBRe29gB8c
+	- Marathon race, aerial view: https://www.youtube.com/watch?v=bgcM7RSl8rk
+	- Come correre la Milano Marathon: l’analisi del nuovo percorso 2024 e tutte le novità della gara: https://www.youtube.com/watch?v=S4WPvOiQydg
+- todo
+	- find original link to flyover marathon route
+	- map out subway system
+	- Guida ai quartieri di Milano: https://dils.com/guida-quartieri/milano/
+	- make game, find the thing	
+- things to do
+	- swimming?
+	- Galleria Vittorio Emanuelle II - 1867
+	- Santa Maria delle Grazie - Abendmahl
+	- Civico Museo Archeologico - history of Milan
+	- Pinacoteca di Brera - Raffael, Bellini, Caravaggio
+	- Galleria d'Arte Moderna - Gauguin, van Gogh, Picasso - Napoleon lived here
+	- Cimitero Monumentale - interesting burial art, large cemetery
+	- Museo Nazionale della Scienza e della Tecnologia - Holzmodelle der Erfindungen da Vincis
+	- eat at Rotonda di Via Besana
+	- eat at Navigli, evening: https://www.youtube.com/watch?v=Fgp6ht5cUUM
+	- Airbnb experiences
+	- Leonardo da Vinci denkmal
+	- San Lorenzo Maggiore - gebaut in der 4. Jahrhundert
+- areas
+	- Brera Viertel, between Duomo and Parco Sempione
+	- Navigli Viertel, nice place to eat at night
+- infos
+	- marathon
+		- official start 8:30
+		- maximum time: 6.5 hours
+		- 11 refreshment points
+- Wed, April 2
+	- 10:30 Hannah arrives at Milano Malpensa airport
+	- 11:00-12:40 Eddie flies BER to Mailand Linate airport
+	- meet up after landing
+- Thu, April 3
+	- nnn
+- Fri, April 4
+	- nnn
+- Sat, April 5
+	- nnn
+- Sun, April 6
+	- 8:30 marathon official start
+	- travel to airport with Giacomo
+	- 19:40 Hannah flies back from Milano Malpensa airport
+- Mon, April 7
+	- Bergamo?
+- Tue, April 8
+	- 8:00-9:40 Eddie flies Mailand Linate to BER
+- images
+	- Milan Metro##milanmetro
+	- marathon map##milanmaramap
+- Milan
+	- three areas
+		- Altstadt
+		- Norden
+		- Süden
+- March floods
+	- Seveso and Lambro rivers##sevlam
+]]
+extras::
