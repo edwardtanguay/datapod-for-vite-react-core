@@ -4544,7 +4544,7 @@ extras::
 dpodId::er0HPD
 dpodWhenCreated::2025-03-23 00:38:57
 idCode::20250320
-title::34K marathon training run with Hannah in Lüneburg
+title::34K Marathon Training Run with Hannah in Lüneburg
 date::2025-03-20
 kilometers::34
 duration::04:17:34
