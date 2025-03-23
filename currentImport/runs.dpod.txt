@@ -4544,12 +4544,14 @@ extras::
 dpodId::er0HPD
 dpodWhenCreated::2025-03-23 00:38:57
 idCode::20250320
-title::34K with Hannah in Lüneburg
+title::34K marathon training run with Hannah in Lüneburg
 date::2025-03-20
 kilometers::34
 duration::04:17:34
 body::[[
 Our marathon is in two weeks and Hannah was having a hard time finding friends who want to run more than 5K with her, so we decided to meet up in a city between Berlin and Hamburg for a run. I had done up to 28K, 30K, 32K in this last weeks so we decided to meet up in Lüneburg for a 34K run. Hannah arrived first and made sure there were train station lockers for our extra clothes etc. I arrived at 9:01 and decided to put our jackets in the locker as the temperature which had started at -1°C this morning was 7°C and would be 14°C by the end of our run. We took off into 15K of forest, really fun running, we were the same speed the whole time, staying under a 7:00 pace. After 15K my legs started to slack off, Hannah ran ahead and I stayed a good distance behind her. By 25K I caught up, we got some more water at a bakery, then ran together, Hannah holding back a bit to stay with me since I had the route on my phone via Google Earth app. At 30K we entered the Altstadt and Hannah stayed ahead of me, I was giving her thumb signals left or right to her up ahead so she knew where to go. Her phone lost Akku at 33.5 kilometers, so we ran another half kilometer about 400m in front of the train station and called it a race. Weather was absolutely beautiful. We got a drink and relaxed in the sun afterwards, then had a nice evening with a victural Schnitzel as is the tradition and then spent the next day in the beautiful city of Lüneburg.
+
+##luenthemap
 
 ##luenbreak1
 
