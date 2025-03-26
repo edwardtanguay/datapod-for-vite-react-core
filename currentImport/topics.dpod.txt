@@ -524,24 +524,28 @@ dpodWhenCreated::2025-03-13 00:24:58
 category::Trips
 title::Milano Marathon 2025
 body::[[
-- Training Run Lüneburg 34K
-	- Schließfächer am Bahnhof##lockbags
-	- [Airbnb](https://www.airbnb.de/rooms/954865334286087839?adults=2&check_in=2025-03-20&check_out=2025-03-21&location=L%C3%BCneburg%2C%20Deutschland&search_mode=regular_search&source_imp) - kitchen teilt mit anderen, not warm, two beds, good to try out with mattress
-- the marathon#gif#milanomarathon
+- take
+	- house slippers
+	- loading cables
+	- swimsuit
 - links
-	- [trip map](http://etnotes.vercel.app/maps/milano2025-v003.kmz)
+	- [KMZ file for trip](http://etnotes.vercel.app/maps/milano2025-v003.kmz) (for Google Earth App)
 	- marathon site: https://www.milanomarathon.it/
 	- Hannah's video: https://www.youtube.com/shorts/8_ujBY0rFKw
 	- 10 Sehenswürdigkeiten von Mailand: https://www.youtube.com/watch?v=LlBRe29gB8c
-	- Marathon race, aerial view: https://www.youtube.com/watch?v=bgcM7RSl8rk
+	- Marathon race, flyover aerial view: https://www.youtube.com/watch?v=bgcM7RSl8rk
 	- Come correre la Milano Marathon: l’analisi del nuovo percorso 2024 e tutte le novità della gara: https://www.youtube.com/watch?v=S4WPvOiQydg
 - todo
-	- find original link to flyover marathon route
+	- read through marathon infos
+	- plan pick up numbers
 	- map out subway system
 	- Guida ai quartieri di Milano: https://dils.com/guida-quartieri/milano/
 	- make game, find the thing	
-- things to do
-	- swimming?
+- possible activities
+	- swimming
+		- ** [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/), 19-22, 10 minutes from apartment
+		- [Piscina olimpionica], larger, 
+		- [Piscina comunale](https://sportplussrl.it/segrate), 
 	- Galleria Vittorio Emanuelle II - 1867
 	- Santa Maria delle Grazie - Abendmahl
 	- Civico Museo Archeologico - history of Milan
@@ -565,13 +569,14 @@ body::[[
 - Wed, April 2
 	- 10:30 Hannah arrives at Milano Malpensa airport
 	- 11:00-12:40 Eddie flies BER to Mailand Linate airport
-	- meet up after landing
+	- 13:00 at airport, get weekly metro pass
+		- https://www.atm.it/it/Pagine/default.aspx
 - Thu, April 3
-	- nnn
+	- race numbers: Thursday, April 3 | 14:00 - 20:00
 - Fri, April 4
-	- nnn
+	- race numbers: Friday, April 4 | 10:00 - 20:00
 - Sat, April 5
-	- nnn
+	- race numbers: Saturday, April 5 | 9:00 - 19:00
 - Sun, April 6
 	- 8:30 marathon official start
 	- travel to airport with Giacomo
@@ -581,8 +586,13 @@ body::[[
 - Tue, April 8
 	- 8:00-9:40 Eddie flies Mailand Linate to BER
 - images
+	- the marathon#gif#milanomarathon
 	- Milan Metro##milanmetro
+	- extended Metro map##metrolargemap
 	- marathon map##milanmaramap
+- Italian geography
+	- main regions and cities##italyMainCities
+	- bodies of water in Italy##bodiesWater
 - Milan
 	- three areas
 		- Altstadt
