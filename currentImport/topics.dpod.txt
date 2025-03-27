@@ -524,6 +524,42 @@ dpodWhenCreated::2025-03-13 00:24:58
 category::Trips
 title::Milano Marathon 2025
 body::[[
+- **Wed, April 2**
+	- 08:45-10:30 Hannah flies to Malpensa airport
+	- 11:00-12:40 I fly to Linate airport
+	- 13:00 Hannah meets me at Linate airport
+		- buy [weekly metro pass](https://www.atm.it/it/Pagine/default.aspx)
+	- 16:00-18:00 [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)-15€
+	- 18:30-20:00 [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)-15€
+- **Thu, April 3**
+	- 14:00-20:00 pick up race numbers
+	- 09:30-13:00 [Große E-Bike-Tour durch Mailand mit einem Einheimischen](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)-49€
+	- 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)-25€
+	- 10:30-13:00 [A curated journey through Milan's art galleries - 55€](https://www.airbnb.de/experiences/5729204?guests=1&adults=2&s=67&unique_share_id=c7dccf9f-ed77-4e07-b292-1ab0a2d0dfad)
+	- 16:00-18:00 [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)-15€
+	- 18:30-20:00 [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)
+- **Fri, April 4**
+	- 10:00-20:00 pick up race numbers
+	- 09:00-11:00 [Milano Oscura - Crimini, Stregoneria e Misteri Nascosti](https://www.airbnb.de/experiences/5468690?guests=1&adults=2&s=67&unique_share_id=376e714d-ad03-4238-97ba-42a4f2cd037a)
+	- 09:30-13:00 [Große E-Bike-Tour durch Mailand mit einem Einheimischen](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)-49€
+	- 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)-25€
+	- 10:30-13:00 [A curated journey through Milan's art galleries - 55€](https://www.airbnb.de/experiences/5729204?guests=1&adults=2&s=67&unique_share_id=c7dccf9f-ed77-4e07-b292-1ab0a2d0dfad)
+	- 16:00-18:00 [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)-15€
+- **Sat, April 5**
+	- 09:00-19:00 pick up race numbers
+	- 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)-25€
+	- 14:30-16:30 [Spaziergang: Entdecke das neue Mailand](https://www.airbnb.de/experiences/3956557?guests=1&adults=2&s=67&unique_share_id=583fbce1-8fe4-4b7e-b4c5-1a34434e7f13)-29€
+	- 16:00-18:00 [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)-15€
+- **Sun, April 6**
+	- 08:30 start marathon
+	- 15:00 finish marathon
+	- 16:00 travel to airport with Giacomo
+	- 17:40 be at airport
+	- 19:40-21:25 Hannah flies back from Milano Malpensa airport
+- **Mon, April 7**
+	- spend day in Bergamo
+- **Tue, April 8**
+	- 8:00-9:40 fly from Linate to BER
 - take
 	- house slippers
 	- loading cables
@@ -552,8 +588,8 @@ body::[[
 		- ** [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/), 19-22, 10 minutes from apartment
 		- [Piscina olimpionica], larger,
 		- [Piscina comunale](https://sportplussrl.it/segrate)
-	- Parco Sempione 
-		- go in Castello Sforzesco 
+	- Parco Sempione
+		- go in Castello Sforzesco
 	- CLASSIC: Pinacoteca di Brera - Raffael, Bellini, Caravaggio
 		- 8.30am – 7.15pm (last entrance at 6pm)
 		- afterward: Latteria San Marco
@@ -590,40 +626,6 @@ body::[[
 		- official start 8:30
 		- maximum time: 6.5 hours
 		- 11 refreshment points
-- Wed, April 2
-	- 10:30 Hannah arrives at Milano Malpensa airport
-	- 11:00-12:40 Eddie flies BER to Mailand Linate airport
-	- 13:00 at airport, get weekly metro pass
-		- https://www.atm.it/it/Pagine/default.aspx
-	- 16:00-18:00 [Erkunde die moderne Seite von Mailand - 15€](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)
-	- 18:30-20:00 [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)
-- Thu, April 3
-	- 9:30-13:00 [Große E-Bike-Tour durch Mailand mit einem Einheimischen - 49€](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)
-	- race numbers: Thursday, April 3 | 14:00 - 20:00
-	- 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen - 25€](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)
-	- 10:30-13:00 [A curated journey through Milan's art galleries - 55€](https://www.airbnb.de/experiences/5729204?guests=1&adults=2&s=67&unique_share_id=c7dccf9f-ed77-4e07-b292-1ab0a2d0dfad)
-	- 16:00-18:00 [Erkunde die moderne Seite von Mailand - 15€](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)
-	- 18:30-20:00 [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)
-- Fri, April 4
-	- 09:00-11:00 [Milano Oscura - Crimini, Stregoneria e Misteri Nascosti](https://www.airbnb.de/experiences/5468690?guests=1&adults=2&s=67&unique_share_id=376e714d-ad03-4238-97ba-42a4f2cd037a)
-	- 9:30-13:00 [Große E-Bike-Tour durch Mailand mit einem Einheimischen - 49€](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)
-	- 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen - 25€](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)
-	- 10:30-13:00 [A curated journey through Milan's art galleries - 55€](https://www.airbnb.de/experiences/5729204?guests=1&adults=2&s=67&unique_share_id=c7dccf9f-ed77-4e07-b292-1ab0a2d0dfad)
-	- 16:00-18:00 [Erkunde die moderne Seite von Mailand - 15€](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)
-	- race numbers: Friday, April 4 | 10:00 - 20:00
-- Sat, April 5
-	- 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen - 25€](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)
-	- 14:30-16:30 [Spaziergang: Entdecke das neue Mailand - 29€](https://www.airbnb.de/experiences/3956557?guests=1&adults=2&s=67&unique_share_id=583fbce1-8fe4-4b7e-b4c5-1a34434e7f13)
-	- 16:00-18:00 [Erkunde die moderne Seite von Mailand - 15€](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)
-	- race numbers: Saturday, April 5 | 9:00 - 19:00
-- Sun, April 6
-	- 8:30 marathon official start
-	- travel to airport with Giacomo
-	- 19:40 Hannah flies back from Milano Malpensa airport
-- Mon, April 7
-	- Bergamo?
-- Tue, April 8
-	- 8:00-9:40 Eddie flies Mailand Linate to BER
 - images
 	- the marathon#gif#milanomarathon
 	- Milan Metro##milanmetro
@@ -641,9 +643,9 @@ body::[[
 	- Seveso and Lambro rivers##sevlam
 - Milano
 	- population: 1.4 million
-	- history: 
+	- history:
 		- 600 BCE established by Celtics
-		- 222 BCE conquered by Romans 
+		- 222 BCE conquered by Romans
 		- 286 CE Emperor Diocletian made it capital of Western Roman Empire for a time
 - find
 	- Princi##findPrinci
