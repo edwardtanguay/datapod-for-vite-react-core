@@ -5,6 +5,163 @@ Body;p
 Extras
 
 ==topic
+dpodId::w4bORK
+dpodWhenCreated::2025-03-13 00:24:58
+category::Trips
+title::Milano Marathon 2025
+body::[[
+- **Wed, April 2**
+	- ✈️ 08:45-10:30 Hannah flies to Malpensa airport
+	- ✈️ 11:00-12:40 I fly to Linate airport
+	- 🧑🏻‍🤝‍🧑🏻 13:00 Hannah meets me at Linate airport##airportss
+	- buy [weekly metro pass](https://www.atm.it/EN/VIAGGIACONNOI/BIGLIETTI/Pages/HowtogetaroundMilanbypublictransport.aspx)##t7tick
+	- 🏡 15:00-16:00 meet Alessandro at Apartment
+	- ✅ 16:00-18:00 (meet Piazza Gae Aulenti) [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)##modernside
+	- ✅ 18:30-20:00 (meet at Piazza La Scala) [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)##milanduomo
+- **Thu, April 3**
+	- ✅ 09:30-13:00 (meet Piazza Caiazzo) [Große E-Bike-Tour durch Mailand mit einem Einheimischen](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)##biketoutou
+	- 7️⃣ 14:00-15:00 pick up race numbers (open today 14-20)
+		- Access is from Gate 2 EGINARDO and Gate 1 PARK. The nearest subway stop is Portello, on the M5 Lilla line.##getnumbers
+	- 🍕 dinner in Navigli##dinnernav
+- **Fri, April 4**
+	- ✅ 10:30-12:30 (meet Statione Milano-Cadorna) [Die Geheimnisse von Mailand: Ein sehr Mailändischer Rundgang](https://www.airbnb.de/experiences/180436?checkin=2025-04-04&location=Mailand%2C%20Lombardei%2C%20Italien&currentTab=experience_tab&federatedSearchId=a419aafe-751e-4a5f-9cea-5594bcba3d1d&searchId=b1ce577d-e7f1-40e6-b871-a40b55f68b2f&sectionId=8078381f-3952-4436-a3e4-35eb3a5f17bb)##walktourour
+	- 🖼️ Pinacoteca di Brera##findHayezKiss
+	- 📚 bookstore
+		- Hoepli International Bookstore##hoepli
+		- Feltrinelli Bookstore##feltrinelliBookstore
+	- 🥗 Dinner at Roof Milano##roofmilanon
+	- 🏊‍♀️ 20:00-21:00 swimming at [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/)
+		- open [Wed, Thu, Fri 19-22](https://www.milanosport.it/workspace/uploads/2024_orari-piscine-coperte-dal-27-settembre-2024-all-8-giugno-2025-agg-15-03-25-v2.pdf), 10 minutes from apartment##thepooolo
+- **Sat, April 5**
+	- ✅ 10:00-12:00 (meet near 3K point) [Porta Venezia - Staddstiltteilfuehrung - Jugen](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)##stairsss
+	- 🏊‍♀ ?Piscina Guido Romano##guidoromano
+	- ✅ 14:30-16:30 (meet Piazza Duca d'Aosta) [Spaziergang: Entdecke das neue Mailand](https://www.airbnb.de/experiences/3956557?guests=1&adults=2&s=67&unique_share_id=583fbce1-8fe4-4b7e-b4c5-1a34434e7f13)##greenhousjhs
+	- 🍝 Carb loading at Latteria San Marco##pastload
+	- get psyched
+		- race route is one of the fastest##thefastone
+		- stay with the pacers##staywithpac
+	- prepare for tomorrow
+		- ??? get everything ready for a quick shower and change of clothes after the race
+- **Sun, April 6**
+	- 🔢 [MARATHON  INFO PDF](https://www.milanomarathon.it/wp-content/uploads/2025/03/Official-Handbook-Wizz-Air-Milano-Marathon-2025.pdf)
+	- 👜 06:00 bag drop opens
+	- 🟩 07:00 start area opens
+	- 🟨 08:00 be in start area
+	- 🟥 08:20 start area closes
+	- 🏃‍♀️ 08:30 marathon start##thestartmil
+	- 💪 13:30-15:00 marathon finish##thefinishis
+	- 🚅 16:00 travel to airport with Giacomo
+	- ✈️ 17:40 be at airport
+	- 👋🏼 19:40-21:25 Hannah flies back from Milano Malpensa airport
+	- 🔢 [marathon results](https://www.endu.net/it/events/wizz-air-milano-marathon/results)
+- **Mon, April 7**
+	- 🚅 8:40-9:25 train to Bergamo##bergamo
+	- ✅ 11:00-14:00 [Experience Bergamo with Agnish](https://www.airbnb.de/experiences/4030809?checkin=2025-04-07&location=Bergamo%2C%20Lombardei%2C%20Italien&currentTab=experience_tab&federatedSearchId=46d9bc57-6376-4e20-b4fa-8129caca3283&searchId=d10fdec5-814e-4ab8-afce-900fd1edba44&sectionId=f0cbbf8d-02ff-4035-8188-5904f6b2d2e7)
+- **Tue, April 8**
+	- ️✈️ 8:00-9:40 fly from Linate to BER
+- take
+	- printed out: marathon and plane tickets
+		- "Confirmation Letter - On March 31, you will receive your confirmation letter with all the useful information about your registration status, bib number, and information about how and when to pick up your bib and race bag. Check your email and get ready!"
+	- enough cash
+	- all IDs, passports
+	- house slippers
+	- loading cables
+	- swimsuit
+- links
+	- [KMZ file for trip](http://etnotes.vercel.app/maps/milano2025-ver002.kmz) (for Google Earth App)
+	- marathon site: https://www.milanomarathon.it/
+	- Hannah's video: https://www.youtube.com/shorts/8_ujBY0rFKw
+	- 10 Sehenswürdigkeiten von Mailand: https://www.youtube.com/watch?v=LlBRe29gB8c
+	- Marathon race, flyover aerial view: https://www.youtube.com/watch?v=bgcM7RSl8rk
+	- Come correre la Milano Marathon: l’analisi del nuovo percorso 2024 e tutte le novità della gara: https://www.youtube.com/watch?v=S4WPvOiQydg
+- todo
+	- write Alex about Bergamo
+	- print out marathon tickets (when email comes)
+	- map out subway system
+	- read through marathon infos
+	- Guida ai quartieri di Milano: https://dils.com/guida-quartieri/milano/
+	- make game, find the thing	
+	- watch many videos
+- neighborhoods
+	- [Porta Romana](https://en.wikipedia.org/wiki/Porta_Romana_(Milan))
+		- in first place in the ranking of the neighborhoods that offer the best liveability in Milan
+- definite activities
+	- go to top of Duomo
+		- Dach: 9-19 Uhr, 13 euro for stairs
+	- spend time in Galleria Vittorio Emanuele II
+		- architectural shopping area
+- possible activities
+	- swimming
+		- ** [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/), 19-22, 10 minutes from apartment
+		- [Piscina olimpionica], larger,
+		- [Piscina comunale](https://sportplussrl.it/segrate)
+	- Parco Sempione
+		- go in Castello Sforzesco
+	- CLASSIC: Pinacoteca di Brera - Raffael, Bellini, Caravaggio
+		- 8.30am – 7.15pm (last entrance at 6pm)
+		- afterward: Latteria San Marco
+	- MODERN: Museo del Novecento
+		- The museum’s upper floors provide a breathtaking view of Milan’s Cathedral.
+		- great alternative to Milan’s classical art museums like Pinacoteca di Brera
+	- Roof Milano Cafe
+		- view of Milano
+	- evening in Navilgli
+		- afternoon boot trip?
+	- Castello Sforzesco
+	- Galleria Vittorio Emanuelle II - 1867
+	- Santa Maria delle Grazie - Abendmahl
+	- Civico Museo Archeologico - history of Milan
+	- Galleria d'Arte Moderna - Gauguin, van Gogh, Picasso - Napoleon lived here
+	- Cimitero Monumentale - interesting burial art, large cemetery
+	- Museo Nazionale della Scienza e della Tecnologia - Holzmodelle der Erfindungen da Vincis
+	- eat at Rotonda di Via Besana
+	- eat at Navigli, evening: https://www.youtube.com/watch?v=Fgp6ht5cUUM
+	- Airbnb experiences
+	- Leonardo da Vinci denkmal
+	- San Lorenzo Maggiore - gebaut in der 4. Jahrhundert
+- places
+	- Corso Como
+		- bars and restaurants
+- minor activities
+	- Princi - best bakeries in Milano
+- areas
+	- Brera Viertel, between Duomo and Parco Sempione
+	- Navigli Viertel, nice place to eat at night
+- infos
+	- marathon
+		- official start 8:30
+		- maximum time: 6.5 hours
+		- 11 refreshment points
+- images
+	- the marathon#gif#milanomarathon
+	- Milan Metro##newmilmap
+	- OLD Milan Metro##milanmetro
+	- extended Metro map##metrolargemap
+	- marathon map##milanmaramap
+- Italian geography
+	- main regions and cities##italyMainCities
+	- bodies of water in Italy##bodiesWater
+- Milan
+	- three areas
+		- Altstadt
+		- Norden
+		- Süden
+- 2014 floods in Milan
+	- Seveso and Lambro rivers##sevlam
+- Milano
+	- population: 1.4 million
+	- history:
+		- 600 BCE established by Celtics
+		- 222 BCE conquered by Romans
+		- 286 CE Emperor Diocletian made it capital of Western Roman Empire for a time
+- find
+	- Princi##findPrinci
+	- Bartholomew Flayed##findBartholomaus
+	- Hayez The Kiss
+]]
+extras::
+
+==topic
 dpodId::2EHGDd
 dpodWhenCreated::2024-11-30 01:39:42
 category::Hamburg
@@ -515,149 +672,5 @@ body::[[
 		- [Hotel Kleinkunst](https://www.kleinkunsthotel.com/de/wohnen-preise/kreative-zimmer/)##roomNaturns
 	- Tag 7 - nach Meran - 19 KM
 		- Hotel##roomNotKnown
-]]
-extras::
-
-==topic
-dpodId::w4bORK
-dpodWhenCreated::2025-03-13 00:24:58
-category::Trips
-title::Milano Marathon 2025
-body::[[
-- **Wed, April 2**
-	- ✈️ 08:45-10:30 Hannah flies to Malpensa airport
-	- ✈️ 11:00-12:40 I fly to Linate airport
-	- 🧑🏻‍🤝‍🧑🏻 13:00 Hannah meets me at Linate airport
-		- buy [weekly metro pass](https://www.atm.it/it/Pagine/default.aspx)##airportss
-	- 🏡 15:00-16:00 meet Alessandro at Apartment
-	- ✅ 16:00-18:00 [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)##modernside
-	- ✅ 18:30-20:00 (meet at Piazza La Scala) [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)##milanduomo
-- **Thu, April 3**
-	- ✅ 09:30-13:00 [Große E-Bike-Tour durch Mailand mit einem Einheimischen](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)##biketoutou
-	- 7️⃣ 14:00-15:00 pick up race numbers (open today 14-20)
-		- Access is from Gate 2 EGINARDO and Gate 1 PARK. The nearest subway stop is Portello, on the M5 Lilla line.##getnumbers
-	- 🍕 dinner in Navigli##dinnernav
-- **Fri, April 4**
-	- ✅ 10:30-12:30 [Die Geheimnisse von Mailand: Ein sehr Mailändischer Rundgang](https://www.airbnb.de/experiences/180436?checkin=2025-04-04&location=Mailand%2C%20Lombardei%2C%20Italien&currentTab=experience_tab&federatedSearchId=a419aafe-751e-4a5f-9cea-5594bcba3d1d&searchId=b1ce577d-e7f1-40e6-b871-a40b55f68b2f&sectionId=8078381f-3952-4436-a3e4-35eb3a5f17bb)##walktourour
-	- 🖼️ Pinacoteca di Brera##findHayezKiss
-	- 📚 bookstore
-		- Hoepli International Bookstore##hoepli
-		- Feltrinelli Bookstore##feltrinelliBookstore
-	- 🥗 Dinner at Roof Milano##roofmilanon
-	- 🏊‍♀️ 20:00-21:00 swimming at [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/)
-		- open [Wed, Thu, Fri 19-22](https://www.milanosport.it/workspace/uploads/2024_orari-piscine-coperte-dal-27-settembre-2024-all-8-giugno-2025-agg-15-03-25-v2.pdf), 10 minutes from apartment##thepooolo
-- **Sat, April 5**
-	- ✅ 10:00-12:00 [Porta Venezia - Staddstiltteilfuehrung - Jugen](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)##stairsss
-	- ✅  14:30-16:30 [Spaziergang: Entdecke das neue Mailand](https://www.airbnb.de/experiences/3956557?guests=1&adults=2&s=67&unique_share_id=583fbce1-8fe4-4b7e-b4c5-1a34434e7f13)##greenhousjhs
-	- 🍝 Carb loading at Latteria San Marco##pastload
-- **Sun, April 6**
-	- 🏃‍♀️ 08:30 marathon start##thestartmil
-	- 💪 13:30-15:00 marathon finish##thefinishis
-	- 🚅 16:00 travel to airport with Giacomo
-	- ✈️ 17:40 be at airport
-	- 👋🏼 19:40-21:25 Hannah flies back from Milano Malpensa airport
-- **Mon, April 7**
-	- 🚅 8:40-9:25 train to Bergamo##bergamo
-	- ⬜ 11:00-14:00 [Experience Bergamo with Agnish](https://www.airbnb.de/experiences/4030809?checkin=2025-04-07&location=Bergamo%2C%20Lombardei%2C%20Italien&currentTab=experience_tab&federatedSearchId=46d9bc57-6376-4e20-b4fa-8129caca3283&searchId=d10fdec5-814e-4ab8-afce-900fd1edba44&sectionId=f0cbbf8d-02ff-4035-8188-5904f6b2d2e7)
-- **Tue, April 8**
-	- ️✈️ 8:00-9:40 fly from Linate to BER
-- take
-	- printed out: marathon and plane tickets
-		- "Confirmation Letter - On March 31, you will receive your confirmation letter with all the useful information about your registration status, bib number, and information about how and when to pick up your bib and race bag. Check your email and get ready!"
-	- enough cash
-	- all IDs, passports
-	- house slippers
-	- loading cables
-	- swimsuit
-- links
-	- [KMZ file for trip](http://etnotes.vercel.app/maps/milano2025-v003.kmz) (for Google Earth App)
-	- marathon site: https://www.milanomarathon.it/
-	- Hannah's video: https://www.youtube.com/shorts/8_ujBY0rFKw
-	- 10 Sehenswürdigkeiten von Mailand: https://www.youtube.com/watch?v=LlBRe29gB8c
-	- Marathon race, flyover aerial view: https://www.youtube.com/watch?v=bgcM7RSl8rk
-	- Come correre la Milano Marathon: l’analisi del nuovo percorso 2024 e tutte le novità della gara: https://www.youtube.com/watch?v=S4WPvOiQydg
-- todo
-	- write Alex about Bergamo
-	- print out marathon tickets (when email comes)
-	- map out subway system
-	- read through marathon infos
-	- Guida ai quartieri di Milano: https://dils.com/guida-quartieri/milano/
-	- make game, find the thing	
-	- watch many videos
-- neighborhoods
-	- [Porta Romana](https://en.wikipedia.org/wiki/Porta_Romana_(Milan))
-		- in first place in the ranking of the neighborhoods that offer the best liveability in Milan
-- definite activities
-	- go to top of Duomo
-		- Dach: 9-19 Uhr, 13 euro for stairs
-	- spend time in Galleria Vittorio Emanuele II
-		- architectural shopping area
-- possible activities
-	- swimming
-		- ** [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/), 19-22, 10 minutes from apartment
-		- [Piscina olimpionica], larger,
-		- [Piscina comunale](https://sportplussrl.it/segrate)
-	- Parco Sempione
-		- go in Castello Sforzesco
-	- CLASSIC: Pinacoteca di Brera - Raffael, Bellini, Caravaggio
-		- 8.30am – 7.15pm (last entrance at 6pm)
-		- afterward: Latteria San Marco
-	- MODERN: Museo del Novecento
-		- The museum’s upper floors provide a breathtaking view of Milan’s Cathedral.
-		- great alternative to Milan’s classical art museums like Pinacoteca di Brera
-	- Roof Milano Cafe
-		- view of Milano
-	- evening in Navilgli
-		- afternoon boot trip?
-	- Castello Sforzesco
-	- Galleria Vittorio Emanuelle II - 1867
-	- Santa Maria delle Grazie - Abendmahl
-	- Civico Museo Archeologico - history of Milan
-	- Galleria d'Arte Moderna - Gauguin, van Gogh, Picasso - Napoleon lived here
-	- Cimitero Monumentale - interesting burial art, large cemetery
-	- Museo Nazionale della Scienza e della Tecnologia - Holzmodelle der Erfindungen da Vincis
-	- eat at Rotonda di Via Besana
-	- eat at Navigli, evening: https://www.youtube.com/watch?v=Fgp6ht5cUUM
-	- Airbnb experiences
-	- Leonardo da Vinci denkmal
-	- San Lorenzo Maggiore - gebaut in der 4. Jahrhundert
-- places
-	- Corso Como
-		- bars and restaurants
-- minor activities
-	- Princi - best bakeries in Milano
-- areas
-	- Brera Viertel, between Duomo and Parco Sempione
-	- Navigli Viertel, nice place to eat at night
-- infos
-	- marathon
-		- official start 8:30
-		- maximum time: 6.5 hours
-		- 11 refreshment points
-- images
-	- the marathon#gif#milanomarathon
-	- Milan Metro##milanmetro
-	- extended Metro map##metrolargemap
-	- marathon map##milanmaramap
-- Italian geography
-	- main regions and cities##italyMainCities
-	- bodies of water in Italy##bodiesWater
-- Milan
-	- three areas
-		- Altstadt
-		- Norden
-		- Süden
-- 2014 floods in Milan
-	- Seveso and Lambro rivers##sevlam
-- Milano
-	- population: 1.4 million
-	- history:
-		- 600 BCE established by Celtics
-		- 222 BCE conquered by Romans
-		- 286 CE Emperor Diocletian made it capital of Western Roman Empire for a time
-- find
-	- Princi##findPrinci
-	- Bartholomew Flayed##findBartholomaus
-	- Hayez The Kiss
 ]]
 extras::
