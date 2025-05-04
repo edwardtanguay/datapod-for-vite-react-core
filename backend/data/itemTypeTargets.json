@@ -1,42 +1,6 @@
 [
 	{
-		"itemType": "tasks",
-		"jsonFilePathAndFileName": "/edward/datapod2023/datapod-tanguay-eu/src/data/tasks.json"
-	},
-	{
-		"itemType": "centralDatapodSiteBlocks",
-		"jsonFilePathAndFileName": "/edward/datapod2023/datapod-tanguay-eu/src/data/centralDatapodSiteBlocks.json"
-	},
-	{
 		"itemType": "runs",
-		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-runs.json"
-	},
-	{
-		"itemType": "swims",
-		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-swims.json"
-	},
-	{
-		"itemType": "weights",
-		"jsonFilePathAndFileName": "/edward/datapod2023/edward-tanguay-eu/src/data/itemType-weights.json"
-	},
-	{
-		"itemType": "topics",
-		"jsonFilePathAndFileName": "/edward/learn2024/etnotes/src/data/itemtype_topics.json"
-	},
-	{
-		"itemType": "bookNotes",
-		"jsonFilePathAndFileName": "/edward/qubiduTech/booknotes/booknotes/src/data/bookNotes.json"
-	},
-	{
-		"itemType": "skills",
-		"jsonFilePathAndFileName": "/edward/datapod2023/tanguay-eu/src/data/itemtype_skills.json"
-	},
-	{
-		"itemType": "dutchVerbs",
-		"jsonFilePathAndFileName": "/edward/learn2024/langcore/src/data/dutchVerbs.json"
-	},
-	{
-		"itemType": "dutchVerbExamples",
-		"jsonFilePathAndFileName": "/edward/learn2024/langcore/src/data/dutchVerbExamples.json"
+		"jsonFilePathAndFileName": "/home/edward/edward/projects/apps/edward-tanguay-eu/src/data/itemType-runs.json"
 	}
 ]
