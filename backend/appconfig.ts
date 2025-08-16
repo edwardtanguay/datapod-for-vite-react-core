@@ -25,7 +25,7 @@ export const backendPort = (): number => {
 }
 
 export const importDirectory = (): string => {
-	return 'currentImport';
+	return 'currentImport-2025';
 }
 
 export const backendBaseUrl = (): string => {

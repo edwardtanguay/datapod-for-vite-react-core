@@ -1,0 +1,616 @@
+** Topics
+Category
+Title
+Body;p
+Extras
+
+==topic
+dpodId::w4bORK
+dpodWhenCreated::2025-03-13 00:24:58
+category::Trips
+title::Milano Marathon 2025
+body::[[
+- infos
+	- [Milan KMZ file](http://etnotes.vercel.app/maps/milano2025-v004.kmz) (for Google Earth App)
+- **Wed, April 2**
+	- ✈️ 08:45-10:30 Hannah flies to Malpensa airport
+	- ✈️ 11:00-12:40 I fly to Linate airport
+	- 🧑🏻‍🤝‍🧑🏻 13:00 Hannah meets me at Linate airport##airportss
+	- buy [weekly metro pass](https://www.atm.it/EN/VIAGGIACONNOI/BIGLIETTI/Pages/HowtogetaroundMilanbypublictransport.aspx)##t7tick
+	- Milan Metro##newmilmap
+	- 🏡 15:00-16:00 meet Alessandro at Apartment
+	- ✅ 16:00-18:00 (meet Piazza Gae Aulenti) [Erkunde die moderne Seite von Mailand](https://www.airbnb.de/experiences/4528971?guests=1&adults=2&s=67&unique_share_id=52f1f8c4-5e52-4091-a209-1dfe4047b2fc)##modernside
+	- ✅ 18:30-20:00 (meet at Piazza La Scala) [Discovering Milano - The Untold Stories](https://www.airbnb.de/experiences/3001633?guests=1&adults=1&s=67&unique_share_id=aed86ac6-b24e-4ce5-9d56-65e846a01cba)##milanduomo
+- **Thu, April 3**
+	- ✅ 09:30-13:00 (meet Piazza Caiazzo) [Große E-Bike-Tour durch Mailand mit einem Einheimischen](https://www.airbnb.de/experiences/1994145?guests=1&adults=2&s=67&unique_share_id=87a07247-c72e-4b7b-b05f-59b95d75be60)##biketoutou
+	- 7️⃣ 14:00-15:00 pick up race numbers (open today 14-20)
+		- Access is from Gate 2 EGINARDO and Gate 1 PARK. The nearest subway stop is Portello, on the M5 Lilla line.##getnumbers
+	- 🍕 dinner in Navigli##dinnernav
+- **Fri, April 4**
+	- ✅ 10:30-12:30 (meet Statione Milano-Cadorna) [Die Geheimnisse von Mailand: Ein sehr Mailändischer Rundgang](https://www.airbnb.de/experiences/180436?checkin=2025-04-04&location=Mailand%2C%20Lombardei%2C%20Italien&currentTab=experience_tab&federatedSearchId=a419aafe-751e-4a5f-9cea-5594bcba3d1d&searchId=b1ce577d-e7f1-40e6-b871-a40b55f68b2f&sectionId=8078381f-3952-4436-a3e4-35eb3a5f17bb)##walktourour
+	- 🖼️ Pinacoteca di Brera##findHayezKiss
+	- 📚 bookstore
+		- Hoepli International Bookstore##hoepli
+		- Feltrinelli Bookstore##feltrinelliBookstore
+	- 🥗 Dinner at Roof Milano##roofmilanon
+	- 🏊‍♀️ 20:00-21:00 swimming at [Piscina Cambini Fossati](https://www.milanosport.it/impianto/20/cambini-fossati/5a25a5d3-0e74-ee11-8179-6045bd8ba4bb/)
+		- open [Wed, Thu, Fri 19-22](https://www.milanosport.it/workspace/uploads/2024_orari-piscine-coperte-dal-27-settembre-2024-all-8-giugno-2025-agg-15-03-25-v2.pdf), 10 minutes from apartment##thepooolo
+- **Sat, April 5**
+	- ✅ 10:00-12:00 (meet near 3K point) [Porta Venezia - Staddstiltteilfuehrung - Jugen](https://www.airbnb.de/experiences/404426?guests=1&adults=1&s=67&unique_share_id=efebdac5-e22e-424e-a836-177082fe83be)##stairsss
+	- 🏊‍♀ ?Piscina Guido Romano##guidoromano
+	- ✅ 14:30-16:30 (meet Piazza Duca d'Aosta) [Spaziergang: Entdecke das neue Mailand](https://www.airbnb.de/experiences/3956557?guests=1&adults=2&s=67&unique_share_id=583fbce1-8fe4-4b7e-b4c5-1a34434e7f13)##greenhousjhs
+	- 🍝 Carb loading at Latteria San Marco##pastload
+	- get psyched
+		- race route is one of the fastest##thefastone
+		- stay with the pacers##staywithpac
+	- prepare for tomorrow
+		- get everything ready for a quick shower and change of clothes after the race
+- **Sun, April 6**
+	- 🔢 [MARATHON  INFO PDF](https://www.milanomarathon.it/wp-content/uploads/2025/03/Official-Handbook-Wizz-Air-Milano-Marathon-2025.pdf)
+	- 👜 07:00 drop off bags
+		- (bag drop open 6:00-8:00)
+		- the bag drop-off point is a 15 minute walk from the start line in Piazza del Duomo##badgropdorop
+	- 🟩 07:30 be at start area
+		- (start area open 7:00-8:20)##starareasreas
+	- 🏃‍♀️ 08:30 marathon start##thestartmil
+		- 3.3 kilometers of cobble-stones mainly concentrated in the first third of the race
+		- refreshment stations every 5K##refershshs
+	- 💪 13:30-15:00 marathon finish##thefinishis
+		- you only get your shirt if you finish##onlyfshirt
+		- finishing area##finisharea
+	- 🔥 15:00 go back with metro to Airbnb, shower, change, get Hannah's stuff
+	- 🔥 16:00 go to Milano Centrale
+	- 🔥 16:30 meet Giacomo on train platform at Milano Centrale
+	- 🚅 16:55 Milano Centrale travel to airport with Giacomo##tothemalp
+	- ✈️ 17:52 arrive at airport (TERMINAL 2 - EasyJet)
+	- 👋🏼 19:40-21:25 Hannah flies back from Milano Malpensa
+	- 🔢 [marathon results](https://www.endu.net/it/events/wizz-air-milano-marathon/results)
+- **Mon, April 7**
+	- 🚅 8:40-9:25 train to Bergamo##toberg
+	- Bergamo##bergamo
+	- ✅ 11:00-14:00 [Experience Bergamo with Agnish](https://www.airbnb.de/experiences/4030809?checkin=2025-04-07&location=Bergamo%2C%20Lombardei%2C%20Italien&currentTab=experience_tab&federatedSearchId=46d9bc57-6376-4e20-b4fa-8129caca3283&searchId=d10fdec5-814e-4ab8-afce-900fd1edba44&sectionId=f0cbbf8d-02ff-4035-8188-5904f6b2d2e7)
+- **Tue, April 8**
+	- ️✈️ 8:00-9:40 fly from Linate to BER
+- links
+	- marathon site: https://www.milanomarathon.it/
+	- Hannah's video: https://www.youtube.com/shorts/8_ujBY0rFKw
+	- 10 Sehenswürdigkeiten von Mailand: https://www.youtube.com/watch?v=LlBRe29gB8c
+	- Marathon race, flyover aerial view: https://www.youtube.com/watch?v=bgcM7RSl8rk
+	- Come correre la Milano Marathon: l’analisi del nuovo percorso 2024 e tutte le novità della gara: https://www.youtube.com/watch?v=S4WPvOiQydg
+- neighborhoods
+	- [Porta Romana](https://en.wikipedia.org/wiki/Porta_Romana_(Milan))
+		- in first place in the ranking of the neighborhoods that offer the best liveability in Milan
+	- Brera Viertel, between Duomo and Parco Sempione
+	- Navigli Viertel, nice place to eat at night
+- Italian geography
+	- main regions and cities##italyMainCities
+	- bodies of water in Italy##bodiesWater
+- Milano
+	- population: 1.4 million
+	- history:
+		- 600 BCE established by Celtics
+		- 222 BCE conquered by Romans
+		- 286 CE Emperor Diocletian made it capital of Western Roman Empire for a time
+- images
+	- the marathon#gif#milanomarathon
+	- Milan Metro##newmilmap
+	- OLD Milan Metro##milanmetro
+	- extended Metro map##metrolargemap
+	- marathon map##milanmaramap
+]]
+extras::
+
+==topic
+dpodId::2EHGDd
+dpodWhenCreated::2024-11-30 01:39:42
+category::Hamburg
+title::Trip December 2024
+body::[[
+- areas
+	- Altstadt##altstadthamb
+	- Neustadt##neustadthamb
+	- St. Pauli & Schanzenviertel##stpaulietc
+	- Altona##altonahamb
+	- Ottensen##ottensen
+	- Grindelviertel##grindelviertel
+	- Eppendorf
+		- Szeneviertel##eppendorfhamb
+	- Eimsbüttel as Stadteil
+		- Szeneviertel##eims2
+	- Stadtpark & Alster##stadtparkhamb
+	- Hafencity##hafencitycity
+	- Langenhorn##langenhornhamb
+	- Ohlstedt##ohlstedthamb
+	- Blankenese##blankenesehamb
+	- Bergedorf##bergedorfhamb
+	- Wilhelmsburg##wilhelmsburghamb
+	- Barmbek: residencial for workers, worker museum##barmbekind
+- seven districts
+	- Hamburg-Mitte##hamburgmitte
+	- Altona##altonahamb
+	- Eimsbüttel##eimsbuettelhamb
+	- Hamburg-Nord##hamburgnord
+	- Wandsbek##wandsbekhamb
+	- Bergedorf##bergedorfhamb
+	- Harburg##harsburghamb
+	- ALL 7 DISTRICTS##the7areas
+- other areas
+	- Speicherstadt##speicherstadtnnn
+- U-Bahn Hamburg##ubahnhamburg
+- S-Bahn Hamburg##hamburgsbahnmap
+- where people want to / don't want to live##wherelivehamburg
+- Google Earth [kmz map](http://etnotes.vercel.app/maps/hamburg2024.kmz)
+- Google Earth [h001](http://etnotes.vercel.app/maps/h001.kmz)
+- Run
+	- Eppensdorf
+	- Niko
+	- Grindelviertel
+]]
+extras::
+
+==topic
+dpodId::UGuuAh
+dpodWhenCreated::2024-07-22 07:51:03
+category::Copenhagen
+title::Danish
+body::[[
+- [social flashcards](https://soflash.vercel.app/learn)
+- [tanguay.info/danish](https://tanguay.info/danish/)
+- [book2 phrases](https://www.goethe-verlag.com/book2/FR/FRDA/FRDA003.HTM)
+]]
+extras::
+
+==topic
+dpodId::uVKodw
+dpodWhenCreated::2024-07-22 07:51:03
+category::Copenhagen
+title::Copenhagen City
+body::[[
+- areas of the city##theardencopencity
+	- **Østerbro**
+		- charming district
+		- leafy streets
+		- elegant townhouses
+		- relaxed atmosphere
+		- picturesque parks, such as Fælledparken
+		- green spaces for recreation and leisure
+		- diverse culinary scene
+		- trendy cafes, cozy eateries, and gourmet restaurants
+		- wealthy district
+	- **Nørrebro**
+		- vibrant and diverse neighborhood
+		- multicultural atmosphere
+		- lively street life
+		- eclectic mix of residents
+		- students, artists, families, professionals
+		- trendy bars, hip cafes, and eclectic shops
+		- hub of creativity and innovation
+	- **city centre**
+		- historic heart of capital
+		- charming cobblestone streets
+		- colorful facades
+		- iconic landmarks
+			- Round Tower
+			- Christiansborg Palace
+		- architectural marvels spanning centuries
+		- medieval churches
+		- Renaissance palaces
+		- bustling with activity
+		- shopping paradise
+	- **Christianshavn**
+		- picturesque neighborhood
+		- charming canals
+		- historic buildings
+		- vibrant cultural scene
+		- originally founded as a fortified city by Christian IV in the early 17th century
+		- trendy and eclectic area
+		- artists, intellectuals, young professionals
+		- cozy cafes, trendy restaurants, and scenic waterfront views
+	- **Island Brygge**
+		- waterfront district
+		- stunning views of the harbor
+		- recreational spaces along the waterfront
+		- former industrial area
+		- modern and lively neighborhood
+		- trendy cafes, restaurants, and cultural venues
+		- waterfront promenade, green parks, outdoor swimming facilities
+		- relaxation and leisure
+	- **Vesterbro**
+		- vibrant street life, trendy bars, eclectic mix of cultures
+		- gritty industrial area
+		- arts and entertainment scene
+		- historic landmarks and bustling squares
+	- **Fredericksberg**
+		- leafy streets, green parks, elegant architecture
+		- Frederiksberg Gardens
+		- cozy cafes, gourmet restaurants, cultural attractions
+		- blends residential charm with urban sophistication
+]]
+extras::
+
+==topic
+dpodId::DBgysZ
+dpodWhenCreated::2024-07-22 07:51:03
+category::Copenhagen
+title::Kierkegaard
+body::[[
+- links
+	- [wiki](https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)
+- basic infos
+	- 1813-1855
+	- the first existentialist philosopher
+	- fondness for metaphor, irony, and parables
+	- how one lives as a single individual
+	- giving priority to concrete human reality over abstract thinking
+	- importance of personal choice and commitment
+	- much of his work deals with Christian love
+	- explored the emotions and feelings of individuals when faced with life choices
+	- where Sartre focused on atheistic existentialism paradigm
+		- Kierkegaard focused on Christian existentialism
+	- by the turn of the 20th century his writings were translated into French, German, and other major European languages
+- life
+	- born to an affluent family in Copenhagen
+	- mother was maid
+	- father well-to-do wool merchant from Jutland
+	- figure of Socrates, whom Kierkegaard encountered in Plato's dialogues, would prove to be a phenomenal influence on the philosopher's later interest in irony
+	- came to hope that no one would retain their sins once they had been forgiven
+	- 1821 to 1830, Kierkegaard attended the School of Civic Virtue
+	- went on to study theology at the University of Copenhagen
+	- what I really need to do is to get clear about "what am I to do", not what I must know
+		- wanted to "lead a completely human life and not merely one of knowledge"
+- journals
+	- Kierkegaard wrote over 7,000 pages in his journals on events, musings, thoughts about his works and everyday remarks
+- Regine Olsen and graduation (1837–1841)
+	- broken engagement to Regine Olsen (1822–1904)
+	- met 1837 and were instantly attracted to each other
+	- 1840, Kierkegaard formally proposed to Olsen
+	- 1841 broke off engagement
+	- had belief that his "melancholy" made him unsuitable for marriage
+	- 1841, Kierkegaard wrote and defended his master's thesis, On the Concept of Irony with Continual Reference to Socrates
+- writings
+	- Kierkegaard's central writing on religion was Fear and Trembling, and Either/Or is considered to be his magnum opus
+- Either/Or
+	- 1843 published Either/Or
+	- second edition of Either/Or was published early in 1849
+	- first published work
+	- it was mostly written during Kierkegaard's stay in Berlin, where he took notes on Schelling's Philosophy of Revelation
+	- both A and B are trying to become religious individuals
+	- basically an argument about faith and marriage with a short discourse at the end telling them they should stop arguing
+	- outlines a theory of human existence, marked by the distinction between an essentially hedonistic, aesthetic mode of life and the ethical life, which is predicated upon commitment
+	- the book's central concern is Aristotle's primal question, "How should we live?"
+	- aesthetic
+		- personal, subjective realm of existence, where an individual lives and extracts pleasure from life for its own sake
+		- offers the possibility of the highest and lowest experiences
+	- ethical
+		- the civic realm of existence
+		- value and identity are judged and at times superseded by the objective world
+		- starts with a conscious effort to choose one's life
+		- it is possible to go too far in one direction and lose sight of the self
+			- only faith can rescue the individual from these two opposing realms
+		- his challenge is for the reader to "discover a second face hidden behind the one you see, internally, and then in others"
+	- history
+		- Kierkegaard left Copenhagen in October 1841 to spend the winter in Berlin
+		- During his stay, Kierkegaard worked on the manuscript for Either/Or, took daily lessons to perfect his German, and attended operas and plays, particularly by Mozart and Goethe. He returned to Copenhagen in March 1842 with a draft of the manuscript, which he completed late that year and published in February 1843
+	- Part I
+		- todo...
+- Christianity
+	- Kierkegaard believed God comes to each individual mysteriously
+]]
+extras::
+
+==topic
+dpodId::ZeKrqM
+dpodWhenCreated::2024-07-22 07:51:03
+category::Podcasts
+title::Discussion on AI between Tom Bilyeu and Salim Ismail - May 2024
+body::[[
+- what AI will change
+	- law making will be heavily guided by AI
+	- life expectancy will increase
+	- multiple technologies growing exponentially
+		- brain imaging
+		- drones
+		- etc.
+	- new discovery in physics
+		- near-free energy
+			- list solves/causes many problems in the Middle East
+			- most of the price of products comes from energy consumption
+- we need to jettison capitalism to get us to the next state
+- people
+	- Laurence Bloom, "You must have paid a lot of money in an alternate universe to be living at this time."
+- changes
+	- next 3 years
+		- things will get easier
+		- existential angst will increase in young people
+			- hard to predict what to learn to be useful in society
+		- pure human movement will start
+			- artists against AI stealing their work
+		- nothing insane, ChatGPT moments
+	- 5 years
+		- riots but small
+		- loss of meaning and purpose
+		- pure human movements grow
+		- more humans moving into trades, like plumbers
+		- masses begin to panic and vote people into power based on countering AI
+	- 7 years
+		- AI will be better at most things
+		- more experimentation with UIB, but it won't bring about more meaning
+	- 10 years
+		- bifurcation in humans
+			- some people will be somewhat cyborg
+		- healthcare will be unbelievable
+			- magic AI doctors
+			- sex bots
+			- a cratering of human relationships
+- response
+	- entirely possible
+	- kids won't be upset about this
+		- they grow up in the world they live in
+		- we will fix the social media problem more
+			- it's a regulation problem
+	- "Anything that is invented when you are born is normal. Anything invented when you are young is a career. Anything invented after you're 35 is bad."
+- is there a rate of change that children can not keep up
+	- yes, the singularity
+		- won't be on a biological path but a technological path
+	- he disagrees with this
+		- we don't know what intelligence is
+			- speed of though processing
+			- ability to match patterns
+		- we don't know what overtaking means
+			- just let AI do what it does better, and humans do something else
+			- having a smartphone makes me more human
+				- I can project empathy around the world
+		- many think "AI will take over the world, if we are lucky, we'll be pets, if unlucky, we'll be food"
+			- it won't get to this
+- the most valuable people in any company are people who learn the fastest
+- problem of the singularity
+	- by the time you finish making an investment in the future, it's out of date
+		- e.g. a Masters Degree
+- 2029
+	- AI is smarter than any human at anything
+		- Salim disagrees with this
+			- e.g. humans will be better at empathy, creativity, humor, common sense
+			- but AI will take over a lot of drudgery, scheduling ,etc.
+				- but this will allow people to do more creativity
+				- this has been a steady vector throughout human being
+		- the interesting question is
+			- what work will there be left for humans to do
+		- we will get AGI and everyone will get used to it
+			- AGI will "bleed into consciousness"
+			- but consciuosness is hard to define anyway
+		- traffic systems might someday think, "oh, I'm a traffic system"
+			- but we won't know when this occurs
+			- "language is a narrow pipe to talk about this"
+			- consciousness is a red herring
+				- kids will be the canary in the coalmine
+	- Tom: kids will be the canary in the coal mine
+		- Salim: kids are more resiliant than this
+	- goal should be
+		- continue meaningful pursuit of goals
+	- "Once AI crosses the uncanny valley, it won't matter if it is concscious or not, that's a red herring, we won't know and it won't matter. What will matter is that AI intelligences will be enjoyable to hang out with, to have relationships with, and it will be the same as relationships with people, but with one very important difference: AI will be better than you at absolutely everything. And this will dimish human pursuit of meaning, since AI will be able to do anything better than you can. So meaning will come from convincing people that they can only have meaning in the next life as long as they do certain things in this life. And bro, when this need for made-up religious extremism becomes the only way humans find meaning in their lives, that's when it's going to get weird, that's when the human mind breaks bad."
+	- "The ways to keep up with the pace of change in a world that is approaching the singularity, becomes limited to the decision to merge with the technology as closely as possible, through neural links, etc. But humans will bifurcate on this point: there will will be groups who decide to merge as completely as they can, and groups who decide to resist completely, and everything in between."
+	- "How is it that kids, who have adapted horribly to social media, basically allowing corporations to suck up their time, minds and lives, how will they adapt to a future AI that	knows everything better and does everything better than they can do."
+	- https://en.wikipedia.org/wiki/Nicole_Dreiske - screen smart
+	- Salim feels we will figure this out
+		- he's optimistic because as you bring more intelligence into the world, the world tends to get better
+		- the paperclip problem is real
+		- "There were to pivotal movements: when we gave AI access to code, and access to the Internet, since this means that it can not pretty much program anything it wants."
+		- "We need to merge with AI and technology so that when I reach for a donut, it says, please wait about 5 minutes since I am still metabolizing your coffee, and please don't eat the donut, eat something else."
+- what makes someone human
+	- soul
+		- expression, e.g. play guitar
+	- sub-conscious blocks
+		- don't feel you are good enough
+	- conscious blocks
+		- need to feed your kid first
+	- past that is: family and culture
+	- shining your soul does not mean that you are happy, particularly in other areas of your life
+	- humans have an evolutionary drive to express their soul
+		- they find a way to do it, e.g. Bach with music, Messi with soccer
+	- Salim
+		- raised with the message, "please don't follow any religion, but know what they're all about"
+		- there's no feedback loop to update a religion
+		- there are two kinds
+			- Judeo-Christian
+				- step outside yourself
+			- Eastern
+				- inner examination
+- intelligence is agnostic
+	- do we need to give intelligence ethics
+	- evolution is a process that runs and you get what you get
+	- religion is the ultimate form of marketing
+- humans vs. AI
+	- transhumanist
+		- using technology to extend the abilities of the human being
+	- but wearing glasses or having a vaccine is technically transhumanism
+	- we have always been merging with technology
+		- AI will not be different in kind6
+	- Salim
+		- has no problem with humans not being the smartest thing on the planet
+		- so it is not a problem that we have AGI
+	- the religions that we have don't deal with the questions of AI
+		- almost all our universities were religious and now they are job centers
+		- we need to build new distributed models
+		- we need to build a peace corps to move society to the age of abundance
+- we've been in a trough since the 1910
+	- Western world was at its peak
+	- we're stuck with old models of running the world
+	- 02:34:00
+]]
+extras::
+
+==topic
+dpodId::LN0S2w
+dpodWhenCreated::2024-07-22 07:51:03
+category::Copenhagen
+title::Copenhagen Marathon Trip 2024
+body::[[
+- **Fri 2024-05-03**
+	- 05:00 leave
+	- 06:00 Südkreuz
+		- buy cable
+	- 06:28 leave Berlin
+	- 13:34 arrive Copenhagen
+	- 15:00 apartment
+	- 12:00-19:00 Sparta Hall - pick up race number
+- **Sat 2024-05-04**
+	- (10:00-19:00 Sparta Hall - pick up race number)
+	- get hair cut
+	- musuems
+	- 12:00-14:00 Führung durch Christiania & Christianshavn mit lokalem Guide
+- **Sun 2024-05-05**
+	- 07:30 start area opens
+	- 09:30-15:00 *Marathon*
+- **Mon 2024-05-06**
+	- 14:00-16:30 Tour: Entdecke den Stadtteil Nørrebro
+- **Tue 2024-05-07**
+	- 07:00-08:00 Jogging mit Frederik
+	- 12:30-14:30 Tour: Besuche über 15 Kopenhagener Sehenswürdigkeiten mit Einheimischen (mit Annemarie)
+	- 16:00-18:30 Tour: Die Kierkegaard-Entdeckung
+- **Wed 2024-05-08**
+	- 13:26 leave Copenhagen
+	- 21:04 return Berlin
+]]
+extras::
+
+==topic
+dpodId::O8jrjS
+dpodWhenCreated::2025-02-11 22:54:44
+category::Politics
+title::Deutsche Politik
+body::[[
+- Parteien
+	- **CDU**
+		- Werte
+			- Wirtschaftswachstum
+			- innere Sicherheit
+			- eine starke europäische Integration
+		- Personen
+			- Friedrich Merz##fmerz
+				- Parteivorsitzender & Fraktionschef
+				- CDU-Vorsitzender seit 2022
+				- "Sozial ist, was Arbeit schafft"
+				- 2018 Rückkehr in die Politik
+			- Carsten Linnemann – Generalsekretär
+			- Hendrik Wüst - Ministerpräsident von NRW
+				- mögliche Zukunftshoffnung der CDU
+			- Kai Wegner – Regierender Bürgermeister von Berlin
+	- **SPD**
+		- Werte
+			- Soziale Gerechtigkeit
+			- Arbeitnehmerrechte
+			- eine start Sozialpolitik
+		- Personen
+			- Olaf Scholz
+			- Lars Klingbeil  – Parteivorsitzender
+			- Saskia Esken – Parteivorsitzende
+			- Kevin Kühnert – Generalsekretär
+			- Rolf Mützenich – Fraktionsvorsitzender im Bundestag
+	- **FDP**
+		- Werte
+			- individuelle Freiheit
+			- Marktwirtschaft
+			- Digitalisierung
+			- wenige staatliche Regulierung
+			- mehr Eigenverantwortung
+		- Personen
+			- Christian Lindner – Parteivorsitzender & Bundesfinanzminister##lindner
+			- Bijan Djir-Sarai – Generalsekretär
+			- Volker Wissing – Bundesverkehrsminister
+			- Johannes Vogel – Erster Parlamentarischer Geschäftsführer der FDP-Fraktion
+			- Marie-Agnes Strack-Zimmermann – Verteidigungspolitische Sprecherin
+	- **Die Grünen**
+		- Werte
+			- Umwelt- und Klimaschutz
+			- nachhaltige Entwicklung
+			- soziale Gerechtigkeit
+		- Personen
+			- Robert Habeck – Bundeswirtschaftsminister & Vizekanzler
+			- Annalena Baerbock – Bundesaußenministerin
+			- Ricarda Lang – Parteivorsitzende
+			- Omid Nouripour - Parteivorsitzender
+			- Katharina Dröge – Fraktionsvorsitzende im Bundestag
+	- **AfD**
+		- Werte
+			- kritisch gegenüber Einwanderung
+			- kritisch gegenüber der Europäische Union
+			- strebt danach, ihre Position durch Allianzen mit anderen europäischen Rechtsparteien zu stärken
+		- Personen
+			- Alice Weidel – Parteivorsitzende & Fraktionschefin
+				- lebt offen homosexuell mit ihrer Lebenspartnerin zusammen
+			- Björn Höcke – Parteichef in Thüringen & Spitzenfigur des rechten Flügels
+				- Gilt als einer der umstrittensten Politiker der Partei
+			- Tino Chrupalla – Parteivorsitzender
+			- Peter Boehringer – Bundesschatzmeister
+			- Stephan Brandner – Stellvertretender Bundesvorsitzender
+	- **Die Linke**
+		- Werte
+			- soziale Gerechtigkeit
+			- Umverteilung
+			- Friedenspolitik
+			- eine stärkere Regulierung der Wirtschaft
+		- Personen
+			- Janine Wissler – Parteivorsitzende
+			- Martin Schirdewan  – Parteivorsitzender
+			- Dietmar Bartsch – Fraktionsvorsitzender im Bundestag
+			- Gregor Gysi – Elder Statesman der Partei
+			- Sahra Wagenknecht (ehemals) – Ehemalige Spitzenpolitikerin
+				- Hat 2023 die Linke verlassen und ihre eigene Partei gegründet
+				- War lange eine der bekanntesten Figuren der Linken
+			- Heidi Reichinnek
+				- Vorsitzende der Linken im Bundestag
+				- für die kommende Wahl gemeinsam mit Jan van Aken Spitzenkandidatin
+			- Ferat Koçak
+				- Karla in Neukölln den Wahlkampf unterstützt
+				- begrenzt sein Gehalt beim Bundestag
+				- betont immer wieder ein Neuköllner zu sein und zu bleiben
+				- politischer Aktivist
+			- Ines Schwerdtner
+				- Bundesvorsitzende der Linken und für die kommende Bundestagswahl Direktkandidatin für Lichtenberg
+	- **Freie Wähler**
+		- Werte
+			- kommunale Selbstverwaltung
+			- pragmatische Politik ohne ideologische Bindung
+			- direkte Demokratie
+		- Personen
+			- Hubert Aiwanger - Vorsitzende der Freien Wähler
+	- **BSW**
+		- Bündnis Sahra Wagenknecht
+		- 2023 hat sie die Linke verlassen
+			- kritisierte die von der Linken vertretene pro-ukrainische Position und die damit verbundenen Sanktionen gegen Russland
+			- bei den Landtagswahlen in Thüringen im September 2024 bis zu 20 % der Stimmen gewinnen
+		- Werte
+			- soziale Gerechtigkeit
+			- Kritik an neoliberaler Wirtschaftspolitik
+		- Personen
+			- Sahra Wagenknecht##sahraw
+]]
+extras::
+
+==topic
+dpodId::a4oijp
+dpodWhenCreated::2025-02-16 22:31:16
+category::Trips
+title::Alpenüberquerung 2025
+body::[[
+- TESTING2025
+- Sep 1 - Sep 7
+- Karte
+	- KMZ Datei: https://tanguay.info/run/kmz/alps2025.kmz##alpsoverview
+- Überblick
+	- Tag 1 - in Garmisch-Partenkirchen ankommen
+		- Hotel##roomNotKnown
+	- Tag 2 - nach Mittenwald - 20 KM
+		- Hotel##roomNotKnown
+	- Tag 3 - nach Leutasch - 14 KM
+		- Hotel##roomNotKnown
+	- Tag 4 - nach Telfs/Nauders - 15 KM
+		- [Mein Almhof](https://www.meinalmhof.at/de/zimmer-suiten)##roomNauders
+	- Tag 5 - nach Reschen - 14 KM
+		- [Hotel Ortlerspitz](https://www.hotel-ortlerspitz.it/de/unsere-zimmer/21-0.html)##roomReschen
+	- Tag 6 - nach Naturns - 18 KM
+		- [Hotel Kleinkunst](https://www.kleinkunsthotel.com/de/wohnen-preise/kreative-zimmer/)##roomNaturns
+	- Tag 7 - nach Meran - 19 KM
+		- Hotel##roomNotKnown
+]]
+extras::

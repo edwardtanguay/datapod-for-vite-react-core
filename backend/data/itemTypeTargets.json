@@ -1,6 +1,6 @@
 [
 	{
-		"itemType": "runs",
-		"jsonFilePathAndFileName": "/home/edward/edward/projects/apps/edward-tanguay-eu/src/data/itemType-runs.json"
+		"itemType": "topics",
+		"jsonFilePathAndFileName": "/edward/projects/apps/etnotes/src/data/itemtype_topics.json"
 	}
 ]

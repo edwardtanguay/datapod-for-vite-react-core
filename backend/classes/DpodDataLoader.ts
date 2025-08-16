@@ -72,10 +72,13 @@ export class DpodDataLoader {
 		for (const itemTypeTarget of itemTypeTargets) {
 			const jsonContent = this.jsonData[itemTypeTarget.itemType]; 
 			if (jsonContent) {
+				console.log(`Copying JSON content for item type "${itemTypeTarget.itemType}" to "${itemTypeTarget.jsonFilePathAndFileName}"`);
 				qfil.writeToFile(
 					itemTypeTarget.jsonFilePathAndFileName,
 					jsonContent
 				);
+				console.log('wrote file');
+				
 			}
 		}
 	}
