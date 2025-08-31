@@ -5,6 +5,104 @@ Body;p
 Extras
 
 ==topic
+dpodId::a4oijp
+dpodWhenCreated::2025-02-16 22:31:16
+category::Trips
+title::Alpenüberquerung 2025
+body::[[
+- **01.09.-09.09. Garmisch-Meran**##ueberblickgarm
+- **======== Mo 01.09. ========**
+	- *per Zug nach Garmisch*
+	- [Hotel Staudacherhof](https://staudacherhof.de):##hotelstaudacherhof
+- **======== Di 02.09. ========**
+	- 24K Garmisch-Mittenwald:##hike001map
+	- Höhenunterschied:##hike001meters
+	- Info:##hike001info
+	- [Partnachklamm](https://de.wikipedia.org/wiki/Partnachklamm):##partnachklamm
+	- Wamberg:##wamberg
+	- Elmauer Alm:##elmaueralm
+	- [Schloss Elmau](https://de.wikipedia.org/wiki/Schloss_Elmau):##schlosselmau
+	- Ferchensee:##ferchensee
+	- [Lüftlmalerei](https://de.wikipedia.org/wiki/L%C3%BCftlmalerei) in Mittenwald:##luftmal
+	- [Hotel Post](https://www.posthotel-mittenwald.de):##hotelpost
+- **======== Mi 03.09. ========**
+	- 15K Mittenwald-Leutasch:##hike002map
+	- Höhenunterschied:##hike002meters
+	- alternative Route durch die Leutascher Geisterklamm:##alternatetosee
+	- Info:##hike002info
+	- [Leutascher Geisterklamm](https://de.wikipedia.org/wiki/Leutaschklamm):##geister
+	- Hochtal:##traumhafthoch
+	- Gebirgsketten:##gebirgst
+	- Bus: [Mittenwald-Leutasch](https://www.rome2rio.com/de/map/Mittenwald/Leutasch)
+	- [Biohotel Leutascherhof](https://www.leutascherhof.at):##biohotelLeutascherhof
+- **======== Do 04.09. ========**
+	- Leutasch-Nauders
+	- **8:00** Gepäck an der Hotelrezeption abgeben
+	- 14K Leutasch-Telfs:##hike003map
+	- Höhenunterschied:##hike003meters
+	- Info:##hike003info
+	- [Hohe Munde](https://de.wikipedia.org/wiki/Hohe_Munde):##hohemunde
+	- [Telfs](https://de.wikipedia.org/wiki/Telfs):##telfs
+	- **16:00** Eurohike Transfer Bus
+		- Bushaltestelle Anton-Auer-Straße:##telfsbushalte
+		- gegenüber von diesem Cafe:##telfcafe
+	- 82K Bus Telfs-Nauders:##bus001map
+	- [Nauders](https://de.wikipedia.org/wiki/Nauders):##nauders
+	- [Hotel Neue Burg](https://www.neue-burg.at):##hotelneueburg
+- **======== Fr 05.09. ========**
+	- 23K Nauders-Haidersee:##hike004map
+	- Höhenunterschied:##hike004meters
+	- Info:##hike004info
+	- Seilbahn zum Mutzkopf:##naudersLift
+	- Schwarzsee:##schwarzsee
+	- Grünsee:##greenlake
+	- Dreiländergrenzstein:##dreilaender
+	- [Reschensee](https://de.wikipedia.org/wiki/Reschensee):##reschensee
+	- der [versunkene Turm](https://www.geo.de/wissen/suedtirol-kirchturm-im-reschensee-die-menschlichen-schicksale-hinter-dem-30180358.html):##versunken
+	- Hotel [Villa Waldkönigen](https://www.waldkoenigin.com/de/waldkoenigin/impressionen):##hotelvilla
+- **======== Sa 06.09. ========**
+	- Haidersee-Naturns
+	- 17K Haidersee-Schluderns:##hike005map
+	- Höhenunterschied:##hike005meters
+	- Info:##hike005info
+	- Heidersee:##haidersee
+	- Bergsee:##bergsee
+	- [Burgeis](https://de.wikipedia.org/wiki/Burgeis):##burgeis
+	- [Naturns](https://de.wikipedia.org/wiki/Naturns):##naturns
+	- Texelgruppe:##texelgruppe
+	- Vielleicht: Glurns (Glorenza), vollständig erhaltene mittelalterliche Stadtmauer und historischen Stadtkern:##glurns
+	- Glurns ist 3K von Schluderns:##glurns3k
+	- Zugfahrplan [Schluderns-Naturns](https://www.sad.it/de/siitimetablesquery):##fahrplanschluderns
+		- offentsichtlich gibt es auf dieser Strecke einen Ersatzbus:##ersatzbus
+	- 39K Train Schluderns-Naturns:##train001map
+	- [Kleinkunst Hotel](https://www.kleinkunsthotel.com):##hotelkleinkunst
+- **======== So 07.09. ========**
+	- 20K Naturns-Meran:##hike006map
+	- Höhenunterschied:##hike006meters
+	- Info:##hike006info
+	- Wasserfall:##wasserfall
+	- [Sagenweg](https://www.bergfex.it/sommer/jenesien/highlights/23671-der-sagenweg-auf-dem-salten-oberhalb-von-jenesien):##sagenweg
+	- [Waalwege](https://de.wikivoyage.org/wiki/S%C3%BCdtiroler_Waale_und_Waalwege):##waalwege
+	- [Schänke](https://de.wikipedia.org/wiki/Sch%C3%A4nke):##schaenke
+	- [Tappeinerweg](https://de.wikipedia.org/wiki/Tappeinerweg):##tapper
+	- [Meraner Dom](https://de.wikipedia.org/wiki/St._Nikolaus_(Meran)):##merandom
+	- [Hotel Adria](https://www.hotel-adria.com):##hoteladria
+- **======== Mo 08.09. ========**
+	- Tag in Meran
+	- Hotel Adria
+- **======== Di 09.09. ========**
+	- Meran-Berlin
+- infos
+	- Feuer und Eis: [Unsere Reiseunterlagen](https://www.feuer-eis-touristik.de/unsere-reiseunterlagen)
+	- Feuer und Eis: [Fragen und Antworten](https://www.feuer-eis-touristik.de/info-und-services)
+	- Feuer und Eis: [Alpenüberquerung Light Garmisch — Meran mit CHARME](https://www.feuer-eis-touristik.de/tour/aue-garmisch-meran)
+	- Regenschutz: [6 Tipps für optimale Voraussetzungen & Regenschutz zu deiner Alpenüberquerung](https://www.diealpenueberquerung.de/wetter-tipps-und-tricks-alpenuberquerung)
+	- our trip info: [Guibo Travel App](https://trip.guibo.travel/J5lmGD)
+- Google Earth Map (KMZ file): [Alpenüberquerung 2025](/maps/alps004.kmz)
+]]
+extras::
+
+==topic
 dpodId::w4bORK
 dpodWhenCreated::2025-03-13 00:24:58
 category::Trips
@@ -584,33 +682,5 @@ body::[[
 			- Kritik an neoliberaler Wirtschaftspolitik
 		- Personen
 			- Sahra Wagenknecht##sahraw
-]]
-extras::
-
-==topic
-dpodId::a4oijp
-dpodWhenCreated::2025-02-16 22:31:16
-category::Trips
-title::Alpenüberquerung 2025
-body::[[
-- TESTING2025
-- Sep 1 - Sep 7
-- Karte
-	- KMZ Datei: https://tanguay.info/run/kmz/alps2025.kmz##alpsoverview
-- Überblick
-	- Tag 1 - in Garmisch-Partenkirchen ankommen
-		- Hotel##roomNotKnown
-	- Tag 2 - nach Mittenwald - 20 KM
-		- Hotel##roomNotKnown
-	- Tag 3 - nach Leutasch - 14 KM
-		- Hotel##roomNotKnown
-	- Tag 4 - nach Telfs/Nauders - 15 KM
-		- [Mein Almhof](https://www.meinalmhof.at/de/zimmer-suiten)##roomNauders
-	- Tag 5 - nach Reschen - 14 KM
-		- [Hotel Ortlerspitz](https://www.hotel-ortlerspitz.it/de/unsere-zimmer/21-0.html)##roomReschen
-	- Tag 6 - nach Naturns - 18 KM
-		- [Hotel Kleinkunst](https://www.kleinkunsthotel.com/de/wohnen-preise/kreative-zimmer/)##roomNaturns
-	- Tag 7 - nach Meran - 19 KM
-		- Hotel##roomNotKnown
 ]]
 extras::
